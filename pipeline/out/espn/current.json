@@ -1,0 +1,744 @@
+{
+ "season": 2027,
+ "label": "2026-27",
+ "team": {
+  "id": "41",
+  "name": "UConn Huskies",
+  "abbr": "CONN",
+  "color": "0c2340",
+  "altColor": "a2aaad",
+  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+  "standing": "2nd in Big East"
+ },
+ "record": {
+  "overall": "0-0",
+  "fromGames": "0-0"
+ },
+ "lastSeason": {
+  "season": 2026,
+  "record": "34-6"
+ },
+ "rank": null,
+ "polls": {
+  "ap": {
+   "name": "AP Top 25",
+   "headline": "2026 NCAA Basketball Rankings - AP Top 25 Week 3",
+   "date": "2026-04-07T07:00Z",
+   "season": 2026,
+   "uconn": {
+    "rank": 2,
+    "previous": 7,
+    "points": 1352.0,
+    "firstPlaceVotes": 0,
+    "trend": "+5",
+    "record": "34-6"
+   },
+   "top25": [
+    [
+     1,
+     "130",
+     "MICH",
+     "Michigan",
+     "37-3",
+     1425.0,
+     57
+    ],
+    [
+     2,
+     "41",
+     "CONN",
+     "UConn",
+     "34-6",
+     1352.0,
+     0
+    ],
+    [
+     3,
+     "12",
+     "ARIZ",
+     "Arizona",
+     "36-3",
+     1311.0,
+     0
+    ],
+    [
+     4,
+     "150",
+     "DUKE",
+     "Duke",
+     "35-3",
+     1237.0,
+     0
+    ],
+    [
+     5,
+     "356",
+     "ILL",
+     "Illinois",
+     "28-9",
+     1228.0,
+     0
+    ],
+    [
+     6,
+     "2509",
+     "PUR",
+     "Purdue",
+     "30-9",
+     1113.0,
+     0
+    ],
+    [
+     7,
+     "248",
+     "HOU",
+     "Houston",
+     "30-7",
+     1021.0,
+     0
+    ],
+    [
+     8,
+     "66",
+     "ISU",
+     "Iowa State",
+     "29-8",
+     924.0,
+     0
+    ],
+    [
+     9,
+     "57",
+     "FLA",
+     "Florida",
+     "27-8",
+     909.0,
+     0
+    ],
+    [
+     10,
+     "2599",
+     "SJU",
+     "St. John's",
+     "30-7",
+     891.0,
+     0
+    ],
+    [
+     11,
+     "127",
+     "MSU",
+     "Michigan State",
+     "27-8",
+     865.0,
+     0
+    ],
+    [
+     12,
+     "2633",
+     "TENN",
+     "Tennessee",
+     "25-12",
+     756.0,
+     0
+    ],
+    [
+     13,
+     "8",
+     "ARK",
+     "Arkansas",
+     "28-9",
+     716.0,
+     0
+    ],
+    [
+     14,
+     "158",
+     "NEB",
+     "Nebraska",
+     "28-7",
+     696.0,
+     0
+    ],
+    [
+     15,
+     "2294",
+     "IOWA",
+     "Iowa",
+     "24-13",
+     620.0,
+     0
+    ],
+    [
+     16,
+     "333",
+     "ALA",
+     "Alabama",
+     "25-10",
+     617.0,
+     0
+    ],
+    [
+     17,
+     "258",
+     "UVA",
+     "Virginia",
+     "30-6",
+     530.0,
+     0
+    ],
+    [
+     18,
+     "2250",
+     "GONZ",
+     "Gonzaga",
+     "31-4",
+     459.0,
+     0
+    ],
+    [
+     19,
+     "238",
+     "VAN",
+     "Vanderbilt",
+     "27-9",
+     445.0,
+     0
+    ],
+    [
+     20,
+     "2305",
+     "KU",
+     "Kansas",
+     "24-11",
+     330.0,
+     0
+    ],
+    [
+     21,
+     "2641",
+     "TTU",
+     "Texas Tech",
+     "23-11",
+     244.0,
+     0
+    ],
+    [
+     22,
+     "251",
+     "TEX",
+     "Texas",
+     "21-15",
+     216.0,
+     0
+    ],
+    [
+     23,
+     "97",
+     "LOU",
+     "Louisville",
+     "24-11",
+     150.0,
+     0
+    ],
+    [
+     24,
+     "2390",
+     "MIA",
+     "Miami",
+     "26-9",
+     89.0,
+     0
+    ],
+    [
+     25,
+     "275",
+     "WIS",
+     "Wisconsin",
+     "24-11",
+     70.0,
+     0
+    ]
+   ]
+  },
+  "usa": {
+   "name": "Coaches Poll",
+   "headline": "2026 NCAA Basketball Rankings - Coaches Poll Week 3",
+   "date": "2026-04-07T07:00Z",
+   "season": 2026,
+   "uconn": {
+    "rank": 2,
+    "previous": 7,
+    "points": 737.0,
+    "firstPlaceVotes": 0,
+    "trend": "+5",
+    "record": "34-6"
+   },
+   "top25": [
+    [
+     1,
+     "130",
+     "MICH",
+     "Michigan",
+     "37-3",
+     775.0,
+     31
+    ],
+    [
+     2,
+     "41",
+     "CONN",
+     "UConn",
+     "34-6",
+     737.0,
+     0
+    ],
+    [
+     3,
+     "12",
+     "ARIZ",
+     "Arizona",
+     "36-3",
+     713.0,
+     0
+    ],
+    [
+     4,
+     "150",
+     "DUKE",
+     "Duke",
+     "35-3",
+     668.0,
+     0
+    ],
+    [
+     5,
+     "356",
+     "ILL",
+     "Illinois",
+     "28-9",
+     654.0,
+     0
+    ],
+    [
+     6,
+     "248",
+     "HOU",
+     "Houston",
+     "30-7",
+     586.0,
+     0
+    ],
+    [
+     7,
+     "2509",
+     "PUR",
+     "Purdue",
+     "30-9",
+     562.0,
+     0
+    ],
+    [
+     8,
+     "66",
+     "ISU",
+     "Iowa State",
+     "29-8",
+     520.0,
+     0
+    ],
+    [
+     9,
+     "57",
+     "FLA",
+     "Florida",
+     "27-8",
+     497.0,
+     0
+    ],
+    [
+     10,
+     "2599",
+     "SJU",
+     "St. John's",
+     "30-7",
+     491.0,
+     0
+    ],
+    [
+     11,
+     "127",
+     "MSU",
+     "Michigan State",
+     "27-8",
+     465.0,
+     0
+    ],
+    [
+     12,
+     "2633",
+     "TENN",
+     "Tennessee",
+     "25-12",
+     390.0,
+     0
+    ],
+    [
+     13,
+     "8",
+     "ARK",
+     "Arkansas",
+     "28-9",
+     387.0,
+     0
+    ],
+    [
+     14,
+     "158",
+     "NEB",
+     "Nebraska",
+     "28-7",
+     369.0,
+     0
+    ],
+    [
+     15,
+     "258",
+     "UVA",
+     "Virginia",
+     "30-6",
+     294.0,
+     0
+    ],
+    [
+     16,
+     "333",
+     "ALA",
+     "Alabama",
+     "25-10",
+     292.0,
+     0
+    ],
+    [
+     17,
+     "238",
+     "VAN",
+     "Vanderbilt",
+     "27-9",
+     289.0,
+     0
+    ],
+    [
+     18,
+     "2250",
+     "GONZ",
+     "Gonzaga",
+     "31-4",
+     286.0,
+     0
+    ],
+    [
+     19,
+     "2294",
+     "IOWA",
+     "Iowa",
+     "24-13",
+     277.0,
+     0
+    ],
+    [
+     20,
+     "2305",
+     "KU",
+     "Kansas",
+     "24-11",
+     219.0,
+     0
+    ],
+    [
+     21,
+     "2641",
+     "TTU",
+     "Texas Tech",
+     "23-11",
+     168.0,
+     0
+    ],
+    [
+     22,
+     "2390",
+     "MIA",
+     "Miami",
+     "26-9",
+     94.0,
+     0
+    ],
+    [
+     23,
+     "97",
+     "LOU",
+     "Louisville",
+     "24-11",
+     70.0,
+     0
+    ],
+    [
+     24,
+     "251",
+     "TEX",
+     "Texas",
+     "21-15",
+     55.0,
+     0
+    ],
+    [
+     25,
+     "275",
+     "WIS",
+     "Wisconsin",
+     "24-11",
+     42.0,
+     0
+    ]
+   ]
+  }
+ },
+ "next": {
+  "id": "401911390",
+  "date": "2026-11-02T05:00Z",
+  "timeTBD": true,
+  "status": "scheduled",
+  "homeAway": "home",
+  "neutral": false,
+  "note": null,
+  "opponent": {
+   "id": "2241",
+   "name": "Gardner-Webb Runnin' Bulldogs",
+   "abbr": "GWEB",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2241.png",
+   "rank": null,
+   "color": "c12535"
+  },
+  "venue": null,
+  "tv": [],
+  "odds": null
+ },
+ "coach": [
+  {
+   "name": "Dan Hurley",
+   "experience": 8
+  }
+ ],
+ "roster": [
+  {
+   "id": "4683861",
+   "name": "Malachi Smith",
+   "jersey": "0",
+   "pos": "G",
+   "posName": "Guard",
+   "class": "Senior",
+   "height": "6' 1\"",
+   "weight": "180 lbs",
+   "hometown": "Bronx, NY",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4683861.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": [
+    2026
+   ]
+  },
+  {
+   "id": "4895737",
+   "name": "Solo Ball",
+   "jersey": "1",
+   "pos": "G",
+   "posName": "Guard",
+   "class": "Junior",
+   "height": "6' 4\"",
+   "weight": "200 lbs",
+   "hometown": "Leesburg, VA",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895737.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": [
+    2024,
+    2025,
+    2026
+   ]
+  },
+  {
+   "id": "5054083",
+   "name": "Silas Demary Jr.",
+   "jersey": "2",
+   "pos": "G",
+   "posName": "Guard",
+   "class": "Junior",
+   "height": "6' 4\"",
+   "weight": "195 lbs",
+   "hometown": "Raleigh, NC",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5054083.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": [
+    2026
+   ]
+  },
+  {
+   "id": "4685647",
+   "name": "Jaylin Stewart",
+   "jersey": "3",
+   "pos": "F",
+   "posName": "Forward",
+   "class": "Junior",
+   "height": "6' 7\"",
+   "weight": "225 lbs",
+   "hometown": "Seattle, WA",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4685647.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": [
+    2024,
+    2025,
+    2026
+   ]
+  },
+  {
+   "id": "4703011",
+   "name": "Dwayne Koroma",
+   "jersey": "4",
+   "pos": "F",
+   "posName": "Forward",
+   "class": "Senior",
+   "height": "6' 8\"",
+   "weight": "212 lbs",
+   "hometown": "Berlin, Germany",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4703011.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": [
+    2026
+   ]
+  },
+  {
+   "id": "5241657",
+   "name": "Alec Millender",
+   "jersey": "9",
+   "pos": "G",
+   "posName": "Guard",
+   "class": "Senior",
+   "height": "6' 1\"",
+   "weight": "190 lbs",
+   "hometown": "Glenwood, IL",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5241657.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": [
+    2026
+   ]
+  },
+  {
+   "id": "5312036",
+   "name": "Rrezon Elezaj",
+   "jersey": "10",
+   "pos": "C",
+   "posName": "Center",
+   "class": "Freshman",
+   "height": "7' 1\"",
+   "weight": "225 lbs",
+   "hometown": "Istanbul, Türkiye",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5312036.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": [
+    2026
+   ]
+  },
+  {
+   "id": "5152763",
+   "name": "Eric Reibe",
+   "jersey": "12",
+   "pos": "C",
+   "posName": "Center",
+   "class": "Freshman",
+   "height": "7' 1\"",
+   "weight": "260 lbs",
+   "hometown": "Hannover, Germany",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5152763.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": [
+    2026
+   ]
+  },
+  {
+   "id": "5142624",
+   "name": "Jacob Ross",
+   "jersey": "13",
+   "pos": "F",
+   "posName": "Forward",
+   "class": "Freshman",
+   "height": "6' 5\"",
+   "weight": "195 lbs",
+   "hometown": "Bristow, VA",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5142624.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": [
+    2026
+   ]
+  },
+  {
+   "id": "4895753",
+   "name": "Jayden Ross",
+   "jersey": "23",
+   "pos": "F",
+   "posName": "Forward",
+   "class": "Junior",
+   "height": "6' 7\"",
+   "weight": "205 lbs",
+   "hometown": "Bristow, VA",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895753.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": [
+    2024,
+    2025,
+    2026
+   ]
+  },
+  {
+   "id": "5196916",
+   "name": "Braylon Mullins",
+   "jersey": "24",
+   "pos": "G",
+   "posName": "Guard",
+   "class": "Freshman",
+   "height": "6' 6\"",
+   "weight": "196 lbs",
+   "hometown": "Greenfield, IN",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5196916.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": [
+    2026
+   ]
+  },
+  {
+   "id": "5307570",
+   "name": "Uroš Paunovic",
+   "jersey": "77",
+   "pos": "G",
+   "posName": "Guard",
+   "class": "Junior",
+   "height": "6' 3\"",
+   "weight": "190 lbs",
+   "hometown": "Belgrade, Serbia",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5307570.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": [
+    2026
+   ]
+  }
+ ]
+}

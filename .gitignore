@@ -1,0 +1,4 @@
+pipeline/cache.nosync/
+**/__pycache__/
+.DS_Store
+dev/shots/

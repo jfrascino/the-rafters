@@ -1,0 +1,4106 @@
+{
+ "370": {
+  "id": "370",
+  "name": "Albert Mouring",
+  "short": "A. Mouring",
+  "jerseys": [
+   "23"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 3\"",
+  "weight": "190 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "5237": {
+  "id": "5237",
+  "name": "Ben Gordon",
+  "short": "B. Gordon",
+  "jerseys": [
+   "4"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 3\"",
+  "weight": "205 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003,
+   2004
+  ],
+  "games": 72,
+  "firstGame": "223270041",
+  "lastGame": "244000063"
+ },
+ "5238": {
+  "id": "5238",
+  "name": "Chad Wise",
+  "short": "C. Wise",
+  "jerseys": [
+   "5"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 5\"",
+  "weight": "190 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003
+  ],
+  "games": 30,
+  "firstGame": "223270041",
+  "lastGame": "230740041"
+ },
+ "11223": {
+  "id": "11223",
+  "name": "Denham Brown",
+  "short": "D. Brown",
+  "jerseys": [
+   "33"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 5\"",
+  "weight": "220 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003,
+   2004,
+   2005,
+   2006
+  ],
+  "games": 135,
+  "firstGame": "223270041",
+  "lastGame": "264000030"
+ },
+ "377": {
+  "id": "377",
+  "name": "Edmund Saunders",
+  "short": "E. Saunders",
+  "jerseys": [
+   "51"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 8\"",
+  "weight": "230 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "5240": {
+  "id": "5240",
+  "name": "Emeka Okafor",
+  "short": "E. Okafor",
+  "jerseys": [
+   "50"
+  ],
+  "position": "F-C",
+  "headshot": null,
+  "height": "6' 10\"",
+  "weight": "255 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003,
+   2004
+  ],
+  "games": 72,
+  "firstGame": "223270041",
+  "lastGame": "244000063"
+ },
+ "11222": {
+  "id": "11222",
+  "name": "Hilton Armstrong",
+  "short": "H. Armstrong",
+  "jerseys": [
+   "11"
+  ],
+  "position": "F-C",
+  "headshot": null,
+  "height": "6' 11\"",
+  "weight": "235 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003,
+   2004,
+   2005,
+   2006
+  ],
+  "games": 136,
+  "firstGame": "223270041",
+  "lastGame": "264000030"
+ },
+ "368": {
+  "id": "368",
+  "name": "Justin Brown",
+  "short": "J. Brown",
+  "jerseys": [
+   "20"
+  ],
+  "position": "C",
+  "headshot": null,
+  "height": "7' 0\"",
+  "weight": "245 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003
+  ],
+  "games": 33,
+  "firstGame": "223270041",
+  "lastGame": "234000022"
+ },
+ "14453": {
+  "id": "14453",
+  "name": "Justin Evanovich",
+  "short": "J. Evanovich",
+  "jerseys": [
+   "40"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 3\"",
+  "weight": "185 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003,
+   2004
+  ],
+  "games": 63,
+  "firstGame": "223270041",
+  "lastGame": "240730221"
+ },
+ "11224": {
+  "id": "11224",
+  "name": "Marcus White",
+  "short": "M. White",
+  "jerseys": [
+   "23"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 8\"",
+  "weight": "214 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003,
+   2004,
+   2005
+  ],
+  "games": 72,
+  "firstGame": "223270041",
+  "lastGame": "243540041"
+ },
+ "5239": {
+  "id": "5239",
+  "name": "Mike Hayes",
+  "short": "M. Hayes",
+  "jerseys": [
+   "25"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 8\"",
+  "weight": "215 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003
+  ],
+  "games": 33,
+  "firstGame": "223270041",
+  "lastGame": "234000022"
+ },
+ "374": {
+  "id": "374",
+  "name": "Mike Woodward",
+  "short": "M. Woodward",
+  "jerseys": [
+   "35"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 5\"",
+  "weight": "215 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003
+  ],
+  "games": 30,
+  "firstGame": "223270041",
+  "lastGame": "230740041"
+ },
+ "11221": {
+  "id": "11221",
+  "name": "Rashad Anderson",
+  "short": "R. Anderson",
+  "jerseys": [
+   "31"
+  ],
+  "position": "G-F",
+  "headshot": null,
+  "height": "6' 5\"",
+  "weight": "215 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003,
+   2004,
+   2005,
+   2006
+  ],
+  "games": 130,
+  "firstGame": "223270041",
+  "lastGame": "264000030"
+ },
+ "14452": {
+  "id": "14452",
+  "name": "Ryan Swaller",
+  "short": "R. Swaller",
+  "jerseys": [
+   "2"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 5\"",
+  "weight": "216 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003,
+   2004
+  ],
+  "games": 69,
+  "firstGame": "223270041",
+  "lastGame": "244000063"
+ },
+ "369": {
+  "id": "369",
+  "name": "Scott Hazelton",
+  "short": "S. Hazelton",
+  "jerseys": [
+   "21"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 8\"",
+  "weight": "225 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003
+  ],
+  "games": 30,
+  "firstGame": "223270041",
+  "lastGame": "230740041"
+ },
+ "4420": {
+  "id": "4420",
+  "name": "Shamon Tooles",
+  "short": "S. Tooles",
+  "jerseys": [
+   "30"
+  ],
+  "position": "G-F",
+  "headshot": null,
+  "height": "6' 5\"",
+  "weight": "230 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003,
+   2004
+  ],
+  "games": 72,
+  "firstGame": "223270041",
+  "lastGame": "244000063"
+ },
+ "373": {
+  "id": "373",
+  "name": "Souleymane Wane",
+  "short": "S. Wane",
+  "jerseys": [
+   "34"
+  ],
+  "position": "C",
+  "headshot": null,
+  "height": "6' 11\"",
+  "weight": "240 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "367": {
+  "id": "367",
+  "name": "Taliek Brown",
+  "short": "T. Brown",
+  "jerseys": [
+   "12"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 1\"",
+  "weight": "195 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003,
+   2004
+  ],
+  "games": 72,
+  "firstGame": "223270041",
+  "lastGame": "244000063"
+ },
+ "372": {
+  "id": "372",
+  "name": "Tony Robertson",
+  "short": "T. Robertson",
+  "jerseys": [
+   "32"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 2\"",
+  "weight": "200 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2003
+  ],
+  "games": 33,
+  "firstGame": "223270041",
+  "lastGame": "234000022"
+ },
+ "15342": {
+  "id": "15342",
+  "name": "Charlie Villanueva",
+  "short": "C. Villanueva",
+  "jerseys": [
+   "3"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 11\"",
+  "weight": "238 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2004,
+   2005
+  ],
+  "games": 70,
+  "firstGame": "233210041",
+  "lastGame": "254000028"
+ },
+ "17878": {
+  "id": "17878",
+  "name": "Jason Baisch",
+  "short": "J. Baisch",
+  "jerseys": [
+   "24"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 6\"",
+  "weight": "250 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2004,
+   2005
+  ],
+  "games": 46,
+  "firstGame": "233210041",
+  "lastGame": "250700041"
+ },
+ "15340": {
+  "id": "15340",
+  "name": "Josh Boone",
+  "short": "J. Boone",
+  "jerseys": [
+   "21"
+  ],
+  "position": "F-C",
+  "headshot": null,
+  "height": "6' 10\"",
+  "weight": "245 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2004,
+   2005,
+   2006
+  ],
+  "games": 104,
+  "firstGame": "233210041",
+  "lastGame": "264000030"
+ },
+ "15343": {
+  "id": "15343",
+  "name": "Marcus Williams",
+  "short": "M. Williams",
+  "jerseys": [
+   "5"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 3\"",
+  "weight": "210 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2004,
+   2005,
+   2006
+  ],
+  "games": 88,
+  "firstGame": "233210041",
+  "lastGame": "264000030"
+ },
+ "22421": {
+  "id": "22421",
+  "name": "Antonio Kellogg",
+  "short": "A. Kellogg",
+  "jerseys": [
+   "5"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 4\"",
+  "weight": "195 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2005
+  ],
+  "games": 29,
+  "firstGame": "243250041",
+  "lastGame": "250700041"
+ },
+ "5270": {
+  "id": "5270",
+  "name": "Ed Nelson",
+  "short": "E. Nelson",
+  "jerseys": [
+   "32"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 8\"",
+  "weight": "260 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2005,
+   2006
+  ],
+  "games": 60,
+  "firstGame": "243250041",
+  "lastGame": "264000030"
+ },
+ "25239": {
+  "id": "25239",
+  "name": "Leeshan Reid",
+  "short": "L. Reid",
+  "jerseys": [
+   "45"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "5' 11\"",
+  "weight": "170 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2005
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "30796": {
+  "id": "30796",
+  "name": "Nick Forostocki",
+  "short": "N. Forostocki",
+  "jerseys": [],
+  "position": "NA",
+  "headshot": null,
+  "height": null,
+  "weight": null,
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2005
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "25240": {
+  "id": "25240",
+  "name": "Nick Forostoski",
+  "short": "N. Forostoski",
+  "jerseys": [
+   "55"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 4\"",
+  "weight": "210 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2005,
+   2006
+  ],
+  "games": 8,
+  "firstGame": "243440113",
+  "lastGame": "253570041"
+ },
+ "22420": {
+  "id": "22420",
+  "name": "Rudy Gay",
+  "short": "R. Gay",
+  "jerseys": [
+   "22"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 8\"",
+  "weight": "250 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2005,
+   2006
+  ],
+  "games": 64,
+  "firstGame": "243250041",
+  "lastGame": "264000030"
+ },
+ "15341": {
+  "id": "15341",
+  "name": "Ryan Thompson",
+  "short": "R. Thompson",
+  "jerseys": [
+   "13"
+  ],
+  "position": "G-F",
+  "headshot": null,
+  "height": "6' 6\"",
+  "weight": "215 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2005,
+   2006
+  ],
+  "games": 24,
+  "firstGame": "243250041",
+  "lastGame": "253640041"
+ },
+ "25237": {
+  "id": "25237",
+  "name": "Sami Ameziane",
+  "short": "S. Ameziane",
+  "jerseys": [
+   "10"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "5' 10\"",
+  "weight": "180 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2005
+  ],
+  "games": 12,
+  "firstGame": "243350041",
+  "lastGame": "254000028"
+ },
+ "30795": {
+  "id": "30795",
+  "name": "Ben Spencer",
+  "short": "B. Spencer",
+  "jerseys": [
+   "10"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 2\"",
+  "weight": "180 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2006,
+   2007
+  ],
+  "games": 8,
+  "firstGame": "253330041",
+  "lastGame": "263610041"
+ },
+ "26957": {
+  "id": "26957",
+  "name": "Craig Austrie",
+  "short": "C. Austrie",
+  "jerseys": [
+   "24"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 3\"",
+  "weight": "176 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2006,
+   2007,
+   2008,
+   2009
+  ],
+  "games": 131,
+  "firstGame": "253222492",
+  "lastGame": "294000031"
+ },
+ "26956": {
+  "id": "26956",
+  "name": "Jeff Adrien",
+  "short": "J. Adrien",
+  "jerseys": [
+   "4"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 7\"",
+  "weight": "245 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2006,
+   2007,
+   2008,
+   2009
+  ],
+  "games": 133,
+  "firstGame": "253222492",
+  "lastGame": "294000031"
+ },
+ "26958": {
+  "id": "26958",
+  "name": "Marcus Johnson",
+  "short": "M. Johnson",
+  "jerseys": [],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 6\"",
+  "weight": "210 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2006,
+   2007
+  ],
+  "games": 51,
+  "firstGame": "253222492",
+  "lastGame": "270660183"
+ },
+ "25238": {
+  "id": "25238",
+  "name": "Marty Gagne",
+  "short": "M. Gagne",
+  "jerseys": [
+   "35"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 0\"",
+  "weight": "185 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2006,
+   2007
+  ],
+  "games": 11,
+  "firstGame": "253330041",
+  "lastGame": "263610041"
+ },
+ "30797": {
+  "id": "30797",
+  "name": "Osazee Omokaro",
+  "short": "O. Omokaro",
+  "jerseys": [
+   "45"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 3\"",
+  "weight": "215 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2006
+  ],
+  "games": 5,
+  "firstGame": "253330041",
+  "lastGame": "253640041"
+ },
+ "29705": {
+  "id": "29705",
+  "name": "Rob Garrison",
+  "short": "R. Garrison",
+  "jerseys": [
+   "1"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 2\"",
+  "weight": "185 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2006,
+   2007
+  ],
+  "games": 29,
+  "firstGame": "253222492",
+  "lastGame": "270450041"
+ },
+ "22422": {
+  "id": "22422",
+  "name": "A.J. Price",
+  "short": "A.J. Price",
+  "jerseys": [
+   "12"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 2\"",
+  "weight": "195 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2007,
+   2008,
+   2009
+  ],
+  "games": 99,
+  "firstGame": "263140041",
+  "lastGame": "294000031"
+ },
+ "31552": {
+  "id": "31552",
+  "name": "Ben Eaves",
+  "short": "B. Eaves",
+  "jerseys": [
+   "2"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 7\"",
+  "weight": "225 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2007
+  ],
+  "games": 12,
+  "firstGame": "263140041",
+  "lastGame": "270360041"
+ },
+ "31555": {
+  "id": "31555",
+  "name": "Curtis Kelly",
+  "short": "C. Kelly",
+  "jerseys": [
+   "24"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 8\"",
+  "weight": "245 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2007,
+   2008
+  ],
+  "games": 51,
+  "firstGame": "263140041",
+  "lastGame": "280540222"
+ },
+ "31553": {
+  "id": "31553",
+  "name": "Doug Wiggins",
+  "short": "D. Wiggins",
+  "jerseys": [],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 1\"",
+  "weight": "160 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2007,
+   2008
+  ],
+  "games": 62,
+  "firstGame": "263140041",
+  "lastGame": "284000036"
+ },
+ "31558": {
+  "id": "31558",
+  "name": "Gavin Edwards",
+  "short": "G. Edwards",
+  "jerseys": [
+   "33"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 9\"",
+  "weight": "230 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2007,
+   2008,
+   2009,
+   2010
+  ],
+  "games": 123,
+  "firstGame": "263140041",
+  "lastGame": "300810259"
+ },
+ "31559": {
+  "id": "31559",
+  "name": "Hasheem Thabeet",
+  "short": "H. Thabeet",
+  "jerseys": [
+   "34"
+  ],
+  "position": "C",
+  "headshot": null,
+  "height": "7' 3\"",
+  "weight": "267 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2007,
+   2008,
+   2009
+  ],
+  "games": 100,
+  "firstGame": "263140041",
+  "lastGame": "294000031"
+ },
+ "31554": {
+  "id": "31554",
+  "name": "Jerome Dyson",
+  "short": "J. Dyson",
+  "jerseys": [
+   "11"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 4\"",
+  "weight": "190 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2007,
+   2008,
+   2009,
+   2010
+  ],
+  "games": 114,
+  "firstGame": "263140041",
+  "lastGame": "300810259"
+ },
+ "31557": {
+  "id": "31557",
+  "name": "Jonathan Mandeldove",
+  "short": "J. Mandeldove",
+  "jerseys": [
+   "32"
+  ],
+  "position": "C",
+  "headshot": null,
+  "height": "7' 0\"",
+  "weight": "240 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2007,
+   2008,
+   2009
+  ],
+  "games": 47,
+  "firstGame": "263370041",
+  "lastGame": "294000003"
+ },
+ "31556": {
+  "id": "31556",
+  "name": "Stanley Robinson",
+  "short": "S. Robinson",
+  "jerseys": [
+   "21"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 9\"",
+  "weight": "210 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2007,
+   2008,
+   2009,
+   2010
+  ],
+  "games": 126,
+  "firstGame": "263140041",
+  "lastGame": "300810259"
+ },
+ "40721": {
+  "id": "40721",
+  "name": "Alex Hornat",
+  "short": "A. Hornat",
+  "jerseys": [
+   "22"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 5\"",
+  "weight": "205 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2008,
+   2009,
+   2010
+  ],
+  "games": 7,
+  "firstGame": "273500041",
+  "lastGame": "300660058"
+ },
+ "36370": {
+  "id": "36370",
+  "name": "Donnell Beverly",
+  "short": "D. Beverly",
+  "jerseys": [
+   "2"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 4\"",
+  "weight": "190 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2008,
+   2009,
+   2010,
+   2011
+  ],
+  "games": 111,
+  "firstGame": "273120041",
+  "lastGame": "310940041"
+ },
+ "40724": {
+  "id": "40724",
+  "name": "Jim Veronick",
+  "short": "J. Veronick",
+  "jerseys": [
+   "40"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 8\"",
+  "weight": "200 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2008,
+   2009
+  ],
+  "games": 7,
+  "firstGame": "273500041",
+  "lastGame": "294000007"
+ },
+ "40722": {
+  "id": "40722",
+  "name": "John Lindner",
+  "short": "J. Lindner",
+  "jerseys": [
+   "44"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 5\"",
+  "weight": "265 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2008,
+   2009
+  ],
+  "games": 8,
+  "firstGame": "273500041",
+  "lastGame": "294000003"
+ },
+ "40726": {
+  "id": "40726",
+  "name": "Johnnie Bird",
+  "short": "J. Bird",
+  "jerseys": [
+   "10"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 0\"",
+  "weight": "165 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2008,
+   2009
+  ],
+  "games": 11,
+  "firstGame": "280690041",
+  "lastGame": "294000003"
+ },
+ "40720": {
+  "id": "40720",
+  "name": "Kyle Bailey",
+  "short": "K. Bailey",
+  "jerseys": [
+   "21"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 3\"",
+  "weight": "170 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2008,
+   2010,
+   2011,
+   2012
+  ],
+  "games": 20,
+  "firstGame": "273500041",
+  "lastGame": "320680183"
+ },
+ "22471": {
+  "id": "22471",
+  "name": "Charles Okwandu",
+  "short": "C. Okwandu",
+  "jerseys": [
+   "35"
+  ],
+  "position": "C",
+  "headshot": null,
+  "height": "7' 0\"",
+  "weight": "255 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2009,
+   2010,
+   2011
+  ],
+  "games": 82,
+  "firstGame": "283190041",
+  "lastGame": "310940041"
+ },
+ "41515": {
+  "id": "41515",
+  "name": "Kemba Walker",
+  "short": "K. Walker",
+  "jerseys": [
+   "15"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 0\"",
+  "weight": "184 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2009,
+   2010,
+   2011
+  ],
+  "games": 111,
+  "firstGame": "283190041",
+  "lastGame": "310940041"
+ },
+ "41514": {
+  "id": "41514",
+  "name": "Nate Miles",
+  "short": "N. Miles",
+  "jerseys": [
+   "23"
+  ],
+  "position": "G-F",
+  "headshot": null,
+  "height": "6' 7\"",
+  "weight": "190 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2009
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "41512": {
+  "id": "41512",
+  "name": "Scottie Haralson",
+  "short": "S. Haralson",
+  "jerseys": [
+   "34"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 4\"",
+  "weight": "230 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2009
+  ],
+  "games": 17,
+  "firstGame": "283190041",
+  "lastGame": "294000007"
+ },
+ "45946": {
+  "id": "45946",
+  "name": "Alex Oriakhi",
+  "short": "A. Oriakhi",
+  "jerseys": [
+   "42"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 9\"",
+  "weight": "255 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2010,
+   2011,
+   2012
+  ],
+  "games": 109,
+  "firstGame": "293170041",
+  "lastGame": "320750066"
+ },
+ "41513": {
+  "id": "41513",
+  "name": "Ater James Majok",
+  "short": "A. Majok",
+  "jerseys": [
+   "5"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 10\"",
+  "weight": "225 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2010
+  ],
+  "games": 26,
+  "firstGame": "293550041",
+  "lastGame": "300810259"
+ },
+ "45947": {
+  "id": "45947",
+  "name": "Darius Smith",
+  "short": "D. Smith",
+  "jerseys": [],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 2\"",
+  "weight": "183 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2010
+  ],
+  "games": 19,
+  "firstGame": "293170041",
+  "lastGame": "300810259"
+ },
+ "45948": {
+  "id": "45948",
+  "name": "Jamaal Trice",
+  "short": "J. Trice",
+  "jerseys": [
+   "13"
+  ],
+  "position": "G-F",
+  "headshot": null,
+  "height": "6' 6\"",
+  "weight": "220 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2010
+  ],
+  "games": 11,
+  "firstGame": "293170041",
+  "lastGame": "300282507"
+ },
+ "45945": {
+  "id": "45945",
+  "name": "Jamal Coombs-McDaniel",
+  "short": "J. Coombs-McDaniel",
+  "jerseys": [],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 7\"",
+  "weight": "210 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2010,
+   2011
+  ],
+  "games": 75,
+  "firstGame": "293170041",
+  "lastGame": "310940041"
+ },
+ "50819": {
+  "id": "50819",
+  "name": "Kenny Borton",
+  "short": "K. Borton",
+  "jerseys": [
+   "3"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 2\"",
+  "weight": "185 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2010
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "50820": {
+  "id": "50820",
+  "name": "Benjamin Stewart",
+  "short": "B. Stewart",
+  "jerseys": [
+   "23"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 5\"",
+  "weight": "205 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2011,
+   2012
+  ],
+  "games": 13,
+  "firstGame": "303370041",
+  "lastGame": "320680183"
+ },
+ "55798": {
+  "id": "55798",
+  "name": "Enosch Wolf",
+  "short": "E. Wolf",
+  "jerseys": [
+   "1"
+  ],
+  "position": "C",
+  "headshot": null,
+  "height": "7' 1\"",
+  "weight": "240 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2011,
+   2012,
+   2013
+  ],
+  "games": 43,
+  "firstGame": "303540041",
+  "lastGame": "330412550"
+ },
+ "51453": {
+  "id": "51453",
+  "name": "Jeremy Lamb",
+  "short": "J. Lamb",
+  "jerseys": [
+   "3"
+  ],
+  "position": "G-F",
+  "headshot": null,
+  "height": "6' 5\"",
+  "weight": "180 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2011,
+   2012
+  ],
+  "games": 75,
+  "firstGame": "303160041",
+  "lastGame": "320750066"
+ },
+ "51457": {
+  "id": "51457",
+  "name": "Michael Bradley",
+  "short": "M. Bradley",
+  "jerseys": [
+   "25"
+  ],
+  "position": "C",
+  "headshot": null,
+  "height": "6' 10\"",
+  "weight": "250 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2011,
+   2015
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "53045": {
+  "id": "53045",
+  "name": "Niels Giffey",
+  "short": "N. Giffey",
+  "jerseys": [
+   "5"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 7\"",
+  "weight": "202 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2011,
+   2012,
+   2013,
+   2014,
+   2015
+  ],
+  "games": 140,
+  "firstGame": "303160041",
+  "lastGame": "400551234"
+ },
+ "51456": {
+  "id": "51456",
+  "name": "Roscoe Smith",
+  "short": "R. Smith",
+  "jerseys": [
+   "1"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 8\"",
+  "weight": "215 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2011,
+   2012
+  ],
+  "games": 74,
+  "firstGame": "303160041",
+  "lastGame": "320750066"
+ },
+ "51455": {
+  "id": "51455",
+  "name": "Shabazz Napier",
+  "short": "S. Napier",
+  "jerseys": [
+   "13"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 0\"",
+  "weight": "175 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2011,
+   2012,
+   2013,
+   2014
+  ],
+  "games": 143,
+  "firstGame": "303160041",
+  "lastGame": "400551234"
+ },
+ "51454": {
+  "id": "51454",
+  "name": "Tyler Olander",
+  "short": "T. Olander",
+  "jerseys": [
+   "10"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 10\"",
+  "weight": "230 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2011,
+   2012,
+   2013,
+   2014,
+   2015
+  ],
+  "games": 135,
+  "firstGame": "303160041",
+  "lastGame": "400549976"
+ },
+ "57279": {
+  "id": "57279",
+  "name": "Andre Drummond",
+  "short": "A. Drummond",
+  "jerseys": [
+   "12"
+  ],
+  "position": "C",
+  "headshot": null,
+  "height": "6' 11\"",
+  "weight": "279 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2012
+  ],
+  "games": 34,
+  "firstGame": "313150041",
+  "lastGame": "320750066"
+ },
+ "60172": {
+  "id": "60172",
+  "name": "Brendan Allen",
+  "short": "B. Allen",
+  "jerseys": [
+   "4"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 3\"",
+  "weight": "187 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2012,
+   2013
+  ],
+  "games": 25,
+  "firstGame": "313150041",
+  "lastGame": "330680041"
+ },
+ "56635": {
+  "id": "56635",
+  "name": "DeAndre Daniels",
+  "short": "D. Daniels",
+  "jerseys": [
+   "2"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 9\"",
+  "weight": "195 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2012,
+   2013,
+   2014
+  ],
+  "games": 100,
+  "firstGame": "313150041",
+  "lastGame": "400551234"
+ },
+ "55986": {
+  "id": "55986",
+  "name": "Ethan Waite",
+  "short": "E. Waite",
+  "jerseys": [
+   "40"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "5' 10\"",
+  "weight": "165 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2012
+  ],
+  "games": 7,
+  "firstGame": "313280041",
+  "lastGame": "320680183"
+ },
+ "55985": {
+  "id": "55985",
+  "name": "P.J. Cochrane",
+  "short": "P.J. Cochrane",
+  "jerseys": [
+   "14"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 2\"",
+  "weight": "200 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2012
+  ],
+  "games": 8,
+  "firstGame": "313280041",
+  "lastGame": "320680183"
+ },
+ "56634": {
+  "id": "56634",
+  "name": "Ryan Boatright",
+  "short": "R. Boatright",
+  "jerseys": [
+   "11"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 0\"",
+  "weight": "175 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2012,
+   2013,
+   2014,
+   2015,
+   2016
+  ],
+  "games": 130,
+  "firstGame": "313280041",
+  "lastGame": "400785259"
+ },
+ "65851": {
+  "id": "65851",
+  "name": "Dave Vandal",
+  "short": "D. Vandal",
+  "jerseys": [
+   "23"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 2\"",
+  "weight": "200 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2013
+  ],
+  "games": 7,
+  "firstGame": "323140041",
+  "lastGame": "330540305"
+ },
+ "66111": {
+  "id": "66111",
+  "name": "Javon Williams",
+  "short": "J. Williams",
+  "jerseys": [],
+  "position": "NA",
+  "headshot": null,
+  "height": null,
+  "weight": null,
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2013
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "66113": {
+  "id": "66113",
+  "name": "Jevon Williams",
+  "short": "J. Williams",
+  "jerseys": [
+   "14"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 3\"",
+  "weight": "205 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2013
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "65955": {
+  "id": "65955",
+  "name": "Keifer Lammi",
+  "short": "K. Lammi",
+  "jerseys": [
+   "3"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 3\"",
+  "weight": "210 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2013
+  ],
+  "games": 7,
+  "firstGame": "323140041",
+  "lastGame": "330540305"
+ },
+ "61580": {
+  "id": "61580",
+  "name": "Leon Tolksdorf",
+  "short": "L. Tolksdorf",
+  "jerseys": [
+   "22",
+   "13"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 8\"",
+  "weight": "225 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2013,
+   2014,
+   2015
+  ],
+  "games": 28,
+  "firstGame": "323140041",
+  "lastGame": "400548879"
+ },
+ "61578": {
+  "id": "61578",
+  "name": "Omar Calhoun",
+  "short": "O. Calhoun",
+  "jerseys": [
+   "21"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 5\"",
+  "weight": "205 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2013,
+   2014,
+   2015,
+   2016,
+   2017
+  ],
+  "games": 125,
+  "firstGame": "323140041",
+  "lastGame": "400872131"
+ },
+ "65730": {
+  "id": "65730",
+  "name": "Pat Lenehan",
+  "short": "P. Lenehan",
+  "jerseys": [
+   "14",
+   "22"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 3\"",
+  "weight": "190 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2013,
+   2014,
+   2015,
+   2016
+  ],
+  "games": 21,
+  "firstGame": "323140041",
+  "lastGame": "400767029"
+ },
+ "61579": {
+  "id": "61579",
+  "name": "Phillip Nolan",
+  "short": "P. Nolan",
+  "jerseys": [
+   "0",
+   "1"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 10\"",
+  "weight": "237 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2013,
+   2014,
+   2015,
+   2016,
+   2017
+  ],
+  "games": 131,
+  "firstGame": "323140041",
+  "lastGame": "400872131"
+ },
+ "41307": {
+  "id": "41307",
+  "name": "R.J. Evans",
+  "short": "R.J. Evans",
+  "jerseys": [
+   "12"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 3\"",
+  "weight": "210 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2013
+  ],
+  "games": 27,
+  "firstGame": "323140041",
+  "lastGame": "330680041"
+ },
+ "65852": {
+  "id": "65852",
+  "name": "Tor Watts",
+  "short": "T. Watts",
+  "jerseys": [
+   "25"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 1\"",
+  "weight": "200 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2013,
+   2014,
+   2015
+  ],
+  "games": 17,
+  "firstGame": "323140041",
+  "lastGame": "400548879"
+ },
+ "65849": {
+  "id": "65849",
+  "name": "Trey James",
+  "short": "T. James",
+  "jerseys": [
+   "20"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "5' 9\"",
+  "weight": "168 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2013
+  ],
+  "games": 7,
+  "firstGame": "323140041",
+  "lastGame": "330540305"
+ },
+ "66679": {
+  "id": "66679",
+  "name": "Amida Brimah",
+  "short": "A. Brimah",
+  "jerseys": [
+   "35"
+  ],
+  "position": "C",
+  "headshot": null,
+  "height": "6' 10\"",
+  "weight": "230 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2014,
+   2015,
+   2016,
+   2017
+  ],
+  "games": 133,
+  "firstGame": "400496834",
+  "lastGame": "400946220"
+ },
+ "51269": {
+  "id": "51269",
+  "name": "Dan Guest",
+  "short": "D. Guest",
+  "jerseys": [
+   "24"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 2\"",
+  "weight": "212 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2014,
+   2015,
+   2016
+  ],
+  "games": 9,
+  "firstGame": "400586727",
+  "lastGame": "400785496"
+ },
+ "3147351": {
+  "id": "3147351",
+  "name": "Daniel Hamilton",
+  "short": "D. Hamilton",
+  "jerseys": [
+   "5"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 7\"",
+  "weight": "195 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2014,
+   2015,
+   2016
+  ],
+  "games": 71,
+  "firstGame": "400586485",
+  "lastGame": "400872131"
+ },
+ "66680": {
+  "id": "66680",
+  "name": "Kentan Facey",
+  "short": "K. Facey",
+  "jerseys": [
+   "12"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 10\"",
+  "weight": "227 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018
+  ],
+  "games": 122,
+  "firstGame": "400496843",
+  "lastGame": "400946220"
+ },
+ "46103": {
+  "id": "46103",
+  "name": "Lasan Kromah",
+  "short": "L. Kromah",
+  "jerseys": [
+   "20"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 6\"",
+  "weight": "201 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2014,
+   2015
+  ],
+  "games": 40,
+  "firstGame": "400496834",
+  "lastGame": "400551234"
+ },
+ "3091586": {
+  "id": "3091586",
+  "name": "Nnamdi Amilo",
+  "short": "N. Amilo",
+  "jerseys": [
+   "23"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 3\"",
+  "weight": "225 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2014,
+   2015,
+   2016,
+   2017
+  ],
+  "games": 14,
+  "firstGame": "400496998",
+  "lastGame": "400871118"
+ },
+ "3147352": {
+  "id": "3147352",
+  "name": "Rakim Lubin",
+  "short": "R. Lubin",
+  "jerseys": [
+   "14",
+   "35"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 8\"",
+  "weight": "257 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2014,
+   2015,
+   2016
+  ],
+  "games": 24,
+  "firstGame": "400586485",
+  "lastGame": "400785496"
+ },
+ "61157": {
+  "id": "61157",
+  "name": "Rodney Purvis",
+  "short": "R. Purvis",
+  "jerseys": [
+   "44",
+   "15"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 4\"",
+  "weight": "205 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018
+  ],
+  "games": 102,
+  "firstGame": "400586677",
+  "lastGame": "400946220"
+ },
+ "61797": {
+  "id": "61797",
+  "name": "Sam Cassell Jr.",
+  "short": "S. Cassell Jr.",
+  "jerseys": [
+   "10",
+   "1"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 4\"",
+  "weight": "190 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2014,
+   2015,
+   2016,
+   2017
+  ],
+  "games": 36,
+  "firstGame": "400586485",
+  "lastGame": "400871250"
+ },
+ "66681": {
+  "id": "66681",
+  "name": "Terrence Samuel",
+  "short": "T. Samuel",
+  "jerseys": [
+   "3",
+   "2"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 3\"",
+  "weight": "208 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2014,
+   2015,
+   2016
+  ],
+  "games": 65,
+  "firstGame": "400496834",
+  "lastGame": "400785496"
+ },
+ "3162135": {
+  "id": "3162135",
+  "name": "Christian Foxen",
+  "short": "C. Foxen",
+  "jerseys": [
+   "55",
+   "24"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 8\"",
+  "weight": "225 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2015,
+   2016,
+   2017,
+   2018
+  ],
+  "games": 21,
+  "firstGame": "400816801",
+  "lastGame": "400988062"
+ },
+ "3158735": {
+  "id": "3158735",
+  "name": "Marcel Lewis",
+  "short": "M. Lewis",
+  "jerseys": [
+   "25"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": null,
+  "weight": null,
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2015,
+   2016
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "3007773": {
+  "id": "3007773",
+  "name": "Terrance Ditimi",
+  "short": "T. Ditimi",
+  "jerseys": [
+   "33"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": null,
+  "weight": null,
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2015,
+   2016
+  ],
+  "games": 6,
+  "firstGame": "400586727",
+  "lastGame": "400767029"
+ },
+ "3962538": {
+  "id": "3962538",
+  "name": "- Null",
+  "short": "-. Null",
+  "jerseys": [],
+  "position": "C",
+  "headshot": null,
+  "height": null,
+  "weight": null,
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2016
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "3934622": {
+  "id": "3934622",
+  "name": "Jalen Adams",
+  "short": "J. Adams",
+  "jerseys": [
+   "2",
+   "4"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/3934622.png",
+  "height": "6' 2\"",
+  "weight": "195 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2016,
+   2017,
+   2018,
+   2019
+  ],
+  "games": 124,
+  "firstGame": "400816801",
+  "lastGame": "401120711"
+ },
+ "3951372": {
+  "id": "3951372",
+  "name": "Mike Noyes",
+  "short": "M. Noyes",
+  "jerseys": [
+   "31"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 0\"",
+  "weight": "190 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2016,
+   2017,
+   2018
+  ],
+  "games": 26,
+  "firstGame": "400816801",
+  "lastGame": "400988126"
+ },
+ "56330": {
+  "id": "56330",
+  "name": "Shonn Miller",
+  "short": "S. Miller",
+  "jerseys": [
+   "32"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 7\"",
+  "weight": "210 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2016,
+   2017
+  ],
+  "games": 36,
+  "firstGame": "400816801",
+  "lastGame": "400872131"
+ },
+ "57408": {
+  "id": "57408",
+  "name": "Sterling Gibbs",
+  "short": "S. Gibbs",
+  "jerseys": [
+   "4"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 2\"",
+  "weight": "185 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2016,
+   2017
+  ],
+  "games": 36,
+  "firstGame": "400816801",
+  "lastGame": "400872131"
+ },
+ "3934623": {
+  "id": "3934623",
+  "name": "Steven Enoch",
+  "short": "S. Enoch",
+  "jerseys": [
+   "13",
+   "23"
+  ],
+  "position": "C",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/3934623.png",
+  "height": "6' 10\"",
+  "weight": "260 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2016,
+   2017
+  ],
+  "games": 56,
+  "firstGame": "400816801",
+  "lastGame": "400946220"
+ },
+ "3138209": {
+  "id": "3138209",
+  "name": "Terry Larrier",
+  "short": "T. Larrier",
+  "jerseys": [
+   "22"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 8\"",
+  "weight": "195 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2016,
+   2017,
+   2018,
+   2019
+  ],
+  "games": 33,
+  "firstGame": "400916467",
+  "lastGame": "401019975"
+ },
+ "4066441": {
+  "id": "4066441",
+  "name": "Alterique Gilbert",
+  "short": "A. Gilbert",
+  "jerseys": [
+   "3"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4066441.png",
+  "height": "6' 0\"",
+  "weight": "180 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2017,
+   2018,
+   2019,
+   2020
+  ],
+  "games": 64,
+  "firstGame": "400916467",
+  "lastGame": "401169509"
+ },
+ "4066443": {
+  "id": "4066443",
+  "name": "Christian Vital",
+  "short": "C. Vital",
+  "jerseys": [
+   "1"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4066443.png",
+  "height": "6' 2\"",
+  "weight": "187 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2017,
+   2018,
+   2019,
+   2020,
+   2021
+  ],
+  "games": 127,
+  "firstGame": "400916467",
+  "lastGame": "401169509"
+ },
+ "4066440": {
+  "id": "4066440",
+  "name": "Juwan Durham",
+  "short": "J. Durham",
+  "jerseys": [
+   "23",
+   "11"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4066440.png",
+  "height": "6' 11\"",
+  "weight": "231 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2017,
+   2018
+  ],
+  "games": 28,
+  "firstGame": "400916467",
+  "lastGame": "400946220"
+ },
+ "4066439": {
+  "id": "4066439",
+  "name": "Mamadou Diarra",
+  "short": "M. Diarra",
+  "jerseys": [
+   "21"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4066439.png",
+  "height": "6' 8\"",
+  "weight": "225 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2017,
+   2018,
+   2019,
+   2020
+  ],
+  "games": 33,
+  "firstGame": "400987927",
+  "lastGame": "401084629"
+ },
+ "4133645": {
+  "id": "4133645",
+  "name": "Matt Wheeler",
+  "short": "M. Wheeler",
+  "jerseys": [],
+  "position": "C",
+  "headshot": null,
+  "height": null,
+  "weight": null,
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2017
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4073428": {
+  "id": "4073428",
+  "name": "Restinel Lomotey",
+  "short": "R. Lomotey",
+  "jerseys": [
+   "33"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 3\"",
+  "weight": "198 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2017,
+   2018
+  ],
+  "games": 7,
+  "firstGame": "400916544",
+  "lastGame": "400916619"
+ },
+ "4076548": {
+  "id": "4076548",
+  "name": "Temi Aiyegbusi",
+  "short": "T. Aiyegbusi",
+  "jerseys": [
+   "45"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4076548.png",
+  "height": "6' 4\"",
+  "weight": "200 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2017,
+   2018,
+   2019,
+   2020,
+   2021
+  ],
+  "games": 28,
+  "firstGame": "400916544",
+  "lastGame": "401169494"
+ },
+ "4066442": {
+  "id": "4066442",
+  "name": "Vance Jackson",
+  "short": "V. Jackson",
+  "jerseys": [
+   "5",
+   "13"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4066442.png",
+  "height": "6' 9\"",
+  "weight": "230 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2017
+  ],
+  "games": 32,
+  "firstGame": "400916467",
+  "lastGame": "400946220"
+ },
+ "66389": {
+  "id": "66389",
+  "name": "Antwoine Anderson",
+  "short": "A. Anderson",
+  "jerseys": [
+   "0"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 2\"",
+  "weight": "170 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2018
+  ],
+  "games": 32,
+  "firstGame": "400987927",
+  "lastGame": "401019975"
+ },
+ "66838": {
+  "id": "66838",
+  "name": "David Onuorah",
+  "short": "D. Onuorah",
+  "jerseys": [
+   "34"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 9\"",
+  "weight": "249 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2018
+  ],
+  "games": 30,
+  "firstGame": "400987941",
+  "lastGame": "401019975"
+ },
+ "3923248": {
+  "id": "3923248",
+  "name": "Eric Cobb",
+  "short": "E. Cobb",
+  "jerseys": [
+   "23",
+   "0"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/3923248.png",
+  "height": "6' 9\"",
+  "weight": "249 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2018,
+   2019
+  ],
+  "games": 47,
+  "firstGame": "400987927",
+  "lastGame": "401120711"
+ },
+ "4278231": {
+  "id": "4278231",
+  "name": "Isaiah Whaley",
+  "short": "I. Whaley",
+  "jerseys": [
+   "5"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4278231.png",
+  "height": "6' 9\"",
+  "weight": "225 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "games": 138,
+  "firstGame": "400987927",
+  "lastGame": "401408574"
+ },
+ "4278229": {
+  "id": "4278229",
+  "name": "Josh Carlton",
+  "short": "J. Carlton",
+  "jerseys": [
+   "25"
+  ],
+  "position": "C",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4278229.png",
+  "height": "6' 10\"",
+  "weight": "240 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "games": 115,
+  "firstGame": "400987927",
+  "lastGame": "401310916"
+ },
+ "4278232": {
+  "id": "4278232",
+  "name": "Kwintin Williams",
+  "short": "K. Williams",
+  "jerseys": [
+   "11",
+   "22"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4278232.png",
+  "height": "6' 7\"",
+  "weight": "221 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2018,
+   2019
+  ],
+  "games": 25,
+  "firstGame": "400987927",
+  "lastGame": "401084620"
+ },
+ "4278233": {
+  "id": "4278233",
+  "name": "Sidney Wilson",
+  "short": "S. Wilson",
+  "jerseys": [
+   "15",
+   "0"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4278233.png",
+  "height": "6' 7\"",
+  "weight": "180 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2018,
+   2019,
+   2020,
+   2021
+  ],
+  "games": 49,
+  "firstGame": "401084617",
+  "lastGame": "401169509"
+ },
+ "4278230": {
+  "id": "4278230",
+  "name": "Tyler Polley",
+  "short": "T. Polley",
+  "jerseys": [
+   "12"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4278230.png",
+  "height": "6' 9\"",
+  "weight": "200 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "games": 135,
+  "firstGame": "400987927",
+  "lastGame": "401408574"
+ },
+ "4396612": {
+  "id": "4396612",
+  "name": "Brendan Adams",
+  "short": "B. Adams",
+  "jerseys": [
+   "10"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4396612.png",
+  "height": "6' 4\"",
+  "weight": "205 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "games": 78,
+  "firstGame": "401084613",
+  "lastGame": "401308856"
+ },
+ "4403766": {
+  "id": "4403766",
+  "name": "Daniel Brocke",
+  "short": "D. Brocke",
+  "jerseys": [
+   "40"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 8\"",
+  "weight": "230 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2019,
+   2020
+  ],
+  "games": 7,
+  "firstGame": "401084653",
+  "lastGame": "401084629"
+ },
+ "3938920": {
+  "id": "3938920",
+  "name": "Kassoum Yakwe",
+  "short": "K. Yakwe",
+  "jerseys": [
+   "14"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/3938920.png",
+  "height": "6' 7\"",
+  "weight": "212 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2019
+  ],
+  "games": 13,
+  "firstGame": "401084613",
+  "lastGame": "401083359"
+ },
+ "4415543": {
+  "id": "4415543",
+  "name": "Matt Garry",
+  "short": "M. Garry",
+  "jerseys": [
+   "41"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4415543.png",
+  "height": "6' 5\"",
+  "weight": "190 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "games": 11,
+  "firstGame": "401169979",
+  "lastGame": "401372029"
+ },
+ "3136501": {
+  "id": "3136501",
+  "name": "Tarin Smith",
+  "short": "T. Smith",
+  "jerseys": [
+   "2"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/3136501.png",
+  "height": "6' 3\"",
+  "weight": "185 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2019
+  ],
+  "games": 33,
+  "firstGame": "401084613",
+  "lastGame": "401120711"
+ },
+ "4431706": {
+  "id": "4431706",
+  "name": "Akok Akok",
+  "short": "A. Akok",
+  "jerseys": [
+   "23",
+   "11",
+   "13"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4431706.png",
+  "height": "6' 10\"",
+  "weight": "225 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "games": 55,
+  "firstGame": "401169979",
+  "lastGame": "401408574"
+ },
+ "4431732": {
+  "id": "4431732",
+  "name": "Jalen Gaffney",
+  "short": "J. Gaffney",
+  "jerseys": [
+   "0",
+   "12"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4431732.png",
+  "height": "6' 3\"",
+  "weight": "185 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "games": 87,
+  "firstGame": "401169979",
+  "lastGame": "401408574"
+ },
+ "4431712": {
+  "id": "4431712",
+  "name": "James Bouknight",
+  "short": "J. Bouknight",
+  "jerseys": [
+   "2"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4431712.png",
+  "height": "6' 4\"",
+  "weight": "190 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2020,
+   2021,
+   2022
+  ],
+  "games": 43,
+  "firstGame": "401169980",
+  "lastGame": "401310916"
+ },
+ "4279789": {
+  "id": "4279789",
+  "name": "R.J. Cole",
+  "short": "R.J. Cole",
+  "jerseys": [
+   "4",
+   "1",
+   "2"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4279789.png",
+  "height": "6' 1\"",
+  "weight": "185 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2020,
+   2021,
+   2022
+  ],
+  "games": 56,
+  "firstGame": "401264635",
+  "lastGame": "401408574"
+ },
+ "4592905": {
+  "id": "4592905",
+  "name": "Richie Springs",
+  "short": "R. Springs",
+  "jerseys": [
+   "13",
+   "1"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4592905.png",
+  "height": "6' 9\"",
+  "weight": "235 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "games": 32,
+  "firstGame": "401264635",
+  "lastGame": "401522202"
+ },
+ "4702023": {
+  "id": "4702023",
+  "name": "Adama Sanogo",
+  "short": "A. Sanogo",
+  "jerseys": [
+   "21"
+  ],
+  "position": "C",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4702023.png",
+  "height": "6' 9\"",
+  "weight": "245 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2021,
+   2022,
+   2023
+  ],
+  "games": 91,
+  "firstGame": "401264635",
+  "lastGame": "401522202"
+ },
+ "4432190": {
+  "id": "4432190",
+  "name": "Andre Jackson Jr.",
+  "short": "A. Jackson Jr.",
+  "jerseys": [
+   "44"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4432190.png",
+  "height": "6' 6\"",
+  "weight": "209 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2021,
+   2022,
+   2023
+  ],
+  "games": 85,
+  "firstGame": "401264635",
+  "lastGame": "401522202"
+ },
+ "4702022": {
+  "id": "4702022",
+  "name": "Andrew Hurley",
+  "short": "A. Hurley",
+  "jerseys": [
+   "20"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4702022.png",
+  "height": "6' 1\"",
+  "weight": "170 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "games": 43,
+  "firstGame": "401264635",
+  "lastGame": "401638645"
+ },
+ "4398268": {
+  "id": "4398268",
+  "name": "Chudier Bile",
+  "short": "C. Bile",
+  "jerseys": [
+   "4"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4398268.png",
+  "height": "6' 7\"",
+  "weight": "195 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2021
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4596531": {
+  "id": "4596531",
+  "name": "Dante Harris",
+  "short": "D. Harris",
+  "jerseys": [
+   "10"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4596531.png",
+  "height": "6' 0\"",
+  "weight": "170 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2021
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4402802": {
+  "id": "4402802",
+  "name": "Donald Carey",
+  "short": "D. Carey",
+  "jerseys": [
+   "13"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4402802.png",
+  "height": "6' 5\"",
+  "weight": "187 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2021
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4278565": {
+  "id": "4278565",
+  "name": "Jahvon Blair",
+  "short": "J. Blair",
+  "jerseys": [
+   "0"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4278565.png",
+  "height": "6' 4\"",
+  "weight": "190 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2021
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4278566": {
+  "id": "4278566",
+  "name": "Jamorko Pickett",
+  "short": "J. Pickett",
+  "jerseys": [],
+  "position": "C",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4278566.png",
+  "height": "6' 9\"",
+  "weight": "206 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2021
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4702024": {
+  "id": "4702024",
+  "name": "Javonte Brown",
+  "short": "J. Brown",
+  "jerseys": [
+   "31"
+  ],
+  "position": "C",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4702024.png",
+  "height": "7' 0\"",
+  "weight": "255 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2021
+  ],
+  "games": 2,
+  "firstGame": "401264635",
+  "lastGame": "401269589"
+ },
+ "4432477": {
+  "id": "4432477",
+  "name": "Kobe Clark",
+  "short": "K. Clark",
+  "jerseys": [
+   "24"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4432477.png",
+  "height": "6' 6\"",
+  "weight": "180 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2021
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4701556": {
+  "id": "4701556",
+  "name": "Modestas Kancleris",
+  "short": "M. Kancleris",
+  "jerseys": [
+   "5"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4701556.png",
+  "height": "6' 9\"",
+  "weight": "205 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2021
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4431739": {
+  "id": "4431739",
+  "name": "Qudus Wahab",
+  "short": "Q. Wahab",
+  "jerseys": [
+   "22"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4431739.png",
+  "height": "6' 11\"",
+  "weight": "245 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2021
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4701555": {
+  "id": "4701555",
+  "name": "Rati Andronikashvili",
+  "short": "R. Andronikashvili",
+  "jerseys": [],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4701555.png",
+  "height": "6' 4\"",
+  "weight": "186 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2021
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4431991": {
+  "id": "4431991",
+  "name": "Timothy Ighoefe",
+  "short": "T. Ighoefe",
+  "jerseys": [
+   "35"
+  ],
+  "position": "C",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4431991.png",
+  "height": "7' 0\"",
+  "weight": "255 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2021
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4397179": {
+  "id": "4397179",
+  "name": "Tyrese Martin",
+  "short": "T. Martin",
+  "jerseys": [
+   "4"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4397179.png",
+  "height": "6' 6\"",
+  "weight": "215 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2021,
+   2022
+  ],
+  "games": 51,
+  "firstGame": "401264636",
+  "lastGame": "401408574"
+ },
+ "4917149": {
+  "id": "4917149",
+  "name": "Alex Karaban",
+  "short": "A. Karaban",
+  "jerseys": [
+   "10",
+   "11"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4917149.png",
+  "height": "6' 7\"",
+  "weight": "225 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "games": 151,
+  "firstGame": "401485098",
+  "lastGame": "401856600"
+ },
+ "4684718": {
+  "id": "4684718",
+  "name": "Corey Floyd Jr.",
+  "short": "C. Floyd Jr.",
+  "jerseys": [
+   "14"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4684718.png",
+  "height": "6' 4\"",
+  "weight": "208 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2022,
+   2023
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4683750": {
+  "id": "4683750",
+  "name": "Jordan Hawkins",
+  "short": "J. Hawkins",
+  "jerseys": [
+   "24"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4683750.png",
+  "height": "6' 5\"",
+  "weight": "190 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2022,
+   2023
+  ],
+  "games": 64,
+  "firstGame": "401372027",
+  "lastGame": "401522202"
+ },
+ "4683733": {
+  "id": "4683733",
+  "name": "Rahsool Diggins",
+  "short": "R. Diggins",
+  "jerseys": [
+   "1",
+   "7"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4683733.png",
+  "height": "6' 2\"",
+  "weight": "190 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2022,
+   2023
+  ],
+  "games": 9,
+  "firstGame": "401372026",
+  "lastGame": "401403347"
+ },
+ "4683752": {
+  "id": "4683752",
+  "name": "Samson Johnson",
+  "short": "S. Johnson",
+  "jerseys": [
+   "35"
+  ],
+  "position": "C",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4683752.png",
+  "height": "6' 10\"",
+  "weight": "225 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "games": 99,
+  "firstGame": "401372026",
+  "lastGame": "401746050"
+ },
+ "5105567": {
+  "id": "5105567",
+  "name": "Andre Johnson Jr.",
+  "short": "A. Johnson Jr.",
+  "jerseys": [
+   "40",
+   "1"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5105567.png",
+  "height": "6' 4\"",
+  "weight": "182 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2023,
+   2024,
+   2025
+  ],
+  "games": 22,
+  "firstGame": "401485098",
+  "lastGame": "401638639"
+ },
+ "5105566": {
+  "id": "5105566",
+  "name": "Apostolos Roumoglou",
+  "short": "A. Roumoglou",
+  "jerseys": [
+   "33"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5105566.png",
+  "height": "6' 8\"",
+  "weight": "215 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2023,
+   2024,
+   2025
+  ],
+  "games": 44,
+  "firstGame": "401485098",
+  "lastGame": "401638645"
+ },
+ "5113220": {
+  "id": "5113220",
+  "name": "Deandre Daniels",
+  "short": "D. Daniels",
+  "jerseys": [],
+  "position": "G",
+  "headshot": null,
+  "height": null,
+  "weight": null,
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2023
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "5105565": {
+  "id": "5105565",
+  "name": "Donovan Clingan",
+  "short": "D. Clingan",
+  "jerseys": [
+   "32"
+  ],
+  "position": "C",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5105565.png",
+  "height": "7' 2\"",
+  "weight": "280 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2023,
+   2024
+  ],
+  "games": 74,
+  "firstGame": "401485098",
+  "lastGame": "401638645"
+ },
+ "5105568": {
+  "id": "5105568",
+  "name": "Emmett Hendry",
+  "short": "E. Hendry",
+  "jerseys": [
+   "41"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5105568.png",
+  "height": "6' 3\"",
+  "weight": "155 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2023,
+   2024
+  ],
+  "games": 9,
+  "firstGame": "401485098",
+  "lastGame": "401522190"
+ },
+ "4433160": {
+  "id": "4433160",
+  "name": "Hassan Diarra",
+  "short": "H. Diarra",
+  "jerseys": [
+   "5",
+   "10"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4433160.png",
+  "height": "6' 2\"",
+  "weight": "195 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2023,
+   2024,
+   2025
+  ],
+  "games": 111,
+  "firstGame": "401485098",
+  "lastGame": "401746050"
+ },
+ "4280214": {
+  "id": "4280214",
+  "name": "Joey Calcaterra",
+  "short": "J. Calcaterra",
+  "jerseys": [
+   "3"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4280214.png",
+  "height": "6' 3\"",
+  "weight": "165 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2023,
+   2024
+  ],
+  "games": 38,
+  "firstGame": "401485098",
+  "lastGame": "401522202"
+ },
+ "4432934": {
+  "id": "4432934",
+  "name": "Nahiem Alleyne",
+  "short": "N. Alleyne",
+  "jerseys": [
+   "4"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4432934.png",
+  "height": "6' 4\"",
+  "weight": "200 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2023,
+   2024
+  ],
+  "games": 39,
+  "firstGame": "401485098",
+  "lastGame": "401522202"
+ },
+ "5113221": {
+  "id": "5113221",
+  "name": "Niels Griffey",
+  "short": "N. Griffey",
+  "jerseys": [],
+  "position": "G",
+  "headshot": null,
+  "height": null,
+  "weight": null,
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2023
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4592965": {
+  "id": "4592965",
+  "name": "Tristen Newton",
+  "short": "T. Newton",
+  "jerseys": [
+   "2"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4592965.png",
+  "height": "6' 5\"",
+  "weight": "202 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2023,
+   2024
+  ],
+  "games": 79,
+  "firstGame": "401485098",
+  "lastGame": "401638645"
+ },
+ "5105564": {
+  "id": "5105564",
+  "name": "Yarin Hasson",
+  "short": "Y. Hasson",
+  "jerseys": [
+   "30",
+   "35"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5105564.png",
+  "height": "6' 10\"",
+  "weight": "200 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2023,
+   2024
+  ],
+  "games": 11,
+  "firstGame": "401485098",
+  "lastGame": "401522190"
+ },
+ "4433083": {
+  "id": "4433083",
+  "name": "Cam Spencer",
+  "short": "C. Spencer",
+  "jerseys": [
+   "12"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4433083.png",
+  "height": "6' 3\"",
+  "weight": "205 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2024
+  ],
+  "games": 40,
+  "firstGame": "401584359",
+  "lastGame": "401638645"
+ },
+ "4895753": {
+  "id": "4895753",
+  "name": "Jayden Ross",
+  "short": "J. Ross",
+  "jerseys": [
+   "23"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895753.png",
+  "height": "6' 7\"",
+  "weight": "205 lbs",
+  "hometown": "Bristow, VA",
+  "classBySeason": {
+   "2027": "Junior"
+  },
+  "seasons": [
+   2024,
+   2025,
+   2026,
+   2027
+  ],
+  "games": 94,
+  "firstGame": "401584359",
+  "lastGame": "401856600"
+ },
+ "4685647": {
+  "id": "4685647",
+  "name": "Jaylin Stewart",
+  "short": "J. Stewart",
+  "jerseys": [
+   "3"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4685647.png",
+  "height": "6' 7\"",
+  "weight": "225 lbs",
+  "hometown": "Seattle, WA",
+  "classBySeason": {
+   "2027": "Junior"
+  },
+  "seasons": [
+   2024,
+   2025,
+   2026,
+   2027
+  ],
+  "games": 104,
+  "firstGame": "401584359",
+  "lastGame": "401856600"
+ },
+ "4895737": {
+  "id": "4895737",
+  "name": "Solo Ball",
+  "short": "S. Ball",
+  "jerseys": [
+   "1"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895737.png",
+  "height": "6' 4\"",
+  "weight": "200 lbs",
+  "hometown": "Leesburg, VA",
+  "classBySeason": {
+   "2027": "Junior"
+  },
+  "seasons": [
+   2024,
+   2025,
+   2026,
+   2027
+  ],
+  "games": 113,
+  "firstGame": "401584359",
+  "lastGame": "401856600"
+ },
+ "4845367": {
+  "id": "4845367",
+  "name": "Stephon Castle",
+  "short": "S. Castle",
+  "jerseys": [
+   "5"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4845367.png",
+  "height": "6' 6\"",
+  "weight": "215 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2024
+  ],
+  "games": 34,
+  "firstGame": "401584359",
+  "lastGame": "401638645"
+ },
+ "5102797": {
+  "id": "5102797",
+  "name": "Youssouf Singare",
+  "short": "Y. Singare",
+  "jerseys": [
+   "24"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5102797.png",
+  "height": "6' 10\"",
+  "weight": "230 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2024,
+   2025
+  ],
+  "games": 39,
+  "firstGame": "401584359",
+  "lastGame": "401743881"
+ },
+ "4869778": {
+  "id": "4869778",
+  "name": "Ahmad Nowell",
+  "short": "A. Nowell",
+  "jerseys": [
+   "0",
+   "4"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4869778.png",
+  "height": "6' 0\"",
+  "weight": "195 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2025
+  ],
+  "games": 18,
+  "firstGame": "401715607",
+  "lastGame": "401743881"
+ },
+ "4684628": {
+  "id": "4684628",
+  "name": "Aidan Mahaney",
+  "short": "A. Mahaney",
+  "jerseys": [
+   "20"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4684628.png",
+  "height": "6' 3\"",
+  "weight": "185 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2025
+  ],
+  "games": 34,
+  "firstGame": "401715607",
+  "lastGame": "401746050"
+ },
+ "5093403": {
+  "id": "5093403",
+  "name": "Isaiah Abraham",
+  "short": "I. Abraham",
+  "jerseys": [
+   "4",
+   "7"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5093403.png",
+  "height": "6' 7\"",
+  "weight": "205 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2025
+  ],
+  "games": 9,
+  "firstGame": "401715607",
+  "lastGame": "401743881"
+ },
+ "5239590": {
+  "id": "5239590",
+  "name": "Liam McNeeley",
+  "short": "L. McNeeley",
+  "jerseys": [
+   "30"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5239590.png",
+  "height": "6' 7\"",
+  "weight": "210 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2025
+  ],
+  "games": 27,
+  "firstGame": "401715607",
+  "lastGame": "401746050"
+ },
+ "5245384": {
+  "id": "5245384",
+  "name": "Souleymane Diaby",
+  "short": "S. Diaby",
+  "jerseys": [
+   "43"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 5\"",
+  "weight": "185 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2025
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "5105809": {
+  "id": "5105809",
+  "name": "Tarris Reed Jr.",
+  "short": "T. Reed Jr.",
+  "jerseys": [
+   "5"
+  ],
+  "position": "C",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5105809.png",
+  "height": "6' 10\"",
+  "weight": "270 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2025,
+   2026
+  ],
+  "games": 70,
+  "firstGame": "401715607",
+  "lastGame": "401856600"
+ },
+ "5241657": {
+  "id": "5241657",
+  "name": "Alec Millender",
+  "short": "A. Millender",
+  "jerseys": [
+   "9"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5241657.png",
+  "height": "6' 1\"",
+  "weight": "190 lbs",
+  "hometown": "Glenwood, IL",
+  "classBySeason": {
+   "2027": "Senior"
+  },
+  "seasons": [
+   2026,
+   2027
+  ],
+  "games": 18,
+  "firstGame": "401812785",
+  "lastGame": "401856559"
+ },
+ "5196916": {
+  "id": "5196916",
+  "name": "Braylon Mullins",
+  "short": "B. Mullins",
+  "jerseys": [
+   "24"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5196916.png",
+  "height": "6' 6\"",
+  "weight": "196 lbs",
+  "hometown": "Greenfield, IN",
+  "classBySeason": {
+   "2027": "Freshman"
+  },
+  "seasons": [
+   2026,
+   2027
+  ],
+  "games": 33,
+  "firstGame": "401811096",
+  "lastGame": "401856600"
+ },
+ "71518": {
+  "id": "71518",
+  "name": "Donyell Marshall",
+  "short": "D. Marshall",
+  "jerseys": [],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 9\"",
+  "weight": "245 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2026
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4703011": {
+  "id": "4703011",
+  "name": "Dwayne Koroma",
+  "short": "D. Koroma",
+  "jerseys": [
+   "4"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4703011.png",
+  "height": "6' 8\"",
+  "weight": "212 lbs",
+  "hometown": "Berlin, Germany",
+  "classBySeason": {
+   "2027": "Senior"
+  },
+  "seasons": [
+   2026,
+   2027
+  ],
+  "games": 17,
+  "firstGame": "401812785",
+  "lastGame": "401856559"
+ },
+ "5152763": {
+  "id": "5152763",
+  "name": "Eric Reibe",
+  "short": "E. Reibe",
+  "jerseys": [
+   "12"
+  ],
+  "position": "C",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5152763.png",
+  "height": "7' 1\"",
+  "weight": "260 lbs",
+  "hometown": "Hannover, Germany",
+  "classBySeason": {
+   "2027": "Freshman"
+  },
+  "seasons": [
+   2026,
+   2027
+  ],
+  "games": 40,
+  "firstGame": "401812785",
+  "lastGame": "401856600"
+ },
+ "5248294": {
+  "id": "5248294",
+  "name": "Jacob Furphy",
+  "short": "J. Furphy",
+  "jerseys": [
+   "7"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5248294.png",
+  "height": "6' 5\"",
+  "weight": "191 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2026
+  ],
+  "games": 14,
+  "firstGame": "401812790",
+  "lastGame": "401856559"
+ },
+ "5142624": {
+  "id": "5142624",
+  "name": "Jacob Ross",
+  "short": "J. Ross",
+  "jerseys": [
+   "13"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5142624.png",
+  "height": "6' 5\"",
+  "weight": "195 lbs",
+  "hometown": "Bristow, VA",
+  "classBySeason": {
+   "2027": "Freshman"
+  },
+  "seasons": [
+   2026,
+   2027
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4683861": {
+  "id": "4683861",
+  "name": "Malachi Smith",
+  "short": "M. Smith",
+  "jerseys": [
+   "0"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4683861.png",
+  "height": "6' 1\"",
+  "weight": "180 lbs",
+  "hometown": "Bronx, NY",
+  "classBySeason": {
+   "2027": "Senior"
+  },
+  "seasons": [
+   2026,
+   2027
+  ],
+  "games": 40,
+  "firstGame": "401812785",
+  "lastGame": "401856600"
+ },
+ "71653": {
+  "id": "71653",
+  "name": "Ray Allen",
+  "short": "R. Allen",
+  "jerseys": [],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 5\"",
+  "weight": "205 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2026
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "71645": {
+  "id": "71645",
+  "name": "Richard Hamilton",
+  "short": "R. Hamilton",
+  "jerseys": [],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 7\"",
+  "weight": "193 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2026
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "5312036": {
+  "id": "5312036",
+  "name": "Rrezon Elezaj",
+  "short": "R. Elezaj",
+  "jerseys": [
+   "10"
+  ],
+  "position": "C",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5312036.png",
+  "height": "7' 1\"",
+  "weight": "225 lbs",
+  "hometown": "Istanbul, Türkiye",
+  "classBySeason": {
+   "2027": "Freshman"
+  },
+  "seasons": [
+   2026,
+   2027
+  ],
+  "games": 4,
+  "firstGame": "401812786",
+  "lastGame": "401822875"
+ },
+ "5190720": {
+  "id": "5190720",
+  "name": "Russ Steinberg",
+  "short": "R. Steinberg",
+  "jerseys": [
+   "69"
+  ],
+  "position": "C",
+  "headshot": null,
+  "height": "5' 2\"",
+  "weight": "175 lbs",
+  "hometown": null,
+  "classBySeason": {},
+  "seasons": [
+   2026
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "5054083": {
+  "id": "5054083",
+  "name": "Silas Demary Jr.",
+  "short": "S. Demary Jr.",
+  "jerseys": [
+   "2"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5054083.png",
+  "height": "6' 4\"",
+  "weight": "195 lbs",
+  "hometown": "Raleigh, NC",
+  "classBySeason": {
+   "2027": "Junior"
+  },
+  "seasons": [
+   2026,
+   2027
+  ],
+  "games": 39,
+  "firstGame": "401812785",
+  "lastGame": "401856600"
+ },
+ "5307570": {
+  "id": "5307570",
+  "name": "Uroš Paunovic",
+  "short": "U. Paunovic",
+  "jerseys": [
+   "77"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5307570.png",
+  "height": "6' 3\"",
+  "weight": "190 lbs",
+  "hometown": "Belgrade, Serbia",
+  "classBySeason": {
+   "2027": "Junior"
+  },
+  "seasons": [
+   2026,
+   2027
+  ],
+  "games": 14,
+  "firstGame": "401812786",
+  "lastGame": "401856559"
+ }
+}

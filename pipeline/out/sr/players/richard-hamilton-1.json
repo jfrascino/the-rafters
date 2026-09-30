@@ -1,0 +1,902 @@
+{
+ "sr_id": "richard-hamilton-1",
+ "url": "https://www.sports-reference.com/cbb/players/richard-hamilton-1.html",
+ "name": "Richard Hamilton",
+ "photo_url": "https://www.sports-reference.com/req/202512231/cbb/images/players/richard-hamilton-1.jpg",
+ "bio_lines": [
+  "(Rip)",
+  "Position: Guard",
+  "6-6 , 185lb (198cm, 83kg)",
+  "Hometown: Coatesville, PA",
+  "School: Connecticut (Men)",
+  "Draft: Washington Wizards , 1st round (7th pick, 7th overall), 1999 NBA draft"
+ ],
+ "bio": {
+  "nicknames": "(Rip)",
+  "Position": "Guard",
+  "Hometown": "Coatesville, PA",
+  "School": "Connecticut (Men)",
+  "school_slugs": [
+   "connecticut"
+  ],
+  "Draft": "Washington Wizards, 1st round (7th pick, 7th overall), 1999 NBA draft"
+ },
+ "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://www.sports-reference.com/req/202512231/cbb/images/players/richard-hamilton-1.jpg",
+ "draft_text": "Washington Wizards, 1st round (7th pick, 7th overall), 1999 NBA draft",
+ "draft": {
+  "text": "Washington Wizards, 1st round (7th pick, 7th overall), 1999 NBA draft",
+  "round": 1,
+  "pick": 7,
+  "overall": 7,
+  "year": 1999,
+  "team": "Washington Wizards"
+ },
+ "nba_url": "https://www.basketball-reference.com/players/h/hamilri01.html",
+ "tables": {
+  "players_per_game": {
+   "rows": [
+    {
+     "year_id": "1996-97",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "G",
+     "games": 32,
+     "games_started": 32,
+     "mp_per_g": 30.6,
+     "fg_per_g": 5.4,
+     "fga_per_g": 14.1,
+     "fg_pct": 0.386,
+     "fg3_per_g": 2.2,
+     "fg3a_per_g": 5.8,
+     "fg3_pct": 0.376,
+     "fg2_per_g": 3.3,
+     "fg2a_per_g": 8.3,
+     "fg2_pct": 0.392,
+     "efg_pct": 0.463,
+     "ft_per_g": 2.8,
+     "fta_per_g": 3.6,
+     "ft_pct": 0.784,
+     "orb_per_g": 1.3,
+     "drb_per_g": 3.0,
+     "trb_per_g": 4.3,
+     "ast_per_g": 2.8,
+     "stl_per_g": 1.3,
+     "blk_per_g": 0.3,
+     "tov_per_g": 3.0,
+     "pf_per_g": 2.4,
+     "pts_per_g": 15.9,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1997-98",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SO",
+     "pos": "G",
+     "games": 37,
+     "games_started": 37,
+     "mp_per_g": 32.5,
+     "fg_per_g": 7.3,
+     "fga_per_g": 16.6,
+     "fg_pct": 0.44,
+     "fg3_per_g": 2.7,
+     "fg3a_per_g": 6.6,
+     "fg3_pct": 0.404,
+     "fg2_per_g": 4.6,
+     "fg2a_per_g": 10.0,
+     "fg2_pct": 0.463,
+     "efg_pct": 0.52,
+     "ft_per_g": 4.2,
+     "fta_per_g": 5.0,
+     "ft_pct": 0.843,
+     "orb_per_g": 1.5,
+     "drb_per_g": 2.9,
+     "trb_per_g": 4.4,
+     "ast_per_g": 2.4,
+     "stl_per_g": 1.5,
+     "blk_per_g": 0.2,
+     "tov_per_g": 2.2,
+     "pf_per_g": 1.9,
+     "pts_per_g": 21.5,
+     "awards": "AA-2",
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1998-99",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "JR",
+     "pos": "G",
+     "games": 34,
+     "games_started": 34,
+     "mp_per_g": 32.1,
+     "fg_per_g": 7.3,
+     "fga_per_g": 16.4,
+     "fg_pct": 0.443,
+     "fg3_per_g": 2.0,
+     "fg3a_per_g": 5.8,
+     "fg3_pct": 0.347,
+     "fg2_per_g": 5.3,
+     "fg2a_per_g": 10.6,
+     "fg2_pct": 0.496,
+     "efg_pct": 0.504,
+     "ft_per_g": 5.0,
+     "fta_per_g": 6.0,
+     "ft_pct": 0.833,
+     "orb_per_g": 1.5,
+     "drb_per_g": 3.3,
+     "trb_per_g": 4.8,
+     "ast_per_g": 2.7,
+     "stl_per_g": 1.2,
+     "blk_per_g": 0.3,
+     "tov_per_g": 2.4,
+     "pf_per_g": 1.6,
+     "pts_per_g": 21.5,
+     "awards": "AA-1",
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 103,
+     "games_started": 103,
+     "mp_per_g": 31.8,
+     "fg_per_g": 6.7,
+     "fga_per_g": 15.7,
+     "fg_pct": 0.426,
+     "fg3_per_g": 2.3,
+     "fg3a_per_g": 6.1,
+     "fg3_pct": 0.378,
+     "fg2_per_g": 4.4,
+     "fg2a_per_g": 9.7,
+     "fg2_pct": 0.456,
+     "efg_pct": 0.499,
+     "ft_per_g": 4.0,
+     "fta_per_g": 4.9,
+     "ft_pct": 0.826,
+     "orb_per_g": 1.5,
+     "drb_per_g": 3.0,
+     "trb_per_g": 4.5,
+     "ast_per_g": 2.6,
+     "stl_per_g": 1.3,
+     "blk_per_g": 0.3,
+     "tov_per_g": 2.5,
+     "pf_per_g": 2.0,
+     "pts_per_g": 19.8,
+     "awards": null
+    }
+   ]
+  },
+  "players_totals": {
+   "rows": [
+    {
+     "year_id": "1996-97",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "G",
+     "games": 32,
+     "games_started": 32,
+     "mp": 980,
+     "fg": 174,
+     "fga": 451,
+     "fg_pct": 0.386,
+     "fg3": 70,
+     "fg3a": 186,
+     "fg3_pct": 0.376,
+     "fg2": 104,
+     "fg2a": 265,
+     "fg2_pct": 0.392,
+     "efg_pct": 0.463,
+     "ft": 91,
+     "fta": 116,
+     "ft_pct": 0.784,
+     "orb": 42,
+     "drb": 96,
+     "trb": 138,
+     "ast": 88,
+     "stl": 40,
+     "blk": 11,
+     "tov": 95,
+     "pf": 76,
+     "pts": 509,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1997-98",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SO",
+     "pos": "G",
+     "games": 37,
+     "games_started": 37,
+     "mp": 1203,
+     "fg": 270,
+     "fga": 614,
+     "fg_pct": 0.44,
+     "fg3": 99,
+     "fg3a": 245,
+     "fg3_pct": 0.404,
+     "fg2": 171,
+     "fg2a": 369,
+     "fg2_pct": 0.463,
+     "efg_pct": 0.52,
+     "ft": 156,
+     "fta": 185,
+     "ft_pct": 0.843,
+     "orb": 57,
+     "drb": 106,
+     "trb": 163,
+     "ast": 87,
+     "stl": 54,
+     "blk": 8,
+     "tov": 83,
+     "pf": 71,
+     "pts": 795,
+     "awards": "AA-2",
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1998-99",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "JR",
+     "pos": "G",
+     "games": 34,
+     "games_started": 34,
+     "mp": 1091,
+     "fg": 247,
+     "fga": 557,
+     "fg_pct": 0.443,
+     "fg3": 68,
+     "fg3a": 196,
+     "fg3_pct": 0.347,
+     "fg2": 179,
+     "fg2a": 361,
+     "fg2_pct": 0.496,
+     "efg_pct": 0.504,
+     "ft": 170,
+     "fta": 204,
+     "ft_pct": 0.833,
+     "orb": 52,
+     "drb": 111,
+     "trb": 163,
+     "ast": 91,
+     "stl": 40,
+     "blk": 9,
+     "tov": 82,
+     "pf": 56,
+     "pts": 732,
+     "awards": "AA-1",
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 103,
+     "games_started": 103,
+     "mp": 3274,
+     "fg": 691,
+     "fga": 1622,
+     "fg_pct": 0.426,
+     "fg3": 237,
+     "fg3a": 627,
+     "fg3_pct": 0.378,
+     "fg2": 454,
+     "fg2a": 995,
+     "fg2_pct": 0.456,
+     "efg_pct": 0.499,
+     "ft": 417,
+     "fta": 505,
+     "ft_pct": 0.826,
+     "orb": 151,
+     "drb": 313,
+     "trb": 464,
+     "ast": 266,
+     "stl": 134,
+     "blk": 28,
+     "tov": 260,
+     "pf": 203,
+     "pts": 2036,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_min": {
+   "rows": [
+    {
+     "year_id": "1996-97",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "G",
+     "games": 32,
+     "games_started": 32,
+     "mp": 980,
+     "fg_per_min": 7.1,
+     "fga_per_min": 18.4,
+     "fg_pct": 0.386,
+     "fg3_per_min": 2.9,
+     "fg3a_per_min": 7.6,
+     "fg3_pct": 0.376,
+     "fg2_per_min": 4.2,
+     "fg2a_per_min": 10.8,
+     "fg2_pct": 0.392,
+     "efg_pct": 0.463,
+     "ft_per_min": 3.7,
+     "fta_per_min": 4.7,
+     "ft_pct": 0.784,
+     "orb_per_min": 1.7,
+     "drb_per_min": 3.9,
+     "trb_per_min": 5.6,
+     "ast_per_min": 3.6,
+     "stl_per_min": 1.6,
+     "blk_per_min": 0.4,
+     "tov_per_min": 3.9,
+     "pf_per_min": 3.1,
+     "pts_per_min": 20.8,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1997-98",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SO",
+     "pos": "G",
+     "games": 37,
+     "games_started": 37,
+     "mp": 1203,
+     "fg_per_min": 9.0,
+     "fga_per_min": 20.4,
+     "fg_pct": 0.44,
+     "fg3_per_min": 3.3,
+     "fg3a_per_min": 8.1,
+     "fg3_pct": 0.404,
+     "fg2_per_min": 5.7,
+     "fg2a_per_min": 12.3,
+     "fg2_pct": 0.463,
+     "efg_pct": 0.52,
+     "ft_per_min": 5.2,
+     "fta_per_min": 6.2,
+     "ft_pct": 0.843,
+     "orb_per_min": 1.9,
+     "drb_per_min": 3.5,
+     "trb_per_min": 5.4,
+     "ast_per_min": 2.9,
+     "stl_per_min": 1.8,
+     "blk_per_min": 0.3,
+     "tov_per_min": 2.8,
+     "pf_per_min": 2.4,
+     "pts_per_min": 26.4,
+     "awards": "AA-2",
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1998-99",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "JR",
+     "pos": "G",
+     "games": 34,
+     "games_started": 34,
+     "mp": 1091,
+     "fg_per_min": 9.1,
+     "fga_per_min": 20.4,
+     "fg_pct": 0.443,
+     "fg3_per_min": 2.5,
+     "fg3a_per_min": 7.2,
+     "fg3_pct": 0.347,
+     "fg2_per_min": 6.6,
+     "fg2a_per_min": 13.2,
+     "fg2_pct": 0.496,
+     "efg_pct": 0.504,
+     "ft_per_min": 6.2,
+     "fta_per_min": 7.5,
+     "ft_pct": 0.833,
+     "orb_per_min": 1.9,
+     "drb_per_min": 4.1,
+     "trb_per_min": 6.0,
+     "ast_per_min": 3.3,
+     "stl_per_min": 1.5,
+     "blk_per_min": 0.3,
+     "tov_per_min": 3.0,
+     "pf_per_min": 2.1,
+     "pts_per_min": 26.8,
+     "awards": "AA-1",
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 103,
+     "games_started": 103,
+     "mp": 3274,
+     "fg_per_min": 8.4,
+     "fga_per_min": 19.8,
+     "fg_pct": 0.426,
+     "fg3_per_min": 2.9,
+     "fg3a_per_min": 7.7,
+     "fg3_pct": 0.378,
+     "fg2_per_min": 5.5,
+     "fg2a_per_min": 12.2,
+     "fg2_pct": 0.456,
+     "efg_pct": 0.499,
+     "ft_per_min": 5.1,
+     "fta_per_min": 6.2,
+     "ft_pct": 0.826,
+     "orb_per_min": 1.8,
+     "drb_per_min": 3.8,
+     "trb_per_min": 5.7,
+     "ast_per_min": 3.2,
+     "stl_per_min": 1.6,
+     "blk_per_min": 0.3,
+     "tov_per_min": 3.2,
+     "pf_per_min": 2.5,
+     "pts_per_min": 24.9,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_poss": {
+   "rows": [
+    {
+     "year_id": "1996-97",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "G",
+     "games": 32,
+     "games_started": 32,
+     "mp": 980,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1997-98",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SO",
+     "pos": "G",
+     "games": 37,
+     "games_started": 37,
+     "mp": 1203,
+     "awards": "AA-2",
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1998-99",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "JR",
+     "pos": "G",
+     "games": 34,
+     "games_started": 34,
+     "mp": 1091,
+     "awards": "AA-1",
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 103,
+     "games_started": 103,
+     "mp": 3274,
+     "awards": null
+    }
+   ]
+  },
+  "players_advanced": {
+   "rows": [
+    {
+     "year_id": "1996-97",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "G",
+     "games": 32,
+     "games_started": 32,
+     "mp": 980,
+     "ts_pct": 0.503,
+     "fg3a_per_fga_pct": 0.412,
+     "fta_per_fga_pct": 0.257,
+     "tov_pct": 15.8,
+     "ows": 1.5,
+     "dws": 2.3,
+     "ws": 3.8,
+     "ws_per_40": 0.154,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1997-98",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SO",
+     "pos": "G",
+     "games": 37,
+     "games_started": 37,
+     "mp": 1203,
+     "ts_pct": 0.566,
+     "fg3a_per_fga_pct": 0.399,
+     "fta_per_fga_pct": 0.301,
+     "tov_pct": 10.6,
+     "ows": 4.2,
+     "dws": 2.4,
+     "ws": 6.6,
+     "ws_per_40": 0.22,
+     "awards": "AA-2",
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1998-99",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "JR",
+     "pos": "G",
+     "games": 34,
+     "games_started": 34,
+     "mp": 1091,
+     "ts_pct": 0.56,
+     "fg3a_per_fga_pct": 0.352,
+     "fta_per_fga_pct": 0.366,
+     "tov_pct": 11.1,
+     "ows": 3.8,
+     "dws": 2.5,
+     "ws": 6.4,
+     "ws_per_40": 0.233,
+     "awards": "AA-1",
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 103,
+     "games_started": 103,
+     "mp": 3274,
+     "ts_pct": 0.547,
+     "fg3a_per_fga_pct": 0.387,
+     "fta_per_fga_pct": 0.311,
+     "tov_pct": 12.3,
+     "ows": 9.5,
+     "dws": 7.2,
+     "ws": 16.8,
+     "ws_per_40": 0.205,
+     "awards": null
+    }
+   ]
+  }
+ },
+ "awards": [
+  {
+   "season": "1996-97",
+   "award": "Big East All-Freshman",
+   "detail": null,
+   "url": "/cbb/awards/men/big-east-all-frosh.html",
+   "text": "1996-97 Big East All-Freshman"
+  },
+  {
+   "season": "1997-98",
+   "award": "All-Big East",
+   "detail": "1st Team",
+   "url": "/cbb/awards/men/all-big-east.html",
+   "text": "1997-98 All-Big East - 1st Team"
+  },
+  {
+   "season": "1997-98",
+   "award": "Big East Player of the Year",
+   "detail": null,
+   "url": "/cbb/awards/men/big-east-poy.html",
+   "text": "1997-98 Big East Player of the Year"
+  },
+  {
+   "season": "1997-98",
+   "award": "Consensus All-America",
+   "detail": "2nd Team",
+   "url": "/cbb/awards/men/consensus-all-america-1990-1999.html",
+   "text": "1997-98 Consensus All-America - 2nd Team"
+  },
+  {
+   "season": "1998",
+   "award": "All-Big East Tournament",
+   "detail": "1st Team",
+   "url": "/cbb/awards/men/all-big-east-tourney.html",
+   "text": "1998 All-Big East Tournament - 1st Team"
+  },
+  {
+   "season": "1998",
+   "award": "NCAA Tournament All-Region",
+   "detail": null,
+   "url": "/cbb/postseason/men/1998-ncaa.html#all_all-region",
+   "text": "1998 NCAA Tournament All-Region"
+  },
+  {
+   "season": "1998-99",
+   "award": "All-Big East",
+   "detail": "1st Team",
+   "url": "/cbb/awards/men/all-big-east.html",
+   "text": "1998-99 All-Big East - 1st Team"
+  },
+  {
+   "season": "1998-99",
+   "award": "AP Preseason All-American",
+   "detail": null,
+   "url": "/cbb/awards/men/ap-pre.html",
+   "text": "1998-99 AP Preseason All-American"
+  },
+  {
+   "season": "1998-99",
+   "award": "Big East Player of the Year",
+   "detail": null,
+   "url": "/cbb/awards/men/big-east-poy.html",
+   "text": "1998-99 Big East Player of the Year"
+  },
+  {
+   "season": "1998-99",
+   "award": "Consensus All-America",
+   "detail": "1st Team",
+   "url": "/cbb/awards/men/consensus-all-america-1990-1999.html",
+   "text": "1998-99 Consensus All-America - 1st Team"
+  },
+  {
+   "season": "1999",
+   "award": "All-Big East Tournament",
+   "detail": "1st Team",
+   "url": "/cbb/awards/men/all-big-east-tourney.html",
+   "text": "1999 All-Big East Tournament - 1st Team"
+  },
+  {
+   "season": "1999",
+   "award": "NCAA All-Tournament",
+   "detail": null,
+   "url": "/cbb/awards/men/ncaa-all-tourney.html",
+   "text": "1999 NCAA All-Tournament"
+  },
+  {
+   "season": "1999",
+   "award": "NCAA Tournament All-Region",
+   "detail": null,
+   "url": "/cbb/postseason/men/1999-ncaa.html#all_all-region",
+   "text": "1999 NCAA Tournament All-Region"
+  },
+  {
+   "season": "1999",
+   "award": "NCAA Tournament Most Outstanding Player",
+   "detail": null,
+   "url": "/cbb/awards/men/ncaa-mop.html",
+   "text": "1999 NCAA Tournament Most Outstanding Player"
+  }
+ ],
+ "bling": [
+  "1998-99 NCAA Champion",
+  "1998-99 NCAA All-Tourney",
+  "2x NCAA All-Region",
+  "1998-99 NCAA Tourney MOP",
+  "HS Parade AA",
+  "2x Consensus AA",
+  "2x Big East POY",
+  "2x All-Big East",
+  "2x All-Big East Tourney",
+  "1996-97 Big East All-Freshman"
+ ],
+ "leaderboards": {
+  "pts": {
+   "title": "Points",
+   "entries": [
+    "1996-97 Big East 509 (8th)",
+    "1997-98 NCAA 795 (4th)",
+    "1997-98 Big East 795 (1st)",
+    "1998-99 NCAA 732 (2nd)",
+    "1998-99 Big East 732 (1st)"
+   ]
+  },
+  "pts_per_g": {
+   "title": "Points Per Game",
+   "entries": [
+    "1996-97 Big East 15.9 (12th)",
+    "1997-98 NCAA 21.5 (17th)",
+    "1997-98 Big East 21.5 (2nd)",
+    "1998-99 NCAA 21.5 (19th)",
+    "1998-99 Big East 21.5 (2nd)",
+    "Career Big East 19.8 (9th)"
+   ]
+  },
+  "ast": {
+   "title": "Assists",
+   "entries": [
+    "1996-97 Big East 88 (19th)",
+    "1997-98 Big East 87 (20th)",
+    "1998-99 Big East 91 (20th)"
+   ]
+  },
+  "stl": {
+   "title": "Steals",
+   "entries": [
+    "1997-98 Big East 54 (13th)"
+   ]
+  },
+  "fg_pct": {
+   "title": "Field Goal Percentage",
+   "entries": [
+    "1996-97 Big East .386 (18th)",
+    "1997-98 Big East .440 (9th)",
+    "1998-99 Big East .443 (8th)"
+   ]
+  },
+  "ft_pct": {
+   "title": "Free Throw Percentage",
+   "entries": [
+    "1996-97 Big East .784 (5th)",
+    "1997-98 Big East .843 (1st)",
+    "1998-99 Big East .833 (2nd)",
+    "Career Big East .826 (15th)"
+   ]
+  },
+  "fg3_pct": {
+   "title": "3-Point Field Goal Percentage",
+   "entries": [
+    "1997-98 Big East .404 (1st)",
+    "Career Big East .378 (20th)"
+   ]
+  },
+  "efg_pct": {
+   "title": "Effective Field Goal Percentage",
+   "entries": [
+    "1996-97 Big East .463 (15th)",
+    "1997-98 Big East .520 (6th)",
+    "1998-99 Big East .504 (6th)"
+   ]
+  },
+  "ts_pct": {
+   "title": "True Shooting Percentage",
+   "entries": [
+    "1997-98 Big East .566 (9th)",
+    "1998-99 Big East .560 (16th)"
+   ]
+  },
+  "fg": {
+   "title": "Field Goals",
+   "entries": [
+    "1996-97 Big East 174 (11th)",
+    "1997-98 NCAA 270 (6th)",
+    "1997-98 Big East 270 (1st)",
+    "1998-99 NCAA 247 (8th)",
+    "1998-99 Big East 247 (1st)"
+   ]
+  },
+  "fga": {
+   "title": "Field Goal Attempts",
+   "entries": [
+    "1996-97 Big East 451 (3rd)",
+    "1997-98 NCAA 614 (2nd)",
+    "1997-98 Big East 614 (1st)",
+    "1998-99 NCAA 557 (4th)",
+    "1998-99 Big East 557 (1st)"
+   ]
+  },
+  "fg2": {
+   "title": "2-Point Field Goals",
+   "entries": [
+    "1997-98 Big East 171 (5th)",
+    "1998-99 Big East 179 (2nd)"
+   ]
+  },
+  "fg2a": {
+   "title": "2-Point Field Goal Attempts",
+   "entries": [
+    "1996-97 Big East 265 (14th)",
+    "1997-98 Big East 369 (2nd)",
+    "1998-99 Big East 361 (2nd)"
+   ]
+  },
+  "fg3": {
+   "title": "3-Point Field Goals",
+   "entries": [
+    "1996-97 Big East 70 (5th)",
+    "1997-98 NCAA 99 (7th)",
+    "1997-98 Big East 99 (1st)",
+    "1998-99 Big East 68 (2nd)"
+   ]
+  },
+  "fg3a": {
+   "title": "3-Point Field Goal Attempts",
+   "entries": [
+    "1996-97 Big East 186 (5th)",
+    "1997-98 NCAA 245 (12th)",
+    "1997-98 Big East 245 (1st)",
+    "1998-99 Big East 196 (1st)"
+   ]
+  },
+  "ft": {
+   "title": "Free Throws",
+   "entries": [
+    "1996-97 Big East 91 (18th)",
+    "1997-98 Big East 156 (3rd)",
+    "1998-99 NCAA 170 (13th)",
+    "1998-99 Big East 170 (1st)"
+   ]
+  },
+  "fta": {
+   "title": "Free Throw Attempts",
+   "entries": [
+    "1997-98 Big East 185 (5th)",
+    "1998-99 Big East 204 (1st)"
+   ]
+  },
+  "g": {
+   "title": "Games",
+   "entries": [
+    "1997-98 NCAA 37 (20th)",
+    "1997-98 Big East 37 (1st)",
+    "1998-99 Big East 34 (11th)"
+   ]
+  },
+  "mp": {
+   "title": "Minutes Played",
+   "entries": [
+    "1997-98 NCAA 1203 (10th)",
+    "1997-98 Big East 1203 (3rd)",
+    "1998-99 Big East 1091 (8th)"
+   ]
+  },
+  "mp_per_g": {
+   "title": "Minutes Played Per Game",
+   "entries": [
+    "1997-98 Big East 32.5 (20th)",
+    "1998-99 Big East 32.1 (20th)"
+   ]
+  },
+  "tov": {
+   "title": "Turnovers",
+   "entries": [
+    "1996-97 Big East 95 (13th)",
+    "1997-98 Big East 83 (17th)",
+    "1998-99 Big East 82 (17th)"
+   ]
+  },
+  "ws": {
+   "title": "Win Shares",
+   "entries": [
+    "1996-97 Big East 3.8 (16th)",
+    "1997-98 NCAA 6.6 (16th)",
+    "1997-98 Big East 6.6 (1st)",
+    "1998-99 NCAA 6.4 (20th)",
+    "1998-99 Big East 6.4 (3rd)"
+   ]
+  },
+  "ows": {
+   "title": "Offensive Win Shares",
+   "entries": [
+    "1997-98 NCAA 4.2 (13th)",
+    "1997-98 Big East 4.2 (1st)",
+    "1998-99 Big East 3.8 (1st)"
+   ]
+  },
+  "dws": {
+   "title": "Defensive Win Shares",
+   "entries": [
+    "1996-97 Big East 2.3 (14th)",
+    "1997-98 Big East 2.4 (11th)",
+    "1998-99 Big East 2.5 (16th)"
+   ]
+  }
+ },
+ "uconn_seasons": [
+  1997,
+  1998,
+  1999
+ ]
+}

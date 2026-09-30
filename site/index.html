@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Rafters</title>
+<meta name="description" content="UConn men's basketball, 1986 to now: every season, every game, every Husky. By a fan, for super fans.">
+<meta name="theme-color" content="#050b1a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Big+Shoulders+Display:wght@700;800;900&family=Doto:wght@800;900&family=Graduate&display=swap">
+<link rel="stylesheet" href="css/app.css?v=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23000e2f'/%3E%3Cpath d='M14 8h36v34l-18 14-18-14z' fill='%23fff'/%3E%3Ctext x='32' y='36' font-family='Georgia' font-weight='700' font-size='20' text-anchor='middle' fill='%23000e2f'%3EUC%3C/text%3E%3C/svg%3E">
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+</script>
+</head>
+<body>
+<a class="skip" href="#main" onclick="document.getElementById('main').focus();return false">Skip to content</a>
+<header class="topbar" id="topbar">
+  <a class="brand" href="#/" aria-label="The Rafters home">
+    <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 48"><path d="M2 2h36v32L20 46 2 34z"/></svg><b>6</b></span>
+    <span class="brand-word">The Rafters</span>
+  </a>
+  <nav class="nav" id="nav" aria-label="Sections">
+    <a href="#/now" data-nav="now">2026–27</a>
+    <a href="#/seasons" data-nav="seasons">Seasons</a>
+    <a href="#/march" data-nav="march">March</a>
+    <a href="#/players" data-nav="players">Huskies</a>
+    <a href="#/numbers" data-nav="numbers">Numbers</a>
+    <a href="#/vault" data-nav="vault">Vault</a>
+  </nav>
+  <button class="search-btn" id="searchBtn" aria-label="Search players, seasons, opponents"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg><span>Search</span><kbd>/</kbd></button>
+  <div class="ticker" id="ticker" aria-live="polite"></div>
+</header>
+<main id="main" tabindex="-1"></main>
+<div class="search" id="search" hidden>
+  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search">
+    <input id="searchInput" type="search" placeholder="Search a Husky, season, or opponent…" autocomplete="off" spellcheck="false">
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+<div class="lightbox" id="lightbox" hidden></div>
+<footer class="foot">
+  <p><b>The Rafters</b> is an unofficial fan project and is not affiliated with the University of Connecticut. Stats: Sports-Reference/College Basketball Reference and ESPN. Photos credited on each image; videos play from their YouTube owners.</p>
+  <p id="footUpdated"></p>
+</footer>
+<script type="module" src="js/app.js?v=1"></script>
+</body>
+</html>
