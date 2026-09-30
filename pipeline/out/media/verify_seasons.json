@@ -1,0 +1,41 @@
+{
+ "checked_claims": 118,
+ "items": [
+  {
+   "year": 1990,
+   "field": "key_moments[1].text",
+   "status": "FIX",
+   "old": "UConn beat Syracuse 78–75 (Championship/Rivalry) at Madison Square Garden",
+   "new": "UConn beat Syracuse 78–75 in the Big East tournament final at Madison Square Garden",
+   "reason": "Wikipedia 'gamename' artifact leaked into text.",
+   "source": "https://en.wikipedia.org/wiki/1989%E2%80%9390_Connecticut_Huskies_men's_basketball_team"
+  },
+  {
+   "year": 1990,
+   "field": "key_moments[1].title",
+   "status": "FIX",
+   "old": "Big East tournament Championship/Rivalry: W vs Syracuse",
+   "new": "Big East tournament final: W vs Syracuse",
+   "reason": "Wikipedia schedule 'gamename' artifact ('Championship/Rivalry') leaked into the title.",
+   "source": "https://en.wikipedia.org/wiki/1989%E2%80%9390_Connecticut_Huskies_men's_basketball_team"
+  },
+  {
+   "year": 1990,
+   "field": "key_moments[5].text",
+   "status": "FIX",
+   "old": "UConn lost to Duke 78–79 in the NCAA tournament elite eight",
+   "new": "UConn lost to Duke 78–79 in overtime in the NCAA tournament Elite Eight",
+   "reason": "Game went to overtime (SR overtimes=OT); omission contradicts story's '79–78 in overtime'.",
+   "source": "pipeline/out/sr/seasons/1990.json"
+  },
+  {
+   "year": 1990,
+   "field": "story",
+   "status": "FIX",
+   "old": "in back-to-back games at the Hartford Civic Center in January and cracked the AP poll for the first time.",
+   "new": "in back-to-back games at the Hartford Civic Center in January and cracked the AP poll for the first time that season.",
+   "reason": "UConn had been ranked before (e.g., No. 18 in the Dec. 5, 1988 AP poll); the Jan. 22, 1990 No. 20 ranking was its first of the 1989–90 season, not its first ever.",
+   "source": "pipeline/out/sr/seasons/1989.json polls; https://en.wikipedia.org/wiki/UConn_Huskies_men%27s_basketball"
+  }
+ ]
+}

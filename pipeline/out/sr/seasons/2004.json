@@ -3266,7 +3266,7 @@
    "site": "neutral",
    "opp_seed": 15,
    "round": "Phoenix First Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 35,
@@ -3291,7 +3291,7 @@
    "site": "neutral",
    "opp_seed": 7,
    "round": "Phoenix Second Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 36,
@@ -3316,7 +3316,7 @@
    "site": "neutral",
    "opp_seed": 6,
    "round": "Phoenix Regional Semifinal",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 37,
@@ -3341,7 +3341,7 @@
    "site": "neutral",
    "opp_seed": 8,
    "round": "Phoenix Regional Final",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 38,
@@ -3366,7 +3366,7 @@
    "site": "neutral",
    "opp_seed": 1,
    "round": "National Semifinal",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 39,
@@ -3391,7 +3391,7 @@
    "site": "neutral",
    "opp_seed": 3,
    "round": "National Final",
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

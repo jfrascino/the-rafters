@@ -80,8 +80,8 @@
      {
       "result": "L",
       "round": "East Regional Semifinal",
-      "pts": 69,
-      "opp_pts": 60,
+      "pts": 60,
+      "opp_pts": 69,
       "opp_seed": 3,
       "opp_name": "Florida",
       "box_slug": "1994-03-25-connecticut",
@@ -2948,7 +2948,7 @@
    "site": "neutral",
    "opp_seed": 15,
    "round": "East First Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 33,
@@ -2973,7 +2973,7 @@
    "site": "neutral",
    "opp_seed": 10,
    "round": "East Second Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 34,
@@ -2998,7 +2998,7 @@
    "site": "neutral",
    "opp_seed": 3,
    "round": "East Regional Semifinal",
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

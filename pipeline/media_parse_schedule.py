@@ -59,6 +59,9 @@ def parse(y):
             sec = s or sec
             continue
         f = {}
+        txt = re.sub(r"<ref[^>]*/>", "", txt)
+        txt = re.sub(r"<ref[^>]*>.*?</ref>", "", txt, flags=re.S)
+        txt = re.sub(r"\{\{[Cc]ite[^{}]*\}\}", "", txt)
         txt = re.sub(r"[ \t]\|[ \t]*(?=[\w/ ]+?\s*=)", "\n| ", txt)
         for m in re.finditer(r"\n\s*\|\s*([\w/ ]+?)\s*=(.*?)(?=\n\s*\|\s*[\w/ ]+?\s*=|\Z)", txt, re.S):
             f[m.group(1).strip()] = m.group(2).strip()

@@ -99,6 +99,51 @@ if isinstance(media_seasons, dict):
     media_seasons = media_seasons.get('seasons', list(media_seasons.values()))
 media_by_year = {int(m['year']): m for m in media_seasons if isinstance(m, dict) and m.get('year')}
 
+# Apply the independent fact-check ledger (FIX = replace exact substring, REMOVE = drop it)
+def apply_ledger(path):
+    led = jload(path, {}) or {}
+    ok = bad = 0
+    for it in led.get('items', []):
+        if it.get('status') not in ('FIX', 'REMOVE'):
+            continue
+        m = media_by_year.get(int(it.get('year') or 0))
+        field = it.get('field') or ''
+        mm = re.match(r'(\w+)(?:\[(\d+)\](?:\.(\w+))?)?$', field)
+        if not m or not mm:
+            bad += 1
+            continue
+        key, idx, sub = mm.group(1), mm.group(2), mm.group(3)
+        holder, hkey = m, key
+        if idx is not None:
+            lst = m.get(key) or []
+            i = int(idx)
+            if i >= len(lst):
+                bad += 1
+                continue
+            if sub:
+                holder, hkey = lst[i], sub
+            else:
+                holder, hkey = lst, i
+        cur = holder[hkey] if (isinstance(holder, list) or hkey in holder) else None
+        old, new = it.get('old') or '', it.get('new') or ''
+        if not isinstance(cur, str) or (old and cur.count(old) != 1):
+            bad += 1
+            continue
+        if it['status'] == 'REMOVE' and (not old or old.strip() == cur.strip()):
+            holder[hkey] = None
+        else:
+            holder[hkey] = cur.replace(old, new if it['status'] == 'FIX' else '').replace('  ', ' ').strip() if old else new
+        ok += 1
+    for m in media_by_year.values():  # drop removed list entries
+        for k in ('key_moments', 'honors'):
+            if isinstance(m.get(k), list):
+                m[k] = [x for x in m[k] if x and (not isinstance(x, dict) or x.get('text') is not None or x.get('title'))]
+    if led:
+        print(f'fact-check ledger: applied {ok}, skipped {bad}')
+
+
+apply_ledger(os.path.join(M, 'verify_seasons.json'))
+
 
 # All D-I teams from ESPN, for logos of opponents we only met before 2003.
 def espn_all_teams():

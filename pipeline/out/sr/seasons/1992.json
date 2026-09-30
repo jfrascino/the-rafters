@@ -67,8 +67,8 @@
      {
       "result": "L",
       "round": "Southeast Second Round",
-      "pts": 78,
-      "opp_pts": 55,
+      "pts": 55,
+      "opp_pts": 78,
       "opp_seed": 1,
       "opp_name": "Ohio State",
       "box_slug": "1992-03-21-connecticut",
@@ -2809,7 +2809,7 @@
    "site": "neutral",
    "opp_seed": 8,
    "round": "Southeast First Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 30,
@@ -2834,7 +2834,7 @@
    "site": "neutral",
    "opp_seed": 1,
    "round": "Southeast Second Round",
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

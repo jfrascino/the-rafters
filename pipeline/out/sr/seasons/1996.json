@@ -80,8 +80,8 @@
      {
       "result": "L",
       "round": "Southeast Regional Semifinal",
-      "pts": 60,
-      "opp_pts": 55,
+      "pts": 55,
+      "opp_pts": 60,
       "opp_seed": 5,
       "opp_name": "Mississippi State",
       "box_slug": "1996-03-22-connecticut",
@@ -3264,7 +3264,7 @@
    "site": "neutral",
    "opp_seed": 16,
    "round": "Southeast First Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 34,
@@ -3289,7 +3289,7 @@
    "site": "neutral",
    "opp_seed": 9,
    "round": "Southeast Second Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 35,
@@ -3314,7 +3314,7 @@
    "site": "neutral",
    "opp_seed": 5,
    "round": "Southeast Regional Semifinal",
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

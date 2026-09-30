@@ -5671,7 +5671,7 @@
    "date": "2013-11-08",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 2,
@@ -5695,7 +5695,7 @@
    "date": "2013-11-11",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 3,
@@ -5719,7 +5719,7 @@
    "date": "2013-11-14",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 4,
@@ -5743,7 +5743,7 @@
    "date": "2013-11-17",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 5,
@@ -5767,7 +5767,7 @@
    "date": "2013-11-21",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 6,
@@ -5791,7 +5791,7 @@
    "date": "2013-11-22",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 7,
@@ -5815,7 +5815,7 @@
    "date": "2013-11-26",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 8,
@@ -5839,7 +5839,7 @@
    "date": "2013-12-02",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 9,
@@ -5863,7 +5863,7 @@
    "date": "2013-12-06",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 10,
@@ -5887,7 +5887,7 @@
    "date": "2013-12-18",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 11,
@@ -5911,7 +5911,7 @@
    "date": "2013-12-22",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 12,
@@ -5935,7 +5935,7 @@
    "date": "2013-12-28",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 13,
@@ -5959,7 +5959,7 @@
    "date": "2013-12-31",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 14,
@@ -5983,7 +5983,7 @@
    "date": "2014-01-04",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 15,
@@ -6007,7 +6007,7 @@
    "date": "2014-01-08",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 16,
@@ -6031,7 +6031,7 @@
    "date": "2014-01-11",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 17,
@@ -6055,7 +6055,7 @@
    "date": "2014-01-16",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 18,
@@ -6079,7 +6079,7 @@
    "date": "2014-01-18",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 19,
@@ -6103,7 +6103,7 @@
    "date": "2014-01-21",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 20,
@@ -6127,7 +6127,7 @@
    "date": "2014-01-25",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 21,
@@ -6151,7 +6151,7 @@
    "date": "2014-01-30",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 22,
@@ -6175,7 +6175,7 @@
    "date": "2014-02-06",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 23,
@@ -6199,7 +6199,7 @@
    "date": "2014-02-09",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 24,
@@ -6223,7 +6223,7 @@
    "date": "2014-02-12",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 25,
@@ -6247,7 +6247,7 @@
    "date": "2014-02-15",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 26,
@@ -6271,7 +6271,7 @@
    "date": "2014-02-20",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 27,
@@ -6295,7 +6295,7 @@
    "date": "2014-02-23",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 28,
@@ -6319,7 +6319,7 @@
    "date": "2014-02-26",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 29,
@@ -6343,7 +6343,7 @@
    "date": "2014-03-01",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 30,
@@ -6367,7 +6367,7 @@
    "date": "2014-03-05",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 31,
@@ -6391,7 +6391,7 @@
    "date": "2014-03-08",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 32,
@@ -6415,7 +6415,7 @@
    "date": "2014-03-13",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 33,
@@ -6439,7 +6439,7 @@
    "date": "2014-03-14",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 34,
@@ -6463,7 +6463,7 @@
    "date": "2014-03-15",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 35,
@@ -6488,7 +6488,7 @@
    "site": "neutral",
    "opp_seed": 10,
    "round": "East Second Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 36,
@@ -6513,7 +6513,7 @@
    "site": "neutral",
    "opp_seed": 2,
    "round": "East Third Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 37,
@@ -6538,7 +6538,7 @@
    "site": "neutral",
    "opp_seed": 3,
    "round": "East Regional Semifinal",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 38,
@@ -6563,7 +6563,7 @@
    "site": "neutral",
    "opp_seed": 4,
    "round": "East Regional Final",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 39,
@@ -6588,7 +6588,7 @@
    "site": "neutral",
    "opp_seed": 1,
    "round": "National Semifinal",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 40,
@@ -6613,7 +6613,7 @@
    "site": "neutral",
    "opp_seed": 8,
    "round": "National Final",
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

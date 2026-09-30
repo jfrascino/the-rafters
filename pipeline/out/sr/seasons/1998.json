@@ -102,8 +102,8 @@
      {
       "result": "L",
       "round": "East Regional Final",
-      "pts": 75,
-      "opp_pts": 64,
+      "pts": 64,
+      "opp_pts": 75,
       "opp_seed": 1,
       "opp_name": "North Carolina",
       "box_slug": "1998-03-21-connecticut",
@@ -3309,7 +3309,7 @@
    "site": "neutral",
    "opp_seed": 15,
    "round": "East First Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 35,
@@ -3334,7 +3334,7 @@
    "site": "neutral",
    "opp_seed": 7,
    "round": "East Second Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 36,
@@ -3359,7 +3359,7 @@
    "site": "neutral",
    "opp_seed": 11,
    "round": "East Regional Semifinal",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 37,
@@ -3384,7 +3384,7 @@
    "site": "neutral",
    "opp_seed": 1,
    "round": "East Regional Final",
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

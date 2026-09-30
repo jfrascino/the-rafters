@@ -40,7 +40,7 @@ export default async function season(main, args, core) {
       ${story.sources?.length ? `<p class="note">Sources: ${story.sources.slice(0, 4).map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener" style="text-decoration:underline">${esc(new URL(u).hostname.replace('www.', ''))}</a>`).join(', ')}</p>` : ''}</div>
     <div class="grid" style="gap:28px">
       ${story.honors?.length ? `<div class="honors"><span class="eyebrow gold">Honors</span><ul>${story.honors.map((h) => `<li>${esc(h)}</li>`).join('')}</ul></div>` : ''}
-      ${story.moments?.length ? `<div class="honors"><span class="eyebrow">Key moments</span><ul>${story.moments.map((m) => `<li style="display:grid;gap:4px"><b style="font:700 16px/1.2 var(--f-cond);text-transform:uppercase;letter-spacing:.03em">${m.date ? `<span class="muted">${fmtDate(m.date)} · </span>` : ''}${esc(m.title)}</b><span class="muted" style="font-size:14px">${esc(m.text || '')}</span></li>`).join('')}</ul></div>` : ''}
+      ${story.moments?.length ? `<div class="honors"><span class="eyebrow">Key moments</span><ul>${story.moments.map((m) => `<li class="mom"><b style="font:700 16px/1.2 var(--f-cond);text-transform:uppercase;letter-spacing:.03em">${m.date ? `<span class="muted">${fmtDate(m.date)} · </span>` : ''}${esc(m.title)}</b><span class="muted" style="font-size:14px">${esc(m.text || '')}</span></li>`).join('')}</ul></div>` : ''}
     </div>
   </div></section>` : ''}
 

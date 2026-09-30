@@ -82,8 +82,8 @@
      {
       "result": "L",
       "round": "South Second Round",
-      "pts": 65,
-      "opp_pts": 51,
+      "pts": 51,
+      "opp_pts": 65,
       "opp_seed": 4,
       "opp_name": "Tennessee",
       "box_slug": "2000-03-19-connecticut",
@@ -3430,7 +3430,7 @@
    "site": "neutral",
    "opp_seed": 12,
    "round": "South First Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 35,
@@ -3455,7 +3455,7 @@
    "site": "neutral",
    "opp_seed": 4,
    "round": "South Second Round",
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

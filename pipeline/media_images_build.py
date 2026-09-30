@@ -10,7 +10,7 @@ NBA_TEAMS = ["Celtics", "Nets", "Knicks", "76ers", "Sixers", "Raptors", "Bulls",
              "Hornets", "Bobcats", "Heat", "Magic", "Wizards", "Nuggets", "Timberwolves", "Thunder", "Trail Blazers", "Blazers", "Jazz",
              "Warriors", "Clippers", "Lakers", "Suns", "Kings", "Mavericks", "Rockets", "Grizzlies", "Pelicans", "Spurs", "SuperSonics",
              "Sonics", "NBA", "G League", "WNBA"]
-UC = re.compile(r"UConn|U-Conn|Connecticut Huskies|UConn Huskies|University of Connecticut|Gampel|Storrs|Huskies", re.I)
+UC = re.compile(r"UConn|UCON\b|U-Conn|Connecticut Huskies|UConn Huskies|University of Connecticut|Gampel|Storrs|Huskies", re.I)
 WOMEN = re.compile(r"women|WNBA|Lady", re.I)
 
 def strip(s):
@@ -18,11 +18,14 @@ def strip(s):
     return re.sub(r"\s+", " ", html.unescape(s)).strip()
 
 def context(text, cats):
-    blob = text + " " + " ".join(cats)
-    if UC.search(blob) and not re.search(r"\b(NBA|Celtics|Lakers|Hornets|Bobcats|Pistons|Bulls|Heat)\b", text):
-        return "uconn"
-    if any(re.search(r"\b" + re.escape(t) + r"\b", blob) for t in NBA_TEAMS):
-        return "nba"
+    """text = filename + description (+ object name); cats = Commons categories."""
+    t = text or ""
+    if any(re.search(r"\b" + re.escape(x) + r"\b", t) for x in NBA_TEAMS): return "nba"
+    if UC.search(t): return "uconn"
+    if re.search(r"high school|McDonald's All-American|prep school", t, re.I): return "other"
+    cc = [c for c in cats if not re.search(r"men's basketball players|Alumni|births|People from|basketball players from", c, re.I)]
+    blob = " ".join(cc)
+    if any(re.search(r"\b" + re.escape(x) + r"\b", blob) for x in NBA_TEAMS): return "nba"
     if UC.search(blob): return "uconn"
     return "other"
 
@@ -95,9 +98,9 @@ for f, ts in PCAT_FILES.items():
 print("player-category files", len(PCAT_FILES), "new", len(new_titles))
 
 SEASON_RE = re.compile(r"\b(19[89]\d|20[0-2]\d)\s*[–-]\s*(\d{2,4})\b")
-GAMEPHOTOS = []
+GAMEPHOTOS = []; ALLPHOTOS = []
 PLAYER_NAMES = {re.sub(r"\s*\(.*\)", "", t): t for t in inrange}
-MEN_CAT = re.compile(r"UConn Huskies men's basketball|UConn Men's Basketball|Harry A\. Gampel Pavilion|Hugh S\. Greer Field House|UConn Huskies White House visit \(September 2024\)|^Category:(Jim Calhoun|Dan Hurley|Kevin Ollie)$", re.I)
+MEN_CAT = re.compile(r"UConn Huskies men's basketball(?! players)|UConn Men's Basketball|UConn Huskies men's and women's basketball|Harry A\. Gampel Pavilion|Hugh S\. Greer Field House|UConn Huskies White House visit \(September 2024\)|^Category:(Jim Calhoun|Dan Hurley|Kevin Ollie)$", re.I)
 WOMEN_X = re.compile(r"women|WNBA|Geno|Auriemma|Bueckers|Sue Bird|Taurasi|Lobo|Azzi|Fudd|M[üu]hl|Aaliyah|Ducharme|Maya Moore|Breanna|Tina Charles|Collier|Samuelson|Nurse|Lady", re.I)
 NOISE_X = re.compile(r"hockey|Bruins|Whale|Wolf Pack|Beanpot|football|Cyclones at UConn Huskies \(September|rally|Obama|protest|concert|NASCAR|Bargain|Frank Hurley|Hurley, (New York|Berkshire)|David Hurley|Tutu|Marsalis|circus|wrestling|WWE|soccer|lacrosse|baseball|softball|volleyball|Healey|Malloy|DeLauro|Kennedy|Murphy|Valvano|V Foundation|Shabel|Tasker", re.I)
 BASKET = re.compile(r"basketball|Gampel|Calhoun|Final Four|NCAA|Big East|parade|White House|championship", re.I)
@@ -125,10 +128,11 @@ for fn, f in files.items():
     cats = f.get("categories") or []
     via = [v for v in (f.get("found_via") or []) if not v.startswith("search:")]
     text = " ".join([fn, f.get("description") or "", f.get("object_name") or "", " ".join(cats)])
-    if WOMEN_X.search(text) and not re.search(r"men's basketball", text, re.I): continue
-    if NOISE_X.search(text + " " + " ".join(via)): continue
-    player_via = [v.replace("Category:", "") for v in via if v.replace("Category:", "") in want]
     men_cat = any(MEN_CAT.search(c) for c in cats + via)
+    if WOMEN_X.search(text) and not re.search(r"(?<!wo)men's basketball|men's and women's basketball", text, re.I): continue
+    if NOISE_X.search(text + " " + " ".join(via)) and not men_cat: continue
+    if re.search(r"\bStadium\b", text) and not re.search(r"basketball", text, re.I): continue
+    player_via = [v.replace("Category:", "") for v in via if v.replace("Category:", "") in want]
     subj = []
     for nm in PLAYER_NAMES:
         if re.search(r"\b" + re.escape(nm) + r"\b", text, re.I): subj.append(nm)
@@ -137,7 +141,7 @@ for fn, f in files.items():
     for pv in player_via:
         nm = re.sub(r"\s*\(.*\)", "", pv)
         if nm not in subj: subj.append(nm)
-    keep = men_cat or bool(player_via) or (re.search(r"men's basketball", text, re.I) and UC.search(text)) or \
+    keep = men_cat or bool(player_via) or (re.search(r"(?<!wo)men's basketball", text, re.I) and UC.search(text)) or \
            (subj and BASKET.search(text) and UC.search(text))
     if not keep: continue
     date = (f.get("date") or "")[:10]
@@ -147,7 +151,7 @@ for fn, f in files.items():
            "arena" if arena and not subj else \
            "coach" if subj and all(x in ("Jim Calhoun", "Kevin Ollie", "Dan Hurley") for x in subj) else \
            "player" if subj else "game/team"
-    ctx = context(text, cats)
+    ctx = context(" ".join([fn, f.get("description") or "", f.get("object_name") or ""]), cats)
     rec = {"file": fn, "image_url": f["image_url"], "thumb_url": f.get("thumb_url"), "file_page": f.get("file_page"),
            "license": f.get("license"), "license_url": f.get("license_url"), "author": f.get("author"), "credit": f.get("credit"),
            "description": f.get("description") or f.get("object_name"), "date": f.get("date"), "width": f.get("width"), "height": f.get("height"),
@@ -159,13 +163,18 @@ for fn, f in files.items():
         rec["verify"] = True; rec["verify_reason"] = f"license '{f.get('license')}' needs review"
     if ctx == "other" and kind in ("game/team",):
         rec["verify"] = True; rec["verify_reason"] = (rec.get("verify_reason", "") + "; " if rec.get("verify_reason") else "") + "UConn link inferred only from category/search"
-    GAMEPHOTOS.append(rec)
+    ALLPHOTOS.append(rec)
+    if ctx == "uconn" or kind in ("arena",):
+        GAMEPHOTOS.append(rec)
 
 # attach UConn-context extra photos to each player record
 for pr in player_imgs + no_free:
     extras = [ {"file_page": g["file_page"], "thumb_url": g["thumb_url"], "image_url": g["image_url"], "license": g["license"], "author": g["author"], "context": g["context"], "date": g["date"]}
-               for g in GAMEPHOTOS if pr["player_name"] in g["subjects"] and g["file_page"] != pr.get("file_page")]
+               for g in ALLPHOTOS if pr["player_name"] in g["subjects"] and g["file_page"] != pr.get("file_page")]
     pr["more_photos"] = sorted(extras, key=lambda e: e["context"] != "uconn")[:12]
+    if pr.get("context") != "uconn":
+        bu = next((e for e in pr["more_photos"] if e["context"] == "uconn"), None)
+        if bu: pr["best_uconn_photo"] = bu
     if not pr.get("image_url"):
         uc = [e for e in extras if e["context"] == "uconn"] or extras
         if uc:

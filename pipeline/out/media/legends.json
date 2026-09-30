@@ -59,7 +59,15 @@
     "https://en.wikipedia.org/wiki/Jim_Calhoun",
     "https://en.wikipedia.org/wiki/UConn_Huskies_men%27s_basketball"
    ],
-   "image": null
+   "image": {
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Jim_Calhoun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Jim_Calhoun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Jim_Calhoun.jpg",
+    "license": "Public domain",
+    "author": "en:User:Grondemar",
+    "context": "uconn",
+    "caption_or_description": "en:Jim Calhoun , head basketball coach, en:University of Connecticut . Location : Archbishop Spalding High School in Severn, Maryland"
+   }
   },
   {
    "name": "Kevin Ollie",
@@ -88,7 +96,15 @@
     "https://en.wikipedia.org/wiki/Kevin_Ollie",
     "https://en.wikipedia.org/wiki/UConn_Huskies_men%27s_basketball"
    ],
-   "image": null
+   "image": {
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Kevin_Ollie_140507-D-HU462-369_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Kevin_Ollie_140507-D-HU462-369_%28cropped%29.jpg/960px-Kevin_Ollie_140507-D-HU462-369_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Kevin_Ollie_140507-D-HU462-369_(cropped).jpg",
+    "license": "Public domain",
+    "author": "Chairman of the Joint Chiefs of Staff",
+    "context": "uconn",
+    "caption_or_description": "Kevin Ollie, Connecticut Huskies men's basketball head coach, speaking at the Sports Leadership Seminar at the Pentagon, May 2014"
+   }
   },
   {
    "name": "Dan Hurley",
@@ -125,7 +141,15 @@
     "https://en.wikipedia.org/wiki/Dan_Hurley",
     "https://en.wikipedia.org/wiki/UConn_Huskies_men%27s_basketball"
    ],
-   "image": null
+   "image": {
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/HurleyWH2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/HurleyWH2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "file_page": "https://commons.wikimedia.org/wiki/File:HurleyWH2024.jpg",
+    "license": "Public domain",
+    "author": "The White House",
+    "context": "uconn",
+    "caption_or_description": "President Joe Biden and University of Connecticut men’s basketball head coach Dan Hurley walk into the East Room for an event celebrating the Huskies' 2023-2024 NCAA Championship, Tuesday, September 10, 2024, at the White House. (Official White House Photo by Adam Schultz)"
+   }
   }
  ],
  "national_championships": [
@@ -139,7 +163,7 @@
    "path": [
     {
      "round": "First Round",
-     "date": "1999-03-12",
+     "date": "1999-03-11",
      "opponent": "UTSA",
      "opponent_seed": "16 W",
      "result": "W",
@@ -148,7 +172,7 @@
     },
     {
      "round": "Second Round",
-     "date": "1999-03-14",
+     "date": "1999-03-13",
      "opponent": "New Mexico",
      "opponent_seed": "9 W",
      "result": "W",
@@ -166,7 +190,7 @@
     },
     {
      "round": "Elite Eight",
-     "date": "1999-03-21",
+     "date": "1999-03-20",
      "opponent": "Gonzaga",
      "opponent_seed": "10 W",
      "result": "W",
@@ -175,7 +199,7 @@
     },
     {
      "round": "Final Four",
-     "date": "1999-03-28",
+     "date": "1999-03-27",
      "opponent": "Ohio State",
      "opponent_seed": "4 S",
      "result": "W",
@@ -587,7 +611,7 @@
    "games": [
     {
      "round": "Final Four",
-     "date": "1999-03-28",
+     "date": "1999-03-27",
      "opponent": "Ohio State",
      "opponent_seed": "4 S",
      "result": "W",

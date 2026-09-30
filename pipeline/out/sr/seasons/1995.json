@@ -90,8 +90,8 @@
      {
       "result": "L",
       "round": "West Regional Final",
-      "pts": 102,
-      "opp_pts": 96,
+      "pts": 96,
+      "opp_pts": 102,
       "opp_seed": 1,
       "opp_name": "UCLA",
       "box_slug": "1995-03-25-connecticut",
@@ -3141,7 +3141,7 @@
    "site": "neutral",
    "opp_seed": 15,
    "round": "West First Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 31,
@@ -3166,7 +3166,7 @@
    "site": "neutral",
    "opp_seed": 7,
    "round": "West Second Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 32,
@@ -3191,7 +3191,7 @@
    "site": "neutral",
    "opp_seed": 3,
    "round": "West Regional Semifinal",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 33,
@@ -3216,7 +3216,7 @@
    "site": "neutral",
    "opp_seed": 1,
    "round": "West Regional Final",
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

@@ -90,8 +90,8 @@
      {
       "result": "L",
       "round": "East Regional Final",
-      "pts": 90,
-      "opp_pts": 82,
+      "pts": 82,
+      "opp_pts": 90,
       "opp_seed": 1,
       "opp_name": "Maryland",
       "box_slug": "2002-03-24-connecticut",
@@ -4559,7 +4559,7 @@
    "date": "2002-01-10",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 13,
@@ -4998,7 +4998,7 @@
    "site": "neutral",
    "opp_seed": 15,
    "round": "East First Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 32,
@@ -5023,7 +5023,7 @@
    "site": "neutral",
    "opp_seed": 7,
    "round": "East Second Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 33,
@@ -5048,7 +5048,7 @@
    "site": "neutral",
    "opp_seed": 11,
    "round": "East Regional Semifinal",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 34,
@@ -5073,7 +5073,7 @@
    "site": "neutral",
    "opp_seed": 1,
    "round": "East Regional Final",
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

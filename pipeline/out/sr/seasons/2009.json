@@ -101,8 +101,8 @@
      {
       "result": "L",
       "round": "National Semifinal",
-      "pts": 82,
-      "opp_pts": 73,
+      "pts": 73,
+      "opp_pts": 82,
       "opp_seed": 2,
       "opp_name": "Michigan State",
       "box_slug": "2009-04-04-connecticut",
@@ -4611,7 +4611,7 @@
    "date": "2008-11-14",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 2,
@@ -4635,7 +4635,7 @@
    "date": "2008-11-17",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 3,
@@ -4659,7 +4659,7 @@
    "date": "2008-11-21",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 4,
@@ -4683,7 +4683,7 @@
    "date": "2008-11-23",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 5,
@@ -4707,7 +4707,7 @@
    "date": "2008-11-24",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 6,
@@ -4731,7 +4731,7 @@
    "date": "2008-11-29",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 7,
@@ -4755,7 +4755,7 @@
    "date": "2008-12-01",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 8,
@@ -4779,7 +4779,7 @@
    "date": "2008-12-04",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 9,
@@ -4803,7 +4803,7 @@
    "date": "2008-12-15",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 10,
@@ -4827,7 +4827,7 @@
    "date": "2008-12-20",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 11,
@@ -4851,7 +4851,7 @@
    "date": "2008-12-26",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 12,
@@ -4875,7 +4875,7 @@
    "date": "2008-12-29",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 13,
@@ -4899,7 +4899,7 @@
    "date": "2009-01-03",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 14,
@@ -4923,7 +4923,7 @@
    "date": "2009-01-06",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 15,
@@ -4947,7 +4947,7 @@
    "date": "2009-01-10",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 16,
@@ -4971,7 +4971,7 @@
    "date": "2009-01-15",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 17,
@@ -4995,7 +4995,7 @@
    "date": "2009-01-18",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 18,
@@ -5019,7 +5019,7 @@
    "date": "2009-01-21",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 19,
@@ -5043,7 +5043,7 @@
    "date": "2009-01-24",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 20,
@@ -5067,7 +5067,7 @@
    "date": "2009-01-28",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 21,
@@ -5091,7 +5091,7 @@
    "date": "2009-01-31",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 22,
@@ -5115,7 +5115,7 @@
    "date": "2009-02-02",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 23,
@@ -5139,7 +5139,7 @@
    "date": "2009-02-07",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 24,
@@ -5163,7 +5163,7 @@
    "date": "2009-02-11",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 25,
@@ -5187,7 +5187,7 @@
    "date": "2009-02-14",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 26,
@@ -5211,7 +5211,7 @@
    "date": "2009-02-16",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 27,
@@ -5235,7 +5235,7 @@
    "date": "2009-02-21",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 28,
@@ -5259,7 +5259,7 @@
    "date": "2009-02-25",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 29,
@@ -5283,7 +5283,7 @@
    "date": "2009-02-28",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 30,
@@ -5330,7 +5330,7 @@
    "date": "2009-03-12",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 32,
@@ -5355,7 +5355,7 @@
    "site": "neutral",
    "opp_seed": 16,
    "round": "West First Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 33,
@@ -5380,7 +5380,7 @@
    "site": "neutral",
    "opp_seed": 9,
    "round": "West Second Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 34,
@@ -5405,7 +5405,7 @@
    "site": "neutral",
    "opp_seed": 5,
    "round": "West Regional Semifinal",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 35,
@@ -5430,7 +5430,7 @@
    "site": "neutral",
    "opp_seed": 3,
    "round": "West Regional Final",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 36,
@@ -5455,7 +5455,7 @@
    "site": "neutral",
    "opp_seed": 2,
    "round": "National Semifinal",
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

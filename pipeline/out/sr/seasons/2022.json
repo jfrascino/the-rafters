@@ -73,8 +73,8 @@
      {
       "result": "L",
       "round": "West First Round",
-      "pts": 70,
-      "opp_pts": 63,
+      "pts": 63,
+      "opp_pts": 70,
       "opp_seed": 12,
       "opp_name": "New Mexico State",
       "box_slug": "2022-03-17-18-connecticut",
@@ -5135,7 +5135,7 @@
    "date": "2021-11-09",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 2,
@@ -5160,7 +5160,7 @@
    "date": "2021-11-13",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 3,
@@ -5185,7 +5185,7 @@
    "date": "2021-11-17",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 4,
@@ -5210,7 +5210,7 @@
    "date": "2021-11-20",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 5,
@@ -5235,7 +5235,7 @@
    "date": "2021-11-24",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 6,
@@ -5260,7 +5260,7 @@
    "date": "2021-11-25",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 7,
@@ -5285,7 +5285,7 @@
    "date": "2021-11-26",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 8,
@@ -5310,7 +5310,7 @@
    "date": "2021-11-30",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 9,
@@ -5335,7 +5335,7 @@
    "date": "2021-12-04",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 10,
@@ -5360,7 +5360,7 @@
    "date": "2021-12-08",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 11,
@@ -5385,7 +5385,7 @@
    "date": "2021-12-11",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 12,
@@ -5410,7 +5410,7 @@
    "date": "2021-12-18",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 13,
@@ -5435,7 +5435,7 @@
    "date": "2021-12-21",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 14,
@@ -5460,7 +5460,7 @@
    "date": "2022-01-08",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 15,
@@ -5485,7 +5485,7 @@
    "date": "2022-01-12",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 16,
@@ -5510,7 +5510,7 @@
    "date": "2022-01-18",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 17,
@@ -5535,7 +5535,7 @@
    "date": "2022-01-20",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 18,
@@ -5560,7 +5560,7 @@
    "date": "2022-01-25",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 19,
@@ -5585,7 +5585,7 @@
    "date": "2022-01-29",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 20,
@@ -5610,7 +5610,7 @@
    "date": "2022-02-01",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 21,
@@ -5635,7 +5635,7 @@
    "date": "2022-02-05",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 22,
@@ -5660,7 +5660,7 @@
    "date": "2022-02-08",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 23,
@@ -5685,7 +5685,7 @@
    "date": "2022-02-11",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 24,
@@ -5710,7 +5710,7 @@
    "date": "2022-02-13",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 25,
@@ -5735,7 +5735,7 @@
    "date": "2022-02-16",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 26,
@@ -5760,7 +5760,7 @@
    "date": "2022-02-19",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 27,
@@ -5785,7 +5785,7 @@
    "date": "2022-02-22",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 28,
@@ -5810,7 +5810,7 @@
    "date": "2022-02-27",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 29,
@@ -5835,7 +5835,7 @@
    "date": "2022-03-02",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 30,
@@ -5860,7 +5860,7 @@
    "date": "2022-03-05",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 31,
@@ -5885,7 +5885,7 @@
    "date": "2022-03-10",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 32,
@@ -5910,7 +5910,7 @@
    "date": "2022-03-11",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 33,
@@ -5936,7 +5936,7 @@
    "site": "neutral",
    "opp_seed": 12,
    "round": "West First Round",
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

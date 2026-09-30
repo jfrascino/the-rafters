@@ -90,8 +90,8 @@
      {
       "result": "L",
       "round": "Washington Regional Final",
-      "pts": 86,
-      "opp_pts": 84,
+      "pts": 84,
+      "opp_pts": 86,
       "opp_seed": 11,
       "opp_name": "George Mason",
       "box_slug": "2006-03-26-connecticut",
@@ -4107,7 +4107,7 @@
    "date": "2005-11-18",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 2,
@@ -4131,7 +4131,7 @@
    "date": "2005-11-21",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 3,
@@ -4155,7 +4155,7 @@
    "date": "2005-11-22",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 4,
@@ -4179,7 +4179,7 @@
    "date": "2005-11-23",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 5,
@@ -4226,7 +4226,7 @@
    "date": "2005-12-02",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 7,
@@ -4250,7 +4250,7 @@
    "date": "2005-12-08",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 8,
@@ -4274,7 +4274,7 @@
    "date": "2005-12-18",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 9,
@@ -4298,7 +4298,7 @@
    "date": "2005-12-23",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 10,
@@ -4322,7 +4322,7 @@
    "date": "2005-12-28",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 11,
@@ -4346,7 +4346,7 @@
    "date": "2005-12-30",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 12,
@@ -4370,7 +4370,7 @@
    "date": "2006-01-03",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 13,
@@ -4394,7 +4394,7 @@
    "date": "2006-01-07",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 14,
@@ -4418,7 +4418,7 @@
    "date": "2006-01-09",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 15,
@@ -4442,7 +4442,7 @@
    "date": "2006-01-14",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 16,
@@ -4466,7 +4466,7 @@
    "date": "2006-01-16",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 17,
@@ -4490,7 +4490,7 @@
    "date": "2006-01-21",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 18,
@@ -4514,7 +4514,7 @@
    "date": "2006-01-25",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 19,
@@ -4538,7 +4538,7 @@
    "date": "2006-01-28",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 20,
@@ -4562,7 +4562,7 @@
    "date": "2006-01-31",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 21,
@@ -4586,7 +4586,7 @@
    "date": "2006-02-04",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 22,
@@ -4610,7 +4610,7 @@
    "date": "2006-02-08",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 23,
@@ -4634,7 +4634,7 @@
    "date": "2006-02-11",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 24,
@@ -4658,7 +4658,7 @@
    "date": "2006-02-13",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 25,
@@ -4682,7 +4682,7 @@
    "date": "2006-02-18",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 26,
@@ -4706,7 +4706,7 @@
    "date": "2006-02-21",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 27,
@@ -4730,7 +4730,7 @@
    "date": "2006-02-26",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 28,
@@ -4754,7 +4754,7 @@
    "date": "2006-03-01",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 29,
@@ -4778,7 +4778,7 @@
    "date": "2006-03-04",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 30,
@@ -4802,7 +4802,7 @@
    "date": "2006-03-09",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 31,
@@ -4827,7 +4827,7 @@
    "site": "neutral",
    "opp_seed": 16,
    "round": "Washington First Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 32,
@@ -4852,7 +4852,7 @@
    "site": "neutral",
    "opp_seed": 8,
    "round": "Washington Second Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 33,
@@ -4877,7 +4877,7 @@
    "site": "neutral",
    "opp_seed": 5,
    "round": "Washington Regional Semifinal",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 34,
@@ -4902,7 +4902,7 @@
    "site": "neutral",
    "opp_seed": 11,
    "round": "Washington Regional Final",
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

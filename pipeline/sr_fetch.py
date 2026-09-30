@@ -6,7 +6,7 @@
 - On HTTP 429: sleep 90 s and retry, max 3 retries, then raise RateLimited.
 - 404s are remembered with a <path>.404 marker so they aren't re-requested.
 """
-import os, time, gzip, urllib.request, urllib.error
+import os, time, gzip, http.client, urllib.request, urllib.error
 from urllib.parse import urlparse
 
 BASE = "https://www.sports-reference.com"
@@ -87,12 +87,12 @@ def fetch(url, force=False, log=print):
                 open(cp + ".404", "w").close()
                 raise NotFound(url)
             raise
-        except (urllib.error.URLError, TimeoutError) as e:
+        except (urllib.error.URLError, TimeoutError, OSError, http.client.HTTPException) as e:
             retries += 1
             if retries > 3:
                 raise
-            log(f"  network error {e} on {url}; sleeping 20s")
-            time.sleep(20)
+            log(f"  network error {e!r} on {url}; sleeping 30s (retry {retries}/3)")
+            time.sleep(30)
     os.makedirs(os.path.dirname(cp), exist_ok=True)
     tmp = cp + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:

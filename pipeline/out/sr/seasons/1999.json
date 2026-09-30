@@ -3135,7 +3135,7 @@
    "site": "neutral",
    "opp_seed": 16,
    "round": "West First Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 32,
@@ -3160,7 +3160,7 @@
    "site": "neutral",
    "opp_seed": 9,
    "round": "West Second Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 33,
@@ -3185,7 +3185,7 @@
    "site": "neutral",
    "opp_seed": 5,
    "round": "West Regional Semifinal",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 34,
@@ -3210,7 +3210,7 @@
    "site": "neutral",
    "opp_seed": 10,
    "round": "West Regional Final",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 35,
@@ -3235,7 +3235,7 @@
    "site": "neutral",
    "opp_seed": 4,
    "round": "National Semifinal",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 36,

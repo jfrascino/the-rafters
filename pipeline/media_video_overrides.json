@@ -1,0 +1,1050 @@
+{
+ "reject": [
+  "mX_pR1Hx1pw",
+  "qJWI5CwV5Ew",
+  "Rp6304hMZyo",
+  "d3MxlYzJpcc",
+  "wGW86milg9w",
+  "DEugL3AiPdQ",
+  "PFu7Qvw8w18",
+  "SyPL0luEHPs",
+  "7a_qDVoDx1Y",
+  "3wEYkwoMles",
+  "xdJsBc12-eA",
+  "fkJszXAen0Q",
+  "oJIgZrIkzOE"
+ ],
+ "verify": {
+  "NO94gR3Jx6Q": "Ohio State-centric upload of 1992 rounds 1 & 2; description says it includes the UConn game — confirm timestamp.",
+  "GGjUIl1tabA": "Part 1 of 4 of the 2000 Big East final (St. John's 80, UConn 70) per description; amateur upload.",
+  "UPSilt0N15A": "Unofficial full-game upload of the 2016 4OT game; channel is generic — confirm quality.",
+  "DYTL47NwBWA": "Gazelle Group promo for the Nov. 1999 Coaches vs. Cancer event (Duke, UConn, Stanford, Iowa); not game footage.",
+  "tkrnv4oN5ZE": "Kevin Ollie introduces his 'Ten Toes In' philosophy (published Nov. 9, 2012, day of his first game)."
+ },
+ "fix": {
+  "4IyXvRInMNQ": {
+   "kind": "interview",
+   "description": "NCAA tournament news conference from the 2016 second-round site (UConn, Kansas, Indiana, Kentucky); uploaded by March Madness."
+  },
+  "pP1rNy0AfZI": {
+   "kind": "documentary",
+   "description": "Retro review of the 1990 East Regional final, Duke 79, UConn 78 (OT)."
+  },
+  "hC6D3XucWWw": {
+   "kind": "moment"
+  },
+  "ZFnG_nHkKvU": {
+   "kind": "moment"
+  },
+  "gwp5CaGMX8E": {
+   "kind": "interview"
+  },
+  "lI7tUFtFxwc": {
+   "opponent": null,
+   "result": null,
+   "score": null,
+   "date": null,
+   "round": "2011 NCAA tournament run",
+   "description": "Fan-made highlights of Kemba Walker and UConn's 2011 NCAA tournament run."
+  },
+  "N35TQuBwnl4": {
+   "opponent": null,
+   "result": null,
+   "score": null,
+   "date": null,
+   "round": "2009 NCAA tournament run",
+   "description": "Highlights of UConn's 2009 NCAA tournament run to the Final Four."
+  },
+  "BoM96ipl31Q": {
+   "opponent": null,
+   "result": null,
+   "score": null,
+   "date": null,
+   "round": "2011 Big East tournament (five games in five days)",
+   "kind": "highlights",
+   "description": "Fan-made highlights of UConn's 2011 Big East tournament title run."
+  },
+  "VmTWEDngH8A": {
+   "round": "Kemba Walker 2011 March Madness highlights",
+   "date": null,
+   "description": "Official March Madness highlight package of Kemba Walker's 2011 NCAA tournament."
+  },
+  "6UE81umg6p4": {
+   "opponent": null,
+   "result": null,
+   "score": null,
+   "date": null,
+   "round": "Ray Allen sophomore season highlights (1994–95)",
+   "players": [
+    "Ray Allen"
+   ],
+   "description": "Highlights of Ray Allen's 1994–95 sophomore season."
+  },
+  "seo5j81CHgE": {
+   "season": 2019,
+   "date": "2019-03-03",
+   "round": "Ray Allen number retirement ceremony",
+   "kind": "moment",
+   "description": "Ray Allen's No. 34 becomes the first retired number in UConn men's basketball history at Gampel Pavilion."
+  },
+  "Nhnr2bacEA8": {
+   "season": 2019,
+   "date": "2019-03-03",
+   "round": "Ray Allen number retirement ceremony",
+   "kind": "moment"
+  },
+  "revebbpfNYg": {
+   "season": 2014,
+   "date": "2014-02-23",
+   "round": "1999 team and Khalid El-Amin inducted into Huskies of Honor",
+   "kind": "moment",
+   "players": [
+    "Khalid El-Amin"
+   ],
+   "description": "The 1999 national championship team and Khalid El-Amin are inducted into the Huskies of Honor at halftime on Feb. 23, 2014."
+  },
+  "Uu0JoKSo4u8": {
+   "season": 2014,
+   "date": "2014-02-23",
+   "round": "1999 team inducted into Huskies of Honor",
+   "kind": "moment"
+  },
+  "4ax6K633n5c": {
+   "season": 2016,
+   "round": "Caron Butler Huskies of Honor tribute",
+   "kind": "moment",
+   "description": "Tribute video played at Gampel Pavilion as Caron Butler became the 24th men's basketball member of the Huskies of Honor."
+  },
+  "xFPvXscWf_s": {
+   "season": 2026,
+   "round": "Hasheem Thabeet Huskies of Honor ceremony",
+   "kind": "moment"
+  },
+  "oTxQ59sOi_8": {
+   "season": 2026,
+   "date": "2026-02-18",
+   "round": "Emeka Okafor No. 50 retired",
+   "kind": "moment"
+  },
+  "wJNP-X5PFVU": {
+   "kind": "moment",
+   "round": "2004 national championship team Huskies of Honor induction"
+  },
+  "CC4xXnBUgeM": {
+   "season": 2024,
+   "date": "2024-04-13",
+   "round": "2024 back-to-back championship parade (Hartford)",
+   "kind": "full_game",
+   "description": "NBC Connecticut coverage of the 2024 back-to-back championship parade in downtown Hartford."
+  },
+  "C95QXgQ72qI": {
+   "kind": "moment"
+  },
+  "AV5l8gXRK7Q": {
+   "season": null,
+   "kind": "interview",
+   "round": "Chris Smith interview (2026)"
+  },
+  "UVp3WWeQ848": {
+   "kind": "interview",
+   "round": "Jordan Hawkins declares for the 2023 NBA draft"
+  },
+  "P0_4zZiHB78": {
+   "kind": "documentary",
+   "round": "Stephon Castle 2024 NBA draft scouting feature"
+  },
+  "CVmyQhNyhrE": {
+   "round": "Tristen Newton full UConn season highlights (2024)"
+  },
+  "qoLoP4f8pLU": {
+   "season": 2012,
+   "date": "2012-02-20",
+   "opponent": "Villanova",
+   "result": "W",
+   "score": "73–70",
+   "round": "Regular season",
+   "kind": "moment",
+   "description": "Shabazz Napier's game-winning three beats Villanova 73–70 on Feb. 20, 2012."
+  },
+  "nllEi80WT4s": {
+   "kind": "moment",
+   "round": "2014 senior salute"
+  },
+  "vjVVbgvS2fk": {
+   "season": 2015,
+   "kind": "moment",
+   "round": "First Night 2014 (preseason kickoff)"
+  },
+  "DWCQfYEbDH8": {
+   "season": 2026,
+   "round": "PURSUIT: All-Access (2025–26 docuseries), Episode 1"
+  },
+  "yLDGCzxkxMM": {
+   "season": 2014,
+   "round": "2014 national championship run recap"
+  },
+  "w0eJxoMDWUY": {
+   "date": "2022-03-11",
+   "opponent": "Villanova",
+   "result": "L",
+   "score": "60–63",
+   "round": "Big East Tournament Semifinal",
+   "description": "Official Big East highlights of Villanova's 63–60 semifinal win over UConn at Madison Square Garden (2022)."
+  },
+  "tkrnv4oN5ZE": {
+   "kind": "interview"
+  },
+  "IpRwWrwtLXM": {
+   "kind": "interview"
+  },
+  "eTZ9J6Fb5m8": {
+   "kind": "interview"
+  },
+  "rIPGqs0oNUc": {
+   "kind": "interview"
+  },
+  "_8BYUmlPq4o": {
+   "players": [
+    "Richard Hamilton"
+   ]
+  },
+  "DYTL47NwBWA": {
+   "season": 2000,
+   "date": "1999-11",
+   "opponent": null,
+   "result": null,
+   "score": null,
+   "round": "Coaches vs. Cancer Classic 1999 (promo)",
+   "kind": "moment"
+  },
+  "fhym_iPifqU": {
+   "kind": "full_game"
+  }
+ },
+ "add": [
+  {
+   "id": "40O5zXQzuus",
+   "kind": "highlights",
+   "season": 2009,
+   "date": "2009-03-19",
+   "opponent": "Chattanooga",
+   "round": "NCAA First Round",
+   "result": "W",
+   "score": "103–47",
+   "players": [],
+   "description": "Highlights of top-seeded UConn's 103–47 first-round rout of 16th-seeded Chattanooga (2009)."
+  },
+  {
+   "id": "0u55wKsnHYw",
+   "kind": "full_game",
+   "season": 1996,
+   "date": "1996-03-21",
+   "opponent": "Mississippi State",
+   "round": "NCAA Sweet Sixteen",
+   "result": "L",
+   "score": "55–60",
+   "players": [
+    "Ray Allen"
+   ],
+   "description": "Broadcast of Mississippi State's 60–55 Sweet Sixteen win over top-seeded UConn (1996; UConn's 1996 tournament games were later vacated)."
+  },
+  {
+   "id": "_LlXAbupU8o",
+   "kind": "highlights",
+   "season": 1999,
+   "date": null,
+   "opponent": null,
+   "round": "1999 NCAA tournament run",
+   "result": null,
+   "score": null,
+   "players": [],
+   "description": "52-minute highlight compilation of UConn's 1999 national championship tournament run."
+  },
+  {
+   "id": "NTbNRCSZdLs",
+   "kind": "full_game",
+   "season": 1990,
+   "date": "1990-01-24",
+   "opponent": "Central Connecticut",
+   "round": "Final game at the Field House",
+   "result": "W",
+   "score": "99–67",
+   "players": [],
+   "description": "WPOP radio broadcast of UConn's 99–67 win over Central Connecticut on Jan. 24, 1990 — the final men's game at the Hugh S. Greer Field House before Gampel Pavilion opened."
+  },
+  {
+   "id": "tIYhr3yIavs",
+   "kind": "documentary",
+   "season": 1990,
+   "date": null,
+   "opponent": null,
+   "round": "Dream Season flashback",
+   "result": null,
+   "score": null,
+   "players": [],
+   "description": "WFSB-TV archival flashback report on UConn's 1989–90 Dream Season."
+  },
+  {
+   "id": "42D9oQ1hlM8",
+   "kind": "full_game",
+   "season": 1994,
+   "date": "1994-03-12",
+   "opponent": "Providence",
+   "round": "Big East Tournament Semifinal",
+   "result": "L",
+   "score": "67–69",
+   "players": [
+    "Donyell Marshall",
+    "Donny Marshall",
+    "Kevin Ollie",
+    "Ray Allen",
+    "Doron Sheffer"
+   ],
+   "description": "Amateur upload of Providence vs UConn (March 1994) featuring Donyell Marshall, Donny Marshall, Kevin Ollie and Ray Allen; the teams' March 1994 meeting was Providence's 69–67 Big East semifinal win.",
+   "verify": true,
+   "verify_reason": "Title gives only 'PC v UCONN 3 1994'; matched to the only March 1994 meeting."
+  },
+  {
+   "id": "SrzlkXr9rJ0",
+   "kind": "moment",
+   "season": 1994,
+   "date": null,
+   "opponent": null,
+   "round": "1994 Big East regular-season title",
+   "result": null,
+   "score": null,
+   "players": [],
+   "description": "Clip of UConn clinching the 1994 Big East regular-season championship."
+  },
+  {
+   "id": "uf2m9caXFBI",
+   "kind": "full_game",
+   "season": 1998,
+   "date": "1998-03-21",
+   "opponent": "North Carolina",
+   "round": "NCAA Elite Eight",
+   "result": "L",
+   "score": "64–75",
+   "players": [
+    "Richard Hamilton",
+    "Khalid El-Amin"
+   ],
+   "description": "Broadcast of North Carolina's 75–64 East Regional final win over UConn at the Greensboro Coliseum (March 21, 1998)."
+  },
+  {
+   "id": "phwOVE8K_-Q",
+   "kind": "highlights",
+   "season": 1996,
+   "date": "1996-03-09",
+   "opponent": "Georgetown",
+   "round": "Big East Tournament Final",
+   "result": "W",
+   "score": "75–74",
+   "players": [
+    "Ray Allen"
+   ],
+   "description": "News highlights of Ray Allen's winner in UConn's 75–74 Big East championship win over Georgetown (March 9, 1996)."
+  },
+  {
+   "id": "UHlavl88BfU",
+   "kind": "full_game",
+   "season": 1996,
+   "date": "1996-03-09",
+   "opponent": "Georgetown",
+   "round": "Big East Tournament Final",
+   "result": "W",
+   "score": "75–74",
+   "players": [
+    "Ray Allen"
+   ],
+   "description": "Full broadcast of the 1996 Big East championship game, UConn 75, Georgetown 74."
+  },
+  {
+   "id": "B24OCJQI2n8",
+   "kind": "highlights",
+   "season": 2026,
+   "date": "2025-11-15",
+   "opponent": "BYU",
+   "round": "Hall of Fame Series Boston",
+   "result": "W",
+   "score": "86–84",
+   "players": [],
+   "description": "FOX College Hoops highlights of No. 3 UConn's 86–84 win over No. 7 BYU at TD Garden (Nov. 15, 2025)."
+  },
+  {
+   "id": "mY_aB_AggjQ",
+   "kind": "highlights",
+   "season": 2024,
+   "date": "2024-03-14",
+   "opponent": "Xavier",
+   "round": "Big East Tournament Quarterfinal",
+   "result": "W",
+   "score": "87–60",
+   "players": [],
+   "description": "UCTV highlights of No. 2 UConn's 87–60 Big East quarterfinal win over Xavier (March 14, 2024)."
+  },
+  {
+   "id": "WoU85NlH3js",
+   "kind": "highlights",
+   "season": 2017,
+   "date": "2016-12-05",
+   "opponent": "Syracuse",
+   "round": "Regular season (Tire Pro Classic, MSG)",
+   "result": "W",
+   "score": "52–50",
+   "players": [
+    "Christian Vital"
+   ],
+   "description": "American Athletic Conference highlights of UConn's 52–50 win over Syracuse at Madison Square Garden (Dec. 5, 2016)."
+  },
+  {
+   "id": "xW_oZsAZSVs",
+   "kind": "highlights",
+   "season": 2017,
+   "date": "2016-12-05",
+   "opponent": "Syracuse",
+   "round": "Regular season (Tire Pro Classic, MSG)",
+   "result": "W",
+   "score": "52–50",
+   "players": [
+    "Christian Vital"
+   ],
+   "description": "Official UConn highlights: Christian Vital's two free throws with 2.2 seconds left beat Syracuse 52–50 (Dec. 5, 2016)."
+  },
+  {
+   "id": "-U21viYWM3c",
+   "kind": "full_game",
+   "season": 1997,
+   "date": "1997-01-19",
+   "opponent": "Kansas",
+   "round": "Regular season",
+   "result": "L",
+   "score": "65–73",
+   "players": [
+    "Richard Hamilton"
+   ],
+   "description": "Broadcast of Kansas vs UConn, Jan. 19, 1997 (Kansas won 73–65)."
+  },
+  {
+   "id": "Nllwi-bYG18",
+   "kind": "highlights",
+   "season": 1996,
+   "date": "1996-01-31",
+   "opponent": "Rutgers",
+   "round": "Regular season",
+   "result": "W",
+   "score": "77–59",
+   "players": [],
+   "description": "Highlights of No. 4 UConn's 77–59 win at Rutgers (Jan. 31, 1996)."
+  },
+  {
+   "id": "G9H4F1bn6QI",
+   "kind": "highlights",
+   "season": 1996,
+   "date": "1996-02-03",
+   "opponent": "St. John's",
+   "round": "Regular season",
+   "result": "W",
+   "score": "77–63",
+   "players": [],
+   "description": "Highlights of No. 4 UConn's 77–63 win over St. John's (Feb. 3, 1996)."
+  },
+  {
+   "id": "9xW8_rdJrsI",
+   "kind": "moment",
+   "season": 2016,
+   "date": "2016-03-11",
+   "opponent": "Cincinnati",
+   "round": "AAC Tournament Quarterfinal",
+   "result": "W",
+   "score": "104–97 (4OT)",
+   "players": [
+    "Jalen Adams"
+   ],
+   "description": "Official AAC clip of freshman Jalen Adams' beyond-half-court buzzer-beater that forced a fourth overtime against Cincinnati (UConn won 104–97)."
+  },
+  {
+   "id": "L5pL2Egbbhk",
+   "kind": "moment",
+   "season": 1990,
+   "date": "1990-01-27",
+   "opponent": "St. John's",
+   "round": "First game at Gampel Pavilion",
+   "result": "W",
+   "score": "72–58",
+   "players": [
+    "Scott Burrell"
+   ],
+   "description": "Clip of Scott Burrell in UConn's first game at Gampel Pavilion (72–58 over St. John's, Jan. 27, 1990)."
+  },
+  {
+   "id": "ViyKOwrCris",
+   "kind": "moment",
+   "season": 1990,
+   "date": "1990-03-22",
+   "opponent": "Clemson",
+   "round": "\"The Shot\" vs Clemson",
+   "result": "W",
+   "score": "71–70",
+   "players": [
+    "Scott Burrell",
+    "Tate George"
+   ],
+   "description": "Clip of Scott Burrell's full-court pass to Tate George for \"The Shot\" that beat Clemson 71–70 (March 22, 1990)."
+  },
+  {
+   "id": "fpNhTa76wU0",
+   "kind": "documentary",
+   "season": 1990,
+   "date": null,
+   "opponent": null,
+   "round": "Scott Burrell ESPN feature (1989)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Scott Burrell"
+   ],
+   "description": "ESPN feature on two-sport star Scott Burrell from 1989."
+  },
+  {
+   "id": "adpQ5CHKtk4",
+   "kind": "moment",
+   "season": 1993,
+   "date": "1993-03-17",
+   "opponent": "Jackson State",
+   "round": "NIT First Round preview",
+   "result": "L",
+   "score": "88–90 (OT)",
+   "players": [],
+   "description": "Jackson State local TV news preview of its 1993 NIT game at UConn (Jackson State won 90–88 in OT).",
+   "verify": true,
+   "verify_reason": "Local news preview clip, not game footage; date taken from 1993 NIT first round."
+  },
+  {
+   "id": "0TfnOzCMG84",
+   "kind": "documentary",
+   "season": 1992,
+   "date": null,
+   "opponent": null,
+   "round": "1991–92 freshman class preview",
+   "result": null,
+   "score": null,
+   "players": [
+    "Donyell Marshall",
+    "Kevin Ollie",
+    "Donny Marshall"
+   ],
+   "description": "Preview of UConn's 1991–92 freshman class: Donyell Marshall, Kevin Ollie, Donny Marshall and more."
+  },
+  {
+   "id": "1ApAwOQj9Z0",
+   "kind": "highlights",
+   "season": 1994,
+   "date": null,
+   "opponent": null,
+   "round": "Donyell Marshall junior season (1993–94)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Donyell Marshall"
+   ],
+   "description": "Season highlight reel of Donyell Marshall's 1993–94 Big East Player of the Year season."
+  },
+  {
+   "id": "N7JYFy7UVgU",
+   "kind": "documentary",
+   "season": 1994,
+   "date": null,
+   "opponent": null,
+   "round": "ESPN on Donyell Marshall (1994)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Donyell Marshall"
+   ],
+   "description": "ESPN feature on UConn's Donyell Marshall from 1994."
+  },
+  {
+   "id": "7qWtfoS6p9Y",
+   "kind": "highlights",
+   "season": 1991,
+   "date": null,
+   "opponent": null,
+   "round": "Chris Smith junior season (1990–91)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Chris Smith"
+   ],
+   "description": "Season highlight reel of Chris Smith's 1990–91 junior season."
+  },
+  {
+   "id": "xWhgeyirqW4",
+   "kind": "highlights",
+   "season": 1990,
+   "date": null,
+   "opponent": null,
+   "round": "Chris Smith freshman & sophomore seasons (1988–90)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Chris Smith"
+   ],
+   "description": "Highlight reel of Chris Smith's first two UConn seasons, including the Dream Season."
+  },
+  {
+   "id": "v05s1_7kVEQ",
+   "kind": "highlights",
+   "season": 1997,
+   "date": null,
+   "opponent": null,
+   "round": "Richard Hamilton freshman season (1996–97)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Richard Hamilton"
+   ],
+   "description": "Season highlight reel of Rip Hamilton's 1996–97 freshman season."
+  },
+  {
+   "id": "HrrOn7jnHPU",
+   "kind": "highlights",
+   "season": 1998,
+   "date": null,
+   "opponent": null,
+   "round": "Khalid El-Amin freshman season (1997–98)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Khalid El-Amin"
+   ],
+   "description": "Season highlight reel of Khalid El-Amin's Big East Rookie of the Year season."
+  },
+  {
+   "id": "7WE7y_PXy6w",
+   "kind": "interview",
+   "season": 1998,
+   "date": null,
+   "opponent": null,
+   "round": "Khalid El-Amin ESPN interview (1997)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Khalid El-Amin"
+   ],
+   "description": "ESPN interview with UConn freshman Khalid El-Amin, 1997."
+  },
+  {
+   "id": "f3oFWL1KPEo",
+   "kind": "highlights",
+   "season": 1999,
+   "date": null,
+   "opponent": null,
+   "round": "Khalid El-Amin sophomore season (1998–99)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Khalid El-Amin"
+   ],
+   "description": "Season highlight reel of Khalid El-Amin's 1998–99 national championship season."
+  },
+  {
+   "id": "vaZzgAx6-bw",
+   "kind": "highlights",
+   "season": 1999,
+   "date": null,
+   "opponent": null,
+   "round": "Ricky Moore senior season (1998–99)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Ricky Moore"
+   ],
+   "description": "Season highlight reel of Ricky Moore's 1998–99 senior season."
+  },
+  {
+   "id": "_tsu4f5t73c",
+   "kind": "highlights",
+   "season": 2000,
+   "date": null,
+   "opponent": null,
+   "round": "Khalid El-Amin junior season (1999–2000)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Khalid El-Amin"
+   ],
+   "description": "Season highlight reel of Khalid El-Amin's 1999–2000 junior season."
+  },
+  {
+   "id": "sA6sYtsL_hY",
+   "kind": "highlights",
+   "season": 2001,
+   "date": null,
+   "opponent": null,
+   "round": "Caron Butler freshman season (2000–01)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Caron Butler"
+   ],
+   "description": "Season highlight reel of Caron Butler's 2000–01 freshman season."
+  },
+  {
+   "id": "DeZSqZL-8k4",
+   "kind": "highlights",
+   "season": 2001,
+   "date": null,
+   "opponent": null,
+   "round": "Taliek Brown freshman season (2000–01)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Taliek Brown"
+   ],
+   "description": "Season highlight reel of Taliek Brown's 2000–01 freshman season."
+  },
+  {
+   "id": "hk0K8-SyHr0",
+   "kind": "highlights",
+   "season": 2001,
+   "date": null,
+   "opponent": null,
+   "round": "Albert Mouring senior season (2000–01)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Albert Mouring"
+   ],
+   "description": "Season highlight reel of Albert Mouring's 2000–01 senior season."
+  },
+  {
+   "id": "viFwX6SopVY",
+   "kind": "highlights",
+   "season": 2002,
+   "date": null,
+   "opponent": null,
+   "round": "Caron Butler sophomore season (2001–02)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Caron Butler"
+   ],
+   "description": "Season highlight reel of Caron Butler's 2001–02 Big East co-Player of the Year season."
+  },
+  {
+   "id": "HnJtUIdot7w",
+   "kind": "highlights",
+   "season": 2004,
+   "date": null,
+   "opponent": null,
+   "round": "Rashad Anderson sophomore season (2003–04)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Rashad Anderson"
+   ],
+   "description": "Season highlight reel of Rashad Anderson's 2003–04 season."
+  },
+  {
+   "id": "-fUd5gFski4",
+   "kind": "highlights",
+   "season": 2005,
+   "date": null,
+   "opponent": null,
+   "round": "2004–05 season highlights",
+   "result": null,
+   "score": null,
+   "players": [],
+   "description": "Fan-made 2004–05 UConn season highlight video."
+  },
+  {
+   "id": "yCKxQZN6SL8",
+   "kind": "highlights",
+   "season": 2006,
+   "date": null,
+   "opponent": null,
+   "round": "2005–06 season highlights",
+   "result": null,
+   "score": null,
+   "players": [],
+   "description": "2005–06 UConn season highlight reel."
+  },
+  {
+   "id": "hZLuJKf1sEQ",
+   "kind": "highlights",
+   "season": 2006,
+   "date": null,
+   "opponent": null,
+   "round": "2005–06 season highlights (fan video)",
+   "result": null,
+   "score": null,
+   "players": [],
+   "description": "Fan-made 2006 UConn season highlight video."
+  },
+  {
+   "id": "DJ0-PUzhC1k",
+   "kind": "highlights",
+   "season": 2007,
+   "date": null,
+   "opponent": null,
+   "round": "Jeff Adrien sophomore season (2006–07)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Jeff Adrien"
+   ],
+   "description": "Season highlight reel of Jeff Adrien's 2006–07 season."
+  },
+  {
+   "id": "iB9lNoqdWCo",
+   "kind": "highlights",
+   "season": 2007,
+   "date": null,
+   "opponent": null,
+   "round": "A.J. Price sophomore season (2006–07)",
+   "result": null,
+   "score": null,
+   "players": [
+    "A. J. Price"
+   ],
+   "description": "Season highlight reel of A.J. Price's 2006–07 return season."
+  },
+  {
+   "id": "_xKYeyIE1j4",
+   "kind": "highlights",
+   "season": 2007,
+   "date": null,
+   "opponent": null,
+   "round": "Jerome Dyson freshman season (2006–07)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Jerome Dyson"
+   ],
+   "description": "Season highlight reel of Jerome Dyson's 2006–07 freshman season."
+  },
+  {
+   "id": "Sz1_Osmn-Zo",
+   "kind": "highlights",
+   "season": 2007,
+   "date": null,
+   "opponent": null,
+   "round": "Stanley Robinson freshman season (2006–07)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Stanley Robinson"
+   ],
+   "description": "Season highlight reel of Stanley Robinson's 2006–07 freshman season."
+  },
+  {
+   "id": "Xg-d639IlPQ",
+   "kind": "highlights",
+   "season": 2017,
+   "date": null,
+   "opponent": null,
+   "round": "Jalen Adams sophomore season (2016–17)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Jalen Adams"
+   ],
+   "description": "Season highlight reel of Jalen Adams' 2016–17 first-team All-AAC season."
+  },
+  {
+   "id": "d6PJfydZCrg",
+   "kind": "highlights",
+   "season": 2017,
+   "date": null,
+   "opponent": null,
+   "round": "Christian Vital freshman season (2016–17)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Christian Vital"
+   ],
+   "description": "Season highlight reel of Christian Vital's 2016–17 freshman season."
+  },
+  {
+   "id": "dBIHuNuk4oU",
+   "kind": "highlights",
+   "season": 2018,
+   "date": null,
+   "opponent": null,
+   "round": "Jalen Adams junior season (2017–18)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Jalen Adams"
+   ],
+   "description": "Season highlight reel of Jalen Adams' 2017–18 junior season."
+  },
+  {
+   "id": "E8PP-TQ6jso",
+   "kind": "highlights",
+   "season": 2018,
+   "date": null,
+   "opponent": null,
+   "round": "Christian Vital sophomore season (2017–18)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Christian Vital"
+   ],
+   "description": "Season highlight reel of Christian Vital's 2017–18 sophomore season."
+  },
+  {
+   "id": "roDnLKQqstk",
+   "kind": "highlights",
+   "season": 2018,
+   "date": "2017-11-19",
+   "opponent": "Boston University",
+   "round": "Regular season",
+   "result": "W",
+   "score": "85–66",
+   "players": [
+    "Christian Vital"
+   ],
+   "description": "Christian Vital's career-high 30 points in UConn's 85–66 win over Boston University (Nov. 19, 2017)."
+  },
+  {
+   "id": "3kN1QEoNsiE",
+   "kind": "highlights",
+   "season": 2018,
+   "date": "2017-11-23",
+   "opponent": "Oregon",
+   "round": "Regular season",
+   "result": "W",
+   "score": "71–63",
+   "players": [
+    "Jalen Adams"
+   ],
+   "description": "Jalen Adams highlights from UConn's 71–63 win over Oregon (Nov. 23, 2017)."
+  },
+  {
+   "id": "KA9q53vaR-k",
+   "kind": "highlights",
+   "season": 2019,
+   "date": null,
+   "opponent": null,
+   "round": "Christian Vital junior season (2018–19)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Christian Vital"
+   ],
+   "description": "Season highlight reel of Christian Vital's 2018–19 season."
+  },
+  {
+   "id": "2l60kbPuMP8",
+   "kind": "highlights",
+   "season": 2020,
+   "date": null,
+   "opponent": null,
+   "round": "Christian Vital senior season (2019–20)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Christian Vital"
+   ],
+   "description": "Season highlight reel of Christian Vital's 2019–20 senior season."
+  },
+  {
+   "id": "-bmka9iOT2I",
+   "kind": "interview",
+   "season": 1987,
+   "date": null,
+   "opponent": null,
+   "round": "Interview with Jim Calhoun (1987)",
+   "result": null,
+   "score": null,
+   "players": [
+    "Jim Calhoun"
+   ],
+   "description": "Archival 1987 interview with Jim Calhoun early in his UConn tenure.",
+   "verify": true,
+   "verify_reason": "Dated only '1987' — could be from the 1986–87 or 1987–88 season."
+  },
+  {
+   "id": "XlHYb-SoSOg",
+   "kind": "documentary",
+   "season": null,
+   "date": null,
+   "opponent": null,
+   "round": "This Is UConn: The Story of College Basketball's New Kings",
+   "result": null,
+   "score": null,
+   "players": [],
+   "description": "Independent documentary on how UConn became college basketball's modern power."
+  },
+  {
+   "id": "L9h911hRyg8",
+   "kind": "documentary",
+   "season": null,
+   "date": null,
+   "opponent": null,
+   "round": "The Jim Calhoun Way",
+   "result": null,
+   "score": null,
+   "players": [
+    "Jim Calhoun"
+   ],
+   "description": "Independent documentary-style profile of Jim Calhoun's coaching career.",
+   "verify": true,
+   "verify_reason": "Unofficial upload; confirm production source."
+  },
+  {
+   "id": "UHlR3JUDJ5I",
+   "kind": "highlights",
+   "season": 2024,
+   "date": null,
+   "opponent": null,
+   "round": "2023–24 best plays of the year",
+   "result": null,
+   "score": null,
+   "players": [],
+   "description": "Best plays of UConn's 2023–24 national championship season."
+  },
+  {
+   "id": "14qBmYnKdWg",
+   "kind": "interview",
+   "season": 2027,
+   "date": null,
+   "opponent": null,
+   "round": "Early 2026–27 preview with Dan Hurley",
+   "result": null,
+   "score": null,
+   "players": [
+    "Dan Hurley"
+   ],
+   "description": "CBS Sports College Basketball summer preview of UConn's 2026–27 team with Dan Hurley."
+  },
+  {
+   "id": "m6eIxGJ3ycY",
+   "kind": "interview",
+   "season": 2027,
+   "date": null,
+   "opponent": null,
+   "round": "Hurley reflects on 2026 run, previews 2026–27",
+   "result": null,
+   "score": null,
+   "players": [
+    "Dan Hurley"
+   ],
+   "description": "CBS Sports College Basketball interview: Dan Hurley reflects on the 2026 title-game run and looks ahead to 2026–27."
+  },
+  {
+   "id": "mvfFxau4qH4",
+   "kind": "moment",
+   "season": 2027,
+   "date": null,
+   "opponent": null,
+   "round": "2026–27 Big East schedule revealed",
+   "result": null,
+   "score": null,
+   "players": [],
+   "description": "WFSB report on UConn's 2026–27 Big East schedule."
+  }
+ ]
+}

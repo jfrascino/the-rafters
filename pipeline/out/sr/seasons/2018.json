@@ -5441,7 +5441,7 @@
    "date": "2017-11-10",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 2,
@@ -5466,7 +5466,7 @@
    "date": "2017-11-14",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 3,
@@ -5491,7 +5491,7 @@
    "date": "2017-11-19",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 4,
@@ -5516,7 +5516,7 @@
    "date": "2017-11-23",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 5,
@@ -5541,7 +5541,7 @@
    "date": "2017-11-25",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 6,
@@ -5566,7 +5566,7 @@
    "date": "2017-11-26",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 7,
@@ -5591,7 +5591,7 @@
    "date": "2017-11-29",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 8,
@@ -5616,7 +5616,7 @@
    "date": "2017-12-02",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 9,
@@ -5641,7 +5641,7 @@
    "date": "2017-12-05",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 10,
@@ -5666,7 +5666,7 @@
    "date": "2017-12-09",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 11,
@@ -5691,7 +5691,7 @@
    "date": "2017-12-21",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 12,
@@ -5716,7 +5716,7 @@
    "date": "2017-12-23",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 13,
@@ -5741,7 +5741,7 @@
    "date": "2017-12-30",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 14,
@@ -5766,7 +5766,7 @@
    "date": "2018-01-03",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 15,
@@ -5791,7 +5791,7 @@
    "date": "2018-01-06",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 16,
@@ -5816,7 +5816,7 @@
    "date": "2018-01-10",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 17,
@@ -5841,7 +5841,7 @@
    "date": "2018-01-13",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 18,
@@ -5866,7 +5866,7 @@
    "date": "2018-01-16",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 19,
@@ -5891,7 +5891,7 @@
    "date": "2018-01-20",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 20,
@@ -5916,7 +5916,7 @@
    "date": "2018-01-25",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 21,
@@ -5941,7 +5941,7 @@
    "date": "2018-01-28",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 22,
@@ -5966,7 +5966,7 @@
    "date": "2018-01-31",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 23,
@@ -5991,7 +5991,7 @@
    "date": "2018-02-03",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 24,
@@ -6016,7 +6016,7 @@
    "date": "2018-02-07",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 25,
@@ -6041,7 +6041,7 @@
    "date": "2018-02-10",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 26,
@@ -6066,7 +6066,7 @@
    "date": "2018-02-15",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 27,
@@ -6091,7 +6091,7 @@
    "date": "2018-02-18",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 28,
@@ -6116,7 +6116,7 @@
    "date": "2018-02-22",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 29,
@@ -6141,7 +6141,7 @@
    "date": "2018-02-25",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 30,
@@ -6166,7 +6166,7 @@
    "date": "2018-02-28",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 31,
@@ -6191,7 +6191,7 @@
    "date": "2018-03-04",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 32,
@@ -6216,7 +6216,7 @@
    "date": "2018-03-08",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

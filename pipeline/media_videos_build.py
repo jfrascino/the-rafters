@@ -12,7 +12,7 @@ rosters = json.load(open(os.path.join(CACHE, "rosters.json")))
 players_raw = json.load(open(os.path.join(CACHE, "players_raw.json")))
 OVR = json.load(open(os.path.join(os.path.dirname(__file__), "media_video_overrides.json"))) if os.path.exists(os.path.join(os.path.dirname(__file__), "media_video_overrides.json")) else {"reject": [], "verify": {}, "add": [], "fix": {}}
 
-STRICT_BAD = ["free pick", "pick:", "picks", "sportsbook", "prediction", "🔴", "live |", "live stream", "simulat", "cyberpuck",
+STRICT_BAD = ["basketball pick", "reacts to", "stephen a", "free pick", "pick:", "picks", "sportsbook", "prediction", "🔴", "live |", "live stream", "simulat", "cyberpuck",
               "women", "wbb", "sue bird", "taurasi", "bueckers", "lobo", "geno", "auriemma", "2k", "reaction", "betting", "odds",
               "fortnite", "nba 2k", "college hoops", "gameplay", "ps5", "xbox", "vhs tape for sale"]
 WOMEN_DESC = ["women's basketball", "lady vols", "lady huskies", "uconn women"]
@@ -73,7 +73,7 @@ for e in picks:
         title = oe["title"] or c["title"]; ch = oe["author_name"] or c["channel"]
         tl = " " + title.lower() + " "
         desc = ((c.get("det") or {}).get("description") or "").lower()
-        why = []
+        why = []; note = None
         if vid in OVR["reject"]: rejected.append((vid, title, "manual")); continue
         if any(b in tl for b in STRICT_BAD): rejected.append((vid, title, "bad-term")); continue
         if any(w in desc[:400] for w in WOMEN_DESC) and "men's" not in tl: rejected.append((vid, title, "women-desc")); continue
@@ -90,7 +90,7 @@ for e in picks:
             if other and not (yrs & set(re.findall(r"\b(19[89]\d|20[0-2]\d)\b", title))):
                 rejected.append((vid, title, "other-year")); continue
             if not (yrs & set(re.findall(r"\b(19[89]\d|20[0-2]\d)\b", title))) and "'" + str(t["season"])[2:] not in title:
-                if "contemporaneous" in c.get("why2", []): why.append("no year in title; upload date matches game")
+                if "contemporaneous" in c.get("why2", []): note = "no year in title; upload date within 3 weeks of the game"
                 elif "year-in-desc" in c.get("why2", []) or any(y in desc for y in yrs): why.append("year only in description")
                 else: why.append("no year in title/description — matched by opponent+round only")
         else:
@@ -99,6 +99,18 @@ for e in picks:
                 rejected.append((vid, title, "no-must")); continue
             if not any(u in tl for u in UCONN) and not any(u in desc for u in UCONN):
                 why.append("UConn not named in title/description")
+        if t.get("uconn") is not None and (c.get("kind") or "") != "moment":
+            blob = title + " " + ((c.get("det") or {}).get("description") or "")[:500]
+            pairs = [(int(a), int(b)) for a, b in re.findall(r"\b(\d{2,3})\s*[-–]\s*(\d{2,3})\b", blob)]
+            pairs += [(int(a), int(b)) for a, b in re.findall(r"\b(\d{2,3})\D{1,40}?\b(\d{2,3})\b", re.sub(r"\b(19|20)\d\d\b|\b\d{1,2}/\d{1,2}(/\d{2,4})?", " ", blob)) if 30 <= int(a) <= 140 and 30 <= int(b) <= 140]
+            sc = {t["uconn"], t["opp_score"]}
+            if pairs and not any({a, b} == sc for a, b in pairs):
+                # explicit final-score style text that disagrees -> reject (e.g., a women's game)
+                if re.search(r"final score|\bfinal\b|\d{2,3}\s*[-–]\s*\d{2,3}", blob, re.I) and re.search(r"\d{2,3}\s*[-–,]\s*\d{2,3}|\(\d+\)\s*[A-Za-z .']+\s\d{2,3}", blob):
+                    strict_pairs = [(int(a), int(b)) for a, b in re.findall(r"\b(\d{2,3})\s*[-–]\s*(\d{2,3})\b", blob)]
+                    named = re.findall(r"[A-Z][A-Za-z.' ]+\s(\d{2,3})\b", blob)
+                    if strict_pairs and not any({a, b} == sc for a, b in strict_pairs) and all(30 <= a <= 150 and 30 <= b <= 150 for a, b in strict_pairs):
+                        rejected.append((vid, title, f"score-mismatch {strict_pairs[:3]} vs {sc}")); continue
         if vid in seen: continue
         seen.add(vid)
         kind = c.get("kind") or "highlights"
@@ -112,11 +124,19 @@ for e in picks:
              "description": describe(t, kind, ch), "length_sec": det.get("length") or c.get("secs"),
              "published": det.get("publish_date") or None, "embeddable": det.get("embeddable"),
              "verified_oembed": True, "match_score": round(c.get("score2", 0), 1), "game_source": t.get("wiki")}
+        if note: v["match_note"] = note
         if why:
             v["verify"] = True; v["verify_reason"] = "; ".join(why)
         if vid in OVR["verify"]:
             v["verify"] = True; v["verify_reason"] = OVR["verify"][vid]
-        if vid in OVR.get("fix", {}): v.update(OVR["fix"][vid])
+        if vid in OVR.get("fix", {}):
+            v.update(OVR["fix"][vid])
+            if "description" not in OVR["fix"][vid] and any(k in OVR["fix"][vid] for k in ("round", "kind", "opponent")):
+                tt = dict(t); tt.update({k: OVR["fix"][vid][k] for k in ("round", "opponent", "result", "date") if k in OVR["fix"][vid]})
+                if "score" in OVR["fix"][vid] and OVR["fix"][vid]["score"] is None: tt["uconn"] = None
+                v["description"] = describe(tt, v["kind"], ch)
+            if v.get("verify") and vid not in OVR["verify"] and any(k in OVR["fix"][vid] for k in ("round", "opponent")):
+                v.pop("verify", None); v.pop("verify_reason", None)
         videos.append(v)
 
 # manual additions (already oEmbed-verified below)

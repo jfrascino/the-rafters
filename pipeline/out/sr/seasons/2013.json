@@ -6098,7 +6098,7 @@
    "date": "2012-11-09",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 2,
@@ -6122,7 +6122,7 @@
    "date": "2012-11-13",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 3,
@@ -6146,7 +6146,7 @@
    "date": "2012-11-16",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 4,
@@ -6170,7 +6170,7 @@
    "date": "2012-11-18",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 5,
@@ -6194,7 +6194,7 @@
    "date": "2012-11-19",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 6,
@@ -6218,7 +6218,7 @@
    "date": "2012-11-25",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 7,
@@ -6242,7 +6242,7 @@
    "date": "2012-11-29",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 8,
@@ -6266,7 +6266,7 @@
    "date": "2012-12-04",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 9,
@@ -6290,7 +6290,7 @@
    "date": "2012-12-07",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 10,
@@ -6314,7 +6314,7 @@
    "date": "2012-12-17",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 11,
@@ -6338,7 +6338,7 @@
    "date": "2012-12-21",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 12,
@@ -6362,7 +6362,7 @@
    "date": "2012-12-29",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 13,
@@ -6386,7 +6386,7 @@
    "date": "2013-01-01",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 14,
@@ -6410,7 +6410,7 @@
    "date": "2013-01-08",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 15,
@@ -6434,7 +6434,7 @@
    "date": "2013-01-12",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 16,
@@ -6458,7 +6458,7 @@
    "date": "2013-01-14",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 17,
@@ -6482,7 +6482,7 @@
    "date": "2013-01-19",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 18,
@@ -6506,7 +6506,7 @@
    "date": "2013-01-27",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 19,
@@ -6530,7 +6530,7 @@
    "date": "2013-01-31",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 20,
@@ -6554,7 +6554,7 @@
    "date": "2013-02-03",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 21,
@@ -6578,7 +6578,7 @@
    "date": "2013-02-06",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 22,
@@ -6602,7 +6602,7 @@
    "date": "2013-02-10",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 23,
@@ -6626,7 +6626,7 @@
    "date": "2013-02-13",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 24,
@@ -6650,7 +6650,7 @@
    "date": "2013-02-16",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 25,
@@ -6674,7 +6674,7 @@
    "date": "2013-02-21",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 26,
@@ -6698,7 +6698,7 @@
    "date": "2013-02-23",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 27,
@@ -6722,7 +6722,7 @@
    "date": "2013-02-27",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 28,
@@ -6746,7 +6746,7 @@
    "date": "2013-03-02",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 29,
@@ -6770,7 +6770,7 @@
    "date": "2013-03-06",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 30,
@@ -6794,7 +6794,7 @@
    "date": "2013-03-09",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

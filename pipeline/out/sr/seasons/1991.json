@@ -77,8 +77,8 @@
      {
       "result": "L",
       "round": "Midwest Regional Semifinal",
-      "pts": 81,
-      "opp_pts": 67,
+      "pts": 67,
+      "opp_pts": 81,
       "opp_seed": 2,
       "opp_name": "Duke",
       "box_slug": "1991-03-22-connecticut",
@@ -2704,7 +2704,7 @@
    "site": "neutral",
    "opp_seed": 6,
    "round": "Midwest First Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 30,
@@ -2729,7 +2729,7 @@
    "site": "neutral",
    "opp_seed": 14,
    "round": "Midwest Second Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 31,
@@ -2754,7 +2754,7 @@
    "site": "neutral",
    "opp_seed": 2,
    "round": "Midwest Regional Semifinal",
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

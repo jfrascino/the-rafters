@@ -83,6 +83,16 @@ def auto_moments(y):
 
 def wc(s): return len(s.split())
 
+VID = json.load(open(os.path.join(os.path.dirname(__file__), "out", "media", "videos.json")))["videos"]
+PRI = {"full_game": 0, "highlights": 1, "moment": 2, "documentary": 3, "interview": 4}
+def season_videos(y):
+    vs = [v for v in VID if v.get("season") == y]
+    def key(v):
+        r = (v.get("round") or "").lower()
+        imp = 0 if "national championship" in r else 1 if "final four" in r else 2 if "ncaa" in r else 3 if "tournament" in r else 4
+        return (imp, PRI.get(v["kind"], 5), v.get("date") or "")
+    return [v["id"] for v in sorted(vs, key=key)]
+
 seasons = []
 for y in range(1987, 2028):
     st = STORIES[y]
@@ -111,7 +121,7 @@ for y in range(1987, 2028):
     ib = facts[str(y)]["infobox"]
     seasons.append({"year": y, "label": label(y), "wiki_url": url, "headline": st["headline"], "story": st["story"],
                     "record": ib.get("record"), "conf_record": ib.get("conf_record"), "conference": ib.get("conference") or ib.get("short_conf"),
-                    "coach": ib.get("head_coach"), "key_moments": ms, "honors": hon, "sources": srcs,
+                    "coach": ib.get("head_coach"), "key_moments": ms, "video_ids": season_videos(y), "honors": hon, "sources": srcs,
                     "story_words": wc(st["story"])})
     if not (120 <= wc(st["story"]) <= 220): print("WORDCOUNT", y, wc(st["story"]))
     if len(st["headline"].split()) > 8: print("HEADLINE LONG", y, st["headline"])

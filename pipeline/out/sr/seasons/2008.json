@@ -60,8 +60,8 @@
      {
       "result": "L",
       "round": "West First Round",
-      "pts": 70,
-      "opp_pts": 69,
+      "pts": 69,
+      "opp_pts": 70,
       "opp_seed": 13,
       "opp_name": "San Diego",
       "box_slug": "2008-03-21-connecticut",
@@ -4501,7 +4501,7 @@
    "date": "2007-11-07",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 2,
@@ -4525,7 +4525,7 @@
    "date": "2007-11-08",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 3,
@@ -4549,7 +4549,7 @@
    "date": "2007-11-15",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 4,
@@ -4573,7 +4573,7 @@
    "date": "2007-11-16",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 5,
@@ -4597,7 +4597,7 @@
    "date": "2007-11-20",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 6,
@@ -4621,7 +4621,7 @@
    "date": "2007-11-26",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 7,
@@ -4645,7 +4645,7 @@
    "date": "2007-12-01",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 8,
@@ -4669,7 +4669,7 @@
    "date": "2007-12-06",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 9,
@@ -4693,7 +4693,7 @@
    "date": "2007-12-16",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 10,
@@ -4717,7 +4717,7 @@
    "date": "2007-12-22",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 11,
@@ -4741,7 +4741,7 @@
    "date": "2007-12-28",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 12,
@@ -4765,7 +4765,7 @@
    "date": "2008-01-03",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 13,
@@ -4789,7 +4789,7 @@
    "date": "2008-01-05",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 14,
@@ -4813,7 +4813,7 @@
    "date": "2008-01-08",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 15,
@@ -4837,7 +4837,7 @@
    "date": "2008-01-12",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 16,
@@ -4861,7 +4861,7 @@
    "date": "2008-01-17",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 17,
@@ -4885,7 +4885,7 @@
    "date": "2008-01-20",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 18,
@@ -4909,7 +4909,7 @@
    "date": "2008-01-23",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 19,
@@ -4933,7 +4933,7 @@
    "date": "2008-01-26",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 20,
@@ -4957,7 +4957,7 @@
    "date": "2008-01-28",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 21,
@@ -4981,7 +4981,7 @@
    "date": "2008-02-02",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 22,
@@ -5005,7 +5005,7 @@
    "date": "2008-02-06",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 23,
@@ -5029,7 +5029,7 @@
    "date": "2008-02-09",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 24,
@@ -5053,7 +5053,7 @@
    "date": "2008-02-13",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 25,
@@ -5077,7 +5077,7 @@
    "date": "2008-02-16",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 26,
@@ -5101,7 +5101,7 @@
    "date": "2008-02-19",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 27,
@@ -5125,7 +5125,7 @@
    "date": "2008-02-23",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 28,
@@ -5149,7 +5149,7 @@
    "date": "2008-02-26",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 29,
@@ -5173,7 +5173,7 @@
    "date": "2008-03-01",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 30,
@@ -5197,7 +5197,7 @@
    "date": "2008-03-06",
    "site": "away",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 31,
@@ -5221,7 +5221,7 @@
    "date": "2008-03-09",
    "site": "home",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 32,
@@ -5245,7 +5245,7 @@
    "date": "2008-03-13",
    "site": "neutral",
    "opp_seed": null,
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 33,
@@ -5270,7 +5270,7 @@
    "site": "neutral",
    "opp_seed": 13,
    "round": "West First Round",
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [

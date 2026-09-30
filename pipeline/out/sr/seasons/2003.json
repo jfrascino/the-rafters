@@ -80,8 +80,8 @@
      {
       "result": "L",
       "round": "South Regional Semifinal",
-      "pts": 82,
-      "opp_pts": 78,
+      "pts": 78,
+      "opp_pts": 82,
       "opp_seed": 1,
       "opp_name": "Texas",
       "box_slug": "2003-03-28-connecticut",
@@ -3427,7 +3427,7 @@
    "site": "neutral",
    "opp_seed": 12,
    "round": "South First Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 32,
@@ -3452,7 +3452,7 @@
    "site": "neutral",
    "opp_seed": 4,
    "round": "South Second Round",
-   "box_cached": false
+   "box_cached": true
   },
   {
    "g": 33,
@@ -3477,7 +3477,7 @@
    "site": "neutral",
    "opp_seed": 1,
    "round": "South Regional Semifinal",
-   "box_cached": false
+   "box_cached": true
   }
  ],
  "polls": [
