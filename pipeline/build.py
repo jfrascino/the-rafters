@@ -554,6 +554,21 @@ if os.path.isdir(DROP):
             src_md5[pid] = digest
             print(f'photos-drop: {fn} → {pid}')
     json.dump(src_md5, open(SRC_MAP, 'w'), indent=1, sort_keys=True)
+# Small thumbnails of Jason's photos for the home-page wall (kept in sync with site/assets/players)
+import subprocess as _sp
+WALL = os.path.join(HERE, '..', 'site', 'assets', 'wall')
+os.makedirs(WALL, exist_ok=True)
+_have = set()
+for fn in os.listdir(ASSETS):
+    if not fn.endswith('.jpg'):
+        continue
+    _have.add(fn)
+    src, dst = os.path.join(ASSETS, fn), os.path.join(WALL, fn)
+    if not os.path.exists(dst) or os.path.getmtime(dst) < os.path.getmtime(src):
+        _sp.run(['sips', '-s', 'format', 'jpeg', '-s', 'formatOptions', '60', '-Z', '300', src, '--out', dst], check=True, capture_output=True)
+for fn in os.listdir(WALL):
+    if fn not in _have:
+        os.remove(os.path.join(WALL, fn))
 for fn in os.listdir(ASSETS):
     if not fn.endswith('.jpg'):
         continue
