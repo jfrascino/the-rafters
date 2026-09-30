@@ -72,9 +72,10 @@ export function logo(team, cls = '') {
 }
 export const UCONN = { name: 'UConn', abbr: 'CONN', logo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/41.png', color: '#0c2340' };
 export const initials = (name) => (name || '?').split(/\s+/).filter(Boolean).map((w) => w[0]).slice(0, 2).join('').toUpperCase();
+const HUSKY = 'assets/husky-logo.png';
 export function headshot(p, cls = '') {
-  if (p?.photo) return `<img class="${cls}" src="${esc(p.photo)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'ph',textContent:'${esc(initials(p.name))}'}))">`;
-  return `<span class="ph ${cls}">${esc(initials(p?.name))}</span>`;
+  if (p?.photo) return `<img class="${cls}" src="${esc(p.photo)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${HUSKY}';this.classList.add('ph-logo')">`;
+  return `<img class="${cls} ph-logo" src="${HUSKY}" alt="" loading="lazy">`;
 }
 
 // Tooltip singleton

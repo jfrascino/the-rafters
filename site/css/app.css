@@ -508,3 +508,9 @@ table.stats .who img { width: 30px; height: 30px; border-radius: 50%; object-fit
 
 .pcard-front .photo:has(img) .initials { display: none; }
 .pcard-front .nm small { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* No photo on file: the Husky, sharp and centered, instead of initials */
+.pcard-front .photo img.husky { position: absolute; left: 50%; top: 46%; bottom: auto; width: 64%; height: auto; max-width: none; transform: translate(-50%, -50%); object-fit: contain;
+  filter: drop-shadow(0 10px 24px rgba(0,0,0,.55)); mix-blend-mode: normal; }
+.pcard.studio .pcard-front .photo img.husky { mix-blend-mode: normal; }
+img.ph-logo { object-fit: contain !important; background: var(--navy) !important; padding: 3px; }
