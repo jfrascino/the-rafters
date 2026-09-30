@@ -466,3 +466,5 @@ table.stats .who img { width: 30px; height: 30px; border-radius: 50%; object-fit
 .hoh-it .hn { font: 900 34px/1 var(--f-display); color: transparent; -webkit-text-stroke: 1.2px var(--gold); text-align: center; }
 .hoh-it b { font: 700 16px/1.15 var(--f-cond); text-transform: uppercase; letter-spacing: .03em; display: block; }
 .hoh-it small { color: var(--muted); font-size: 12px; }
+.honors li.mom { display: grid; gap: 4px; padding-left: 18px; position: relative; }
+.honors li.mom::before { position: absolute; left: 0; top: 16px; }

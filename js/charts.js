@@ -51,8 +51,8 @@ export function heartbeat(el, games) {
   let svg = `<svg class="heartbeat" viewBox="0 0 ${w} ${h}" role="img" aria-label="Scoring margin, game by game">`;
   let postStart = gs.findIndex((g) => g.type === 'NCAA' || g.type === 'NIT');
   const ctStart = gs.findIndex((g) => g.type === 'CTOURN');
-  if (ctStart >= 0) svg += `<rect x="${ctStart * bw}" y="0" width="${((postStart >= 0 ? postStart : gs.length) - ctStart) * bw}" height="${h - 12}" fill="rgba(143,193,255,.05)"/><text x="${ctStart * bw + 4}" y="12">CONF. TOURNEY</text>`;
-  if (postStart >= 0) svg += `<rect x="${postStart * bw}" y="0" width="${(gs.length - postStart) * bw}" height="${h - 12}" fill="rgba(227,189,110,.08)"/><text x="${postStart * bw + 4}" y="12" style="fill:var(--gold)">${gs[postStart].type === 'NIT' ? 'NIT' : 'NCAA TOURNAMENT'}</text>`;
+  if (ctStart >= 0) svg += `<rect x="${ctStart * bw}" y="0" width="${((postStart >= 0 ? postStart : gs.length) - ctStart) * bw}" height="${h - 12}" fill="rgba(143,193,255,.05)"/>${w < 640 ? '' : `<text x="${ctStart * bw + 4}" y="12">CONF. TOURNEY</text>`}`;
+  if (postStart >= 0) svg += `<rect x="${postStart * bw}" y="0" width="${(gs.length - postStart) * bw}" height="${h - 12}" fill="rgba(227,189,110,.08)"/><text x="${postStart * bw + 4}" y="12" style="fill:var(--gold)">${gs[postStart].type === 'NIT' ? 'NIT' : w < 640 ? 'NCAA' : 'NCAA TOURNAMENT'}</text>`;
   [10, 20, 30, 40].filter((v) => v < m).forEach((v) => {
     svg += `<line x1="0" x2="${w}" y1="${mid - y(v)}" y2="${mid - y(v)}" stroke="var(--line)" stroke-dasharray="2 5"/><line x1="0" x2="${w}" y1="${mid + y(v)}" y2="${mid + y(v)}" stroke="var(--line)" stroke-dasharray="2 5"/>`;
     svg += `<text x="${w - 2}" y="${mid - y(v) - 3}" text-anchor="end">+${v}</text>`;
