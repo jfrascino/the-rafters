@@ -1,5 +1,5 @@
 // Router, search, and app shell.
-import { $, $$, esc, load, headshot, seasonLabel, FINISH } from './ui.js';
+import { $, $$, esc, load, headshot, seasonLabel, FINISH, setLogos } from './ui.js';
 
 const views = {
   '': () => import('./views/home.js'),
@@ -29,6 +29,7 @@ async function route() {
   main.innerHTML = '<div class="loading">Loading</div>';
   try {
     const [mod, core] = await Promise.all([loader(), load('core.json')]);
+    setLogos(core.logos);
     if (my !== seq) return;
     main.innerHTML = '';
     current = (await mod.default(main, args, core)) || null;
@@ -52,7 +53,7 @@ async function buildIndex() {
   index = [];
   core.players.forEach((p) => index.push({ k: 'Player', t: p.name, s: `${p.span}${p.pos ? ' · ' + p.pos : ''}${p.ppg != null ? ` · ${p.ppg.toFixed(1)} ppg` : ''}`, h: `#/player/${p.id}`, p, q: p.name.toLowerCase() }));
   core.seasons.forEach((s) => index.push({ k: 'Season', t: `${s.label} ${s.w}-${s.l}`, s: `${s.coach} · ${FINISH[s.finish]?.label || ''}`, h: `#/season/${s.y}`, q: `${s.y} ${s.label} ${s.y - 1} ${s.coach}`.toLowerCase(), yr: s.y }));
-  Object.values(core.opponents || {}).forEach((o) => index.push({ k: 'Opponent', t: o.name, s: `${o.w}-${o.l} vs. since 1986–87`, h: `#/numbers/opp/${o.key}`, q: o.name.toLowerCase(), logo: o.logo }));
+  Object.values(core.opponents || {}).forEach((o) => index.push({ k: 'Opponent', t: o.name, s: `${o.w}-${o.l} vs. since ${core.seasons[0].y - 1}–${String(core.seasons[0].y).slice(2)}`, h: `#/numbers/opp/${o.key}`, q: o.name.toLowerCase(), logo: o.logo }));
   return index;
 }
 function openSearch() {

@@ -137,9 +137,12 @@ main { min-height: 70vh; outline: none; }
 @media (prefers-reduced-motion: reduce) { .wall-col { animation: none; } }
 .wall-tile { position: relative; display: block; flex: none; aspect-ratio: 3 / 4; border-radius: 6px; overflow: hidden; background: var(--panel); }
 .wall-tile img { width: 100%; height: 100%; max-width: none; object-fit: cover; object-position: 50% 16%;
-  /* navy monotone from filters alone (blend modes misrender on iOS Safari inside moving layers) */
-  filter: grayscale(1) sepia(1) hue-rotate(180deg) saturate(2.6) brightness(.58) contrast(1.1); transition: filter .8s ease, transform .8s ease; }
+  /* navy monotone = grayscale photo under a translucent navy glass. No blend modes (they misrender on iOS Safari
+     inside moving layers) and no hue-rotate (a hue-rotate fading back from full color passes through green). */
+  filter: grayscale(1) brightness(.62) contrast(1.1); transition: filter .8s ease, transform .8s ease; }
+.wall-tile::after { content: ""; position: absolute; inset: 0; background: rgba(20,60,150,.45); pointer-events: none; transition: opacity .8s ease; }
 .wall-tile.lit img, .wall-tile:hover img { filter: none; transform: scale(1.05); }
+.wall-tile.lit::after, .wall-tile:hover::after { opacity: 0; }
 .wall-tile.lit { box-shadow: 0 0 0 2px var(--gold), 0 14px 34px rgba(0,0,0,.65); z-index: 2; }
 .wall-nm { position: absolute; left: 6px; right: 6px; bottom: 6px; z-index: 1; padding: 5px 7px 4px; border-radius: 4px; background: rgba(4,10,24,.86);
   font: 600 10px/1.25 var(--f-cond); letter-spacing: .08em; text-transform: uppercase; color: var(--fg-2); opacity: 0; transform: translateY(4px); transition: opacity .5s, transform .5s; }
@@ -515,7 +518,7 @@ table.stats .who img { width: 30px; height: 30px; border-radius: 50%; object-fit
 .pcard-front .nm small { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 /* No photo on file: the Husky, sharp and centered, instead of initials */
-.pcard-front .photo img.husky { position: absolute; left: 50%; top: 46%; bottom: auto; width: 64%; height: auto; max-width: none; transform: translate(-50%, -50%); object-fit: contain;
+.pcard-front .photo img.husky { position: absolute; left: 50%; top: 46%; bottom: auto; width: 64%; height: 64%; max-width: none; transform: translate(-50%, -50%); object-fit: contain;
   filter: drop-shadow(0 10px 24px rgba(0,0,0,.55)); mix-blend-mode: normal; }
 
 img.ph-logo { object-fit: contain !important; background: var(--navy) !important; padding: 3px; }
@@ -524,3 +527,5 @@ img.ph-logo { object-fit: contain !important; background: var(--navy) !important
 .pcard .pcard-back { visibility: hidden; pointer-events: none; transition: visibility 0s linear .3s; }
 .pcard.flip .pcard-front { visibility: hidden; pointer-events: none; }
 .pcard.flip .pcard-back { visibility: visible; pointer-events: auto; }
+
+.stat-note { margin-top: 10px; }

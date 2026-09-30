@@ -25,6 +25,7 @@ export const n0 = (v) => (v == null || isNaN(v) ? '–' : Math.round(+v).toLocal
 export const pct = (v) => (v == null || isNaN(v) ? '–' : (v >= 1 && v <= 100 ? (+v).toFixed(1) : (v * 100).toFixed(1)));
 export const pct3 = (v) => (v == null || isNaN(v) ? '–' : (+v).toFixed(3).replace(/^0/, ''));
 export const sign = (v) => (v > 0 ? `+${v}` : `${v}`);
+export const plural = (n, word, many = word + 's') => `${n} ${n === 1 ? word : many}`;
 export const ord = (n) => { const s = ['th', 'st', 'nd', 'rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); };
 
 // Dates
@@ -73,9 +74,17 @@ export function logo(team, cls = '') {
 export const UCONN = { name: 'UConn', abbr: 'CONN', logo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/41.png', color: '#0c2340' };
 export const initials = (name) => (name || '?').split(/\s+/).filter(Boolean).map((w) => w[0]).slice(0, 2).join('').toUpperCase();
 const HUSKY = 'assets/husky-logo.png';
+// The Husky logo UConn used in a given season (spring year); falls back to the current mark
+let LOGOS = null;
+export function setLogos(l) { LOGOS = l || null; }
+export function eraLogo(y) {
+  const key = LOGOS?.by_season?.[String(y)];
+  return (key && LOGOS.files?.[key]) || HUSKY;
+}
 export function headshot(p, cls = '') {
-  if (p?.photo) return `<img class="${cls}" src="${esc(p.photo)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${HUSKY}';this.classList.add('ph-logo')">`;
-  return `<img class="${cls} ph-logo" src="${HUSKY}" alt="" loading="lazy">`;
+  const logo = eraLogo(p?.years?.at?.(-1) || p?.y);
+  if (p?.photo) return `<img class="${cls}" src="${esc(p.photo)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${logo}';this.classList.add('ph-logo')">`;
+  return `<img class="${cls} ph-logo" src="${logo}" alt="" loading="lazy">`;
 }
 
 // Tooltip singleton
@@ -154,6 +163,7 @@ export function bindPhotos(root, list) {
 // Sortable stats table.
 // cols: [{k, label, l(eft), fmt, title, heat}] rows: objects. opts: {sort, desc, total, rowAttr}
 export function statTable(cols, rows, opts = {}) {
+  cols = [...cols];
   const id = 't' + Math.random().toString(36).slice(2, 8);
   const maxes = {};
   cols.forEach((c) => { if (c.heat) maxes[c.k] = Math.max(...rows.map((r) => +c.get?.(r) || +r[c.k] || 0), 0.0001); });
@@ -165,8 +175,19 @@ export function statTable(cols, rows, opts = {}) {
     return `<td${heat}>${txt}</td>`;
   };
   const body = (rs) => rs.map((r) => `<tr${opts.rowAttr ? opts.rowAttr(r) : ''}>${cols.map((c) => cell(c, r)).join('')}</tr>`).join('');
+  // columns with no value for any row are stats that weren't recorded that season: drop them and say so
+  const hidden = [];
+  if (opts.hideEmpty) {
+    cols = cols.filter((c) => {
+      if (c.l || c.keep) return true;
+      const any = rows.some((r) => { const v = val(c, r); return v !== null && v !== undefined && v !== ''; });
+      if (!any) hidden.push(c.title || c.label);
+      return any;
+    });
+  }
+  const note = hidden.length ? `<p class="note stat-note">Not in the official records${opts.era ? ` for ${esc(opts.era)}` : ''}: ${hidden.map(esc).join(', ')}.${opts.why ? ' ' + esc(opts.why) : ''}</p>` : '';
   const html = `<div class="tbl-wrap"><table class="stats" id="${id}"><thead><tr>${cols.map((c, i) => `<th data-i="${i}" class="${c.l ? 'l' : ''}${opts.sort === c.k ? ' sorted' : ''}" ${c.title ? `title="${esc(c.title)}"` : ''}>${esc(c.label)}</th>`).join('')}</tr></thead>
-    <tbody>${body(rows)}</tbody>${opts.total ? `<tfoot><tr class="tot">${cols.map((c) => cell(c, opts.total)).join('')}</tr></tfoot>` : ''}</table></div>`;
+    <tbody>${body(rows)}</tbody>${opts.total ? `<tfoot><tr class="tot">${cols.map((c) => cell(c, opts.total)).join('')}</tr></tfoot>` : ''}</table></div>${note}`;
   const bind = (root) => {
     const t = root.querySelector('#' + id); if (!t) return;
     let cur = opts.sort, desc = opts.desc !== false;
