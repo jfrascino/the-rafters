@@ -632,6 +632,8 @@ _vled = {}
 for it in (jload(os.path.join(M, 'verify_videos.json'), {}) or {}).get('items', []):
     _vled.setdefault(it.get('id'), []).append(it)
 for v in list(media_videos or []) + list(_extra or []):
+    if isinstance(v, dict) and v.get('verify'):
+        continue  # researcher wasn't sure it's the right game: leave it out until checked
     if isinstance(v, dict) and v.get('id') in _vled:
         fixes = _vled[v['id']]
         if any(f.get('status') == 'REMOVE' for f in fixes):

@@ -228,9 +228,13 @@
     {
      "url": "https://guhoyas.com/sports/mens-basketball/schedule/1990-91",
      "quote": "Mar 8 (Fri) Big East * Connecticut (Quarterfinal) New York, N.Y. W, 68-49"
+    },
+    {
+     "url": "http://fs.ncaa.org/Docs/stats/m_basketball_RB/2023/D1.pdf",
+     "quote": "27 Dikembe Mutombo, Georgetown vs. UConn Mar. 8, 1991"
     }
    ],
-   "note": "Big East quarterfinal at MSG, Friday Mar 8, 1991.",
+   "note": "Big East quarterfinal at MSG, Friday Mar 8, 1991. The NCAA Records Book also dates Mutombo's 27-rebound game vs UConn Mar. 8, 1991.",
    "uconn_record_book": "1991-03-08"
   },
   {
@@ -890,6 +894,64 @@
    "uconn_record_book": "W 82-77"
   }
  ],
- "vacated": [],
+ "vacated": [
+  {
+   "game": "1996-vacated",
+   "field": "vacated",
+   "season": "1995-96",
+   "games or wins": "3 NCAA tournament games: 1996-03-14 vs Colgate (W 68-59), 1996-03-16 vs Eastern Michigan (W 95-81), 1996-03-22 vs Mississippi State (L 55-60) - 2 wins and 1 loss",
+   "official_record": "32-3 on the court; NCAA official 30-2",
+   "source": "http://fs.ncaa.org/Docs/stats/m_basketball_RB/2023/D1.pdf",
+   "sources": [
+    {
+     "url": "http://fs.ncaa.org/Docs/stats/m_basketball_RB/2023/D1.pdf",
+     "quote": "UConn Jim Calhoun 1996 32-3 30-2 V: Tr 2-1"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "** NCAA Tournament games vacated; official NCAA record 30-2"
+    }
+   ],
+   "note": "NCAA Records Book 'Vacated and Forfeited Games' table: tournament record 2-1 vacated. Yes - Colgate, Eastern Michigan and Mississippi State are all vacated (the loss too). UConn's web schedule for 1995-96 simply omits these 3 games (it lists 32); SR shows them with the season labeled 'adjusted to 30-2'."
+  },
+  {
+   "game": "2017-vacated",
+   "field": "vacated",
+   "season": "2016-17",
+   "games or wins": "entire season: all 33 games (16 wins and 17 losses)",
+   "official_record": "16-17 on the court; NCAA official 0-0",
+   "source": "http://fs.ncaa.org/Docs/stats/m_basketball_RB/2023/D1.pdf",
+   "sources": [
+    {
+     "url": "http://fs.ncaa.org/Docs/stats/m_basketball_RB/2023/D1.pdf",
+     "quote": "UConn Kevin Ollie 2017 16-17 0-0 V: RS 16 wins and 17 losses"
+    },
+    {
+     "url": "https://www.ncaa.org/news/2019/7/2/former-uconn-men-s-basketball-coach-violated-ncaa-head-coach-responsibility-rules.aspx",
+     "quote": "A vacation of records in which men's basketball student-athletes competed while ineligible."
+    }
+   ],
+   "note": "From the July 2, 2019 Committee on Infractions decision (Ollie case: trainer/booster gave three players free training, lodging, meals). UConn reported the affected contests afterward; ineligible players appeared in every 2016-17 game (Purvis 33 games vacated per UConn's record book). Wikipedia's claim that no 2016-17 games were vacated is wrong per the NCAA book."
+  },
+  {
+   "game": "2018-vacated",
+   "field": "vacated",
+   "season": "2017-18",
+   "games or wins": "31 of 32 games (14 wins and 17 losses); only the 2018-03-08 AAC tournament loss to SMU (L 73-80) stands",
+   "official_record": "14-18 on the court; NCAA official 0-1",
+   "source": "http://fs.ncaa.org/Docs/stats/m_basketball_RB/2023/D1.pdf",
+   "sources": [
+    {
+     "url": "http://fs.ncaa.org/Docs/stats/m_basketball_RB/2023/D1.pdf",
+     "quote": "UConn Kevin Ollie 2018 14-18 0-1 V: RS 14 wins and 17 losses"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "# 31 games vacated; official NCAA record 0-1 ... official NCAA total 1 game played (3/8/18 vs. SMU)"
+    }
+   ],
+   "note": "Same 2019 infractions case. Wikipedia's '0-18 (14 wins vacated)' understates it: the NCAA vacated the 17 losses too. The NCAA table lists no other UConn seasons - nothing from the 2007-08 era."
+  }
+ ],
  "stats": []
 }
