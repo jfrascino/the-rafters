@@ -1,5 +1,6 @@
 import { esc, load, tryLoad, logo, UCONN, fmtDate, fmtTime, fmtDay, bindTips, tip, videoCard, bindVideos, headshot, FINISH, n1 } from '../ui.js';
 import { skyline, onResize } from '../charts.js';
+import { mountWall } from '../wall.js';
 import { watch, nearTip } from '../live.js';
 
 export default async function home(main, _args, core) {
@@ -13,14 +14,14 @@ export default async function home(main, _args, core) {
 
   main.innerHTML = `
   <section class="hero" id="hero" data-title="">
-    <div class="hero-ambient" aria-hidden="true"><img src="https://static.wixstatic.com/media/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg/v1/fill/w_160,h_120,al_c,q_70/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg" alt=""></div>
-    <div class="hero-media"><img class="hero-img" src="https://static.wixstatic.com/media/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg/v1/fill/w_1600,h_1200,al_c,q_82/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg" srcset="https://static.wixstatic.com/media/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_82/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg 1000w, https://static.wixstatic.com/media/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg/v1/fill/w_1600,h_1200,al_c,q_82/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg 1600w, https://static.wixstatic.com/media/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg/v1/fill/w_2400,h_1800,al_c,q_82/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg 2400w, https://static.wixstatic.com/media/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg/v1/fill/w_3200,h_2400,al_c,q_82/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg 3200w" sizes="(max-width: 900px) 100vw, 64vw" alt="UConn's six men's national championship banners, 1999 to 2024, hanging in the rafters of Gampel Pavilion" fetchpriority="high" decoding="async"></div>
-    <div class="wrap hero-inner"><div class="hero-copy"><span class="eyebrow red">UConn men's basketball · ${firstY - 1} to now</span>
-      <h1 class="h-display"><span><span class="gold">${titles.length}</span> banners.</span><span class="thin">${core.seasons.filter((s) => !s.future).length} seasons.</span></h1>
+    <div class="wall" id="wall" aria-hidden="true"></div>
+    <div class="wrap hero-copy" id="heroCopy">
+      <span class="eyebrow red">UConn men's basketball · ${firstY - 1}–${String(firstY).slice(2)} to now</span>
+      <h1 class="h-display"><span><span class="gold">${titles.length}</span> banners.</span><span class="thin">${core.players.length} Huskies.</span></h1>
       <div class="title-years" aria-label="National championships">${titles.map((s) => `<a href="#/season/${s.y}">${s.y}</a>`).join('')}</div>
-      <p class="lede">Every team since Jim Calhoun walked into Storrs in 1986. Every game, every box score we could find, every Husky, and every March that ended with a ladder and a pair of scissors.</p>
-      <div class="chips" style="margin-top:6px"><a class="btn solid" href="#/now">The ${esc(cur.label || '2026–27')} Huskies</a><a class="btn" href="#/season/${firstY}">Start in ${firstY - 1}–${String(firstY).slice(2)}</a></div></div>
-    <p class="hero-credit">Gampel Pavilion, Storrs · Photo: <a href="https://www.stadiumjourney.com/stadiums/harry-a-gampel-pavilion-s701" target="_blank" rel="noopener">Stadium Journey</a></p>
+      <p class="lede">${core.seasons.filter((s) => !s.future).length} seasons, ${(totW + totL).toLocaleString()} games, and every March that ended with a ladder and a pair of scissors.</p>
+      <div class="chips"><a class="btn solid" href="#/now">The ${esc(cur.label || '2026–27')} Huskies</a><a class="btn" href="#/season/${firstY}">Start in ${firstY - 1}–${String(firstY).slice(2)}</a></div>
+    </div>
   </section>
 
   <section class="section"><div class="wrap grid" style="gap:28px">
@@ -59,6 +60,10 @@ export default async function home(main, _args, core) {
   const drawSky = () => skyline(sky, core.seasons.filter((s) => !s.future), eras);
   drawSky(); bindTips(sky);
   const offSky = onResize(sky, drawSky);
+
+  // The "Every Husky" wall: Jason's restored photos
+  const wallPlayers = core.players.filter((p) => (p.photo || '').startsWith('assets/players/'));
+  const offWall = wallPlayers.length >= 12 ? mountWall(main.querySelector('#wall'), wallPlayers, main.querySelector('#heroCopy .h-display')) : () => {};
 
   // Countdown
   let timer = 0;
@@ -114,7 +119,7 @@ export default async function home(main, _args, core) {
     });
   }
 
-  return { destroy() { clearInterval(timer); offSky(); tip(null); stopLive(); } };
+  return { destroy() { clearInterval(timer); offSky(); offWall(); tip(null); stopLive(); } };
 }
 
 function eraCard(e) {
