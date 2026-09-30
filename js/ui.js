@@ -129,7 +129,7 @@ function showLb(lb) {
 
 // Video thumbnails grid
 export function videoCard(v) {
-  const kind = { full_game: 'Full game', highlights: 'Highlights', moment: 'Moment', documentary: 'Documentary', interview: 'Interview', espn: 'ESPN clip' }[v.kind] || 'Video';
+  const kind = { full_game: 'Full game', highlights: 'Highlights', moment: 'Moment', documentary: 'Documentary', interview: 'Interview', season_recap: 'Season recap', player_reel: 'Player reel', espn: 'ESPN clip' }[v.kind] || 'Video';
   const th = v.thumb || `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`;
   return `<button class="vid" data-vid="${esc(v.id)}"${v.src ? ` data-mp4="${esc(v.src)}"` : ''}>
     <div class="th"><img src="${esc(th)}" alt="" loading="lazy"><span class="pill k">${esc(kind)}</span></div>
