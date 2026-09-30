@@ -510,30 +510,53 @@ def drop_pid(stem):
 
 
 dropped_hashes = {}
+SRC_MAP = os.path.join(ASSETS, '_sources.json')   # pid → md5 of the file Jason dropped, so a replaced photo is always re-converted
+src_md5 = jload(SRC_MAP, {}) or {}
+
+
+def date_added(path):
+    """When the file landed in the folder (Finder keeps a copied file's old modified date, so that can't be trusted)."""
+    try:
+        import subprocess
+        out = subprocess.run(['mdls', '-raw', '-name', 'kMDItemDateAdded', path], capture_output=True, text=True).stdout.strip()
+        if out and out != '(null)':
+            return out
+    except Exception:
+        pass
+    st = os.stat(path)
+    return datetime.datetime.fromtimestamp(getattr(st, 'st_birthtime', st.st_mtime)).isoformat()
+
+
 if os.path.isdir(DROP):
     import shutil, subprocess
+    per_pid = collections.defaultdict(list)
     for fn in sorted(os.listdir(DROP)):
         stem, ext = os.path.splitext(fn)
         if ext.lower() not in ('.jpg', '.jpeg', '.png', '.webp', '.heic', '.tif', '.tiff') or fn in skip_drop:
             continue
-        digest = hashlib.md5(open(os.path.join(DROP, fn), 'rb').read()).hexdigest()
-        if digest in dropped_hashes:
-            print(f'! photos-drop: "{fn}" is the same image as "{dropped_hashes[digest]}" — skipped (add it to _skip.txt once checked)')
-            continue
-        dropped_hashes[digest] = fn
         pid = drop_pid(stem)
         if not pid:
             print(f'! photos-drop: no player matches "{fn}"')
             continue
-        dst = os.path.join(ASSETS, f'{pid}.jpg')
+        per_pid[pid].append(fn)
+    for pid, fns in per_pid.items():
+        fn = max(fns, key=lambda f: date_added(os.path.join(DROP, f)))   # newest arrival wins
+        if len(fns) > 1:
+            print(f'photos-drop: {pid} has {len(fns)} files; using the most recently added "{fn}"')
         src = os.path.join(DROP, fn)
-        if not os.path.exists(dst) or os.path.getmtime(dst) < os.path.getmtime(src):
+        digest = hashlib.md5(open(src, 'rb').read()).hexdigest()
+        dst = os.path.join(ASSETS, f'{pid}.jpg')
+        if src_md5.get(pid) != digest or not os.path.exists(dst):
             if shutil.which('sips'):
-                subprocess.run(['sips', '-s', 'format', 'jpeg', '-s', 'formatOptions', '82', '-Z', '900', src, '--out', dst], check=True, capture_output=True)
+                subprocess.run(['sips', '-s', 'format', 'jpeg', '-s', 'formatOptions', '85', '-Z', '900', src, '--out', dst], check=True, capture_output=True)
             else:
                 shutil.copy(src, dst)
+            src_md5[pid] = digest
             print(f'photos-drop: {fn} → {pid}')
+    json.dump(src_md5, open(SRC_MAP, 'w'), indent=1, sort_keys=True)
 for fn in os.listdir(ASSETS):
+    if not fn.endswith('.jpg'):
+        continue
     pid = os.path.splitext(fn)[0]
     ver = hashlib.md5(open(os.path.join(ASSETS, fn), 'rb').read()).hexdigest()[:8]  # new photo → new URL, so browsers never show a stale one
     add_photo(pid, 0, f'assets/players/{fn}?v={ver}', True, credit=drop_credit.get(pid) or 'Archival photo, restored', kind='restored')
