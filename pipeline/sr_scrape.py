@@ -100,9 +100,9 @@ def box_slugs_for(y):
         for g in P.parse_schedule(h)["schedule"]:
             if g.get("box_slug"):
                 slugs.append(g["box_slug"])
-    h = cached(season_url(y))
-    if h:  # meta NCAA links (sometimes present when schedule lacks)
-        meta = P.parse_season_meta(P.soup(h))
+    d = parsed_season(y)
+    if d:  # meta NCAA links (sometimes present when schedule lacks)
+        meta = d["meta"]
         for ps in meta.get("postseason", []):
             for g in ps.get("games", []):
                 if g.get("box_slug") and g["box_slug"] not in slugs:
@@ -120,12 +120,25 @@ def phase_boxscores(years):
             log(f"  box progress {i}/{len(need)}")
 
 
+_PARSED = {}
+
+
+def parsed_season(y):
+    """parse_season memoized on the cache file's mtime (so --force refreshes it)."""
+    cp = F.cache_path(F.BASE + season_url(y))
+    if not os.path.exists(cp):
+        return None
+    key = (y, os.path.getmtime(cp))
+    if key not in _PARSED:
+        _PARSED[key] = P.parse_season(cached(season_url(y)), y)
+    return _PARSED[key]
+
+
 def roster_ids(y):
-    h = cached(season_url(y))
     ids = []
-    if not h:
+    d = parsed_season(y)
+    if not d:
         return ids
-    d = P.parse_season(h, y)
     for r in d["roster"]:
         if r.get("sr_id") and r["sr_id"] not in ids:
             ids.append(r["sr_id"])
@@ -183,10 +196,10 @@ def phase_gamelogs(years, force):
 # ---------------------------------------------------------------- build
 
 def build_season(y, school_index):
-    h = cached(season_url(y))
-    if not h:
+    d = parsed_season(y)
+    if not d:
         return None
-    d = P.parse_season(h, y)
+    d = json.loads(json.dumps(d))  # don't mutate memoized copy
     hs = cached(sched_url(y))
     sc = P.parse_schedule(hs) if hs else {"schedule": [], "polls": []}
     # opponent seeds from meta postseason text
@@ -258,11 +271,12 @@ def build(years, gamelogs=False):
         write_json(os.path.join(OUT, "school_index.json"),
                    {"url": F.BASE + f"/cbb/schools/{SCHOOL}/men/", "seasons": rows,
                     "coaches": coaches["rows"] if coaches else None})
-    n_box = n_pl = 0
+    n_box = n_pl = n_seas = 0
     for y in years:
         d = build_season(y, si)
         if d is None:
             continue
+        n_seas += 1
         write_json(os.path.join(OUT, "seasons", f"{y}.json"), d)
         for s in box_slugs_for(y):
             h = cached(box_url(s))
@@ -286,7 +300,7 @@ def build(years, gamelogs=False):
         try:
             p = P.parse_player(h, pid)
             p["uconn_seasons"] = yrs
-            if gamelogs:
+            if True:  # include any cached game logs (fetched with --gamelogs)
                 gl = {}
                 for y in yrs:
                     if y >= 2011:
@@ -299,7 +313,7 @@ def build(years, gamelogs=False):
             n_pl += 1
         except Exception:
             log(f"  PARSE ERROR player {pid}: {traceback.format_exc(limit=2)}")
-    log(f"  built {len(years)} seasons, {n_box} boxscores, {n_pl} players")
+    log(f"  built {n_seas} seasons, {n_box} boxscores, {n_pl} players")
 
 
 # ---------------------------------------------------------------- report

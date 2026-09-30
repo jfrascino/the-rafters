@@ -19,7 +19,8 @@
   "school_slugs": [
    "connecticut"
   ],
-  "Draft": "Washington Wizards, 1st round (7th pick, 7th overall), 1999 NBA draft"
+  "Draft": "Washington Wizards, 1st round (7th pick, 7th overall), 1999 NBA draft",
+  "draft_team_abbr": "WAS"
  },
  "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://www.sports-reference.com/req/202512231/cbb/images/players/richard-hamilton-1.jpg",
  "draft_text": "Washington Wizards, 1st round (7th pick, 7th overall), 1999 NBA draft",
@@ -29,7 +30,8 @@
   "pick": 7,
   "overall": 7,
   "year": 1999,
-  "team": "Washington Wizards"
+  "team": "Washington Wizards",
+  "team_abbr": "WAS"
  },
  "nba_url": "https://www.basketball-reference.com/players/h/hamilri01.html",
  "tables": {

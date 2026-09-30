@@ -1,0 +1,856 @@
+{
+ "sr_id": "liam-mcneeley-1",
+ "url": "https://www.sports-reference.com/cbb/players/liam-mcneeley-1.html",
+ "name": "Liam McNeeley",
+ "photo_url": null,
+ "bio_lines": [
+  "Position: Forward",
+  "6-7 , 210lb (201cm, 95kg)",
+  "Hometown: Richardson, TX",
+  "High School: Pearce (TX); John Paul II (TX); Montverde Academy (FL)",
+  "RSCI Top 100: 10 ( 2024 )",
+  "School: Connecticut (Men)",
+  "Draft: Phoenix Suns , 1st round (29th pick, 29th overall), 2025 NBA draft"
+ ],
+ "bio": {
+  "Position": "Forward",
+  "Hometown": "Richardson, TX",
+  "High School": "Pearce (TX); John Paul II (TX); Montverde Academy (FL)",
+  "RSCI Top 100": "10 ( 2024)",
+  "School": "Connecticut (Men)",
+  "school_slugs": [
+   "connecticut"
+  ],
+  "Draft": "Phoenix Suns, 1st round (29th pick, 29th overall), 2025 NBA draft",
+  "draft_team_abbr": "PHO"
+ },
+ "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://cdn.ssref.net/req/202609231/tlogo/ncaa/connecticut.png",
+ "draft_text": "Phoenix Suns, 1st round (29th pick, 29th overall), 2025 NBA draft",
+ "draft": {
+  "text": "Phoenix Suns, 1st round (29th pick, 29th overall), 2025 NBA draft",
+  "round": 1,
+  "pick": 29,
+  "overall": 29,
+  "year": 2025,
+  "team": "Phoenix Suns",
+  "team_abbr": "PHO"
+ },
+ "nba_url": "https://www.basketball-reference.com/players/m/mcneeli01.html",
+ "tables": {
+  "players_per_game": {
+   "rows": [
+    {
+     "year_id": "2024-25",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 27,
+     "games_started": 26,
+     "mp_per_g": 32.1,
+     "fg_per_g": 4.4,
+     "fga_per_g": 11.5,
+     "fg_pct": 0.381,
+     "fg3_per_g": 1.7,
+     "fg3a_per_g": 5.4,
+     "fg3_pct": 0.317,
+     "fg2_per_g": 2.7,
+     "fg2a_per_g": 6.1,
+     "fg2_pct": 0.436,
+     "efg_pct": 0.455,
+     "ft_per_g": 4.1,
+     "fta_per_g": 4.7,
+     "ft_pct": 0.866,
+     "orb_per_g": 0.9,
+     "drb_per_g": 5.0,
+     "trb_per_g": 6.0,
+     "ast_per_g": 2.3,
+     "stl_per_g": 0.6,
+     "blk_per_g": 0.2,
+     "tov_per_g": 1.9,
+     "pf_per_g": 2.0,
+     "pts_per_g": 14.5,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 27,
+     "games_started": 26,
+     "mp_per_g": 32.1,
+     "fg_per_g": 4.4,
+     "fga_per_g": 11.5,
+     "fg_pct": 0.381,
+     "fg3_per_g": 1.7,
+     "fg3a_per_g": 5.4,
+     "fg3_pct": 0.317,
+     "fg2_per_g": 2.7,
+     "fg2a_per_g": 6.1,
+     "fg2_pct": 0.436,
+     "efg_pct": 0.455,
+     "ft_per_g": 4.1,
+     "fta_per_g": 4.7,
+     "ft_pct": 0.866,
+     "orb_per_g": 0.9,
+     "drb_per_g": 5.0,
+     "trb_per_g": 6.0,
+     "ast_per_g": 2.3,
+     "stl_per_g": 0.6,
+     "blk_per_g": 0.2,
+     "tov_per_g": 1.9,
+     "pf_per_g": 2.0,
+     "pts_per_g": 14.5,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_game_conf": {
+   "rows": [
+    {
+     "year_id": "2024-25",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 12,
+     "games_started": 11,
+     "mp_per_g": 32.8,
+     "fg_per_g": 4.6,
+     "fga_per_g": 12.3,
+     "fg_pct": 0.372,
+     "fg3_per_g": 1.9,
+     "fg3a_per_g": 5.4,
+     "fg3_pct": 0.354,
+     "fg2_per_g": 2.7,
+     "fg2a_per_g": 6.9,
+     "fg2_pct": 0.386,
+     "efg_pct": 0.449,
+     "ft_per_g": 4.5,
+     "fta_per_g": 5.1,
+     "ft_pct": 0.885,
+     "orb_per_g": 1.0,
+     "drb_per_g": 5.3,
+     "trb_per_g": 6.3,
+     "ast_per_g": 2.8,
+     "stl_per_g": 0.6,
+     "blk_per_g": 0.2,
+     "tov_per_g": 2.8,
+     "pf_per_g": 2.4,
+     "pts_per_g": 15.6,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 12,
+     "games_started": 11,
+     "mp_per_g": 32.8,
+     "fg_per_g": 4.6,
+     "fga_per_g": 12.3,
+     "fg_pct": 0.372,
+     "fg3_per_g": 1.9,
+     "fg3a_per_g": 5.4,
+     "fg3_pct": 0.354,
+     "fg2_per_g": 2.7,
+     "fg2a_per_g": 6.9,
+     "fg2_pct": 0.386,
+     "efg_pct": 0.449,
+     "ft_per_g": 4.5,
+     "fta_per_g": 5.1,
+     "ft_pct": 0.885,
+     "orb_per_g": 1.0,
+     "drb_per_g": 5.3,
+     "trb_per_g": 6.3,
+     "ast_per_g": 2.8,
+     "stl_per_g": 0.6,
+     "blk_per_g": 0.2,
+     "tov_per_g": 2.8,
+     "pf_per_g": 2.4,
+     "pts_per_g": 15.6
+    }
+   ]
+  },
+  "players_totals": {
+   "rows": [
+    {
+     "year_id": "2024-25",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 27,
+     "games_started": 26,
+     "mp": 867,
+     "fg": 118,
+     "fga": 310,
+     "fg_pct": 0.381,
+     "fg3": 46,
+     "fg3a": 145,
+     "fg3_pct": 0.317,
+     "fg2": 72,
+     "fg2a": 165,
+     "fg2_pct": 0.436,
+     "efg_pct": 0.455,
+     "ft": 110,
+     "fta": 127,
+     "ft_pct": 0.866,
+     "orb": 25,
+     "drb": 136,
+     "trb": 161,
+     "ast": 61,
+     "stl": 15,
+     "blk": 6,
+     "tov": 50,
+     "pf": 54,
+     "pts": 392,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 27,
+     "games_started": 26,
+     "mp": 867,
+     "fg": 118,
+     "fga": 310,
+     "fg_pct": 0.381,
+     "fg3": 46,
+     "fg3a": 145,
+     "fg3_pct": 0.317,
+     "fg2": 72,
+     "fg2a": 165,
+     "fg2_pct": 0.436,
+     "efg_pct": 0.455,
+     "ft": 110,
+     "fta": 127,
+     "ft_pct": 0.866,
+     "orb": 25,
+     "drb": 136,
+     "trb": 161,
+     "ast": 61,
+     "stl": 15,
+     "blk": 6,
+     "tov": 50,
+     "pf": 54,
+     "pts": 392,
+     "awards": null
+    }
+   ]
+  },
+  "players_totals_conf": {
+   "rows": [
+    {
+     "year_id": "2024-25",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 12,
+     "games_started": 11,
+     "mp": 393,
+     "fg": 55,
+     "fga": 148,
+     "fg_pct": 0.372,
+     "fg3": 23,
+     "fg3a": 65,
+     "fg3_pct": 0.354,
+     "fg2": 32,
+     "fg2a": 83,
+     "fg2_pct": 0.386,
+     "efg_pct": 0.449,
+     "ft": 54,
+     "fta": 61,
+     "ft_pct": 0.885,
+     "orb": 12,
+     "drb": 63,
+     "trb": 75,
+     "ast": 34,
+     "stl": 7,
+     "blk": 2,
+     "tov": 34,
+     "pf": 29,
+     "pts": 187,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 12,
+     "games_started": 11,
+     "mp": 393,
+     "fg": 55,
+     "fga": 148,
+     "fg_pct": 0.372,
+     "fg3": 23,
+     "fg3a": 65,
+     "fg3_pct": 0.354,
+     "fg2": 32,
+     "fg2a": 83,
+     "fg2_pct": 0.386,
+     "efg_pct": 0.449,
+     "ft": 54,
+     "fta": 61,
+     "ft_pct": 0.885,
+     "orb": 12,
+     "drb": 63,
+     "trb": 75,
+     "ast": 34,
+     "stl": 7,
+     "blk": 2,
+     "tov": 34,
+     "pf": 29,
+     "pts": 187
+    }
+   ]
+  },
+  "players_per_min": {
+   "rows": [
+    {
+     "year_id": "2024-25",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 27,
+     "games_started": 26,
+     "mp": 867,
+     "fg_per_min": 5.4,
+     "fga_per_min": 14.3,
+     "fg_pct": 0.381,
+     "fg3_per_min": 2.1,
+     "fg3a_per_min": 6.7,
+     "fg3_pct": 0.317,
+     "fg2_per_min": 3.3,
+     "fg2a_per_min": 7.6,
+     "fg2_pct": 0.436,
+     "efg_pct": 0.455,
+     "ft_per_min": 5.1,
+     "fta_per_min": 5.9,
+     "ft_pct": 0.866,
+     "orb_per_min": 1.2,
+     "drb_per_min": 6.3,
+     "trb_per_min": 7.4,
+     "ast_per_min": 2.8,
+     "stl_per_min": 0.7,
+     "blk_per_min": 0.3,
+     "tov_per_min": 2.3,
+     "pf_per_min": 2.5,
+     "pts_per_min": 18.1,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 27,
+     "games_started": 26,
+     "mp": 867,
+     "fg_per_min": 5.4,
+     "fga_per_min": 14.3,
+     "fg_pct": 0.381,
+     "fg3_per_min": 2.1,
+     "fg3a_per_min": 6.7,
+     "fg3_pct": 0.317,
+     "fg2_per_min": 3.3,
+     "fg2a_per_min": 7.6,
+     "fg2_pct": 0.436,
+     "efg_pct": 0.455,
+     "ft_per_min": 5.1,
+     "fta_per_min": 5.9,
+     "ft_pct": 0.866,
+     "orb_per_min": 1.2,
+     "drb_per_min": 6.3,
+     "trb_per_min": 7.4,
+     "ast_per_min": 2.8,
+     "stl_per_min": 0.7,
+     "blk_per_min": 0.3,
+     "tov_per_min": 2.3,
+     "pf_per_min": 2.5,
+     "pts_per_min": 18.1,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_min_conf": {
+   "rows": [
+    {
+     "year_id": "2024-25",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 12,
+     "games_started": 11,
+     "mp": 393,
+     "fg_per_min": 5.6,
+     "fga_per_min": 15.1,
+     "fg_pct": 0.372,
+     "fg3_per_min": 2.3,
+     "fg3a_per_min": 6.6,
+     "fg3_pct": 0.354,
+     "fg2_per_min": 3.3,
+     "fg2a_per_min": 8.4,
+     "fg2_pct": 0.386,
+     "efg_pct": 0.449,
+     "ft_per_min": 5.5,
+     "fta_per_min": 6.2,
+     "ft_pct": 0.885,
+     "orb_per_min": 1.2,
+     "drb_per_min": 6.4,
+     "trb_per_min": 7.6,
+     "ast_per_min": 3.5,
+     "stl_per_min": 0.7,
+     "blk_per_min": 0.2,
+     "tov_per_min": 3.5,
+     "pf_per_min": 3.0,
+     "pts_per_min": 19.0,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 12,
+     "games_started": 11,
+     "mp": 393,
+     "fg_per_min": 5.6,
+     "fga_per_min": 15.1,
+     "fg_pct": 0.372,
+     "fg3_per_min": 2.3,
+     "fg3a_per_min": 6.6,
+     "fg3_pct": 0.354,
+     "fg2_per_min": 3.3,
+     "fg2a_per_min": 8.4,
+     "fg2_pct": 0.386,
+     "efg_pct": 0.449,
+     "ft_per_min": 5.5,
+     "fta_per_min": 6.2,
+     "ft_pct": 0.885,
+     "orb_per_min": 1.2,
+     "drb_per_min": 6.4,
+     "trb_per_min": 7.6,
+     "ast_per_min": 3.5,
+     "stl_per_min": 0.7,
+     "blk_per_min": 0.2,
+     "tov_per_min": 3.5,
+     "pf_per_min": 3.0,
+     "pts_per_min": 19.0
+    }
+   ]
+  },
+  "players_per_poss": {
+   "rows": [
+    {
+     "year_id": "2024-25",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 27,
+     "games_started": 26,
+     "mp": 867,
+     "fg_per_poss": 8.4,
+     "fga_per_poss": 22.1,
+     "fg_pct": 0.381,
+     "fg3_per_poss": 3.3,
+     "fg3a_per_poss": 10.4,
+     "fg3_pct": 0.317,
+     "fg2_per_poss": 5.1,
+     "fg2a_per_poss": 11.8,
+     "fg2_pct": 0.436,
+     "efg_pct": 0.455,
+     "ft_per_poss": 7.9,
+     "fta_per_poss": 9.1,
+     "ft_pct": 0.866,
+     "orb_per_poss": 1.8,
+     "drb_per_poss": 9.7,
+     "trb_per_poss": 11.5,
+     "ast_per_poss": 4.4,
+     "stl_per_poss": 1.1,
+     "blk_per_poss": 0.4,
+     "tov_per_poss": 3.6,
+     "pf_per_poss": 3.9,
+     "pts_per_poss": 28.0,
+     "off_rtg": 112.5,
+     "def_rtg": 107.1,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 27,
+     "games_started": 26,
+     "mp": 867,
+     "fg_per_poss": 8.4,
+     "fga_per_poss": 22.1,
+     "fg_pct": 0.381,
+     "fg3_per_poss": 3.3,
+     "fg3a_per_poss": 10.4,
+     "fg3_pct": 0.317,
+     "fg2_per_poss": 5.1,
+     "fg2a_per_poss": 11.8,
+     "fg2_pct": 0.436,
+     "efg_pct": 0.455,
+     "ft_per_poss": 7.9,
+     "fta_per_poss": 9.1,
+     "ft_pct": 0.866,
+     "orb_per_poss": 1.8,
+     "drb_per_poss": 9.7,
+     "trb_per_poss": 11.5,
+     "ast_per_poss": 4.4,
+     "stl_per_poss": 1.1,
+     "blk_per_poss": 0.4,
+     "tov_per_poss": 3.6,
+     "pf_per_poss": 3.9,
+     "pts_per_poss": 28.0,
+     "off_rtg": 112.5,
+     "def_rtg": 107.1,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_poss_conf": {
+   "rows": [
+    {
+     "year_id": "2024-25",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 12,
+     "games_started": 11,
+     "mp": 393,
+     "fg_per_poss": 8.6,
+     "fga_per_poss": 23.1,
+     "fg_pct": 0.372,
+     "fg3_per_poss": 3.6,
+     "fg3a_per_poss": 10.2,
+     "fg3_pct": 0.354,
+     "fg2_per_poss": 5.0,
+     "fg2a_per_poss": 13.0,
+     "fg2_pct": 0.386,
+     "efg_pct": 0.449,
+     "ft_per_poss": 8.4,
+     "fta_per_poss": 9.5,
+     "ft_pct": 0.885,
+     "orb_per_poss": 1.9,
+     "drb_per_poss": 9.8,
+     "trb_per_poss": 11.7,
+     "ast_per_poss": 5.3,
+     "stl_per_poss": 1.1,
+     "blk_per_poss": 0.3,
+     "tov_per_poss": 5.3,
+     "pf_per_poss": 4.5,
+     "pts_per_poss": 29.2,
+     "off_rtg": 106.7,
+     "def_rtg": 110.8,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 12,
+     "games_started": 11,
+     "mp": 393,
+     "fg_per_poss": 8.6,
+     "fga_per_poss": 23.1,
+     "fg_pct": 0.372,
+     "fg3_per_poss": 3.6,
+     "fg3a_per_poss": 10.2,
+     "fg3_pct": 0.354,
+     "fg2_per_poss": 5.0,
+     "fg2a_per_poss": 13.0,
+     "fg2_pct": 0.386,
+     "efg_pct": 0.449,
+     "ft_per_poss": 8.4,
+     "fta_per_poss": 9.5,
+     "ft_pct": 0.885,
+     "orb_per_poss": 1.9,
+     "drb_per_poss": 9.8,
+     "trb_per_poss": 11.7,
+     "ast_per_poss": 5.3,
+     "stl_per_poss": 1.1,
+     "blk_per_poss": 0.3,
+     "tov_per_poss": 5.3,
+     "pf_per_poss": 4.5,
+     "pts_per_poss": 29.2,
+     "off_rtg": 106.7,
+     "def_rtg": 110.8
+    }
+   ]
+  },
+  "players_advanced": {
+   "rows": [
+    {
+     "year_id": "2024-25",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 27,
+     "games_started": 26,
+     "mp": 867,
+     "per": 16.1,
+     "ts_pct": 0.529,
+     "fg3a_per_fga_pct": 0.468,
+     "fta_per_fga_pct": 0.41,
+     "pprod": 370,
+     "orb_pct": 3.7,
+     "drb_pct": 18.7,
+     "trb_pct": 11.5,
+     "ast_pct": 13.1,
+     "stl_pct": 1.1,
+     "blk_pct": 0.8,
+     "tov_pct": 11.9,
+     "usg_pct": 25.6,
+     "ows": 1.8,
+     "dws": 1.1,
+     "ws": 2.9,
+     "ws_per_40": 0.132,
+     "obpm": 2.6,
+     "dbpm": 0.8,
+     "bpm": 3.4,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 27,
+     "games_started": 26,
+     "mp": 867,
+     "per": 16.1,
+     "ts_pct": 0.529,
+     "fg3a_per_fga_pct": 0.468,
+     "fta_per_fga_pct": 0.41,
+     "pprod": 370,
+     "orb_pct": 3.7,
+     "drb_pct": 18.7,
+     "trb_pct": 11.5,
+     "ast_pct": 13.1,
+     "stl_pct": 1.1,
+     "blk_pct": 0.8,
+     "tov_pct": 11.9,
+     "usg_pct": 25.6,
+     "ows": 1.8,
+     "dws": 1.1,
+     "ws": 2.9,
+     "ws_per_40": 0.132,
+     "obpm": 2.6,
+     "dbpm": 0.8,
+     "bpm": 3.4,
+     "awards": null
+    }
+   ]
+  },
+  "players_advanced_conf": {
+   "rows": [
+    {
+     "year_id": "2024-25",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 12,
+     "games_started": 11,
+     "mp": 393,
+     "per": 18.0,
+     "ts_pct": 0.528,
+     "fg3a_per_fga_pct": 0.439,
+     "fta_per_fga_pct": 0.412,
+     "pprod": 181,
+     "orb_pct": 4.4,
+     "drb_pct": 21.7,
+     "trb_pct": 13.3,
+     "ast_pct": 16.9,
+     "stl_pct": 1.1,
+     "blk_pct": 0.6,
+     "tov_pct": 16.1,
+     "usg_pct": 28.9,
+     "ows": 1.0,
+     "dws": 0.0,
+     "ws": 1.1,
+     "ws_per_40": 0.11,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 12,
+     "games_started": 11,
+     "mp": 393,
+     "per": 18.0,
+     "ts_pct": 0.528,
+     "fg3a_per_fga_pct": 0.439,
+     "fta_per_fga_pct": 0.412,
+     "pprod": 181,
+     "orb_pct": 4.4,
+     "drb_pct": 21.7,
+     "trb_pct": 13.3,
+     "ast_pct": 16.9,
+     "stl_pct": 1.1,
+     "blk_pct": 0.6,
+     "tov_pct": 16.1,
+     "usg_pct": 28.9,
+     "ows": 1.0,
+     "dws": 0.0,
+     "ws": 1.1,
+     "ws_per_40": 0.11
+    }
+   ]
+  }
+ },
+ "awards": [
+  {
+   "season": "2024-25",
+   "award": "All-Big East",
+   "detail": "3rd Team",
+   "url": "/cbb/awards/men/all-big-east.html",
+   "text": "2024-25 All-Big East - 3rd Team"
+  },
+  {
+   "season": "2024-25",
+   "award": "Big East All-Freshman",
+   "detail": null,
+   "url": "/cbb/awards/men/big-east-all-frosh.html",
+   "text": "2024-25 Big East All-Freshman"
+  },
+  {
+   "season": "2024-25",
+   "award": "Big East Rookie of the Year",
+   "detail": null,
+   "url": "/cbb/awards/men/big-east-roy.html",
+   "text": "2024-25 Big East Rookie of the Year"
+  },
+  {
+   "season": "2024-25",
+   "award": "Naismith Trophy Preseason Watch List",
+   "detail": null,
+   "url": "/cbb/awards/men/naismith-pre.html",
+   "text": "2024-25 Naismith Trophy Preseason Watch List"
+  },
+  {
+   "season": "2024-25",
+   "award": "Wooden Award Preseason Watch List",
+   "detail": null,
+   "url": "/cbb/awards/men/wooden-pre.html",
+   "text": "2024-25 Wooden Award Preseason Watch List"
+  }
+ ],
+ "bling": [
+  "2024-25 All-Big East",
+  "2024-25 Big East All-Freshman",
+  "2024-25 Big East ROY"
+ ],
+ "leaderboards": {
+  "pts_per_g": {
+   "title": "Points Per Game",
+   "entries": [
+    "2024-25 Big East 14.5 (14th)"
+   ]
+  },
+  "trb_per_g": {
+   "title": "Total Rebounds Per Game",
+   "entries": [
+    "2024-25 Big East 6.0 (11th)"
+   ]
+  },
+  "drb": {
+   "title": "Defensive Rebounds",
+   "entries": [
+    "2024-25 Big East 136 (13th)"
+   ]
+  },
+  "ft_pct": {
+   "title": "Free Throw Percentage",
+   "entries": [
+    "2024-25 Big East .866 (2nd)"
+   ]
+  },
+  "fg3a": {
+   "title": "3-Point Field Goal Attempts",
+   "entries": [
+    "2024-25 Big East 145 (20th)"
+   ]
+  },
+  "ft": {
+   "title": "Free Throws",
+   "entries": [
+    "2024-25 Big East 110 (7th)"
+   ]
+  },
+  "fta": {
+   "title": "Free Throw Attempts",
+   "entries": [
+    "2024-25 Big East 127 (9th)"
+   ]
+  },
+  "mp_per_g": {
+   "title": "Minutes Played Per Game",
+   "entries": [
+    "2024-25 Big East 32.1 (18th)"
+   ]
+  },
+  "off_rtg": {
+   "title": "Offensive Rating",
+   "entries": [
+    "2024-25 Big East 112.5 (19th)"
+   ]
+  },
+  "usg_pct": {
+   "title": "Usage Percentage",
+   "entries": [
+    "2024-25 Big East 25.6 (8th)"
+   ]
+  },
+  "trb_pct": {
+   "title": "Total Rebound Percentage",
+   "entries": [
+    "2024-25 Big East 11.5 (11th)"
+   ]
+  },
+  "drb_pct": {
+   "title": "Defensive Rebound Percentage",
+   "entries": [
+    "2024-25 Big East 18.7 (6th)"
+   ]
+  },
+  "tov_pct": {
+   "title": "Turnover Percentage",
+   "entries": [
+    "2024-25 Big East 11.9 (20th)"
+   ]
+  },
+  "pprod_per_g": {
+   "title": "Points Produced Per Game",
+   "entries": [
+    "2024-25 Big East 13.7 (15th)"
+   ]
+  }
+ },
+ "uconn_seasons": [
+  2025
+ ]
+}

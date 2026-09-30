@@ -61,7 +61,7 @@ export default async function legends(main, _args, core) {
     <div class="feature-row">${L.rivalries.map((r) => { const o = oppByName.get(norm(r.opponent)); return `<div class="panel otd">
       <div class="game-line">${o ? logo(o, 'lg') : ''}<div style="display:grid;gap:4px"><h3 class="h3">${o ? `<a href="#/numbers/opp/${esc(o.key)}">${esc(r.opponent)}</a>` : esc(r.opponent)}</h3>${o ? `<span class="score">${o.w}–${o.l}</span>` : ''}</div></div>
       <p class="muted" style="font-size:15px">${esc(r.summary || '')}</p>
-      ${(r.notable_games || []).length ? `<ul style="margin:0;padding-left:18px;display:grid;gap:4px;font-size:14px;color:var(--fg-2)">${r.notable_games.slice(0, 5).map((g) => `<li>${fmtDate(g.date, { year: true })}: ${esc(g.result)} ${esc(g.score)}${g.event ? ` <span class="muted">· ${esc(g.event)}</span>` : ''}</li>`).join('')}</ul>` : ''}</div>`; }).join('')}</div>
+      ${(r.notable_games || []).length ? `<ul style="margin:0;padding-left:18px;display:grid;gap:4px;font-size:14px;color:var(--fg-2)">${r.notable_games.slice(0, 5).map((g) => `<li>${g.gid ? `<a href="#/game/${esc(g.gid)}" style="text-decoration:underline;text-underline-offset:3px">` : ''}${fmtDate(g.date, { year: true })}: ${esc(g.result)} ${esc(g.score)}${g.gid ? '</a>' : ''}${g.event ? ` <span class="muted">· ${esc(g.event)}</span>` : ''}</li>`).join('')}</ul>` : ''}</div>`; }).join('')}</div>
   </div></section>` : ''}
 
   ${(L.nicknames_and_quotes || []).length ? `<section class="section"><div class="wrap">

@@ -1,0 +1,302 @@
+{
+ "sr_id": "uri-cohen-mintz-1",
+ "url": "https://www.sports-reference.com/cbb/players/uri-cohen-mintz-1.html",
+ "name": "Uri Cohen-Mintz",
+ "photo_url": null,
+ "bio_lines": [
+  "Position: Forward",
+  "6-10 , 215lb (208cm, 97kg)",
+  "Hometown: Tel Aviv, Israel",
+  "School: Connecticut (Men)"
+ ],
+ "bio": {
+  "Position": "Forward",
+  "Hometown": "Tel Aviv, Israel",
+  "School": "Connecticut (Men)",
+  "school_slugs": [
+   "connecticut"
+  ]
+ },
+ "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://cdn.ssref.net/req/202609231/tlogo/ncaa/connecticut.png",
+ "draft_text": null,
+ "draft": null,
+ "nba_url": null,
+ "tables": {
+  "players_per_game": {
+   "rows": [
+    {
+     "year_id": "1994-95",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 19,
+     "games_started": 1,
+     "mp_per_g": 4.1,
+     "fg_per_g": 0.4,
+     "fga_per_g": 1.3,
+     "fg_pct": 0.333,
+     "fg3_per_g": 0.1,
+     "fg3a_per_g": 0.5,
+     "fg3_pct": 0.222,
+     "fg2_per_g": 0.3,
+     "fg2a_per_g": 0.8,
+     "fg2_pct": 0.4,
+     "efg_pct": 0.375,
+     "ft_per_g": 0.1,
+     "fta_per_g": 0.1,
+     "ft_pct": 0.5,
+     "orb_per_g": 0.2,
+     "drb_per_g": 0.4,
+     "trb_per_g": 0.6,
+     "ast_per_g": 0.3,
+     "stl_per_g": 0.1,
+     "blk_per_g": 0.1,
+     "tov_per_g": 0.3,
+     "pf_per_g": 0.9,
+     "pts_per_g": 1.0,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 19,
+     "games_started": 1,
+     "mp_per_g": 4.1,
+     "fg_per_g": 0.4,
+     "fga_per_g": 1.3,
+     "fg_pct": 0.333,
+     "fg3_per_g": 0.1,
+     "fg3a_per_g": 0.5,
+     "fg3_pct": 0.222,
+     "fg2_per_g": 0.3,
+     "fg2a_per_g": 0.8,
+     "fg2_pct": 0.4,
+     "efg_pct": 0.375,
+     "ft_per_g": 0.1,
+     "fta_per_g": 0.1,
+     "ft_pct": 0.5,
+     "orb_per_g": 0.2,
+     "drb_per_g": 0.4,
+     "trb_per_g": 0.6,
+     "ast_per_g": 0.3,
+     "stl_per_g": 0.1,
+     "blk_per_g": 0.1,
+     "tov_per_g": 0.3,
+     "pf_per_g": 0.9,
+     "pts_per_g": 1.0,
+     "awards": null
+    }
+   ]
+  },
+  "players_totals": {
+   "rows": [
+    {
+     "year_id": "1994-95",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 19,
+     "games_started": 1,
+     "mp": 77,
+     "fg": 8,
+     "fga": 24,
+     "fg_pct": 0.333,
+     "fg3": 2,
+     "fg3a": 9,
+     "fg3_pct": 0.222,
+     "fg2": 6,
+     "fg2a": 15,
+     "fg2_pct": 0.4,
+     "efg_pct": 0.375,
+     "ft": 1,
+     "fta": 2,
+     "ft_pct": 0.5,
+     "orb": 4,
+     "drb": 8,
+     "trb": 12,
+     "ast": 6,
+     "stl": 2,
+     "blk": 2,
+     "tov": 5,
+     "pf": 17,
+     "pts": 19,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 19,
+     "games_started": 1,
+     "mp": 77,
+     "fg": 8,
+     "fga": 24,
+     "fg_pct": 0.333,
+     "fg3": 2,
+     "fg3a": 9,
+     "fg3_pct": 0.222,
+     "fg2": 6,
+     "fg2a": 15,
+     "fg2_pct": 0.4,
+     "efg_pct": 0.375,
+     "ft": 1,
+     "fta": 2,
+     "ft_pct": 0.5,
+     "orb": 4,
+     "drb": 8,
+     "trb": 12,
+     "ast": 6,
+     "stl": 2,
+     "blk": 2,
+     "tov": 5,
+     "pf": 17,
+     "pts": 19,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_min": {
+   "rows": [
+    {
+     "year_id": "1994-95",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 19,
+     "games_started": 1,
+     "mp": 77,
+     "fg_per_min": 4.2,
+     "fga_per_min": 12.5,
+     "fg_pct": 0.333,
+     "fg3_per_min": 1.0,
+     "fg3a_per_min": 4.7,
+     "fg3_pct": 0.222,
+     "fg2_per_min": 3.1,
+     "fg2a_per_min": 7.8,
+     "fg2_pct": 0.4,
+     "efg_pct": 0.375,
+     "ft_per_min": 0.5,
+     "fta_per_min": 1.0,
+     "ft_pct": 0.5,
+     "orb_per_min": 2.1,
+     "drb_per_min": 4.2,
+     "trb_per_min": 6.2,
+     "ast_per_min": 3.1,
+     "stl_per_min": 1.0,
+     "blk_per_min": 1.0,
+     "tov_per_min": 2.6,
+     "pf_per_min": 8.8,
+     "pts_per_min": 9.9,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 19,
+     "games_started": 1,
+     "mp": 77,
+     "fg_per_min": 4.2,
+     "fga_per_min": 12.5,
+     "fg_pct": 0.333,
+     "fg3_per_min": 1.0,
+     "fg3a_per_min": 4.7,
+     "fg3_pct": 0.222,
+     "fg2_per_min": 3.1,
+     "fg2a_per_min": 7.8,
+     "fg2_pct": 0.4,
+     "efg_pct": 0.375,
+     "ft_per_min": 0.5,
+     "fta_per_min": 1.0,
+     "ft_pct": 0.5,
+     "orb_per_min": 2.1,
+     "drb_per_min": 4.2,
+     "trb_per_min": 6.2,
+     "ast_per_min": 3.1,
+     "stl_per_min": 1.0,
+     "blk_per_min": 1.0,
+     "tov_per_min": 2.6,
+     "pf_per_min": 8.8,
+     "pts_per_min": 9.9,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_poss": {
+   "rows": [
+    {
+     "year_id": "1994-95",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 19,
+     "games_started": 1,
+     "mp": 77,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 19,
+     "games_started": 1,
+     "mp": 77,
+     "awards": null
+    }
+   ]
+  },
+  "players_advanced": {
+   "rows": [
+    {
+     "year_id": "1994-95",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 19,
+     "games_started": 1,
+     "mp": 77,
+     "ts_pct": 0.381,
+     "fg3a_per_fga_pct": 0.375,
+     "fta_per_fga_pct": 0.083,
+     "tov_pct": 16.7,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 19,
+     "games_started": 1,
+     "mp": 77,
+     "ts_pct": 0.381,
+     "fg3a_per_fga_pct": 0.375,
+     "fta_per_fga_pct": 0.083,
+     "tov_pct": 16.7,
+     "awards": null
+    }
+   ]
+  }
+ },
+ "awards": [],
+ "bling": [],
+ "leaderboards": {},
+ "uconn_seasons": [
+  1995
+ ]
+}

@@ -529,6 +529,11 @@ def parse_player(html, sr_id):
                 if lab == "School" or lab == "Schools":
                     bio["school_slugs"] = [slug_from(a["href"], "school") for a in p.find_all("a", href=True)
                                            if slug_from(a["href"], "school")]
+                if lab == "Draft":
+                    for a in p.find_all("a", href=True):
+                        m2 = re.search(r"/teams/([A-Z]+)/", a["href"])
+                        if m2:
+                            bio["draft_team_abbr"] = m2.group(1)
                 if lab.startswith("Born"):
                     sp = p.find("span", attrs={"data-birth": True})
                     if sp:
@@ -557,7 +562,8 @@ def parse_player(html, sr_id):
         m = re.search(r"(\d+)\w* round \((\d+)\w* pick, (\d+)\w* overall\),?\s*(\d{4})", d)
         out["draft"] = {"text": d, "round": int(m.group(1)), "pick": int(m.group(2)),
                         "overall": int(m.group(3)), "year": int(m.group(4)),
-                        "team": d.split(",")[0].strip()} if m else {"text": d}
+                        "team": d.split(",")[0].strip() or None,
+                        "team_abbr": bio.get("draft_team_abbr")} if m else {"text": d}
     else:
         out["draft"] = None
     # NBA link

@@ -1,0 +1,422 @@
+{
+ "sr_id": "nadav-henefeld-1",
+ "url": "https://www.sports-reference.com/cbb/players/nadav-henefeld-1.html",
+ "name": "Nadav Henefeld",
+ "photo_url": null,
+ "bio_lines": [
+  "Position: Forward",
+  "6-7 , 219lb (201cm, 99kg)",
+  "Hometown: Tel Aviv, Israel",
+  "School: Connecticut (Men)"
+ ],
+ "bio": {
+  "Position": "Forward",
+  "Hometown": "Tel Aviv, Israel",
+  "School": "Connecticut (Men)",
+  "school_slugs": [
+   "connecticut"
+  ]
+ },
+ "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://cdn.ssref.net/req/202609231/tlogo/ncaa/connecticut.png",
+ "draft_text": null,
+ "draft": null,
+ "nba_url": null,
+ "tables": {
+  "players_per_game": {
+   "rows": [
+    {
+     "year_id": "1989-90",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 37,
+     "games_started": 27,
+     "mp_per_g": 29.5,
+     "fg_per_g": 4.0,
+     "fga_per_g": 8.4,
+     "fg_pct": 0.482,
+     "fg3_per_g": 1.2,
+     "fg3a_per_g": 3.1,
+     "fg3_pct": 0.377,
+     "fg2_per_g": 2.9,
+     "fg2a_per_g": 5.3,
+     "fg2_pct": 0.544,
+     "efg_pct": 0.552,
+     "ft_per_g": 2.4,
+     "fta_per_g": 3.2,
+     "ft_pct": 0.752,
+     "trb_per_g": 5.6,
+     "ast_per_g": 2.9,
+     "stl_per_g": 3.7,
+     "blk_per_g": 0.6,
+     "tov_per_g": 2.3,
+     "pf_per_g": 3.0,
+     "pts_per_g": 11.6,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 37,
+     "games_started": 27,
+     "mp_per_g": 29.5,
+     "fg_per_g": 4.0,
+     "fga_per_g": 8.4,
+     "fg_pct": 0.482,
+     "fg3_per_g": 1.2,
+     "fg3a_per_g": 3.1,
+     "fg3_pct": 0.377,
+     "fg2_per_g": 2.9,
+     "fg2a_per_g": 5.3,
+     "fg2_pct": 0.544,
+     "efg_pct": 0.552,
+     "ft_per_g": 2.4,
+     "fta_per_g": 3.2,
+     "ft_pct": 0.752,
+     "trb_per_g": 5.6,
+     "ast_per_g": 2.9,
+     "stl_per_g": 3.7,
+     "blk_per_g": 0.6,
+     "tov_per_g": 2.3,
+     "pf_per_g": 3.0,
+     "pts_per_g": 11.6,
+     "awards": null
+    }
+   ]
+  },
+  "players_totals": {
+   "rows": [
+    {
+     "year_id": "1989-90",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 37,
+     "games_started": 27,
+     "mp": 1092,
+     "fg": 149,
+     "fga": 309,
+     "fg_pct": 0.482,
+     "fg3": 43,
+     "fg3a": 114,
+     "fg3_pct": 0.377,
+     "fg2": 106,
+     "fg2a": 195,
+     "fg2_pct": 0.544,
+     "efg_pct": 0.552,
+     "ft": 88,
+     "fta": 117,
+     "ft_pct": 0.752,
+     "trb": 208,
+     "ast": 106,
+     "stl": 138,
+     "blk": 22,
+     "tov": 86,
+     "pf": 112,
+     "pts": 429,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 37,
+     "games_started": 27,
+     "mp": 1092,
+     "fg": 149,
+     "fga": 309,
+     "fg_pct": 0.482,
+     "fg3": 43,
+     "fg3a": 114,
+     "fg3_pct": 0.377,
+     "fg2": 106,
+     "fg2a": 195,
+     "fg2_pct": 0.544,
+     "efg_pct": 0.552,
+     "ft": 88,
+     "fta": 117,
+     "ft_pct": 0.752,
+     "trb": 208,
+     "ast": 106,
+     "stl": 138,
+     "blk": 22,
+     "tov": 86,
+     "pf": 112,
+     "pts": 429,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_min": {
+   "rows": [
+    {
+     "year_id": "1989-90",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 37,
+     "games_started": 27,
+     "mp": 1092,
+     "fg_per_min": 5.5,
+     "fga_per_min": 11.3,
+     "fg_pct": 0.482,
+     "fg3_per_min": 1.6,
+     "fg3a_per_min": 4.2,
+     "fg3_pct": 0.377,
+     "fg2_per_min": 3.9,
+     "fg2a_per_min": 7.1,
+     "fg2_pct": 0.544,
+     "efg_pct": 0.552,
+     "ft_per_min": 3.2,
+     "fta_per_min": 4.3,
+     "ft_pct": 0.752,
+     "trb_per_min": 7.6,
+     "ast_per_min": 3.9,
+     "stl_per_min": 5.1,
+     "blk_per_min": 0.8,
+     "tov_per_min": 3.2,
+     "pf_per_min": 4.1,
+     "pts_per_min": 15.7,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 37,
+     "games_started": 27,
+     "mp": 1092,
+     "fg_per_min": 5.5,
+     "fga_per_min": 11.3,
+     "fg_pct": 0.482,
+     "fg3_per_min": 1.6,
+     "fg3a_per_min": 4.2,
+     "fg3_pct": 0.377,
+     "fg2_per_min": 3.9,
+     "fg2a_per_min": 7.1,
+     "fg2_pct": 0.544,
+     "efg_pct": 0.552,
+     "ft_per_min": 3.2,
+     "fta_per_min": 4.3,
+     "ft_pct": 0.752,
+     "trb_per_min": 7.6,
+     "ast_per_min": 3.9,
+     "stl_per_min": 5.1,
+     "blk_per_min": 0.8,
+     "tov_per_min": 3.2,
+     "pf_per_min": 4.1,
+     "pts_per_min": 15.7,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_poss": {
+   "rows": [
+    {
+     "year_id": "1989-90",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 37,
+     "games_started": 27,
+     "mp": 1092,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 37,
+     "games_started": 27,
+     "mp": 1092,
+     "awards": null
+    }
+   ]
+  },
+  "players_advanced": {
+   "rows": [
+    {
+     "year_id": "1989-90",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "F",
+     "games": 37,
+     "games_started": 27,
+     "mp": 1092,
+     "ts_pct": 0.588,
+     "fg3a_per_fga_pct": 0.369,
+     "fta_per_fga_pct": 0.379,
+     "tov_pct": 19.1,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 37,
+     "games_started": 27,
+     "mp": 1092,
+     "ts_pct": 0.588,
+     "fg3a_per_fga_pct": 0.369,
+     "fta_per_fga_pct": 0.379,
+     "tov_pct": 19.1,
+     "awards": null
+    }
+   ]
+  }
+ },
+ "awards": [
+  {
+   "season": "1989-90",
+   "award": "All-Big East",
+   "detail": "3rd Team",
+   "url": "/cbb/awards/men/all-big-east.html",
+   "text": "1989-90 All-Big East - 3rd Team"
+  },
+  {
+   "season": "1989-90",
+   "award": "Big East All-Freshman",
+   "detail": null,
+   "url": "/cbb/awards/men/big-east-all-frosh.html",
+   "text": "1989-90 Big East All-Freshman"
+  },
+  {
+   "season": "1989-90",
+   "award": "Big East Rookie of the Year",
+   "detail": null,
+   "url": "/cbb/awards/men/big-east-roy.html",
+   "text": "1989-90 Big East Rookie of the Year"
+  }
+ ],
+ "bling": [
+  "1989-90 All-Big East",
+  "1989-90 Big East All-Freshman",
+  "1989-90 Big East ROY"
+ ],
+ "leaderboards": {
+  "pts": {
+   "title": "Points",
+   "entries": [
+    "1989-90 Big East 429 (15th)"
+   ]
+  },
+  "trb": {
+   "title": "Total Rebounds",
+   "entries": [
+    "1989-90 Big East 208 (14th)"
+   ]
+  },
+  "trb_per_g": {
+   "title": "Total Rebounds Per Game",
+   "entries": [
+    "1989-90 Big East 5.6 (17th)"
+   ]
+  },
+  "ast": {
+   "title": "Assists",
+   "entries": [
+    "1989-90 Big East 106 (12th)"
+   ]
+  },
+  "ast_per_g": {
+   "title": "Assists Per Game",
+   "entries": [
+    "1989-90 Big East 2.9 (17th)"
+   ]
+  },
+  "stl": {
+   "title": "Steals",
+   "entries": [
+    "1989-90 NCAA 138 (1st)",
+    "1989-90 Big East 138 (1st)"
+   ]
+  },
+  "stl_per_g": {
+   "title": "Steals Per Game",
+   "entries": [
+    "1989-90 NCAA 3.7 (3rd)",
+    "1989-90 Big East 3.7 (1st)"
+   ]
+  },
+  "blk": {
+   "title": "Blocks",
+   "entries": [
+    "1989-90 Big East 22 (18th)"
+   ]
+  },
+  "blk_per_g": {
+   "title": "Blocks Per Game",
+   "entries": [
+    "1989-90 Big East 0.6 (18th)"
+   ]
+  },
+  "ts_pct": {
+   "title": "True Shooting Percentage",
+   "entries": [
+    "1989-90 Big East .588 (10th)"
+   ]
+  },
+  "fg": {
+   "title": "Field Goals",
+   "entries": [
+    "1989-90 Big East 149 (13th)"
+   ]
+  },
+  "fga": {
+   "title": "Field Goal Attempts",
+   "entries": [
+    "1989-90 Big East 309 (14th)"
+   ]
+  },
+  "fg3": {
+   "title": "3-Point Field Goals",
+   "entries": [
+    "1989-90 Big East 43 (10th)"
+   ]
+  },
+  "fg3a": {
+   "title": "3-Point Field Goal Attempts",
+   "entries": [
+    "1989-90 Big East 114 (9th)"
+   ]
+  },
+  "g": {
+   "title": "Games",
+   "entries": [
+    "1989-90 NCAA 37 (10th)",
+    "1989-90 Big East 37 (1st)"
+   ]
+  },
+  "mp": {
+   "title": "Minutes Played",
+   "entries": [
+    "1989-90 Big East 1092 (7th)"
+   ]
+  },
+  "tov": {
+   "title": "Turnovers",
+   "entries": [
+    "1989-90 Big East 86 (8th)"
+   ]
+  }
+ },
+ "uconn_seasons": [
+  1990
+ ]
+}

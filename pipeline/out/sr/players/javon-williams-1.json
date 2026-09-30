@@ -1,0 +1,272 @@
+{
+ "sr_id": "javon-williams-1",
+ "url": "https://www.sports-reference.com/cbb/players/javon-williams-1.html",
+ "name": "Javon Williams",
+ "photo_url": null,
+ "bio_lines": [
+  "Position: Guard",
+  "205lb (92kg)",
+  "Hometown: East Hartford, CT",
+  "School: Connecticut (Men)"
+ ],
+ "bio": {
+  "Position": "Guard",
+  "Hometown": "East Hartford, CT",
+  "School": "Connecticut (Men)",
+  "school_slugs": [
+   "connecticut"
+  ]
+ },
+ "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://cdn.ssref.net/req/202609231/tlogo/ncaa/connecticut.png",
+ "draft_text": null,
+ "draft": null,
+ "nba_url": null,
+ "tables": {
+  "players_per_game": {
+   "rows": [
+    {
+     "year_id": "2012-13",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": null,
+     "pos": "G",
+     "games": 1,
+     "games_started": 0,
+     "mp_per_g": 1.0,
+     "fg_per_g": 0.0,
+     "fga_per_g": 0.0,
+     "fg3_per_g": 0.0,
+     "fg3a_per_g": 0.0,
+     "fg2_per_g": 0.0,
+     "fg2a_per_g": 0.0,
+     "ft_per_g": 0.0,
+     "fta_per_g": 0.0,
+     "orb_per_g": 0.0,
+     "drb_per_g": 0.0,
+     "trb_per_g": 0.0,
+     "ast_per_g": 0.0,
+     "stl_per_g": 0.0,
+     "blk_per_g": 0.0,
+     "tov_per_g": 0.0,
+     "pf_per_g": 0.0,
+     "pts_per_g": 0.0,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 1,
+     "games_started": 0,
+     "mp_per_g": 1.0,
+     "fg_per_g": 0.0,
+     "fga_per_g": 0.0,
+     "fg3_per_g": 0.0,
+     "fg3a_per_g": 0.0,
+     "fg2_per_g": 0.0,
+     "fg2a_per_g": 0.0,
+     "ft_per_g": 0.0,
+     "fta_per_g": 0.0,
+     "orb_per_g": 0.0,
+     "drb_per_g": 0.0,
+     "trb_per_g": 0.0,
+     "ast_per_g": 0.0,
+     "stl_per_g": 0.0,
+     "blk_per_g": 0.0,
+     "tov_per_g": 0.0,
+     "pf_per_g": 0.0,
+     "pts_per_g": 0.0,
+     "awards": null
+    }
+   ]
+  },
+  "players_totals": {
+   "rows": [
+    {
+     "year_id": "2012-13",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": null,
+     "pos": "G",
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "fg": 0,
+     "fga": 0,
+     "fg3": 0,
+     "fg3a": 0,
+     "fg2": 0,
+     "fg2a": 0,
+     "ft": 0,
+     "fta": 0,
+     "orb": 0,
+     "drb": 0,
+     "trb": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "tov": 0,
+     "pf": 0,
+     "pts": 0,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "fg": 0,
+     "fga": 0,
+     "fg3": 0,
+     "fg3a": 0,
+     "fg2": 0,
+     "fg2a": 0,
+     "ft": 0,
+     "fta": 0,
+     "orb": 0,
+     "drb": 0,
+     "trb": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "tov": 0,
+     "pf": 0,
+     "pts": 0,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_min": {
+   "rows": [
+    {
+     "year_id": "2012-13",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": null,
+     "pos": "G",
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "fg_per_min": 0.0,
+     "fga_per_min": 0.0,
+     "fg3_per_min": 0.0,
+     "fg3a_per_min": 0.0,
+     "fg2_per_min": 0.0,
+     "fg2a_per_min": 0.0,
+     "ft_per_min": 0.0,
+     "fta_per_min": 0.0,
+     "orb_per_min": 0.0,
+     "drb_per_min": 0.0,
+     "trb_per_min": 0.0,
+     "ast_per_min": 0.0,
+     "stl_per_min": 0.0,
+     "blk_per_min": 0.0,
+     "tov_per_min": 0.0,
+     "pf_per_min": 0.0,
+     "pts_per_min": 0.0,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "fg_per_min": 0.0,
+     "fga_per_min": 0.0,
+     "fg3_per_min": 0.0,
+     "fg3a_per_min": 0.0,
+     "fg2_per_min": 0.0,
+     "fg2a_per_min": 0.0,
+     "ft_per_min": 0.0,
+     "fta_per_min": 0.0,
+     "orb_per_min": 0.0,
+     "drb_per_min": 0.0,
+     "trb_per_min": 0.0,
+     "ast_per_min": 0.0,
+     "stl_per_min": 0.0,
+     "blk_per_min": 0.0,
+     "tov_per_min": 0.0,
+     "pf_per_min": 0.0,
+     "pts_per_min": 0.0,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_poss": {
+   "rows": [
+    {
+     "year_id": "2012-13",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": null,
+     "pos": "G",
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "awards": null
+    }
+   ]
+  },
+  "players_advanced": {
+   "rows": [
+    {
+     "year_id": "2012-13",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": null,
+     "pos": "G",
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "ows": 0.0,
+     "dws": 0.0,
+     "ws": 0.0,
+     "ws_per_40": 0.0,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "ows": 0.0,
+     "dws": 0.0,
+     "ws": 0.0,
+     "ws_per_40": 0.0,
+     "awards": null
+    }
+   ]
+  }
+ },
+ "awards": [],
+ "bling": [],
+ "leaderboards": {},
+ "uconn_seasons": [
+  2013
+ ]
+}

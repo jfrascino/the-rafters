@@ -627,6 +627,8 @@ for y in years:
         for k in ('res', 'pts', 'opp_pts', 'ot', 'rec', 'arena'):
             if g.get(k) is not None:
                 row[k] = g[k]
+        if y < 2001 and g['type'] in ('REG', 'CTOURN') and not e:
+            row.pop('arena', None)  # Sports-Reference arena names before ~2001 are unreliable (fact-check 2026-09-30)
         if rnd:
             row['round'] = rnd
         if r_idx is not None:
@@ -976,7 +978,7 @@ for player, uc_rows in PLAYERS:
         'ppg': round(c['pts_pg'], 1) if c.get('pts_pg') is not None else None, 'rpg': round(c['trb_pg'], 1) if c.get('trb_pg') is not None else None,
         'apg': round(c['ast_pg'], 1) if c.get('ast_pg') is not None else None, 'spg': c.get('stl_pg'), 'bpg': c.get('blk_pg'), 'mpg': c.get('mp_pg'),
         'fg_pct': c.get('fg_pct'), 'fg3_pct': c.get('fg3_pct'), 'ft_pct': c.get('ft_pct'),
-        'champ': any(r.get('finish') == 'champ' for r in uc_rows), 'draft': player['draft'], 'honors': [h for h in player['honors'] if re.search(r'AA|All-America|POY|MOP', h)],
+        'champ': any(r.get('finish') == 'champ' for r in uc_rows), 'draft': player['draft'], 'honors': [h for h in player['honors'] if re.search(r'\bAA\b|All-America|POY|MOP', h)],
     }.items() if v not in (None, [], '')})
 
 # ───────────────────────── Leaders ─────────────────────────
@@ -1069,6 +1071,20 @@ core = {
 jdump(os.path.join(SITE, 'core.json'), core)
 jdump(os.path.join(SITE, 'games_index.json'), GAMES_INDEX)
 if legends:
+    by_date = collections.defaultdict(list)
+    for g in GAMES_INDEX:
+        by_date[g['date']].append(g)
+    fixed = 0
+    for r in legends.get('rivalries') or []:
+        on = norm(r.get('opponent'))
+        for ng in r.get('notable_games') or []:
+            hit = next((g for g in by_date.get(ng.get('date'), []) if on and (on in norm(g['opp']['name']) or norm(g['opp']['name']) in on)), None)
+            if hit:
+                sc = f"{hit['pts']}–{hit['opp_pts']}" + (f" ({hit['ot']})" if hit.get('ot') else '')
+                if ng.get('score') != sc or ng.get('result') != hit['res']:
+                    fixed += 1
+                ng.update({'score': sc, 'result': hit['res'], 'gid': hit['id']})
+    print(f'rivalry games reconciled with SR results: {fixed} changed')
     jdump(os.path.join(SITE, 'legends.json'), legends)
 media_photos = COMMONS
 jdump(os.path.join(SITE, 'media.json'), {'videos': VIDS, 'photos': media_photos})

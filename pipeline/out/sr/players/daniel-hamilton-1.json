@@ -1,0 +1,1364 @@
+{
+ "sr_id": "daniel-hamilton-1",
+ "url": "https://www.sports-reference.com/cbb/players/daniel-hamilton-1.html",
+ "name": "Daniel Hamilton",
+ "photo_url": null,
+ "bio_lines": [
+  "Position: Guard",
+  "6-7 , 190lb (201cm, 86kg)",
+  "Hometown: Los Angeles, CA",
+  "High School: St. John Bosco HS",
+  "RSCI Top 100: 17 ( 2014 )",
+  "School: Connecticut (Men)",
+  "Draft: Denver Nuggets , 2nd round (26th pick, 56th overall), 2016 NBA draft"
+ ],
+ "bio": {
+  "Position": "Guard",
+  "Hometown": "Los Angeles, CA",
+  "High School": "St. John Bosco HS",
+  "RSCI Top 100": "17 ( 2014)",
+  "School": "Connecticut (Men)",
+  "school_slugs": [
+   "connecticut"
+  ],
+  "Draft": "Denver Nuggets, 2nd round (26th pick, 56th overall), 2016 NBA draft",
+  "draft_team_abbr": "DEN"
+ },
+ "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://cdn.ssref.net/req/202609231/tlogo/ncaa/connecticut.png",
+ "draft_text": "Denver Nuggets, 2nd round (26th pick, 56th overall), 2016 NBA draft",
+ "draft": {
+  "text": "Denver Nuggets, 2nd round (26th pick, 56th overall), 2016 NBA draft",
+  "round": 2,
+  "pick": 26,
+  "overall": 56,
+  "year": 2016,
+  "team": "Denver Nuggets",
+  "team_abbr": "DEN"
+ },
+ "nba_url": "https://www.basketball-reference.com/players/h/hamilda02.html",
+ "tables": {
+  "players_per_game": {
+   "rows": [
+    {
+     "year_id": "2014-15",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "FR",
+     "pos": "G",
+     "games": 35,
+     "games_started": 35,
+     "mp_per_g": 31.4,
+     "fg_per_g": 4.0,
+     "fga_per_g": 10.5,
+     "fg_pct": 0.38,
+     "fg3_per_g": 1.3,
+     "fg3a_per_g": 3.8,
+     "fg3_pct": 0.343,
+     "fg2_per_g": 2.7,
+     "fg2a_per_g": 6.6,
+     "fg2_pct": 0.401,
+     "efg_pct": 0.443,
+     "ft_per_g": 1.6,
+     "fta_per_g": 2.4,
+     "ft_pct": 0.667,
+     "orb_per_g": 1.1,
+     "drb_per_g": 6.6,
+     "trb_per_g": 7.6,
+     "ast_per_g": 3.7,
+     "stl_per_g": 0.9,
+     "blk_per_g": 0.4,
+     "tov_per_g": 2.3,
+     "pf_per_g": 2.5,
+     "pts_per_g": 10.9,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "2015-16",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "SO",
+     "pos": "G",
+     "games": 36,
+     "games_started": 36,
+     "mp_per_g": 31.9,
+     "fg_per_g": 4.4,
+     "fga_per_g": 11.4,
+     "fg_pct": 0.387,
+     "fg3_per_g": 1.3,
+     "fg3a_per_g": 3.9,
+     "fg3_pct": 0.331,
+     "fg2_per_g": 3.1,
+     "fg2a_per_g": 7.5,
+     "fg2_pct": 0.416,
+     "efg_pct": 0.444,
+     "ft_per_g": 2.4,
+     "fta_per_g": 2.8,
+     "ft_pct": 0.86,
+     "orb_per_g": 0.9,
+     "drb_per_g": 8.0,
+     "trb_per_g": 8.9,
+     "ast_per_g": 4.7,
+     "stl_per_g": 1.1,
+     "blk_per_g": 0.4,
+     "tov_per_g": 2.4,
+     "pf_per_g": 1.8,
+     "pts_per_g": 12.5,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 71,
+     "games_started": 71,
+     "mp_per_g": 31.6,
+     "fg_per_g": 4.2,
+     "fga_per_g": 10.9,
+     "fg_pct": 0.384,
+     "fg3_per_g": 1.3,
+     "fg3a_per_g": 3.9,
+     "fg3_pct": 0.337,
+     "fg2_per_g": 2.9,
+     "fg2a_per_g": 7.1,
+     "fg2_pct": 0.409,
+     "efg_pct": 0.443,
+     "ft_per_g": 2.0,
+     "fta_per_g": 2.6,
+     "ft_pct": 0.772,
+     "orb_per_g": 1.0,
+     "drb_per_g": 7.3,
+     "trb_per_g": 8.3,
+     "ast_per_g": 4.2,
+     "stl_per_g": 1.0,
+     "blk_per_g": 0.4,
+     "tov_per_g": 2.3,
+     "pf_per_g": 2.1,
+     "pts_per_g": 11.7,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_game_conf": {
+   "rows": [
+    {
+     "year_id": "2014-15",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "FR",
+     "pos": "G",
+     "games": 18,
+     "games_started": 18,
+     "mp_per_g": 30.7,
+     "fg_per_g": 3.9,
+     "fga_per_g": 10.7,
+     "fg_pct": 0.363,
+     "fg3_per_g": 1.2,
+     "fg3a_per_g": 3.8,
+     "fg3_pct": 0.309,
+     "fg2_per_g": 2.7,
+     "fg2a_per_g": 6.9,
+     "fg2_pct": 0.392,
+     "efg_pct": 0.417,
+     "ft_per_g": 2.1,
+     "fta_per_g": 2.9,
+     "ft_pct": 0.698,
+     "orb_per_g": 1.6,
+     "drb_per_g": 7.5,
+     "trb_per_g": 9.1,
+     "ast_per_g": 4.0,
+     "stl_per_g": 0.9,
+     "blk_per_g": 0.4,
+     "tov_per_g": 2.3,
+     "pf_per_g": 2.5,
+     "pts_per_g": 11.0,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "2015-16",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "SO",
+     "pos": "G",
+     "games": 18,
+     "games_started": 18,
+     "mp_per_g": 31.2,
+     "fg_per_g": 3.7,
+     "fga_per_g": 10.9,
+     "fg_pct": 0.342,
+     "fg3_per_g": 1.4,
+     "fg3a_per_g": 4.4,
+     "fg3_pct": 0.325,
+     "fg2_per_g": 2.3,
+     "fg2a_per_g": 6.4,
+     "fg2_pct": 0.353,
+     "efg_pct": 0.408,
+     "ft_per_g": 1.8,
+     "fta_per_g": 2.1,
+     "ft_pct": 0.868,
+     "orb_per_g": 1.0,
+     "drb_per_g": 7.9,
+     "trb_per_g": 8.9,
+     "ast_per_g": 4.3,
+     "stl_per_g": 1.0,
+     "blk_per_g": 0.4,
+     "tov_per_g": 2.8,
+     "pf_per_g": 1.6,
+     "pts_per_g": 10.7,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 36,
+     "games_started": 36,
+     "mp_per_g": 30.9,
+     "fg_per_g": 3.8,
+     "fga_per_g": 10.8,
+     "fg_pct": 0.352,
+     "fg3_per_g": 1.3,
+     "fg3a_per_g": 4.1,
+     "fg3_pct": 0.318,
+     "fg2_per_g": 2.5,
+     "fg2a_per_g": 6.7,
+     "fg2_pct": 0.373,
+     "efg_pct": 0.413,
+     "ft_per_g": 1.9,
+     "fta_per_g": 2.5,
+     "ft_pct": 0.769,
+     "orb_per_g": 1.3,
+     "drb_per_g": 7.7,
+     "trb_per_g": 9.0,
+     "ast_per_g": 4.2,
+     "stl_per_g": 0.9,
+     "blk_per_g": 0.4,
+     "tov_per_g": 2.6,
+     "pf_per_g": 2.1,
+     "pts_per_g": 10.9
+    }
+   ]
+  },
+  "players_totals": {
+   "rows": [
+    {
+     "year_id": "2014-15",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "FR",
+     "pos": "G",
+     "games": 35,
+     "games_started": 35,
+     "mp": 1100,
+     "fg": 139,
+     "fga": 366,
+     "fg_pct": 0.38,
+     "fg3": 46,
+     "fg3a": 134,
+     "fg3_pct": 0.343,
+     "fg2": 93,
+     "fg2a": 232,
+     "fg2_pct": 0.401,
+     "efg_pct": 0.443,
+     "ft": 56,
+     "fta": 84,
+     "ft_pct": 0.667,
+     "orb": 37,
+     "drb": 230,
+     "trb": 267,
+     "ast": 128,
+     "stl": 33,
+     "blk": 13,
+     "tov": 81,
+     "pf": 86,
+     "pts": 380,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "2015-16",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "SO",
+     "pos": "G",
+     "games": 36,
+     "games_started": 36,
+     "mp": 1147,
+     "fg": 159,
+     "fga": 411,
+     "fg_pct": 0.387,
+     "fg3": 47,
+     "fg3a": 142,
+     "fg3_pct": 0.331,
+     "fg2": 112,
+     "fg2a": 269,
+     "fg2_pct": 0.416,
+     "efg_pct": 0.444,
+     "ft": 86,
+     "fta": 100,
+     "ft_pct": 0.86,
+     "orb": 33,
+     "drb": 288,
+     "trb": 321,
+     "ast": 170,
+     "stl": 38,
+     "blk": 15,
+     "tov": 85,
+     "pf": 66,
+     "pts": 451,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 71,
+     "games_started": 71,
+     "mp": 2247,
+     "fg": 298,
+     "fga": 777,
+     "fg_pct": 0.384,
+     "fg3": 93,
+     "fg3a": 276,
+     "fg3_pct": 0.337,
+     "fg2": 205,
+     "fg2a": 501,
+     "fg2_pct": 0.409,
+     "efg_pct": 0.443,
+     "ft": 142,
+     "fta": 184,
+     "ft_pct": 0.772,
+     "orb": 70,
+     "drb": 518,
+     "trb": 588,
+     "ast": 298,
+     "stl": 71,
+     "blk": 28,
+     "tov": 166,
+     "pf": 152,
+     "pts": 831,
+     "awards": null
+    }
+   ]
+  },
+  "players_totals_conf": {
+   "rows": [
+    {
+     "year_id": "2014-15",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "FR",
+     "pos": "G",
+     "games": 18,
+     "games_started": 18,
+     "mp": 552,
+     "fg": 70,
+     "fga": 193,
+     "fg_pct": 0.363,
+     "fg3": 21,
+     "fg3a": 68,
+     "fg3_pct": 0.309,
+     "fg2": 49,
+     "fg2a": 125,
+     "fg2_pct": 0.392,
+     "efg_pct": 0.417,
+     "ft": 37,
+     "fta": 53,
+     "ft_pct": 0.698,
+     "orb": 28,
+     "drb": 135,
+     "trb": 163,
+     "ast": 72,
+     "stl": 16,
+     "blk": 8,
+     "tov": 42,
+     "pf": 45,
+     "pts": 198,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "2015-16",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "SO",
+     "pos": "G",
+     "games": 18,
+     "games_started": 18,
+     "mp": 562,
+     "fg": 67,
+     "fga": 196,
+     "fg_pct": 0.342,
+     "fg3": 26,
+     "fg3a": 80,
+     "fg3_pct": 0.325,
+     "fg2": 41,
+     "fg2a": 116,
+     "fg2_pct": 0.353,
+     "efg_pct": 0.408,
+     "ft": 33,
+     "fta": 38,
+     "ft_pct": 0.868,
+     "orb": 18,
+     "drb": 142,
+     "trb": 160,
+     "ast": 78,
+     "stl": 18,
+     "blk": 7,
+     "tov": 51,
+     "pf": 29,
+     "pts": 193,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 36,
+     "games_started": 36,
+     "mp": 1114,
+     "fg": 137,
+     "fga": 389,
+     "fg_pct": 0.352,
+     "fg3": 47,
+     "fg3a": 148,
+     "fg3_pct": 0.318,
+     "fg2": 90,
+     "fg2a": 241,
+     "fg2_pct": 0.373,
+     "efg_pct": 0.413,
+     "ft": 70,
+     "fta": 91,
+     "ft_pct": 0.769,
+     "orb": 46,
+     "drb": 277,
+     "trb": 323,
+     "ast": 150,
+     "stl": 34,
+     "blk": 15,
+     "tov": 93,
+     "pf": 74,
+     "pts": 391
+    }
+   ]
+  },
+  "players_per_min": {
+   "rows": [
+    {
+     "year_id": "2014-15",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "FR",
+     "pos": "G",
+     "games": 35,
+     "games_started": 35,
+     "mp": 1100,
+     "fg_per_min": 5.1,
+     "fga_per_min": 13.3,
+     "fg_pct": 0.38,
+     "fg3_per_min": 1.7,
+     "fg3a_per_min": 4.9,
+     "fg3_pct": 0.343,
+     "fg2_per_min": 3.4,
+     "fg2a_per_min": 8.4,
+     "fg2_pct": 0.401,
+     "efg_pct": 0.443,
+     "ft_per_min": 2.0,
+     "fta_per_min": 3.1,
+     "ft_pct": 0.667,
+     "orb_per_min": 1.3,
+     "drb_per_min": 8.4,
+     "trb_per_min": 9.7,
+     "ast_per_min": 4.7,
+     "stl_per_min": 1.2,
+     "blk_per_min": 0.5,
+     "tov_per_min": 2.9,
+     "pf_per_min": 3.1,
+     "pts_per_min": 13.8,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "2015-16",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "SO",
+     "pos": "G",
+     "games": 36,
+     "games_started": 36,
+     "mp": 1147,
+     "fg_per_min": 5.5,
+     "fga_per_min": 14.3,
+     "fg_pct": 0.387,
+     "fg3_per_min": 1.6,
+     "fg3a_per_min": 5.0,
+     "fg3_pct": 0.331,
+     "fg2_per_min": 3.9,
+     "fg2a_per_min": 9.4,
+     "fg2_pct": 0.416,
+     "efg_pct": 0.444,
+     "ft_per_min": 3.0,
+     "fta_per_min": 3.5,
+     "ft_pct": 0.86,
+     "orb_per_min": 1.2,
+     "drb_per_min": 10.0,
+     "trb_per_min": 11.2,
+     "ast_per_min": 5.9,
+     "stl_per_min": 1.3,
+     "blk_per_min": 0.5,
+     "tov_per_min": 3.0,
+     "pf_per_min": 2.3,
+     "pts_per_min": 15.7,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 71,
+     "games_started": 71,
+     "mp": 2247,
+     "fg_per_min": 5.3,
+     "fga_per_min": 13.8,
+     "fg_pct": 0.384,
+     "fg3_per_min": 1.7,
+     "fg3a_per_min": 4.9,
+     "fg3_pct": 0.337,
+     "fg2_per_min": 3.6,
+     "fg2a_per_min": 8.9,
+     "fg2_pct": 0.409,
+     "efg_pct": 0.443,
+     "ft_per_min": 2.5,
+     "fta_per_min": 3.3,
+     "ft_pct": 0.772,
+     "orb_per_min": 1.2,
+     "drb_per_min": 9.2,
+     "trb_per_min": 10.5,
+     "ast_per_min": 5.3,
+     "stl_per_min": 1.3,
+     "blk_per_min": 0.5,
+     "tov_per_min": 3.0,
+     "pf_per_min": 2.7,
+     "pts_per_min": 14.8,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_min_conf": {
+   "rows": [
+    {
+     "year_id": "2014-15",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "FR",
+     "pos": "G",
+     "games": 18,
+     "games_started": 18,
+     "mp": 552,
+     "fg_per_min": 5.1,
+     "fga_per_min": 14.0,
+     "fg_pct": 0.363,
+     "fg3_per_min": 1.5,
+     "fg3a_per_min": 4.9,
+     "fg3_pct": 0.309,
+     "fg2_per_min": 3.6,
+     "fg2a_per_min": 9.1,
+     "fg2_pct": 0.392,
+     "efg_pct": 0.417,
+     "ft_per_min": 2.7,
+     "fta_per_min": 3.8,
+     "ft_pct": 0.698,
+     "orb_per_min": 2.0,
+     "drb_per_min": 9.8,
+     "trb_per_min": 11.8,
+     "ast_per_min": 5.2,
+     "stl_per_min": 1.2,
+     "blk_per_min": 0.6,
+     "tov_per_min": 3.0,
+     "pf_per_min": 3.3,
+     "pts_per_min": 14.3,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "2015-16",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "SO",
+     "pos": "G",
+     "games": 18,
+     "games_started": 18,
+     "mp": 562,
+     "fg_per_min": 4.8,
+     "fga_per_min": 14.0,
+     "fg_pct": 0.342,
+     "fg3_per_min": 1.9,
+     "fg3a_per_min": 5.7,
+     "fg3_pct": 0.325,
+     "fg2_per_min": 2.9,
+     "fg2a_per_min": 8.3,
+     "fg2_pct": 0.353,
+     "efg_pct": 0.408,
+     "ft_per_min": 2.3,
+     "fta_per_min": 2.7,
+     "ft_pct": 0.868,
+     "orb_per_min": 1.3,
+     "drb_per_min": 10.1,
+     "trb_per_min": 11.4,
+     "ast_per_min": 5.6,
+     "stl_per_min": 1.3,
+     "blk_per_min": 0.5,
+     "tov_per_min": 3.6,
+     "pf_per_min": 2.1,
+     "pts_per_min": 13.7,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 36,
+     "games_started": 36,
+     "mp": 1114,
+     "fg_per_min": 4.9,
+     "fga_per_min": 14.0,
+     "fg_pct": 0.352,
+     "fg3_per_min": 1.7,
+     "fg3a_per_min": 5.3,
+     "fg3_pct": 0.318,
+     "fg2_per_min": 3.2,
+     "fg2a_per_min": 8.7,
+     "fg2_pct": 0.373,
+     "efg_pct": 0.413,
+     "ft_per_min": 2.5,
+     "fta_per_min": 3.3,
+     "ft_pct": 0.769,
+     "orb_per_min": 1.7,
+     "drb_per_min": 9.9,
+     "trb_per_min": 11.6,
+     "ast_per_min": 5.4,
+     "stl_per_min": 1.2,
+     "blk_per_min": 0.5,
+     "tov_per_min": 3.3,
+     "pf_per_min": 2.7,
+     "pts_per_min": 14.0
+    }
+   ]
+  },
+  "players_per_poss": {
+   "rows": [
+    {
+     "year_id": "2014-15",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "FR",
+     "pos": "G",
+     "games": 35,
+     "games_started": 35,
+     "mp": 1100,
+     "fg_per_poss": 8.2,
+     "fga_per_poss": 21.5,
+     "fg_pct": 0.38,
+     "fg3_per_poss": 2.7,
+     "fg3a_per_poss": 7.9,
+     "fg3_pct": 0.343,
+     "fg2_per_poss": 5.5,
+     "fg2a_per_poss": 13.6,
+     "fg2_pct": 0.401,
+     "efg_pct": 0.443,
+     "ft_per_poss": 3.3,
+     "fta_per_poss": 4.9,
+     "ft_pct": 0.667,
+     "orb_per_poss": 2.2,
+     "drb_per_poss": 13.5,
+     "trb_per_poss": 15.7,
+     "ast_per_poss": 7.5,
+     "stl_per_poss": 1.9,
+     "blk_per_poss": 0.8,
+     "tov_per_poss": 4.8,
+     "pf_per_poss": 5.1,
+     "pts_per_poss": 22.3,
+     "off_rtg": 97.5,
+     "def_rtg": 92.7,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "2015-16",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "SO",
+     "pos": "G",
+     "games": 36,
+     "games_started": 36,
+     "mp": 1147,
+     "fg_per_poss": 8.4,
+     "fga_per_poss": 21.7,
+     "fg_pct": 0.387,
+     "fg3_per_poss": 2.5,
+     "fg3a_per_poss": 7.5,
+     "fg3_pct": 0.331,
+     "fg2_per_poss": 5.9,
+     "fg2a_per_poss": 14.2,
+     "fg2_pct": 0.416,
+     "efg_pct": 0.444,
+     "ft_per_poss": 4.5,
+     "fta_per_poss": 5.3,
+     "ft_pct": 0.86,
+     "orb_per_poss": 1.7,
+     "drb_per_poss": 15.2,
+     "trb_per_poss": 16.9,
+     "ast_per_poss": 9.0,
+     "stl_per_poss": 2.0,
+     "blk_per_poss": 0.8,
+     "tov_per_poss": 4.5,
+     "pf_per_poss": 3.5,
+     "pts_per_poss": 23.8,
+     "off_rtg": 104.0,
+     "def_rtg": 89.9,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 71,
+     "games_started": 71,
+     "mp": 2247,
+     "fg_per_poss": 8.3,
+     "fga_per_poss": 21.6,
+     "fg_pct": 0.384,
+     "fg3_per_poss": 2.6,
+     "fg3a_per_poss": 7.7,
+     "fg3_pct": 0.337,
+     "fg2_per_poss": 5.7,
+     "fg2a_per_poss": 13.9,
+     "fg2_pct": 0.409,
+     "efg_pct": 0.443,
+     "ft_per_poss": 3.9,
+     "fta_per_poss": 5.1,
+     "ft_pct": 0.772,
+     "orb_per_poss": 1.9,
+     "drb_per_poss": 14.4,
+     "trb_per_poss": 16.3,
+     "ast_per_poss": 8.3,
+     "stl_per_poss": 2.0,
+     "blk_per_poss": 0.8,
+     "tov_per_poss": 4.6,
+     "pf_per_poss": 4.2,
+     "pts_per_poss": 23.1,
+     "off_rtg": 101.0,
+     "def_rtg": 91.2,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_poss_conf": {
+   "rows": [
+    {
+     "year_id": "2014-15",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "FR",
+     "pos": "G",
+     "games": 18,
+     "games_started": 18,
+     "mp": 552,
+     "fg_per_poss": 8.2,
+     "fga_per_poss": 22.6,
+     "fg_pct": 0.363,
+     "fg3_per_poss": 2.5,
+     "fg3a_per_poss": 8.0,
+     "fg3_pct": 0.309,
+     "fg2_per_poss": 5.7,
+     "fg2a_per_poss": 14.6,
+     "fg2_pct": 0.392,
+     "efg_pct": 0.417,
+     "ft_per_poss": 4.3,
+     "fta_per_poss": 6.2,
+     "ft_pct": 0.698,
+     "orb_per_poss": 3.3,
+     "drb_per_poss": 15.8,
+     "trb_per_poss": 19.1,
+     "ast_per_poss": 8.4,
+     "stl_per_poss": 1.9,
+     "blk_per_poss": 0.9,
+     "tov_per_poss": 4.9,
+     "pf_per_poss": 5.3,
+     "pts_per_poss": 23.2,
+     "off_rtg": 99.0,
+     "def_rtg": 92.9,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "2015-16",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "SO",
+     "pos": "G",
+     "games": 18,
+     "games_started": 18,
+     "mp": 562,
+     "fg_per_poss": 7.2,
+     "fga_per_poss": 21.1,
+     "fg_pct": 0.342,
+     "fg3_per_poss": 2.8,
+     "fg3a_per_poss": 8.6,
+     "fg3_pct": 0.325,
+     "fg2_per_poss": 4.4,
+     "fg2a_per_poss": 12.5,
+     "fg2_pct": 0.353,
+     "efg_pct": 0.408,
+     "ft_per_poss": 3.6,
+     "fta_per_poss": 4.1,
+     "ft_pct": 0.868,
+     "orb_per_poss": 1.9,
+     "drb_per_poss": 15.3,
+     "trb_per_poss": 17.2,
+     "ast_per_poss": 8.4,
+     "stl_per_poss": 1.9,
+     "blk_per_poss": 0.8,
+     "tov_per_poss": 5.5,
+     "pf_per_poss": 3.1,
+     "pts_per_poss": 20.8,
+     "off_rtg": 92.3,
+     "def_rtg": 89.3,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 36,
+     "games_started": 36,
+     "mp": 1114,
+     "fg_per_poss": 7.7,
+     "fga_per_poss": 21.8,
+     "fg_pct": 0.352,
+     "fg3_per_poss": 2.6,
+     "fg3a_per_poss": 8.3,
+     "fg3_pct": 0.318,
+     "fg2_per_poss": 5.0,
+     "fg2a_per_poss": 13.5,
+     "fg2_pct": 0.373,
+     "efg_pct": 0.413,
+     "ft_per_poss": 3.9,
+     "fta_per_poss": 5.1,
+     "ft_pct": 0.769,
+     "orb_per_poss": 2.6,
+     "drb_per_poss": 15.5,
+     "trb_per_poss": 18.1,
+     "ast_per_poss": 8.4,
+     "stl_per_poss": 1.9,
+     "blk_per_poss": 0.8,
+     "tov_per_poss": 5.2,
+     "pf_per_poss": 4.2,
+     "pts_per_poss": 21.9,
+     "off_rtg": 95.5,
+     "def_rtg": 91.0
+    }
+   ]
+  },
+  "players_advanced": {
+   "rows": [
+    {
+     "year_id": "2014-15",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "FR",
+     "pos": "G",
+     "games": 35,
+     "games_started": 35,
+     "mp": 1100,
+     "per": 16.9,
+     "ts_pct": 0.468,
+     "fg3a_per_fga_pct": 0.366,
+     "fta_per_fga_pct": 0.23,
+     "pprod": 411,
+     "orb_pct": 4.3,
+     "drb_pct": 24.1,
+     "trb_pct": 14.7,
+     "ast_pct": 26.3,
+     "stl_pct": 1.9,
+     "blk_pct": 1.3,
+     "tov_pct": 16.6,
+     "usg_pct": 24.8,
+     "ows": 1.0,
+     "dws": 2.4,
+     "ws": 3.4,
+     "ws_per_40": 0.124,
+     "obpm": 2.2,
+     "dbpm": 2.4,
+     "bpm": 4.6,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "2015-16",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "SO",
+     "pos": "G",
+     "games": 36,
+     "games_started": 36,
+     "mp": 1147,
+     "per": 20.0,
+     "ts_pct": 0.492,
+     "fg3a_per_fga_pct": 0.345,
+     "fta_per_fga_pct": 0.243,
+     "pprod": 501,
+     "orb_pct": 3.5,
+     "drb_pct": 27.1,
+     "trb_pct": 16.1,
+     "ast_pct": 29.2,
+     "stl_pct": 2.0,
+     "blk_pct": 1.5,
+     "tov_pct": 15.6,
+     "usg_pct": 25.1,
+     "ows": 1.8,
+     "dws": 3.0,
+     "ws": 4.7,
+     "ws_per_40": 0.165,
+     "obpm": 4.0,
+     "dbpm": 4.0,
+     "bpm": 8.0,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 71,
+     "games_started": 71,
+     "mp": 2247,
+     "per": 18.5,
+     "ts_pct": 0.481,
+     "fg3a_per_fga_pct": 0.355,
+     "fta_per_fga_pct": 0.237,
+     "pprod": 912,
+     "orb_pct": 3.9,
+     "drb_pct": 25.6,
+     "trb_pct": 15.4,
+     "ast_pct": 27.8,
+     "stl_pct": 2.0,
+     "blk_pct": 1.4,
+     "tov_pct": 16.1,
+     "usg_pct": 25.0,
+     "ows": 2.8,
+     "dws": 5.4,
+     "ws": 8.1,
+     "ws_per_40": 0.145,
+     "obpm": 3.1,
+     "dbpm": 3.3,
+     "bpm": 6.4,
+     "awards": null
+    }
+   ]
+  },
+  "players_advanced_conf": {
+   "rows": [
+    {
+     "year_id": "2014-15",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "FR",
+     "pos": "G",
+     "games": 18,
+     "games_started": 18,
+     "mp": 552,
+     "per": 21.6,
+     "ts_pct": 0.454,
+     "fg3a_per_fga_pct": 0.352,
+     "fta_per_fga_pct": 0.275,
+     "pprod": 224,
+     "orb_pct": 7.1,
+     "drb_pct": 30.8,
+     "trb_pct": 19.6,
+     "ast_pct": 30.8,
+     "stl_pct": 1.9,
+     "blk_pct": 1.6,
+     "tov_pct": 16.1,
+     "usg_pct": 26.5,
+     "ows": 1.1,
+     "dws": 0.8,
+     "ws": 1.9,
+     "ws_per_40": 0.138,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "2015-16",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "AAC",
+     "class": "SO",
+     "pos": "G",
+     "games": 18,
+     "games_started": 18,
+     "mp": 562,
+     "per": 18.6,
+     "ts_pct": 0.451,
+     "fg3a_per_fga_pct": 0.408,
+     "fta_per_fga_pct": 0.194,
+     "pprod": 219,
+     "orb_pct": 4.2,
+     "drb_pct": 31.3,
+     "trb_pct": 18.2,
+     "ast_pct": 28.8,
+     "stl_pct": 1.9,
+     "blk_pct": 1.4,
+     "tov_pct": 19.2,
+     "usg_pct": 25.6,
+     "ows": 0.6,
+     "dws": 1.1,
+     "ws": 1.7,
+     "ws_per_40": 0.118,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 36,
+     "games_started": 36,
+     "mp": 1114,
+     "per": 20.1,
+     "ts_pct": 0.452,
+     "fg3a_per_fga_pct": 0.38,
+     "fta_per_fga_pct": 0.234,
+     "pprod": 443,
+     "orb_pct": 5.7,
+     "drb_pct": 31.0,
+     "trb_pct": 18.9,
+     "ast_pct": 29.8,
+     "stl_pct": 1.9,
+     "blk_pct": 1.5,
+     "tov_pct": 17.7,
+     "usg_pct": 26.0,
+     "ows": 1.7,
+     "dws": 1.9,
+     "ws": 3.6,
+     "ws_per_40": 0.128
+    }
+   ]
+  }
+ },
+ "awards": [
+  {
+   "season": "2014-15",
+   "award": "AAC All-Freshman",
+   "detail": "1st Team",
+   "url": "/cbb/awards/men/american-all-frosh.html",
+   "text": "2014-15 AAC All-Freshman - 1st Team"
+  },
+  {
+   "season": "2014-15",
+   "award": "AAC Rookie of the Year",
+   "detail": null,
+   "url": "/cbb/awards/men/american-roy.html",
+   "text": "2014-15 AAC Rookie of the Year"
+  },
+  {
+   "season": "2015-16",
+   "award": "All-AAC",
+   "detail": "2nd Team",
+   "url": "/cbb/awards/men/all-american.html",
+   "text": "2015-16 All-AAC - 2nd Team"
+  },
+  {
+   "season": "2015-16",
+   "award": "Wooden Award Midseason Watch List",
+   "detail": null,
+   "url": "/cbb/awards/men/wooden-mid.html",
+   "text": "2015-16 Wooden Award Midseason Watch List"
+  },
+  {
+   "season": "2015-16",
+   "award": "Wooden Award Preseason Watch List",
+   "detail": null,
+   "url": "/cbb/awards/men/wooden-pre.html",
+   "text": "2015-16 Wooden Award Preseason Watch List"
+  },
+  {
+   "season": "2016",
+   "award": "AAC Tournament MVP",
+   "detail": null,
+   "url": "/cbb/awards/men/american-tourney-mvp.html",
+   "text": "2016 AAC Tournament MVP"
+  }
+ ],
+ "bling": [
+  "HS Parade AA",
+  "2015-16 All-AAC",
+  "2014-15 AAC All-Freshman",
+  "2014-15 AAC ROY",
+  "2015-16 AAC Tourney MVP"
+ ],
+ "leaderboards": {
+  "pts": {
+   "title": "Points",
+   "entries": [
+    "2014-15 AAC 380 (14th)",
+    "2015-16 AAC 451 (11th)"
+   ]
+  },
+  "pts_per_g": {
+   "title": "Points Per Game",
+   "entries": [
+    "2014-15 AAC 10.9 (19th)",
+    "2015-16 AAC 12.5 (15th)"
+   ]
+  },
+  "trb": {
+   "title": "Total Rebounds",
+   "entries": [
+    "2014-15 AAC 267 (2nd)",
+    "2015-16 AAC 321 (1st)",
+    "Career American 588 (23rd)"
+   ]
+  },
+  "trb_per_g": {
+   "title": "Total Rebounds Per Game",
+   "entries": [
+    "2014-15 AAC 7.6 (2nd)",
+    "2015-16 AAC 8.9 (2nd)"
+   ]
+  },
+  "drb": {
+   "title": "Defensive Rebounds",
+   "entries": [
+    "2014-15 NCAA 230 (12th)",
+    "2014-15 AAC 230 (1st)",
+    "2015-16 NCAA 288 (6th)",
+    "2015-16 AAC 288 (1st)",
+    "Career American 518 (7th)"
+   ]
+  },
+  "ast": {
+   "title": "Assists",
+   "entries": [
+    "2014-15 AAC 128 (6th)",
+    "2015-16 AAC 170 (1st)"
+   ]
+  },
+  "ast_per_g": {
+   "title": "Assists Per Game",
+   "entries": [
+    "2014-15 AAC 3.7 (9th)",
+    "2015-16 AAC 4.7 (4th)"
+   ]
+  },
+  "stl": {
+   "title": "Steals",
+   "entries": [
+    "2014-15 AAC 33 (17th)",
+    "2015-16 AAC 38 (12th)"
+   ]
+  },
+  "stl_per_g": {
+   "title": "Steals Per Game",
+   "entries": [
+    "2014-15 AAC 0.9 (20th)",
+    "2015-16 AAC 1.1 (20th)"
+   ]
+  },
+  "fg": {
+   "title": "Field Goals",
+   "entries": [
+    "2014-15 AAC 139 (12th)",
+    "2015-16 AAC 159 (10th)"
+   ]
+  },
+  "fga": {
+   "title": "Field Goal Attempts",
+   "entries": [
+    "2014-15 AAC 366 (7th)",
+    "2015-16 AAC 411 (5th)"
+   ]
+  },
+  "fg2": {
+   "title": "2-Point Field Goals",
+   "entries": [
+    "2014-15 AAC 93 (17th)",
+    "2015-16 AAC 112 (14th)"
+   ]
+  },
+  "fg2a": {
+   "title": "2-Point Field Goal Attempts",
+   "entries": [
+    "2014-15 AAC 232 (9th)",
+    "2015-16 AAC 269 (9th)"
+   ]
+  },
+  "fg3": {
+   "title": "3-Point Field Goals",
+   "entries": [
+    "2014-15 AAC 46 (15th)"
+   ]
+  },
+  "fg3a": {
+   "title": "3-Point Field Goal Attempts",
+   "entries": [
+    "2014-15 AAC 134 (15th)",
+    "2015-16 AAC 142 (19th)"
+   ]
+  },
+  "ft": {
+   "title": "Free Throws",
+   "entries": [
+    "2015-16 AAC 86 (17th)"
+   ]
+  },
+  "g": {
+   "title": "Games",
+   "entries": [
+    "2014-15 AAC 35 (6th)",
+    "2015-16 AAC 36 (1st)"
+   ]
+  },
+  "mp": {
+   "title": "Minutes Played",
+   "entries": [
+    "2014-15 AAC 1100 (7th)",
+    "2015-16 AAC 1147 (4th)"
+   ]
+  },
+  "mp_per_g": {
+   "title": "Minutes Played Per Game",
+   "entries": [
+    "2014-15 AAC 31.4 (16th)",
+    "2015-16 AAC 31.9 (15th)"
+   ]
+  },
+  "tov": {
+   "title": "Turnovers",
+   "entries": [
+    "2014-15 AAC 81 (4th)",
+    "2015-16 AAC 85 (2nd)"
+   ]
+  },
+  "pf": {
+   "title": "Personal Fouls",
+   "entries": [
+    "2014-15 AAC 86 (9th)"
+   ]
+  },
+  "per": {
+   "title": "Player Efficiency Rating",
+   "entries": [
+    "2015-16 AAC 20.0 (15th)"
+   ]
+  },
+  "ws": {
+   "title": "Win Shares",
+   "entries": [
+    "2014-15 AAC 3.4 (13th)",
+    "2015-16 AAC 4.7 (5th)"
+   ]
+  },
+  "dws": {
+   "title": "Defensive Win Shares",
+   "entries": [
+    "2014-15 AAC 2.4 (5th)",
+    "2015-16 NCAA 3.0 (4th)",
+    "2015-16 AAC 3.0 (1st)",
+    "Career American 5.4 (24th)"
+   ]
+  },
+  "ws_per_40": {
+   "title": "Win Shares Per 40 Minutes",
+   "entries": [
+    "2015-16 AAC .165 (13th)"
+   ]
+  },
+  "bpm": {
+   "title": "Box Plus/Minus",
+   "entries": [
+    "2014-15 AAC 4.6 (16th)",
+    "2015-16 AAC 8.0 (3rd)"
+   ]
+  },
+  "obpm": {
+   "title": "Offensive Box Plus/Minus",
+   "entries": [
+    "2015-16 AAC 4.0 (12th)"
+   ]
+  },
+  "dbpm": {
+   "title": "Defensive Box Plus/Minus",
+   "entries": [
+    "2014-15 AAC 2.4 (14th)",
+    "2015-16 AAC 4.0 (3rd)"
+   ]
+  },
+  "def_rtg": {
+   "title": "Defensive Rating",
+   "entries": [
+    "2014-15 AAC 92.7 (7th)",
+    "2015-16 NCAA 89.9 (12th)",
+    "2015-16 AAC 89.9 (1st)",
+    "Career American 91.2 (21st)"
+   ]
+  },
+  "usg_pct": {
+   "title": "Usage Percentage",
+   "entries": [
+    "2014-15 AAC 24.8 (8th)",
+    "2015-16 AAC 25.1 (8th)"
+   ]
+  },
+  "trb_pct": {
+   "title": "Total Rebound Percentage",
+   "entries": [
+    "2014-15 AAC 14.7 (7th)",
+    "2015-16 AAC 16.1 (5th)",
+    "Career American 15.4 (25th)"
+   ]
+  },
+  "ast_pct": {
+   "title": "Assist Percentage",
+   "entries": [
+    "2014-15 AAC 26.3 (8th)",
+    "2015-16 AAC 29.2 (2nd)",
+    "Career American 27.8 (12th)"
+   ]
+  },
+  "drb_pct": {
+   "title": "Defensive Rebound Percentage",
+   "entries": [
+    "2014-15 AAC 24.1 (1st)",
+    "2015-16 AAC 27.1 (1st)",
+    "Career American 25.6 (2nd)"
+   ]
+  },
+  "pprod": {
+   "title": "Points Produced",
+   "entries": [
+    "2014-15 AAC 411 (7th)",
+    "2015-16 AAC 501 (3rd)"
+   ]
+  },
+  "pprod_per_g": {
+   "title": "Points Produced Per Game",
+   "entries": [
+    "2014-15 AAC 11.7 (11th)",
+    "2015-16 AAC 13.9 (9th)"
+   ]
+  }
+ },
+ "uconn_seasons": [
+  2015,
+  2016
+ ]
+}

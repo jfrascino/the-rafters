@@ -1,6 +1,15 @@
 {
- "checked_claims": 118,
+ "checked_claims": 827,
  "items": [
+  {
+   "year": 1987,
+   "field": "story",
+   "status": "OK_UNVERIFIABLE",
+   "old": "a 96–94 overtime decision over Rhode Island",
+   "new": "a 96–94 decision over Rhode Island",
+   "reason": "Sources conflict. The Wikipedia schedule marks the Dec. 11, 1986 game as OT, but SR (authoritative, and it does record OT for other games of that era, e.g., the 1988 NIT at West Virginia) shows no overtime. Dropping 'overtime' is safe either way.",
+   "source": "pipeline/out/sr/seasons/1987.json; https://en.wikipedia.org/wiki/1986%E2%80%9387_Connecticut_Huskies_men's_basketball_team"
+  },
   {
    "year": 1990,
    "field": "key_moments[1].text",
@@ -36,6 +45,339 @@
    "new": "in back-to-back games at the Hartford Civic Center in January and cracked the AP poll for the first time that season.",
    "reason": "UConn had been ranked before (e.g., No. 18 in the Dec. 5, 1988 AP poll); the Jan. 22, 1990 No. 20 ranking was its first of the 1989–90 season, not its first ever.",
    "source": "pipeline/out/sr/seasons/1989.json polls; https://en.wikipedia.org/wiki/UConn_Huskies_men%27s_basketball"
+  },
+  {
+   "year": 1991,
+   "field": "story",
+   "status": "FIX",
+   "old": "No. 20 Georgetown",
+   "new": "No. 18 Georgetown",
+   "reason": "SR lists Georgetown as No. 18 for the Feb. 11, 1991 game. That is the AP poll dated the week of Feb. 11–12; Georgetown was No. 20 in the previous week's poll, which the Wikipedia schedule uses. SR is the designated authority. Low-stakes poll-timing discrepancy.",
+   "source": "pipeline/out/sr/seasons/1991.json; https://en.wikipedia.org/wiki/1990%E2%80%9391_NCAA_Division_I_men%27s_basketball_rankings"
+  },
+  {
+   "year": 1992,
+   "field": "story",
+   "status": "FIX",
+   "old": "No. 21 Syracuse",
+   "new": "No. 24 Syracuse",
+   "reason": "Syracuse was No. 24 in the AP poll of Mar. 2, 1992, in effect for the Mar. 4 game (SR opp_rank 24). No. 21 is the Coaches' Poll figure.",
+   "source": "pipeline/out/sr/seasons/1992.json; https://en.wikipedia.org/wiki/1991%E2%80%9392_NCAA_Division_I_men%27s_basketball_rankings"
+  },
+  {
+   "year": 1995,
+   "field": "story",
+   "status": "FIX",
+   "old": "The Huskies opened with a 90–86 win over No. 8 Duke, reeled off a 15-game winning streak,",
+   "new": "The Huskies started 15–0, a run that included a 90–86 win over No. 6 Duke,",
+   "reason": "Duke was UConn's second game (opener was Lafayette 110–48 on Nov. 25, 1994). Duke was No. 6 in the Nov. 28 AP poll in effect for the Nov. 29 game (SR opp_rank 6; Wikipedia's schedule lists the preseason No. 8).",
+   "source": "pipeline/out/sr/seasons/1995.json; https://en.wikipedia.org/wiki/1994%E2%80%9395_NCAA_Division_I_men%27s_basketball_rankings"
+  },
+  {
+   "year": 1996,
+   "field": "story",
+   "status": "OK_UNVERIFIABLE",
+   "old": "Trailing Georgetown 74–63 with four minutes left",
+   "new": "Trailing Georgetown 74–63 with under five minutes left",
+   "reason": "The 12–0 run (63→75) is consistent, but the exact 'four minutes' time isn't in the cited sources; the program article says the run came 'with under 5 minutes to play'.",
+   "source": "https://en.wikipedia.org/wiki/UConn_Huskies_men%27s_basketball"
+  },
+  {
+   "year": 1996,
+   "field": "story",
+   "status": "OK_UNVERIFIABLE",
+   "old": "after two players were ruled ineligible",
+   "new": "after players were found to have accepted improper gifts from agents",
+   "reason": "Cited Wikipedia sources say only that UConn players accepted illegal gifts from agents (NYT, May 9, 1997); 'two players ruled ineligible' isn't supported there.",
+   "source": "https://en.wikipedia.org/wiki/1996_NCAA_Division_I_men%27s_basketball_tournament"
+  },
+  {
+   "year": 1997,
+   "field": "story",
+   "status": "FIX",
+   "old": "lost a 71–66 semifinal to Florida State",
+   "new": "lost a 71–65 overtime semifinal to Florida State",
+   "reason": "The Mar. 25, 1997 NIT semifinal was a 71–65 overtime loss (SR schedule; the program article's NIT table also lists L 65–71). Wikipedia's season schedule wrongly shows 66–71.",
+   "source": "pipeline/out/sr/seasons/1997.json; https://en.wikipedia.org/wiki/UConn_Huskies_men%27s_basketball (NIT results)"
+  },
+  {
+   "year": 1998,
+   "field": "key_moments[0].text",
+   "status": "FIX",
+   "old": "UConn beat Syracuse 69–54 (Championship/Rivalry) at Madison Square Garden",
+   "new": "UConn beat Syracuse 69–64 in the Big East tournament final at Madison Square Garden",
+   "reason": "Wrong score: the final was 69–64 (SR schedule; 1998 Big East tournament article). Also removes the 'Championship/Rivalry' gamename artifact.",
+   "source": "pipeline/out/sr/seasons/1998.json; https://en.wikipedia.org/wiki/1998_Big_East_men%27s_basketball_tournament"
+  },
+  {
+   "year": 1998,
+   "field": "key_moments[0].title",
+   "status": "FIX",
+   "old": "Big East tournament Championship/Rivalry: W vs Syracuse",
+   "new": "Big East tournament final: W vs Syracuse",
+   "reason": "Wikipedia schedule 'gamename' artifact ('Championship/Rivalry') leaked into the title.",
+   "source": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Connecticut_Huskies_men's_basketball_team"
+  },
+  {
+   "year": 1998,
+   "field": "key_moments[1].text",
+   "status": "FIX",
+   "old": "Washington, D.C..",
+   "new": "Washington, D.C.",
+   "reason": "Typo: doubled period.",
+   "source": "n/a (formatting)"
+  },
+  {
+   "year": 1998,
+   "field": "key_moments[2].text",
+   "status": "FIX",
+   "old": "Washington, D.C..",
+   "new": "Washington, D.C.",
+   "reason": "Typo: doubled period.",
+   "source": "n/a (formatting)"
+  },
+  {
+   "year": 1998,
+   "field": "story",
+   "status": "OK_UNVERIFIABLE",
+   "old": "the Huskies got three shots in the final 15 seconds, and Hamilton",
+   "new": "the Huskies got three shots in the closing seconds, and Hamilton",
+   "reason": "Voskuhl miss, Hamilton miss, Hamilton winner is supported; the 'final 15 seconds' timing isn't in the cited sources.",
+   "source": "https://en.wikipedia.org/wiki/Richard_Hamilton_(basketball)"
+  },
+  {
+   "year": 1998,
+   "field": "story",
+   "status": "FIX",
+   "old": "beating Syracuse 69–54 in the final",
+   "new": "beating Syracuse 69–64 in the final",
+   "reason": "The 1998 Big East final was 69–64 (SR schedule; 1998 Big East tournament article). The Wikipedia season schedule's 69–54 is a typo.",
+   "source": "pipeline/out/sr/seasons/1998.json; https://en.wikipedia.org/wiki/1998_Big_East_men%27s_basketball_tournament"
+  },
+  {
+   "year": 1999,
+   "field": "honors[5]",
+   "status": "FIX",
+   "old": "Richard Hamilton – Big East Player of the Year",
+   "new": "Richard Hamilton – Big East Co-Player of the Year",
+   "reason": "The 1999 award was shared with Miami's Tim James.",
+   "source": "https://en.wikipedia.org/wiki/Big_East_Conference_Men%27s_Basketball_Player_of_the_Year"
+  },
+  {
+   "year": 2000,
+   "field": "story",
+   "status": "FIX",
+   "old": "in a 75–70 loss at Notre Dame that snapped",
+   "new": "in a 75–70 home loss to Notre Dame on January 5 that snapped",
+   "reason": "The Jan. 5, 2000 Notre Dame game was a UConn home game (Hartford Civic Center per Wikipedia; SR lists it as a home game). The road game at Notre Dame was a 68–66 loss on Feb. 12.",
+   "source": "pipeline/out/sr/seasons/2000.json; https://en.wikipedia.org/wiki/Khalid_El-Amin"
+  },
+  {
+   "year": 2002,
+   "field": "honors[2]",
+   "status": "FIX",
+   "old": "Caron Butler – Big East Player of the Year",
+   "new": "Caron Butler – Big East Co-Player of the Year",
+   "reason": "Shared with Pitt's Brandin Knight (the story already says so; the honors line should match).",
+   "source": "https://en.wikipedia.org/wiki/Big_East_Conference_Men%27s_Basketball_Player_of_the_Year"
+  },
+  {
+   "year": 2002,
+   "field": "key_moments[1].text",
+   "status": "FIX",
+   "old": "Washington, D.C..",
+   "new": "Washington, D.C.",
+   "reason": "Typo: doubled period.",
+   "source": "n/a (formatting)"
+  },
+  {
+   "year": 2002,
+   "field": "key_moments[2].text",
+   "status": "FIX",
+   "old": "Washington, D.C..",
+   "new": "Washington, D.C.",
+   "reason": "Typo: doubled period.",
+   "source": "n/a (formatting)"
+  },
+  {
+   "year": 2004,
+   "field": "honors[4]",
+   "status": "FIX",
+   "old": "Emeka Okafor – NABC National Player of the Year",
+   "new": "Emeka Okafor – NABC National Co-Player of the Year",
+   "reason": "Okafor shared the 2004 NABC Player of the Year award (Wikipedia: 'NABC Co-Player of the Year (2004)'), with Saint Joseph's Jameer Nelson.",
+   "source": "https://en.wikipedia.org/wiki/Emeka_Okafor"
+  },
+  {
+   "year": 2004,
+   "field": "story",
+   "status": "FIX",
+   "old": "86–59 rout of No. 7 Oklahoma",
+   "new": "86–59 rout of No. 6 Oklahoma",
+   "reason": "Oklahoma was No. 6 in the AP poll of Jan. 6, 2004, in effect for the Jan. 11 game (SR opp_rank 6). No. 7 is the Coaches' Poll rank.",
+   "source": "pipeline/out/sr/seasons/2004.json; https://en.wikipedia.org/wiki/2003%E2%80%9304_NCAA_Division_I_men%27s_basketball_rankings"
+  },
+  {
+   "year": 2006,
+   "field": "key_moments[3].text",
+   "status": "FIX",
+   "old": "Washington, D.C..",
+   "new": "Washington, D.C.",
+   "reason": "Typo: doubled period.",
+   "source": "n/a (formatting)"
+  },
+  {
+   "year": 2006,
+   "field": "key_moments[4].text",
+   "status": "FIX",
+   "old": "Washington, D.C..",
+   "new": "Washington, D.C.",
+   "reason": "Typo: doubled period.",
+   "source": "n/a (formatting)"
+  },
+  {
+   "year": 2007,
+   "field": "story",
+   "status": "OK_UNVERIFIABLE",
+   "old": "who tied the school record with 10 blocks in a game on December 3, 2006",
+   "new": "who blocked 10 shots in a game on December 3, 2006",
+   "reason": "The 10 blocks vs Texas Southern on Dec. 3, 2006 are confirmed by the SR box score, but no cited source says 10 was (or tied) a UConn single-game record.",
+   "source": "pipeline/out/sr/boxscores/2006-12-03-connecticut.json; https://en.wikipedia.org/wiki/Hasheem_Thabeet"
+  },
+  {
+   "year": 2009,
+   "field": "honors[4]",
+   "status": "FIX",
+   "old": "Hasheem Thabeet – Big East Player of the Year",
+   "new": "Hasheem Thabeet – Big East Co-Player of the Year",
+   "reason": "Shared with Pitt's DeJuan Blair (the story already says so; honors line should match).",
+   "source": "https://en.wikipedia.org/wiki/Big_East_Conference_Men%27s_Basketball_Player_of_the_Year"
+  },
+  {
+   "year": 2010,
+   "field": "story",
+   "status": "FIX",
+   "old": "Jerome Dyson returned from knee surgery to average 17.7 points and was named Sporting News Comeback Player of the Year,",
+   "new": "Jerome Dyson returned from knee surgery to average 17.2 points,",
+   "reason": "SR per-game stats: Dyson averaged 17.2 ppg in 2009–10 (34 games), not 17.7. The 'Sporting News Comeback Player of the Year' award isn't in any cited source (Dyson's Wikipedia article has no such mention); remove unless separately sourced.",
+   "source": "pipeline/out/sr/seasons/2010.json (stats.per_game); https://en.wikipedia.org/wiki/Jerome_Dyson"
+  },
+  {
+   "year": 2011,
+   "field": "key_moments[2].text",
+   "status": "FIX",
+   "old": "in the NCAA tournament first round",
+   "new": "in the NCAA tournament second round (round of 64)",
+   "reason": "Official 2011 round naming (see title).",
+   "source": "pipeline/out/sr/seasons/2011.json"
+  },
+  {
+   "year": 2011,
+   "field": "key_moments[2].title",
+   "status": "FIX",
+   "old": "NCAA First Round: W vs Bucknell",
+   "new": "NCAA Second Round: W vs Bucknell",
+   "reason": "From 2011 to 2015 the NCAA officially called the round of 64 the 'second round' (the First Four was the first round). SR labels this game 'West Second Round', and the 2014 entries already use this naming.",
+   "source": "pipeline/out/sr/seasons/2011.json (meta.postseason)"
+  },
+  {
+   "year": 2011,
+   "field": "key_moments[3].text",
+   "status": "FIX",
+   "old": "in the NCAA tournament second round",
+   "new": "in the NCAA tournament third round (round of 32)",
+   "reason": "Official 2011 round naming.",
+   "source": "pipeline/out/sr/seasons/2011.json"
+  },
+  {
+   "year": 2011,
+   "field": "key_moments[3].title",
+   "status": "FIX",
+   "old": "NCAA Second Round: W vs Cincinnati",
+   "new": "NCAA Third Round: W vs Cincinnati",
+   "reason": "Official 2011 naming for the round of 32 was 'third round' (SR: 'West Third Round').",
+   "source": "pipeline/out/sr/seasons/2011.json"
+  },
+  {
+   "year": 2011,
+   "field": "story",
+   "status": "FIX",
+   "old": "national sensation. an 82–81 overtime win",
+   "new": "national sensation. An 82–81 overtime win",
+   "reason": "Capitalization typo at sentence start.",
+   "source": "n/a (formatting)"
+  },
+  {
+   "year": 2012,
+   "field": "key_moments[0].text",
+   "status": "FIX",
+   "old": "in the NCAA tournament first round",
+   "new": "in the NCAA tournament second round (round of 64)",
+   "reason": "Official 2012 round naming.",
+   "source": "pipeline/out/sr/seasons/2012.json"
+  },
+  {
+   "year": 2012,
+   "field": "key_moments[0].title",
+   "status": "FIX",
+   "old": "NCAA First round: L vs Iowa State",
+   "new": "NCAA Second Round: L vs Iowa State",
+   "reason": "In 2012 the round of 64 was officially the 'second round' (SR: 'South Second Round').",
+   "source": "pipeline/out/sr/seasons/2012.json (meta.postseason)"
+  },
+  {
+   "year": 2012,
+   "field": "story",
+   "status": "FIX",
+   "old": "they lost to Iowa State 77–64 in the NCAA first round.",
+   "new": "they lost to Iowa State 77–64 in their NCAA opener.",
+   "reason": "In 2012 the round of 64 was officially the 'second round'. Neutral wording avoids the conflict.",
+   "source": "pipeline/out/sr/seasons/2012.json"
+  },
+  {
+   "year": 2016,
+   "field": "story",
+   "status": "FIX",
+   "old": "who averaged 12.5 points and a league-best 8.9 rebounds",
+   "new": "who averaged 12.5 points and 8.9 rebounds, second in the AAC",
+   "reason": "Hamilton's 8.9 rpg ranked 2nd in the AAC in 2015–16; Memphis' Dedric Lawson led at 9.3.",
+   "source": "https://www.sports-reference.com/cbb/conferences/aac/men/2016-leaders.html"
+  },
+  {
+   "year": 2016,
+   "field": "story",
+   "status": "OK_UNVERIFIABLE",
+   "old": "freshman Jalen Adams banked in a three-quarter-court shot",
+   "new": "freshman Jalen Adams hit a three-quarter-court shot",
+   "reason": "0.8 seconds, down three, three-quarter-court shot are all supported (Jalen Adams article). No cited source says the shot was banked.",
+   "source": "https://en.wikipedia.org/wiki/Jalen_Adams"
+  },
+  {
+   "year": 2017,
+   "field": "record",
+   "status": "OK_UNVERIFIABLE",
+   "old": "16–17",
+   "new": "16–17 (wins later vacated)",
+   "reason": "The July 2019 NCAA ruling required UConn to vacate wins in which an ineligible player took part during both the 2016–17 and 2017–18 seasons (Kevin Ollie article; Ollie's coaching table shows 2016–17 conference standing 'Vacated' and excludes the 16 wins from his subtotal; SR meta shows '16-17 Overall W-L adjusted'). The 2016–17 season article still lists 16–17. Decide on a convention and note the vacatur (the 2018 entry already does this).",
+   "source": "https://en.wikipedia.org/wiki/Kevin_Ollie; pipeline/out/sr/seasons/2017.json meta.raw.Record"
+  },
+  {
+   "year": 2019,
+   "field": "story",
+   "status": "FIX",
+   "old": "Christian Vital averaged 14.9 points",
+   "new": "Christian Vital averaged 14.2 points",
+   "reason": "SR per-game stats: Vital averaged 14.2 ppg in 2018–19. The 14.9 figure is his 2017–18 average.",
+   "source": "pipeline/out/sr/seasons/2019.json and 2018.json (stats.per_game)"
+  },
+  {
+   "year": 2026,
+   "field": "key_moments[5].text",
+   "status": "FIX",
+   "old": "Washington D.C..",
+   "new": "Washington, D.C.",
+   "reason": "Typo: missing comma and doubled period.",
+   "source": "n/a (formatting)"
   }
  ]
 }

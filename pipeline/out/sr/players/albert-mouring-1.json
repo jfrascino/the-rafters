@@ -1,0 +1,855 @@
+{
+ "sr_id": "albert-mouring-1",
+ "url": "https://www.sports-reference.com/cbb/players/albert-mouring-1.html",
+ "name": "Albert Mouring",
+ "photo_url": null,
+ "bio_lines": [
+  "Position: Guard",
+  "6-3 , 180lb (190cm, 81kg)",
+  "Hometown: Preston, MD",
+  "School: Connecticut (Men)"
+ ],
+ "bio": {
+  "Position": "Guard",
+  "Hometown": "Preston, MD",
+  "School": "Connecticut (Men)",
+  "school_slugs": [
+   "connecticut"
+  ]
+ },
+ "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://cdn.ssref.net/req/202609231/tlogo/ncaa/connecticut.png",
+ "draft_text": null,
+ "draft": null,
+ "nba_url": null,
+ "tables": {
+  "players_per_game": {
+   "rows": [
+    {
+     "year_id": "1997-98",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "G",
+     "games": 15,
+     "games_started": 0,
+     "mp_per_g": 2.1,
+     "fg_per_g": 0.5,
+     "fga_per_g": 1.1,
+     "fg_pct": 0.412,
+     "fg3_per_g": 0.1,
+     "fg3a_per_g": 0.7,
+     "fg3_pct": 0.1,
+     "fg2_per_g": 0.4,
+     "fg2a_per_g": 0.5,
+     "fg2_pct": 0.857,
+     "efg_pct": 0.441,
+     "ft_per_g": 0.1,
+     "fta_per_g": 0.1,
+     "ft_pct": 0.5,
+     "orb_per_g": 0.1,
+     "drb_per_g": 0.3,
+     "trb_per_g": 0.3,
+     "ast_per_g": 0.0,
+     "stl_per_g": 0.2,
+     "blk_per_g": 0.1,
+     "tov_per_g": 0.3,
+     "pf_per_g": 0.2,
+     "pts_per_g": 1.1,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1998-99",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SO",
+     "pos": "G",
+     "games": 32,
+     "games_started": 0,
+     "mp_per_g": 18.9,
+     "fg_per_g": 2.5,
+     "fga_per_g": 5.6,
+     "fg_pct": 0.439,
+     "fg3_per_g": 1.0,
+     "fg3a_per_g": 2.7,
+     "fg3_pct": 0.376,
+     "fg2_per_g": 1.5,
+     "fg2a_per_g": 3.0,
+     "fg2_pct": 0.495,
+     "efg_pct": 0.528,
+     "ft_per_g": 1.2,
+     "fta_per_g": 1.6,
+     "ft_pct": 0.745,
+     "orb_per_g": 0.9,
+     "drb_per_g": 1.6,
+     "trb_per_g": 2.5,
+     "ast_per_g": 1.1,
+     "stl_per_g": 0.6,
+     "blk_per_g": 0.3,
+     "tov_per_g": 1.0,
+     "pf_per_g": 0.8,
+     "pts_per_g": 7.1,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1999-00",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "JR",
+     "pos": "G",
+     "games": 35,
+     "games_started": 35,
+     "mp_per_g": 33.0,
+     "fg_per_g": 4.7,
+     "fga_per_g": 11.1,
+     "fg_pct": 0.429,
+     "fg3_per_g": 2.5,
+     "fg3a_per_g": 5.1,
+     "fg3_pct": 0.478,
+     "fg2_per_g": 2.3,
+     "fg2a_per_g": 5.9,
+     "fg2_pct": 0.386,
+     "efg_pct": 0.54,
+     "ft_per_g": 2.0,
+     "fta_per_g": 2.4,
+     "ft_pct": 0.843,
+     "orb_per_g": 1.5,
+     "drb_per_g": 2.0,
+     "trb_per_g": 3.5,
+     "ast_per_g": 2.3,
+     "stl_per_g": 1.0,
+     "blk_per_g": 0.4,
+     "tov_per_g": 1.5,
+     "pf_per_g": 1.3,
+     "pts_per_g": 13.9,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "2000-01",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SR",
+     "pos": "G",
+     "games": 32,
+     "games_started": 32,
+     "mp_per_g": 34.4,
+     "fg_per_g": 5.0,
+     "fga_per_g": 11.4,
+     "fg_pct": 0.437,
+     "fg3_per_g": 1.8,
+     "fg3a_per_g": 4.8,
+     "fg3_pct": 0.374,
+     "fg2_per_g": 3.2,
+     "fg2a_per_g": 6.6,
+     "fg2_pct": 0.483,
+     "efg_pct": 0.516,
+     "ft_per_g": 3.3,
+     "fta_per_g": 3.7,
+     "ft_pct": 0.889,
+     "orb_per_g": 0.8,
+     "drb_per_g": 2.3,
+     "trb_per_g": 3.2,
+     "ast_per_g": 1.7,
+     "stl_per_g": 1.2,
+     "blk_per_g": 0.4,
+     "tov_per_g": 1.6,
+     "pf_per_g": 1.7,
+     "pts_per_g": 15.1,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 114,
+     "games_started": 67,
+     "mp_per_g": 25.4,
+     "fg_per_g": 3.6,
+     "fga_per_g": 8.3,
+     "fg_pct": 0.434,
+     "fg3_per_g": 1.6,
+     "fg3a_per_g": 3.8,
+     "fg3_pct": 0.412,
+     "fg2_per_g": 2.1,
+     "fg2a_per_g": 4.6,
+     "fg2_pct": 0.452,
+     "efg_pct": 0.527,
+     "ft_per_g": 1.9,
+     "fta_per_g": 2.2,
+     "ft_pct": 0.842,
+     "orb_per_g": 1.0,
+     "drb_per_g": 1.8,
+     "trb_per_g": 2.7,
+     "ast_per_g": 1.5,
+     "stl_per_g": 0.8,
+     "blk_per_g": 0.3,
+     "tov_per_g": 1.2,
+     "pf_per_g": 1.1,
+     "pts_per_g": 10.6,
+     "awards": null
+    }
+   ]
+  },
+  "players_totals": {
+   "rows": [
+    {
+     "year_id": "1997-98",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "G",
+     "games": 15,
+     "games_started": 0,
+     "mp": 31,
+     "fg": 7,
+     "fga": 17,
+     "fg_pct": 0.412,
+     "fg3": 1,
+     "fg3a": 10,
+     "fg3_pct": 0.1,
+     "fg2": 6,
+     "fg2a": 7,
+     "fg2_pct": 0.857,
+     "efg_pct": 0.441,
+     "ft": 1,
+     "fta": 2,
+     "ft_pct": 0.5,
+     "orb": 1,
+     "drb": 4,
+     "trb": 5,
+     "ast": 0,
+     "stl": 3,
+     "blk": 1,
+     "tov": 4,
+     "pf": 3,
+     "pts": 16,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1998-99",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SO",
+     "pos": "G",
+     "games": 32,
+     "games_started": 0,
+     "mp": 605,
+     "fg": 79,
+     "fga": 180,
+     "fg_pct": 0.439,
+     "fg3": 32,
+     "fg3a": 85,
+     "fg3_pct": 0.376,
+     "fg2": 47,
+     "fg2a": 95,
+     "fg2_pct": 0.495,
+     "efg_pct": 0.528,
+     "ft": 38,
+     "fta": 51,
+     "ft_pct": 0.745,
+     "orb": 28,
+     "drb": 52,
+     "trb": 80,
+     "ast": 35,
+     "stl": 18,
+     "blk": 8,
+     "tov": 32,
+     "pf": 26,
+     "pts": 228,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1999-00",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "JR",
+     "pos": "G",
+     "games": 35,
+     "games_started": 35,
+     "mp": 1155,
+     "fg": 166,
+     "fga": 387,
+     "fg_pct": 0.429,
+     "fg3": 86,
+     "fg3a": 180,
+     "fg3_pct": 0.478,
+     "fg2": 80,
+     "fg2a": 207,
+     "fg2_pct": 0.386,
+     "efg_pct": 0.54,
+     "ft": 70,
+     "fta": 83,
+     "ft_pct": 0.843,
+     "orb": 54,
+     "drb": 70,
+     "trb": 124,
+     "ast": 79,
+     "stl": 34,
+     "blk": 14,
+     "tov": 51,
+     "pf": 46,
+     "pts": 488,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "2000-01",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SR",
+     "pos": "G",
+     "games": 32,
+     "games_started": 32,
+     "mp": 1101,
+     "fg": 160,
+     "fga": 366,
+     "fg_pct": 0.437,
+     "fg3": 58,
+     "fg3a": 155,
+     "fg3_pct": 0.374,
+     "fg2": 102,
+     "fg2a": 211,
+     "fg2_pct": 0.483,
+     "efg_pct": 0.516,
+     "ft": 104,
+     "fta": 117,
+     "ft_pct": 0.889,
+     "orb": 26,
+     "drb": 75,
+     "trb": 101,
+     "ast": 55,
+     "stl": 38,
+     "blk": 12,
+     "tov": 52,
+     "pf": 53,
+     "pts": 482,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 114,
+     "games_started": 67,
+     "mp": 2892,
+     "fg": 412,
+     "fga": 950,
+     "fg_pct": 0.434,
+     "fg3": 177,
+     "fg3a": 430,
+     "fg3_pct": 0.412,
+     "fg2": 235,
+     "fg2a": 520,
+     "fg2_pct": 0.452,
+     "efg_pct": 0.527,
+     "ft": 213,
+     "fta": 253,
+     "ft_pct": 0.842,
+     "orb": 109,
+     "drb": 201,
+     "trb": 310,
+     "ast": 169,
+     "stl": 93,
+     "blk": 35,
+     "tov": 139,
+     "pf": 128,
+     "pts": 1214,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_min": {
+   "rows": [
+    {
+     "year_id": "1997-98",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "G",
+     "games": 15,
+     "games_started": 0,
+     "mp": 31,
+     "fg_per_min": 9.0,
+     "fga_per_min": 21.9,
+     "fg_pct": 0.412,
+     "fg3_per_min": 1.3,
+     "fg3a_per_min": 12.9,
+     "fg3_pct": 0.1,
+     "fg2_per_min": 7.7,
+     "fg2a_per_min": 9.0,
+     "fg2_pct": 0.857,
+     "efg_pct": 0.441,
+     "ft_per_min": 1.3,
+     "fta_per_min": 2.6,
+     "ft_pct": 0.5,
+     "orb_per_min": 1.3,
+     "drb_per_min": 5.2,
+     "trb_per_min": 6.5,
+     "ast_per_min": 0.0,
+     "stl_per_min": 3.9,
+     "blk_per_min": 1.3,
+     "tov_per_min": 5.2,
+     "pf_per_min": 3.9,
+     "pts_per_min": 20.6,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1998-99",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SO",
+     "pos": "G",
+     "games": 32,
+     "games_started": 0,
+     "mp": 605,
+     "fg_per_min": 5.2,
+     "fga_per_min": 11.9,
+     "fg_pct": 0.439,
+     "fg3_per_min": 2.1,
+     "fg3a_per_min": 5.6,
+     "fg3_pct": 0.376,
+     "fg2_per_min": 3.1,
+     "fg2a_per_min": 6.3,
+     "fg2_pct": 0.495,
+     "efg_pct": 0.528,
+     "ft_per_min": 2.5,
+     "fta_per_min": 3.4,
+     "ft_pct": 0.745,
+     "orb_per_min": 1.9,
+     "drb_per_min": 3.4,
+     "trb_per_min": 5.3,
+     "ast_per_min": 2.3,
+     "stl_per_min": 1.2,
+     "blk_per_min": 0.5,
+     "tov_per_min": 2.1,
+     "pf_per_min": 1.7,
+     "pts_per_min": 15.1,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1999-00",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "JR",
+     "pos": "G",
+     "games": 35,
+     "games_started": 35,
+     "mp": 1155,
+     "fg_per_min": 5.7,
+     "fga_per_min": 13.4,
+     "fg_pct": 0.429,
+     "fg3_per_min": 3.0,
+     "fg3a_per_min": 6.2,
+     "fg3_pct": 0.478,
+     "fg2_per_min": 2.8,
+     "fg2a_per_min": 7.2,
+     "fg2_pct": 0.386,
+     "efg_pct": 0.54,
+     "ft_per_min": 2.4,
+     "fta_per_min": 2.9,
+     "ft_pct": 0.843,
+     "orb_per_min": 1.9,
+     "drb_per_min": 2.4,
+     "trb_per_min": 4.3,
+     "ast_per_min": 2.7,
+     "stl_per_min": 1.2,
+     "blk_per_min": 0.5,
+     "tov_per_min": 1.8,
+     "pf_per_min": 1.6,
+     "pts_per_min": 16.9,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "2000-01",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SR",
+     "pos": "G",
+     "games": 32,
+     "games_started": 32,
+     "mp": 1101,
+     "fg_per_min": 5.8,
+     "fga_per_min": 13.3,
+     "fg_pct": 0.437,
+     "fg3_per_min": 2.1,
+     "fg3a_per_min": 5.6,
+     "fg3_pct": 0.374,
+     "fg2_per_min": 3.7,
+     "fg2a_per_min": 7.7,
+     "fg2_pct": 0.483,
+     "efg_pct": 0.516,
+     "ft_per_min": 3.8,
+     "fta_per_min": 4.3,
+     "ft_pct": 0.889,
+     "orb_per_min": 0.9,
+     "drb_per_min": 2.7,
+     "trb_per_min": 3.7,
+     "ast_per_min": 2.0,
+     "stl_per_min": 1.4,
+     "blk_per_min": 0.4,
+     "tov_per_min": 1.9,
+     "pf_per_min": 1.9,
+     "pts_per_min": 17.5,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 114,
+     "games_started": 67,
+     "mp": 2892,
+     "fg_per_min": 5.7,
+     "fga_per_min": 13.1,
+     "fg_pct": 0.434,
+     "fg3_per_min": 2.4,
+     "fg3a_per_min": 5.9,
+     "fg3_pct": 0.412,
+     "fg2_per_min": 3.3,
+     "fg2a_per_min": 7.2,
+     "fg2_pct": 0.452,
+     "efg_pct": 0.527,
+     "ft_per_min": 2.9,
+     "fta_per_min": 3.5,
+     "ft_pct": 0.842,
+     "orb_per_min": 1.5,
+     "drb_per_min": 2.8,
+     "trb_per_min": 4.3,
+     "ast_per_min": 2.3,
+     "stl_per_min": 1.3,
+     "blk_per_min": 0.5,
+     "tov_per_min": 1.9,
+     "pf_per_min": 1.8,
+     "pts_per_min": 16.8,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_poss": {
+   "rows": [
+    {
+     "year_id": "1997-98",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "G",
+     "games": 15,
+     "games_started": 0,
+     "mp": 31,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1998-99",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SO",
+     "pos": "G",
+     "games": 32,
+     "games_started": 0,
+     "mp": 605,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1999-00",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "JR",
+     "pos": "G",
+     "games": 35,
+     "games_started": 35,
+     "mp": 1155,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "2000-01",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SR",
+     "pos": "G",
+     "games": 32,
+     "games_started": 32,
+     "mp": 1101,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 114,
+     "games_started": 67,
+     "mp": 2892,
+     "awards": null
+    }
+   ]
+  },
+  "players_advanced": {
+   "rows": [
+    {
+     "year_id": "1997-98",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "FR",
+     "pos": "G",
+     "games": 15,
+     "games_started": 0,
+     "mp": 31,
+     "ts_pct": 0.446,
+     "fg3a_per_fga_pct": 0.588,
+     "fta_per_fga_pct": 0.118,
+     "tov_pct": 18.2,
+     "ows": 0.0,
+     "dws": 0.1,
+     "ws": 0.1,
+     "ws_per_40": 0.118,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1998-99",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SO",
+     "pos": "G",
+     "games": 32,
+     "games_started": 0,
+     "mp": 605,
+     "ts_pct": 0.558,
+     "fg3a_per_fga_pct": 0.472,
+     "fta_per_fga_pct": 0.283,
+     "tov_pct": 13.5,
+     "ows": 1.2,
+     "dws": 1.3,
+     "ws": 2.5,
+     "ws_per_40": 0.165,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1999-00",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "JR",
+     "pos": "G",
+     "games": 35,
+     "games_started": 35,
+     "mp": 1155,
+     "ts_pct": 0.572,
+     "fg3a_per_fga_pct": 0.465,
+     "fta_per_fga_pct": 0.214,
+     "tov_pct": 10.7,
+     "ows": 2.8,
+     "dws": 1.7,
+     "ws": 4.5,
+     "ws_per_40": 0.157,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "2000-01",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SR",
+     "pos": "G",
+     "games": 32,
+     "games_started": 32,
+     "mp": 1101,
+     "ts_pct": 0.572,
+     "fg3a_per_fga_pct": 0.423,
+     "fta_per_fga_pct": 0.32,
+     "tov_pct": 11.0,
+     "ows": 2.5,
+     "dws": 1.4,
+     "ws": 3.9,
+     "ws_per_40": 0.143,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 114,
+     "games_started": 67,
+     "mp": 2892,
+     "ts_pct": 0.567,
+     "fg3a_per_fga_pct": 0.453,
+     "fta_per_fga_pct": 0.266,
+     "tov_pct": 11.5,
+     "ows": 6.5,
+     "dws": 4.5,
+     "ws": 11.0,
+     "ws_per_40": 0.153,
+     "awards": null
+    }
+   ]
+  }
+ },
+ "awards": [
+  {
+   "season": "2000",
+   "award": "All-Big East Tournament",
+   "detail": "1st Team",
+   "url": "/cbb/awards/men/all-big-east-tourney.html",
+   "text": "2000 All-Big East Tournament - 1st Team"
+  }
+ ],
+ "bling": [
+  "1998-99 NCAA Champion",
+  "2000 All-Big East Tourney"
+ ],
+ "leaderboards": {
+  "pts": {
+   "title": "Points",
+   "entries": [
+    "1999-00 Big East 488 (10th)",
+    "2000-01 Big East 482 (10th)"
+   ]
+  },
+  "pts_per_g": {
+   "title": "Points Per Game",
+   "entries": [
+    "1999-00 Big East 13.9 (15th)",
+    "2000-01 Big East 15.1 (13th)"
+   ]
+  },
+  "drb": {
+   "title": "Defensive Rebounds",
+   "entries": [
+    "2000-01 Big East 75 (5th)"
+   ]
+  },
+  "fg_pct": {
+   "title": "Field Goal Percentage",
+   "entries": [
+    "2000-01 Big East .437 (10th)"
+   ]
+  },
+  "ft_pct": {
+   "title": "Free Throw Percentage",
+   "entries": [
+    "2000-01 NCAA .889 (8th)",
+    "2000-01 Big East .889 (2nd)"
+   ]
+  },
+  "efg_pct": {
+   "title": "Effective Field Goal Percentage",
+   "entries": [
+    "2000-01 Big East .516 (8th)"
+   ]
+  },
+  "ts_pct": {
+   "title": "True Shooting Percentage",
+   "entries": [
+    "1999-00 Big East .572 (8th)",
+    "2000-01 Big East .572 (9th)"
+   ]
+  },
+  "fg": {
+   "title": "Field Goals",
+   "entries": [
+    "1999-00 Big East 166 (10th)",
+    "2000-01 Big East 160 (11th)"
+   ]
+  },
+  "fga": {
+   "title": "Field Goal Attempts",
+   "entries": [
+    "1999-00 Big East 387 (12th)",
+    "2000-01 Big East 366 (11th)"
+   ]
+  },
+  "fg2a": {
+   "title": "2-Point Field Goal Attempts",
+   "entries": [
+    "2000-01 Big East 211 (20th)"
+   ]
+  },
+  "fg3": {
+   "title": "3-Point Field Goals",
+   "entries": [
+    "1999-00 Big East 86 (2nd)",
+    "2000-01 Big East 58 (14th)"
+   ]
+  },
+  "fg3a": {
+   "title": "3-Point Field Goal Attempts",
+   "entries": [
+    "1999-00 Big East 180 (9th)",
+    "2000-01 Big East 155 (15th)"
+   ]
+  },
+  "ft": {
+   "title": "Free Throws",
+   "entries": [
+    "2000-01 Big East 104 (10th)"
+   ]
+  },
+  "fta": {
+   "title": "Free Throw Attempts",
+   "entries": [
+    "2000-01 Big East 117 (19th)"
+   ]
+  },
+  "g": {
+   "title": "Games",
+   "entries": [
+    "1998-99 Big East 32 (19th)",
+    "1999-00 Big East 35 (10th)",
+    "2000-01 Big East 32 (20th)"
+   ]
+  },
+  "mp": {
+   "title": "Minutes Played",
+   "entries": [
+    "1999-00 Big East 1155 (5th)",
+    "2000-01 Big East 1101 (8th)"
+   ]
+  },
+  "mp_per_g": {
+   "title": "Minutes Played Per Game",
+   "entries": [
+    "1999-00 Big East 33.0 (20th)",
+    "2000-01 Big East 34.4 (10th)"
+   ]
+  },
+  "ws": {
+   "title": "Win Shares",
+   "entries": [
+    "1999-00 Big East 4.5 (6th)",
+    "2000-01 Big East 3.9 (14th)"
+   ]
+  },
+  "ows": {
+   "title": "Offensive Win Shares",
+   "entries": [
+    "1999-00 Big East 2.8 (5th)",
+    "2000-01 Big East 2.5 (7th)"
+   ]
+  }
+ },
+ "uconn_seasons": [
+  1998,
+  1999,
+  2000,
+  2001
+ ]
+}

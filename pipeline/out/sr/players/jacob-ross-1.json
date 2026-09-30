@@ -1,0 +1,33 @@
+{
+ "sr_id": "jacob-ross-1",
+ "url": "https://www.sports-reference.com/cbb/players/jacob-ross-1.html",
+ "name": "Jacob Ross",
+ "photo_url": null,
+ "bio_lines": [
+  "Position: Guard",
+  "6-5 , 195lb (196cm, 88kg)",
+  "Hometown: Bristow, VA",
+  "High School: Long Island Lutheran (NY); SoCal Academy (CA)",
+  "School: Connecticut (Men)"
+ ],
+ "bio": {
+  "Position": "Guard",
+  "Hometown": "Bristow, VA",
+  "High School": "Long Island Lutheran (NY); SoCal Academy (CA)",
+  "School": "Connecticut (Men)",
+  "school_slugs": [
+   "connecticut"
+  ]
+ },
+ "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://cdn.ssref.net/req/202609231/tlogo/ncaa/connecticut.png",
+ "draft_text": null,
+ "draft": null,
+ "nba_url": null,
+ "tables": {},
+ "awards": [],
+ "bling": [],
+ "leaderboards": {},
+ "uconn_seasons": [
+  2026
+ ]
+}
