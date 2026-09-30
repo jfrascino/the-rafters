@@ -1,0 +1,7 @@
+{
+  "_note": "Games Sports-Reference counts in a season record but leaves off its schedule (usually non-Division I opponents). Merged into the SR schedule by build.py.",
+  "1990": [
+    {"date": "1989-12-23", "opp_name": "Southern Connecticut", "opp_slug": "southern-connecticut", "game_type": "REG", "site": "home", "game_result": "W", "pts": 100, "opp_pts": 37,
+     "arena": "Hugh S. Greer Field House", "source": "https://en.wikipedia.org/wiki/1989%E2%80%9390_Connecticut_Huskies_men%27s_basketball_team"}
+  ]
+}

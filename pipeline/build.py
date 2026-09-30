@@ -76,6 +76,22 @@ for f in glob.glob(os.path.join(OUT, 'sr', 'seasons', '*.json')):
     if d:
         sr_seasons[int(d['year'])] = d
 sr_boxes = {os.path.basename(f)[:-5]: jload(f) for f in glob.glob(os.path.join(OUT, 'sr', 'boxscores', '*.json'))}
+# Games SR counts in the record but omits from the schedule (non-D-I opponents); renumber and recompute running records
+for yk, extra in (jload(os.path.join(HERE, 'manual_games.json'), {}) or {}).items():
+    if yk.startswith('_') or int(yk) not in sr_seasons:
+        continue
+    sch = sr_seasons[int(yk)]['schedule']
+    have = {(g['date'], g.get('opp_name')) for g in sch}
+    for g in extra:
+        if (g['date'], g['opp_name']) not in have:
+            sch.append(dict(g))
+    sch.sort(key=lambda g: (g['date'], g.get('g') or 0))
+    w = l = 0
+    for i, g in enumerate(sch):
+        g['g'] = i + 1
+        w += g.get('game_result') == 'W'
+        l += g.get('game_result') == 'L'
+        g['wins'], g['losses'] = w, l
 sr_players = {os.path.basename(f)[:-5]: jload(f) for f in glob.glob(os.path.join(OUT, 'sr', 'players', '*.json'))}
 school_index = {r['season']: r for r in (jload(os.path.join(OUT, 'sr', 'school_index.json'), {}) or {}).get('seasons', [])}
 
