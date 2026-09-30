@@ -529,16 +529,64 @@ for pid, sp in sr_players.items():
     if sp and sp.get('photo_url'):
         add_photo(pid, 6, sp['photo_url'], True, credit='Sports-Reference', source=sp.get('url'), kind='sr')
 
+# Photos on big CDNs are hotlinked; anything else (archives, blogs, listings) is copied locally once so it can't vanish or rate-limit
+STABLE_HOSTS = ('a.espncdn.com', 'images.sidearmdev.com', 'upload.wikimedia.org', 'thumb.wikimedia.org', 'dxbhsrqyrr690.cloudfront.net')
+REMOTE_DIR = os.path.join(HERE, '..', 'site', 'assets', 'players-remote')
+os.makedirs(REMOTE_DIR, exist_ok=True)
+_localize_memo = {}
+
+
+def localize(url):
+    if not url or url.startswith('assets/') or urllib.parse.urlparse(url).netloc in STABLE_HOSTS:
+        return url
+    if url in _localize_memo:
+        return _localize_memo[url]
+    import subprocess, time as _t
+    key = hashlib.sha1(url.encode()).hexdigest()[:14]
+    for ext in ('.png', '.jpg'):
+        if os.path.exists(os.path.join(REMOTE_DIR, key + ext)):
+            _localize_memo[url] = f'assets/players-remote/{key}{ext}'
+            return _localize_memo[url]
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36'})
+        r = urllib.request.urlopen(req, timeout=25)
+        ct = r.headers.get('Content-Type', '')
+        data = r.read()
+        if not ct.startswith('image') or len(data) < 1500:
+            raise ValueError(f'not an image ({ct}, {len(data)} bytes)')
+        ext = '.png' if 'png' in ct else '.jpg'
+        tmp = os.path.join(REMOTE_DIR, key + '.src')
+        open(tmp, 'wb').write(data)
+        out = os.path.join(REMOTE_DIR, key + ext)
+        fmt = 'png' if ext == '.png' else 'jpeg'
+        subprocess.run(['sips', '-s', 'format', fmt, '-Z', '700', tmp, '--out', out], check=True, capture_output=True)
+        os.remove(tmp)
+        _t.sleep(1.2 if 'archive.org' in url else 0.3)
+        _localize_memo[url] = f'assets/players-remote/{key}{ext}'
+    except Exception as e:
+        print(f'! photo not reachable, trying next source: {url[:90]} ({e})')
+        _localize_memo[url] = None
+    return _localize_memo[url]
+
+
 photo_for, photo_wide, photo_meta = {}, set(), {}
 for pid, cands in PHOTO_CANDS.items():
-    rank, url, wide, meta = sorted(cands, key=lambda c: c[0])[0]
-    photo_for[pid] = url
-    photo_meta[pid] = meta
-    if wide:
-        photo_wide.add(pid)
+    for rank, url, wide, meta in sorted(cands, key=lambda c: c[0]):
+        u2 = localize(url)
+        if not u2:
+            continue
+        photo_for[pid] = u2
+        photo_meta[pid] = meta
+        if wide:
+            photo_wide.add(pid)
+        break
 
 
 CROP_POS = {'left-third': '22% 18%', 'left': '28% 18%', 'center': '50% 18%', 'right': '72% 18%', 'right-third': '78% 18%', 'top': '50% 0%'}
+
+
+def photo_studio(pid):
+    return (photo_meta.get(pid) or {}).get('kind') in ('headshot', 'uconn-headshot') or None
 
 
 def photo_pos(pid):
@@ -982,6 +1030,8 @@ for y in years:
                 item['photoWide'] = True
             if photo_pos(pid):
                 item['photoPos'] = photo_pos(pid)
+            if photo_studio(pid):
+                item['photoStudio'] = True
             if p:
                 item['pg'] = {'g': p.get('games'), 'gs': p.get('games_started'), 'mp': p.get('mp_per_g'), 'pts': p.get('pts_per_g'), 'trb': p.get('trb_per_g'), 'ast': p.get('ast_per_g'),
                               'stl': p.get('stl_per_g'), 'blk': p.get('blk_per_g'), 'tov': p.get('tov_per_g'), 'fg_pct': p.get('fg_pct'), 'fg3_pct': p.get('fg3_pct'), 'ft_pct': p.get('ft_pct'),
@@ -1018,7 +1068,11 @@ for y in years:
         cur_roster = []
         for r in official:
             e_ = espn_by_name.get(norm(r['name'])) or next((v for k, v in espn_by_name.items() if k.split(' ')[-1] == norm(r['name']).split(' ')[-1] and k[:1] == norm(r['name'])[:1]), None)
-            cur_roster.append({'id': (e_ or {}).get('id'), 'name': r['name'], 'jersey': r.get('num'), 'class': r.get('cls'), 'position': r.get('posShort') or r.get('pos'),
+            cls_ = r.get('cls') or ''
+            cls_ = {'freshman': 'FR', 'sophomore': 'SO', 'junior': 'JR', 'senior': 'SR', 'graduate': 'GR', 'graduate student': 'GR'}.get(cls_.lower().replace('redshirt ', ''), cls_)
+            if (r.get('cls') or '').lower().startswith('redshirt'):
+                cls_ = 'R-' + cls_
+            cur_roster.append({'id': (e_ or {}).get('id'), 'name': r['name'], 'jersey': r.get('num'), 'class': cls_, 'position': r.get('posShort') or r.get('pos'),
                                'height': (r.get('ht') or '').replace("' ", '-').replace('"', '').replace("'", '-'), 'weight': r.get('wt'), 'hometown': r.get('home'), 'hs': r.get('hs'), 'prev': r.get('prev'),
                                'headshot': (e_ or {}).get('headshot'), 'official_headshot': (orc.get(norm(r['name'])) or {}).get('headshot'), 'bio': r.get('url')})
         if not cur_roster:
@@ -1036,13 +1090,16 @@ for y in years:
             if r.get('official_headshot'):
                 add_photo(pid, 1.5, 'https://images.sidearmdev.com/resize?url=' + urllib.parse.quote(r['official_headshot'], safe='') + '&width=520&type=webp', True,
                           credit='UConn Athletics', kind='uconn-headshot', source=r.get('bio'))
-            best = sorted(PHOTO_CANDS.get(pid, []), key=lambda c: c[0])
-            if best:
-                photo_for[pid] = best[0][1]
-                (photo_wide.add(pid) if best[0][2] else photo_wide.discard(pid))
-                photo_meta[pid] = best[0][3]
+            for rank_, url_, wide_, meta_ in sorted(PHOTO_CANDS.get(pid, []), key=lambda c: c[0]):
+                u2 = localize(url_)
+                if u2:
+                    photo_for[pid] = u2
+                    (photo_wide.add(pid) if wide_ else photo_wide.discard(pid))
+                    photo_meta[pid] = meta_
+                    break
             item = {'pid': pid, 'name': r.get('name'), 'num': r.get('jersey'), 'cls': r.get('class') or r.get('experience'), 'pos': r.get('position'), 'ht': r.get('height'),
-                    'wt': r.get('weight'), 'home': r.get('hometown'), 'hs': r.get('hs'), 'prev': r.get('prev'), 'photo': photo_for.get(pid), 'photoWide': pid in photo_wide or None, 'espn': aid}
+                    'wt': r.get('weight'), 'home': r.get('hometown'), 'hs': r.get('hs'), 'prev': r.get('prev'), 'photo': photo_for.get(pid), 'photoWide': pid in photo_wide or None,
+                    'photoStudio': photo_studio(pid), 'espn': aid}
             n = gcount.get(pid)
             if n:
                 A = agg[pid]
@@ -1215,7 +1272,7 @@ for pid, rows in PLAYER_SEASONS.items():
     gl = sorted(PLAYER_GAMES.get(pid, []), key=lambda g: g['date'])
     pos_full = bio.get('Position') or last.get('pos')
     player = {'photoCredit': photo_meta.get(pid), 'id': pid, 'name': name, 'pos': pos_full, 'num': last.get('num'), 'ht': last.get('ht'), 'wt': last.get('wt'), 'home': last.get('home') or bio.get('Hometown'), 'hs': last.get('hs'),
-              'born': bio.get('Born') or None, 'photo': photo_for.get(pid), 'photoWide': pid in photo_wide or None, 'photoPos': photo_pos(pid), 'span': span, 'seasons': all_rows, 'career': career,
+              'born': bio.get('Born') or None, 'photo': photo_for.get(pid), 'photoWide': pid in photo_wide or None, 'photoPos': photo_pos(pid), 'photoStudio': photo_studio(pid), 'span': span, 'seasons': all_rows, 'career': career,
               'honors': honors, 'draft': draft, 'nba_url': srp.get('nba_url'), 'gamelog': gl, 'nick': bio.get('nicknames'),
               'videos': [v for v in VIDS if any(norm(name) == norm(x) for x in (v.get('players') or []))],
               'photos': []}
@@ -1247,7 +1304,7 @@ for player, uc_rows in PLAYERS:
     first, last_n = player['name'].split(' ', 1) if ' ' in player['name'] else ('', player['name'])
     core_players.append({k: v for k, v in {
         'id': player['id'], 'name': player['name'], 'last': last_n, 'span': player['span'], 'years': [r['y'] for r in uc_rows], 'pos': (uc_rows[-1].get('cls') and player['pos']) or player['pos'],
-        'num': player['num'], 'photo': player['photo'], 'photoWide': player.get('photoWide'), 'photoPos': photo_pos(player['id']), 'home': player['home'], 'ht': player['ht'],
+        'num': player['num'], 'photo': player['photo'], 'photoWide': player.get('photoWide'), 'photoPos': photo_pos(player['id']), 'photoStudio': photo_studio(player['id']), 'home': player['home'], 'ht': player['ht'],
         'g': c.get('g'), 'pts': c.get('pts'), 'trb': c.get('trb'), 'ast': c.get('ast'), 'blk': c.get('blk'), 'stl': c.get('stl'),
         'ppg': round(c['pts_pg'], 1) if c.get('pts_pg') is not None else None, 'rpg': round(c['trb_pg'], 1) if c.get('trb_pg') is not None else None,
         'apg': round(c['ast_pg'], 1) if c.get('ast_pg') is not None else None, 'spg': c.get('stl_pg'), 'bpg': c.get('blk_pg'), 'mpg': c.get('mp_pg'),

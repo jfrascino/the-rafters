@@ -277,8 +277,17 @@ main { min-height: 70vh; outline: none; }
 .pcard-front .photo { position: absolute; inset: 0 0 26% 0; background: radial-gradient(80% 70% at 50% 35%, rgba(143,193,255,.25), transparent 70%); }
 .pcard-front .photo img { position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); height: 100%; width: auto; max-width: none; object-fit: cover; filter: drop-shadow(0 10px 20px rgba(0,0,0,.6)); }
 .pcard-front .photo img.wide { width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; }
-.pcard-front .jnum { position: absolute; top: 14px; left: 16px; z-index: 2; font: 900 58px/.8 var(--f-display); color: transparent; -webkit-text-stroke: 1.5px rgba(255,255,255,.55); }
-.pcard-front .pos { position: absolute; top: 16px; right: 16px; z-index: 2; }
+/* Number tab and position pill are solid, so they read on any photo: white studio shots, dark cut-outs, busy arenas */
+.pcard-front .jnum { position: absolute; top: 12px; left: 12px; z-index: 4; min-width: 40px; padding: 6px 8px 3px; border-radius: 5px; text-align: center;
+  font: 900 28px/1 var(--f-display); color: #fff; background: var(--navy); border: 1px solid rgba(255,255,255,.28); box-shadow: 0 6px 16px -6px rgba(0,0,0,.6); }
+.pcard-front .pos { position: absolute; top: 14px; right: 14px; z-index: 4; background: var(--navy); color: #fff; border: 1px solid rgba(255,255,255,.28); }
+.pcard.champ .pcard-front .jnum { background: var(--gold); color: #1d1405; border-color: rgba(255,255,255,.5); }
+/* Studio headshots: a light backdrop; the photo multiplies into it so white photo backgrounds vanish */
+.pcard.studio .pcard-front .photo { background: radial-gradient(85% 70% at 50% 28%, #f5f7fc 0%, #dde4f0 55%, #b8c3d9 100%); }
+.pcard.studio .pcard-front .photo img { mix-blend-mode: multiply; filter: none; height: 100%; }
+.pcard.studio .pcard-front .photo img.wide { object-fit: cover; object-position: 50% 6%; }
+.pcard.studio .pcard-front .initials { color: rgba(11,26,60,.12); }
+.pcard.studio .pcard-front .plate { background: linear-gradient(0deg, #050b1c 62%, rgba(5,11,28,0)); }
 .pcard-front .plate { position: absolute; left: 0; right: 0; bottom: 0; z-index: 2; padding: 12px 16px 16px; background: linear-gradient(0deg, #050b1c 55%, rgba(5,11,28,.0)); display: grid; gap: 6px; }
 .pcard-front .nm { font: 800 21px/1 var(--f-display); text-transform: uppercase; letter-spacing: .01em; }
 .pcard-front .nm small { display: block; font: 600 13px/1.2 var(--f-cond); letter-spacing: .08em; color: var(--fg-2); }
@@ -496,3 +505,6 @@ table.stats .who img { width: 30px; height: 30px; border-radius: 50%; object-fit
 .honors li.mom { display: grid; gap: 4px; padding-left: 18px; position: relative; }
 .honors li.mom::before { position: absolute; left: 0; top: 16px; }
 #seasTblHead { scroll-margin-top: calc(var(--topbar) + 24px); }
+
+.pcard-front .photo:has(img) .initials { display: none; }
+.pcard-front .nm small { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

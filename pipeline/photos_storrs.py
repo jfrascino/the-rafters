@@ -13,11 +13,34 @@ from photos_common import fetch, load_players, norm, probe, save_candidates, sav
 PAGE = "https://www.storrsstories.com/uconn_players2.html"
 BASE = "https://www.storrsstories.com/"
 
-# visual review results (sr_id -> kind) for images that are not UConn-era action shots
-KIND_OVERRIDE = {}
-# sr_id -> reason, for images rejected in review (unreadable number, wrong person, not a photo, ...)
-REJECT = {"marcus-white-1": "jersey number unreadable (could be Josh Boone #21)"}
-CROP = {}
+# ---- visual review (2026-09-30, contact sheets of every image for the players still missing a photo) ----
+# jersey number visible and matching the Sports-Reference/UConn roster for his seasons
+VERIFIED = {
+    "kirk-king-1": "navy #13 (1995-97 number)", "willie-mccloud-1": "#33", "antwoine-anderson-1": "#0",
+    "antric-klaiber-1": "navy #22", "ajou-deng-1": "#4", "dion-carson-1": "navy #24", "covington-cormier-1": "#5",
+    "justin-brown-2": "#20", "marcus-cox-1": "#50", "ej-harrison-1": "#40 (1997-98 number)", "ruslan-inyatkin-1": "#10",
+    "michael-leblanc-1": "#5", "david-onuorah-1": "#34", "james-spradling-1": "#44", "uri-cohen-mintz-1": "#50",
+    "bill-lanes-1": "#50", "jeff-cybart-1": "#53", "pete-kane-1": "#52", "shawn-ellison-1": "#32",
+    "pete-mccann-1": "#12 (no conflicting 1996-97 #12)",
+}
+# UConn uniform, number not visible — identification rests on the site's label
+UNIFORM_ONLY = {"marcus-thomas-3", "clint-simmons-1", "jeff-calhoun-1", "justin-srb-1"}
+KIND_OVERRIDE = {"sam-funches-1": "other"}  # #31 but a stars-and-stripes all-star uniform, not UConn
+NOTE = {"sam-funches-1": "pre-UConn all-star game photo (#31), labeled Sam Funches by the site",
+        "clint-simmons-1": "photo appears tinted/colorized", "karsten-kibbe-1": "tinted/colorized face crop",
+        "jeff-lewis-3": "tinted/colorized face crop"}
+# images rejected in review
+REJECT = {"marcus-white-1": "jersey number unreadable (could be Josh Boone #21)",
+          "brian-hall-1": "shows a present-day UConn SOCCER player (#3) — not the 1986-87 walk-on",
+          "greg-yeomans-1": "distant back view of a golfer — unusable, identity unverifiable"}
+# plausible but unverifiable (modern later-life headshots / face crops that could be namesakes):
+# kept out of player_photos.json, offered only in the restoration queue
+QUEUE_ONLY = {"kurt-bauer-1", "rick-bush-1", "chris-crowley-2", "craig-glazer-1", "richard-moore-2",
+              "karsten-kibbe-1", "jeff-lewis-3"}
+CROP = {"antric-klaiber-1": "centre, #22 in navy between two defenders", "shawn-ellison-1": "centre-right, #32",
+        "antwoine-anderson-1": "right-centre, #0 in white", "covington-cormier-1": "right, #5 in white",
+        "dion-carson-1": "left-centre, #24 in navy"}
+REVIEWED = set(VERIFIED) | UNIFORM_ONLY | set(KIND_OVERRIDE) | set(REJECT) | QUEUE_ONLY
 ALIAS = {"vassilis-lanes-1": "bill-lanes-1", "corey-floydjr-1": "corey-floyd-jr-1"}
 
 
@@ -76,13 +99,33 @@ def main():
         if not pr["ok"]:
             print("probe failed", r["url"], pr.get("status"))
             continue
-        kind = KIND_OVERRIDE.get(r["sr_id"], "uconn-action")
-        crop = CROP.get(r["sr_id"])
+        sid = r["sr_id"]
+        kind = KIND_OVERRIDE.get(sid, "uconn-action")
+        if sid in QUEUE_ONLY:
+            kind = "other"
+        crop = CROP.get(sid)
+        if sid in VERIFIED:
+            review = f"jersey {VERIFIED[sid]} visible, matches roster"
+        elif sid in UNIFORM_ONLY:
+            review = "UConn uniform, number not visible"
+        elif sid in QUEUE_ONLY:
+            review = "UNVERIFIED later-life/face photo (possible namesake) — restoration queue only"
+        elif sid in REVIEWED:
+            review = "reviewed"
+        else:
+            review = "not individually reviewed"
+        cap = f"{r['name']} — Storrs Stories UConn player photo ({r['years']}); {review}"
+        if NOTE.get(sid):
+            cap += f"; {NOTE[sid]}"
         c = {"url": r["url"], "kind": kind, "cutout": False, "w": pr["w"], "h": pr["h"], "source": PAGE,
              "credit": "Storrs Stories (storrsstories.com) UConn players page", "license": "Copyright (hotlinked)",
-             "caption": f"{r['name']} — Storrs Stories UConn player photo ({r['years']})" + (f" [crop: {crop}]" if crop else "")}
+             "caption": cap + (f" [crop: {crop}]" if crop else "")}
         if crop:
             c["crop"] = crop
+        if sid in QUEUE_ONLY:
+            c["queue_only"] = True
+        if sid not in REVIEWED:
+            c["unreviewed"] = True
         out.setdefault(r["sr_id"], []).append(c)
     save_probes()
     save_candidates("storrs", out)

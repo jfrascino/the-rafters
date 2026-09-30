@@ -121,7 +121,7 @@ def main():
             continue
         add(name, load_candidates(name))
 
-    out_players, missing = {}, []
+    out_players, missing, queue_extra = {}, [], {}
     for pid in ids:
         lst = merged.get(pid, [])
         seen, clean = set(), []
@@ -138,8 +138,13 @@ def main():
             m = re.search(r"\[crop:\s*([^\]]+)\]", c.get("caption") or "")
             if m and not c.get("crop"):
                 c["crop"] = m.group(1).strip()
+            if c.get("queue_only"):
+                queue_extra.setdefault(pid, []).append(c)
+                continue
             clean.append(c)
-        clean.sort(key=lambda c: (KIND_RANK.get(c["kind"], 9), 0 if c.get("cutout") else 1, -(c.get("w") or 0)))
+        # unreviewed bulk imports go after everything else
+        clean.sort(key=lambda c: (1 if c.get("unreviewed") else 0, KIND_RANK.get(c["kind"], 9),
+                                  0 if c.get("cutout") else 1, -(c.get("w") or 0)))
         if clean:
             out_players[pid] = [{k: c.get(k) for k in FIELDS if k != "crop" or c.get("crop")}
                                 | ({"season": c["season"]} if c.get("season") else {}) for c in clean]
@@ -156,33 +161,50 @@ def main():
     uc = sum(1 for v in out_players.values() if v[0]["kind"].startswith("uconn"))
     print(f"players with any photo: {len(out_players)}/{len(ids)}; UConn-era first: {uc}; missing {len(missing)}")
 
-    # restoration queue: missing players + players whose best photo is small
+    # restoration queue: players the site still lacks (photos-drop/NEEDED.md, maintained by the app build);
+    # falls back to our own missing/small list when that file is absent
     pinfo = {p["id"]: p for p in players}
+    needed_md = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(PLAYER_OUT))), "photos-drop", "NEEDED.md")
+    targets = []
+    if os.path.exists(needed_md):
+        from photos_common import norm
+        byn = {}
+        for p in players:
+            byn.setdefault(norm(p["name"]), []).append(p)
+        for name, span in re.findall(r"^\| ([^|]+?) \| (\d{4}–\d{2}) \|", open(needed_md).read(), re.M):
+            c = [p for p in byn.get(norm(name), []) if p["span"] == span] or byn.get(norm(name), [])
+            if len(c) == 1:
+                targets.append(c[0]["id"])
+    else:
+        for pid in ids:
+            lst = out_players.get(pid, [])
+            best = lst[0] if lst else None
+            short = min(best.get("w") or 0, best.get("h") or 0) if best else 0
+            if best is None or (short < SMALL and not (best.get("cutout") and short >= 400)):
+                targets.append(pid)
     queue = []
-    for pid in ids:
-        lst = out_players.get(pid, [])
-        best = lst[0] if lst else None
-        short = min(best.get("w") or 0, best.get("h") or 0) if best else 0
-        # studio cutout headshots (ESPN/NBA, 600x436) are clean enough; everything else under SMALL is queued
-        small = best is not None and short < SMALL and not (best.get("cutout") and short >= 400)
-        if best is not None and not small:
-            continue
+    for pid in targets:
+        lst = out_players.get(pid, []) + [dict(c, unverified=True) for c in queue_extra.get(pid, [])]
         p = pinfo[pid]
-        # best findable: UConn-era first, then largest
-        cands = sorted(lst, key=lambda c: (0 if c["kind"].startswith("uconn") else 1, -min(c.get("w") or 0, c.get("h") or 0)))
+        # best findable: verified before unverified, UConn-era first, then largest
+        cands = sorted(lst, key=lambda c: (1 if c.get("unverified") else 0, 0 if c["kind"].startswith("uconn") else 1,
+                                           -min(c.get("w") or 0, c.get("h") or 0)))
         queue.append({"sr_id": pid, "name": p["name"], "years": p.get("span"), "number": p.get("num"),
-                      "status": "missing" if not lst else "small",
+                      "status": ("has-verified-photo" if out_players.get(pid) else
+                                 "unverified-only" if queue_extra.get(pid) else "missing"),
                       "best_candidates": [{"url": c["url"], "page": c["source"], "w": c.get("w"), "h": c.get("h"),
                                            "kind": c["kind"], "caption": c.get("caption"),
-                                           **({"crop": c["crop"]} if c.get("crop") else {})} for c in cands[:4]]})
+                                           **({"crop": c["crop"]} if c.get("crop") else {}),
+                                           **({"unverified": True} if c.get("unverified") else {})} for c in cands[:5]]})
     tmp = QUEUE_OUT + ".tmp"
     json.dump({"generated": time.strftime("%Y-%m-%d %H:%M"),
-               "note": f"Players with no photo, or whose best photo is under {SMALL}px on its short side "
-                       "(clean studio cutout headshots >=400px excepted). "
-                       "best_candidates are real, identity-verified images (UConn-era first, then largest) for restoration.",
+               "note": "Players the site still lacks a photo for (photos-drop/NEEDED.md). best_candidates: real images, "
+                       "verified first (UConn-era first, then largest); entries flagged unverified are plausible but "
+                       "could be namesakes — check before use. Most are small (100-300px) and need restoration.",
                "queue": queue}, open(tmp, "w"), indent=1, ensure_ascii=False)
     os.replace(tmp, QUEUE_OUT)
-    print("restoration queue:", len(queue), "(missing", sum(1 for q in queue if q["status"] == "missing"), ")")
+    import collections as _c
+    print("restoration queue:", len(queue), dict(_c.Counter(q["status"] for q in queue)))
 
     # team photos
     seasons = {}
