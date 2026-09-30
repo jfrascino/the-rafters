@@ -12,16 +12,16 @@ export default async function home(main, _args, core) {
   const featured = (core.videos || []).filter((v) => v.featured).slice(0, 12);
 
   main.innerHTML = `
-  <section class="rafters" id="rafters" data-title="">
-    <div class="rafters-hint" aria-hidden="true">Tap a banner</div>
-    <div class="rafters-copy"><div class="wrap">
+  <section class="hero" id="hero" data-title="">
+    <div class="hero-media"><img class="hero-img" src="https://static.wixstatic.com/media/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg/v1/fill/w_1600,h_1200,al_c,q_82/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg" srcset="https://static.wixstatic.com/media/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_82/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg 1000w, https://static.wixstatic.com/media/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg/v1/fill/w_1600,h_1200,al_c,q_82/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg 1600w, https://static.wixstatic.com/media/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg/v1/fill/w_2400,h_1800,al_c,q_82/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg 2400w, https://static.wixstatic.com/media/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg/v1/fill/w_3200,h_2400,al_c,q_82/d50ee7_dff1530048bb491ba0f66e801864e4ce~mv2.jpg 3200w" sizes="100vw" alt="UConn's six men's national championship banners, 1999 to 2024, hanging in the rafters of Gampel Pavilion" fetchpriority="high" decoding="async"></div>
+    <div class="hero-copy"><div class="wrap">
       <span class="eyebrow red">UConn men's basketball · ${firstY - 1} to now</span>
       <h1 class="h-display"><span><span class="gold">${titles.length}</span> banners.</span><span class="thin">${core.seasons.filter((s) => !s.future).length} seasons.</span></h1>
       <div class="title-years" aria-label="National championships">${titles.map((s) => `<a href="#/season/${s.y}">${s.y}</a>`).join('')}</div>
       <p class="lede">Every team since Jim Calhoun walked into Storrs in 1986. Every game, every box score we could find, every Husky, and every March that ended with a ladder and a pair of scissors.</p>
       <div class="chips" style="margin-top:6px"><a class="btn solid" href="#/now">The ${esc(cur.label || '2026–27')} Huskies</a><a class="btn" href="#/season/${firstY}">Start in ${firstY - 1}–${String(firstY).slice(2)}</a><a class="btn" href="#/march">March</a></div>
     </div></div>
-    <div class="banner-tip" id="bannerTip"></div>
+    <p class="hero-credit">Gampel Pavilion, Storrs · Photo: <a href="https://www.stadiumjourney.com/stadiums/harry-a-gampel-pavilion-s701" target="_blank" rel="noopener">Stadium Journey</a></p>
   </section>
 
   <section class="section"><div class="wrap grid" style="gap:28px">
@@ -60,28 +60,6 @@ export default async function home(main, _args, core) {
   const drawSky = () => skyline(sky, core.seasons.filter((s) => !s.future), eras);
   drawSky(); bindTips(sky);
   const offSky = onResize(sky, drawSky);
-
-  // Rafters 3D
-  let scene = null;
-  const host = main.querySelector('#rafters');
-  const tipEl = main.querySelector('#bannerTip');
-  const secondary = (core.banners?.secondary || []);
-  import('../rafters.js').then(({ mount }) => {
-    if (!host.isConnected) return;
-    scene = mount(host, {
-      titles: titles.map((s) => ({ y: s.y, rec: `${s.w}–${s.l}`, coach: s.coach, mop: s.mop })),
-      secondary,
-      onPick: (b) => { location.hash = `#/season/${b.y}`; },
-      onHover: (b, e) => {
-        if (!b || !e) { tipEl.classList.remove('on'); return; }
-        const r = host.getBoundingClientRect();
-        tipEl.style.left = `${e.clientX - r.left}px`; tipEl.style.top = `${e.clientY - r.top}px`;
-        tipEl.textContent = b.kind === 'title' ? `${b.y} national champions · ${b.rec}` : `${(b.label || '').replace('\n', ' ')} ${b.y}`;
-        tipEl.classList.add('on');
-      },
-    });
-    if (!scene) host.insertAdjacentHTML('afterbegin', `<div class="fallback-banners">${titles.map((s) => `<a class="pill champ" href="#/season/${s.y}">${s.y}</a>`).join('')}</div>`);
-  });
 
   // Countdown
   let timer = 0;
@@ -137,7 +115,7 @@ export default async function home(main, _args, core) {
     });
   }
 
-  return { destroy() { scene?.destroy(); clearInterval(timer); offSky(); tip(null); stopLive(); } };
+  return { destroy() { clearInterval(timer); offSky(); tip(null); stopLive(); } };
 }
 
 function eraCard(e) {
