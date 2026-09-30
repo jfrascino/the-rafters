@@ -134,7 +134,7 @@ function runSection(games, title, champ, conf) {
   </div></section>`;
 }
 
-export function playerCard(p, champ, y) {
+export function playerCard(p, champ, y, opts = {}) {
   const pg = p.pg || {};
   const photo = p.photo ? `<img src="${esc(p.photo)}" alt="" loading="lazy" class="${p.photoWide ? 'wide' : ''}" onerror="this.remove()">` : '';
   return `<div class="pcard${champ ? ' champ' : ''}" tabindex="0" aria-label="${esc(p.name)} card">
@@ -154,7 +154,7 @@ export function playerCard(p, champ, y) {
           <tr><td>Shoot</td><td colspan="5" style="text-align:right">FG ${pct(pg.fg_pct)} · 3P ${pct(pg.fg3_pct)} · FT ${pct(pg.ft_pct)}</td></tr>
           <tr><td>D</td><td colspan="5" style="text-align:right">${n1(pg.stl)} STL · ${n1(pg.blk)} BLK</td></tr>
           ${p.adv?.per != null ? `<tr><td>Adv</td><td colspan="5" style="text-align:right">PER ${n1(p.adv.per)} · WS ${n1(p.adv.ws)}${p.adv.bpm != null ? ' · BPM ' + n1(p.adv.bpm) : ''}</td></tr>` : ''}</tbody></table>
-        <a class="go" href="#/player/${esc(p.pid)}">Career →</a>
+        ${opts.self ? `<button class="go" data-scroll="#seasTblHead">Season by season ↓</button>` : `<a class="go" href="#/player/${esc(p.pid)}">Full career →</a>`}
       </div>
     </div>
     <button class="flipbtn" aria-label="Flip card" tabindex="-1">⟲</button>

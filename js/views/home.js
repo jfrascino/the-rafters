@@ -16,7 +16,8 @@ export default async function home(main, _args, core) {
     <div class="rafters-hint" aria-hidden="true">Tap a banner</div>
     <div class="rafters-copy"><div class="wrap">
       <span class="eyebrow red">UConn men's basketball · ${firstY - 1} to now</span>
-      <h1 class="h-display"><span>${titles.length} banners.</span><span class="thin">${core.seasons.filter((s) => !s.future).length} seasons.</span></h1>
+      <h1 class="h-display"><span><span class="gold">${titles.length}</span> banners.</span><span class="thin">${core.seasons.filter((s) => !s.future).length} seasons.</span></h1>
+      <div class="title-years" aria-label="National championships">${titles.map((s) => `<a href="#/season/${s.y}">${s.y}</a>`).join('')}</div>
       <p class="lede">Every team since Jim Calhoun walked into Storrs in 1986. Every game, every box score we could find, every Husky, and every March that ended with a ladder and a pair of scissors.</p>
       <div class="chips" style="margin-top:6px"><a class="btn solid" href="#/now">The ${esc(cur.label || '2026–27')} Huskies</a><a class="btn" href="#/season/${firstY}">Start in ${firstY - 1}–${String(firstY).slice(2)}</a><a class="btn" href="#/march">March</a></div>
     </div></div>
@@ -30,7 +31,7 @@ export default async function home(main, _args, core) {
   <section class="section"><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow">${totW}–${totL} since ${firstY - 1} · ${ncaaW}–${ncaaL} in the NCAA Tournament</span><h2 class="h2">Every season, one skyline</h2></div></div>
     <div class="skyline-wrap" id="sky"></div>
-      <div class="legend sky-legend">${['champ', 'runner', 'final4', 'elite8', 'sweet16', 'r32', 'r64', 'nit', 'none'].map((k) => `<span><i style="background:${FINISH[k].color}"></i>${FINISH[k].short === '—' ? 'No postseason' : FINISH[k].short}</span>`).join('')}<span><i style="background:var(--red);opacity:.5"></i>Losses</span></div>
+      <div class="legend sky-legend"><span><i style="background:var(--ice)"></i>Wins</span><span><i style="background:var(--ice);opacity:.3"></i>Losses</span><span><i style="background:var(--gold)"></i>National title season</span><span><i style="background:var(--fg-2)"></i>NCAA round reached</span></div>
   </div></section>
 
   <section class="section"><div class="wrap">

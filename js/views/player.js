@@ -18,7 +18,7 @@ export default async function player(main, args, core) {
   <section class="p-hero">
     <div class="bgnum" aria-hidden="true">${esc(p.num ?? '')}</div>
     <div class="wrap">
-      <div>${playerCard(card, champYears.length > 0)}</div>
+      <div>${playerCard(card, champYears.length > 0, null, { self: true })}</div>
       <div class="p-info">
         <span class="eyebrow ${champYears.length ? 'gold' : ''}">${esc(p.span)} · ${esc(p.pos || '')}${champYears.length ? ` · ${champYears.length > 1 ? champYears.length + '× ' : ''}national champion` : ''}</span>
         <h1 class="h-display" style="font-size:clamp(46px,7.5vw,112px)">${esc(p.name)}</h1>
@@ -44,7 +44,7 @@ export default async function player(main, args, core) {
   </div></section>` : ''}
 
   <section class="section"><div class="wrap">
-    <div class="sec-head"><div><span class="eyebrow">College career${p.seasons.some((s) => s.uconn === false) ? ' · other schools dimmed' : ''}</span><h2 class="h2">Season by season</h2></div></div>
+    <div class="sec-head" id="seasTblHead"><div><span class="eyebrow">College career${p.seasons.some((s) => s.uconn === false) ? ' · other schools dimmed' : ''}</span><h2 class="h2">Season by season</h2></div></div>
     <div id="seasTbl"></div>
   </div></section>
 
@@ -79,7 +79,11 @@ export default async function player(main, args, core) {
   </div></section>` : ''}`;
 
   const offs = [];
-  main.querySelector('.pcard')?.addEventListener('click', (e) => { if (!e.target.closest('a')) e.currentTarget.classList.toggle('flip'); });
+  main.querySelector('.pcard')?.addEventListener('click', (e) => {
+    const go = e.target.closest('[data-scroll]');
+    if (go) { e.stopPropagation(); main.querySelector(go.dataset.scroll)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
+    if (!e.target.closest('a')) e.currentTarget.classList.toggle('flip');
+  });
 
   const arcEl = main.querySelector('#arc');
   if (arcEl) {

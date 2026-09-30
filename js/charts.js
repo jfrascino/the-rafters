@@ -4,39 +4,64 @@ import { esc, FINISH, fmtDate, sign, n1 } from './ui.js';
 const lin = (d0, d1, r0, r1) => (v) => r0 + ((v - d0) / (d1 - d0 || 1)) * (r1 - r0);
 const W = (el, min = 320) => Math.max(min, Math.round(el.clientWidth || 800));
 
-// Wins rise, losses hang below — every season since 1986–87 in one skyline.
+// Every season in one view. Top: games played, wins solid and losses as a pale cap (one hue; gold only for titles).
+// Bottom: the March ladder, one square per NCAA round reached, so depth reads as height, not color.
+const LADDER = [['NCAA', 'NCAA'], ['2nd rd', 'R32'], ['Sweet 16', 'S16'], ['Elite 8', 'E8'], ['Final 4', 'F4'], ['Title game', 'TG'], ['Champion', '★']];
+const DEPTH = { none: 0, nit: 0, r64: 1, r32: 2, sweet16: 3, elite8: 4, final4: 5, runner: 6, champ: 7 };
 export function skyline(el, seasons, eras) {
-  const w = W(el), narrow = w < 640;
-  const h = narrow ? 300 : 380, top = 34, base = narrow ? 190 : 250, bot = h - 30;
-  const maxW = Math.max(...seasons.map((s) => s.w)), maxL = Math.max(...seasons.map((s) => s.l));
-  const n = seasons.length, pad = 4, bw = (w - pad * 2) / n;
-  const yW = lin(0, maxW, base, top), yL = lin(0, Math.max(maxL, 1), base + 3, bot - 26);
-  let svg = `<svg class="skyline" viewBox="0 0 ${w} ${h}" role="img" aria-label="Wins and losses by season">`;
-  // era bands
+  const w = W(el), narrow = w < 700;
+  const left = narrow ? 34 : 78, right = 6;
+  const n = seasons.length, step = (w - left - right) / n, bw = Math.max(3, step - (narrow ? 2 : 4));
+  const eraH = 26, barTop = eraH + 18, barH = narrow ? 150 : 190, gap = 26;
+  const sq = Math.max(3, Math.min(bw, 12)), sqGap = 3, ladTop = barTop + barH + gap, ladH = LADDER.length * (sq + sqGap);
+  const axisY = ladTop + ladH + 8, h = axisY + 20;
+  const maxG = Math.max(...seasons.map((s) => s.w + s.l));
+  const y = lin(0, maxG, barTop + barH, barTop);
+  const x = (i) => left + i * step + (step - bw) / 2;
+  let svg = `<svg class="skyline" viewBox="0 0 ${w} ${h}" role="img" aria-label="Wins, losses and NCAA Tournament depth for every season">`;
+  // eras: a labelled bracket above the bars
   eras.forEach((e) => {
     const i0 = seasons.findIndex((s) => s.y >= e.from), i1 = seasons.findLastIndex((s) => s.y <= e.to);
     if (i0 < 0 || i1 < 0) return;
-    const x0 = pad + i0 * bw, x1 = pad + (i1 + 1) * bw;
-    svg += `<line x1="${x0 + 2}" x2="${x1 - 2}" y1="${h - 12}" y2="${h - 12}" stroke="var(--line-2)" stroke-width="1"/>`;
-    svg += `<text class="era-label" x="${(x0 + x1) / 2}" y="${h - 1}" text-anchor="middle">${esc(narrow ? e.short : e.name)}</text>`;
+    const x0 = left + i0 * step + 2, x1 = left + (i1 + 1) * step - 2;
+    svg += `<path d="M${x0},${eraH} V${eraH - 6} H${x1} V${eraH}" fill="none" stroke="var(--line-2)"/>`;
+    svg += `<text class="era-label" x="${(x0 + x1) / 2}" y="${eraH - 11}" text-anchor="middle">${esc(narrow ? e.short : e.name)}</text>`;
   });
-  // gridlines
-  [10, 20, 30].filter((v) => v <= maxW).forEach((v) => {
-    svg += `<line x1="0" x2="${w}" y1="${yW(v)}" y2="${yW(v)}" stroke="var(--line)" stroke-dasharray="2 4"/><text x="${w - 2}" y="${yW(v) - 4}" text-anchor="end">${v} W</text>`;
+  // win gridlines (recessive)
+  [10, 20, 30, 40].filter((v) => v < maxG).forEach((v) => {
+    svg += `<line x1="${left}" x2="${w - right}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)" stroke-dasharray="2 5"/><text x="${left - 8}" y="${y(v) + 4}" text-anchor="end">${v}</text>`;
   });
-  svg += `<line x1="0" x2="${w}" y1="${base + 1.5}" y2="${base + 1.5}" stroke="var(--line-2)"/>`;
+  svg += `<text x="${left - 8}" y="${barTop - 6}" text-anchor="end" style="fill:var(--fg-2)">${narrow ? 'G' : 'GAMES'}</text>`;
+  // ladder row labels + faint empty cells
+  LADDER.forEach(([long, short], r) => {
+    const yy = ladTop + (LADDER.length - 1 - r) * (sq + sqGap);
+    svg += `<text x="${left - 8}" y="${yy + sq - 1}" text-anchor="end" style="${r === 6 ? 'fill:var(--gold)' : ''}">${esc(narrow ? short : long)}</text>`;
+  });
   seasons.forEach((s, i) => {
-    const x = pad + i * bw + bw * .12, bwi = bw * .76;
+    const xi = x(i), champ = s.finish === 'champ', depth = DEPTH[s.finish] || 0;
+    const barFill = champ ? 'var(--gold)' : 'var(--ice)';
     const F = FINISH[s.finish] || FINISH.none;
-    const tipHtml = `<b>${esc(s.label)} · ${s.w}-${s.l}</b>${esc(s.coach)}<br>${esc(F.label)}${s.seed ? ` · No. ${s.seed} seed` : ''}${s.apFinal ? `<br>Final AP: No. ${s.apFinal}` : ''}`;
-    svg += `<a href="#/season/${s.y}" class="bar" data-tip="${esc(tipHtml)}" aria-label="${esc(s.label)}, ${s.w} and ${s.l}">`;
-    svg += `<rect x="${x}" y="${yW(s.w)}" width="${bwi}" height="${base - yW(s.w)}" fill="${F.color}" rx="1.5"/>`;
-    svg += `<rect x="${x}" y="${base + 3}" width="${bwi}" height="${yL(s.l) - base - 3}" fill="var(--red)" opacity=".45" rx="1.5"/>`;
-    if (s.finish === 'champ') svg += `<text x="${x + bwi / 2}" y="${yW(s.w) - 8}" text-anchor="middle" style="fill:var(--gold);font-size:${narrow ? 11 : 15}px">★</text>`;
-    svg += `<rect x="${pad + i * bw}" y="0" width="${bw}" height="${h - 20}" fill="transparent"/></a>`;
-    const every = narrow ? 5 : n > 30 ? 2 : 1;
-    if ((s.y % every === 0) || s.finish === 'champ') svg += `<text x="${x + bwi / 2}" y="${yL(s.l) + 14}" text-anchor="middle" style="${s.finish === 'champ' ? 'fill:var(--gold)' : ''}">'${String(s.y).slice(2)}</text>`;
+    const tipHtml = `<b>${esc(s.label)} · ${s.w}–${s.l}</b>${esc(s.coach)}<br>${esc(F.label)}${s.seed ? ` · No. ${s.seed} seed` : ''}${s.apFinal ? `<br>Final AP No. ${s.apFinal}` : ''}`;
+    svg += `<a href="#/season/${s.y}" class="bar" data-tip="${esc(tipHtml)}" aria-label="${esc(s.label)}: ${s.w} wins, ${s.l} losses, ${esc(F.label)}">`;
+    svg += `<rect x="${left + i * step}" y="${barTop - 4}" width="${step}" height="${axisY - barTop + 4}" fill="transparent"/>`;
+    // losses cap, then wins (2px surface gap between them)
+    svg += `<rect x="${xi}" y="${y(s.w + s.l)}" width="${bw}" height="${Math.max(0, y(s.w) - y(s.w + s.l) - 2)}" rx="2" fill="${barFill}" opacity=".22"/>`;
+    svg += `<rect x="${xi}" y="${y(s.w)}" width="${bw}" height="${barTop + barH - y(s.w)}" rx="2" fill="${barFill}"/>`;
+    // ladder cells
+    const cx = xi + (bw - sq) / 2;
+    for (let r = 0; r < LADDER.length; r++) {
+      const yy = ladTop + (LADDER.length - 1 - r) * (sq + sqGap);
+      const on = r < depth;
+      svg += `<rect x="${cx}" y="${yy}" width="${sq}" height="${sq}" rx="1.5" fill="${on ? (r === 6 ? 'var(--gold)' : 'var(--fg-2)') : 'var(--line)'}" opacity="${on ? 1 : .55}"/>`;
+    }
+    if (s.finish === 'nit') svg += `<text x="${xi + bw / 2}" y="${ladTop + ladH - 2}" text-anchor="middle" style="font-size:9px;fill:var(--muted)">NIT</text>`;
+    svg += '</a>';
+    const every = narrow ? 5 : 2;
+    if (champ || (s.y % every === 0 && !seasons.slice(Math.max(0, i - 1), i + 2).some((t) => t !== s && t.finish === 'champ'))) {
+      svg += `<text x="${xi + bw / 2}" y="${axisY + 12}" text-anchor="middle" style="${champ ? 'fill:var(--gold);font-weight:700' : ''}">'${String(s.y).slice(2)}</text>`;
+    }
   });
+  svg += `<line x1="${left}" x2="${w - right}" y1="${barTop + barH + .5}" y2="${barTop + barH + .5}" stroke="var(--line-2)"/>`;
   el.innerHTML = svg + '</svg>';
 }
 
