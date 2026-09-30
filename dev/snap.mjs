@@ -50,6 +50,7 @@ try {
     await send('Emulation.setDeviceMetricsOverride', { width: w, height: h, deviceScaleFactor: 1, mobile: w < 600 });
     await send('Page.navigate', { url: `http://localhost:8786/?shot=1&b=${Date.now()}#${route}` });
     await sleep(Number(process.env.WAIT || 3500));
+    if (process.env.PRE_JS) { await send("Runtime.evaluate", { expression: process.env.PRE_JS, awaitPromise: true }); await sleep(Number(process.env.PRE_WAIT || 1200)); }
     let clip;
     if (full) {
       const r = await send('Runtime.evaluate', { expression: 'document.documentElement.scrollHeight', returnByValue: true });

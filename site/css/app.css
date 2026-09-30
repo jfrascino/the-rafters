@@ -514,3 +514,8 @@ table.stats .who img { width: 30px; height: 30px; border-radius: 50%; object-fit
   filter: drop-shadow(0 10px 24px rgba(0,0,0,.55)); mix-blend-mode: normal; }
 .pcard.studio .pcard-front .photo img.husky { mix-blend-mode: normal; }
 img.ph-logo { object-fit: contain !important; background: var(--navy) !important; padding: 3px; }
+/* Only the face you can see takes clicks: the hidden side switches off halfway through the flip */
+.pcard .pcard-front { visibility: visible; transition: visibility 0s linear .3s; }
+.pcard .pcard-back { visibility: hidden; pointer-events: none; transition: visibility 0s linear .3s; }
+.pcard.flip .pcard-front { visibility: hidden; pointer-events: none; }
+.pcard.flip .pcard-back { visibility: visible; pointer-events: auto; }

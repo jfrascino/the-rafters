@@ -2,5 +2,8 @@
   "_note": "Images that must never be used as a player photo. hashes = md5 of the localized file.",
   "hashes": {
     "420f0f4319052a8dbb76eee1b2a79c33": "uconnhuskies.com roster placeholder (generic Husky logo), not a photo of the player"
+  },
+  "logo_only": {
+    "ryan-thompson-1": "Jason (2026-09-30): no good photo, show the UConn Husky logo"
   }
 }

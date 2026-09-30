@@ -630,8 +630,11 @@ def localize(url):
     return _localize_memo[url]
 
 
+LOGO_ONLY = set((_rej.get('logo_only') or {}).keys())   # Jason asked for the Husky logo instead of any found photo
 photo_for, photo_wide, photo_meta = {}, set(), {}
 for pid, cands in PHOTO_CANDS.items():
+    if pid in LOGO_ONLY:
+        continue
     for rank, url, wide, meta in sorted(cands, key=lambda c: c[0]):
         u2 = localize(url)
         if not u2 or (u2.startswith('assets/') and hashlib.md5(open(os.path.join(SITE, '..', u2.split('?')[0]), 'rb').read()).hexdigest() in REJECT_HASHES):
