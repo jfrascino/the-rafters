@@ -19,7 +19,7 @@ export default async function game(main, args, core) {
   const nPer = Math.max(U.line?.length || 0, O.line?.length || 0);
   const title = `${g.res ? (g.res === 'W' ? 'UConn beats' : 'UConn falls to') : 'UConn vs.'} ${g.opp.name}`;
 
-  main.innerHTML = `<div data-title="${esc(`${title}, ${fmtDate(g.date, { year: true })}`)}"></div>
+  main.innerHTML = `<div data-title="${esc(`${title}, ${fmtDate(g.day || g.date, { year: true })}`)}"></div>
   <section class="g-hero"><div class="wrap">
     <div class="s-hero-top"><a class="eyebrow" href="#/season/${y}">← ${esc(season.label)} · Game ${gi + 1} of ${season.games.length}</a>
       <nav class="s-nav">${prev ? `<a href="#/game/${prev.id}">← ${esc(prev.opp.abbr || prev.opp.name)}</a>` : ''}${next ? `<a href="#/game/${next.id}">${esc(next.opp.abbr || next.opp.name)} →</a>` : ''}</nav></div>
@@ -34,7 +34,7 @@ export default async function game(main, args, core) {
         </div>
         ${teamBlock(right, g, right === U)}
       </div>
-      <div class="board-foot"><span>${esc(fmtDay(g.date))} ${esc(fmtDate(g.date, { year: true }))}</span>${d?.venue?.name || g.arena ? `<span>${esc(d?.venue?.name || g.arena)}${d?.venue?.city ? ', ' + esc(d.venue.city) : ''}</span>` : ''}${d?.att || g.att ? `<span>Att. ${(+(d?.att || g.att)).toLocaleString()}</span>` : ''}${d?.tv || g.tv ? `<span>${esc(d?.tv || g.tv)}</span>` : ''}${g.rec ? `<span>UConn ${esc(g.rec)}</span>` : ''}</div>
+      <div class="board-foot"><span>${esc(fmtDay(g.day || g.date))} ${esc(fmtDate(g.day || g.date, { year: true }))}</span>${d?.venue?.name || g.arena ? `<span>${esc(d?.venue?.name || g.arena)}${d?.venue?.city || g.city ? ', ' + esc(d?.venue?.city || g.city) : ''}</span>` : ''}${d?.att || g.att ? `<span>Att. ${(+(d?.att || g.att)).toLocaleString()}</span>` : ''}${d?.tv || g.tv ? `<span>${esc(d?.tv || g.tv)}</span>` : ''}${g.rec ? `<span>UConn ${esc(g.rec)}</span>` : ''}</div>
     </div>
   </div></section>
   <div id="gbody"></div>`;

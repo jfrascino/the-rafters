@@ -148,7 +148,7 @@ function nextGameBlock(cur) {
   <a class="board" href="#/game/${g.id}">
     <div class="nextgame">
       <div class="team">${logo(left, 'xl')}<b>${left.rank ? `<span class="led" style="font-size:.9em">${left.rank}</span> ` : ''}${esc(left.name)}</b><span class="board-label">${left === UCONN ? (home ? 'Home' : 'Away') : (home ? 'Away' : 'Home')}</span></div>
-      <div class="mid"><span class="board-label">${esc(fmtDay(g.date))} ${esc(fmtDate(g.date, { year: true }))} · ${esc(fmtTime(g.date))}</span><div class="countdown" id="countdown"></div><span class="board-label">${g.ha === 'N' ? 'Neutral site' : home ? 'Home' : 'Road'}</span></div>
+      <div class="mid"><span class="board-label">${esc(fmtDay(g.day || g.date))} ${esc(fmtDate(g.day || g.date, { year: true }))} · ${esc(fmtTime(g.date))}</span><div class="countdown" id="countdown"></div><span class="board-label">${g.ha === 'N' ? 'Neutral site' : home ? 'Home' : 'Road'}</span></div>
       <div class="team">${logo(right, 'xl')}<b>${right.rank ? `<span class="led" style="font-size:.9em">${right.rank}</span> ` : ''}${esc(right.name)}</b><span class="board-label">${right === UCONN ? 'Home' : 'Home'}</span></div>
     </div>
     <div class="board-foot">${g.venue ? `<span>${esc(g.venue)}</span>` : ''}${g.tv ? `<span>TV: ${esc(g.tv)}</span>` : ''}${g.note ? `<span>${esc(g.note)}</span>` : ''}</div>

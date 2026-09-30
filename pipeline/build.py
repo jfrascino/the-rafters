@@ -124,6 +124,10 @@ media_images = jload(os.path.join(M, 'images.json'), {}) or {}
 media_videos = (jload(os.path.join(M, 'videos.json'), {}) or {})
 media_videos = media_videos.get('videos', media_videos) if isinstance(media_videos, dict) else media_videos
 legends = jload(os.path.join(M, 'legends.json'), {}) or {}
+# Venue truth table: the true building for every game and its name on that date (Hartford Civic Center → XL Center → PeoplesBank Arena, etc.)
+_ven = jload(os.path.join(OUT, 'official', 'venues.json'), {}) or {}
+BUILDING_CITY = {b['key']: b.get('city') for b in _ven.get('renames') or []}
+VENUE_ERA = {x['id']: x for x in _ven.get('game_venue_era') or []}
 
 
 def json_path_get(root, path):
@@ -846,7 +850,8 @@ def espn_only_games(y):
         if o_.get('tv'):
             g['tv'] = o_['tv']
         if o_.get('venue'):
-            g['arena'] = o_['venue'] + (f", {o_['city']}" if o_.get('city') else '')
+            g['arena'] = o_['venue']
+            g['city'] = o_.get('city')
         if o_.get('event') and not g.get('round'):
             g['round'] = o_['event']
     EXHIBITIONS[y] = [{'date': o['date'], 'iso': o.get('utc'), 'opp': o.get('opponent'), 'ha': o.get('site'), 'arena': ', '.join(x for x in [o.get('venue'), o.get('city')] if x),
@@ -902,7 +907,7 @@ for y in years:
         if g['type'] in ('NCAA', 'CTOURN'):
             ha = 'N'  # tournament games are neutral-site, even at MSG or in Hartford (sources disagree game to game)
         row = {'id': gid, 'date': (g.get('iso') or (e or {}).get('date') or g['date']) if not g.get('res') else g['date'], 'type': g['type'], 'ha': ha, 'opp': opp}
-        for k in ('res', 'pts', 'opp_pts', 'ot', 'rec', 'arena'):
+        for k in ('res', 'pts', 'opp_pts', 'ot', 'rec', 'arena', 'city'):
             if g.get(k) is not None:
                 row[k] = g[k]
         if y < 2001 and g['type'] in ('REG', 'CTOURN') and not e:
@@ -1006,6 +1011,26 @@ for y in years:
             GAMES_INDEX.append({'id': gid, 'y': y, 'date': g['date'], 'type': g['type'], 'ha': ha, 'opp': {k: opp[k] for k in ('key', 'name', 'abbr', 'logo') if opp.get(k)},
                                 'res': row['res'], 'pts': row['pts'], 'opp_pts': row['opp_pts'], 'ot': row.get('ot'), 'round': rnd if g['type'] in ('NCAA', 'NIT', 'CTOURN') else None,
                                 'top': row.get('top'), 'big': 2 if g['type'] == 'NCAA' else 1 if g.get('opp_rank') else 0})
+
+    # ── venues: era-correct names; single-source Sports-Reference labels before 2001 stay hidden (unreliable)
+    for row in games_out:
+        v = VENUE_ERA.get(row['id'])
+        day = row['date'][:10] if row.get('res') else et_date(row['date'])
+        if not row.get('res'):
+            row['day'] = day
+        if not v or v.get('date') != day:
+            continue
+        if not v.get('era_name'):
+            continue
+        basis = v.get('basis') or ''
+        if y < 2001 and basis.startswith('label->') and not v.get('espn_venue'):
+            continue
+        row['arena'] = v['era_name']
+        if BUILDING_CITY.get(v.get('building_key')):
+            row['city'] = BUILDING_CITY[v['building_key']]
+        det = details.get(row['id'])
+        if det is not None:
+            det['venue'] = {'name': v['era_name'], 'city': BUILDING_CITY.get(v.get('building_key')) or (det.get('venue') or {}).get('city')}
 
     # ── roster + stats
     roster = []
@@ -1376,7 +1401,7 @@ cur_sum = next(s for s in SEASON_SUM if s['y'] == current_season)
 CURRENT = {'season': current_season, 'label': label(current_season), 'record': f"{cur_sum['w']}-{cur_sum['l']}" if (cur_sum['w'] + cur_sum['l']) else None,
            'rank': ((espn_current.get('polls') or {}).get('ap') or {}).get('uconn', {}).get('rank') if ((espn_current.get('polls') or {}).get('ap') or {}).get('season') == current_season else None}
 if nxt:
-    CURRENT['next'] = {'id': nxt['id'], 'eid': nxt.get('eid'), 'date': nxt['date'], 'ha': nxt['ha'], 'opp': nxt['opp'], 'venue': nxt.get('arena'), 'tv': nxt.get('tv'), 'note': nxt.get('round')}
+    CURRENT['next'] = {'id': nxt['id'], 'eid': nxt.get('eid'), 'date': nxt['date'], 'day': nxt.get('day'), 'ha': nxt['ha'], 'opp': nxt['opp'], 'venue': nxt.get('arena'), 'tv': nxt.get('tv'), 'note': nxt.get('round')}
 if lst:
     CURRENT['last'] = {k: lst.get(k) for k in ('id', 'date', 'ha', 'opp', 'res', 'pts', 'opp_pts', 'top')}
 

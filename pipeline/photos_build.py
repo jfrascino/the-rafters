@@ -12,7 +12,7 @@ import os
 import re
 import time
 
-from photos_common import (CAND_DIR, PLAYER_OUT, TEAM_OUT, load_candidates, load_players, probe, save_probes)
+from photos_common import (CAND_DIR, PLAYER_OUT, PROJ, TEAM_OUT, load_candidates, load_players, probe, save_probes)
 
 KIND_RANK = {"uconn-headshot": 0, "uconn-action": 1, "uconn-team": 5, "nba-headshot": 2, "pro-other": 3, "other": 4}
 FIELDS = ("url", "kind", "cutout", "w", "h", "source", "credit", "license", "caption", "crop")
@@ -164,7 +164,7 @@ def main():
     # restoration queue: players the site still lacks (photos-drop/NEEDED.md, maintained by the app build);
     # falls back to our own missing/small list when that file is absent
     pinfo = {p["id"]: p for p in players}
-    needed_md = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(PLAYER_OUT))), "photos-drop", "NEEDED.md")
+    needed_md = os.path.join(PROJ, "photos-drop", "NEEDED.md")
     targets = []
     if os.path.exists(needed_md):
         from photos_common import norm
@@ -187,7 +187,8 @@ def main():
         lst = out_players.get(pid, []) + [dict(c, unverified=True) for c in queue_extra.get(pid, [])]
         p = pinfo[pid]
         # best findable: verified before unverified, UConn-era first, then largest
-        cands = sorted(lst, key=lambda c: (1 if c.get("unverified") else 0, 0 if c["kind"].startswith("uconn") else 1,
+        qrank = {"uconn-headshot": 0, "uconn-action": 1, "uconn-team": 2, "nba-headshot": 3, "pro-other": 4, "other": 5}
+        cands = sorted(lst, key=lambda c: (1 if c.get("unverified") else 0, qrank.get(c["kind"], 6),
                                            -min(c.get("w") or 0, c.get("h") or 0)))
         queue.append({"sr_id": pid, "name": p["name"], "years": p.get("span"), "number": p.get("num"),
                       "status": ("has-verified-photo" if out_players.get(pid) else

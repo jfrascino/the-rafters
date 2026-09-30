@@ -1,5 +1,5 @@
 {
- "_about": "Tie-breaks between Sports-Reference (sr) and uconnhuskies.com schedule archive (official) for disputed game facts, using independent contemporaneous sources. truth = adjudicated value; winner = which side it matches.",
+ "_about": "Tie-breaks between Sports-Reference (sr, what the app shows) and the uconnhuskies.com schedule cards (official) for disputed game facts. truth = adjudicated value; winner = sr | official | neither. Sources are independent of both where possible (opponent archives/media guides, AP agate & roundups via International Herald Tribune and other newspapers on archive.org, CNN/SI-STATS box scores via the Wayback Machine, ESPN). uconn_record_book = what UConn's own 2026-27 record book (all-time results) shows, for context: many web-card typos are absent there, a few originate there.",
  "decisions": [
   {
    "game": "1990-2",
@@ -16,11 +16,20 @@
      "quote": "Sat Nov 25 vs. UConn Anchorage, Alaska L Loss 81-95"
     },
     {
+     "url": "https://archive.org/details/auburn-basketball-2019-20-media-guide-c",
+     "quote": "Nov. 25—Connecticut 95, Auburn 81"
+    },
+    {
      "url": "https://goseawolves.com/downloads1/13557.pdf?ATCLID=657253&SPSID=61511&SPID=6647",
      "quote": "Nov. 25: Connecticut 95, Auburn 81"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "11/26 vs. Auburn + - - 3.302 - W, 95-81"
     }
    ],
-   "note": "Host (UAA) Shootout history and Auburn's archive both give 95-81. SR's own 1989-90 opponent season total (2,446) is exactly 10 below the sum of its schedule opp scores (2,456), consistent with 91 being an SR typo for 81."
+   "note": "Auburn (schedule + media guide), host UAA's Shootout history and UConn's record book all give 81, and UConn's official 1989-90 opponent total (2,446) only reconciles with 81. Caveat: the AP agate printed in the IHT of Nov 27, 1989 reads 'Connecticut 95, Auburn 91' - probably SR's source; treated as a wire typo.",
+   "uconn_record_book": "W 95-81"
   },
   {
    "game": "1990-2",
@@ -41,7 +50,8 @@
      "quote": "Nov. 25: Connecticut 95, Auburn 81"
     }
    ],
-   "note": "Second-round (consolation) game of the 1989 Great Alaska Shootout was Saturday Nov 25; UConn site shifts both Alaska games after the opener by one day."
+   "note": "Second-round (consolation) game of the 1989 Great Alaska Shootout was Saturday Nov 25; UConn site shifts both Alaska games after the opener by one day.",
+   "uconn_record_book": "1989-11-26"
   },
   {
    "game": "1990-3",
@@ -62,7 +72,8 @@
      "quote": "Nov. 26: UAA 109, Auburn 94 (7th/8th) Connecticut 63, Florida State 60"
     }
    ],
-   "note": "FSU box-score archive (attendance 3,179) and the host's Shootout history both date it Sunday Nov 26; only the title game was Nov 27."
+   "note": "FSU box-score archive (attendance 3,179) and the host's Shootout history both date it Sunday Nov 26; only the title game was Nov 27.",
+   "uconn_record_book": "1989-11-27"
   },
   {
    "game": "1990-23",
@@ -72,14 +83,19 @@
    "official": "at Fairfield, Fairfield, CT",
    "truth": "home (Harry A. Gampel Pavilion, Storrs)",
    "winner": "sr",
-   "confidence": "medium",
+   "confidence": "high",
    "sources": [
     {
      "url": "https://fairfieldstags.com/sports/mens-basketball/schedule/1989-90",
      "quote": "Feb 6 (Tue) at #8 Connecticut Storrs, Conn. L, 39-74"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "2/6 Fairfield (GP) 8 - 8,148 - W, 74-39"
     }
    ],
-   "note": "Fairfield's own archive lists it as a road game in Storrs; Gampel had opened Jan 27, 1990."
+   "note": "Both Fairfield's archive and UConn's own record book put it at Gampel; the web card's 'at Fairfield' is a data-entry error.",
+   "uconn_record_book": "home (GP)"
   },
   {
    "game": "1988-22",
@@ -94,9 +110,14 @@
     {
      "url": "https://fairfieldstags.com/sports/mens-basketball/schedule/1987-88",
      "quote": "Feb 18 (Thu) Connecticut New Haven, Conn. L, 48-74"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "2/18 at Fairfield - - 3,245 - W, 74-48"
     }
    ],
-   "note": "Fairfield's archive lists neither 'vs' nor 'at' and places the game in New Haven (presumably New Haven Coliseum)."
+   "note": "Fairfield's archive marks home games 'vs' (even its relocated White Plains home game) and neutral games bare; this one is bare and in New Haven (presumably New Haven Coliseum). UConn's record book/media guides call it a road game ('at Fairfield', A) with 3,245 attendance - conflict unresolved by a game story, hence medium.",
+   "uconn_record_book": "at Fairfield"
   },
   {
    "game": "1987-5",
@@ -104,16 +125,21 @@
    "opp": "Boston University",
    "sr": "home (Hartford Civic Center)",
    "official": "at Boston University",
-   "truth": "away (Boston, Mass.)",
+   "truth": "away (Boston, Mass.; BU home game)",
    "winner": "official",
-   "confidence": "medium",
+   "confidence": "high",
    "sources": [
     {
      "url": "https://goterriers.com/sports/mens-basketball/schedule/1986-87",
      "quote": "vs Connecticut Boston, MA W, 80-71 Dec 9 (Tue)"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "12/9 at Boston Univ. - - 1,449 NESN L, 71-80"
     }
    ],
-   "note": "BU's archive lists it as a BU home game in Boston (BU won 80-71)."
+   "note": "BU's archive and UConn's record book agree (crowd of 1,449 fits BU's Case Gym, not the Civic Center).",
+   "uconn_record_book": "at Boston Univ."
   },
   {
    "game": "1987-19",
@@ -121,16 +147,21 @@
    "opp": "Saint Peter's",
    "sr": "neutral (no arena)",
    "official": "at St. Peter's",
-   "truth": "away (Jersey City, N.J.)",
+   "truth": "away (Jersey City, N.J.; Saint Peter's home game)",
    "winner": "official",
-   "confidence": "medium",
+   "confidence": "high",
    "sources": [
     {
      "url": "https://saintpeterspeacocks.com/sports/mens-basketball/schedule/1986-87",
      "quote": "Feb 3 (Tue) / Final Jersey City, N.J. vs Connecticut W, 75-50"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "2/3 at St. Peter's - - 8,741 - L, 50-75"
     }
    ],
-   "note": "Saint Peter's archive lists it as a home game in Jersey City."
+   "note": "Saint Peter's lists it as a home ('vs') game in Jersey City; UConn's record book as a road game. Exact building unconfirmed (8,741 attendance is large for Yanitelli Center).",
+   "uconn_record_book": "at St. Peter's"
   },
   {
    "game": "1998-2",
@@ -147,7 +178,8 @@
      "quote": "at Connecticut Storrs, CT L, 54-68 Nov 17 (Mon)"
     }
    ],
-   "note": "SR's 68 also matches UConn's 1997-98 player-points season total (2,836 = sum of SR game scores; official schedule sums to 2,834)."
+   "note": "SR's 68 also matches UConn's 1997-98 player-points season total (2,836 = sum of SR game scores; official schedule sums to 2,834).",
+   "uconn_record_book": "W 68-54"
   },
   {
    "game": "1991-14",
@@ -157,14 +189,23 @@
    "official": "1991-01-12",
    "truth": "1991-01-13",
    "winner": "sr",
-   "confidence": "medium",
+   "confidence": "high",
    "sources": [
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1991FranceEnglish/Jan%2015%201991%2C%20International%20Herald%20Tribune%2C%20%2333555%2C%20France%20%28en%29_djvu.txt",
+     "quote": "SUNDAY'S RESULTS ... Major College Scores ... St. John's 72, Connecticut 59 [OCR garbled]"
+    },
     {
      "url": "https://redstormsports.com/sports/mens-basketball/schedule/1990-91",
      "quote": "at No. 9 Connecticut STORRS, CONN. (GAMPEL PAVILION) W, 72-59 Jan 13 (Sun)"
+    },
+    {
+     "url": "https://gopack.com/sports/mens-basketball/schedule/1990-91",
+     "quote": "vs #24 Georgia Tech ... W, 90-83 Jan 13 (Sun)"
     }
    ],
-   "note": "St. John's archive dates it Sunday Jan 13, 1991."
+   "note": "IHT Tue Jan 15, 1991 lists the game under Sunday's results beside NC State 90, Georgia Tech 83 (verified Sun Jan 13) and runs the AP recap ('Malik Sealy scored 26 ... stopped Connecticut's 22-game home winning streak'). UConn record book/web say 1/12 - wrong.",
+   "uconn_record_book": "1991-01-12"
   },
   {
    "game": "1991-28",
@@ -174,14 +215,23 @@
    "official": "1991-03-08",
    "truth": "1991-03-08",
    "winner": "official",
-   "confidence": "medium",
+   "confidence": "high",
    "sources": [
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1991FranceEnglish/Mar%2011%201991%2C%20International%20Herald%20Tribune%2C%20%2333602%2C%20France%20%28en%29_djvu.txt",
+     "quote": "BIG EAST CONFERENCE Fridays Quarterfinals Georgetown 68 Connecticut 49"
+    },
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1991FranceEnglish/Mar%2008%201991%2C%20International%20Herald%20Tribune%2C%20%2333600%2C%20France%20%28en%29_djvu.txt",
+     "quote": "Jim Calhoun of Connecticut, whose team faces Georgetown on Friday"
+    },
     {
      "url": "https://guhoyas.com/sports/mens-basketball/schedule/1990-91",
      "quote": "Mar 8 (Fri) Big East * Connecticut (Quarterfinal) New York, N.Y. W, 68-49"
     }
    ],
-   "note": "Big East quarterfinal at MSG; Georgetown's semifinal vs Providence followed on Sat Mar 9."
+   "note": "Big East quarterfinal at MSG, Friday Mar 8, 1991.",
+   "uconn_record_book": "1991-03-08"
   },
   {
    "game": "1992-28",
@@ -191,14 +241,27 @@
    "official": "1992-03-12",
    "truth": "1992-03-13",
    "winner": "sr",
-   "confidence": "medium",
+   "confidence": "high",
    "sources": [
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1992FranceEnglish/Mar%2014%201992%2C%20International%20Herald%20Tribune%2C%20%2333916%2C%20France%20%28en%29_djvu.txt",
+     "quote": "BIG EAST CONFERENCE First Round ... The Eagles (16-12) will meet top-seeded Seton Hall (20-7) on Friday."
+    },
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1992FranceEnglish/Mar%2016%201992%2C%20International%20Herald%20Tribune%2C%20%2333917%2C%20France%20%28en%29_djvu.txt",
+     "quote": "Quarterfinals ... Seton Hall 62, Boston College 60 | St. Johns 64. Connecticut 59, OT"
+    },
     {
      "url": "https://redstormsports.com/sports/mens-basketball/schedule/1991-92",
      "quote": "vs Connecticut NEW YORK, N.Y. (MADISON SQUARE GARDEN) W, 64-59 (OT) Mar 13 (Fri)"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "3/13 vs. St. John's * - - 18,899 tv8 L, 59-64 ot"
     }
    ],
-   "note": "St. John's archive: QF Fri Mar 13, then semifinal vs Georgetown Sat Mar 14."
+   "note": "First round was Thu Mar 12; quarterfinals (incl. SJU-UConn) Fri Mar 13. UConn's own record book agrees with SR; only the web card says Mar 12.",
+   "uconn_record_book": "1992-03-13"
   },
   {
    "game": "1994-20",
@@ -215,7 +278,8 @@
      "quote": "vs Connecticut JMA Wireless Dome Syracuse, N.Y. W, 108-95 Feb 1 (Tue)"
     }
    ],
-   "note": "SR's 108 also consistent with SR's independent 1993-94 opponent points season total (2,333)."
+   "note": "SR's 108 also consistent with SR's independent 1993-94 opponent points season total (2,333).",
+   "uconn_record_book": "L 95-108"
   },
   {
    "game": "1994-29",
@@ -232,7 +296,8 @@
      "quote": "at No. 4 Connecticut HARTFORD, CONN. (HARTFORD CIVIC CENTER) L, 80-95 Mar 5 (Sat)"
     }
    ],
-   "note": "Official '80-50' looks like a transposition/typo; SR's 95 matches UConn's player-points season total (2,888). Game was at Hartford Civic Center, not Storrs as the UConn card says."
+   "note": "Official '80-50' looks like a transposition/typo; SR's 95 matches UConn's player-points season total (2,888). Game was at Hartford Civic Center, not Storrs as the UConn card says.",
+   "uconn_record_book": "W 95-80 (HCC)"
   },
   {
    "game": "1996-24",
@@ -240,16 +305,29 @@
    "opp": "West Virginia",
    "sr": "1996-02-15",
    "official": "1996-02-14",
-   "truth": "1996-02-15",
-   "winner": "sr",
-   "confidence": "medium",
+   "truth": "1996-02-14",
+   "winner": "official",
+   "confidence": "high",
    "sources": [
     {
-     "url": "https://wvusports.com/sports/mens-basketball/schedule/1995-96",
-     "quote": "at #3 Connecticut Storrs, Conn. L, 69-87 Feb 15 (Thu)"
+     "url": "https://archive.org/details/The_Times_News_Idaho_Newspaper_1996_02_15",
+     "quote": "No. 3 Connecticut 87, West Virginia 69"
+    },
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1996FranceEnglish/Feb%2016%201996%2C%20International%20Herald%20Tribune%2C%20%2335136%2C%20France%20%28en%29_djvu.txt",
+     "quote": "No. 3 Connecticut 87, West Virginia 6[9]: Doron Sheffer had six 3-pointers and scored 23 points"
+    },
+    {
+     "url": "https://georgiadogs.com/sports/mens-basketball/schedule/1995-96",
+     "quote": "at Kentucky Lexington, Ky. L, 73-86 Feb 14 (Wed)"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "2/14 West Virginia (GP) 3 - 8,241 tv8 W, 87-69"
     }
    ],
-   "note": "WVU archive dates it Thursday Feb 15, 1996."
+   "note": "Result printed in the Thu Feb 15, 1996 morning paper and in AP's Wednesday-night Top-25 roundup alongside Kentucky-Georgia (verified Wed Feb 14). WVU's own archive and SR (Feb 15) are wrong. Supersedes the earlier provisional call.",
+   "uconn_record_book": "1996-02-14"
   },
   {
    "game": "1996-31",
@@ -266,7 +344,8 @@
      "quote": "vs Connecticut Madison Square Garden New York, N.Y. BIG EAST Tournament L, 67-85 Mar 8 (Fri)"
     }
    ],
-   "note": "Big East semifinal."
+   "note": "Big East semifinal.",
+   "uconn_record_book": "W 85-67"
   },
   {
    "game": "2000-29",
@@ -281,9 +360,14 @@
     {
      "url": "https://cuse.com/sports/mens-basketball/schedule/1999-2000",
      "quote": "at #24 Connecticut Hartford Civic Center Hartford, CT L, 54-69 Mar 4 (Sat)"
+    },
+    {
+     "url": "http://web.archive.org/web/20020223183102/http://sportsillustrated.cnn.com/basketball/college/men/scoreboards/2000/03/04/index.html",
+     "quote": "Syracuse (12) 54 Final Connecticut (21) 69"
     }
    ],
-   "note": "Syracuse places the game at Hartford Civic Center (SR's arena field says Gampel). SR's 69 matches UConn's player-points season total."
+   "note": "UConn's record book also carries the 79-64 typo, but the 1999-2000 player-points total matches 69. Venue was Hartford Civic Center (SR arena field says Gampel).",
+   "uconn_record_book": "W 79-64 (HCC)"
   },
   {
    "game": "2001-1",
@@ -304,7 +388,8 @@
      "quote": "Connecticut 86, Quinnipiac 72 Posted: Friday November 17, 2000 10:13 PM"
     }
    ],
-   "note": "CNN/SI line score: Quinnipiac 34-38 = 72."
+   "note": "CNN/SI line score: Quinnipiac 34-38 = 72.",
+   "uconn_record_book": "W 86-71 (HCC)"
   },
   {
    "game": "2000-14",
@@ -321,7 +406,8 @@
      "quote": "Connecticut 77, Texas 67 Posted: Monday January 10, 2000 11:52 PM"
     }
    ],
-   "note": "Contemporaneous CNN/SI (STATS) box; UConn player points sum to 77 (Mouring 21, El-Amin 14...). Attendance 16,294 indicates Hartford Civic Center rather than Gampel (SR arena field)."
+   "note": "CNN/SI (STATS) box; UConn player points sum to 77 (Mouring 21, El-Amin 14, Voskuhl 9, Saunders 8, Freeman 7, Robertson 6, Deng 4, Wane 3, Wrenn 3, Cox 2). UConn's record book has the same 76-67 typo as the web card. Attendance 16,294 = Hartford Civic Center (record book agrees; SR arena says Gampel).",
+   "uconn_record_book": "W 76-67 (HCC)"
   },
   {
    "game": "2000-18",
@@ -336,9 +422,14 @@
     {
      "url": "http://web.archive.org/web/20030110111135/http://sportsillustrated.cnn.com/basketball/college/men/boxscores/2000/01/27/cbp_pas/",
      "quote": "Connecticut 64, Providence 50 Posted: Thursday January 27, 2000 10:26 PM"
+    },
+    {
+     "url": "https://friars.com/sports/mens-basketball/schedule/1999-00",
+     "quote": "at Connecticut Hartford, Conn. (Hartford Civic Center) L, 50-64 Jan 27 (Thu)"
     }
    ],
-   "note": "CNN/SI box: Providence halves 22-28 = 50. Attendance 16,294 (Hartford Civic Center)."
+   "note": "Played at Hartford Civic Center; UConn's record book also 64-50.",
+   "uconn_record_book": "W 64-50 (HCC)"
   },
   {
    "game": "2000-21",
@@ -353,9 +444,14 @@
     {
      "url": "http://web.archive.org/web/20030108065938/http://sportsillustrated.cnn.com/basketball/college/men/boxscores/2000/02/05/may_cbp/",
      "quote": "Michigan St. 85, Connecticut 66 Posted: Saturday February 05, 2000 03:57 PM"
+    },
+    {
+     "url": "https://msuspartans.com/sports/mens-basketball/schedule/1999-00",
+     "quote": "vs Connecticut East Lansing, Mich. W, 85-66 Feb 5 (Sat)"
     }
    ],
-   "note": "CNN/SI box (halves UConn 17-49, MSU 46-39; A: 14,659, i.e. Breslin Center capacity). The UConn card's 'Grand Rapids, MI' location also looks wrong; SR's Breslin Center fits the attendance."
+   "note": "Played at Breslin Center, East Lansing (A: 14,659) - the UConn card's 'Grand Rapids, MI' is also wrong. UConn's record book has 66-85.",
+   "uconn_record_book": "L 66-85 (at Michigan State)"
   },
   {
    "game": "2001-6",
@@ -372,7 +468,8 @@
      "quote": "Connecticut 72, Houston 60 Posted: Thursday November 30, 2000 10:35 PM"
     }
    ],
-   "note": "CNN/SI line score: Houston 30-30 = 60. SR's 60 also matches SR's 2000-01 opponent season total."
+   "note": "CNN/SI line score: Houston 30-30 = 60. SR's 60 also matches SR's 2000-01 opponent season total.",
+   "uconn_record_book": "W 72-60"
   },
   {
    "game": "2001-27",
@@ -389,7 +486,8 @@
      "quote": "Connecticut 60, Miami (FL) 53 Posted: Saturday February 24, 2001 06:08 PM"
     }
    ],
-   "note": "CNN/SI line score: Miami 16-37 = 53."
+   "note": "CNN/SI line score: Miami 16-37 = 53.",
+   "uconn_record_book": "W 60-53"
   },
   {
    "game": "2001-32",
@@ -410,7 +508,8 @@
      "quote": "Connecticut 72, South Carolina 65 Posted: Wednesday March 14, 2001 09:51 PM"
     }
    ],
-   "note": "NIT 1st round (South Carolina) was Wed Mar 14; 2nd round loss to Detroit was Sun Mar 18 in Storrs. UConn card duplicated Mar 14."
+   "note": "NIT 1st round (South Carolina) was Wed Mar 14; 2nd round loss to Detroit was Sun Mar 18 in Storrs. UConn card duplicated Mar 14.",
+   "uconn_record_book": "2001-03-18"
   },
   {
    "game": "1999-3",
@@ -427,7 +526,8 @@
      "quote": "Posted: Tues November 24, 1998 at 11:51 p.m. EST HARTFORD, Connecticut (Ticker)"
     }
    ],
-   "note": "Ticker recap of the 95-58 win (Calhoun out with stomach virus, Leitao coached). Dateline HARTFORD suggests Hartford Civic Center rather than Gampel."
+   "note": "Ticker recap of the 95-58 win (Calhoun out with stomach virus, Leitao coached). Dateline HARTFORD suggests Hartford Civic Center rather than Gampel.",
+   "uconn_record_book": "1998-11-24 (HCC)"
   },
   {
    "game": "1999-26",
@@ -444,7 +544,8 @@
      "quote": "Connecticut 35 37 - 72 Providence 36 29 - 65"
     }
    ],
-   "note": "CNN/SI box score (A: 12,993). SR's 65 matches SR's 1998-99 opponent season total."
+   "note": "CNN/SI box score (A: 12,993). SR's 65 matches SR's 1998-99 opponent season total.",
+   "uconn_record_book": "W 72-65"
   },
   {
    "game": "1997-32",
@@ -459,9 +560,14 @@
     {
      "url": "https://www.nolefan.org/summary/b1997.html",
      "quote": "Florida State 71, Connecticut 65 03/25/1997, OT, NIT Final 4, New York, N.Y."
+    },
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1997FranceEnglish/Mar%2027%201997%2C%20International%20Herald%20Tribune%2C%20%2335480%2C%20France%20%28en%29_djvu.txt",
+     "quote": "the Seminoles beat the Huskies, 71-65 ... In the overtime, the Seminoles (20-11) started with a 7-2 run"
     }
    ],
-   "note": "FSU box: line score Connecticut 32 27 6 = 65; UConn 25 FG (7 threes) + 8 FT = 65. Game went to overtime (UConn card omits OT)."
+   "note": "NYT News Service story (IHT Mar 27, 1997) and FSU box (line score 32-27-6). UConn's record book says 66-71 ot, but its own 1996-97 season total (2,170 pts) requires 65.",
+   "uconn_record_book": "L 66-71 ot"
   },
   {
    "game": "1998-5",
@@ -482,7 +588,8 @@
      "quote": "vs Arizona State New York, N.Y. Preseason NIT W, 90-88 Nov 26 (Wed)"
     }
    ],
-   "note": "Preseason NIT semifinals at MSG were a Wednesday Nov 26 doubleheader (Kansas-ASU, FSU-UConn), day before Thanksgiving; final and 3rd-place games Fri Nov 28."
+   "note": "Preseason NIT semifinals at MSG were a Wednesday Nov 26 doubleheader (Kansas-ASU, FSU-UConn), day before Thanksgiving; final and 3rd-place games Fri Nov 28.",
+   "uconn_record_book": "1997-11-26"
   },
   {
    "game": "2001-18",
@@ -499,7 +606,288 @@
      "quote": "Miami (FL) 77, Connecticut 74 Posted: Saturday January 20, 2001 06:45 PM"
     }
    ],
-   "note": "CNN/SI line score UConn 31-43 = 74, Miami 44-33 = 77 (A: 7,138). The UConn card's 59-70 duplicates the score of the next game (Jan 24 vs Villanova, L 59-70)."
+   "note": "CNN/SI line score UConn 31-43 = 74, Miami 44-33 = 77 (A: 7,138). The UConn card's 59-70 duplicates the score of the next game (Jan 24 vs Villanova, L 59-70).",
+   "uconn_record_book": "L 59-70"
+  },
+  {
+   "game": "1990-8",
+   "field": "score",
+   "opp": "Maine",
+   "sr": "W 95-55",
+   "official": "W 55-50",
+   "truth": "W 95-55",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1989FranceEnglish/Dec%2011%201989%2C%20International%20Herald%20Tribune%2C%20%2333218%2C%20France%20%28en%29_djvu.txt",
+     "quote": "SATURDAY'S RESULTS ... Connecticut 95. Maine SS [OCR of 55]"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "12/9 Maine (FH) - - 4,604 - W, 95-55"
+    }
+   ],
+   "note": "Contemporaneous AP agate (IHT, Mon Dec 11, 1989; OCR renders 55 as 'SS'). UConn's own record book also says 95-55, and the 1989-90 season totals (2,926 pts / 2,446 opp) only reconcile with 95-55; the web card's 55-50 is a data-entry error.",
+   "uconn_record_book": "W 95-55"
+  },
+  {
+   "game": "1990-19",
+   "field": "score",
+   "opp": "Central Connecticut",
+   "sr": "W 99-77",
+   "official": "W 99-67",
+   "truth": "W 99-77",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1990FranceEnglish/Jan%2026%201990%2C%20International%20Herald%20Tribune%2C%20%2333255%2C%20France%20%28en%29_djvu.txt",
+     "quote": "Selected College Scores ... East ... Connecticut 97 [OCR], Cent. Connecticut St. 77"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "1/24 Central Conn. (FH) 20 - 4,604 - W, 99-77"
+    }
+   ],
+   "note": "AP agate gives CCSU 77; UConn's record book also 99-77 (Wikipedia's 99-67 copies the web card). Season opp total 2,446 reconciles with 77. Last game at the Field House.",
+   "uconn_record_book": "W 99-77"
+  },
+  {
+   "game": "1990-19",
+   "field": "date",
+   "opp": "Central Connecticut",
+   "sr": "1990-01-25",
+   "official": "1990-01-24",
+   "truth": "1990-01-24",
+   "winner": "official",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1990FranceEnglish/Jan%2026%201990%2C%20International%20Herald%20Tribune%2C%20%2333255%2C%20France%20%28en%29_djvu.txt",
+     "quote": "Connecticut ..., Cent. Connecticut St. 77 ... St. John's 81, Providence 75 ... Duke 85, N. Carolina St. 82"
+    },
+    {
+     "url": "https://goduke.com/sports/mens-basketball/schedule/1989-90",
+     "quote": "vs NC State Cameron Indoor Stadium Durham, N.C. W, 85-82 (OT) Jan 24 (Wed)"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "1/24 Central Conn. (FH)"
+    }
+   ],
+   "note": "The CCSU result sits in the same Wednesday-night score block as Duke-NC State and St. John's-Providence, both verified as Wed Jan 24, 1990. SR's Jan 25 is off by a day.",
+   "uconn_record_book": "1990-01-24"
+  },
+  {
+   "game": "1994-27",
+   "field": "site",
+   "opp": "Pittsburgh",
+   "sr": "home (Hartford Civic Center)",
+   "official": "at Pittsburgh, Pittsburgh, PA",
+   "truth": "home (Hartford Civic Center)",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1994FranceEnglish/Feb%2028%201994%2C%20International%20Herald%20Tribune%2C%20%2334523%2C%20France%20%28en%29_djvu.txt",
+     "quote": "Connecticut (24-3, 14-2) used balanced scoring to beat visiting Pittsburgh"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "2/26 Pittsburgh (HCC) 5 - 16,294 tv8 W, 78-66"
+    }
+   ],
+   "note": "UConn had already played at Pitt on Jan 29, 1994; this was the return game that clinched UConn's first outright Big East regular-season title.",
+   "uconn_record_book": "home (HCC)"
+  },
+  {
+   "game": "1995-12",
+   "field": "date",
+   "opp": "Providence",
+   "sr": "1995-01-14",
+   "official": "1995-01-13",
+   "truth": "1995-01-14",
+   "winner": "sr",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1995FranceEnglish/Jan%2016%201995%2C%20International%20Herald%20Tribune%2C%20%2334799%2C%20France%20%28en%29_djvu.txt",
+     "quote": "No. 2 Connecticut 70, Providence 62: Connecticut remained the only unbeaten team in Division 1"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "1/14 Providence (GP) 2 - 8,241 tv8 W, 70-62"
+    }
+   ],
+   "note": "The recap is part of AP's Saturday Top-25 roundup (same story as Iowa State 'rallied Saturday' over Kansas) in the Monday Jan 16 IHT; UConn's record book also says 1/14. Only the web card says Fri Jan 13.",
+   "uconn_record_book": "1995-01-14"
+  },
+  {
+   "game": "1996-4",
+   "field": "score",
+   "opp": "Northeastern",
+   "sr": "W 86-39",
+   "official": "W 86-59",
+   "truth": "W 86-39",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://archive.org/details/per_the-valley-independent-330_the-valley-independent_1995-11-30",
+     "quote": "Basketball scores EAST Connecticut 86, Northeastern 39"
+    },
+    {
+     "url": "https://archive.org/details/The_Times_News_Idaho_Newspaper_1995_11_30",
+     "quote": "Connecticut 86, Northeastern 39"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "11/29 Northeastern (HCC) 9 - 15,522 tv8 W, 86-39"
+    }
+   ],
+   "note": "AP scores in two Nov 30, 1995 papers. Record book puts the game at Hartford Civic Center (SR arena says Gampel).",
+   "uconn_record_book": "W 86-39 (HCC)"
+  },
+  {
+   "game": "2000-3",
+   "field": "score",
+   "opp": "Vermont",
+   "sr": "W 89-52",
+   "official": "W 82-59",
+   "truth": "W 89-52",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://archive.org/details/The_Times_News_Idaho_Newspaper_1999_11_20",
+     "quote": "No. 8 Connecticut 89, Vermont 52 STORRS"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "11/19 Vermont (GP) 8 - 10,027 tv20 W, 89-52"
+    }
+   ],
+   "note": "AP brief in the Nov 20, 1999 Times-News (Twin Falls, Idaho); UConn's record book agrees.",
+   "uconn_record_book": "W 89-52"
+  },
+  {
+   "game": "1991-1",
+   "field": "date",
+   "opp": "College of Charleston",
+   "sr": "1990-11-23",
+   "official": "1990-11-24",
+   "truth": "1990-11-24",
+   "winner": "official",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://archive.org/details/The_Times_News_Idaho_Newspaper_1990_11_25",
+     "quote": "STORRS, Conn. (AP) ... opened its season Saturday night ... with a 68-52 victory over the College of Charleston"
+    },
+    {
+     "url": "https://cofcsports.com/sports/mens-basketball/schedule/1990-91",
+     "quote": "at Connecticut Storrs, CT L, 53-68 Nov 24 (Sat)"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "11/24 Charleston (GP) 17 - 8,241 - W, 68-52"
+    }
+   ],
+   "note": "AP brief in the Sunday Nov 25, 1990 Twin Falls Times-News (OCR is multi-column but reads 'Saturday night' ... '68-52 victory over the College of Charleston'). Score 68-52 confirmed by AP; Charleston's archive has 53 (its own typo).",
+   "uconn_record_book": "1990-11-24"
+  },
+  {
+   "game": "1993-7",
+   "field": "score",
+   "opp": "Towson",
+   "sr": "W 99-66",
+   "official": "W 96-66",
+   "truth": "W 99-66",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1992FranceEnglish/Dec%2031%201992%2C%20International%20Herald%20Tribune%2C%20%2334164%2C%20France%20%28en%29_djvu.txt",
+     "quote": "Connecticut Mutual Classic Championship Connecticut 99. Towson St. 66 [OCR 'Towsan 51.']"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "12/29 Towson St. (HCC)% 23 - 15,564 - W, 99-66"
+    }
+   ],
+   "note": "AP agate; UConn record book and 1992-93 season total (2,113 pts) also require 99. Connecticut Mutual Classic final at Hartford Civic Center.",
+   "uconn_record_book": "W 99-66"
+  },
+  {
+   "game": "2000-15",
+   "field": "date",
+   "opp": "St. John's",
+   "sr": "2000-01-15",
+   "official": "2000-01-16",
+   "truth": "2000-01-16",
+   "winner": "official",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://redstormsports.com/sports/mens-basketball/schedule/1999-00",
+     "quote": "at No. 5 Connecticut Storrs, Conn. (GAMPEL PAVILION) W, 82-77 Jan 16 (Sun)"
+    },
+    {
+     "url": "http://web.archive.org/web/20030111042000/http://sportsillustrated.cnn.com/basketball/college/men/scoreboards/2000/01/15/index.html",
+     "quote": "CNN/SI Jan 15, 2000 scoreboard lists Big East games (Miami-Georgetown, BC-Villanova, WVU-Rutgers) but no UConn-St. John's"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "1/16 St. John's (GP) 5 - 10,027 CBS L, 77-82"
+    }
+   ],
+   "note": "Sunday CBS game, Jan 16, 2000.",
+   "uconn_record_book": "2000-01-16"
+  },
+  {
+   "game": "1988-7",
+   "field": "site",
+   "opp": "Hartford",
+   "sr": "away (@ Hartford, Hartford Civic Center)",
+   "official": "vs Hartford, Hartford, Conn.",
+   "truth": "home (Hartford Civic Center; UConn-hosted Connecticut Mutual Classic)",
+   "winner": "official",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1987FranceEnglish/Dec%2030%201987%2C%20International%20Herald%20Tribune%2C%20%2332610%2C%20France%20%28en%29_djvu.txt",
+     "quote": "CONNECTICUT MUTUAL CLASSIC First Round Connecticut 96, Hartford 94, 2OT | Princeton 62, San Francisco 42"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "12/28 Hartford (HCC)% - - 12,103 - W, 96-94 ... % Connecticut Mutual Classic, Hartford CC"
+    }
+   ],
+   "note": "First round of UConn's own holiday tournament at the Hartford Civic Center (UConn's second home court); UConn's record book counts it in the 12-6 home record. SR's '@' is wrong. Side note: the AP agate says the game went 2OT; SR and the UConn card show no OT.",
+   "uconn_record_book": "home (HCC, Connecticut Mutual Classic)"
+  },
+  {
+   "game": "2002-29",
+   "field": "score",
+   "opp": "Notre Dame",
+   "sr": "W 82-77",
+   "official": "W 87-82",
+   "truth": "W 82-77",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=220670041",
+     "quote": "UConn Huskies 82 (41, 41); Notre Dame Fighting Irish 77 (36, 41); Madison Square Garden, att. 19,528"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "3/8 vs. Notre Dame * 19 - 19,528 ESPN W, 82-77"
+    }
+   ],
+   "note": "Big East semifinal. ESPN's game record (id 220670041) and UConn's own record book both 82-77; the web card's 87-82 is a typo.",
+   "uconn_record_book": "W 82-77"
   }
  ],
  "vacated": [],
