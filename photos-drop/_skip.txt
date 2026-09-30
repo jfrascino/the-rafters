@@ -1,0 +1,2 @@
+# Files the build should NOT use (file name | reason). Lines starting with # are ignored.
+Kirk King.png | identical to Alex Oriakhi.png; the photo shows Alex Oriakhi (#34, 2011, Madison Square Garden), not Kirk King (1993-97)

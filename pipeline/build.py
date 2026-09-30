@@ -449,13 +449,42 @@ if os.path.exists(os.path.join(DROP, 'credits.txt')):
         if '|' in line:
             k, *rest = [x.strip() for x in line.split('|')]
             drop_credit[name_to_pid_all.get(norm(k), k)] = ' · '.join(rest)
+skip_drop = set()
+if os.path.exists(os.path.join(DROP, '_skip.txt')):
+    for line in open(os.path.join(DROP, '_skip.txt')).read().splitlines():
+        if line.strip() and not line.startswith('#'):
+            skip_drop.add(line.split('|')[0].strip())
+# match names loosely: "Khalid El Amin" = "Khalid El-Amin", "Johnny Selvie" = "Johnnie Selvie", case and accents ignored
+compact = lambda n: re.sub(r'[^a-z]', '', norm(n))
+compact_to_pid = {compact(n): pid for n, pid in name_to_pid_all.items()}
+NICK = {'johnny': 'johnnie', 'johnnie': 'johnny', 'mike': 'michael', 'chris': 'christopher', 'cliff': 'clifford', 'rip': 'richard', 'tony': 'anthony', 'rob': 'robert', 'jim': 'james'}
+
+
+def drop_pid(stem):
+    if stem in known_pids:
+        return stem
+    pid = name_to_pid_all.get(norm(stem)) or compact_to_pid.get(compact(stem))
+    if pid:
+        return pid
+    first, _, rest = norm(stem).partition(' ')
+    if first in NICK:
+        return compact_to_pid.get(compact(NICK[first] + ' ' + rest))
+    return None
+
+
+dropped_hashes = {}
 if os.path.isdir(DROP):
     import shutil, subprocess
     for fn in sorted(os.listdir(DROP)):
         stem, ext = os.path.splitext(fn)
-        if ext.lower() not in ('.jpg', '.jpeg', '.png', '.webp', '.heic', '.tif', '.tiff'):
+        if ext.lower() not in ('.jpg', '.jpeg', '.png', '.webp', '.heic', '.tif', '.tiff') or fn in skip_drop:
             continue
-        pid = stem if stem in known_pids else name_to_pid_all.get(norm(stem))
+        digest = hashlib.md5(open(os.path.join(DROP, fn), 'rb').read()).hexdigest()
+        if digest in dropped_hashes:
+            print(f'! photos-drop: "{fn}" is the same image as "{dropped_hashes[digest]}" — skipped (add it to _skip.txt once checked)')
+            continue
+        dropped_hashes[digest] = fn
+        pid = drop_pid(stem)
         if not pid:
             print(f'! photos-drop: no player matches "{fn}"')
             continue

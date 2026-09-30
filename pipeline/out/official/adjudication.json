@@ -293,14 +293,213 @@
    "official": "W 86-71",
    "truth": "W 86-72",
    "winner": "sr",
-   "confidence": "medium",
+   "confidence": "high",
    "sources": [
     {
      "url": "https://gobobcats.com/sports/mens-basketball/schedule/2000-01",
      "quote": "at Connecticut L, 72-86 Nov 17 (Fri)"
+    },
+    {
+     "url": "http://web.archive.org/web/20010226205147/http://sportsillustrated.cnn.com/basketball/college/men/boxscores/2000/11/17/cbp_qae",
+     "quote": "Connecticut 86, Quinnipiac 72 Posted: Friday November 17, 2000 10:13 PM"
     }
    ],
-   "note": "Quinnipiac archive gives 72."
+   "note": "CNN/SI line score: Quinnipiac 34-38 = 72."
+  },
+  {
+   "game": "2000-14",
+   "field": "score",
+   "opp": "Texas",
+   "sr": "W 77-67",
+   "official": "W 76-67",
+   "truth": "W 77-67",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "http://web.archive.org/web/20030118115005/http://sportsillustrated.cnn.com/basketball/college/men/boxscores/2000/01/10/cbp_tal/",
+     "quote": "Connecticut 77, Texas 67 Posted: Monday January 10, 2000 11:52 PM"
+    }
+   ],
+   "note": "Contemporaneous CNN/SI (STATS) box; UConn player points sum to 77 (Mouring 21, El-Amin 14...). Attendance 16,294 indicates Hartford Civic Center rather than Gampel (SR arena field)."
+  },
+  {
+   "game": "2000-18",
+   "field": "score",
+   "opp": "Providence",
+   "sr": "W 64-50",
+   "official": "W 64-54",
+   "truth": "W 64-50",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "http://web.archive.org/web/20030110111135/http://sportsillustrated.cnn.com/basketball/college/men/boxscores/2000/01/27/cbp_pas/",
+     "quote": "Connecticut 64, Providence 50 Posted: Thursday January 27, 2000 10:26 PM"
+    }
+   ],
+   "note": "CNN/SI box: Providence halves 22-28 = 50. Attendance 16,294 (Hartford Civic Center)."
+  },
+  {
+   "game": "2000-21",
+   "field": "score",
+   "opp": "Michigan State",
+   "sr": "L 66-85",
+   "official": "L 65-88",
+   "truth": "L 66-85",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "http://web.archive.org/web/20030108065938/http://sportsillustrated.cnn.com/basketball/college/men/boxscores/2000/02/05/may_cbp/",
+     "quote": "Michigan St. 85, Connecticut 66 Posted: Saturday February 05, 2000 03:57 PM"
+    }
+   ],
+   "note": "CNN/SI box (halves UConn 17-49, MSU 46-39; A: 14,659, i.e. Breslin Center capacity). The UConn card's 'Grand Rapids, MI' location also looks wrong; SR's Breslin Center fits the attendance."
+  },
+  {
+   "game": "2001-6",
+   "field": "score",
+   "opp": "Houston",
+   "sr": "W 72-60",
+   "official": "W 72-62",
+   "truth": "W 72-60",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "http://web.archive.org/web/20010226210651/http://sportsillustrated.cnn.com/basketball/college/men/boxscores/2000/11/30/cbp_ham",
+     "quote": "Connecticut 72, Houston 60 Posted: Thursday November 30, 2000 10:35 PM"
+    }
+   ],
+   "note": "CNN/SI line score: Houston 30-30 = 60. SR's 60 also matches SR's 2000-01 opponent season total."
+  },
+  {
+   "game": "2001-27",
+   "field": "score",
+   "opp": "Miami (FL)",
+   "sr": "W 60-53",
+   "official": "W 60-50",
+   "truth": "W 60-53",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "http://web.archive.org/web/20010509193839/http://sportsillustrated.cnn.com/basketball/college/men/boxscores/2001/02/24/cbp_mav/",
+     "quote": "Connecticut 60, Miami (FL) 53 Posted: Saturday February 24, 2001 06:08 PM"
+    }
+   ],
+   "note": "CNN/SI line score: Miami 16-37 = 53."
+  },
+  {
+   "game": "2001-32",
+   "field": "date",
+   "opp": "Detroit Mercy",
+   "sr": "2001-03-18",
+   "official": "2001-03-14",
+   "truth": "2001-03-18",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "http://web.archive.org/web/20010509195818/http://sportsillustrated.cnn.com/basketball/college/men/boxscores/2001/03/18/cbp_dam/",
+     "quote": "Detroit 67, Connecticut 61 Posted: Sunday March 18, 2001 10:22 PM"
+    },
+    {
+     "url": "http://web.archive.org/web/20010709015105/http://sportsillustrated.cnn.com/basketball/college/men/boxscores/2001/03/14/cbp_sbf",
+     "quote": "Connecticut 72, South Carolina 65 Posted: Wednesday March 14, 2001 09:51 PM"
+    }
+   ],
+   "note": "NIT 1st round (South Carolina) was Wed Mar 14; 2nd round loss to Detroit was Sun Mar 18 in Storrs. UConn card duplicated Mar 14."
+  },
+  {
+   "game": "1999-3",
+   "field": "date",
+   "opp": "Hartford",
+   "sr": "1998-11-24",
+   "official": "1998-11-21",
+   "truth": "1998-11-24",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "http://web.archive.org/web/19991013050450/http://www.cnnsi.com/basketball/college/men/scoreboards/1998/11/24/recap.connecticut.hartford.html",
+     "quote": "Posted: Tues November 24, 1998 at 11:51 p.m. EST HARTFORD, Connecticut (Ticker)"
+    }
+   ],
+   "note": "Ticker recap of the 95-58 win (Calhoun out with stomach virus, Leitao coached). Dateline HARTFORD suggests Hartford Civic Center rather than Gampel."
+  },
+  {
+   "game": "1999-26",
+   "field": "score",
+   "opp": "Providence",
+   "sr": "W 72-65",
+   "official": "W 72-55",
+   "truth": "W 72-65",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "http://web.archive.org/web/19991018232152/http://www.cnnsi.com/basketball/college/men/scoreboards/1999/02/22/finalbox.providence.connecticut.html",
+     "quote": "Connecticut 35 37 - 72 Providence 36 29 - 65"
+    }
+   ],
+   "note": "CNN/SI box score (A: 12,993). SR's 65 matches SR's 1998-99 opponent season total."
+  },
+  {
+   "game": "1997-32",
+   "field": "score",
+   "opp": "Florida State",
+   "sr": "L 65-71 (OT)",
+   "official": "L 66-71",
+   "truth": "L 65-71 (OT)",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://www.nolefan.org/summary/b1997.html",
+     "quote": "Florida State 71, Connecticut 65 03/25/1997, OT, NIT Final 4, New York, N.Y."
+    }
+   ],
+   "note": "FSU box: line score Connecticut 32 27 6 = 65; UConn 25 FG (7 threes) + 8 FT = 65. Game went to overtime (UConn card omits OT)."
+  },
+  {
+   "game": "1998-5",
+   "field": "date",
+   "opp": "Florida State",
+   "sr": "1997-11-27",
+   "official": "1997-11-26",
+   "truth": "1997-11-26",
+   "winner": "official",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://www.nolefan.org/summary/b1998.html",
+     "quote": "Florida State 67, Connecticut 60 11/26/1997, Preseason NIT, New York, N.Y."
+    },
+    {
+     "url": "https://kuathletics.com/sports/mens-basketball/schedule/1997-98",
+     "quote": "vs Arizona State New York, N.Y. Preseason NIT W, 90-88 Nov 26 (Wed)"
+    }
+   ],
+   "note": "Preseason NIT semifinals at MSG were a Wednesday Nov 26 doubleheader (Kansas-ASU, FSU-UConn), day before Thanksgiving; final and 3rd-place games Fri Nov 28."
+  },
+  {
+   "game": "2001-18",
+   "field": "score",
+   "opp": "Miami (FL)",
+   "sr": "L 74-77",
+   "official": "L 59-70",
+   "truth": "L 74-77",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "http://web.archive.org/web/20010226221546/http://sportsillustrated.cnn.com/basketball/college/men/boxscores/2001/01/20/mav_cbp",
+     "quote": "Miami (FL) 77, Connecticut 74 Posted: Saturday January 20, 2001 06:45 PM"
+    }
+   ],
+   "note": "CNN/SI line score UConn 31-43 = 74, Miami 44-33 = 77 (A: 7,138). The UConn card's 59-70 duplicates the score of the next game (Jan 24 vs Villanova, L 59-70)."
   }
  ],
  "vacated": [],
