@@ -24,7 +24,7 @@ WIKI_API = "https://en.wikipedia.org/w/api.php"
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
 
 
-MIN_INTERVAL = {"en.wikipedia.org": 1.1, "commons.wikimedia.org": 1.1,
+MIN_INTERVAL = {"en.wikipedia.org": 2.0, "commons.wikimedia.org": 2.5,
                 "www.youtube.com": 0.6}
 _LAST = {}
 

@@ -23,7 +23,7 @@ seen_cats = set()
 PLAYER_CATS = set()
 def crawl(cat, depth, player_cat=False):
     if cat in seen_cats or depth < 0: return
-    seen_cats.add(cat)
+    seen_cats.add(cat); print("cat", len(seen_cats), cat, flush=True)
     for f in members(cat, 6):
         files.setdefault(f, set()).add(cat)
     for sc in members(cat, 14):
@@ -47,7 +47,7 @@ QUERIES = ["UConn men's basketball", "UConn Huskies basketball", "Connecticut Hu
            "UConn basketball game", "Huskies of Honor"]
 for q in QUERIES:
     off = 0
-    while off < 300:
+    while off < 200:
         d = commons(action="query", list="search", srsearch=q, srnamespace=6, srlimit=100, sroffset=off)
         hits = d["query"]["search"]
         for h in hits:
