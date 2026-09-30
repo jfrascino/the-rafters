@@ -3,3 +3,4 @@ pipeline/cache.nosync/
 .DS_Store
 dev/shots/
 photos-drop/
+dev/watch.log

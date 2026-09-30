@@ -2,6 +2,7 @@
 # Commit current data + app, push main, and publish site/ to the gh-pages branch (GitHub Pages).
 set -e
 cd "$(dirname "$0")"
+source dev/lock.sh; lock   # never deploy while the photo watcher is publishing
 G="git -c user.name=jfrascino -c user.email=47570206+jfrascino@users.noreply.github.com"
 /opt/homebrew/bin/python3 pipeline/stamp.py   # fingerprint JS/CSS so browsers never mix old and new files
 git add -A
