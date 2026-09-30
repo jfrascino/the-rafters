@@ -24,6 +24,7 @@ export default async function season(main, args, core) {
         <nav class="s-nav" aria-label="Season navigation">${prev ? `<a href="#/season/${prev.y}">← ${esc(prev.label)}</a>` : ''}${next ? `<a href="#/season/${next.y}">${esc(next.label)} →</a>` : ''}</nav></div>
       <h1 class="h-display" style="font-size:clamp(40px,7vw,104px);max-width:14ch">${esc(story.headline || s.label)}</h1>
       <div class="chips">${!played.length ? `<span class="pill live">Tips off ${esc(fmtDate((s.games[0] || {}).day || (s.games[0] || {}).date, { year: true }))}</span>` : finishPill(s.finish)}${s.seed ? `<span class="pill">No. ${s.seed} seed${s.region ? ' · ' + esc(s.region) : ''}</span>` : ''}${s.confFinish ? `<span class="pill">${esc(s.confFinish)}</span>` : ''}${(story.honors || []).filter((h) => /champion/i.test(h)).slice(0, 3).map((h) => `<span class="pill ff">${esc(h)}</span>`).join('')}</div>
+      ${s.vacated ? `<p class="note" style="max-width:62ch;font-size:14px"><span class="pill red" style="margin-right:8px">Vacated</span>Official NCAA record: <b style="color:var(--fg)">${esc(s.vacated.official)}</b>. ${esc(s.vacated.note)} Games are shown as played.</p>` : ''}
       <div class="statline">
         ${!played.length ? `<div><b>${s.games.length}</b><span>Games scheduled</span></div><div><b>${(s.roster || []).length}</b><span>Players</span></div>${s.apPre ? `<div><b>#${s.apPre}</b><span>Preseason AP</span></div>` : ''}` : `<div><b>${s.w}–${s.l}</b><span>Overall</span></div>`}
         ${played.length && s.cw != null ? `<div><b>${s.cw}–${s.cl}</b><span>${esc(s.confShort || 'Conf')}</span></div>` : ''}
@@ -209,7 +210,7 @@ export function schedule(games, opts = {}) {
     const post = g.type === 'NCAA' || g.type === 'NIT';
     const ha = g.ha === 'A' ? 'at' : g.ha === 'N' ? 'vs.' : 'vs.';
     const site = g.arena || (!g.res && g.ha === 'H' ? 'Home site TBA (Storrs or Hartford)' : '');
-    const sub = [g.round, site, g.tv && !g.res ? g.tv : ''].filter(Boolean).join(' · ');
+    const sub = [g.vacated ? 'Vacated by the NCAA' : '', g.round, site, g.tv && !g.res ? g.tv : ''].filter(Boolean).join(' · ');
     return `${head}<a class="srow${post ? ' post' : ''}" href="#/game/${g.id}">
       <span class="d">${fmtDate(day)}<br><span style="font-size:11px">${new Date(day + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short' })}</span></span>
       ${logo(g.opp)}
