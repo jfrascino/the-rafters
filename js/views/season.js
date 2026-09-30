@@ -141,11 +141,12 @@ function runSection(games, title, champ, conf) {
 
 export function playerCard(p, champ, y, opts = {}) {
   const pg = p.pg || {};
-  const photo = p.photo ? `<img src="${esc(p.photo)}" alt="" loading="lazy" class="${p.photoWide ? 'wide' : ''}"${p.photoPos ? ` style="object-position:${esc(p.photoPos)}"` : ''} onerror="this.remove()">` : '';
+  const logoImg = `<img src="assets/husky-logo.png" alt="" class="husky" loading="lazy">`;
+  const photo = p.photo ? `<img src="${esc(p.photo)}" alt="" loading="lazy" class="${p.photoWide ? 'wide' : ''}"${p.photoPos ? ` style="object-position:${esc(p.photoPos)}"` : ''} onerror="this.onerror=null;this.removeAttribute('style');this.className='husky';this.src='assets/husky-logo.png';this.closest('.pcard').classList.remove('studio')">` : logoImg;
   return `<div class="pcard${champ ? ' champ' : ''}${p.photoStudio && p.photo ? ' studio' : ''}" tabindex="0" aria-label="${esc(p.name)} card">
     <div class="pcard-in">
       <div class="pcard-face pcard-front">
-        <div class="photo"><span class="initials" aria-hidden="true">${esc(initials(p.name))}</span>${photo}</div>
+        <div class="photo">${photo}</div>
         ${p.num != null && p.num !== '' ? `<span class="jnum" aria-label="Number ${esc(p.num)}">${esc(p.num)}</span>` : ''}
         ${p.pos ? `<span class="pill pos">${esc(p.pos)}</span>` : ''}
         <div class="plate"><span class="nm">${esc(p.name)}<small>${[p.cls, p.ht, p.home].filter(Boolean).map(esc).join(' · ')}</small></span>
