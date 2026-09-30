@@ -18,7 +18,7 @@ def main():
     players, seen = [], set()
     for blk in h.split('data-test-id="s-person-card')[1:]:
         t = html.unescape(blk[:12000])
-        m = re.search(r'aria-label="(.+?) jersey number (\w+) full bio"', t)
+        m = re.search(r'aria-label="([^"<>]+?) jersey number (\w+) full bio"', t)
         if not m:
             continue
         name, num = m.group(1).strip(), m.group(2)

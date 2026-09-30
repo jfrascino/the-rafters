@@ -135,6 +135,7 @@ VACATED = {
     2017: {'official': '0–0', 'note': 'The NCAA vacated the entire 2016–17 season (16 wins, 17 losses) in 2019.', 'test': lambda g: True},
     2018: {'official': '0–1', 'note': 'The NCAA vacated every 2017–18 game except the March 8 AAC tournament loss to SMU.', 'test': lambda g: g['date'][:10] != '2018-03-08'},
 }
+OFFICIAL_NUMS = {int(k): {norm(n): v for n, v in d.items()} for k, d in (jload(os.path.join(OUT, 'official', 'numbers.json'), {}) or {}).items()}
 _rej = jload(os.path.join(HERE, 'photo_rejects.json'), {}) or {}
 REJECT_HASHES = set((_rej.get('hashes') or {}).keys())
 sr_players = {os.path.basename(f)[:-5]: jload(f) for f in glob.glob(os.path.join(OUT, 'sr', 'players', '*.json'))}
@@ -1120,7 +1121,8 @@ for y in years:
             t = tot.get(pid, {})
             a = adv.get(pid, {})
             ps = poss.get(pid, {})
-            item = {'pid': pid, 'name': r['player'], 'num': r.get('number'), 'cls': r.get('class'), 'pos': r.get('pos'), 'ht': r.get('height'), 'wt': r.get('weight'),
+            num_ = OFFICIAL_NUMS.get(y, {}).get(norm(r['player']), r.get('number'))  # UConn's own roster beats Sports-Reference
+            item = {'pid': pid, 'name': r['player'], 'num': num_, 'numOfficial': norm(r['player']) in OFFICIAL_NUMS.get(y, {}) or None, 'cls': r.get('class'), 'pos': r.get('pos'), 'ht': r.get('height'), 'wt': r.get('weight'),
                     'home': r.get('hometown'), 'hs': (r.get('high_school') or '').split(';')[0] or None, 'rsci': r.get('rsci'), 'photo': photo_for.get(pid)}
             if pid in photo_wide:
                 item['photoWide'] = True
@@ -1144,6 +1146,19 @@ for y in years:
                     item['adv']['def_rtg'] = ps.get('def_rtg')
             item = {k: v for k, v in item.items() if v not in (None, '', {})}
             roster.append(item)
+        # two players can't share a number in one season: if one is confirmed by UConn's roster, blank the other rather than show a wrong number
+        by_num = collections.defaultdict(list)
+        for it in roster:
+            if it.get('num') not in (None, ''):
+                by_num[str(it['num'])].append(it)
+        for n_, its in by_num.items():
+            if len(its) > 1:
+                confirmed = any(it.get('numOfficial') for it in its)
+                for it in its:
+                    if not it.get('numOfficial'):
+                        it.pop('num', None)  # conflicting and unconfirmed: show no number rather than a wrong one
+        for it in roster:
+            it.pop('numOfficial', None)
     else:
         # current season from ESPN: roster from current.json, stats aggregated from box scores
         agg = collections.defaultdict(lambda: collections.Counter())
