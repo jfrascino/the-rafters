@@ -23,7 +23,7 @@ export default async function player(main, args, core) {
         <span class="eyebrow ${champYears.length ? 'gold' : ''}">${esc(p.span)} · ${esc(p.pos || '')}${champYears.length ? ` · ${champYears.length > 1 ? champYears.length + '× ' : ''}national champion` : ''}</span>
         <h1 class="h-display" style="font-size:clamp(46px,7.5vw,112px)">${esc(p.name)}</h1>
         <div class="p-bio">${[['HT', p.ht], ['WT', p.wt ? p.wt + ' lb' : ''], ['Home', p.home], ['HS', p.hs], ['Born', p.born]].filter(([, v]) => v).map(([k, v]) => `<span><b>${k}</b>${esc(v)}</span>`).join('')}</div>
-        ${p.honors?.length ? `<div class="honor-list">${p.honors.map((h) => `<span class="pill ${/champion|all-america|player of the year|most outstanding/i.test(h) ? 'ff' : ''}">${esc(h)}</span>`).join('')}</div>` : ''}
+        ${p.honors?.length ? `<div class="honor-list">${p.honors.map((h) => `<span class="pill ${/champion|all-america|\bAA\b|POY|MOP|player of the year|most outstanding/i.test(h) ? 'ff' : ''}">${esc(h)}</span>`).join('')}</div>` : ''}
         ${p.draft ? `<p style="font:600 16px/1.4 var(--f-cond);letter-spacing:.04em;text-transform:uppercase"><span class="muted">NBA draft · </span>${esc(p.draft)}</p>` : ''}
         <div class="statline">
           <div><b>${n0(c.pts)}</b><span>Points${p.ranks?.pts ? ` · ${ord(p.ranks.pts)} since '87` : ''}</span></div>

@@ -23,7 +23,7 @@ export default async function players(main, _args, core) {
   let chip = '', shown = 48;
   const curY = core.current?.season;
   const test = {
-    '': () => true, champ: (p) => p.champ, k: (p) => p.pts >= 1000, nba: (p) => !!p.draft, aa: (p) => (p.honors || []).some((h) => /all-america/i.test(h)), now: (p) => p.years.includes(curY),
+    '': () => true, champ: (p) => p.champ, k: (p) => p.pts >= 1000, nba: (p) => !!p.draft, aa: (p) => (p.honors || []).some((h) => /all-america|\bAA\b/i.test(h)), now: (p) => p.years.includes(curY),
   };
   const render = () => {
     const q = $('#pq').value.trim().toLowerCase();
