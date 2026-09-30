@@ -136,7 +136,7 @@ function runSection(games, title, champ, conf) {
 
 export function playerCard(p, champ, y, opts = {}) {
   const pg = p.pg || {};
-  const photo = p.photo ? `<img src="${esc(p.photo)}" alt="" loading="lazy" class="${p.photoWide ? 'wide' : ''}" onerror="this.remove()">` : '';
+  const photo = p.photo ? `<img src="${esc(p.photo)}" alt="" loading="lazy" class="${p.photoWide ? 'wide' : ''}"${p.photoPos ? ` style="object-position:${esc(p.photoPos)}"` : ''} onerror="this.remove()">` : '';
   return `<div class="pcard${champ ? ' champ' : ''}" tabindex="0" aria-label="${esc(p.name)} card">
     <div class="pcard-in">
       <div class="pcard-face pcard-front">

@@ -124,6 +124,70 @@ media_images = jload(os.path.join(M, 'images.json'), {}) or {}
 media_videos = (jload(os.path.join(M, 'videos.json'), {}) or {})
 media_videos = media_videos.get('videos', media_videos) if isinstance(media_videos, dict) else media_videos
 legends = jload(os.path.join(M, 'legends.json'), {}) or {}
+
+
+def json_path_get(root, path):
+    """'coaches[0].bio[2]' → (parent, key) so the caller can read/replace/remove."""
+    toks = re.findall(r'([^.\[\]]+)|\[(\d+)\]', path)
+    cur, parent, key = root, None, None
+    for name, idx in toks:
+        parent, key = cur, (int(idx) if idx else name)
+        try:
+            cur = cur[key]
+        except (KeyError, IndexError, TypeError):
+            return None, None
+    return parent, key
+
+
+def apply_legends_ledger(led):
+    ok = bad = 0
+    removals = []
+    for it in (led or {}).get('items', []):
+        st, path = it.get('status'), it.get('path') or ''
+        if st not in ('FIX', 'REMOVE', 'ADD'):
+            continue
+        parent, key = json_path_get(legends, path)
+        if parent is None:
+            bad += 1
+            continue
+        cur = parent[key]
+        old, new = it.get('old'), it.get('new')
+        if st == 'ADD':
+            if isinstance(cur, list) and new is not None and new not in cur:
+                cur.append(new)
+                ok += 1
+            else:
+                bad += 1
+        elif st == 'FIX':
+            if isinstance(cur, str) and isinstance(old, str) and old and old != cur:
+                if cur.count(old) == 1:
+                    parent[key] = cur.replace(old, str(new))
+                    ok += 1
+                else:
+                    bad += 1
+            else:
+                parent[key] = new
+                ok += 1
+        elif st == 'REMOVE':
+            if isinstance(cur, str) and isinstance(old, str) and old and old != cur and cur.count(old) == 1:
+                parent[key] = re.sub(r'\s{2,}', ' ', cur.replace(old, '')).strip()
+                ok += 1
+            else:
+                removals.append((parent, key))
+                ok += 1
+    for parent, key in sorted(removals, key=lambda pk: -pk[1] if isinstance(pk[1], int) else 0):
+        try:
+            if isinstance(parent, list):
+                parent.pop(key)
+            else:
+                parent.pop(key, None)
+        except (IndexError, KeyError):
+            pass
+    if led:
+        print(f'legends ledger: applied {ok}, skipped {bad}')
+
+
+apply_legends_ledger(jload(os.path.join(M, 'verify_legends.json')))
 if isinstance(media_seasons, dict):
     media_seasons = media_seasons.get('seasons', list(media_seasons.values()))
 media_by_year = {int(m['year']): m for m in media_seasons if isinstance(m, dict) and m.get('year')}
@@ -340,36 +404,44 @@ def pid_for_espn(aid, name, y):
     return pid or (f'espn-{aid}' if aid else None)
 
 
-# Photos: ESPN cutout headshot > Wikipedia/Commons > Sports-Reference
-photo_for = {}
-photo_wide = set()
+# ───────────────────────── Player photos ─────────────────────────
+# Every source adds candidates; the best rank wins:
+#   0 Jason's drop folder (restored real photos) · 1 ESPN college headshot (cutout, UConn uniform)
+#   2 UConn-era portrait · 3 UConn-era action/team shot · 4 NBA/pro headshot · 5 other pro/later photo · 6 Sports-Reference thumb
+PHOTO_CANDS = collections.defaultdict(list)   # pid → [(rank, url, wide, meta)]
+
+
+def add_photo(pid, rank, url, wide, **meta):
+    if pid and url:
+        PHOTO_CANDS[pid].append((rank, url, wide, {k: v for k, v in meta.items() if v}))
+
+
 for aid, a in athletes.items():
     if a.get('headshot'):
-        seasons_ = a.get('seasons') or []
-        pid = pid_for_espn(aid, a.get('name'), (seasons_ or [0])[-1])
-        if pid and pid not in photo_for:
-            photo_for[pid] = a['headshot']
-
-# Current roster headshots also cover returning players' earlier seasons (e.g. "Solo" vs "Solomon" Ball)
+        pid = pid_for_espn(aid, a.get('name'), (a.get('seasons') or [0])[-1])
+        add_photo(pid, 1, a['headshot'], False, credit='ESPN', kind='headshot')
+# Current-roster headshots also cover returning players' earlier seasons (e.g. "Solo" vs "Solomon" Ball)
 for r in (espn_current.get('roster') or []):
     if r.get('headshot'):
         for yy in (r.get('priorSeasons') or []):
             pid = pid_for_espn(str(r.get('id')), r.get('name'), yy)
             if pid and not pid.startswith('espn-'):
-                photo_for.setdefault(pid, r['headshot'])
+                add_photo(pid, 1, r['headshot'], False, credit='ESPN', kind='headshot')
                 break
 
-# Jason's photo drop: real photos (often restored from low-res originals) beat every other source
+known_pids = {pid for yy in roster_names for pid in roster_names[yy].values()}
+name_to_pid_all = {n: pid for yy in roster_names for n, pid in roster_names[yy].items()}
+
+# Jason's photo drop
 DROP = os.path.join(HERE, '..', 'photos-drop')
 ASSETS = os.path.join(HERE, '..', 'site', 'assets', 'players')
 os.makedirs(ASSETS, exist_ok=True)
 drop_credit = {}
-for line in open(os.path.join(DROP, 'credits.txt')).read().splitlines() if os.path.exists(os.path.join(DROP, 'credits.txt')) else []:
-    if '|' in line:
-        k, *rest = [x.strip() for x in line.split('|')]
-        drop_credit[k] = ' · '.join(rest)
-known_pids = {pid for yy in roster_names for pid in roster_names[yy].values()}
-name_to_pid_all = {n: pid for yy in roster_names for n, pid in roster_names[yy].items()}
+if os.path.exists(os.path.join(DROP, 'credits.txt')):
+    for line in open(os.path.join(DROP, 'credits.txt')).read().splitlines():
+        if '|' in line:
+            k, *rest = [x.strip() for x in line.split('|')]
+            drop_credit[name_to_pid_all.get(norm(k), k)] = ' · '.join(rest)
 if os.path.isdir(DROP):
     import shutil, subprocess
     for fn in sorted(os.listdir(DROP)):
@@ -390,8 +462,15 @@ if os.path.isdir(DROP):
             print(f'photos-drop: {fn} → {pid}')
 for fn in os.listdir(ASSETS):
     pid = os.path.splitext(fn)[0]
-    photo_for[pid] = f'assets/players/{fn}'
-    photo_wide.add(pid)
+    add_photo(pid, 0, f'assets/players/{fn}', True, credit=drop_credit.get(pid) or 'Archival photo, restored', kind='restored')
+
+# Photo agent: UConn-era portraits/action shots, pro headshots
+RANK_KIND = {'uconn-headshot': 2, 'uconn-action': 3, 'uconn-team': 3, 'nba-headshot': 4, 'pro-other': 5, 'other': 5}
+for pid, lst in ((jload(os.path.join(M, 'player_photos.json'), {}) or {}).get('players') or {}).items():
+    for ph in lst or []:
+        if ph.get('url'):
+            add_photo(pid, RANK_KIND.get(ph.get('kind'), 5), ph['url'], not ph.get('cutout'), credit=ph.get('credit'), license=ph.get('license'),
+                      source=ph.get('source'), caption=ph.get('caption'), kind=ph.get('kind'), crop=ph.get('crop'))
 
 wiki_players = []
 if isinstance(media_images, dict):
@@ -408,13 +487,27 @@ for w in wiki_players:
         if not prev or (w.get('context') == 'uconn' and prev.get('context') != 'uconn'):
             wiki_by_pid[pid] = w
 for pid, w in wiki_by_pid.items():
-    if pid not in photo_for and (w.get('thumb_url') or w.get('image_url')):
-        photo_for[pid] = w.get('thumb_url') or w.get('image_url')
+    add_photo(pid, 3 if w.get('context') == 'uconn' else 5, w.get('thumb_url') or w.get('image_url'), True,
+              credit=w.get('author'), license=w.get('license'), source=w.get('file_page'), kind='commons')
+for pid, sp in sr_players.items():
+    if sp and sp.get('photo_url'):
+        add_photo(pid, 6, sp['photo_url'], True, credit='Sports-Reference', source=sp.get('url'), kind='sr')
+
+photo_for, photo_wide, photo_meta = {}, set(), {}
+for pid, cands in PHOTO_CANDS.items():
+    rank, url, wide, meta = sorted(cands, key=lambda c: c[0])[0]
+    photo_for[pid] = url
+    photo_meta[pid] = meta
+    if wide:
         photo_wide.add(pid)
-for pid, p in sr_players.items():
-    if pid not in photo_for and p and p.get('photo_url'):
-        photo_for[pid] = p['photo_url']
-        photo_wide.add(pid)
+
+
+CROP_POS = {'left-third': '22% 18%', 'left': '28% 18%', 'center': '50% 18%', 'right': '72% 18%', 'right-third': '78% 18%', 'top': '50% 0%'}
+
+
+def photo_pos(pid):
+    c = (photo_meta.get(pid) or {}).get('crop')
+    return CROP_POS.get(c) if c else None
 
 
 # ───────────────────────── Commons photos ─────────────────────────
@@ -445,7 +538,20 @@ for ph in COMMONS:
 
 # ───────────────────────── Videos ─────────────────────────
 VIDS = []
-for v in media_videos or []:
+_extra = jload(os.path.join(M, 'videos_extra.json'), {}) or {}
+_extra = _extra.get('videos', _extra) if isinstance(_extra, dict) else _extra
+_vled = {}
+for it in (jload(os.path.join(M, 'verify_videos.json'), {}) or {}).get('items', []):
+    _vled.setdefault(it.get('id'), []).append(it)
+for v in list(media_videos or []) + list(_extra or []):
+    if isinstance(v, dict) and v.get('id') in _vled:
+        fixes = _vled[v['id']]
+        if any(f.get('status') == 'REMOVE' for f in fixes):
+            continue
+        v = dict(v)
+        for f in fixes:
+            if f.get('status') == 'FIX' and f.get('field'):
+                v[f['field']] = f.get('new')
     if not isinstance(v, dict) or not v.get('id'):
         continue
     VIDS.append({k: v.get(k) for k in ('id', 'title', 'channel', 'kind', 'season', 'date', 'opponent', 'round', 'players', 'description') if v.get(k) is not None})
@@ -814,6 +920,8 @@ for y in years:
                     'home': r.get('hometown'), 'hs': (r.get('high_school') or '').split(';')[0] or None, 'rsci': r.get('rsci'), 'photo': photo_for.get(pid)}
             if pid in photo_wide:
                 item['photoWide'] = True
+            if photo_pos(pid):
+                item['photoPos'] = photo_pos(pid)
             if p:
                 item['pg'] = {'g': p.get('games'), 'gs': p.get('games_started'), 'mp': p.get('mp_per_g'), 'pts': p.get('pts_per_g'), 'trb': p.get('trb_per_g'), 'ast': p.get('ast_per_g'),
                               'stl': p.get('stl_per_g'), 'blk': p.get('blk_per_g'), 'tov': p.get('tov_per_g'), 'fg_pct': p.get('fg_pct'), 'fg3_pct': p.get('fg3_pct'), 'ft_pct': p.get('ft_pct'),
@@ -1025,8 +1133,8 @@ for pid, rows in PLAYER_SEASONS.items():
     last = rows[-1]
     gl = sorted(PLAYER_GAMES.get(pid, []), key=lambda g: g['date'])
     pos_full = bio.get('Position') or last.get('pos')
-    player = {'id': pid, 'name': name, 'pos': pos_full, 'num': last.get('num'), 'ht': last.get('ht'), 'wt': last.get('wt'), 'home': last.get('home') or bio.get('Hometown'), 'hs': last.get('hs'),
-              'born': bio.get('Born') or None, 'photo': photo_for.get(pid), 'photoWide': pid in photo_wide or None, 'span': span, 'seasons': all_rows, 'career': career,
+    player = {'photoCredit': photo_meta.get(pid), 'id': pid, 'name': name, 'pos': pos_full, 'num': last.get('num'), 'ht': last.get('ht'), 'wt': last.get('wt'), 'home': last.get('home') or bio.get('Hometown'), 'hs': last.get('hs'),
+              'born': bio.get('Born') or None, 'photo': photo_for.get(pid), 'photoWide': pid in photo_wide or None, 'photoPos': photo_pos(pid), 'span': span, 'seasons': all_rows, 'career': career,
               'honors': honors, 'draft': draft, 'nba_url': srp.get('nba_url'), 'gamelog': gl, 'nick': bio.get('nicknames'),
               'videos': [v for v in VIDS if any(norm(name) == norm(x) for x in (v.get('players') or []))],
               'photos': []}
@@ -1058,7 +1166,7 @@ for player, uc_rows in PLAYERS:
     first, last_n = player['name'].split(' ', 1) if ' ' in player['name'] else ('', player['name'])
     core_players.append({k: v for k, v in {
         'id': player['id'], 'name': player['name'], 'last': last_n, 'span': player['span'], 'years': [r['y'] for r in uc_rows], 'pos': (uc_rows[-1].get('cls') and player['pos']) or player['pos'],
-        'num': player['num'], 'photo': player['photo'], 'photoWide': player.get('photoWide'), 'home': player['home'], 'ht': player['ht'],
+        'num': player['num'], 'photo': player['photo'], 'photoWide': player.get('photoWide'), 'photoPos': photo_pos(player['id']), 'home': player['home'], 'ht': player['ht'],
         'g': c.get('g'), 'pts': c.get('pts'), 'trb': c.get('trb'), 'ast': c.get('ast'), 'blk': c.get('blk'), 'stl': c.get('stl'),
         'ppg': round(c['pts_pg'], 1) if c.get('pts_pg') is not None else None, 'rpg': round(c['trb_pg'], 1) if c.get('trb_pg') is not None else None,
         'apg': round(c['ast_pg'], 1) if c.get('ast_pg') is not None else None, 'spg': c.get('stl_pg'), 'bpg': c.get('blk_pg'), 'mpg': c.get('mp_pg'),

@@ -9,7 +9,7 @@ export default async function player(main, args, core) {
   const champYears = uc.filter((s) => s.finish === 'champ').map((s) => s.y);
   const c = p.career || {};
   const logs = p.gamelog || [];
-  const card = { ...last, name: p.name, pid: p.id, photo: p.photo, photoWide: p.photoWide, num: p.num ?? last.num, pos: p.pos, cls: p.span, ht: p.ht, home: p.home, hs: p.hs, wt: p.wt,
+  const card = { ...last, name: p.name, pid: p.id, photo: p.photo, photoWide: p.photoWide, photoPos: p.photoPos, num: p.num ?? last.num, pos: p.pos, cls: p.span, ht: p.ht, home: p.home, hs: p.hs, wt: p.wt,
     pg: { g: c.g, mp: c.mp_pg, pts: c.pts_pg, trb: c.trb_pg, ast: c.ast_pg, stl: c.stl_pg, blk: c.blk_pg, fg_pct: c.fg_pct, fg3_pct: c.fg3_pct, ft_pct: c.ft_pct } };
   const best = [...logs].filter((g) => g.pts != null).sort((a, b) => b.pts - a.pts || b.reb - a.reb).slice(0, 10);
   const tourney = logs.filter((g) => g.type === 'NCAA');
@@ -18,7 +18,8 @@ export default async function player(main, args, core) {
   <section class="p-hero">
     <div class="bgnum" aria-hidden="true">${esc(p.num ?? '')}</div>
     <div class="wrap">
-      <div>${playerCard(card, champYears.length > 0, null, { self: true })}</div>
+      <div style="display:grid;gap:8px">${playerCard(card, champYears.length > 0, null, { self: true })}
+        ${p.photoCredit && (p.photoCredit.credit || p.photoCredit.license) ? `<p class="note">Photo: ${esc(p.photoCredit.credit || '')}${p.photoCredit.license ? ` · ${esc(p.photoCredit.license)}` : ''}${p.photoCredit.source ? ` · <a href="${esc(p.photoCredit.source)}" target="_blank" rel="noopener" style="text-decoration:underline">source</a>` : ''}</p>` : ''}</div>
       <div class="p-info">
         <span class="eyebrow ${champYears.length ? 'gold' : ''}">${esc(p.span)} · ${esc(p.pos || '')}${champYears.length ? ` · ${champYears.length > 1 ? champYears.length + '× ' : ''}national champion` : ''}</span>
         <h1 class="h-display" style="font-size:clamp(46px,7.5vw,112px)">${esc(p.name)}</h1>

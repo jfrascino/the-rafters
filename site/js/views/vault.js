@@ -4,7 +4,7 @@ export default async function vault(main, _args, core) {
   const media = (await tryLoad('media.json')) || { videos: core.videos || [], photos: [] };
   const vids = media.videos || [];
   const photos = media.photos || [];
-  const kinds = [['', 'Everything'], ['full_game', 'Full games'], ['highlights', 'Highlights'], ['moment', 'Moments'], ['documentary', 'Documentaries'], ['interview', 'Interviews']].filter(([k]) => !k || vids.some((v) => v.kind === k));
+  const kinds = [['', 'Everything'], ['full_game', 'Full games'], ['highlights', 'Highlights'], ['moment', 'Moments'], ['season_recap', 'Season recaps'], ['player_reel', 'Player reels'], ['documentary', 'Documentaries'], ['interview', 'Interviews']].filter(([k]) => !k || vids.some((v) => v.kind === k));
   const eras = core.eras || [];
   main.innerHTML = `<div data-title="Vault"></div>
   <section class="section"><div class="wrap">
