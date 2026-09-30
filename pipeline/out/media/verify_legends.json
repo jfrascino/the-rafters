@@ -1,0 +1,615 @@
+{
+ "checked_claims": 2361,
+ "items": [
+  {
+   "path": "coaches[0].uconn_record",
+   "status": "FIX",
+   "old": "629–245",
+   "new": "625–243 (official; 629–245 on the court per Sports-Reference)",
+   "reason": "UConn's official all-time coaching table lists Calhoun 625–243 (.720). Sports-Reference shows 629–245 because it counts games the official record excludes: the vacated 1996 NCAA tournament games (2–1; official 1995–96 record 30–2) and the three 2011–12 Big East games Calhoun sat out on NCAA suspension, which George Blaney coached (12/28 W at USF, 12/31 W vs St. John's, 1/3 L at Seton Hall = 2–1). Both figures work out to .720.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.2 all-time head coaches; 1995-96 footnote 'NCAA Tournament games vacated; official NCAA record 30-2'); /Users/jason/Projects/the-rafters/pipeline/out/sr/seasons/2012.json; /Users/jason/Projects/the-rafters/pipeline/out/sr/school_index.json"
+  },
+  {
+   "path": "coaches[0].bio[0]",
+   "status": "FIX",
+   "old": "(245–138)",
+   "new": "(248–137)",
+   "reason": "Sports-Reference's Calhoun page gives Northeastern 248–137. Wikipedia contradicts itself: its Northeastern section says 245–138, but its career totals say 248–137. 248 Northeastern wins + 625 official UConn wins = the 873 D-I wins cited in this same entry.",
+   "source": "https://www.sports-reference.com/cbb/coaches/jim-calhoun-1.html"
+  },
+  {
+   "path": "coaches[0].bio[2]",
+   "status": "FIX",
+   "old": "His UConn record was 629–245",
+   "new": "His official UConn record was 625–243 (629–245 on the court)",
+   "reason": "Same reason as coaches[0].uconn_record: the official record excludes the vacated 1996 NCAA games and the 2011–12 suspension games.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  },
+  {
+   "path": "coaches[0].bio[0]",
+   "status": "UNVERIFIABLE",
+   "old": "he moved Northeastern from Division II to Division I in 1979",
+   "new": null,
+   "reason": "Wikipedia supports this, but Sports-Reference already lists Northeastern as a major (D-I) program from 1972–73 (as an independent) and shows it joining the ECAC North in 1979–80. The 1979 date may be the conference move, not the division move. Consider rewording to 'joined the ECAC North in 1979' or dropping the Division II claim.",
+   "source": "https://www.sports-reference.com/cbb/coaches/jim-calhoun-1.html"
+  },
+  {
+   "path": "coaches[0].honors[2]",
+   "status": "FIX",
+   "old": "Big East Coach of the Year (1990, 1994, 1996, 1998)",
+   "new": "Big East Coach of the Year (1990, 1994, 1996 [shared with Boston College's Jim O'Brien], 1998)",
+   "reason": "The 1995–96 Big East Coach of the Year was shared by Jim Calhoun and Jim O'Brien.",
+   "source": "https://en.wikipedia.org/wiki/Big_East_Conference_Men%27s_Basketball_Coach_of_the_Year"
+  },
+  {
+   "path": "coaches[1].uconn_record",
+   "status": "FIX",
+   "old": "113–79",
+   "new": "127–79",
+   "reason": "Sports-Reference (school index and coach totals) and UConn's official record book both give Ollie 127–79 (.617). The 113–79 figure comes from a Wikipedia season table that zeroes out the 2017–18 wins (14) but keeps all 79 losses; that table is internally inconsistent (its own career total reads 97–79). The 2019 NCAA penalty said to vacate records involving ineligible players, but UConn's official book still lists 2016–17 at 16–17 and 2017–18 at 14–18 and footnotes only individual player stats as vacated.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.2 'Kevin Ollie 127 79 .617'); /Users/jason/Projects/the-rafters/pipeline/out/sr/school_index.json"
+  },
+  {
+   "path": "coaches[1].pct",
+   "status": "FIX",
+   "old": ".588",
+   "new": ".617",
+   "reason": "127–79 = .617 (both official and Sports-Reference).",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  },
+  {
+   "path": "coaches[1].bio[2]",
+   "status": "FIX",
+   "old": "amid an NCAA investigation that produced a show-cause order and vacated wins",
+   "new": "amid an NCAA investigation that produced a three-year show-cause order for Ollie, two years of probation for UConn and an order to vacate records involving ineligible players (2016–17 and 2017–18)",
+   "reason": "This states the July 2019 NCAA penalties precisely. UConn's official book still lists the team records and Ollie's 127–79, and vacates only individual stats, so 'vacated wins' is misleading on its own.",
+   "source": "https://www.espn.com/mens-college-basketball/story/_/id/27104017/uconn-gets-2-years-probation-ollie-violations; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  },
+  {
+   "path": "huskies_of_honor.members[5].number",
+   "status": "FIX",
+   "old": "3",
+   "new": "9",
+   "reason": "UConn's record book Huskies of Honor list shows '#9 Walt Dropo, 1942-47'. The #3 comes from Wikipedia.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.55 Huskies of Honor)"
+  },
+  {
+   "path": "huskies_of_honor.members[18].seasons",
+   "status": "FIX",
+   "old": "1951–54",
+   "new": "1950–54",
+   "reason": "The official Huskies of Honor list reads '#13 Worthy Patterson, 1950-54'.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.55)"
+  },
+  {
+   "path": "huskies_of_honor.members[4].seasons",
+   "status": "FIX",
+   "old": "1965–68",
+   "new": "1964–68",
+   "reason": "The official Huskies of Honor list reads '#22 Bill Corley, 1964-68'.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.55)"
+  },
+  {
+   "path": "huskies_of_honor.members[0].hometown",
+   "status": "FIX",
+   "old": "Merced, California",
+   "new": "Dalzell, South Carolina",
+   "reason": "Merced is Allen's birthplace. UConn lists his hometown as Dalzell, S.C., where he attended Hillcrest High School (All-Century Team roster in the record book).",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.56 All-Century Team)"
+  },
+  {
+   "path": "huskies_of_honor.members[2].hometown",
+   "status": "FIX",
+   "old": "New Haven, Connecticut",
+   "new": "Hamden, Connecticut",
+   "reason": "New Haven is Burrell's birthplace. UConn lists his hometown as Hamden, Conn., where he attended Hamden High School.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.56 All-Century Team)"
+  },
+  {
+   "path": "huskies_of_honor.members[13].hometown",
+   "status": "FIX",
+   "old": "Framingham, Massachusetts",
+   "new": "Sudbury, Massachusetts",
+   "reason": "UConn's All-Century Team roster gives Kimball's hometown as Sudbury, Mass. Framingham comes from Wikipedia (likely his birthplace). Low-stakes; confirm if you have another source.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.56 All-Century Team)"
+  },
+  {
+   "path": "huskies_of_honor.members",
+   "status": "ADD",
+   "old": null,
+   "new": {
+    "number": null,
+    "name": "John Toner",
+    "role": "Administrator (Director of Athletics, 1969–87)",
+    "seasons": "1969–87",
+    "hometown": null
+   },
+   "reason": "UConn's official men's basketball Huskies of Honor list has an ADMINISTRATORS section naming John Toner, Director of Athletics 1969–87. He is missing from this file.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.55 'ADMINISTRATORS John Toner, Director of Athletics, 1969-87')"
+  },
+  {
+   "path": "huskies_of_honor.members[7]",
+   "status": "UNVERIFIABLE",
+   "old": null,
+   "new": null,
+   "reason": "Fitch was honored on Feb 19, 2022, with a Gampel wall recognition as UConn's first Black student-athlete (UConn Today). However, the 2026-27 record book's Huskies of Honor player list omits him, and the official count ('Karaban became the 25th individual inducted') lines up only if Fitch is excluded. Keep the entry, but consider labeling it a special recognition.",
+   "source": "https://today.uconn.edu/2022/02/honoring-harrison-honey-fitch-star-athlete-uconn-trailblazer/; https://uconnhuskies.com/documents/download/2026/9/11/FINAL_NOTES_.pdf"
+  },
+  {
+   "path": "retired_numbers[2].note",
+   "status": "FIX",
+   "old": "Retired at halftime of the Creighton game at Gampel Pavilion.",
+   "new": "Retired at halftime of the Creighton game at Gampel Pavilion (UConn lost 91–84).",
+   "reason": "Optional context: Sports-Reference shows UConn lost that game 84–91, which the note leaves out. The date, opponent and venue are all confirmed.",
+   "source": "/Users/jason/Projects/the-rafters/pipeline/out/sr/seasons/2026.json; https://uconnhuskies.com/documents/download/2026/9/11/FINAL_NOTES_.pdf"
+  },
+  {
+   "path": "all_americans.list",
+   "status": "ADD",
+   "old": null,
+   "new": {
+    "year": 1995,
+    "player": "Ray Allen",
+    "team": "AP third team; NABC third team"
+   },
+   "reason": "The official record book lists Ray Allen as an All-American in 1994–95 as well as 1995–96. Wikipedia's 1995 All-America page shows AP third team and NABC third team.",
+   "source": "https://en.wikipedia.org/wiki/1995_NCAA_Men%27s_Basketball_All-Americans; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.57 ALL-AMERICANS)"
+  },
+  {
+   "path": "all_americans.list",
+   "status": "ADD",
+   "old": null,
+   "new": {
+    "year": 1996,
+    "player": "Doron Sheffer",
+    "team": "UPI third team"
+   },
+   "reason": "Wikipedia's 1996 All-America page lists Doron Sheffer (Connecticut) on the UPI third team. This is optional because the UConn record book doesn't count UPI.",
+   "source": "https://en.wikipedia.org/wiki/1996_NCAA_Men%27s_Basketball_All-Americans"
+  },
+  {
+   "path": "all_americans.list[13].team",
+   "status": "FIX",
+   "old": "AP honorable mention",
+   "new": "NABC second team; AP honorable mention",
+   "reason": "Okafor made the NABC second team in 2003, and UConn's record book counts him as a 2002–03 All-American.",
+   "source": "https://en.wikipedia.org/wiki/2003_NCAA_Men%27s_Basketball_All-Americans; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.57)"
+  },
+  {
+   "path": "all_americans.list[12].team",
+   "status": "FIX",
+   "old": "AP honorable mention",
+   "new": "Sporting News first team; AP honorable mention",
+   "reason": "Wikipedia's 2002 All-America page shows Butler on the Sporting News first team plus AP honorable mention, and UConn's record book lists him as a 2001–02 All-American.",
+   "source": "https://en.wikipedia.org/wiki/2002_NCAA_Men%27s_Basketball_All-Americans; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.57)"
+  },
+  {
+   "path": "all_americans.list[19].team",
+   "status": "UNVERIFIABLE",
+   "old": "AP honorable mention",
+   "new": null,
+   "reason": "UConn's record book lists A.J. Price as a 2007–08 All-American, which by its definition means an AP, NABC, USBWA or Wooden team, not honorable mention. I couldn't reliably confirm which team. Keep the AP honorable mention, but a higher selection probably exists.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.57)"
+  },
+  {
+   "path": "all_americans.list[27].team",
+   "status": "UNVERIFIABLE",
+   "old": "AP honorable mention",
+   "new": null,
+   "reason": "UConn's record book lists Sanogo as a 2022–23 All-American (AP/NABC/USBWA/Wooden), but Wikipedia shows only AP honorable mention. The discrepancy is unresolved.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.57); https://en.wikipedia.org/wiki/2023_NCAA_Men%27s_Basketball_All-Americans"
+  },
+  {
+   "path": "players_of_the_year.list[4].award",
+   "status": "FIX",
+   "old": "Big East Player of the Year",
+   "new": "Big East Player of the Year (co-winner with Miami's Tim James)",
+   "reason": "The 1999 Big East Player of the Year was shared by Hamilton and Tim James.",
+   "source": "https://en.wikipedia.org/wiki/Big_East_Conference_Men%27s_Basketball_Player_of_the_Year"
+  },
+  {
+   "path": "players_of_the_year.list[5].award",
+   "status": "FIX",
+   "old": "Big East Player of the Year",
+   "new": "Big East Player of the Year (co-winner with Pittsburgh's Brandin Knight)",
+   "reason": "The 2002 Big East Player of the Year was shared.",
+   "source": "https://en.wikipedia.org/wiki/Big_East_Conference_Men%27s_Basketball_Player_of_the_Year"
+  },
+  {
+   "path": "players_of_the_year.list[8].award",
+   "status": "FIX",
+   "old": "Big East Player of the Year",
+   "new": "Big East Player of the Year (co-winner with Pittsburgh's DeJuan Blair)",
+   "reason": "The 2009 Big East Player of the Year was shared.",
+   "source": "https://en.wikipedia.org/wiki/Big_East_Conference_Men%27s_Basketball_Player_of_the_Year"
+  },
+  {
+   "path": "players_of_the_year.list[7].award",
+   "status": "FIX",
+   "old": "NABC National Player of the Year",
+   "new": "NABC National Player of the Year (co-winner with Saint Joseph's Jameer Nelson)",
+   "reason": "UConn's record book lists 'NABC Co-NATIONAL PLAYER OF THE YEAR Emeka Okafor, 2003-04 (with Jameer Nelson, St. Joseph's)'.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.57)"
+  },
+  {
+   "path": "other_awards.by_award[\"All-Big East Conference Third Team\"][10]",
+   "status": "REMOVE",
+   "old": {
+    "player": "Khalid El-Amin",
+    "year": 1999
+   },
+   "new": null,
+   "reason": "El-Amin was 1998–99 All-Big East SECOND team, and he's already listed there. The official 1998–99 all-conference list has no third-team UConn pick, so this is a duplicate.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.58 BIG EAST ALL-CONFERENCE 1998-99)"
+  },
+  {
+   "path": "other_awards.by_award[\"All-AAC First Team\"]",
+   "status": "ADD",
+   "old": null,
+   "new": {
+    "player": "Christian Vital",
+    "year": 2020
+   },
+   "reason": "The official record book lists 'Christian Vital, Sr. First Team' for 2019–20 AAC all-conference. He's missing here.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.58 AAC ALL-CONFERENCE 2019-20)"
+  },
+  {
+   "path": "other_awards.by_award[\"AAC Most Improved Player\"][0]",
+   "status": "FIX",
+   "old": {
+    "player": "Josh Carlton",
+    "year": 2019
+   },
+   "new": {
+    "player": "Josh Carlton (co-winner with Temple's Nate Pierre-Louis)",
+    "year": 2019
+   },
+   "reason": "The record book reads 'Josh Carlton, 2018-19 (co-winner with Nate Pierre-Louis, Temple)'.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.58)"
+  },
+  {
+   "path": "other_awards.by_award[\"Big East Defensive Player of the Year\"][7]",
+   "status": "FIX",
+   "old": {
+    "player": "Isaiah Whaley",
+    "year": 2021
+   },
+   "new": {
+    "player": "Isaiah Whaley (co-winner with St. John's Posh Alexander)",
+    "year": 2021
+   },
+   "reason": "The 2020–21 Big East Defensive Player of the Year was shared (record book: 'co-winner').",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.57)"
+  },
+  {
+   "path": "other_awards.by_award[\"Big East Player of the Year\"][3]",
+   "status": "FIX",
+   "old": {
+    "player": "Richard Hamilton",
+    "year": 1999
+   },
+   "new": {
+    "player": "Richard Hamilton (co-winner with Miami's Tim James)",
+    "year": 1999
+   },
+   "reason": "The 1999 Big East Player of the Year was shared.",
+   "source": "https://en.wikipedia.org/wiki/Big_East_Conference_Men%27s_Basketball_Player_of_the_Year"
+  },
+  {
+   "path": "other_awards.by_award[\"Big East Player of the Year\"][4]",
+   "status": "FIX",
+   "old": {
+    "player": "Caron Butler",
+    "year": 2002
+   },
+   "new": {
+    "player": "Caron Butler (co-winner with Pittsburgh's Brandin Knight)",
+    "year": 2002
+   },
+   "reason": "The 2002 Big East Player of the Year was shared.",
+   "source": "https://en.wikipedia.org/wiki/Big_East_Conference_Men%27s_Basketball_Player_of_the_Year"
+  },
+  {
+   "path": "other_awards.by_award[\"Big East Player of the Year\"][6]",
+   "status": "FIX",
+   "old": {
+    "player": "Hasheem Thabeet",
+    "year": 2009
+   },
+   "new": {
+    "player": "Hasheem Thabeet (co-winner with Pittsburgh's DeJuan Blair)",
+    "year": 2009
+   },
+   "reason": "The 2009 Big East Player of the Year was shared.",
+   "source": "https://en.wikipedia.org/wiki/Big_East_Conference_Men%27s_Basketball_Player_of_the_Year"
+  },
+  {
+   "path": "other_awards.by_award[\"Big East Coach of the Year\"][2]",
+   "status": "FIX",
+   "old": {
+    "player": "Jim Calhoun",
+    "year": 1996
+   },
+   "new": {
+    "player": "Jim Calhoun (co-winner with Boston College's Jim O'Brien)",
+    "year": 1996
+   },
+   "reason": "The 1995–96 Big East Coach of the Year was shared.",
+   "source": "https://en.wikipedia.org/wiki/Big_East_Conference_Men%27s_Basketball_Coach_of_the_Year"
+  },
+  {
+   "path": "other_awards.by_award[\"NABC National Player of the Year\"][0]",
+   "status": "FIX",
+   "old": {
+    "player": "Emeka Okafor",
+    "year": 2004
+   },
+   "new": {
+    "player": "Emeka Okafor (co-winner with Saint Joseph's Jameer Nelson)",
+    "year": 2004
+   },
+   "reason": "The 2004 NABC award was shared (record book: 'Co-NATIONAL PLAYER OF THE YEAR').",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (p.57)"
+  },
+  {
+   "path": "other_awards.by_award[\"Big East All-Defensive Team\"]",
+   "status": "UNVERIFIABLE",
+   "old": null,
+   "new": null,
+   "reason": "Only Silas Demary Jr. (2026) is listed, and the record book confirms him. I couldn't confirm whether any other UConn players made a Big East All-Defensive team in earlier seasons, so this list may be incomplete.",
+   "source": "https://uconnhuskies.com/documents/download/2026/9/11/FINAL_NOTES_.pdf"
+  },
+  {
+   "path": "nba_draft.all_picks[4].pick",
+   "status": "FIX",
+   "old": 26,
+   "new": 29,
+   "reason": "Basketball-Reference's 1965 NBA draft page lists Toby Kimball (UConn) as the 29th selection, 3rd round, Boston.",
+   "source": "https://www.basketball-reference.com/draft/NBA_1965.html"
+  },
+  {
+   "path": "nba_draft.all_picks[2].pick",
+   "status": "FIX",
+   "old": 74,
+   "new": 76,
+   "reason": "Basketball-Reference's 1955 draft page lists Jim Ahearn (UConn) at No. 76, Boston (round 10).",
+   "source": "https://www.basketball-reference.com/draft/NBA_1955.html"
+  },
+  {
+   "path": "nba_draft.all_picks[3].pick",
+   "status": "FIX",
+   "old": 80,
+   "new": 82,
+   "reason": "Basketball-Reference's 1955 draft page lists Art Quimby (UConn) at No. 82, Rochester (round 11).",
+   "source": "https://www.basketball-reference.com/draft/NBA_1955.html"
+  },
+  {
+   "path": "nba_draft.all_picks[1].pick",
+   "status": "FIX",
+   "old": 44,
+   "new": 48,
+   "reason": "Basketball-Reference's 1952 draft page lists Burr Carlson (UConn) as the 48th selection (Philadelphia Warriors). The page leaves the pick-number column blank, so 48 is the selection order.",
+   "source": "https://www.basketball-reference.com/draft/NBA_1952.html"
+  },
+  {
+   "path": "nba_draft.all_picks[33].team",
+   "status": "FIX",
+   "old": "New Orleans Hornets",
+   "new": "New Orleans/Oklahoma City Hornets",
+   "reason": "In June 2006 the franchise's official name was the New Orleans/Oklahoma City Hornets (SR draft team 'NOK'). This is a minor fix.",
+   "source": "/Users/jason/Projects/the-rafters/pipeline/out/sr/players/hilton-armstrong-1.json"
+  },
+  {
+   "path": "nba_draft.first_round_since_1987[11].team",
+   "status": "FIX",
+   "old": "New Orleans Hornets",
+   "new": "New Orleans/Oklahoma City Hornets",
+   "reason": "In June 2006 the franchise's official name was the New Orleans/Oklahoma City Hornets (SR draft team 'NOK'). This is a minor fix.",
+   "source": "/Users/jason/Projects/the-rafters/pipeline/out/sr/players/hilton-armstrong-1.json"
+  },
+  {
+   "path": "nba_draft.all_picks",
+   "status": "UNVERIFIABLE",
+   "old": null,
+   "new": null,
+   "reason": "Every 1989–2026 pick matches Sports-Reference player files (year, round, overall). For 1947–1986, only the listed picks were checked (Dropo, Carlson, Ahearn, Quimby, Kimball, Bialosuknia, Corley, Foster, Thomas, Hanson, Abromaitis, Thompson, Aleksinas, McKay, Kuczenski, Kelley), and apart from the pick-number fixes they match Basketball-Reference. I didn't check whether other pre-1987 UConn draftees are missing from the list.",
+   "source": "https://www.basketball-reference.com/draft/"
+  },
+  {
+   "path": "mcdonalds_all_americans.list[0]",
+   "status": "REMOVE",
+   "old": {
+    "player": "Chris Smith",
+    "mcdonalds_year": null,
+    "uconn_years": "1988–1992",
+    "arrived_as": "high school signee",
+    "source": "https://en.wikipedia.org/wiki/Chris_Smith_(basketball,_born_1970)"
+   },
+   "new": null,
+   "reason": "Chris Smith is not on either roster of the 1988 McDonald's All-American Game, and the entry already has mcdonalds_year null.",
+   "source": "https://en.wikipedia.org/wiki/1988_McDonald%27s_All-American_Boys_Game"
+  },
+  {
+   "path": "mcdonalds_all_americans.list",
+   "status": "ADD",
+   "old": null,
+   "new": {
+    "player": "Scott Hazelton",
+    "mcdonalds_year": 2000,
+    "uconn_years": "2000–2001",
+    "arrived_as": "high school signee",
+    "source": "https://en.wikipedia.org/wiki/2000_McDonald%27s_All-American_Boys_Game"
+   },
+   "reason": "The 2000 McDonald's East roster lists Scott Hazelton (Lawrence, Mass.) committed to Connecticut, alongside Taliek Brown. Please confirm his UConn years (he later transferred).",
+   "source": "https://en.wikipedia.org/wiki/2000_McDonald%27s_All-American_Boys_Game"
+  },
+  {
+   "path": "mcdonalds_all_americans.list[1].mcdonalds_year",
+   "status": "UNVERIFIABLE",
+   "old": 1978,
+   "new": null,
+   "reason": "I couldn't retrieve a 1978 McDonald's roster (Wikipedia page 404), so this is unconfirmed.",
+   "source": "https://en.wikipedia.org/wiki/McDonald%27s_All-American_Game"
+  },
+  {
+   "path": "arenas[3].years",
+   "status": "FIX",
+   "old": "1986–87 (occasional home site)",
+   "new": "Occasional home site (UConn 19–8 all-time there, 11–8 as the home team)",
+   "reason": "UConn's record book lists 27 games at New Haven Coliseum (11–8 as home team, 8–0 as away team), so it wasn't a one-season venue. The notes are still right that it was one of three home sites in 1986–87.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (Record at New Haven Coliseum)"
+  },
+  {
+   "path": "arenas[2].notes",
+   "status": "UNVERIFIABLE",
+   "old": "UConn played most home games here until Gampel opened",
+   "new": null,
+   "reason": "This holds for 1986–89: in 1986–87, 9 of 16 home games were at HCC and the rest at the Field House or New Haven. It doesn't hold for 1978–80, when the Civic Center was closed after its roof collapsed, or for earlier years. Consider 'in the late 1980s'.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (1986-87 schedule); https://en.wikipedia.org/wiki/PeoplesBank_Arena"
+  },
+  {
+   "path": "rivalries[0].notable_games[2].score",
+   "status": "FIX",
+   "old": "85–66",
+   "new": "85–67",
+   "reason": "Sports-Reference and the UConn record book both have UConn 85, Syracuse 67 (1996 Big East semifinal).",
+   "source": "/Users/jason/Projects/the-rafters/pipeline/out/sr/seasons/1996.json; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  },
+  {
+   "path": "rivalries[0].notable_games[4].score",
+   "status": "FIX",
+   "old": "69–54",
+   "new": "69–64",
+   "reason": "Sports-Reference and the UConn record book both have UConn 69, Syracuse 64 (1998 Big East final).",
+   "source": "/Users/jason/Projects/the-rafters/pipeline/out/sr/seasons/1998.json; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  },
+  {
+   "path": "rivalries[1].notable_games[1].date",
+   "status": "FIX",
+   "old": "1991-03-08",
+   "new": "1991-03-07",
+   "reason": "Sports-Reference dates the 1991 Big East quarterfinal loss to Georgetown (49–68) to March 7, 1991.",
+   "source": "/Users/jason/Projects/the-rafters/pipeline/out/sr/seasons/1991.json"
+  },
+  {
+   "path": "rivalries[7].notable_games[1].date",
+   "status": "FIX",
+   "old": "1992-03-12",
+   "new": "1992-03-13",
+   "reason": "Sports-Reference (1992-03-13, OT) and the record book's overtime list ('3/13 St. John's (BET) L, 64-59 OT') both date the game to March 13.",
+   "source": "/Users/jason/Projects/the-rafters/pipeline/out/sr/seasons/1992.json; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  },
+  {
+   "path": "rivalries[7].notable_games[0].site",
+   "status": "FIX",
+   "old": "Carnesecca Arena, New York City, New York",
+   "new": "Alumni Hall (now Carnesecca Arena), Queens, New York",
+   "reason": "The arena was called Alumni Hall in 1988 and wasn't renamed Carnesecca Arena until 2004. The record book's attendance (6,008) matches Alumni Hall's capacity. Sports-Reference's 'Madison Square Garden' label for this game is wrong.",
+   "source": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf (1987-88 schedule, 'at St. John's 6,008 ... L, 72-79 ot')"
+  },
+  {
+   "path": "rivalries[3].notable_games[0].score",
+   "status": "FIX",
+   "old": "78–79",
+   "new": "78–79 (OT)",
+   "reason": "Laettner's shot came in overtime; Sports-Reference shows overtimes=OT and the record book reads 'Duke (NCAA) L, 79-78, OT'.",
+   "source": "/Users/jason/Projects/the-rafters/pipeline/out/sr/seasons/1990.json; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  },
+  {
+   "path": "rivalries[3].summary",
+   "status": "FIX",
+   "old": "Braylon Mullins' 35-footer",
+   "new": "Braylon Mullins' 37-foot 3-pointer",
+   "reason": "UConn's official game notes describe 'a game-winning 37-footer' / 'a go-ahead 37-foot 3-pointer from the logo'. ESPN reported about 35 feet; I'm using the official figure.",
+   "source": "https://uconnhuskies.com/documents/download/2026/9/11/FINAL_NOTES_.pdf"
+  },
+  {
+   "path": "nicknames_and_quotes[6].text",
+   "status": "FIX",
+   "old": "Better get us now. That's all, you better get us now. Because it's coming.",
+   "new": "People better get us now. That's all. They better get us now. Because it's coming.",
+   "reason": "The quote as widely transcribed from the Jan 18, 2020 postgame press conference. The date and the 61–55 loss at No. 14 Villanova match Sports-Reference.",
+   "source": "https://awfulannouncing.com/college-basketball/dan-hurley-uconn-2020-postgame-press-conference.html; /Users/jason/Projects/the-rafters/pipeline/out/sr/seasons/2020.json"
+  },
+  {
+   "path": "nicknames_and_quotes[3].who",
+   "status": "UNVERIFIABLE",
+   "old": "Dave Pasch (ESPN)",
+   "new": null,
+   "reason": "The 'Cardiac Kemba' nickname for the March 10, 2011 step-back against Pittsburgh is well documented, but I couldn't confirm the broadcaster or the exact words. One search result pointed to Fran Fraschilla on the call. Consider dropping the attribution.",
+   "source": "https://dailycampus.com/2018/04/19/2018-4-19-big-east-week-an-all-too-detailed-breakdown-of-the-cardiac-kemba-stepback/"
+  },
+  {
+   "path": "nicknames_and_quotes[7].context",
+   "status": "UNVERIFIABLE",
+   "old": "the fan blog \"A Dime Back\" took its name from it",
+   "new": null,
+   "reason": "The quote and its 2009 salary context are confirmed (Wikipedia), but I found nothing to confirm a fan blog named 'A Dime Back'.",
+   "source": "https://en.wikipedia.org/wiki/Jim_Calhoun"
+  },
+  {
+   "path": "nicknames_and_quotes[13].context",
+   "status": "FIX",
+   "old": "game-winning three",
+   "new": "game-winning 37-foot three",
+   "reason": "The Borzello attribution is confirmed (ESPN via search). The distance is added from UConn's official notes to stay consistent with the Duke rivalry fix.",
+   "source": "https://uconnhuskies.com/documents/download/2026/9/11/FINAL_NOTES_.pdf"
+  },
+  {
+   "path": "program_totals.most_consecutive_wins_sweet16_or_later",
+   "status": "FIX",
+   "old": "19 (2011–2026, NCAA record)",
+   "new": "19 (2011–2026; longest since the Sweet 16 began in 1975; ended in the 2026 title game)",
+   "reason": "UCLA's 38-game NCAA tournament win streak (1964–74) was played almost entirely in regional-semifinal-or-later rounds. AP describes UConn's run as the longest since the Sweet 16 began in 1975, and UConn's own notes call it '19 games in a row in the second weekend or later', not an NCAA record.",
+   "source": "https://www.mininggazette.com/sports/2026/04/uconn-carries-an-18-game-winning-streak-in-sweet-16-or-later-into-a-stacked-final-four/; https://uconnhuskies.com/documents/download/2026/9/11/FINAL_NOTES_.pdf"
+  },
+  {
+   "path": "ncaa_records.list[6]",
+   "status": "FIX",
+   "old": "Most consecutive wins in the Sweet Sixteen or later: 19 (2011–2026)",
+   "new": "Most consecutive wins in the Sweet 16 or later since the round began in 1975: 19 (2011–2026)",
+   "reason": "It isn't an all-time record: UCLA won 38 straight NCAA tournament games in 1964–74, nearly all regional semifinal or later. It is the record for the Sweet 16 era (AP).",
+   "source": "https://www.mininggazette.com/sports/2026/04/uconn-carries-an-18-game-winning-streak-in-sweet-16-or-later-into-a-stacked-final-four/"
+  },
+  {
+   "path": "ncaa_records.list[1]",
+   "status": "FIX",
+   "old": "Highest average margin of victory by a champion: 23.3 (2024)",
+   "new": "Highest average margin of victory by a six-game (64/68-team era) champion: 23.3 (2024)",
+   "reason": "140/6 = 23.3 is correct, but it isn't the all-time high: 1967 UCLA averaged 23.75 (Wyoming 109–60, Pacific 80–64, Houston 73–58, Dayton 79–64). It's the best of the 64/68-team era, ahead of 1996 Kentucky at 21.5.",
+   "source": "https://www.sports-reference.com/cbb/schools/ucla/men/1967-schedule.html"
+  },
+  {
+   "path": "ncaa_records.list[2]",
+   "status": "FIX",
+   "old": "Most consecutive double-digit wins vs. non-conference opponents: 24 (2022–2024)",
+   "new": "Most consecutive NCAA tournament wins by double digits: 12 (2023–2024)",
+   "reason": "From Sports-Reference: UConn won 24 straight non-conference games (including NCAA) by 10+ points, but the streak ran Nov 7, 2022 (Stonehill) to Nov 27, 2023 (New Hampshire) and ended with the Dec 1, 2023 loss at Kansas, so '2022–2024' is wrong. I also found no source calling that streak an NCAA record. The documented NCAA record is 12 straight NCAA tournament wins by double figures (all 12 games of 2023 and 2024), per UConn's official notes ('a March Madness record'). If you'd rather keep the 24-game stat, change the years to Nov. 2022–Nov. 2023 and move it out of the NCAA-records list.",
+   "source": "/Users/jason/Projects/the-rafters/pipeline/out/sr/seasons/2023.json, 2024.json; https://uconnhuskies.com/documents/download/2026/9/11/FINAL_NOTES_.pdf"
+  },
+  {
+   "path": "ncaa_records.list[3]",
+   "status": "FIX",
+   "old": "Most games in a season since 1948: 41 (2011)",
+   "new": "Most games played in a season: 41 (2010–11; tied by Michigan, 2017–18)",
+   "reason": "Sports-Reference confirms 41 games (32–9) in 2010–11. The record is shared: Michigan went 33–8 (41 games) in 2017–18. I couldn't verify the 'since 1948' qualifier.",
+   "source": "/Users/jason/Projects/the-rafters/pipeline/out/sr/seasons/2011.json; https://www.ncaa.com/news/basketball-men/article/2020-10-27/how-many-games-are-college-basketball-season"
+  },
+  {
+   "path": "ncaa_records.list[5]",
+   "status": "UNVERIFIABLE",
+   "old": "Most different players with a three-pointer in one game: 10 vs Xavier, Jan. 28, 2024",
+   "new": null,
+   "reason": "The fact checks out: the cached SR box score shows 10 different UConn players with a made 3 in the 99–56 win over Xavier at the XL Center, and the record book lists 17 threes. But I found no NCAA record-book source that calls it an NCAA record; consider labeling it a program record.",
+   "source": "/Users/jason/Projects/the-rafters/pipeline/out/sr/boxscores/2024-01-28-12-connecticut.json"
+  },
+  {
+   "path": "ncaa_records.list",
+   "status": "ADD",
+   "old": null,
+   "new": "Longest NCAA tournament winning streak of the modern era: 13 (2023–2025), tying Duke 1991–93",
+   "reason": "UConn's official notes: 'UConn won its 13th-straight NCAA Tournament game to equal Duke's 1991-93 streak for the longest in modern tournament history.'",
+   "source": "https://uconnhuskies.com/documents/download/2026/9/11/FINAL_NOTES_.pdf"
+  }
+ ]
+}

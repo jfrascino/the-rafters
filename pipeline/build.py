@@ -4,7 +4,7 @@
 Inputs  pipeline/out/{sr,espn,media}/...   (see sr_scrape.py, espn_fetch.py, media_*.py)
 Outputs site/data/core.json, games_index.json, media.json, seasons/Y.json, games/Y.json, plays/ID.json, players/PID.json
 """
-import json, glob, os, re, math, unicodedata, datetime, urllib.request, collections, hashlib
+import json, glob, os, re, math, unicodedata, datetime, urllib.request, urllib.parse, collections, hashlib
 from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -128,10 +128,10 @@ legends = jload(os.path.join(M, 'legends.json'), {}) or {}
 
 def json_path_get(root, path):
     """'coaches[0].bio[2]' → (parent, key) so the caller can read/replace/remove."""
-    toks = re.findall(r'([^.\[\]]+)|\[(\d+)\]', path)
+    toks = re.findall(r'\["([^"]+)"\]|([^.\[\]"]+)|\[(\d+)\]', path)
     cur, parent, key = root, None, None
-    for name, idx in toks:
-        parent, key = cur, (int(idx) if idx else name)
+    for qname, name, idx in toks:
+        parent, key = cur, (int(idx) if idx else (qname or name))
         try:
             cur = cur[key]
         except (KeyError, IndexError, TypeError):
@@ -147,6 +147,13 @@ def apply_legends_ledger(led):
         if st not in ('FIX', 'REMOVE', 'ADD'):
             continue
         parent, key = json_path_get(legends, path)
+        if parent is None and st == 'ADD':
+            ppath, _, last = path.rpartition('[')
+            pp, pk = json_path_get(legends, ppath)
+            k2 = last.rstrip(']').strip('"')
+            if pp is not None and isinstance(pp[pk], dict):
+                pp[pk][k2] = []
+                parent, key = pp[pk], k2
         if parent is None:
             bad += 1
             continue
@@ -712,6 +719,7 @@ def finish_for(games):
 
 PLAYER_SEASONS = collections.defaultdict(list)   # pid → [season rows]
 SEASON_PHOTOS = collections.defaultdict(list)    # year → ESPN game-story photos (credited, hotlinked)
+EXHIBITIONS = {}                                   # year → exhibition games (never counted in records)
 SEEN_PHOTOS = set()
 PLAYER_GAMES = collections.defaultdict(list)     # pid → [game log rows]
 SEASON_SUM = []
@@ -745,6 +753,27 @@ def espn_only_games(y):
         if final and u and o:
             g.update({'res': 'W' if num(u['score']) > num(o['score']) else 'L', 'pts': num(u['score']), 'opp_pts': num(o['score']), 'ot': (f"{e.get('ot')}OT" if (e.get('ot') or 0) > 1 else 'OT') if e.get('ot') else None})
         out.append(g)
+    # Official UConn schedule details (tip times, TV, venue, event) beat ESPN's placeholders
+    offs = (jload(os.path.join(M, 'verify_current.json'), {}) or {}).get('official_schedule') or [] if y == max(espn_sched) else []
+    used_off = set()
+    for g in out:
+        on = norm(g['opp']['name'])
+        o_ = next((o for i, o in enumerate(offs) if not o.get('exhibition') and o.get('date') == g['date'] and
+                   (norm(o.get('opponent')) in on or on in norm(o.get('opponent')) or norm(o.get('opponent')).split(' ')[0] == on.split(' ')[0])), None)
+        if not o_:
+            continue
+        used_off.add(id(o_))
+        if o_.get('utc') and not g.get('res'):
+            g['iso'] = o_['utc']
+            g['timeTBD'] = False
+        if o_.get('tv'):
+            g['tv'] = o_['tv']
+        if o_.get('venue'):
+            g['arena'] = o_['venue'] + (f", {o_['city']}" if o_.get('city') else '')
+        if o_.get('event') and not g.get('round'):
+            g['round'] = o_['event']
+    EXHIBITIONS[y] = [{'date': o['date'], 'iso': o.get('utc'), 'opp': o.get('opponent'), 'ha': o.get('site'), 'arena': ', '.join(x for x in [o.get('venue'), o.get('city')] if x),
+                       'tv': o.get('tv'), 'event': o.get('event'), 'time': o.get('local_time')} for o in offs if o.get('exhibition')]
     w = 0
     l = 0
     for g in out:
@@ -807,7 +836,9 @@ for y in years:
             row['r'] = r_idx
         if e and not row.get('arena') and (e.get('venue') or {}).get('name'):
             row['arena'] = e['venue']['name']
-        if e and e.get('broadcasts'):
+        if g.get('tv'):
+            row['tv'] = g['tv'] if isinstance(g['tv'], str) else ', '.join(g['tv'])
+        elif e and e.get('broadcasts'):
             row['tv'] = ', '.join(e['broadcasts'])
         if g.get('eid'):
             row['eid'] = g['eid']
@@ -950,18 +981,39 @@ for y in years:
                 for k in ('min', 'pts', 'reb', 'ast', 'stl', 'blk', 'to', 'fgm', 'fga', 'tpm', 'tpa', 'ftm', 'fta', 'oreb', 'pf'):
                     agg[p['pid']][k] += p.get(k) or 0
                 agg[p['pid']]['gs'] += 1 if p.get('starter') else 0
-        cur_roster = (espn_current.get('roster') or [])
+        # ESPN's college roster lags a season; UConn's official roster (bio details + headshots) is the source of truth
+        vc = jload(os.path.join(M, 'verify_current.json'), {}) or {}
+        orc = {norm(p_['name']): p_ for p_ in (jload(os.path.join(OUT, 'official', 'roster_current.json'), {}) or {}).get('players', [])}
+        official = vc.get('official_roster') or []
+        espn_by_name = {norm(r.get('name')): r for r in (espn_current.get('roster') or [])}
+        cur_roster = []
+        for r in official:
+            e_ = espn_by_name.get(norm(r['name'])) or next((v for k, v in espn_by_name.items() if k.split(' ')[-1] == norm(r['name']).split(' ')[-1] and k[:1] == norm(r['name'])[:1]), None)
+            cur_roster.append({'id': (e_ or {}).get('id'), 'name': r['name'], 'jersey': r.get('num'), 'class': r.get('cls'), 'position': r.get('posShort') or r.get('pos'),
+                               'height': (r.get('ht') or '').replace("' ", '-').replace('"', '').replace("'", '-'), 'weight': r.get('wt'), 'hometown': r.get('home'), 'hs': r.get('hs'), 'prev': r.get('prev'),
+                               'headshot': (e_ or {}).get('headshot'), 'official_headshot': (orc.get(norm(r['name'])) or {}).get('headshot'), 'bio': r.get('url')})
+        if not cur_roster:
+            cur_roster = espn_current.get('roster') or []
         for r in cur_roster:
-            aid = str(r.get('id'))
-            pid = pid_for_espn(aid, r.get('name'), y)
-            if pid.startswith('espn-'):
-                # returning players keep their SR id from last season
-                pid = roster_names.get(y - 1, {}).get(norm(r.get('name'))) or pid
-                espn2sr[aid] = pid
+            aid = str(r.get('id')) if r.get('id') else None
+            pid = pid_for_espn(aid, r.get('name'), y) if aid else None
+            if not pid or pid.startswith('espn-'):
+                k_ = norm(r.get('name'))
+                pid = next((roster_names.get(yy, {}).get(k_) for yy in (y - 1, y - 2, y - 3) if roster_names.get(yy, {}).get(k_)), None) or pid or ('n-' + k_.replace(' ', '-'))
+                if aid:
+                    espn2sr[aid] = pid
             if r.get('headshot'):
-                photo_for.setdefault(pid, r['headshot'])
+                add_photo(pid, 1, r['headshot'], False, credit='ESPN', kind='headshot')
+            if r.get('official_headshot'):
+                add_photo(pid, 1.5, 'https://images.sidearmdev.com/resize?url=' + urllib.parse.quote(r['official_headshot'], safe='') + '&width=520&type=webp', True,
+                          credit='UConn Athletics', kind='uconn-headshot', source=r.get('bio'))
+            best = sorted(PHOTO_CANDS.get(pid, []), key=lambda c: c[0])
+            if best:
+                photo_for[pid] = best[0][1]
+                (photo_wide.add(pid) if best[0][2] else photo_wide.discard(pid))
+                photo_meta[pid] = best[0][3]
             item = {'pid': pid, 'name': r.get('name'), 'num': r.get('jersey'), 'cls': r.get('class') or r.get('experience'), 'pos': r.get('position'), 'ht': r.get('height'),
-                    'wt': r.get('weight'), 'home': r.get('hometown'), 'photo': photo_for.get(pid) or r.get('headshot'), 'espn': aid}
+                    'wt': r.get('weight'), 'home': r.get('hometown'), 'hs': r.get('hs'), 'prev': r.get('prev'), 'photo': photo_for.get(pid), 'photoWide': pid in photo_wide or None, 'espn': aid}
             n = gcount.get(pid)
             if n:
                 A = agg[pid]
@@ -1030,7 +1082,7 @@ for y in years:
         'pace': (meta.get('pace') or {}).get('value') if isinstance(meta.get('pace'), dict) else meta.get('pace'),
         'ppg': (meta.get('pts_per_g') or {}).get('value') or si.get('pts_per_g'), 'oppg': (meta.get('opp_pts_per_g') or {}).get('value') or si.get('opp_pts_per_g'),
         'story': story, 'roster': roster, 'team': team, 'games': games_out, 'polls': polls,
-        'videos': [v for v in VIDS if v.get('season') == y], 'photos': photos,
+        'videos': [v for v in VIDS if v.get('season') == y], 'photos': photos, 'exhibitions': EXHIBITIONS.get(y) or None,
     }
     # Efficiency for seasons SR doesn't rate: estimate possessions from team and opponent totals
     if s and not season_obj['ortg']:

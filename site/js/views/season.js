@@ -65,6 +65,10 @@ export default async function season(main, args, core) {
 
   <section class="section"><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow">${s.games.length} games</span><h2 class="h2">Schedule &amp; results</h2></div></div>
+    ${(s.exhibitions || []).length ? `<div class="panel sched" style="margin-bottom:14px"><div class="month-h">Exhibitions · not counted in the record</div>${s.exhibitions.map((x) => `
+      <div class="srow"><span class="d">${fmtDate(x.date)}<br><span style="font-size:11px">${new Date(x.date + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short' })}</span></span><span class="logo logo-fallback">EXH</span>
+        <span class="o"><b><span class="muted" style="font-weight:600">${x.ha === 'A' ? 'at' : 'vs.'}</span> ${esc(x.opp)}</b><small>${esc([x.event, x.arena, x.tv].filter(Boolean).join(' · '))}</small></span>
+        <span class="r"><span class="muted" style="font-size:14px">${esc(x.time ? x.time.replace('p.m.', 'PM') + ' ET' : 'TBA')}</span></span><span class="x"></span></div>`).join('')}</div>` : ''}
     <div class="panel sched" id="sched">${schedule(s.games)}</div>
   </div></section>
 
@@ -203,7 +207,8 @@ export function schedule(games, opts = {}) {
     const head = m !== month ? `<div class="month-h">${(month = m)}</div>` : '';
     const post = g.type === 'NCAA' || g.type === 'NIT';
     const ha = g.ha === 'A' ? 'at' : g.ha === 'N' ? 'vs.' : 'vs.';
-    const sub = [g.round, g.arena, g.tv && !g.res ? g.tv : ''].filter(Boolean).join(' · ');
+    const site = g.arena || (!g.res && g.ha === 'H' ? 'Home site TBA (Storrs or Hartford)' : '');
+    const sub = [g.round, site, g.tv && !g.res ? g.tv : ''].filter(Boolean).join(' · ');
     return `${head}<a class="srow${post ? ' post' : ''}" href="#/game/${g.id}">
       <span class="d">${fmtDate(g.date)}<br><span style="font-size:11px">${new Date(g.date.slice(0, 10) + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short' })}</span></span>
       ${logo(g.opp)}

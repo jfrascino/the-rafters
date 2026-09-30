@@ -9,44 +9,73 @@ Ordering: UConn-era before pro; headshot before action; then by resolution.
 """
 import json
 import os
+import re
 import time
 
 from photos_common import (CAND_DIR, PLAYER_OUT, TEAM_OUT, load_candidates, load_players, probe, save_probes)
 
 KIND_RANK = {"uconn-headshot": 0, "uconn-action": 1, "uconn-team": 5, "nba-headshot": 2, "pro-other": 3, "other": 4}
-FIELDS = ("url", "kind", "cutout", "w", "h", "source", "credit", "license", "caption")
+FIELDS = ("url", "kind", "cutout", "w", "h", "source", "credit", "license", "caption", "crop")
+QUEUE_OUT = os.path.join(os.path.dirname(PLAYER_OUT), "photo_queue.json")
+SMALL = 500  # short side under this -> restoration queue
 
 
 def existing_entries(players):
-    """Photos already on core.json, with metadata recovered from images.json / URL shape."""
-    imgs = json.load(open(os.path.join(os.path.dirname(PLAYER_OUT), "images.json")))
-    byurl = {}
-    for x in imgs.get("players", []):
-        for u in (x.get("image_url"), x.get("thumb_url")):
-            if u:
-                byurl[u.split("?")[0]] = x
+    """Stable pre-existing sources (NOT core.json, which is rebuilt from this file's output):
+    ESPN college headshots (out/espn/athletes.json + current.json) and the Commons lead photos in images.json."""
+    from photos_common import norm
+    root = os.path.dirname(os.path.dirname(PLAYER_OUT))
     out = {}
+    byname = {}
     for p in players:
-        u = p.get("photo")
-        if not u:
+        byname.setdefault(norm(p["name"]), []).append(p)
+
+    def match(name, seasons):
+        c = byname.get(norm(name), [])
+        if seasons:
+            c = [p for p in c if set(p["years"]) & set(seasons)] or []
+        return c[0] if len(c) == 1 else None
+
+    espn = []
+    try:
+        espn += list(json.load(open(os.path.join(root, "espn", "athletes.json"))).values())
+    except Exception:
+        pass
+    try:
+        cur = json.load(open(os.path.join(root, "espn", "current.json")))
+        for r in cur.get("roster") or []:
+            espn.append({"id": r.get("id"), "name": r.get("name"), "headshot": r.get("headshot"),
+                         "seasons": (r.get("priorSeasons") or []) + [cur.get("season") or 0]})
+    except Exception:
+        pass
+    for a in espn:
+        if not a.get("headshot"):
             continue
-        base = u.split("?")[0]
-        if "espncdn.com/i/headshots/mens-college-basketball" in u:
-            e = {"url": u, "kind": "uconn-headshot", "cutout": True, "source":
-                 "https://www.espn.com/mens-college-basketball/player/_/id/" + base.rsplit("/", 1)[-1].split(".")[0],
-                 "credit": "ESPN", "license": "Copyright ESPN (hotlinked)", "caption": f"{p['name']} UConn headshot (ESPN)"}
-        elif "wikimedia.org" in u:
-            x = byurl.get(base, {})
-            ctx = x.get("context")
-            kind = {"uconn": "uconn-action", "nba": "nba-headshot"}.get(ctx, "other")
-            if kind == "nba-headshot":
-                kind = "pro-other"  # Commons NBA-era photos are not studio headshots
-            e = {"url": u, "kind": kind, "cutout": False, "source": x.get("file_page") or u,
-                 "credit": x.get("author") or "Wikimedia Commons", "license": x.get("license") or "",
-                 "caption": x.get("caption_or_description") or p["name"], "context": ctx}
-        else:
-            e = {"url": u, "kind": "other", "cutout": False, "source": u, "credit": "", "license": "", "caption": p["name"]}
-        out[p["id"]] = [e]
+        p = match(a["name"], a.get("seasons"))
+        if not p:
+            continue
+        e = {"url": a["headshot"], "kind": "uconn-headshot", "cutout": True,
+             "source": f"https://www.espn.com/mens-college-basketball/player/_/id/{a['id']}",
+             "credit": "ESPN", "license": "Copyright ESPN (hotlinked)", "caption": f"{p['name']} UConn headshot (ESPN)"}
+        lst = out.setdefault(p["id"], [])
+        if all(x["url"] != e["url"] for x in lst):
+            lst.append(e)
+
+    imgs = json.load(open(os.path.join(os.path.dirname(PLAYER_OUT), "images.json")))
+    for x in imgs.get("players", []):
+        u = x.get("thumb_url") or x.get("image_url")
+        if not u or x.get("role") != "player":
+            continue
+        yrs = [int(y) for y in re.findall(r"(\d{4})", x.get("years_at_uconn") or "")]
+        p = match(x["player_name"], list(range(min(yrs), max(yrs) + 1)) if yrs else None)
+        if not p:
+            continue
+        ctx = x.get("context")
+        kind = {"uconn": "uconn-action", "nba": "pro-other"}.get(ctx, "other")
+        e = {"url": u, "kind": kind, "cutout": False, "source": x.get("file_page") or u,
+             "credit": x.get("author") or "Wikimedia Commons", "license": x.get("license") or "",
+             "caption": x.get("caption_or_description") or p["name"]}
+        out.setdefault(p["id"], []).append(e)
     return out
 
 
@@ -85,7 +114,8 @@ def main():
     add("uconn", uconn_entries())
     for fn in sorted(os.listdir(CAND_DIR)):
         name = fn[:-5]
-        if not fn.endswith(".json") or name in ("uconn", "uconn_all", "rejected", "existing") or name.startswith("_"):
+        if (not fn.endswith(".json") or name in ("uconn", "uconn_all", "rejected", "existing") or name.startswith("_")
+                or name.startswith("team")):
             continue
         add(name, load_candidates(name))
 
@@ -103,11 +133,14 @@ def main():
                 if not pr["ok"]:
                     continue
                 c["w"], c["h"] = pr["w"], pr["h"]
+            m = re.search(r"\[crop:\s*([^\]]+)\]", c.get("caption") or "")
+            if m and not c.get("crop"):
+                c["crop"] = m.group(1).strip()
             clean.append(c)
         clean.sort(key=lambda c: (KIND_RANK.get(c["kind"], 9), 0 if c.get("cutout") else 1, -(c.get("w") or 0)))
         if clean:
-            out_players[pid] = [{k: c.get(k) for k in FIELDS} | ({"season": c["season"]} if c.get("season") else {})
-                                for c in clean]
+            out_players[pid] = [{k: c.get(k) for k in FIELDS if k != "crop" or c.get("crop")}
+                                | ({"season": c["season"]} if c.get("season") else {}) for c in clean]
         else:
             missing.append(pid)
     save_probes()
@@ -121,14 +154,42 @@ def main():
     uc = sum(1 for v in out_players.values() if v[0]["kind"].startswith("uconn"))
     print(f"players with any photo: {len(out_players)}/{len(ids)}; UConn-era first: {uc}; missing {len(missing)}")
 
+    # restoration queue: missing players + players whose best photo is small
+    pinfo = {p["id"]: p for p in players}
+    queue = []
+    for pid in ids:
+        lst = out_players.get(pid, [])
+        best = lst[0] if lst else None
+        small = best is not None and min(best.get("w") or 0, best.get("h") or 0) < SMALL
+        if best is not None and not small:
+            continue
+        p = pinfo[pid]
+        # best findable: UConn-era first, then largest
+        cands = sorted(lst, key=lambda c: (0 if c["kind"].startswith("uconn") else 1, -min(c.get("w") or 0, c.get("h") or 0)))
+        queue.append({"sr_id": pid, "name": p["name"], "years": p.get("span"), "number": p.get("num"),
+                      "status": "missing" if not lst else "small",
+                      "best_candidates": [{"url": c["url"], "page": c["source"], "w": c.get("w"), "h": c.get("h"),
+                                           "kind": c["kind"], "caption": c.get("caption"),
+                                           **({"crop": c["crop"]} if c.get("crop") else {})} for c in cands[:4]]})
+    tmp = QUEUE_OUT + ".tmp"
+    json.dump({"generated": time.strftime("%Y-%m-%d %H:%M"),
+               "note": f"Players with no photo, or whose best photo is under {SMALL}px on its short side. "
+                       "best_candidates are real, identity-verified images (UConn-era first, then largest) for restoration.",
+               "queue": queue}, open(tmp, "w"), indent=1, ensure_ascii=False)
+    os.replace(tmp, QUEUE_OUT)
+    print("restoration queue:", len(queue), "(missing", sum(1 for q in queue if q["status"] == "missing"), ")")
+
     # team photos
-    team = load_candidates("team")
     seasons = {}
-    for yr, lst in sorted(team.items()):
-        for c in lst:
-            if c.get("url") in rejected:
-                continue
-            seasons.setdefault(yr, []).append({k: c.get(k) for k in ("url", "w", "h", "source", "credit", "license", "caption")})
+    for fn in sorted(os.listdir(CAND_DIR)):
+        if not (fn.startswith("team") and fn.endswith(".json")):
+            continue
+        for yr, lst in load_candidates(fn[:-5]).items():
+            for c in lst:
+                if c.get("url") in rejected or any(x["url"] == c.get("url") for x in seasons.get(yr, [])):
+                    continue
+                seasons.setdefault(yr, []).append({k: c.get(k) for k in ("url", "w", "h", "source", "credit", "license", "caption")})
+    seasons = dict(sorted(seasons.items()))
     tmp = TEAM_OUT + ".tmp"
     json.dump({"generated": time.strftime("%Y-%m-%d %H:%M"), "seasons": seasons}, open(tmp, "w"), indent=1, ensure_ascii=False)
     os.replace(tmp, TEAM_OUT)

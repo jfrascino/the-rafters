@@ -1,0 +1,330 @@
+{
+ "checked": "2026-09-30",
+ "method": "oEmbed + watch-page ytInitialPlayerResponse (title, shortDescription, length, playability, embeddable) fetched for all 316 videos; every dated/opponent video matched to games_index.json (±1 day, same opponent); disputed dates cross-checked on Sports Reference.",
+ "totals": {
+  "videos": 316,
+  "game_linked": 245,
+  "available_and_embeddable": 316,
+  "unavailable_or_private": 0,
+  "womens_basketball": 0,
+  "wrong_year": 0,
+  "flagged_ids": 36,
+  "remove": 2,
+  "fix_rows": 36
+ },
+ "ok_count": 280,
+ "ok_game_linked": 214,
+ "notes": [
+  "All 316 videos returned oEmbed 200, playability OK and playableInEmbed=true on 2026-09-30. No women's-basketball videos (the only 'women' hits were NCAA channel boilerplate or ads).",
+  "Every video with an opponent matches exactly one games_index game within ±1 day once the three date fixes above are applied. No wrong-season videos.",
+  "UPSilt0N15A (2016 Cincinnati 4OT 'full match', 196 min, generic channel 'Rogelio Snively', description = title) could not be content-verified; spot-check that it's a real broadcast before featuring it.",
+  "Duplicates worth thinning: two full uploads each of 1996 Georgetown BE final (5uef8OreJPE, UHlavl88BfU), 1996 Mississippi State (0u55wKsnHYw, P4WYP3FLoyE), 1998 North Carolina E8 (0kSGJUzPzkE, uf2m9caXFBI).",
+  "Uploader typos in descriptions, not errors in our data: f98yI2f9Ys0 says 'April 8, 2014' (game was Apr 7); uihLjOqoM3I says 'March 20, 2011' (game was Mar 19); nhTmvfxmFyU says '2025 NCAA tournament' (it is 2026)."
+ ],
+ "items": [
+  {
+   "id": "pP1rNy0AfZI",
+   "status": "REMOVE",
+   "field": "video",
+   "old": "Vinny's Retro Review-1990 NCAA East Regional Duke vs UConn (documentary, linked to 1990-03-24 Duke)",
+   "new": null,
+   "reason": "9-min personal vlog; description: 'I delve into more Corona Virus Talk, but there has been some breaking news.' No game footage, not a documentary. The real full game (FilDE3tl3z0) and Laettner highlight (3fwQyoLHBNc) already cover this game."
+  },
+  {
+   "id": "40O5zXQzuus",
+   "status": "REMOVE",
+   "field": "video",
+   "old": "#1 UConn Huskies vs. #16 Chattanooga Mocs - 2009 March Madness (highlights)",
+   "new": null,
+   "reason": "1-min sponsored preview (Bruce Pearl breaks down the matchup), published 2009-03-16, three days BEFORE the 3/19 game. No game footage; mislabeled as highlights."
+  },
+  {
+   "id": "NTbNRCSZdLs",
+   "status": "FIX",
+   "field": "date",
+   "old": "1990-01-24",
+   "new": "1990-01-25",
+   "reason": "Final Field House game vs Central Connecticut was Thu Jan 25, 1990 (games_index 1990-19 and sports-reference.com/cbb/schools/connecticut/men/1990-schedule.html). Uploader's title says Jan 24 -- uploader error."
+  },
+  {
+   "id": "NTbNRCSZdLs",
+   "status": "FIX",
+   "field": "score",
+   "old": "W 99–67",
+   "new": "W 99–77",
+   "reason": "games_index 1990-19 and Sports Reference: UConn 99, CCSU 77."
+  },
+  {
+   "id": "NTbNRCSZdLs",
+   "status": "FIX",
+   "field": "kind",
+   "old": "full_game",
+   "new": "full_game (radio broadcast, audio only)",
+   "reason": "Title/description: recording of the WPOP 1410 AM radio broadcast. It is the full game but has no video; label it audio-only so fans aren't surprised."
+  },
+  {
+   "id": "0u55wKsnHYw",
+   "status": "FIX",
+   "field": "date",
+   "old": "1996-03-21",
+   "new": "1996-03-22",
+   "reason": "1996 Sweet 16 loss to Mississippi State was Fri Mar 22, 1996 at Rupp Arena (games_index 1996-35; sports-reference.com/cbb/schools/connecticut/men/1996-schedule.html). The other upload of this game (P4WYP3FLoyE) already has 03-22."
+  },
+  {
+   "id": "adpQ5CHKtk4",
+   "status": "FIX",
+   "field": "date",
+   "old": "1993-03-17",
+   "new": "1993-03-19",
+   "reason": "NIT first round vs Jackson State was Fri Mar 19, 1993 at Gampel (games_index 1993-28; Sports Reference). At 1993-03-17 this clip matches no game within ±1 day. Note: it is a 1-min local-news preview (WDAM), not game footage -- consider REMOVE if you only want game video."
+  },
+  {
+   "id": "_R2SIVU9dJU",
+   "status": "FIX",
+   "field": "score",
+   "old": "W 69–54",
+   "new": "W 69–64",
+   "reason": "1998 Big East final: UConn 69, Syracuse 64 (games_index)."
+  },
+  {
+   "id": "FilDE3tl3z0",
+   "status": "FIX",
+   "field": "score",
+   "old": "78–79",
+   "new": "78–79 (OT)",
+   "reason": "1990 Elite Eight vs Duke went to OT (Laettner buzzer-beater in OT); games_index ot=OT; 3fwQyoLHBNc description also says overtime."
+  },
+  {
+   "id": "a_0zgdCboms",
+   "status": "FIX",
+   "field": "score",
+   "old": "88–83",
+   "new": "88–83 (OT)",
+   "reason": "2008 Battle in Seattle vs Gonzaga went to OT (games_index ot=OT; video is A.J. Price's game-tying 3 that forced OT)."
+  },
+  {
+   "id": "qoLoP4f8pLU",
+   "status": "FIX",
+   "field": "score",
+   "old": "73–70",
+   "new": "73–70 (OT)",
+   "reason": "2012 at Villanova went to OT (games_index ot=OT; description: Napier's 3 'with 0.6 left on the clock in overtime')."
+  },
+  {
+   "id": "1gRUdMIgyRk",
+   "status": "FIX",
+   "field": "kind",
+   "old": "full_game",
+   "new": "highlights",
+   "reason": "Title 'Syracuse vs UConn Full Game Highlights'; 10 min long."
+  },
+  {
+   "id": "RLWRQY981c8",
+   "status": "FIX",
+   "field": "kind",
+   "old": "full_game",
+   "new": "highlights",
+   "reason": "ESPN 'Full Game Highlights'; 7 min."
+  },
+  {
+   "id": "aC31ga6h1Rc",
+   "status": "FIX",
+   "field": "kind",
+   "old": "full_game",
+   "new": "highlights",
+   "reason": "ESPN 'Full Game Highlights'; 7 min."
+  },
+  {
+   "id": "a_Kb-DNhwus",
+   "status": "FIX",
+   "field": "kind",
+   "old": "full_game",
+   "new": "highlights",
+   "reason": "Title 'Highlights Full Game'; 13 min. Also duplicates the official UConn highlight CxW4LnYa1EI -- could REMOVE instead."
+  },
+  {
+   "id": "Y5cl5CJF-RU",
+   "status": "FIX",
+   "field": "kind",
+   "old": "full_game",
+   "new": "highlights",
+   "reason": "House of Highlights 'FULL GAME HIGHLIGHTS'; 10 min."
+  },
+  {
+   "id": "CC4xXnBUgeM",
+   "status": "FIX",
+   "field": "kind",
+   "old": "full_game",
+   "new": "moment",
+   "reason": "2024 Hartford championship parade (NBC Connecticut live stream), not a game."
+  },
+  {
+   "id": "W5vJ1GrNHJk",
+   "status": "FIX",
+   "field": "kind",
+   "old": "full_game",
+   "new": "full_game (second half only)",
+   "reason": "Title: 'First Round: Second Half #16 Albany vs #1 UConn'. Partial broadcast."
+  },
+  {
+   "id": "5ysBowPtchg",
+   "status": "FIX",
+   "field": "kind",
+   "old": "full_game",
+   "new": "highlights (partial broadcast)",
+   "reason": "Title: 'Parts of #7 DePaul/#2 UCONN & #6 North Carolina/#3 Texas'; 62 min covers two games, so only part of the UConn game."
+  },
+  {
+   "id": "GGjUIl1tabA",
+   "status": "FIX",
+   "field": "kind",
+   "old": "highlights",
+   "new": "full_game (part 1 of 4)",
+   "reason": "Title '2000 Big East Championship - Part 1 of 4', 30 min: the first segment of the broadcast, not highlights. Parts 2-4 are not in the list."
+  },
+  {
+   "id": "NO94gR3Jx6Q",
+   "status": "FIX",
+   "field": "kind",
+   "old": "full_game",
+   "new": "full_game (multi-game upload; UConn game is 2nd of 2)",
+   "reason": "184-min Ohio State-centric upload of OSU's 1992 first two rounds (Mississippi Valley State, then UConn). The UConn game is there but starts about halfway through."
+  },
+  {
+   "id": "t61X2R2YD08",
+   "status": "FIX",
+   "field": "kind",
+   "old": "full_game",
+   "new": "full_game (multi-game upload)",
+   "reason": "197-min upload: Indiana vs St. John's and New Mexico vs UConn (1999 second round). Fans need to skip to the UConn game."
+  },
+  {
+   "id": "wZx9tW38WYY",
+   "status": "FIX",
+   "field": "kind",
+   "old": "highlights",
+   "new": "documentary (podcast)",
+   "reason": "35-min 19Nine 'Hardwood History' podcast episode discussing the 1995 Big East final; not game highlights."
+  },
+  {
+   "id": "mo0AUgnPsWg",
+   "status": "FIX",
+   "field": "kind",
+   "old": "highlights",
+   "new": "interview (studio recap)",
+   "reason": "44-min CBS podcast (Parrish/Boone) covering both Elite Eight games; talk, not highlights."
+  },
+  {
+   "id": "HzalHInjQSk",
+   "status": "FIX",
+   "field": "kind",
+   "old": "highlights",
+   "new": "interview (studio recap)",
+   "reason": "37-min CBS podcast recapping the 2024 title; talk, not highlights."
+  },
+  {
+   "id": "gIScz8DlmGU",
+   "status": "FIX",
+   "field": "kind",
+   "old": "highlights",
+   "new": "interview (studio recap)",
+   "reason": "CBS Sports HQ studio recap (Doyle/Avery Johnson)."
+  },
+  {
+   "id": "f_ySIxN9rhA",
+   "status": "FIX",
+   "field": "kind",
+   "old": "highlights",
+   "new": "interview (studio recap)",
+   "reason": "CBS Sports HQ crew breakdown."
+  },
+  {
+   "id": "S-gFh1wNFFY",
+   "status": "FIX",
+   "field": "kind",
+   "old": "highlights",
+   "new": "interview (studio recap)",
+   "reason": "CBS Sports HQ reaction (Norlander/Henson)."
+  },
+  {
+   "id": "kNF06Krz-3M",
+   "status": "FIX",
+   "field": "kind",
+   "old": "highlights",
+   "new": "interview (studio recap)",
+   "reason": "CBS Sports HQ recap (Norlander/Dickau/Henson), 16 min."
+  },
+  {
+   "id": "g4VY2MXcj6U",
+   "status": "FIX",
+   "field": "kind",
+   "old": "highlights",
+   "new": "interview",
+   "reason": "FOX61 locker-room player reactions after Stetson, not game highlights."
+  },
+  {
+   "id": "dzvB58Wc15E",
+   "status": "FIX",
+   "field": "round",
+   "old": "Regular season",
+   "new": "Great Eight (Palace of Auburn Hills)",
+   "reason": "Description: 1994 Great Eight tournament at Auburn Hills (its 'Nov 11' date is an uploader typo; title and games_index agree on 11/29/1994)."
+  },
+  {
+   "id": "tkrnv4oN5ZE",
+   "status": "FIX",
+   "field": "date",
+   "old": "2012-09-13",
+   "new": "2012-11-09",
+   "reason": "Video is 'Ten Toes In' (Ollie's coaching philosophy), published 2012-11-09, not the Sept. 13 hiring announcement. Either re-date or relabel the round."
+  },
+  {
+   "id": "gDkufyhA87Q",
+   "status": "FIX",
+   "field": "date",
+   "old": "2018-03-23",
+   "new": "2018-06-21",
+   "reason": "Video is 'Get to Know Head Coach Dan Hurley - Part 1', published 2018-06-21 (season-ticket promo), not the March introduction presser."
+  },
+  {
+   "id": "BoM96ipl31Q",
+   "status": "FIX",
+   "field": "round",
+   "old": "2011 Big East tournament (five games in five days)",
+   "new": "Pregame warmup vs Syracuse, 2011 Big East tournament",
+   "reason": "Description: 'Uconn vs Syracuse pre game warm up'; very short phone clip, not tournament highlights. Consider REMOVE."
+  },
+  {
+   "id": "xNPPvbzsSF0",
+   "status": "FIX",
+   "field": "round",
+   "old": "Ben Gordon UConn career highlights",
+   "new": "Ben Gordon 2004 Big East Tournament (81 points)",
+   "reason": "Title: Ben Gordon - Big East Tournament (2004), 6 min; not career highlights."
+  },
+  {
+   "id": "kGuYfvMFRuU",
+   "status": "FIX",
+   "field": "round",
+   "old": "Rudy Gay UConn career highlights",
+   "new": "Rudy Gay sophomore season (2005–06)",
+   "reason": "Title: Sophomore Season (2005-2006)."
+  },
+  {
+   "id": "GbfUM31B3Lg",
+   "status": "FIX",
+   "field": "round",
+   "old": "Jeremy Lamb UConn career highlights",
+   "new": "Jeremy Lamb sophomore season (2011–12)",
+   "reason": "Title: Sophomore Season (2011-2012)."
+  },
+  {
+   "id": "eTZ9J6Fb5m8",
+   "status": "FIX",
+   "field": "kind/round",
+   "old": "interview / Alex Karaban UConn career highlights",
+   "new": "interview / Alex Karaban 2025-26 preseason interview",
+   "reason": "CBS interview with Matt Norlander previewing 2025-26, not career highlights."
+  }
+ ]
+}

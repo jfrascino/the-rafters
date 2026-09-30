@@ -1,0 +1,308 @@
+{
+ "_about": "Tie-breaks between Sports-Reference (sr) and uconnhuskies.com schedule archive (official) for disputed game facts, using independent contemporaneous sources. truth = adjudicated value; winner = which side it matches.",
+ "decisions": [
+  {
+   "game": "1990-2",
+   "field": "score",
+   "opp": "Auburn",
+   "sr": "W 95-91",
+   "official": "W 95-81",
+   "truth": "W 95-81",
+   "winner": "official",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://auburntigers.com/sports/mens-basketball/schedule/1989-90",
+     "quote": "Sat Nov 25 vs. UConn Anchorage, Alaska L Loss 81-95"
+    },
+    {
+     "url": "https://goseawolves.com/downloads1/13557.pdf?ATCLID=657253&SPSID=61511&SPID=6647",
+     "quote": "Nov. 25: Connecticut 95, Auburn 81"
+    }
+   ],
+   "note": "Host (UAA) Shootout history and Auburn's archive both give 95-81. SR's own 1989-90 opponent season total (2,446) is exactly 10 below the sum of its schedule opp scores (2,456), consistent with 91 being an SR typo for 81."
+  },
+  {
+   "game": "1990-2",
+   "field": "date",
+   "opp": "Auburn",
+   "sr": "1989-11-25",
+   "official": "1989-11-26",
+   "truth": "1989-11-25",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://auburntigers.com/sports/mens-basketball/schedule/1989-90",
+     "quote": "Sat Nov 25 vs. UConn Anchorage, Alaska L Loss 81-95"
+    },
+    {
+     "url": "https://goseawolves.com/downloads1/13557.pdf?ATCLID=657253&SPSID=61511&SPID=6647",
+     "quote": "Nov. 25: Connecticut 95, Auburn 81"
+    }
+   ],
+   "note": "Second-round (consolation) game of the 1989 Great Alaska Shootout was Saturday Nov 25; UConn site shifts both Alaska games after the opener by one day."
+  },
+  {
+   "game": "1990-3",
+   "field": "date",
+   "opp": "Florida State",
+   "sr": "1989-11-26",
+   "official": "1989-11-27",
+   "truth": "1989-11-26",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://www.nolefan.org/summary/b1990.html",
+     "quote": "Connecticut 63, Florida State 60 11/26/1989, Great Alaska Shootout, Anchorage, Alaska"
+    },
+    {
+     "url": "https://goseawolves.com/downloads1/13557.pdf?ATCLID=657253&SPSID=61511&SPID=6647",
+     "quote": "Nov. 26: UAA 109, Auburn 94 (7th/8th) Connecticut 63, Florida State 60"
+    }
+   ],
+   "note": "FSU box-score archive (attendance 3,179) and the host's Shootout history both date it Sunday Nov 26; only the title game was Nov 27."
+  },
+  {
+   "game": "1990-23",
+   "field": "site",
+   "opp": "Fairfield",
+   "sr": "home (Gampel Pavilion)",
+   "official": "at Fairfield, Fairfield, CT",
+   "truth": "home (Harry A. Gampel Pavilion, Storrs)",
+   "winner": "sr",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://fairfieldstags.com/sports/mens-basketball/schedule/1989-90",
+     "quote": "Feb 6 (Tue) at #8 Connecticut Storrs, Conn. L, 39-74"
+    }
+   ],
+   "note": "Fairfield's own archive lists it as a road game in Storrs; Gampel had opened Jan 27, 1990."
+  },
+  {
+   "game": "1988-22",
+   "field": "site",
+   "opp": "Fairfield",
+   "sr": "neutral (no arena)",
+   "official": "at Fairfield, Fairfield, CT",
+   "truth": "neutral (New Haven, Conn.)",
+   "winner": "sr",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://fairfieldstags.com/sports/mens-basketball/schedule/1987-88",
+     "quote": "Feb 18 (Thu) Connecticut New Haven, Conn. L, 48-74"
+    }
+   ],
+   "note": "Fairfield's archive lists neither 'vs' nor 'at' and places the game in New Haven (presumably New Haven Coliseum)."
+  },
+  {
+   "game": "1987-5",
+   "field": "site",
+   "opp": "Boston University",
+   "sr": "home (Hartford Civic Center)",
+   "official": "at Boston University",
+   "truth": "away (Boston, Mass.)",
+   "winner": "official",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://goterriers.com/sports/mens-basketball/schedule/1986-87",
+     "quote": "vs Connecticut Boston, MA W, 80-71 Dec 9 (Tue)"
+    }
+   ],
+   "note": "BU's archive lists it as a BU home game in Boston (BU won 80-71)."
+  },
+  {
+   "game": "1987-19",
+   "field": "site",
+   "opp": "Saint Peter's",
+   "sr": "neutral (no arena)",
+   "official": "at St. Peter's",
+   "truth": "away (Jersey City, N.J.)",
+   "winner": "official",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://saintpeterspeacocks.com/sports/mens-basketball/schedule/1986-87",
+     "quote": "Feb 3 (Tue) / Final Jersey City, N.J. vs Connecticut W, 75-50"
+    }
+   ],
+   "note": "Saint Peter's archive lists it as a home game in Jersey City."
+  },
+  {
+   "game": "1998-2",
+   "field": "score",
+   "opp": "Boston University",
+   "sr": "W 68-54",
+   "official": "W 66-54",
+   "truth": "W 68-54",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://goterriers.com/sports/mens-basketball/schedule/1997-98",
+     "quote": "at Connecticut Storrs, CT L, 54-68 Nov 17 (Mon)"
+    }
+   ],
+   "note": "SR's 68 also matches UConn's 1997-98 player-points season total (2,836 = sum of SR game scores; official schedule sums to 2,834)."
+  },
+  {
+   "game": "1991-14",
+   "field": "date",
+   "opp": "St. John's",
+   "sr": "1991-01-13",
+   "official": "1991-01-12",
+   "truth": "1991-01-13",
+   "winner": "sr",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://redstormsports.com/sports/mens-basketball/schedule/1990-91",
+     "quote": "at No. 9 Connecticut STORRS, CONN. (GAMPEL PAVILION) W, 72-59 Jan 13 (Sun)"
+    }
+   ],
+   "note": "St. John's archive dates it Sunday Jan 13, 1991."
+  },
+  {
+   "game": "1991-28",
+   "field": "date",
+   "opp": "Georgetown",
+   "sr": "1991-03-07",
+   "official": "1991-03-08",
+   "truth": "1991-03-08",
+   "winner": "official",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://guhoyas.com/sports/mens-basketball/schedule/1990-91",
+     "quote": "Mar 8 (Fri) Big East * Connecticut (Quarterfinal) New York, N.Y. W, 68-49"
+    }
+   ],
+   "note": "Big East quarterfinal at MSG; Georgetown's semifinal vs Providence followed on Sat Mar 9."
+  },
+  {
+   "game": "1992-28",
+   "field": "date",
+   "opp": "St. John's",
+   "sr": "1992-03-13",
+   "official": "1992-03-12",
+   "truth": "1992-03-13",
+   "winner": "sr",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://redstormsports.com/sports/mens-basketball/schedule/1991-92",
+     "quote": "vs Connecticut NEW YORK, N.Y. (MADISON SQUARE GARDEN) W, 64-59 (OT) Mar 13 (Fri)"
+    }
+   ],
+   "note": "St. John's archive: QF Fri Mar 13, then semifinal vs Georgetown Sat Mar 14."
+  },
+  {
+   "game": "1994-20",
+   "field": "score",
+   "opp": "Syracuse",
+   "sr": "L 95-108",
+   "official": "L 95-105",
+   "truth": "L 95-108",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://cuse.com/sports/mens-basketball/schedule/1993-94",
+     "quote": "vs Connecticut JMA Wireless Dome Syracuse, N.Y. W, 108-95 Feb 1 (Tue)"
+    }
+   ],
+   "note": "SR's 108 also consistent with SR's independent 1993-94 opponent points season total (2,333)."
+  },
+  {
+   "game": "1994-29",
+   "field": "score",
+   "opp": "St. John's",
+   "sr": "W 95-80",
+   "official": "W 80-50",
+   "truth": "W 95-80",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://redstormsports.com/sports/mens-basketball/schedule/1993-94",
+     "quote": "at No. 4 Connecticut HARTFORD, CONN. (HARTFORD CIVIC CENTER) L, 80-95 Mar 5 (Sat)"
+    }
+   ],
+   "note": "Official '80-50' looks like a transposition/typo; SR's 95 matches UConn's player-points season total (2,888). Game was at Hartford Civic Center, not Storrs as the UConn card says."
+  },
+  {
+   "game": "1996-24",
+   "field": "date",
+   "opp": "West Virginia",
+   "sr": "1996-02-15",
+   "official": "1996-02-14",
+   "truth": "1996-02-15",
+   "winner": "sr",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://wvusports.com/sports/mens-basketball/schedule/1995-96",
+     "quote": "at #3 Connecticut Storrs, Conn. L, 69-87 Feb 15 (Thu)"
+    }
+   ],
+   "note": "WVU archive dates it Thursday Feb 15, 1996."
+  },
+  {
+   "game": "1996-31",
+   "field": "score",
+   "opp": "Syracuse",
+   "sr": "W 85-67",
+   "official": "W 85-66",
+   "truth": "W 85-67",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://cuse.com/sports/mens-basketball/schedule/1995-96",
+     "quote": "vs Connecticut Madison Square Garden New York, N.Y. BIG EAST Tournament L, 67-85 Mar 8 (Fri)"
+    }
+   ],
+   "note": "Big East semifinal."
+  },
+  {
+   "game": "2000-29",
+   "field": "score",
+   "opp": "Syracuse",
+   "sr": "W 69-54",
+   "official": "W 79-64",
+   "truth": "W 69-54",
+   "winner": "sr",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://cuse.com/sports/mens-basketball/schedule/1999-2000",
+     "quote": "at #24 Connecticut Hartford Civic Center Hartford, CT L, 54-69 Mar 4 (Sat)"
+    }
+   ],
+   "note": "Syracuse places the game at Hartford Civic Center (SR's arena field says Gampel). SR's 69 matches UConn's player-points season total."
+  },
+  {
+   "game": "2001-1",
+   "field": "score",
+   "opp": "Quinnipiac",
+   "sr": "W 86-72",
+   "official": "W 86-71",
+   "truth": "W 86-72",
+   "winner": "sr",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://gobobcats.com/sports/mens-basketball/schedule/2000-01",
+     "quote": "at Connecticut L, 72-86 Nov 17 (Fri)"
+    }
+   ],
+   "note": "Quinnipiac archive gives 72."
+  }
+ ],
+ "vacated": [],
+ "stats": []
+}

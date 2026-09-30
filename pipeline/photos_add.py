@@ -1,6 +1,7 @@
 """CLI to add one verified photo candidate to a candidate file (used for manual / web-research finds).
 
 Usage:
+  Team photo:  python3 photos_add.py --file archive --team 1990 --url URL --source PAGE --credit .. --license .. --caption ..
   python3 photos_add.py --file manual_a --id chris-smith-1 --url URL --kind nba-headshot \
       --source PAGE_URL --credit "..." --license "..." --caption "..." [--cutout]
 
@@ -22,6 +23,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--file", required=True)
     ap.add_argument("--id")
+    ap.add_argument("--team", help="season spring year (e.g. 1990) -> adds a TEAM photo to team_<file>.json")
     ap.add_argument("--url")
     ap.add_argument("--kind", choices=KINDS)
     ap.add_argument("--source")
@@ -35,6 +37,23 @@ def main():
     data = load_candidates(a.file)
     if a.list:
         print(json.dumps(data, indent=1))
+        return
+    if a.team:
+        if not (a.url and a.source):
+            print(json.dumps({"ok": False, "error": "--url --source required"}))
+            sys.exit(1)
+        tf = a.file if a.file.startswith("team") else "team_" + a.file
+        team = load_candidates(tf)
+        pr = probe(a.url, force=True)
+        save_probes()
+        if not pr["ok"]:
+            print(json.dumps({"ok": False, "error": "probe failed", "probe": pr}))
+            sys.exit(2)
+        c = {"url": a.url, "w": pr["w"], "h": pr["h"], "source": a.source, "credit": a.credit,
+             "license": a.license, "caption": a.caption}
+        team[str(a.team)] = [x for x in team.get(str(a.team), []) if x["url"] != a.url] + [c]
+        save_candidates(tf, team)
+        print(json.dumps({"ok": True, "saved_team": c}))
         return
     ids = {p["id"] for p in load_players()}
     if a.id not in ids:
