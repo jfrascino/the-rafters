@@ -12,6 +12,7 @@ const views = {
   march: () => import('./views/march.js'),
   numbers: () => import('./views/numbers.js'),
   vault: () => import('./views/vault.js'),
+  legends: () => import('./views/legends.js'),
 };
 const navKey = { season: 'seasons', game: 'seasons', player: 'players' };
 

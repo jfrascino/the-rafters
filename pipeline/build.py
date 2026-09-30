@@ -309,6 +309,32 @@ for pid, p in sr_players.items():
         photo_wide.add(pid)
 
 
+# ───────────────────────── Commons photos ─────────────────────────
+COMMONS = []
+if isinstance(media_images, dict):
+    for ph in media_images.get('photos', []) or []:
+        url = ph.get('image_url') or ph.get('url')
+        if not url or ph.get('context') not in (None, 'uconn'):
+            continue
+        d0 = ' '.join([ph.get('description') or '', ph.get('file') or ''])
+        blob = d0 + ' ' + ' '.join(ph.get('categories') or [])
+        if re.search(r"taurasi|auriemma|rebecca lobo|breanna|stewie|bueckers|wnba|lady huskies|softball|hockey|baseball|soccer|volleyball", blob, re.I):
+            continue
+        if re.search(r"women", blob, re.I) and not re.search(r"(?<!wo)men's", d0, re.I):
+            continue
+        desc = ph.get('description') or ''
+        if re.fullmatch(r'[\w\-. ]{0,24}', desc or ''):  # camera filenames like "10002-3-XL" say nothing
+            gm = ph.get('game') or {}
+            desc = f"UConn vs. {gm['opponent']}, {gm.get('date')}" if gm.get('opponent') else (ph.get('file') or '').replace('File:', '').rsplit('.', 1)[0]
+        COMMONS.append({'url': url, 'thumb': ph.get('thumb_url') or url, 'caption': desc, 'credit': ph.get('author'), 'license': ph.get('license'),
+                        'page': ph.get('file_page'), 'w': ph.get('width'), 'h': ph.get('height'), 'season': ph.get('season'), 'date': (ph.get('game') or {}).get('date') or (ph.get('date') or '')[:10],
+                        'subjects': ph.get('subjects') or [], 'kind': ph.get('kind')})
+COMMONS_BY_SEASON = collections.defaultdict(list)
+for ph in COMMONS:
+    if ph.get('season'):
+        COMMONS_BY_SEASON[int(ph['season'])].append(ph)
+
+
 # ───────────────────────── Videos ─────────────────────────
 VIDS = []
 for v in media_videos or []:
@@ -755,7 +781,7 @@ for y in years:
     ap_final = si.get('rank_final') or meta.get('ap_final_meta')
     story = {'headline': ms.get('headline'), 'text': ms.get('story'), 'moments': ms.get('key_moments') or [], 'honors': ms.get('honors') or [], 'sources': ms.get('sources') or []}
     story = {k: v for k, v in story.items() if v}
-    photos = SEASON_PHOTOS.get(y, [])[:60]
+    photos = (COMMONS_BY_SEASON.get(y, [])[:48] + SEASON_PHOTOS.get(y, []))[:90]
     season_obj = {
         'y': y, 'label': label(y), 'coach': coach, 'conf': confname, 'confShort': conf_short(confname), 'w': w, 'l': l, 'cw': rec_cw, 'cl': rec_cl,
         'confFinish': f"{meta.get('conf_finish')} in {conf_short(confname)}" if meta.get('conf_finish') else None,
@@ -872,7 +898,9 @@ for pid, rows in PLAYER_SEASONS.items():
               'honors': honors, 'draft': draft, 'nba_url': srp.get('nba_url'), 'gamelog': gl, 'nick': bio.get('nicknames'),
               'videos': [v for v in VIDS if any(norm(name) == norm(x) for x in (v.get('players') or []))],
               'photos': []}
-    last_name = norm(name).split(' ')[-1]
+    for ph in COMMONS:
+        if any(norm(x) == norm(name) for x in ph['subjects']) and len(player['photos']) < 24:
+            player['photos'].append(ph)
     for yy in {r['y'] for r in uc_rows}:
         for ph in SEASON_PHOTOS.get(yy, []):
             if ph.get('caption') and norm(name) in norm(ph['caption']) and len(player['photos']) < 24:
@@ -995,12 +1023,9 @@ core = {
 }
 jdump(os.path.join(SITE, 'core.json'), core)
 jdump(os.path.join(SITE, 'games_index.json'), GAMES_INDEX)
-media_photos = []
-if isinstance(media_images, dict):
-    for ph in media_images.get('photos', []) or media_images.get('game_photos', []) or []:
-        if ph.get('url') or ph.get('image_url'):
-            media_photos.append({'url': ph.get('url') or ph.get('image_url'), 'thumb': ph.get('thumb') or ph.get('thumb_url') or ph.get('url'), 'caption': ph.get('description') or ph.get('caption'),
-                                 'credit': ph.get('author'), 'license': ph.get('license'), 'page': ph.get('file_page') or ph.get('page'), 'season': ph.get('season')})
+if legends:
+    jdump(os.path.join(SITE, 'legends.json'), legends)
+media_photos = COMMONS
 jdump(os.path.join(SITE, 'media.json'), {'videos': VIDS, 'photos': media_photos})
 sizes = sum(os.path.getsize(f) for f in glob.glob(os.path.join(SITE, '**', '*.json'), recursive=True))
 print(f"\nplayers={len(PLAYERS)} games_indexed={len(GAMES_INDEX)} opponents={len(OPP)} videos={len(VIDS)} data={sizes / 1e6:.1f} MB")
