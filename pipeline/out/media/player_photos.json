@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30 14:59",
+ "generated": "2026-09-30 15:04",
  "note": "Real photographs only; each image's source page names the player. Hotlink-checked with Referer https://jfrascino.github.io/. Lists are best-first (UConn-era > NBA headshot > other).",
  "players": {
   "richard-hamilton-1": [
@@ -50,6 +50,18 @@
   ],
   "shabazz-napier-1": [
    {
+    "url": "https://uconnhuskies.com/images/2018/6/11/9266891.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/shabazz-napier/1811",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Shabazz Napier — 2013-14 UConn men's basketball roster headshot",
+    "season": "2013-14"
+   },
+   {
     "url": "https://cdn.nba.com/headshots/nba/latest/1040x760/203894.png",
     "kind": "nba-headshot",
     "cutout": true,
@@ -83,15 +95,15 @@
     "caption": "Photo of Shabazz Napier — Basketball-Reference NBA page"
    },
    {
-    "url": "https://uconnhuskies.com/images/2018/6/11/9266891.jpeg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/2025-01-05_ALBA_Berlin_gegen_FC_Bayern_M%C3%BCnchen_%28Basketball-Bundesliga_2024-25%29_by_Sandro_Halank%E2%80%93073.jpg/960px-2025-01-05_ALBA_Berlin_gegen_FC_Bayern_M%C3%BCnchen_%28Basketball-Bundesliga_2024-25%29_by_Sandro_Halank%E2%80%93073.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "kind": "other",
     "cutout": false,
-    "w": 105,
-    "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/9266891.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Shabazz Napier"
+    "w": 960,
+    "h": 1339,
+    "source": "https://commons.wikimedia.org/wiki/File:2025-01-05_ALBA_Berlin_gegen_FC_Bayern_M%C3%BCnchen_(Basketball-Bundesliga_2024-25)_by_Sandro_Halank%E2%80%93073.jpg",
+    "credit": "Sandro Halank, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "caption": "Deutsche Basketball-Bundesliga 2024/25, 15th day of play: ALBA Berlin vs. FC Bayern München (88:81)"
    }
   ],
   "ray-allen-1": [
@@ -164,6 +176,17 @@
     "caption": "Alex Karaban — Sports-Reference college player photo"
    },
    {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Alex_Karaban_White_House_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 144,
+    "h": 194,
+    "source": "https://commons.wikimedia.org/wiki/File:Alex_Karaban_White_House_(cropped).jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "caption": "President Joe Biden greets the University of Connecticut Huskies men’s basketball team and University leadership at a White House event to celebrate their 2022-23 NCAA championship, Friday, May 26, 2023, in the State Dining Room of the White House. (Official White House Photo by Cameron Smith)"
+   },
+   {
     "url": "https://a.espncdn.com/i/headshots/nba/players/full/4917149.png",
     "kind": "nba-headshot",
     "cutout": true,
@@ -223,6 +246,18 @@
   ],
   "ryan-boatright-1": [
    {
+    "url": "https://uconnhuskies.com/images/2018/6/11/10394383.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/ryan-boatright/1790",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Ryan Boatright — 2014-15 UConn men's basketball roster headshot",
+    "season": "2014-15"
+   },
+   {
     "url": "https://www.basketball-reference.com/req/202605210/images/headshots/boatrry01.jpg",
     "kind": "nba-headshot",
     "cutout": false,
@@ -245,18 +280,30 @@
     "caption": "Photo of Ryan Boatright — Basketball-Reference international page"
    },
    {
-    "url": "https://uconnhuskies.com/images/2018/6/11/10394383.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Ryan_Boatright_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "kind": "other",
     "cutout": false,
-    "w": 105,
-    "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/10394383.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Ryan Boatright"
+    "w": 763,
+    "h": 981,
+    "source": "https://commons.wikimedia.org/wiki/File:Ryan_Boatright_(cropped).jpg",
+    "credit": "United States Army",
+    "license": "Public domain",
+    "caption": "Ryan Boatright of the United States at the Albert Schweitzer Basketball Tournament in Mannheim, Germany"
    }
   ],
   "kemba-walker-1": [
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/5893638.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/kemba-walker/1857",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Kemba Walker — 2010-11 UConn men's basketball roster headshot",
+    "season": "2010-11"
+   },
    {
     "url": "https://a.espncdn.com/i/headshots/nba/players/full/6479.png",
     "kind": "nba-headshot",
@@ -280,14 +327,14 @@
     "caption": "Photo of Kemba Walker — Basketball-Reference NBA page"
    },
    {
-    "url": "https://uconnhuskies.com/images/2018/6/11/5893638.jpeg",
-    "kind": "other",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Kemba_Walker_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "pro-other",
     "cutout": false,
-    "w": 105,
-    "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/5893638.jpeg",
-    "credit": "",
-    "license": "",
+    "w": 678,
+    "h": 971,
+    "source": "https://commons.wikimedia.org/wiki/File:Kemba_Walker_2019.jpg",
+    "credit": "Erik Drost",
+    "license": "CC BY 2.0",
     "caption": "Kemba Walker"
    }
   ],
@@ -386,6 +433,17 @@
     "license": "Copyright UConn Athletics (hotlinked)",
     "caption": "Jalen Adams — 2017-18 UConn men's basketball roster headshot",
     "season": "2017-18"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Jalen_Adams_%40_BC_Parma_%282026-03-13%29.jpg/960px-Jalen_Adams_%40_BC_Parma_%282026-03-13%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "other",
+    "cutout": false,
+    "w": 960,
+    "h": 1150,
+    "source": "https://commons.wikimedia.org/wiki/File:Jalen_Adams_@_BC_Parma_(2026-03-13).jpg",
+    "credit": "Vyacheslav Bukharov",
+    "license": "CC BY-SA 4.0",
+    "caption": "Баскетбольный матч регулярного сезона Единой лиги ВТБ Уралмаш (чёрная форма) VS Парма (белая форма), Екатеринбург, ДИВС, 13 марта 2026 года. Джейлен Адамс (№4)."
    }
   ],
   "donyell-marshall-1": [
@@ -425,6 +483,18 @@
   ],
   "jerome-dyson-1": [
    {
+    "url": "https://uconnhuskies.com/images/2018/6/11/3558172.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/jerome-dyson/1862",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Jerome Dyson — 2009-10 UConn men's basketball roster headshot",
+    "season": "2009-10"
+   },
+   {
     "url": "https://a.espncdn.com/i/headshots/nba/players/full/4320.png",
     "kind": "nba-headshot",
     "cutout": true,
@@ -456,20 +526,21 @@
     "credit": "Basketball-Reference.com",
     "license": "Copyright (hotlinked)",
     "caption": "Photo of Jerome Dyson — Basketball-Reference international page"
-   },
-   {
-    "url": "https://uconnhuskies.com/images/2018/6/11/3558172.jpeg",
-    "kind": "other",
-    "cutout": false,
-    "w": 105,
-    "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/3558172.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Jerome Dyson"
    }
   ],
   "jeff-adrien-1": [
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/1745329.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 147,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/jeff-adrien/1873",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Jeff Adrien — 2008-09 UConn men's basketball roster headshot",
+    "season": "2008-09"
+   },
    {
     "url": "https://a.espncdn.com/i/headshots/nba/players/full/4335.png",
     "kind": "nba-headshot",
@@ -493,14 +564,14 @@
     "caption": "Photo of Jeff Adrien — Basketball-Reference NBA page"
    },
    {
-    "url": "https://uconnhuskies.com/images/2018/6/11/1745329.jpeg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Jeff_Adrien.jpg/960px-Jeff_Adrien.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "kind": "other",
     "cutout": false,
-    "w": 105,
-    "h": 147,
-    "source": "https://uconnhuskies.com/images/2018/6/11/1745329.jpeg",
-    "credit": "",
-    "license": "",
+    "w": 960,
+    "h": 960,
+    "source": "https://commons.wikimedia.org/wiki/File:Jeff_Adrien.jpg",
+    "credit": "Dotan Doron",
+    "license": "CC BY-SA 4.0",
     "caption": "Jeff Adrien"
    }
   ],
@@ -628,6 +699,29 @@
   ],
   "rodney-purvis-1": [
    {
+    "url": "https://uconnhuskies.com/images/2018/6/11/12138460.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/rodney-purvis/1772",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Rodney Purvis — 2016-17 UConn men's basketball roster headshot",
+    "season": "2016-17"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Rodney_Purvis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 533,
+    "h": 799,
+    "source": "https://commons.wikimedia.org/wiki/File:Rodney_Purvis.jpg",
+    "credit": "Dennis Adair",
+    "license": "CC BY-SA 2.0",
+    "caption": "UCON vs Florida Gators 2015/01/03"
+   },
+   {
     "url": "https://www.basketball-reference.com/req/202605210/images/headshots/purviro01.jpg",
     "kind": "nba-headshot",
     "cutout": false,
@@ -637,20 +731,21 @@
     "credit": "Basketball-Reference.com",
     "license": "Copyright (hotlinked)",
     "caption": "Photo of Rodney Purvis — Basketball-Reference NBA page"
-   },
-   {
-    "url": "https://uconnhuskies.com/images/2018/6/11/12138460.jpeg",
-    "kind": "other",
-    "cutout": false,
-    "w": 105,
-    "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/12138460.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Rodney Purvis"
    }
   ],
   "aj-price-1": [
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/1745379.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 147,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/aj-price/1884",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "A.J. Price — 2008-09 UConn men's basketball roster headshot",
+    "season": "2008-09"
+   },
    {
     "url": "https://a.espncdn.com/i/headshots/nba/players/full/4010.png",
     "kind": "nba-headshot",
@@ -672,17 +767,6 @@
     "credit": "Basketball-Reference.com",
     "license": "Copyright (hotlinked)",
     "caption": "Photo of A.J. Price — Basketball-Reference NBA page"
-   },
-   {
-    "url": "https://uconnhuskies.com/images/2018/6/11/1745379.jpeg",
-    "kind": "other",
-    "cutout": false,
-    "w": 105,
-    "h": 147,
-    "source": "https://uconnhuskies.com/images/2018/6/11/1745379.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "A.J. Price"
    }
   ],
   "adama-sanogo-1": [
@@ -707,6 +791,17 @@
     "credit": "Sports-Reference.com",
     "license": "Copyright (hotlinked)",
     "caption": "Adama Sanogo — Sports-Reference college player photo"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Adama_Sanogo_White_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 742,
+    "h": 1017,
+    "source": "https://commons.wikimedia.org/wiki/File:Adama_Sanogo_White_House.jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "caption": "University of Connecticut Huskies men’s basketball team captains Andre Jackson Jr. and Adama Sanogo present President Joe Biden with a commemorative jersey at an event celebrating the team’s 2022-23 NCAA championship, Friday, May 26, 2023, in the East Room of the White House. (Official White House Photo by Adam Schultz)"
    },
    {
     "url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641766.png",
@@ -744,6 +839,18 @@
   ],
   "stanley-robinson-1": [
    {
+    "url": "https://uconnhuskies.com/images/2018/6/11/3558208.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/stanley-robinson/1869",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Stanley Robinson — 2009-10 UConn men's basketball roster headshot",
+    "season": "2009-10"
+   },
+   {
     "url": "https://a.espncdn.com/i/headshots/nba/players/full/4255.png",
     "kind": "nba-headshot",
     "cutout": true,
@@ -753,17 +860,6 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Stanley Robinson ESPN NBA headshot"
-   },
-   {
-    "url": "https://uconnhuskies.com/images/2018/6/11/3558208.jpeg",
-    "kind": "other",
-    "cutout": false,
-    "w": 105,
-    "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/3558208.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Stanley Robinson"
    }
   ],
   "rod-sellers-1": [
@@ -836,6 +932,17 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Solo Ball UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Solo_Ball.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 161,
+    "h": 208,
+    "source": "https://commons.wikimedia.org/wiki/File:Solo_Ball.jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "caption": "Solo Ball at the White House in 2024"
    }
   ],
   "brian-fair-1": [
@@ -899,6 +1006,18 @@
   ],
   "jeremy-lamb-1": [
    {
+    "url": "https://uconnhuskies.com/images/2018/6/11/6994203.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/jeremy-lamb/1837",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Jeremy Lamb — 2011-12 UConn men's basketball roster headshot",
+    "season": "2011-12"
+   },
+   {
     "url": "https://a.espncdn.com/i/headshots/nba/players/full/6603.png",
     "kind": "nba-headshot",
     "cutout": true,
@@ -921,14 +1040,14 @@
     "caption": "Photo of Jeremy Lamb — Basketball-Reference NBA page"
    },
    {
-    "url": "https://uconnhuskies.com/images/2018/6/11/6994203.jpeg",
-    "kind": "other",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jeremy_Lamb_2019.jpg/960px-Jeremy_Lamb_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "pro-other",
     "cutout": false,
-    "w": 105,
-    "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/6994203.jpeg",
-    "credit": "",
-    "license": "",
+    "w": 960,
+    "h": 1297,
+    "source": "https://commons.wikimedia.org/wiki/File:Jeremy_Lamb_2019.jpg",
+    "credit": "Erik Drost",
+    "license": "CC BY 2.0",
     "caption": "Jeremy Lamb"
    }
   ],
@@ -980,6 +1099,18 @@
   ],
   "hasheem-thabeet-1": [
    {
+    "url": "https://uconnhuskies.com/images/2018/6/11/1745408.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 147,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/hasheem-thabeet/1886",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Hasheem Thabeet — 2008-09 UConn men's basketball roster headshot",
+    "season": "2008-09"
+   },
+   {
     "url": "https://a.espncdn.com/i/headshots/nba/players/full/4016.png",
     "kind": "nba-headshot",
     "cutout": true,
@@ -1002,15 +1133,15 @@
     "caption": "Photo of Hasheem Thabeet — Basketball-Reference NBA page"
    },
    {
-    "url": "https://uconnhuskies.com/images/2018/6/11/1745408.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Hasheem_Thabeet_basketball_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "kind": "other",
     "cutout": false,
-    "w": 105,
-    "h": 147,
-    "source": "https://uconnhuskies.com/images/2018/6/11/1745408.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Hasheem Thabeet"
+    "w": 888,
+    "h": 1173,
+    "source": "https://commons.wikimedia.org/wiki/File:Hasheem_Thabeet_basketball_(cropped).jpg",
+    "credit": "Paulou",
+    "license": "CC BY-SA 4.0",
+    "caption": "Hasheem Thabeet, Hsinchu JKO Lioneers, P.League+ in Taiwan"
    }
   ],
   "tristen-newton-1": [
@@ -1024,6 +1155,17 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Tristen Newton UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Tristen_Newtown_White_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 202,
+    "h": 304,
+    "source": "https://commons.wikimedia.org/wiki/File:Tristen_Newtown_White_House.jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "caption": "President Joe Biden greets the University of Connecticut Huskies men’s basketball team and University leadership at a White House event to celebrate their 2022-23 NCAA championship, Friday, May 26, 2023, in the State Dining Room of the White House. (Official White House Photo by Cameron Smith)"
    },
    {
     "url": "https://a.espncdn.com/i/headshots/nba/players/full/4592965.png",
@@ -1108,14 +1250,26 @@
   "deandre-daniels-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/9266868.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/9266868.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "DeAndre Daniels"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/deandre-daniels/1806",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "DeAndre Daniels — 2013-14 UConn men's basketball roster headshot",
+    "season": "2013-14"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/DeAndre_Daniels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 229,
+    "h": 396,
+    "source": "https://commons.wikimedia.org/wiki/File:DeAndre_Daniels.jpg",
+    "credit": "U.S. Air Force photo/Master Sgt. Wayne Clark",
+    "license": "Public domain",
+    "caption": "University of Connecticut player Ryan Boatright dunks the ball against the Michigan State Spartans during t the Armed Forces Classic basketball game at Ramstein Air Base, Germany, Nov. 10, 2012. Connecticut overcame Michigan 66-62. (U.S. Air Force photo/MSgt Wayne Clark) (Released) (U.S. Air Force photo/MSgt Wayne Clark, AFNE Regional News Bureau)(Released)"
    }
   ],
   "john-gwynn-1": [
@@ -1228,6 +1382,29 @@
   ],
   "amida-brimah-1": [
    {
+    "url": "https://uconnhuskies.com/images/2018/6/11/12138417.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/amida-brimah/1761",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Amida Brimah — 2016-17 UConn men's basketball roster headshot",
+    "season": "2016-17"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Amida_Brimah_2.jpg/330px-Amida_Brimah_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 330,
+    "h": 465,
+    "source": "https://commons.wikimedia.org/wiki/File:Amida_Brimah_2.jpg",
+    "credit": "Dennis Adair",
+    "license": "CC BY-SA 2.0",
+    "caption": "UCONN vs Florida Gators 2015/01/03"
+   },
+   {
     "url": "https://a.espncdn.com/i/headshots/nba/players/full/3074748.png",
     "kind": "nba-headshot",
     "cutout": true,
@@ -1248,17 +1425,6 @@
     "credit": "Basketball-Reference.com",
     "license": "Copyright (hotlinked)",
     "caption": "Photo of Amida Brimah — Basketball-Reference NBA page"
-   },
-   {
-    "url": "https://uconnhuskies.com/images/2018/6/11/12138417.jpeg",
-    "kind": "other",
-    "cutout": false,
-    "w": 105,
-    "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/12138417.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Amida Brimah"
    }
   ],
   "rudy-gay-1": [
@@ -1380,6 +1546,17 @@
     "caption": "Tarris Reed UConn headshot (ESPN)"
    },
    {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Tarris_Reed.jpg/960px-Tarris_Reed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 960,
+    "h": 2014,
+    "source": "https://commons.wikimedia.org/wiki/File:Tarris_Reed.jpg",
+    "credit": "MGoBlog",
+    "license": "CC BY 4.0",
+    "caption": "Michigan v. UConn"
+   },
+   {
     "url": "https://cdn.nba.com/headshots/nba/latest/1040x760/1643542.png",
     "kind": "nba-headshot",
     "cutout": true,
@@ -1415,6 +1592,18 @@
   ],
   "daniel-hamilton-1": [
    {
+    "url": "https://uconnhuskies.com/images/2018/6/11/11357515.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/daniel-hamilton/1783",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Daniel Hamilton — 2015-16 UConn men's basketball roster headshot",
+    "season": "2015-16"
+   },
+   {
     "url": "https://a.espncdn.com/i/headshots/nba/players/full/3147351.png",
     "kind": "nba-headshot",
     "cutout": true,
@@ -1435,30 +1624,6 @@
     "credit": "Basketball-Reference.com",
     "license": "Copyright (hotlinked)",
     "caption": "Photo of Daniel Hamilton — Basketball-Reference NBA page"
-   },
-   {
-    "url": "https://uconnhuskies.com/images/2018/6/11/11357515.jpeg",
-    "kind": "other",
-    "cutout": false,
-    "w": 105,
-    "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/11357515.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Daniel Hamilton"
-   }
-  ],
-  "kevin-ollie-1": [
-   {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Kevin_Ollie_140507-D-HU462-369_%28cropped%29.jpg/960px-Kevin_Ollie_140507-D-HU462-369_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "kind": "uconn-action",
-    "cutout": false,
-    "w": 960,
-    "h": 1414,
-    "source": "https://commons.wikimedia.org/wiki/File:Kevin_Ollie_140507-D-HU462-369_(cropped).jpg",
-    "credit": "Chairman of the Joint Chiefs of Staff",
-    "license": "Public domain",
-    "caption": "Kevin Ollie, Connecticut Huskies men's basketball head coach, speaking at the Sports Leadership Seminar at the Pentagon, May 2014"
    }
   ],
   "rj-cole-1": [
@@ -1472,6 +1637,17 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "R.J. Cole UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/R._J._Cole_1_Reyer_Venezia_EuroCup_20251008_%289%29.jpg/960px-R._J._Cole_1_Reyer_Venezia_EuroCup_20251008_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "other",
+    "cutout": false,
+    "w": 960,
+    "h": 1440,
+    "source": "https://commons.wikimedia.org/wiki/File:R._J._Cole_1_Reyer_Venezia_EuroCup_20251008_(9).jpg",
+    "credit": "Zafer",
+    "license": "CC BY 4.0",
+    "caption": "R. J. Cole 1 Reyer Venezia EuroCup 20251008"
    },
    {
     "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/rj-cole-1.jpg",
@@ -1488,27 +1664,40 @@
   "alex-oriakhi-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/6994285.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/6994285.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Alex Oriakhi"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/alex-oriakhi/1840",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Alex Oriakhi — 2011-12 UConn men's basketball roster headshot",
+    "season": "2011-12"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Alex_Oriakhi_2011_%28cropped%29.jpg/960px-Alex_Oriakhi_2011_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "other",
+    "cutout": false,
+    "w": 960,
+    "h": 1489,
+    "source": "https://commons.wikimedia.org/wiki/File:Alex_Oriakhi_2011_(cropped).jpg",
+    "credit": "L. Manzari",
+    "license": "CC BY 2.0",
+    "caption": "Photo credit: Laura Manzari"
    }
   ],
   "craig-austrie-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/1745335.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 147,
-    "source": "https://uconnhuskies.com/images/2018/6/11/1745335.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Craig Austrie"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/craig-austrie/1874",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Craig Austrie — 2008-09 UConn men's basketball roster headshot",
+    "season": "2008-09"
    }
   ],
   "edmund-saunders-1": [
@@ -1560,6 +1749,17 @@
     "caption": "Jordan Hawkins — Sports-Reference college player photo"
    },
    {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Jordan_Hawkins_White_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 183,
+    "h": 347,
+    "source": "https://commons.wikimedia.org/wiki/File:Jordan_Hawkins_White_House.jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "caption": "President Joe Biden greets the University of Connecticut Huskies men’s basketball team and University leadership at a White House event to celebrate their 2022-23 NCAA championship, Friday, May 26, 2023, in the State Dining Room of the White House. (Official White House Photo by Cameron Smith)"
+   },
+   {
     "url": "https://a.espncdn.com/i/headshots/nba/players/full/4683750.png",
     "kind": "nba-headshot",
     "cutout": true,
@@ -1585,14 +1785,15 @@
   "omar-calhoun-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/10394199.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/10394199.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Omar Calhoun"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/omar-calhoun/1777",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Omar Calhoun — 2015-16 UConn men's basketball roster headshot",
+    "season": "2015-16"
    }
   ],
   "josh-carlton-1": [
@@ -1677,6 +1878,17 @@
     "credit": "Sports-Reference.com",
     "license": "Copyright (hotlinked)",
     "caption": "Donovan Clingan — Sports-Reference college player photo"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Donovan_Clingan_White_House_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 188,
+    "h": 254,
+    "source": "https://commons.wikimedia.org/wiki/File:Donovan_Clingan_White_House_(cropped).jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "caption": "President Joe Biden greets the University of Connecticut Huskies men’s basketball team and University leadership at a White House event to celebrate their 2022-23 NCAA championship, Friday, May 26, 2023, in the State Dining Room of the White House. (Official White House Photo by Cameron Smith)"
    },
    {
     "url": "https://a.espncdn.com/i/headshots/nba/players/full/5105565.png",
@@ -1840,6 +2052,17 @@
     "credit": "Basketball-Reference.com",
     "license": "Copyright (hotlinked)",
     "caption": "Photo of Isaiah Whaley — Basketball-Reference NBA page"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Isaiah_Whaley_5_Tofa%C5%9F_SK_TBSL_20251031_%283%29_%28cropped%29.jpg/960px-Isaiah_Whaley_5_Tofa%C5%9F_SK_TBSL_20251031_%283%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "other",
+    "cutout": false,
+    "w": 960,
+    "h": 1391,
+    "source": "https://commons.wikimedia.org/wiki/File:Isaiah_Whaley_5_Tofa%C5%9F_SK_TBSL_20251031_(3)_(cropped).jpg",
+    "credit": "Zafer",
+    "license": "CC BY 4.0",
+    "caption": "Isaiah Whaley 5 Tofaş SK TBSL 20251031"
    }
   ],
   "alterique-gilbert-1": [
@@ -1889,6 +2112,17 @@
     "license": "Copyright UConn Athletics (hotlinked)",
     "caption": "Alterique Gilbert — 2017-18 UConn men's basketball roster headshot",
     "season": "2017-18"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/20160330_MCDAAG_Alterique_Gilbert_with_the_ball.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "other",
+    "cutout": false,
+    "w": 890,
+    "h": 1335,
+    "source": "https://commons.wikimedia.org/wiki/File:20160330_MCDAAG_Alterique_Gilbert_with_the_ball.jpg",
+    "credit": "TonyTheTiger",
+    "license": "CC BY-SA 4.0",
+    "caption": "w:Alterique Gilbert at the w:2016 McDonald's All-American Boys Game"
    },
    {
     "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/alterique-gilbert-1.jpg",
@@ -1973,6 +2207,18 @@
   ],
   "niels-giffey-1": [
    {
+    "url": "https://uconnhuskies.com/images/2018/6/11/9266881.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/niels-giffey/1808",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Niels Giffey — 2013-14 UConn men's basketball roster headshot",
+    "season": "2013-14"
+   },
+   {
     "url": "https://www.basketball-reference.com/req/202605210/images/headshots/niels-giffey-1.jpg",
     "kind": "pro-other",
     "cutout": false,
@@ -1984,28 +2230,40 @@
     "caption": "Photo of Niels Giffey — Basketball-Reference international page"
    },
    {
-    "url": "https://uconnhuskies.com/images/2018/6/11/9266881.jpeg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/2025-01-05_ALBA_Berlin_gegen_FC_Bayern_M%C3%BCnchen_%28Basketball-Bundesliga_2024-25%29_by_Sandro_Halank%E2%80%93012.jpg/960px-2025-01-05_ALBA_Berlin_gegen_FC_Bayern_M%C3%BCnchen_%28Basketball-Bundesliga_2024-25%29_by_Sandro_Halank%E2%80%93012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "kind": "other",
     "cutout": false,
-    "w": 105,
-    "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/9266881.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Niels Giffey"
+    "w": 960,
+    "h": 1465,
+    "source": "https://commons.wikimedia.org/wiki/File:2025-01-05_ALBA_Berlin_gegen_FC_Bayern_M%C3%BCnchen_(Basketball-Bundesliga_2024-25)_by_Sandro_Halank%E2%80%93012.jpg",
+    "credit": "Sandro Halank, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "caption": "Deutsche Basketball-Bundesliga 2024/25, 15th day of play: ALBA Berlin vs. FC Bayern München (88:81)"
    }
   ],
   "gavin-edwards-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/3558175.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/3558175.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Gavin Edwards"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/gavin-edwards/1863",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Gavin Edwards — 2009-10 UConn men's basketball roster headshot",
+    "season": "2009-10"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Gavin_Edwards_%28cropped%29.jpg/960px-Gavin_Edwards_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "other",
+    "cutout": false,
+    "w": 960,
+    "h": 1414,
+    "source": "https://commons.wikimedia.org/wiki/File:Gavin_Edwards_(cropped).jpg",
+    "credit": "Shuhei S from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "caption": "B League Early Cup 2018 Kanto"
    }
   ],
   "marcus-williams-1": [
@@ -2078,6 +2336,17 @@
     "caption": "Photo of Tyrese Martin — Basketball-Reference NBA page"
    },
    {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Tyrese_Martin_Barcelona_2026_%28cropped%29.jpg/960px-Tyrese_Martin_Barcelona_2026_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "other",
+    "cutout": false,
+    "w": 960,
+    "h": 1248,
+    "source": "https://commons.wikimedia.org/wiki/File:Tyrese_Martin_Barcelona_2026_(cropped).jpg",
+    "credit": "basquetcatala",
+    "license": "Public domain",
+    "caption": "Tyrese Martin with FC Barcelona in 2026"
+   },
+   {
     "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/tyrese-martin-1.jpg",
     "kind": "other",
     "cutout": false,
@@ -2137,6 +2406,17 @@
     "caption": "Hassan Diarra UConn headshot (ESPN)"
    },
    {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Diarra_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 223,
+    "h": 320,
+    "source": "https://commons.wikimedia.org/wiki/File:Diarra_2023.jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "caption": "President Joe Biden looks on as Head Coach Dan Hurley delivers remarks at an event to celebrate the University of Connecticut Huskies men’s basketball team’s 2022-23 NCAA championship, Friday, May 26, 2023, in the East Room of the White House. (Official White House Photo by Adam Schultz)"
+   },
+   {
     "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/hassan-diarra-1.jpg",
     "kind": "other",
     "cutout": false,
@@ -2159,6 +2439,17 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Cam Spencer UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/SpencerWH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 122,
+    "h": 179,
+    "source": "https://commons.wikimedia.org/wiki/File:SpencerWH.jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "caption": "President Joe Biden delivers remarks at an event celebrating the 2023-2024 NCAA Champion University of Connecticut Huskies men’s basketball team, Tuesday, September 10, 2024, in the East Room of the White House. (Official White House Photo by Adam Schultz)"
    },
    {
     "url": "https://a.espncdn.com/i/headshots/nba/players/full/4433083.png",
@@ -2197,14 +2488,26 @@
   "kentan-facey-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/12138423.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/12138423.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Kentan Facey"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/kentan-facey/1765",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Kentan Facey — 2016-17 UConn men's basketball roster headshot",
+    "season": "2016-17"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Kentan_Facey.jpg/500px-Kentan_Facey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 500,
+    "h": 750,
+    "source": "https://commons.wikimedia.org/wiki/File:Kentan_Facey.jpg",
+    "credit": "Dennis Adair",
+    "license": "CC BY-SA 2.0",
+    "caption": "UCONN vs Florida Gators 2015/01/03"
    }
   ],
   "andre-jackson-8": [
@@ -2286,6 +2589,17 @@
     "credit": "Sports-Reference.com",
     "license": "Copyright (hotlinked)",
     "caption": "Samson Johnson — Sports-Reference college player photo"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Samson_Johnson_White_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 216,
+    "h": 245,
+    "source": "https://commons.wikimedia.org/wiki/File:Samson_Johnson_White_House.jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "caption": "President Joe Biden greets the University of Connecticut Huskies men’s basketball team and University leadership at a White House event to celebrate their 2022-23 NCAA championship, Friday, May 26, 2023, in the State Dining Room of the White House. (Official White House Photo by Cameron Smith)"
    }
   ],
   "murray-williams-1": [
@@ -2304,14 +2618,26 @@
   "terry-larrier-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/12855536.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/12855536.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Terry Larrier"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/terry-larrier/1769",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Terry Larrier — 2016-17 UConn men's basketball roster headshot",
+    "season": "2016-17"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Terry_Larrier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "other",
+    "cutout": false,
+    "w": 201,
+    "h": 312,
+    "source": "https://commons.wikimedia.org/wiki/File:Terry_Larrier.jpg",
+    "credit": "Jeff Horne",
+    "license": "CC BY 2.0",
+    "caption": "VCU vs. ODU basketball"
    }
   ],
   "rudy-johnson-1": [
@@ -2343,27 +2669,40 @@
   "shonn-miller-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/11357500.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/11357500.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Shonn Miller"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/shonn-miller/1785",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Shonn Miller — 2015-16 UConn men's basketball roster headshot",
+    "season": "2015-16"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Shonn_Miller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "other",
+    "cutout": false,
+    "w": 728,
+    "h": 890,
+    "source": "https://commons.wikimedia.org/wiki/File:Shonn_Miller.jpg",
+    "credit": "slgckgc",
+    "license": "CC BY 2.0",
+    "caption": "Opening Tipoff Cornell v. Columbia in 2015"
    }
   ],
   "sterling-gibbs-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/11357496.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/11357496.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Sterling Gibbs"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/sterling-gibbs/1782",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Sterling Gibbs — 2015-16 UConn men's basketball roster headshot",
+    "season": "2015-16"
    }
   ],
   "nadav-henefeld-1": [
@@ -2406,14 +2745,15 @@
   "doug-wiggins-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/1745412.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 147,
-    "source": "https://uconnhuskies.com/images/2018/6/11/1745412.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Doug Wiggins"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/doug-wiggins/1905",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Doug Wiggins — 2006-07 UConn men's basketball roster headshot",
+    "season": "2006-07"
    }
   ],
   "jaylin-stewart-3": [
@@ -2438,19 +2778,56 @@
     "credit": "Sports-Reference.com",
     "license": "Copyright (hotlinked)",
     "caption": "Jaylin Stewart — Sports-Reference college player photo"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Jaylin_Stewart.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 139,
+    "h": 221,
+    "source": "https://commons.wikimedia.org/wiki/File:Jaylin_Stewart.jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "caption": "Jaylin Stewart at the White House in 2024"
+   }
+  ],
+  "lyman-depriest-1": [
+   {
+    "url": "https://i.ebayimg.com/images/g/fQ0AAeSwEstqs~8~/s-l1600.jpg",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 540,
+    "h": 760,
+    "source": "https://www.ebay.com/itm/336809174022",
+    "credit": "Photo: William Breadheft; 1990-91 UConn Huskies team-issue card (Petro Pantry / Citgo / WTIC 1080)",
+    "license": "Copyright card issuer/photographer (hotlinked eBay listing image, COMC scan)",
+    "caption": "Lyman DePriest (#23, senior forward) going up for a dunk, front of his 1990-91 UConn Huskies team-issue card [crop: photo window inside the navy card frame]",
+    "crop": "photo window inside the navy card frame"
    }
   ],
   "roscoe-smith-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/6994290.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/6994290.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Roscoe Smith"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/roscoe-smith/1841",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Roscoe Smith — 2011-12 UConn men's basketball roster headshot",
+    "season": "2011-12"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Roscoe_Smith.jpg/960px-Roscoe_Smith.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "other",
+    "cutout": false,
+    "w": 960,
+    "h": 945,
+    "source": "https://commons.wikimedia.org/wiki/File:Roscoe_Smith.jpg",
+    "credit": "Bryan Horowitz",
+    "license": "CC BY-SA 2.0",
+    "caption": "Roscoe Smith in high school"
    }
   ],
   "braylon-mullins-1": [
@@ -2475,6 +2852,17 @@
     "credit": "Sports-Reference.com",
     "license": "Copyright (hotlinked)",
     "caption": "Braylon Mullins — Sports-Reference college player photo"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Braylon_Mullins.jpg/960px-Braylon_Mullins.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 960,
+    "h": 1199,
+    "source": "https://commons.wikimedia.org/wiki/File:Braylon_Mullins.jpg",
+    "credit": "MGoBlog",
+    "license": "CC BY 4.0",
+    "caption": "Michigan v. UConn"
    }
   ],
   "silas-demary-jr-2": [
@@ -2488,6 +2876,17 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Silas Demary Jr. UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Silas_Demary_Jr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "other",
+    "cutout": false,
+    "w": 484,
+    "h": 544,
+    "source": "https://commons.wikimedia.org/wiki/File:Silas_Demary_Jr.jpg",
+    "credit": "TarheelBornBred",
+    "license": "CC0",
+    "caption": "Silas Demary Jr. in 2024"
    },
    {
     "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/silas-demary-jr-2.jpg",
@@ -2597,17 +2996,32 @@
     "caption": "Jalen Gaffney — Sports-Reference college player photo"
    }
   ],
+  "toraino-walker-1": [
+   {
+    "url": "https://i.ebayimg.com/images/g/TJwAAeSwkUhqqDum/s-l1600.jpg",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 540,
+    "h": 760,
+    "source": "https://www.ebay.com/itm/336793741515",
+    "credit": "Photo: William Breadheft; 1990-91 UConn Huskies team-issue card (Petro Pantry / Citgo / WTIC 1080)",
+    "license": "Copyright card issuer/photographer (hotlinked eBay listing image, COMC scan)",
+    "caption": "Toraino Walker (#42, sophomore forward) battling for a rebound, front of his 1990-91 UConn Huskies team-issue card [crop: right side of photo window - Walker is the UConn player in white #42; left player (#21, dark uniform) is an opponent]",
+    "crop": "right side of photo window - Walker is the UConn player in white #42; left player (#21, dark uniform) is an opponent"
+   }
+  ],
   "tyler-olander-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/8104136.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/8104136.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Tyler Olander"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/tyler-olander/1813",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Tyler Olander — 2013-14 UConn men's basketball roster headshot",
+    "season": "2013-14"
    }
   ],
   "brendan-adams-1": [
@@ -2645,6 +3059,17 @@
     "license": "Copyright UConn Athletics (hotlinked)",
     "caption": "Brendan Adams — 2019-20 UConn men's basketball roster headshot",
     "season": "2019-20"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Brendan_Adams_%40_BC_Parma_%282015-12-21%29_-_0_1.jpg/960px-Brendan_Adams_%40_BC_Parma_%282015-12-21%29_-_0_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "other",
+    "cutout": false,
+    "w": 960,
+    "h": 1271,
+    "source": "https://commons.wikimedia.org/wiki/File:Brendan_Adams_@_BC_Parma_(2015-12-21)_-_0_1.jpg",
+    "credit": "Vyacheslav Bukharov",
+    "license": "CC BY-SA 4.0",
+    "caption": "Баскетбольный матч регулярного сезона Единой лиги ВТБ Уралмаш (чёрная форма) VS Парма (белая форма), Екатеринбург, ДИВС, 21 декабря 2025 года. Брендан Адамс (№2)."
    },
    {
     "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/brendan-adams-1.jpg",
@@ -2691,6 +3116,17 @@
     "credit": "Basketball-Reference.com",
     "license": "Copyright (hotlinked)",
     "caption": "Photo of Stephon Castle — Basketball-Reference NBA page"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Stephon_Castle_in_2026_Western_Conference_Finals_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "other",
+    "cutout": false,
+    "w": 464,
+    "h": 619,
+    "source": "https://commons.wikimedia.org/wiki/File:Stephon_Castle_in_2026_Western_Conference_Finals_(cropped).jpg",
+    "credit": "Petsbikes",
+    "license": "CC BY-SA 4.0",
+    "caption": "Stephon Castle in 2026 Western Conference Finals"
    }
   ],
   "steve-pikiell-1": [
@@ -2731,27 +3167,62 @@
   "jamal-coombs-mcdaniel-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/5893621.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/5893621.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Jamal Coombs-McDaniel"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/jamal-coombsmcdaniel/1848",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Jamal Coombs-McDaniel — 2010-11 UConn men's basketball roster headshot",
+    "season": "2010-11"
    }
   ],
   "andre-drummond-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/6994189.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/6994189.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Andre Drummond"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/andre-drummond/1835",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Andre Drummond — 2011-12 UConn men's basketball roster headshot",
+    "season": "2011-12"
+   },
+   {
+    "url": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png",
+    "kind": "nba-headshot",
+    "cutout": true,
+    "w": 600,
+    "h": 436,
+    "source": "https://www.espn.com/nba/player/_/id/6585",
+    "credit": "ESPN",
+    "license": "Copyright ESPN (hotlinked)",
+    "caption": "Andre Drummond ESPN NBA headshot"
+   },
+   {
+    "url": "https://www.basketball-reference.com/req/202605210/images/headshots/drumman01.jpg",
+    "kind": "nba-headshot",
+    "cutout": false,
+    "w": 120,
+    "h": 180,
+    "source": "https://www.basketball-reference.com/players/d/drumman01.html",
+    "credit": "Basketball-Reference.com",
+    "license": "Copyright (hotlinked)",
+    "caption": "Photo of Andre Drummond — Basketball-Reference NBA page"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/1_andre_drummond_2026.jpg/960px-1_andre_drummond_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "pro-other",
+    "cutout": false,
+    "w": 960,
+    "h": 1112,
+    "source": "https://commons.wikimedia.org/wiki/File:1_andre_drummond_2026.jpg",
+    "credit": "Chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "caption": "andre drummond 76ers 2026"
    }
   ],
   "dan-cyrulik-1": [
@@ -2818,14 +3289,26 @@
   "phillip-nolan-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/11357503.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/11357503.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Phillip Nolan"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/phillip-nolan/1786",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Phillip Nolan — 2015-16 UConn men's basketball roster headshot",
+    "season": "2015-16"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Phillip_Nolan.jpg/500px-Phillip_Nolan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 500,
+    "h": 750,
+    "source": "https://commons.wikimedia.org/wiki/File:Phillip_Nolan.jpg",
+    "credit": "Dennis Adair",
+    "license": "CC BY-SA 2.0",
+    "caption": "UCON vs Florida Gators 2015/01/03"
    }
   ],
   "jayden-ross-2": [
@@ -2839,6 +3322,17 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Jayden Ross UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/jayden-ross-2.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 120,
+    "h": 180,
+    "source": "https://www.sports-reference.com/cbb/players/jayden-ross-2.html",
+    "credit": "Sports-Reference.com",
+    "license": "Copyright (hotlinked)",
+    "caption": "Jayden Ross — Sports-Reference college player photo"
    }
   ],
   "tarin-smith-1": [
@@ -2889,6 +3383,17 @@
     "license": "Copyright UConn Athletics (hotlinked)",
     "caption": "Vance Jackson — 2016-17 UConn men's basketball roster headshot",
     "season": "2016-17"
+   },
+   {
+    "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/vance-jackson-1.jpg",
+    "kind": "other",
+    "cutout": false,
+    "w": 120,
+    "h": 180,
+    "source": "https://www.sports-reference.com/cbb/players/vance-jackson-1.html",
+    "credit": "Sports-Reference.com",
+    "license": "Copyright (hotlinked)",
+    "caption": "Vance Jackson — Sports-Reference college player photo"
    }
   ],
   "marcus-johnson-2": [
@@ -2907,14 +3412,15 @@
   "lasan-kromah-2": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/9266885.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/9266885.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Lasan Kromah"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/lasan-kromah/1809",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Lasan Kromah — 2013-14 UConn men's basketball roster headshot",
+    "season": "2013-14"
    }
   ],
   "eric-reibe-1": [
@@ -2928,6 +3434,28 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Eric Reibe UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/eric-reibe-1.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 120,
+    "h": 180,
+    "source": "https://www.sports-reference.com/cbb/players/eric-reibe-1.html",
+    "credit": "Sports-Reference.com",
+    "license": "Copyright (hotlinked)",
+    "caption": "Eric Reibe — Sports-Reference college player photo"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Eric_Reibe.jpg/960px-Eric_Reibe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 960,
+    "h": 1444,
+    "source": "https://commons.wikimedia.org/wiki/File:Eric_Reibe.jpg",
+    "credit": "MGoBlog",
+    "license": "CC BY 4.0",
+    "caption": "Michigan v. UConn"
    }
   ],
   "akok-akok-1": [
@@ -2953,6 +3481,17 @@
     "license": "Copyright UConn Athletics (hotlinked)",
     "caption": "Akok Akok — 2019-20 UConn men's basketball roster headshot",
     "season": "2019-20"
+   },
+   {
+    "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/akok-akok-1.jpg",
+    "kind": "other",
+    "cutout": false,
+    "w": 120,
+    "h": 180,
+    "source": "https://www.sports-reference.com/cbb/players/akok-akok-1.html",
+    "credit": "Sports-Reference.com",
+    "license": "Copyright (hotlinked)",
+    "caption": "Akok Akok — Sports-Reference college player photo"
    }
   ],
   "joey-calcaterra-1": [
@@ -2966,6 +3505,28 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Joey Calcaterra UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Joey_Calcaterra_White_House_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 132,
+    "h": 179,
+    "source": "https://commons.wikimedia.org/wiki/File:Joey_Calcaterra_White_House_(cropped).jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "caption": "President Joe Biden greets the University of Connecticut Huskies men’s basketball team and University leadership at a White House event to celebrate their 2022-23 NCAA championship, Friday, May 26, 2023, in the State Dining Room of the White House. (Official White House Photo by Cameron Smith)"
+   },
+   {
+    "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/joey-calcaterra-1.jpg",
+    "kind": "other",
+    "cutout": false,
+    "w": 120,
+    "h": 180,
+    "source": "https://www.sports-reference.com/cbb/players/joey-calcaterra-1.html",
+    "credit": "Sports-Reference.com",
+    "license": "Copyright (hotlinked)",
+    "caption": "Joey Calcaterra — Sports-Reference college player photo"
    }
   ],
   "robert-ursery-1": [
@@ -2992,19 +3553,53 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Nahiem Alleyne UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Nahiem_alleyne_White_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 134,
+    "h": 156,
+    "source": "https://commons.wikimedia.org/wiki/File:Nahiem_alleyne_White_House.jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "caption": "President Joe Biden greets the University of Connecticut Huskies men’s basketball team and University leadership at a White House event to celebrate their 2022-23 NCAA championship, Friday, May 26, 2023, in the State Dining Room of the White House. (Official White House Photo by Cameron Smith)"
+   },
+   {
+    "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/nahiem-alleyne-1.jpg",
+    "kind": "other",
+    "cutout": false,
+    "w": 120,
+    "h": 180,
+    "source": "https://www.sports-reference.com/cbb/players/nahiem-alleyne-1.html",
+    "credit": "Sports-Reference.com",
+    "license": "Copyright (hotlinked)",
+    "caption": "Nahiem Alleyne — Sports-Reference college player photo"
    }
   ],
   "terrence-samuel-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/10394270.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/10394270.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Terrence Samuel"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/terrence-samuel/1802",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Terrence Samuel — 2014-15 UConn men's basketball roster headshot",
+    "season": "2014-15"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Terrence_Samuel.jpg/330px-Terrence_Samuel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 330,
+    "h": 467,
+    "source": "https://commons.wikimedia.org/wiki/File:Terrence_Samuel.jpg",
+    "credit": "Dennis Adair",
+    "license": "CC BY-SA 2.0",
+    "caption": "UCON vs Florida Gators 2015/01/03"
    }
   ],
   "sidney-wilson-1": [
@@ -3042,6 +3637,17 @@
     "license": "Copyright UConn Athletics (hotlinked)",
     "caption": "Sidney Wilson — 2019-20 UConn men's basketball roster headshot",
     "season": "2019-20"
+   },
+   {
+    "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/sidney-wilson-1.jpg",
+    "kind": "other",
+    "cutout": false,
+    "w": 120,
+    "h": 180,
+    "source": "https://www.sports-reference.com/cbb/players/sidney-wilson-1.html",
+    "credit": "Sports-Reference.com",
+    "license": "Copyright (hotlinked)",
+    "caption": "Sidney Wilson — Sports-Reference college player photo"
    }
   ],
   "ed-nelson-1": [
@@ -3082,27 +3688,29 @@
   "donnell-beverly-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/5893608.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/5893608.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Donnell Beverly"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/donnell-beverly/1846",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Donnell Beverly — 2010-11 UConn men's basketball roster headshot",
+    "season": "2010-11"
    }
   ],
   "charles-okwandu-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/5893625.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/5893625.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Charles Okwandu"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/charles-okwandu/1852",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Charles Okwandu — 2010-11 UConn men's basketball roster headshot",
+    "season": "2010-11"
    }
   ],
   "aidan-mahaney-1": [
@@ -3116,6 +3724,17 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Aidan Mahaney UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/aidan-mahaney-1.jpg",
+    "kind": "other",
+    "cutout": false,
+    "w": 120,
+    "h": 180,
+    "source": "https://www.sports-reference.com/cbb/players/aidan-mahaney-1.html",
+    "credit": "Sports-Reference.com",
+    "license": "Copyright (hotlinked)",
+    "caption": "Aidan Mahaney — Sports-Reference college player photo"
    }
   ],
   "malachi-smith-2": [
@@ -3129,6 +3748,17 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Malachi Smith UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/malachi-smith-2.jpg",
+    "kind": "other",
+    "cutout": false,
+    "w": 120,
+    "h": 180,
+    "source": "https://www.sports-reference.com/cbb/players/malachi-smith-2.html",
+    "credit": "Sports-Reference.com",
+    "license": "Copyright (hotlinked)",
+    "caption": "Malachi Smith — Sports-Reference college player photo"
    }
   ],
   "eric-cobb-1": [
@@ -3191,19 +3821,53 @@
     "license": "Copyright UConn Athletics (hotlinked)",
     "caption": "Steven Enoch — 2016-17 UConn men's basketball roster headshot",
     "season": "2016-17"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/2023-01-05_ALBA_Berlin_gegen_Baskonia_Vitoria-Gasteiz_%28EuroLeague_2022-23%29_by_Sandro_Halank%E2%80%93017.jpg/960px-2023-01-05_ALBA_Berlin_gegen_Baskonia_Vitoria-Gasteiz_%28EuroLeague_2022-23%29_by_Sandro_Halank%E2%80%93017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "other",
+    "cutout": false,
+    "w": 960,
+    "h": 932,
+    "source": "https://commons.wikimedia.org/wiki/File:2023-01-05_ALBA_Berlin_gegen_Baskonia_Vitoria-Gasteiz_(EuroLeague_2022-23)_by_Sandro_Halank%E2%80%93017.jpg",
+    "credit": "Sandro Halank , Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "caption": "EuroLeague 2022/23, 17th day of play: ALBA Berlin vs. Baskonia Vitoria-Gasteiz (85:84)"
+   },
+   {
+    "url": "https://www.sports-reference.com/req/202512231/cbb/images/players/steven-enoch-1.jpg",
+    "kind": "other",
+    "cutout": false,
+    "w": 120,
+    "h": 180,
+    "source": "https://www.sports-reference.com/cbb/players/steven-enoch-1.html",
+    "credit": "Sports-Reference.com",
+    "license": "Copyright (hotlinked)",
+    "caption": "Steven Enoch — Sports-Reference college player photo"
    }
   ],
   "curtis-kelly-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/1745354.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 147,
-    "source": "https://uconnhuskies.com/images/2018/6/11/1745354.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Curtis Kelly"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/curtis-kelly/1910",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Curtis Kelly — 2006-07 UConn men's basketball roster headshot",
+    "season": "2006-07"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Curtis_Kelly.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "kind": "other",
+    "cutout": false,
+    "w": 154,
+    "h": 310,
+    "source": "https://commons.wikimedia.org/wiki/File:Curtis_Kelly.jpg",
+    "credit": "GoIowaState.com",
+    "license": "CC BY-SA 2.0",
+    "caption": "Craig Brackins (iowa State) and Curtis Kelly (Kansas State)"
    }
   ],
   "mike-hayes-1": [
@@ -3223,14 +3887,15 @@
   "sam-cassell-2": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/11357474.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/11357474.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Sam Cassell"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/sam-cassell-jr/1778",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Sam Cassell Jr. — 2015-16 UConn men's basketball roster headshot",
+    "season": "2015-16"
    }
   ],
   "scott-hazelton-1": [
@@ -3297,14 +3962,15 @@
   "rj-evans-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/8103962.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/8103962.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "R.J. Evans"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/rj-evans/1822",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "R.J. Evans — 2012-13 UConn men's basketball roster headshot",
+    "season": "2012-13"
    }
   ],
   "mamadou-diarra-2": [
@@ -3347,17 +4013,30 @@
   "enosch-wolf-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/8104142.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/8104142.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Enosch Wolf"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/enosch-wolf/1828",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Enosch Wolf — 2012-13 UConn men's basketball roster headshot",
+    "season": "2012-13"
    }
   ],
   "gilad-katz-1": [
+   {
+    "url": "https://i.ebayimg.com/images/g/EvEAAeSwcqdqs~-3/s-l1600.jpg",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 540,
+    "h": 760,
+    "source": "https://www.ebay.com/itm/257761054767",
+    "credit": "Photo: William Breadheft; 1990-91 UConn Huskies team-issue card (Petro Pantry / Citgo / WTIC 1080)",
+    "license": "Copyright card issuer/photographer (hotlinked eBay listing image, COMC scan)",
+    "caption": "Gilad Katz (#10, junior guard) dribbling for UConn, front of his 1990-91 UConn Huskies team-issue card [crop: right half of photo window - Katz is the UConn player in white; the player in red #15 is an opponent]",
+    "crop": "right half of photo window - Katz is the UConn player in white; the player in red #15 is an opponent"
+   },
    {
     "url": "https://web.archive.org/web/20190629225209im_/http://uconnhooplegends.com/images_menslegends/images_menslegdpgs/KatzGilad_himself.jpg",
     "kind": "other",
@@ -3384,14 +4063,26 @@
   "ater-majok-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/3558182.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/3558182.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Ater Majok"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/ater-majok/1865",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Ater Majok — 2009-10 UConn men's basketball roster headshot",
+    "season": "2009-10"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Ater_Majok.jpg/960px-Ater_Majok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "kind": "other",
+    "cutout": false,
+    "w": 960,
+    "h": 1134,
+    "source": "https://commons.wikimedia.org/wiki/File:Ater_Majok.jpg",
+    "credit": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "caption": "allproreels.com"
    }
   ],
   "doug-wrenn-1": [
@@ -3494,14 +4185,15 @@
   "leon-tolksdorf-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/9266921.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/9266921.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Leon Tolksdorf"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/leon-tolksdorf/1816",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Leon Tolksdorf — 2013-14 UConn men's basketball roster headshot",
+    "season": "2013-14"
    }
   ],
   "kwintin-williams-1": [
@@ -3570,14 +4262,15 @@
   "ryan-thompson-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/4159053.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 157,
-    "source": "https://uconnhuskies.com/images/2018/6/11/4159053.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Ryan Thompson"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/ryan-thompson/1923",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Ryan Thompson — 2005-06 UConn men's basketball roster headshot",
+    "season": "2005-06"
    }
   ],
   "ahmad-nowell-1": [
@@ -3671,6 +4364,18 @@
   ],
   "marc-suhr-1": [
    {
+    "url": "https://i.ebayimg.com/images/g/pz4AAeSw6p5qtNnp/s-l1600.jpg",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 540,
+    "h": 760,
+    "source": "https://www.ebay.com/itm/336810319971",
+    "credit": "Photo: William Breadheft; 1990-91 UConn Huskies team-issue card (Petro Pantry / Citgo / WTIC 1080)",
+    "license": "Copyright card issuer/photographer (hotlinked eBay listing image, COMC scan)",
+    "caption": "Marc Suhr (#30, junior center) shooting for UConn, front of his 1990-91 UConn Huskies team-issue card [crop: photo window inside the navy card frame; Suhr is the UConn player in white #30, left of center]",
+    "crop": "photo window inside the navy card frame; Suhr is the UConn player in white #30, left of center"
+   },
+   {
     "url": "https://www.kurier.de/media.media.377de1a3-899c-47a8-bb6e-395f727da90e.original1024.jpg",
     "kind": "pro-other",
     "cutout": false,
@@ -3683,43 +4388,59 @@
     "crop": "top-right inset only, approx x 655-1020, y 0-410; left side is a Justitia statue"
    }
   ],
-  "rakem-lubin-1": [
+  "scottie-haralson-1": [
    {
-    "url": "https://uconnhuskies.com/images/2018/6/11/10394245.jpeg",
+    "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/tulsahurricane.com/images/2015/5/8/7957601.jpeg",
     "kind": "other",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/10394245.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Rakim Lubin"
+    "source": "https://tulsahurricane.com/sports/mens-basketball/roster/scottie-haralson/3681",
+    "credit": "University of Tulsa Athletics",
+    "license": "Copyright Tulsa Athletics (hotlinked)",
+    "caption": "Scottie Haralson — Tulsa men's basketball roster headshot (c. 2012; transferred from UConn after 2008-09)"
+   }
+  ],
+  "rakem-lubin-1": [
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/10394245.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/rakim-lubin/1799",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Rakim Lubin — 2014-15 UConn men's basketball roster headshot",
+    "season": "2014-15"
    }
   ],
   "jonathan-mandeldove-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/3558188.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/3558188.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Jonathan Mandeldove"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/jonathan-mandeldove/1866",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Jonathan Mandeldove — 2009-10 UConn men's basketball roster headshot",
+    "season": "2009-10"
    }
   ],
   "darius-smith-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/3558210.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/3558210.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Darius Smith"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/darius-smith/1870",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Darius Smith — 2009-10 UConn men's basketball roster headshot",
+    "season": "2009-10"
    }
   ],
   "isaiah-abraham-1": [
@@ -3841,6 +4562,20 @@
     "caption": "Rahsool Diggins UConn headshot (ESPN)"
    }
   ],
+  "tim-pikiell-1": [
+   {
+    "url": "https://i.ebayimg.com/images/g/GBgAAeSwXSZqm7l2/s-l1600.jpg",
+    "kind": "uconn-action",
+    "cutout": false,
+    "w": 540,
+    "h": 760,
+    "source": "https://www.ebay.com/itm/257724688645",
+    "credit": "Photo: William Breadheft; 1990-91 UConn Huskies team-issue card (Petro Pantry / Citgo / WTIC 1080)",
+    "license": "Copyright card issuer/photographer (hotlinked eBay listing image, COMC scan)",
+    "caption": "Tim Pikiell (#31, junior guard) shooting a free throw for UConn, front of his 1990-91 UConn Huskies team-issue card [crop: photo window inside the navy card frame]",
+    "crop": "photo window inside the navy card frame"
+   }
+  ],
   "kwasi-gyambibi-1": [
    {
     "url": "https://www.storrsstories.com/images/kwasi_gyambibi2.jpg",
@@ -3881,27 +4616,29 @@
   "nnamdi-amilo-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/10394164.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/10394164.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Nnamdi Amilo"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/nnamdi-amilo/1775",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Nnamdi Amilo — 2015-16 UConn men's basketball roster headshot",
+    "season": "2015-16"
    }
   ],
   "dan-guest-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/10727127.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/10727127.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Dan Guest"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/dan-guest/1796",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Dan Guest — 2014-15 UConn men's basketball roster headshot",
+    "season": "2014-15"
    }
   ],
   "jacob-furphy-1": [
@@ -3958,27 +4695,29 @@
   "pat-lenehan-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/10394242.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/10394242.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Pat Lenehan"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/pat-lenehan/1798",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Pat Lenehan — 2014-15 UConn men's basketball roster headshot",
+    "season": "2014-15"
    }
   ],
   "christian-foxen-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/12855520.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/12855520.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Christian Foxen"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/christian-foxen/1766",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Christian Foxen — 2016-17 UConn men's basketball roster headshot",
+    "season": "2016-17"
    }
   ],
   "javonte-brown-1": [
@@ -4036,92 +4775,99 @@
   "johnnie-bird-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
-    "credit": "",
-    "license": "",
-    "caption": "Johnnie Bird"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/johnnie-bird/1877",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Johnnie Bird — 2008-09 UConn men's basketball roster headshot",
+    "season": "2008-09"
    }
   ],
   "jim-veronick-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
-    "credit": "",
-    "license": "",
-    "caption": "Jim Veronick"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/jim-veronick/1887",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Jim Veronick — 2008-09 UConn men's basketball roster headshot",
+    "season": "2008-09"
    }
   ],
   "jamaal-trice-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/3558212.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/3558212.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Jamaal Trice"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/jamaal-trice/1871",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Jamaal Trice — 2009-10 UConn men's basketball roster headshot",
+    "season": "2009-10"
    }
   ],
   "benjamin-stewart-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/6994457.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/6994457.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Benjamin Stewart"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/benjamin-stewart/1842",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Benjamin Stewart — 2011-12 UConn men's basketball roster headshot",
+    "season": "2011-12"
    }
   ],
   "brendan-allen-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/8103918.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/8103918.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Brendan Allen"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/brendan-allen/1818",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Brendan Allen — 2012-13 UConn men's basketball roster headshot",
+    "season": "2012-13"
    }
   ],
   "tor-watts-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
-    "credit": "",
-    "license": "",
-    "caption": "Tor Watts"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/tor-watts/1817",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Tor Watts — 2013-14 UConn men's basketball roster headshot",
+    "season": "2013-14"
    }
   ],
   "terrance-ditimi-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
-    "credit": "",
-    "license": "",
-    "caption": "Terrance Ditimi"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/terrance-ditimi/1794",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Terrance Ditimi — 2014-15 UConn men's basketball roster headshot",
+    "season": "2014-15"
    }
   ],
   "temi-aiyegbusi-1": [
@@ -4164,14 +4910,15 @@
   "daniel-brocke-1": [
    {
     "url": "https://uconnhuskies.com/images/2019/1/1/BROCKE.jpg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 1435,
     "h": 1973,
-    "source": "https://uconnhuskies.com/images/2019/1/1/BROCKE.jpg",
-    "credit": "",
-    "license": "",
-    "caption": "Daniel Brocke"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/daniel-brocke/10052",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Daniel Brocke — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
    }
   ],
   "matt-garry-1": [
@@ -4268,14 +5015,15 @@
   "john-lindner-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
-    "credit": "",
-    "license": "",
-    "caption": "John Lindner"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/john-lindner/1881",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "John Lindner — 2008-09 UConn men's basketball roster headshot",
+    "season": "2008-09"
    }
   ],
   "steve-emt-1": [
@@ -4372,53 +5120,70 @@
   "kyle-bailey-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/6994169.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/6994169.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Kyle Bailey"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/kyle-bailey/1830",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Kyle Bailey — 2011-12 UConn men's basketball roster headshot",
+    "season": "2011-12"
    }
   ],
   "alex-hornat-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/3558179.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/3558179.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Alex Hornat"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/alex-hornat/1864",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Alex Hornat — 2009-10 UConn men's basketball roster headshot",
+    "season": "2009-10"
    }
   ],
   "pj-cochrane-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
-    "credit": "",
-    "license": "",
-    "caption": "P.J. Cochrane"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/pj-cochrane/1833",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "P.J. Cochrane — 2011-12 UConn men's basketball roster headshot",
+    "season": "2011-12"
    }
   ],
   "ethan-waite-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
-    "credit": "",
-    "license": "",
-    "caption": "Ethan Waite"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/ethan-waite/1843",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Ethan Waite — 2011-12 UConn men's basketball roster headshot",
+    "season": "2011-12"
+   }
+  ],
+  "trey-james-1": [
+   {
+    "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/nicholsathletics.com/images/2016/11/9/james_trey.JPG",
+    "kind": "other",
+    "cutout": false,
+    "w": 250,
+    "h": 300,
+    "source": "https://nicholsathletics.com/sports/mens-basketball/roster/coaches/trey-james/692",
+    "credit": "Nichols College Athletics",
+    "license": "Copyright Nichols College Athletics (hotlinked)",
+    "caption": "Trey James, Nichols College men's basketball assistant coach — staff headshot (c. 2016)"
    }
   ],
   "dave-vandal-1": [
@@ -4437,14 +5202,15 @@
   "restinel-lomotey-1": [
    {
     "url": "https://uconnhuskies.com/images/2018/6/11/12242276.jpeg",
-    "kind": "other",
+    "kind": "uconn-headshot",
     "cutout": false,
     "w": 105,
     "h": 145,
-    "source": "https://uconnhuskies.com/images/2018/6/11/12242276.jpeg",
-    "credit": "",
-    "license": "",
-    "caption": "Restinel Lomotey"
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/restinel-lomotey/1770",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Restinel Lomotey — 2016-17 UConn men's basketball roster headshot",
+    "season": "2016-17"
    }
   ],
   "yarin-hasson-1": [
@@ -4486,71 +5252,6 @@
     "caption": "Rrezon Elezaj UConn headshot (ESPN)"
    }
   ],
-  "n-junior-county": [
-   {
-    "url": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F0_COUNTY_JUNIOR.png&width=520&type=webp",
-    "kind": "other",
-    "cutout": false,
-    "w": 520,
-    "h": 728,
-    "source": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F0_COUNTY_JUNIOR.png&width=520&type=webp",
-    "credit": "",
-    "license": "",
-    "caption": "Junior County"
-   }
-  ],
-  "n-colben-landrew": [
-   {
-    "url": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F3_LANDREW_COLBEN.png&width=520&type=webp",
-    "kind": "other",
-    "cutout": false,
-    "w": 520,
-    "h": 728,
-    "source": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F3_LANDREW_COLBEN.png&width=520&type=webp",
-    "credit": "",
-    "license": "",
-    "caption": "Colben Landrew"
-   }
-  ],
-  "n-nik-khamenia": [
-   {
-    "url": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F14_KHAMENIA_NIK.png&width=520&type=webp",
-    "kind": "other",
-    "cutout": false,
-    "w": 520,
-    "h": 728,
-    "source": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F14_KHAMENIA_NIK.png&width=520&type=webp",
-    "credit": "",
-    "license": "",
-    "caption": "Nik Khamenia"
-   }
-  ],
-  "n-jaye-nash": [
-   {
-    "url": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F7_NASH_JAYE.png&width=520&type=webp",
-    "kind": "other",
-    "cutout": false,
-    "w": 520,
-    "h": 728,
-    "source": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F7_NASH_JAYE.png&width=520&type=webp",
-    "credit": "",
-    "license": "",
-    "caption": "Jaye Nash"
-   }
-  ],
-  "n-najai-hines": [
-   {
-    "url": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F9_HINES_NA_JAI.png&width=520&type=webp",
-    "kind": "other",
-    "cutout": false,
-    "w": 520,
-    "h": 728,
-    "source": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F9_HINES_NA_JAI.png&width=520&type=webp",
-    "credit": "",
-    "license": "",
-    "caption": "Na'jai Hines"
-   }
-  ],
   "jacob-ross-1": [
    {
     "url": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5142624.png",
@@ -4563,71 +5264,6 @@
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Jacob Ross UConn headshot (ESPN)"
    }
-  ],
-  "n-egor-amosov": [
-   {
-    "url": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F23%2FEA_CUT_copy.png&width=520&type=webp",
-    "kind": "other",
-    "cutout": false,
-    "w": 520,
-    "h": 728,
-    "source": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F23%2FEA_CUT_copy.png&width=520&type=webp",
-    "credit": "",
-    "license": "",
-    "caption": "Egor Amosov"
-   }
-  ],
-  "n-oskar-giltay": [
-   {
-    "url": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F18_GILATY_OSKAR.png&width=520&type=webp",
-    "kind": "other",
-    "cutout": false,
-    "w": 520,
-    "h": 728,
-    "source": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F18_GILATY_OSKAR.png&width=520&type=webp",
-    "credit": "",
-    "license": "",
-    "caption": "Oskar Giltay"
-   }
-  ],
-  "n-nils-machowski": [
-   {
-    "url": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F21_MACHOWSKI_NILS.png&width=520&type=webp",
-    "kind": "other",
-    "cutout": false,
-    "w": 520,
-    "h": 728,
-    "source": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F21_MACHOWSKI_NILS.png&width=520&type=webp",
-    "credit": "",
-    "license": "",
-    "caption": "Nils Machowski"
-   }
-  ],
-  "n-elmir-dzafic": [
-   {
-    "url": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F29_DZAFIC_ELMIR.png&width=520&type=webp",
-    "kind": "other",
-    "cutout": false,
-    "w": 520,
-    "h": 728,
-    "source": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F29_DZAFIC_ELMIR.png&width=520&type=webp",
-    "credit": "",
-    "license": "",
-    "caption": "Elmir Džafic"
-   }
-  ],
-  "n-isaiah-shaw": [
-   {
-    "url": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F33_SHAW_ISAIAH.png&width=520&type=webp",
-    "kind": "other",
-    "cutout": false,
-    "w": 520,
-    "h": 728,
-    "source": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fuconnhuskies.com%2Fimages%2F2026%2F7%2F7%2F33_SHAW_ISAIAH.png&width=520&type=webp",
-    "credit": "",
-    "license": "",
-    "caption": "Isaiah Shaw"
-   }
   ]
  },
  "still_missing": [
@@ -4638,12 +5274,11 @@
   "albert-mouring-1",
   "donny-marshall-1",
   "tony-robertson-1",
+  "kevin-ollie-1",
   "travis-knight-1",
   "kirk-king-1",
   "jeff-king-3",
-  "lyman-depriest-1",
   "monquencio-hardnett-1",
-  "toraino-walker-1",
   "willie-mccloud-1",
   "antwoine-anderson-1",
   "antric-klaiber-1",
@@ -4660,14 +5295,12 @@
   "michael-leblanc-1",
   "david-onuorah-1",
   "james-spradling-1",
-  "scottie-haralson-1",
   "marcus-thomas-3",
   "uri-cohen-mintz-1",
   "sam-funches-1",
   "rich-ashmeade-1",
   "bill-lanes-1",
   "clint-simmons-1",
-  "tim-pikiell-1",
   "jeff-calhoun-1",
   "shawn-ellison-1",
   "justin-srb-1",
@@ -4683,8 +5316,17 @@
   "pete-kane-1",
   "pete-mccann-1",
   "craig-glazer-1",
-  "trey-james-1",
   "keifer-lammi-1",
-  "javon-williams-1"
+  "javon-williams-1",
+  "n-junior-county",
+  "n-colben-landrew",
+  "n-nik-khamenia",
+  "n-jaye-nash",
+  "n-najai-hines",
+  "n-egor-amosov",
+  "n-oskar-giltay",
+  "n-nils-machowski",
+  "n-elmir-dzafic",
+  "n-isaiah-shaw"
  ]
 }

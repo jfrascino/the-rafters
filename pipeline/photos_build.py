@@ -64,14 +64,16 @@ def existing_entries(players):
     imgs = json.load(open(os.path.join(os.path.dirname(PLAYER_OUT), "images.json")))
     for x in imgs.get("players", []):
         u = x.get("thumb_url") or x.get("image_url")
-        if not u or x.get("role") != "player":
+        if not u:
             continue
-        yrs = [int(y) for y in re.findall(r"(\d{4})", x.get("years_at_uconn") or "")]
-        p = match(x["player_name"], list(range(min(yrs), max(yrs) + 1)) if yrs else None)
+        p = match(x["player_name"], None)
         if not p:
             continue
         ctx = x.get("context")
         kind = {"uconn": "uconn-action", "nba": "pro-other"}.get(ctx, "other")
+        m = re.match(r"(\d{4})", x.get("date") or "")
+        if kind == "uconn-action" and (not m or int(m.group(1)) > max(p["years"])):
+            kind = "other"  # UConn context but after his playing days (e.g. as coach)
         e = {"url": u, "kind": kind, "cutout": False, "source": x.get("file_page") or u,
              "credit": x.get("author") or "Wikimedia Commons", "license": x.get("license") or "",
              "caption": x.get("caption_or_description") or p["name"]}

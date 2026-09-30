@@ -1,4 +1,16 @@
 {
- "generated": "2026-09-30 14:59",
- "seasons": {}
+ "generated": "2026-09-30 15:04",
+ "seasons": {
+  "1999": [
+   {
+    "url": "https://portal.ct.gov/lib/sots/registermanual/photo/uconnpic.jpg",
+    "w": 365,
+    "h": 253,
+    "source": "https://portal.ct.gov/SOTS/Register-Manual/Register-Manual/1999-Dedication",
+    "credit": "Connecticut Secretary of the State (State Register & Manual 1999 dedication)",
+    "license": "Copyright State of Connecticut / photographer (hotlinked)",
+    "caption": "Jim Calhoun and the 1999 national-champion UConn Huskies celebrating with the NCAA trophy (1998-99) — CT State Register & Manual 1999 dedication photo"
+   }
+  ]
+ }
 }

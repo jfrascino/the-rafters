@@ -67,7 +67,7 @@ def main():
     for p in players:
         by_name.setdefault(norm(p["name"]), []).append(p)
     # seasons with archives
-    seasons = [f"{y}-{str(y + 1)[2:]}" for y in range(2000, 2020)]
+    seasons = [f"{y}-{str(y + 1)[2:]}" for y in range(2000, 2027)]
     cands = {}
     roster_log = {}
     for s in seasons:

@@ -3,6 +3,7 @@
 set -e
 cd "$(dirname "$0")"
 G="git -c user.name=jfrascino -c user.email=47570206+jfrascino@users.noreply.github.com"
+/opt/homebrew/bin/python3 pipeline/stamp.py   # fingerprint JS/CSS so browsers never mix old and new files
 git add -A
 $G commit -qm "${1:-Update}" || true
 git pull -q --rebase origin main || true

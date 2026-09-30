@@ -3,4 +3,5 @@
 set -e
 cd "$(dirname "$0")"
 /opt/homebrew/bin/python3 pipeline/espn_fetch.py --update
+/opt/homebrew/bin/python3 pipeline/official_roster.py || echo "(official roster fetch failed; keeping the last copy)"
 /opt/homebrew/bin/python3 pipeline/build.py | tail -3
