@@ -280,6 +280,10 @@
     {
      "url": "https://cuse.com/sports/mens-basketball/schedule/1993-94",
      "quote": "vs Connecticut JMA Wireless Dome Syracuse, N.Y. W, 108-95 Feb 1 (Tue)"
+    },
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1994FranceEnglish/Feb%2003%201994%2C%20International%20Herald%20Tribune%2C%20%2334502%2C%20France%20%28en%29_djvu.txt",
+     "quote": "TUESDAY'S RESULTS ... Syracuse 108, Connecticut 95 [OCR 'Svroane 108.']; '...which gave up 100 points for the first...'"
     }
    ],
    "note": "SR's 108 also consistent with SR's independent 1993-94 opponent points season total (2,333).",
@@ -298,6 +302,10 @@
     {
      "url": "https://redstormsports.com/sports/mens-basketball/schedule/1993-94",
      "quote": "at No. 4 Connecticut HARTFORD, CONN. (HARTFORD CIVIC CENTER) L, 80-95 Mar 5 (Sat)"
+    },
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1994FranceEnglish/Mar%2007%201994%2C%20International%20Herald%20Tribune%2C%20%2334529%2C%20France%20%28en%29_djvu.txt",
+     "quote": "No. 4 Connecticut 95, St. John's 80: In Hartford, Connecticut [OCR-garbled headline]"
     }
    ],
    "note": "Official '80-50' looks like a transposition/typo; SR's 95 matches UConn's player-points season total (2,888). Game was at Hartford Civic Center, not Storrs as the UConn card says.",
@@ -346,6 +354,10 @@
     {
      "url": "https://cuse.com/sports/mens-basketball/schedule/1995-96",
      "quote": "vs Connecticut Madison Square Garden New York, N.Y. BIG EAST Tournament L, 67-85 Mar 8 (Fri)"
+    },
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1996FranceEnglish/Mar%2011%201996%2C%20International%20Herald%20Tribune%2C%20%2335156%2C%20France%20%28en%29_djvu.txt",
+     "quote": "FRIDAY'S RESULTS ... Connecticut 8[5], Syracuse 67"
     }
    ],
    "note": "Big East semifinal.",
@@ -953,5 +965,331 @@
    "note": "Same 2019 infractions case. Wikipedia's '0-18 (14 wins vacated)' understates it: the NCAA vacated the 17 losses too. The NCAA table lists no other UConn seasons - nothing from the 2007-08 era."
   }
  ],
- "stats": []
+ "stats": [
+  {
+   "game": "2008-33",
+   "field": "stat",
+   "date": "2008-03-21",
+   "opp": "San Diego (NCAA 1st round, Tampa)",
+   "player": "Jeff Adrien",
+   "stat": "rebounds",
+   "espn": "12 (5 off, 7 def)",
+   "sr": "13 (5 off, 8 def)",
+   "truth": "13",
+   "winner": "sr",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "ADRIEN, JEFF ... 2007-08 33 173 345 50.1 2 4 50.0 141 229 61.6 302 9.2"
+    },
+    {
+     "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=284000036",
+     "quote": "ESPN play-by-play logs 13 distinct 'Jeff Adrien ... Rebound' events (5 offensive, 8 defensive)"
+    },
+    {
+     "url": "https://usdtoreros.com/news/2008/3/21/Jackson_Buries_Huskies_in_OT_and_No_13_Toreros_Advance_to_NCAA_Second_Round.aspx",
+     "quote": "Jeff Adrien had 18 points and 12 rebounds for UConn (AP story - dissenting)"
+    }
+   ],
+   "note": "UConn's official 2007-08 season total is 302 rebounds; SR and ESPN agree on Adrien's other 32 games, so 302 reconciles only with 13 here (ESPN's per-game sum is 301). ESPN's own play-by-play also shows 13, matching SR's 5/8 split. Against: ESPN box and the AP story say 12. No single-game official box found (UConn's 2007-08 box pages aren't archived), hence medium."
+  },
+  {
+   "game": "2016-8",
+   "field": "stat",
+   "date": "2015-12-08",
+   "opp": "Maryland (Jimmy V Classic, MSG)",
+   "player": "Amida Brimah",
+   "stat": "assists",
+   "espn": "1",
+   "sr": "0",
+   "truth": "1",
+   "winner": "espn",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://umterps.com/sports/mens-basketball/stats/2015-16/connecticut/boxscore/8067",
+     "quote": "35 Brimah, Amida * 18 1 - 2 0 - 0 0 - 0 1 - 6 7 3 1 0 4 0 2 (cols: min fg 3pt ft orb-drb reb pf a to blk stl pts)"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "BRIMAH, AMIDA ... 2015-16 25 67 101 66.3 0 0 00.0 28 34 82.4 115 4.6 3 20 67 6"
+    }
+   ],
+   "note": "Official box (Maryland's StatCrew box) credits Brimah 1 assist; UConn team total 8 assists vs SR's 7. UConn's official 2015-16 season total (3 assists) also needs this one. ESPN's PBP happens not to tag it."
+  },
+  {
+   "game": "2011-26",
+   "field": "stat",
+   "date": "2011-02-18",
+   "opp": "at Louisville",
+   "player": "Enosch Wolf",
+   "stat": "appearance/minutes",
+   "espn": "played, 1 min",
+   "sr": "omitted",
+   "truth": "played 1 minute (0 pts, 0-0 FG, no other stats)",
+   "winner": "espn",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "http://web.archive.org/web/20110228015404/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb26.html",
+     "quote": "01 Wolf, Enosch ........ 0-0 0-0 0-0 0 0 0 0 0 0 0 0 0 1"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "WOLF, ENOSCH 2010-11 7 3 5 60.0 0 0 0.0 1 2 50.0 6 0.9 0 5 0 0 26 7 1.0"
+    }
+   ],
+   "note": "UConn's official box (archived Feb 2011) lists Wolf with 1 minute; his official 2010-11 line is 7 games / 26 minutes, which matches ESPN's 7 appearances (SR has 6 / 25 min)."
+  },
+  {
+   "game": "2010-11",
+   "field": "stat",
+   "date": "2009-12-27",
+   "opp": "Iona (XL Center, Hartford)",
+   "player": "Iona team box",
+   "stat": "complete opponent box",
+   "espn": "sums to 54 (Rashon Dwight shown DNP; Alejo Rodriguez missing)",
+   "sr": "also sums to 54 (same two players missing)",
+   "truth": "Iona 74: Machado 14, Dwight 12, McGill 12, Huffman 10, Rodriguez 8, Smyth 5, McFadden 5, Jenkins 4, Pelcher 4, Prodanovic 0, Mockford 0, Williams 0",
+   "winner": "neither",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://icgaels.com/sports/mens-basketball/stats/2009-10/connecticut/boxscore/1955",
+     "quote": "05 Dwight, Rashon * 23 4-10 2-4 2-2 0-1 1 1 3 1 0 0 12 ... 21 Rodriguez, Alejo 17 4-7 0-0 0-0 3-1 4 5 0 1 0 1 8"
+    }
+   ],
+   "iona_box": [
+    {
+     "player": "Scott Machado",
+     "gs": true,
+     "min": 28,
+     "fg": "5-9",
+     "3pt": "2-4",
+     "ft": "2-2",
+     "orb": 0,
+     "drb": 2,
+     "reb": 2,
+     "pf": 1,
+     "ast": 5,
+     "to": 4,
+     "blk": 0,
+     "stl": 1,
+     "pts": 14
+    },
+    {
+     "player": "Rashon Dwight",
+     "gs": true,
+     "min": 23,
+     "fg": "4-10",
+     "3pt": "2-4",
+     "ft": "2-2",
+     "orb": 0,
+     "drb": 1,
+     "reb": 1,
+     "pf": 1,
+     "ast": 3,
+     "to": 1,
+     "blk": 0,
+     "stl": 0,
+     "pts": 12
+    },
+    {
+     "player": "Jonathan Huffman",
+     "gs": true,
+     "min": 25,
+     "fg": "4-9",
+     "3pt": "2-6",
+     "ft": "0-0",
+     "orb": 0,
+     "drb": 5,
+     "reb": 5,
+     "pf": 2,
+     "ast": 0,
+     "to": 2,
+     "blk": 0,
+     "stl": 1,
+     "pts": 10
+    },
+    {
+     "player": "Kyle Smyth",
+     "gs": true,
+     "min": 21,
+     "fg": "2-4",
+     "3pt": "1-1",
+     "ft": "0-0",
+     "orb": 0,
+     "drb": 3,
+     "reb": 3,
+     "pf": 4,
+     "ast": 0,
+     "to": 1,
+     "blk": 0,
+     "stl": 1,
+     "pts": 5
+    },
+    {
+     "player": "Mike McFadden",
+     "gs": true,
+     "min": 15,
+     "fg": "1-3",
+     "3pt": "0-0",
+     "ft": "3-4",
+     "orb": 1,
+     "drb": 1,
+     "reb": 2,
+     "pf": 4,
+     "ast": 1,
+     "to": 0,
+     "blk": 0,
+     "stl": 0,
+     "pts": 5
+    },
+    {
+     "player": "Rashard McGill",
+     "gs": false,
+     "min": 20,
+     "fg": "5-10",
+     "3pt": "2-6",
+     "ft": "0-0",
+     "orb": 1,
+     "drb": 3,
+     "reb": 4,
+     "pf": 0,
+     "ast": 1,
+     "to": 0,
+     "blk": 0,
+     "stl": 0,
+     "pts": 12
+    },
+    {
+     "player": "Alejo Rodriguez",
+     "gs": false,
+     "min": 17,
+     "fg": "4-7",
+     "3pt": "0-0",
+     "ft": "0-0",
+     "orb": 3,
+     "drb": 1,
+     "reb": 4,
+     "pf": 5,
+     "ast": 0,
+     "to": 1,
+     "blk": 0,
+     "stl": 1,
+     "pts": 8
+    },
+    {
+     "player": "Jermel Jenkins",
+     "gs": false,
+     "min": 31,
+     "fg": "2-10",
+     "3pt": "0-2",
+     "ft": "0-0",
+     "orb": 0,
+     "drb": 4,
+     "reb": 4,
+     "pf": 1,
+     "ast": 7,
+     "to": 1,
+     "blk": 0,
+     "stl": 0,
+     "pts": 4
+    },
+    {
+     "player": "Chris Pelcher",
+     "gs": false,
+     "min": 6,
+     "fg": "1-2",
+     "3pt": "0-0",
+     "ft": "2-2",
+     "orb": 2,
+     "drb": 0,
+     "reb": 2,
+     "pf": 3,
+     "ast": 0,
+     "to": 0,
+     "blk": 0,
+     "stl": 1,
+     "pts": 4
+    },
+    {
+     "player": "Milan Prodanovic",
+     "gs": false,
+     "min": 9,
+     "fg": "0-1",
+     "3pt": "0-1",
+     "ft": "0-0",
+     "orb": 1,
+     "drb": 0,
+     "reb": 1,
+     "pf": 2,
+     "ast": 0,
+     "to": 3,
+     "blk": 0,
+     "stl": 0,
+     "pts": 0
+    },
+    {
+     "player": "Ben Mockford",
+     "gs": false,
+     "min": 3,
+     "fg": "0-1",
+     "3pt": "0-1",
+     "ft": "0-0",
+     "orb": 0,
+     "drb": 1,
+     "reb": 1,
+     "pf": 0,
+     "ast": 0,
+     "to": 0,
+     "blk": 0,
+     "stl": 0,
+     "pts": 0
+    },
+    {
+     "player": "Keon Williams",
+     "gs": false,
+     "min": 2,
+     "fg": "0-0",
+     "3pt": "0-0",
+     "ft": "0-0",
+     "orb": 0,
+     "drb": 0,
+     "reb": 0,
+     "pf": 0,
+     "ast": 0,
+     "to": 0,
+     "blk": 0,
+     "stl": 0,
+     "pts": 0
+    },
+    {
+     "player": "TEAM",
+     "orb": 4,
+     "drb": 0,
+     "reb": 4,
+     "to": 1
+    },
+    {
+     "player": "Totals",
+     "min": 200,
+     "fg": "28-66",
+     "3pt": "9-25",
+     "ft": "9-10",
+     "orb": 12,
+     "drb": 21,
+     "reb": 33,
+     "pf": 23,
+     "ast": 17,
+     "to": 14,
+     "blk": 0,
+     "stl": 5,
+     "pts": 74
+    }
+   ],
+   "note": "Iona's official box (XL Center, att. 13,867). ESPN and SR both omit starter Rashon Dwight (ESPN marks him DNP) and reserve Alejo Rodriguez - exactly the missing 20 points."
+  }
+ ]
 }

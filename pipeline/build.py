@@ -502,7 +502,8 @@ if os.path.isdir(DROP):
             print(f'photos-drop: {fn} → {pid}')
 for fn in os.listdir(ASSETS):
     pid = os.path.splitext(fn)[0]
-    add_photo(pid, 0, f'assets/players/{fn}', True, credit=drop_credit.get(pid) or 'Archival photo, restored', kind='restored')
+    ver = hashlib.md5(open(os.path.join(ASSETS, fn), 'rb').read()).hexdigest()[:8]  # new photo → new URL, so browsers never show a stale one
+    add_photo(pid, 0, f'assets/players/{fn}?v={ver}', True, credit=drop_credit.get(pid) or 'Archival photo, restored', kind='restored')
 
 # Photo agent: UConn-era portraits/action shots, pro headshots
 RANK_KIND = {'uconn-headshot': 2, 'uconn-action': 3, 'uconn-team': 3, 'nba-headshot': 4, 'pro-other': 5, 'other': 5}
