@@ -161,27 +161,42 @@ def main():
     uc = sum(1 for v in out_players.values() if v[0]["kind"].startswith("uconn"))
     print(f"players with any photo: {len(out_players)}/{len(ids)}; UConn-era first: {uc}; missing {len(missing)}")
 
-    # restoration queue: players the site still lacks (photos-drop/NEEDED.md, maintained by the app build);
-    # falls back to our own missing/small list when that file is absent
+    # restoration queue = (a) players the site still lacks (photos-drop/NEEDED.md, maintained by the app build)
+    # + (b) players whose best photo here is small (< SMALL px short side, clean cutout headshots >=400 excepted)
+    #       and who have no owner-restored photo yet (site/assets/players/<sr_id>.*, photos-drop/<Name>.*)
     pinfo = {p["id"]: p for p in players}
+    from photos_common import norm
+    byn = {}
+    for p in players:
+        byn.setdefault(norm(p["name"]), []).append(p)
+    targets, reason = [], {}
     needed_md = os.path.join(PROJ, "photos-drop", "NEEDED.md")
-    targets = []
     if os.path.exists(needed_md):
-        from photos_common import norm
-        byn = {}
-        for p in players:
-            byn.setdefault(norm(p["name"]), []).append(p)
         for name, span in re.findall(r"^\| ([^|]+?) \| (\d{4}–\d{2}) \|", open(needed_md).read(), re.M):
             c = [p for p in byn.get(norm(name), []) if p["span"] == span] or byn.get(norm(name), [])
-            if len(c) == 1:
+            if len(c) == 1 and c[0]["id"] not in reason:
                 targets.append(c[0]["id"])
-    else:
-        for pid in ids:
-            lst = out_players.get(pid, [])
-            best = lst[0] if lst else None
-            short = min(best.get("w") or 0, best.get("h") or 0) if best else 0
-            if best is None or (short < SMALL and not (best.get("cutout") and short >= 400)):
-                targets.append(pid)
+                reason[c[0]["id"]] = "needed"
+    restored = set()
+    adir = os.path.join(PROJ, "site", "assets", "players")
+    if os.path.isdir(adir):
+        restored |= {os.path.splitext(f)[0] for f in os.listdir(adir)}
+    ddir = os.path.join(PROJ, "photos-drop")
+    if os.path.isdir(ddir):
+        for f in os.listdir(ddir):
+            stem, ext = os.path.splitext(f)
+            if ext.lower() in (".png", ".jpg", ".jpeg", ".webp"):
+                for p in byn.get(norm(stem), []):
+                    restored.add(p["id"])
+    for pid in ids:
+        if pid in reason or pid in restored:
+            continue
+        lst = out_players.get(pid, [])
+        best = lst[0] if lst else None
+        short = min(best.get("w") or 0, best.get("h") or 0) if best else 0
+        if best is None or (short < SMALL and not (best.get("cutout") and short >= 400)):
+            targets.append(pid)
+            reason[pid] = "small"
     queue = []
     for pid in targets:
         lst = out_players.get(pid, []) + [dict(c, unverified=True) for c in queue_extra.get(pid, [])]
@@ -191,17 +206,19 @@ def main():
         cands = sorted(lst, key=lambda c: (1 if c.get("unverified") else 0, qrank.get(c["kind"], 6),
                                            -min(c.get("w") or 0, c.get("h") or 0)))
         queue.append({"sr_id": pid, "name": p["name"], "years": p.get("span"), "number": p.get("num"),
-                      "status": ("has-verified-photo" if out_players.get(pid) else
-                                 "unverified-only" if queue_extra.get(pid) else "missing"),
+                      "status": (("needed: " if reason[pid] == "needed" else "small: ")
+                                 + ("has-verified-photo" if out_players.get(pid) else
+                                    "unverified-only" if queue_extra.get(pid) else "missing")),
                       "best_candidates": [{"url": c["url"], "page": c["source"], "w": c.get("w"), "h": c.get("h"),
                                            "kind": c["kind"], "caption": c.get("caption"),
                                            **({"crop": c["crop"]} if c.get("crop") else {}),
                                            **({"unverified": True} if c.get("unverified") else {})} for c in cands[:5]]})
     tmp = QUEUE_OUT + ".tmp"
     json.dump({"generated": time.strftime("%Y-%m-%d %H:%M"),
-               "note": "Players the site still lacks a photo for (photos-drop/NEEDED.md). best_candidates: real images, "
-                       "verified first (UConn-era first, then largest); entries flagged unverified are plausible but "
-                       "could be namesakes — check before use. Most are small (100-300px) and need restoration.",
+               "note": "First the players the site still lacks a photo for (photos-drop/NEEDED.md, status 'needed: ...'), then "
+                       f"players whose best photo is under {SMALL}px and not yet owner-restored (status 'small: ...'). "
+                       "best_candidates: real images, verified first (UConn-era portrait > action > team, then largest); "
+                       "entries flagged unverified are plausible but could be namesakes — check before use.",
                "queue": queue}, open(tmp, "w"), indent=1, ensure_ascii=False)
     os.replace(tmp, QUEUE_OUT)
     import collections as _c
@@ -217,7 +234,11 @@ def main():
                 if c.get("url") in rejected or any(x["url"] == c.get("url") for x in seasons.get(yr, [])):
                     continue
                 seasons.setdefault(yr, []).append({k: c.get(k) for k in ("url", "w", "h", "source", "credit", "license", "caption")})
-    seasons = dict(sorted(seasons.items()))
+    def _tp(c):
+        cap = (c.get("caption") or "").lower()
+        return (0 if "official team" in cap or "team photo" in cap or "team poster" in cap else
+                1 if "white house" in cap or "national champion" in cap else 2, -(c.get("w") or 0))
+    seasons = {yr: sorted(v, key=_tp)[:5] for yr, v in sorted(seasons.items())}
     tmp = TEAM_OUT + ".tmp"
     json.dump({"generated": time.strftime("%Y-%m-%d %H:%M"), "seasons": seasons}, open(tmp, "w"), indent=1, ensure_ascii=False)
     os.replace(tmp, TEAM_OUT)

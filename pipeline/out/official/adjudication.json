@@ -138,7 +138,7 @@
      "quote": "12/9 at Boston Univ. - - 1,449 NESN L, 71-80"
     }
    ],
-   "note": "BU's archive and UConn's record book agree (crowd of 1,449 fits BU's Case Gym, not the Civic Center).",
+   "note": "BU's archive and UConn's record book agree it was at BU; the 1,449 crowd is consistent with a BU campus gym, not the Hartford Civic Center SR lists.",
    "uconn_record_book": "at Boston Univ."
   },
   {
@@ -466,7 +466,7 @@
      "quote": "vs Connecticut East Lansing, Mich. W, 85-66 Feb 5 (Sat)"
     }
    ],
-   "note": "Played at Breslin Center, East Lansing (A: 14,659) - the UConn card's 'Grand Rapids, MI' is also wrong. UConn's record book has 66-85.",
+   "note": "CNN/SI box (halves UConn 17-49, MSU 46-39; A: 14,659) and MSU's own archive both place it in East Lansing (Breslin Center), so the UConn card's 'Grand Rapids, MI' is also wrong. UConn's record book has 66-85.",
    "uconn_record_book": "L 66-85 (at Michigan State)"
   },
   {
@@ -622,7 +622,7 @@
      "quote": "Miami (FL) 77, Connecticut 74 Posted: Saturday January 20, 2001 06:45 PM"
     }
    ],
-   "note": "CNN/SI line score UConn 31-43 = 74, Miami 44-33 = 77 (A: 7,138). The UConn card's 59-70 duplicates the score of the next game (Jan 24 vs Villanova, L 59-70).",
+   "note": "CNN/SI line score UConn 31-43 = 74, Miami 44-33 = 77 (A: 7,138). The UConn card and record book '59-70' is a copy of the next game's score (Jan 24 vs Villanova, L 59-70).",
    "uconn_record_book": "L 59-70"
   },
   {
@@ -908,8 +908,6 @@
  ],
  "vacated": [
   {
-   "game": "1996-vacated",
-   "field": "vacated",
    "season": "1995-96",
    "games or wins": "3 NCAA tournament games: 1996-03-14 vs Colgate (W 68-59), 1996-03-16 vs Eastern Michigan (W 95-81), 1996-03-22 vs Mississippi State (L 55-60) - 2 wins and 1 loss",
    "official_record": "32-3 on the court; NCAA official 30-2",
@@ -927,8 +925,6 @@
    "note": "NCAA Records Book 'Vacated and Forfeited Games' table: tournament record 2-1 vacated. Yes - Colgate, Eastern Michigan and Mississippi State are all vacated (the loss too). UConn's web schedule for 1995-96 simply omits these 3 games (it lists 32); SR shows them with the season labeled 'adjusted to 30-2'."
   },
   {
-   "game": "2017-vacated",
-   "field": "vacated",
    "season": "2016-17",
    "games or wins": "entire season: all 33 games (16 wins and 17 losses)",
    "official_record": "16-17 on the court; NCAA official 0-0",
@@ -946,8 +942,6 @@
    "note": "From the July 2, 2019 Committee on Infractions decision (Ollie case: trainer/booster gave three players free training, lodging, meals). UConn reported the affected contests afterward; ineligible players appeared in every 2016-17 game (Purvis 33 games vacated per UConn's record book). Wikipedia's claim that no 2016-17 games were vacated is wrong per the NCAA book."
   },
   {
-   "game": "2018-vacated",
-   "field": "vacated",
    "season": "2017-18",
    "games or wins": "31 of 32 games (14 wins and 17 losses); only the 2018-03-08 AAC tournament loss to SMU (L 73-80) stands",
    "official_record": "14-18 on the court; NCAA official 0-1",
@@ -1009,14 +1003,14 @@
    "sources": [
     {
      "url": "https://umterps.com/sports/mens-basketball/stats/2015-16/connecticut/boxscore/8067",
-     "quote": "35 Brimah, Amida * 18 1 - 2 0 - 0 0 - 0 1 - 6 7 3 1 0 4 0 2 (cols: min fg 3pt ft orb-drb reb pf a to blk stl pts)"
+     "quote": "35 Brimah, Amida * 18 1-2 0-0 0-0 1-6 7 3 1 0 4 0 2"
     },
     {
      "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
      "quote": "BRIMAH, AMIDA ... 2015-16 25 67 101 66.3 0 0 00.0 28 34 82.4 115 4.6 3 20 67 6"
     }
    ],
-   "note": "Official box (Maryland's StatCrew box) credits Brimah 1 assist; UConn team total 8 assists vs SR's 7. UConn's official 2015-16 season total (3 assists) also needs this one. ESPN's PBP happens not to tag it."
+   "note": "Official box (Maryland's StatCrew box) credits Brimah 1 assist; UConn team total 8 assists vs SR's 7. UConn's official 2015-16 season total (3 assists) also needs this one. ESPN's PBP happens not to tag it. Box columns: min, fg, 3pt, ft, orb-drb, reb, pf, a, to, blk, stl, pts."
   },
   {
    "game": "2011-26",
@@ -1037,7 +1031,7 @@
     },
     {
      "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
-     "quote": "WOLF, ENOSCH 2010-11 7 3 5 60.0 0 0 0.0 1 2 50.0 6 0.9 0 5 0 0 26 7 1.0"
+     "quote": "WOLF, ENOSCH 2010-11 7 3 5 60.0 ... 26 7 1.0 (games, FG, FGA, ... min, pts, avg)"
     }
    ],
    "note": "UConn's official box (archived Feb 2011) lists Wolf with 1 minute; his official 2010-11 line is 7 games / 26 minutes, which matches ESPN's 7 appearances (SR has 6 / 25 min)."
@@ -1057,7 +1051,15 @@
    "sources": [
     {
      "url": "https://icgaels.com/sports/mens-basketball/stats/2009-10/connecticut/boxscore/1955",
-     "quote": "05 Dwight, Rashon * 23 4-10 2-4 2-2 0-1 1 1 3 1 0 0 12 ... 21 Rodriguez, Alejo 17 4-7 0-0 0-0 3-1 4 5 0 1 0 1 8"
+     "quote": "05 Dwight, Rashon * 23 4-10 2-4 2-2 0-1 1 1 3 1 0 0 12"
+    },
+    {
+     "url": "https://icgaels.com/sports/mens-basketball/stats/2009-10/connecticut/boxscore/1955",
+     "quote": "21 Rodriguez, Alejo 17 4-7 0-0 0-0 3-1 4 5 0 1 0 1 8"
+    },
+    {
+     "url": "https://icgaels.com/sports/mens-basketball/stats/2009-10/connecticut/boxscore/1955",
+     "quote": "Totals - 200 28-66 9-25 9-10 12-21 33 23 17 14 0 5 74"
     }
    ],
    "iona_box": [

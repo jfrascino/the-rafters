@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30 17:28",
+ "generated": "2026-09-30 17:57",
  "note": "Real photographs only; each image's source page names the player. Hotlink-checked with Referer https://jfrascino.github.io/. Lists are best-first (UConn-era > NBA headshot > other).",
  "players": {
   "chris-smith-1": [
@@ -4092,6 +4092,17 @@
   ],
   "kirk-king-1": [
    {
+    "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656%2F6.jpg/60,480,182,225/max/0/default.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 182,
+    "h": 225,
+    "source": "https://archive.org/details/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656",
+    "credit": "UConn Athletics 1995-96 men's basketball media guide (scan via Internet Archive)",
+    "license": "Copyright UConn Athletics; archive.org scan (hotlinked)",
+    "caption": "Kirk King, #13, junior forward — headshot from the 1995-96 Connecticut Basketball Radio/TV Chart (media guide p. 64; name and number printed beside the photo)"
+   },
+   {
     "url": "https://www.storrsstories.com/images/kking.jpeg",
     "kind": "uconn-action",
     "cutout": false,
@@ -6377,6 +6388,17 @@
   ],
   "willie-mccloud-1": [
    {
+    "url": "https://iiif.archive.org/image/iiif/3/Lot-6-UCONN-Basketball-Yearbook-Media-Guides-8589-9193%2F1.jpg/415,480,335,425/max/0/default.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 335,
+    "h": 425,
+    "source": "https://archive.org/details/Lot-6-UCONN-Basketball-Yearbook-Media-Guides-8589-9193",
+    "credit": "UConn Athletics late-1980s men's basketball media guide (photo of page via Internet Archive)",
+    "license": "Copyright UConn Athletics; archive.org scan (hotlinked)",
+    "caption": "Willie McCloud — posed portrait in a UConn men's basketball media guide (late 1980s; his name is printed on the photo; same page shows Cliff Robinson, Phil Gamble, Tate George)"
+   },
+   {
     "url": "https://www.storrsstories.com/images/willie_mccloud3.jpg",
     "kind": "uconn-action",
     "cutout": false,
@@ -6386,6 +6408,18 @@
     "credit": "Storrs Stories (storrsstories.com) UConn players page",
     "license": "Copyright (hotlinked)",
     "caption": "Willie McCloud — Storrs Stories UConn player photo (1987-88 : 1988-89); jersey #33 visible, matches roster"
+   },
+   {
+    "url": "https://archive.org/download/Lot-6-UCONN-Basketball-Yearbook-Media-Guides-8589-9193/1.jpg",
+    "kind": "uconn-team",
+    "cutout": false,
+    "w": 757,
+    "h": 1000,
+    "source": "https://archive.org/details/Lot-6-UCONN-Basketball-Yearbook-Media-Guides-8589-9193",
+    "credit": "UConn Athletics media guide (photo of page via Internet Archive)",
+    "license": "Copyright UConn Athletics; archive.org scan (hotlinked)",
+    "caption": "Full media-guide page: Cliff Robinson, Phil Gamble, Tate George and Willie McCloud portraits, names printed [crop: bottom-right quadrant, 'Willie McCloud']",
+    "crop": "bottom-right quadrant, 'Willie McCloud'"
    }
   ],
   "gerry-besselink-1": [
@@ -6812,6 +6846,28 @@
     "license": "Copyright (hotlinked)",
     "caption": "Antwoine Anderson — Storrs Stories UConn player photo (2017-18); jersey #0 visible, matches roster [crop: right-centre, #0 in white]",
     "crop": "right-centre, #0 in white"
+   },
+   {
+    "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/fordham.sidearmsports.com/images/2015/10/13/Anderson.jpg",
+    "kind": "other",
+    "cutout": false,
+    "w": 1143,
+    "h": 1600,
+    "source": "https://fordhamsports.com/sports/mens-basketball/roster/2015-16",
+    "credit": "Fordham Athletics",
+    "license": "Copyright Fordham Athletics (hotlinked)",
+    "caption": "Antwoine Anderson — official 2015-16 Fordham men's basketball roster headshot"
+   },
+   {
+    "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/fordham.sidearmsports.com/images/2016/10/5/Anderson.jpg",
+    "kind": "other",
+    "cutout": false,
+    "w": 1099,
+    "h": 1600,
+    "source": "https://fordhamsports.com/sports/mens-basketball/roster/2016-17",
+    "credit": "Fordham Athletics",
+    "license": "Copyright Fordham Athletics (hotlinked)",
+    "caption": "Antwoine Anderson — official 2016-17 Fordham men's basketball roster headshot (he transferred to UConn for 2017-18)"
    }
   ],
   "akok-akok-1": [
@@ -6886,6 +6942,28 @@
    }
   ],
   "antric-klaiber-1": [
+   {
+    "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656%2F6.jpg/60,730,190,230/max/0/default.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 190,
+    "h": 230,
+    "source": "https://archive.org/details/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656",
+    "credit": "UConn Athletics 1995-96 men's basketball media guide (scan via Internet Archive)",
+    "license": "Copyright UConn Athletics; archive.org scan (hotlinked)",
+    "caption": "Antric Klaiber, #22, freshman forward — headshot from the 1995-96 Connecticut Basketball Radio/TV Chart (media guide p. 64; name and number printed beside the photo)"
+   },
+   {
+    "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1997-1998-Media-guide-Richard-Hamilton-Kevin-Freeman-whitejasper656%2F4.jpg/80,400,185,225/max/0/default.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 185,
+    "h": 225,
+    "source": "https://archive.org/details/UCONN-mens-basketball-1997-1998-Media-guide-Richard-Hamilton-Kevin-Freeman-whitejasper656",
+    "credit": "UConn Athletics 1997-98 men's basketball media guide (scan via Internet Archive)",
+    "license": "Copyright UConn Athletics; archive.org scan (hotlinked)",
+    "caption": "Antric Klaiber, #22, junior forward/center — roster headshot from the 1997-98 UConn men's basketball media guide (name and number printed beside the photo)"
+   },
    {
     "url": "https://www.storrsstories.com/images/aklaiber.jpeg",
     "kind": "uconn-action",
@@ -7169,6 +7247,17 @@
    }
   ],
   "ajou-deng-1": [
+   {
+    "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1999-2000-Media-guide-Kevin-Freeman-Khalid-El-Amin-whitejasper656%2F4.jpg/473,401,164,205/max/0/default.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 164,
+    "h": 205,
+    "source": "https://archive.org/details/UCONN-mens-basketball-1999-2000-Media-guide-Kevin-Freeman-Khalid-El-Amin-whitejasper656",
+    "credit": "UConn Athletics 1999-2000 men's basketball media guide (scan via Internet Archive)",
+    "license": "Copyright UConn Athletics; archive.org scan (hotlinked)",
+    "caption": "Ajou Deng, #4, sophomore forward (London, England) — headshot from the 1999-2000 UConn Radio/TV Chart in the media guide (name and number printed beside the photo)"
+   },
    {
     "url": "https://web.archive.org/web/20010712064517im_/http://www.uconnhuskies.com:80/sports/MBasketball/2001/Preview/ajoudeng.JPG",
     "kind": "uconn-action",
@@ -7562,6 +7651,17 @@
   ],
   "dion-carson-1": [
    {
+    "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656%2F6.jpg/780,740,190,228/max/0/default.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 190,
+    "h": 228,
+    "source": "https://archive.org/details/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656",
+    "credit": "UConn Athletics 1995-96 men's basketball media guide (scan via Internet Archive)",
+    "license": "Copyright UConn Athletics; archive.org scan (hotlinked)",
+    "caption": "Dion Carson, #24, junior guard — headshot from the 1995-96 Connecticut Basketball Radio/TV Chart (media guide p. 64; name and number printed beside the photo)"
+   },
+   {
     "url": "https://www.storrsstories.com/images/dcarson.jpeg",
     "kind": "uconn-action",
     "cutout": false,
@@ -7775,6 +7875,17 @@
   ],
   "justin-brown-2": [
    {
+    "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1999-2000-Media-guide-Kevin-Freeman-Khalid-El-Amin-whitejasper656%2F4.jpg/843,183,162,207/max/0/default.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 162,
+    "h": 207,
+    "source": "https://archive.org/details/UCONN-mens-basketball-1999-2000-Media-guide-Kevin-Freeman-Khalid-El-Amin-whitejasper656",
+    "credit": "UConn Athletics 1999-2000 men's basketball media guide (scan via Internet Archive)",
+    "license": "Copyright UConn Athletics; archive.org scan (hotlinked)",
+    "caption": "Justin Brown, #20, redshirt freshman center (Perth, Australia) — headshot from the 1999-2000 UConn Radio/TV Chart in the media guide (name and number printed beside the photo)"
+   },
+   {
     "url": "https://web.archive.org/web/20030108234354im_/http://uconnhuskies.com:80/sports/MBasketball/2003/ColorHeadshots/BrownJustin0203color.jpg",
     "kind": "uconn-headshot",
     "cutout": false,
@@ -7834,6 +7945,17 @@
    }
   ],
   "marcus-cox-1": [
+   {
+    "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1999-2000-Media-guide-Kevin-Freeman-Khalid-El-Amin-whitejasper656%2F4.jpg/98,401,164,205/max/0/default.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 164,
+    "h": 205,
+    "source": "https://archive.org/details/UCONN-mens-basketball-1999-2000-Media-guide-Kevin-Freeman-Khalid-El-Amin-whitejasper656",
+    "credit": "UConn Athletics 1999-2000 men's basketball media guide (scan via Internet Archive)",
+    "license": "Copyright UConn Athletics; archive.org scan (hotlinked)",
+    "caption": "Marcus Cox, #50, freshman guard (Bridgeport, CT) — headshot from the 1999-2000 UConn Radio/TV Chart in the media guide (name and number printed beside the photo)"
+   },
    {
     "url": "https://web.archive.org/web/20000902232419im_/http://www.uconnhuskies.com:80/pix/19991020/coxhs.jpg.resized.jpg",
     "kind": "uconn-headshot",
@@ -8028,6 +8150,17 @@
    }
   ],
   "ruslan-inyatkin-1": [
+   {
+    "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656%2F6.jpg/410,210,195,230/max/0/default.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 195,
+    "h": 230,
+    "source": "https://archive.org/details/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656",
+    "credit": "UConn Athletics 1995-96 men's basketball media guide (scan via Internet Archive)",
+    "license": "Copyright UConn Athletics; archive.org scan (hotlinked)",
+    "caption": "Ruslan Inyatkin, #10, sophomore forward — headshot from the 1995-96 Connecticut Basketball Radio/TV Chart (media guide p. 64; name and number printed beside the photo)"
+   },
    {
     "url": "https://www.storrsstories.com/images/ruslan.jpeg",
     "kind": "uconn-action",
@@ -8430,6 +8563,29 @@
     "credit": "Storrs Stories (storrsstories.com) UConn players page",
     "license": "Copyright (hotlinked)",
     "caption": "David Onuorah — Storrs Stories UConn player photo (2017-18); jersey #34 visible, matches roster"
+   },
+   {
+    "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/cornellbigred.com/images/2013/12/4/Onuorah_web.jpg",
+    "kind": "other",
+    "cutout": false,
+    "w": 707,
+    "h": 403,
+    "source": "https://cornellbigred.com/sports/mens-basketball/roster/david-onuorah/42417",
+    "credit": "Cornell Athletics",
+    "license": "Copyright Cornell Athletics (hotlinked)",
+    "caption": "David Onuorah (#0, Cornell) in a 2013-14 game — Cornell roster bio image [crop: centre, Cornell #0]",
+    "crop": "centre, Cornell #0"
+   },
+   {
+    "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/cornellbigred.com/images/2015/8/27/Onuorah_web.jpg",
+    "kind": "other",
+    "cutout": false,
+    "w": 200,
+    "h": 280,
+    "source": "https://cornellbigred.com/sports/mens-basketball/roster/david-onuorah/42417",
+    "credit": "Cornell Athletics",
+    "license": "Copyright Cornell Athletics (hotlinked)",
+    "caption": "David Onuorah — official Cornell men's basketball roster headshot (2015-16; he was a graduate transfer to UConn for 2017-18)"
    }
   ],
   "richie-springs-1": [
@@ -8978,6 +9134,17 @@
    }
   ],
   "sam-funches-1": [
+   {
+    "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1997-1998-Media-guide-Richard-Hamilton-Kevin-Freeman-whitejasper656%2F4.jpg/822,404,185,225/max/0/default.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 185,
+    "h": 225,
+    "source": "https://archive.org/details/UCONN-mens-basketball-1997-1998-Media-guide-Richard-Hamilton-Kevin-Freeman-whitejasper656",
+    "credit": "UConn Athletics 1997-98 men's basketball media guide (scan via Internet Archive)",
+    "license": "Copyright UConn Athletics; archive.org scan (hotlinked)",
+    "caption": "Sam Funches, #31, sophomore forward — roster headshot from the 1997-98 UConn men's basketball media guide (name and number printed beside the photo)"
+   },
    {
     "url": "https://www.storrsstories.com/images/sfunches.jpeg",
     "kind": "other",
@@ -9658,6 +9825,17 @@
    }
   ],
   "justin-srb-1": [
+   {
+    "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656%2F6.jpg/410,480,190,225/max/0/default.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 190,
+    "h": 225,
+    "source": "https://archive.org/details/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656",
+    "credit": "UConn Athletics 1995-96 men's basketball media guide (scan via Internet Archive)",
+    "license": "Copyright UConn Athletics; archive.org scan (hotlinked)",
+    "caption": "Justin Srb, #14, senior guard — headshot from the 1995-96 Connecticut Basketball Radio/TV Chart (media guide p. 64; name and number printed beside the photo)"
+   },
    {
     "url": "https://www.storrsstories.com/images/justin_srb.jpg",
     "kind": "uconn-action",

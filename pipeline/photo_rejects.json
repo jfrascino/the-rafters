@@ -1,0 +1,6 @@
+{
+  "_note": "Images that must never be used as a player photo. hashes = md5 of the localized file.",
+  "hashes": {
+    "420f0f4319052a8dbb76eee1b2a79c33": "uconnhuskies.com roster placeholder (generic Husky logo), not a photo of the player"
+  }
+}

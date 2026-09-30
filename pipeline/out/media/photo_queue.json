@@ -1,47 +1,396 @@
 {
- "generated": "2026-09-30 17:28",
- "note": "Players the site still lacks a photo for (photos-drop/NEEDED.md). best_candidates: real images, verified first (UConn-era first, then largest); entries flagged unverified are plausible but could be namesakes — check before use. Most are small (100-300px) and need restoration.",
+ "generated": "2026-09-30 17:57",
+ "note": "First the players the site still lacks a photo for (photos-drop/NEEDED.md, status 'needed: ...'), then players whose best photo is under 500px and not yet owner-restored (status 'small: ...'). best_candidates: real images, verified first (UConn-era portrait > action > team, then largest); entries flagged unverified are plausible but could be namesakes — check before use.",
  "queue": [
   {
-   "sr_id": "kirk-king-1",
-   "name": "Kirk King",
-   "years": "1993–97",
-   "number": "13",
-   "status": "has-verified-photo",
+   "sr_id": "richard-moore-2",
+   "name": "Richard Moore",
+   "years": "1998–00",
+   "number": "25",
+   "status": "needed: unverified-only",
    "best_candidates": [
     {
-     "url": "https://www.storrsstories.com/images/kking.jpeg",
+     "url": "https://www.storrsstories.com/images/richard_moore.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 33,
+     "h": 41,
+     "kind": "other",
+     "caption": "Richard Moore — Storrs Stories UConn player photo (1998-99 : 1999-2000); UNVERIFIED later-life/face photo (possible namesake) — restoration queue only",
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "sr_id": "karsten-kibbe-1",
+   "name": "Karsten Kibbe",
+   "years": "1986–88",
+   "number": null,
+   "status": "needed: unverified-only",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/karsten_kibbe3.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 123,
+     "h": 200,
+     "kind": "other",
+     "caption": "Karsten Kibbe — Storrs Stories UConn player photo (1986-87 : 1987-8); UNVERIFIED later-life/face photo (possible namesake) — restoration queue only; tinted/colorized face crop",
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "sr_id": "chris-crowley-2",
+   "name": "Chris Crowley",
+   "years": "1997–98",
+   "number": "44",
+   "status": "needed: unverified-only",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/ccrowley.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 192,
+     "h": 240,
+     "kind": "other",
+     "caption": "Chris Crowley — Storrs Stories UConn player photo (1997-98); UNVERIFIED later-life/face photo (possible namesake) — restoration queue only",
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "sr_id": "kurt-bauer-1",
+   "name": "Kurt Bauer",
+   "years": "1986–87",
+   "number": null,
+   "status": "needed: unverified-only",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/kbauer.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 200,
+     "h": 200,
+     "kind": "other",
+     "caption": "Kurt Bauer — Storrs Stories UConn player photo (1985-86 : 1986-87); UNVERIFIED later-life/face photo (possible namesake) — restoration queue only",
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "sr_id": "brian-hall-1",
+   "name": "Brian Hall",
+   "years": "1986–87",
+   "number": null,
+   "status": "needed: missing",
+   "best_candidates": []
+  },
+  {
+   "sr_id": "jeff-lewis-3",
+   "name": "Jeff Lewis",
+   "years": "1986–87",
+   "number": "15",
+   "status": "needed: unverified-only",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/jeff_lewis2.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 187,
+     "h": 333,
+     "kind": "other",
+     "caption": "Jeff Lewis — Storrs Stories UConn player photo (1986-87); UNVERIFIED later-life/face photo (possible namesake) — restoration queue only; tinted/colorized face crop",
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "sr_id": "rick-bush-1",
+   "name": "Rick Bush",
+   "years": "1987–88",
+   "number": null,
+   "status": "needed: unverified-only",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/rickbush.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 204,
+     "h": 192,
+     "kind": "other",
+     "caption": "Rick Bush — Storrs Stories UConn player photo (1987-88); UNVERIFIED later-life/face photo (possible namesake) — restoration queue only",
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "sr_id": "greg-yeomans-1",
+   "name": "Greg Yeomans",
+   "years": "1994–95",
+   "number": "22",
+   "status": "needed: missing",
+   "best_candidates": []
+  },
+  {
+   "sr_id": "craig-glazer-1",
+   "name": "Craig Glazer",
+   "years": "1997–98",
+   "number": "25",
+   "status": "needed: unverified-only",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/cglazer.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 200,
+     "h": 199,
+     "kind": "other",
+     "caption": "Craig Glazer — Storrs Stories UConn player photo (1997-98); UNVERIFIED later-life/face photo (possible namesake) — restoration queue only",
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "sr_id": "jerome-dyson-1",
+   "name": "Jerome Dyson",
+   "years": "2006–10",
+   "number": "11",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/3558172.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/jerome-dyson/1862",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Jerome Dyson — 2009-10 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/jdyson.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 200,
+     "h": 132,
+     "kind": "uconn-action",
+     "caption": "Jerome Dyson — Storrs Stories UConn player photo (2006-07 : 2009-10); not individually reviewed"
+    },
+    {
+     "url": "https://a.espncdn.com/i/headshots/nba/players/full/4320.png",
+     "page": "https://www.espn.com/nba/player/_/id/4320",
+     "w": 600,
+     "h": 436,
+     "kind": "nba-headshot",
+     "caption": "Jerome Dyson ESPN NBA headshot"
+    },
+    {
+     "url": "https://www.basketball-reference.com/req/202605210/images/headshots/dysonje01.jpg",
+     "page": "https://www.basketball-reference.com/players/d/dysonje01.html",
+     "w": 120,
+     "h": 180,
+     "kind": "nba-headshot",
+     "caption": "Photo of Jerome Dyson — Basketball-Reference NBA page"
+    },
+    {
+     "url": "https://www.basketball-reference.com/req/202106291/images/headshots/jerome-dyson-1.jpg",
+     "page": "https://www.basketball-reference.com/international/players/jerome-dyson-1.html",
+     "w": 120,
+     "h": 180,
+     "kind": "pro-other",
+     "caption": "Photo of Jerome Dyson — Basketball-Reference international page"
+    }
+   ]
+  },
+  {
+   "sr_id": "sterling-gibbs-1",
+   "name": "Sterling Gibbs",
+   "years": "2015–16",
+   "number": "4",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/11357496.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/sterling-gibbs/1782",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Sterling Gibbs — 2015-16 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/sgibbs.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 200,
+     "h": 132,
+     "kind": "uconn-action",
+     "caption": "Sterling Gibbs — Storrs Stories UConn player photo (2015-16); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "nadav-henefeld-1",
+   "name": "Nadav Henefeld",
+   "years": "1989–90",
+   "number": "40",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/nhenefeld.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 179,
+     "h": 219,
+     "kind": "uconn-action",
+     "caption": "Nadav Henefeld — Storrs Stories UConn player photo (1989-90); not individually reviewed"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Henfeld201.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Henfeld201.JPG",
+     "w": 640,
+     "h": 480,
+     "kind": "other",
+     "caption": "Nadav Henefeld"
+    }
+   ]
+  },
+  {
+   "sr_id": "doug-wiggins-1",
+   "name": "Doug Wiggins",
+   "years": "2006–08",
+   "number": "3",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/1745412.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/doug-wiggins/1905",
+     "w": 105,
+     "h": 147,
+     "kind": "uconn-headshot",
+     "caption": "Doug Wiggins — 2006-07 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/dwiggins.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 140,
+     "h": 200,
+     "kind": "uconn-action",
+     "caption": "Doug Wiggins — Storrs Stories UConn player photo (2006-07); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "souleymane-wane-1",
+   "name": "Souleymane Wane",
+   "years": "1997–01",
+   "number": "34",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://web.archive.org/web/20020428151932im_/http://uconnhuskies.com:80/pix/bko/bkc/uc032999bkc1.jpg",
+     "page": "https://web.archive.org/web/19991003012741/http://www.uconnhuskies.com:80/bko/bkc/photouc032999bkc1.html",
+     "w": 350,
+     "h": 233,
+     "kind": "uconn-action",
+     "caption": "Souleymane Wane stretches before the UConn-Duke NCAA championship game, Tropicana Field, St. Petersburg, Fla., March 29, 1999 [crop: left-center, stretching player in UConn warmups]",
+     "crop": "left-center, stretching player in UConn warmups"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/swane.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 142,
+     "h": 200,
+     "kind": "uconn-action",
+     "caption": "Souleymane Wane — Storrs Stories UConn player photo (); not individually reviewed"
+    },
+    {
+     "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/uconnhuskies.com/images/2024/4/26/99_large.jpg",
+     "page": "https://uconnhuskies.com/honors/huskies-of-honor/national-champion-1998-99-team/25",
+     "w": 656,
+     "h": 358,
+     "kind": "uconn-team",
+     "caption": "Souleymane Wane (#34) in the 1998-99 national champion team photo; identified by jersey number per the 1998-99 roster [crop: back row, 2nd from right, #34]",
+     "crop": "back row, 2nd from right, #34"
+    },
+    {
+     "url": "https://www.eurobasket.com/photos/Wane_Souleymane.png",
+     "page": "https://basketball.eurobasket.com/player/Souleymane-Wane/25286",
+     "w": 110,
+     "h": 150,
+     "kind": "pro-other",
+     "caption": "Souleymane Wane, pro-career profile headshot (Eurobasket; UConn 1997-2001, b. 1976 Dakar)"
+    },
+    {
+     "url": "https://bloximages.chicago2.vip.townnews.com/eagletribune.com/content/tncms/assets/v3/editorial/2/21/22127669-0d22-5064-90fa-ab163216e810/58707635ec90a.image.jpg",
+     "page": "https://www.eagletribune.com/sports/local_sports/former-uconn-champion-souleymane-wane-adjusting-to-life-as-a-head-coach-at-haverhill-high/article_26cfaa88-f119-5d53-b8c7-6ba6d8c3611a.html",
+     "w": 800,
+     "h": 520,
+     "kind": "other",
+     "caption": "Souleymane Wane (1999 UConn national champion) coaching Haverhill High boys basketball at practice, c. 2017 [crop: center figure holding ball]",
+     "crop": "center figure holding ball"
+    }
+   ]
+  },
+  {
+   "sr_id": "jamal-coombs-mcdaniel-1",
+   "name": "Jamal Coombs-McDaniel",
+   "years": "2009–11",
+   "number": "23",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/5893621.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/jamal-coombsmcdaniel/1848",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Jamal Coombs-McDaniel — 2010-11 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/jmcdaniel.jpeg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
      "w": 133,
      "h": 200,
      "kind": "uconn-action",
-     "caption": "Kirk King — Storrs Stories UConn player photo (1993-94 : 1996-97); jersey navy #13 (1995-97 number) visible, matches roster"
+     "caption": "Jamal Coombs-McDaniel — Storrs Stories UConn player photo (); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "andre-drummond-1",
+   "name": "Andre Drummond",
+   "years": "2011–12",
+   "number": "12",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/6994189.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/andre-drummond/1835",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Andre Drummond — 2011-12 UConn men's basketball roster headshot"
     },
     {
-     "url": "https://archive.org/download/19951996-University-of-Connecticut-Mens-Basketball-Team-Photo-Schedule/1.jpg",
-     "page": "https://archive.org/details/19951996-University-of-Connecticut-Mens-Basketball-Team-Photo-Schedule",
+     "url": "https://www.storrsstories.com/images/adrummond.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 200,
+     "h": 133,
+     "kind": "uconn-action",
+     "caption": "Andre Drummond — Storrs Stories UConn player photo (2011-12); not individually reviewed"
+    },
+    {
+     "url": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png",
+     "page": "https://www.espn.com/nba/player/_/id/6585",
+     "w": 600,
+     "h": 436,
+     "kind": "nba-headshot",
+     "caption": "Andre Drummond ESPN NBA headshot"
+    },
+    {
+     "url": "https://www.basketball-reference.com/req/202605210/images/headshots/drumman01.jpg",
+     "page": "https://www.basketball-reference.com/players/d/drumman01.html",
+     "w": 120,
+     "h": 180,
+     "kind": "nba-headshot",
+     "caption": "Photo of Andre Drummond — Basketball-Reference NBA page"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/1_andre_drummond_2026.jpg/960px-1_andre_drummond_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:1_andre_drummond_2026.jpg",
      "w": 960,
-     "h": 759,
-     "kind": "uconn-team",
-     "caption": "Kirk King (#13) in the 1995-96 UConn team photo (card caption lists players by row L-R; number per printed roster on back) [crop: back row 4th from left, #13; box x=345 y=62 w=95 h=150 of 960x759]",
-     "crop": "back row 4th from left, #13; box x=345 y=62 w=95 h=150 of 960x759"
-    },
-    {
-     "url": "https://archive.org/download/19941995-University-of-Connecticut-Mens-Basketball-Team-Photo-Schedule/0.jpg",
-     "page": "https://archive.org/details/19941995-University-of-Connecticut-Mens-Basketball-Team-Photo-Schedule",
-     "w": 936,
-     "h": 723,
-     "kind": "uconn-team",
-     "caption": "Kirk King (#32) in the 1994-95 UConn team photo (card caption lists back row L-R; #32 per printed roster) [crop: back row 6th from left, #32; box x=500 y=85 w=92 h=150 of 936x723]",
-     "crop": "back row 6th from left, #32; box x=500 y=85 w=92 h=150 of 936x723"
-    },
-    {
-     "url": "https://www.eurobasket.com/photos/King_Kirk.png",
-     "page": "https://basketball.eurobasket.com/player/Kirk-King/17629",
-     "w": 110,
-     "h": 150,
+     "h": 1112,
      "kind": "pro-other",
-     "caption": "Kirk King, pro-career profile headshot (Eurobasket; UConn 1993-97, b. 1975 Baton Rouge)"
+     "caption": "andre drummond 76ers 2026"
     }
    ]
   },
@@ -50,8 +399,16 @@
    "name": "Willie McCloud",
    "years": "1987–89",
    "number": "33",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
+    {
+     "url": "https://iiif.archive.org/image/iiif/3/Lot-6-UCONN-Basketball-Yearbook-Media-Guides-8589-9193%2F1.jpg/415,480,335,425/max/0/default.jpg",
+     "page": "https://archive.org/details/Lot-6-UCONN-Basketball-Yearbook-Media-Guides-8589-9193",
+     "w": 335,
+     "h": 425,
+     "kind": "uconn-headshot",
+     "caption": "Willie McCloud — posed portrait in a UConn men's basketball media guide (late 1980s; his name is printed on the photo; same page shows Cliff Robinson, Phil Gamble, Tate George)"
+    },
     {
      "url": "https://www.storrsstories.com/images/willie_mccloud3.jpg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
@@ -59,6 +416,106 @@
      "h": 200,
      "kind": "uconn-action",
      "caption": "Willie McCloud — Storrs Stories UConn player photo (1987-88 : 1988-89); jersey #33 visible, matches roster"
+    },
+    {
+     "url": "https://archive.org/download/Lot-6-UCONN-Basketball-Yearbook-Media-Guides-8589-9193/1.jpg",
+     "page": "https://archive.org/details/Lot-6-UCONN-Basketball-Yearbook-Media-Guides-8589-9193",
+     "w": 757,
+     "h": 1000,
+     "kind": "uconn-team",
+     "caption": "Full media-guide page: Cliff Robinson, Phil Gamble, Tate George and Willie McCloud portraits, names printed [crop: bottom-right quadrant, 'Willie McCloud']",
+     "crop": "bottom-right quadrant, 'Willie McCloud'"
+    }
+   ]
+  },
+  {
+   "sr_id": "phillip-nolan-1",
+   "name": "Phillip Nolan",
+   "years": "2012–16",
+   "number": "0",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/11357503.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/phillip-nolan/1786",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Phillip Nolan — 2015-16 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Phillip_Nolan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page": "https://commons.wikimedia.org/wiki/File:Phillip_Nolan.jpg",
+     "w": 800,
+     "h": 533,
+     "kind": "uconn-action",
+     "caption": "UCON vs Florida Gators 2015/01/03"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Phillip_Nolan.jpg/500px-Phillip_Nolan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Phillip_Nolan.jpg",
+     "w": 500,
+     "h": 750,
+     "kind": "uconn-action",
+     "caption": "UCON vs Florida Gators 2015/01/03"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/pnolan.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 161,
+     "h": 200,
+     "kind": "uconn-action",
+     "caption": "Phillip Nolan — Storrs Stories UConn player photo (); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "marcus-johnson-2",
+   "name": "Marcus Johnson",
+   "years": "2005–07",
+   "number": "0",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/mjohnson.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 250,
+     "h": 350,
+     "kind": "uconn-action",
+     "caption": "Marcus Johnson (#1) dribbling for UConn at home, c. 2005-07 (image labeled on Storrs Stories player page)"
+    },
+    {
+     "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/usctrojans.com/images/2017/5/19/2358425.jpeg",
+     "page": "https://usctrojans.com/sports/mens-basketball/roster/marcus-johnson/545",
+     "w": 105,
+     "h": 136,
+     "kind": "other",
+     "caption": "Marcus Johnson — USC Trojans roster headshot (2008-09/2009-10; transferred from UConn)"
+    }
+   ]
+  },
+  {
+   "sr_id": "lasan-kromah-2",
+   "name": "Lasan Kromah",
+   "years": "2013–14",
+   "number": "20",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/9266885.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/lasan-kromah/1809",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Lasan Kromah — 2013-14 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/lkromah.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 141,
+     "h": 201,
+     "kind": "uconn-action",
+     "caption": "Lasan Kromah — Storrs Stories UConn player photo (); not individually reviewed"
     }
    ]
   },
@@ -67,7 +524,7 @@
    "name": "Antwoine Anderson",
    "years": "2017–18",
    "number": "0",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
      "url": "https://www.storrsstories.com/images/aanderson.jpeg",
@@ -77,6 +534,22 @@
      "kind": "uconn-action",
      "caption": "Antwoine Anderson — Storrs Stories UConn player photo (2017-18); jersey #0 visible, matches roster [crop: right-centre, #0 in white]",
      "crop": "right-centre, #0 in white"
+    },
+    {
+     "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/fordham.sidearmsports.com/images/2015/10/13/Anderson.jpg",
+     "page": "https://fordhamsports.com/sports/mens-basketball/roster/2015-16",
+     "w": 1143,
+     "h": 1600,
+     "kind": "other",
+     "caption": "Antwoine Anderson — official 2015-16 Fordham men's basketball roster headshot"
+    },
+    {
+     "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/fordham.sidearmsports.com/images/2016/10/5/Anderson.jpg",
+     "page": "https://fordhamsports.com/sports/mens-basketball/roster/2016-17",
+     "w": 1099,
+     "h": 1600,
+     "kind": "other",
+     "caption": "Antwoine Anderson — official 2016-17 Fordham men's basketball roster headshot (he transferred to UConn for 2017-18)"
     }
    ]
   },
@@ -85,8 +558,24 @@
    "name": "Antric Klaiber",
    "years": "1995–99",
    "number": "22",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
+    {
+     "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656%2F6.jpg/60,730,190,230/max/0/default.jpg",
+     "page": "https://archive.org/details/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656",
+     "w": 190,
+     "h": 230,
+     "kind": "uconn-headshot",
+     "caption": "Antric Klaiber, #22, freshman forward — headshot from the 1995-96 Connecticut Basketball Radio/TV Chart (media guide p. 64; name and number printed beside the photo)"
+    },
+    {
+     "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1997-1998-Media-guide-Richard-Hamilton-Kevin-Freeman-whitejasper656%2F4.jpg/80,400,185,225/max/0/default.jpg",
+     "page": "https://archive.org/details/UCONN-mens-basketball-1997-1998-Media-guide-Richard-Hamilton-Kevin-Freeman-whitejasper656",
+     "w": 185,
+     "h": 225,
+     "kind": "uconn-headshot",
+     "caption": "Antric Klaiber, #22, junior forward/center — roster headshot from the 1997-98 UConn men's basketball media guide (name and number printed beside the photo)"
+    },
     {
      "url": "https://www.storrsstories.com/images/aklaiber.jpeg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
@@ -116,12 +605,53 @@
    ]
   },
   {
+   "sr_id": "terrence-samuel-1",
+   "name": "Terrence Samuel",
+   "years": "2013–15",
+   "number": "3",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/10394270.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/terrence-samuel/1802",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Terrence Samuel — 2014-15 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Terrence_Samuel.jpg/330px-Terrence_Samuel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Terrence_Samuel.jpg",
+     "w": 330,
+     "h": 467,
+     "kind": "uconn-action",
+     "caption": "UCON vs Florida Gators 2015/01/03"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/tsamuel.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 200,
+     "h": 149,
+     "kind": "uconn-action",
+     "caption": "Terrence Samuel — Storrs Stories UConn player photo (); not individually reviewed"
+    }
+   ]
+  },
+  {
    "sr_id": "ajou-deng-1",
    "name": "Ajou Deng",
    "years": "1999–01",
    "number": "15",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
+    {
+     "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1999-2000-Media-guide-Kevin-Freeman-Khalid-El-Amin-whitejasper656%2F4.jpg/473,401,164,205/max/0/default.jpg",
+     "page": "https://archive.org/details/UCONN-mens-basketball-1999-2000-Media-guide-Kevin-Freeman-Khalid-El-Amin-whitejasper656",
+     "w": 164,
+     "h": 205,
+     "kind": "uconn-headshot",
+     "caption": "Ajou Deng, #4, sophomore forward (London, England) — headshot from the 1999-2000 UConn Radio/TV Chart in the media guide (name and number printed beside the photo)"
+    },
     {
      "url": "https://web.archive.org/web/20010712064517im_/http://www.uconnhuskies.com:80/sports/MBasketball/2001/Preview/ajoudeng.JPG",
      "page": "https://web.archive.org/web/20010709072446/http://www.uconnhuskies.com:80/sports/MBasketball/2001/Preview/00-01preview.html",
@@ -150,12 +680,103 @@
    ]
   },
   {
+   "sr_id": "ed-nelson-1",
+   "name": "Ed Nelson",
+   "years": "2004–06",
+   "number": "32",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://web.archive.org/web/20071008094133im_/http://www.uconnhooplegends.com/images_menslegends/images_menslegdpgs/NelsonEd_playing.jpg",
+     "page": "http://www.uconnhooplegends.com/menslegends/NelsonEd.html",
+     "w": 250,
+     "h": 504,
+     "kind": "uconn-action",
+     "caption": "Ed Nelson (#32) shooting a free throw for UConn, c. 2004-06 — photo from his UConn Hoop Legends player page"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/enelson.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 133,
+     "h": 200,
+     "kind": "uconn-action",
+     "caption": "Ed Nelson driving in UConn's navy road uniform, c. 2004-06 (image labeled on Storrs Stories player page)"
+    },
+    {
+     "url": "https://web.archive.org/web/20071008094157im_/http://www.uconnhooplegends.com/images_menslegends/images_menslegdpgs/NelsonEd_current.jpg",
+     "page": "http://www.uconnhooplegends.com/menslegends/NelsonEd.html",
+     "w": 230,
+     "h": 288,
+     "kind": "pro-other",
+     "caption": "Ed Nelson playing professionally in Finland, c. 2007 — photo from his UConn Hoop Legends player page"
+    }
+   ]
+  },
+  {
+   "sr_id": "donnell-beverly-1",
+   "name": "Donnell Beverly",
+   "years": "2007–11",
+   "number": "2",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/5893608.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/donnell-beverly/1846",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Donnell Beverly — 2010-11 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/dbeverly.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 176,
+     "h": 200,
+     "kind": "uconn-action",
+     "caption": "Donnell Beverly — Storrs Stories UConn player photo (); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "charles-okwandu-1",
+   "name": "Charles Okwandu",
+   "years": "2008–11",
+   "number": "35",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/5893625.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/charles-okwandu/1852",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Charles Okwandu — 2010-11 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/cokwandu.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 167,
+     "h": 200,
+     "kind": "uconn-action",
+     "caption": "Charles Okwandu — Storrs Stories UConn player photo (); not individually reviewed"
+    }
+   ]
+  },
+  {
    "sr_id": "dion-carson-1",
    "name": "Dion Carson",
    "years": "1995–97",
    "number": "24",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
+    {
+     "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656%2F6.jpg/780,740,190,228/max/0/default.jpg",
+     "page": "https://archive.org/details/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656",
+     "w": 190,
+     "h": 228,
+     "kind": "uconn-headshot",
+     "caption": "Dion Carson, #24, junior guard — headshot from the 1995-96 Connecticut Basketball Radio/TV Chart (media guide p. 64; name and number printed beside the photo)"
+    },
     {
      "url": "https://www.storrsstories.com/images/dcarson.jpeg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
@@ -177,11 +798,79 @@
    ]
   },
   {
+   "sr_id": "curtis-kelly-1",
+   "name": "Curtis Kelly",
+   "years": "2006–08",
+   "number": "24",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/1745354.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/curtis-kelly/1910",
+     "w": 105,
+     "h": 147,
+     "kind": "uconn-headshot",
+     "caption": "Curtis Kelly — 2006-07 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/ckelley.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 176,
+     "h": 200,
+     "kind": "uconn-action",
+     "caption": "Curtis Kelly — Storrs Stories UConn player photo (2006-07 : 2007-08); not individually reviewed"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Curtis_Kelly.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Curtis_Kelly.jpg",
+     "w": 154,
+     "h": 310,
+     "kind": "other",
+     "caption": "Craig Brackins (iowa State) and Curtis Kelly (Kansas State)"
+    }
+   ]
+  },
+  {
+   "sr_id": "marcus-white-1",
+   "name": "Marcus White",
+   "years": "2002–05",
+   "number": "23",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.eurobasket.com/photos/White_Marcus.png",
+     "page": "https://basketball.usbasket.com/player/Marcus-White/91604",
+     "w": 110,
+     "h": 150,
+     "kind": "pro-other",
+     "caption": "Marcus White — headshot from his USbasket/Eurobasket profile (UConn 2002-05, Purdue 2005-06, later D-League/overseas)"
+    }
+   ]
+  },
+  {
+   "sr_id": "mike-hayes-1",
+   "name": "Mike Hayes",
+   "years": "2001–03",
+   "number": "25",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/mike_hayes.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 206,
+     "h": 201,
+     "kind": "uconn-action",
+     "caption": "Mike Hayes (#25, navy) battling Stanford players for UConn (UConn-Stanford met in the 2003 NCAA Tournament) [crop: right half, player in navy #25] (image labeled on Storrs Stories player page)",
+     "crop": "right half, player in navy #25"
+    }
+   ]
+  },
+  {
    "sr_id": "covington-cormier-1",
    "name": "Covington Cormier",
    "years": "1992–93",
    "number": "5",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
      "url": "https://www.storrsstories.com/images/covc2.jpg",
@@ -195,12 +884,70 @@
    ]
   },
   {
+   "sr_id": "sam-cassell-2",
+   "name": "Sam Cassell",
+   "years": "2014–16",
+   "number": "10",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/11357474.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/sam-cassell-jr/1778",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Sam Cassell Jr. — 2015-16 UConn men's basketball roster headshot"
+    }
+   ]
+  },
+  {
+   "sr_id": "scott-hazelton-1",
+   "name": "Scott Hazelton",
+   "years": "2000–03",
+   "number": "21",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/shazelton.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 125,
+     "h": 249,
+     "kind": "uconn-action",
+     "caption": "Scott Hazelton (#21) in UConn's navy road uniform, c. 2000-02 (image labeled on Storrs Stories player page)"
+    },
+    {
+     "url": "https://web.archive.org/web/20220907151403im_/https://threestep.com/wp-content/uploads/2022/09/SH-CC.jpeg",
+     "page": "https://threestep.com/press_releases/haze-of-glory/",
+     "w": 412,
+     "h": 600,
+     "kind": "other",
+     "caption": "Scott Hazelton (#21) celebrating for Central Catholic High School, Lawrence, MA, c. 1999-2000, before UConn (Eagle-Tribune photo)"
+    },
+    {
+     "url": "https://web.archive.org/web/20220907151419im_/https://threestep.com/wp-content/uploads/2022/09/SH.jpg",
+     "page": "https://threestep.com/press_releases/haze-of-glory/",
+     "w": 343,
+     "h": 500,
+     "kind": "other",
+     "caption": "Scott Hazelton as a basketball coach in Massachusetts, c. 2022 (Eagle-Tribune photo in 3STEP Sports profile)"
+    }
+   ]
+  },
+  {
    "sr_id": "justin-brown-2",
    "name": "Justin Brown",
    "years": "1999–03",
    "number": "20",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
+    {
+     "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1999-2000-Media-guide-Kevin-Freeman-Khalid-El-Amin-whitejasper656%2F4.jpg/843,183,162,207/max/0/default.jpg",
+     "page": "https://archive.org/details/UCONN-mens-basketball-1999-2000-Media-guide-Kevin-Freeman-Khalid-El-Amin-whitejasper656",
+     "w": 162,
+     "h": 207,
+     "kind": "uconn-headshot",
+     "caption": "Justin Brown, #20, redshirt freshman center (Perth, Australia) — headshot from the 1999-2000 UConn Radio/TV Chart in the media guide (name and number printed beside the photo)"
+    },
     {
      "url": "https://web.archive.org/web/20030108234354im_/http://uconnhuskies.com:80/sports/MBasketball/2003/ColorHeadshots/BrownJustin0203color.jpg",
      "page": "https://web.archive.org/web/20021022172611/http://www.uconnhuskies.com:80/sports/MBasketball/2003/PlayerBios/BrownJbio.html",
@@ -237,12 +984,37 @@
    ]
   },
   {
+   "sr_id": "shamon-tooles-1",
+   "name": "Shamon Tooles",
+   "years": "2000–04",
+   "number": "30",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/tooles.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 203,
+     "h": 249,
+     "kind": "uconn-action",
+     "caption": "Shamon Tooles (#30) celebrating in a UConn game, c. 2000-04 (image labeled on Storrs Stories player page)"
+    }
+   ]
+  },
+  {
    "sr_id": "marcus-cox-1",
    "name": "Marcus Cox",
    "years": "1999–01",
    "number": "50",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
+    {
+     "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1999-2000-Media-guide-Kevin-Freeman-Khalid-El-Amin-whitejasper656%2F4.jpg/98,401,164,205/max/0/default.jpg",
+     "page": "https://archive.org/details/UCONN-mens-basketball-1999-2000-Media-guide-Kevin-Freeman-Khalid-El-Amin-whitejasper656",
+     "w": 164,
+     "h": 205,
+     "kind": "uconn-headshot",
+     "caption": "Marcus Cox, #50, freshman guard (Bridgeport, CT) — headshot from the 1999-2000 UConn Radio/TV Chart in the media guide (name and number printed beside the photo)"
+    },
     {
      "url": "https://web.archive.org/web/20000902232419im_/http://www.uconnhuskies.com:80/pix/19991020/coxhs.jpg.resized.jpg",
      "page": "https://web.archive.org/web/20000304202854/http://www.uconnhuskies.com:80/bko/bkc/cox.html",
@@ -279,11 +1051,86 @@
    ]
   },
   {
+   "sr_id": "antonio-kellogg-1",
+   "name": "Antonio Kellogg",
+   "years": "2004–05",
+   "number": "5",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/akellogg.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 191,
+     "h": 263,
+     "kind": "uconn-action",
+     "caption": "Antonio Kellogg (#20) dribbling in UConn whites at a home game, 2004-05 (image labeled on Storrs Stories player page)"
+    },
+    {
+     "url": "https://www.eurobasket.com/photos/Kellogg_Antonio.png",
+     "page": "https://basketball.eurobasket.com/player/Antonio-Kellogg/36171",
+     "w": 110,
+     "h": 150,
+     "kind": "pro-other",
+     "caption": "Antonio Kellogg — headshot from his Eurobasket profile (UConn 2004-05, San Francisco; later pro in Poland, Sweden, Mexico)"
+    }
+   ]
+  },
+  {
+   "sr_id": "rj-evans-1",
+   "name": "R.J. Evans",
+   "years": "2012–13",
+   "number": "12",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/8103962.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/rj-evans/1822",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "R.J. Evans — 2012-13 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/revans.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 166,
+     "h": 200,
+     "kind": "uconn-action",
+     "caption": "R.J. Evans — Storrs Stories UConn player photo (2012-13); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "enosch-wolf-1",
+   "name": "Enosch Wolf",
+   "years": "2010–13",
+   "number": "1",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/8104142.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/enosch-wolf/1828",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Enosch Wolf — 2012-13 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/ewolf.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 200,
+     "h": 176,
+     "kind": "uconn-action",
+     "caption": "Enosch Wolf — Storrs Stories UConn player photo (); not individually reviewed"
+    }
+   ]
+  },
+  {
    "sr_id": "ej-harrison-1",
    "name": "E.J. Harrison",
    "years": "1997–99",
    "number": "31",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
      "url": "https://www.storrsstories.com/images/ej_harrison2.jpg",
@@ -309,8 +1156,16 @@
    "name": "Ruslan Inyatkin",
    "years": "1994–97",
    "number": "10",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
+    {
+     "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656%2F6.jpg/410,210,195,230/max/0/default.jpg",
+     "page": "https://archive.org/details/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656",
+     "w": 195,
+     "h": 230,
+     "kind": "uconn-headshot",
+     "caption": "Ruslan Inyatkin, #10, sophomore forward — headshot from the 1995-96 Connecticut Basketball Radio/TV Chart (media guide p. 64; name and number printed beside the photo)"
+    },
     {
      "url": "https://www.storrsstories.com/images/ruslan.jpeg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
@@ -340,11 +1195,185 @@
    ]
   },
   {
+   "sr_id": "ater-majok-1",
+   "name": "Ater Majok",
+   "years": "2009–10",
+   "number": "5",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/3558182.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/ater-majok/1865",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Ater Majok — 2009-10 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/amajok.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 176,
+     "h": 240,
+     "kind": "uconn-action",
+     "caption": "Ater Majok — Storrs Stories UConn player photo (2009-10); not individually reviewed"
+    },
+    {
+     "url": "https://a.espncdn.com/i/headshots/nba/players/full/6458.png",
+     "page": "https://www.espn.com/nba/player/_/id/6458",
+     "w": 600,
+     "h": 436,
+     "kind": "nba-headshot",
+     "caption": "Ater Majok ESPN NBA headshot"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Ater_Majok.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page": "https://commons.wikimedia.org/wiki/File:Ater_Majok.jpg",
+     "w": 1040,
+     "h": 1228,
+     "kind": "other",
+     "caption": "allproreels.com [Wikipedia article lead image]"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Ater_Majok.jpg/960px-Ater_Majok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ater_Majok.jpg",
+     "w": 960,
+     "h": 1134,
+     "kind": "other",
+     "caption": "allproreels.com"
+    }
+   ]
+  },
+  {
+   "sr_id": "doug-wrenn-1",
+   "name": "Doug Wrenn",
+   "years": "1999–00",
+   "number": "55",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://web.archive.org/web/20010906032418im_/http://uconnhuskies.com:80/pix/20000310/bkcucdwrenn031000gu1.jpg",
+     "page": "https://web.archive.org/web/20010906032418/http://uconnhuskies.com:80/pix/20000310/bkcucdwrenn031000gu1.jpg",
+     "w": 200,
+     "h": 156,
+     "kind": "uconn-action",
+     "caption": "Doug Wrenn (#55, white) drives against Georgetown, March 10, 2000 (uconnhuskies.com file bkcucdwrenn031000gu1.jpg); Souleymane Wane (#34) at left [crop: center, white #55 with ball]",
+     "crop": "center, white #55 with ball"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/dwrenn.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 150,
+     "h": 250,
+     "kind": "uconn-action",
+     "caption": "Doug Wrenn — Storrs Stories UConn player photo (1999-00); not individually reviewed"
+    },
+    {
+     "url": "https://www.si.com/.image/t_share/MTgxNzU2OTE3MTEzMTY5MjI0/doug-wrenn-el-graduate.jpg",
+     "page": "https://www.si.com/college/washington/legends/former-basketball-standout-doug-wrenn-is-uw-graduate-now",
+     "w": 1200,
+     "h": 800,
+     "kind": "other",
+     "caption": "Doug Wrenn (now Doug Wrenn-El; UConn 1999-2000, later Washington) after earning his UW degree, Husky Stadium, 2021"
+    },
+    {
+     "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/washington.sidearmsports.com/images/2001/10/18/p-wrenn02.jpg",
+     "page": "https://gohuskies.com/sports/2013/4/18/208218377",
+     "w": 105,
+     "h": 157,
+     "kind": "other",
+     "caption": "Doug Wrenn, Washington media-guide headshot 2001-02 (transferred from UConn after 1999-2000)"
+    }
+   ]
+  },
+  {
+   "sr_id": "rob-garrison-1",
+   "name": "Rob Garrison",
+   "years": "2005–07",
+   "number": "1",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/rob_garrison.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 108,
+     "h": 180,
+     "kind": "uconn-action",
+     "caption": "Rob Garrison (#25) shooting over a defender for UConn, c. 2005-07 (image labeled on Storrs Stories player page)"
+    }
+   ]
+  },
+  {
+   "sr_id": "oliver-macklin-1",
+   "name": "Oliver Macklin",
+   "years": "1989–93",
+   "number": "11",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://web.archive.org/web/20071020001946im_/http://www.uconnhooplegends.com/images_menslegends/images_menslegdpgs/MacklinOliver_ball.jpg",
+     "page": "http://www.uconnhooplegends.com/menslegends/MacklinOliver.html",
+     "w": 281,
+     "h": 436,
+     "kind": "uconn-action",
+     "caption": "Oliver Macklin (#11) dribbling for UConn, early 1990s"
+    },
+    {
+     "url": "https://web.archive.org/web/20071020001926im_/http://www.uconnhooplegends.com/images_menslegends/images_menslegdpgs/MacklinOliver_shot.jpg",
+     "page": "http://www.uconnhooplegends.com/menslegends/MacklinOliver.html",
+     "w": 273,
+     "h": 481,
+     "kind": "uconn-action",
+     "caption": "Oliver Macklin (#11) shooting a free throw for UConn, early 1990s"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/macklin3.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 167,
+     "h": 226,
+     "kind": "uconn-action",
+     "caption": "Oliver Macklin — Storrs Stories UConn player photo (1989-90 : 1992-93); not individually reviewed"
+    },
+    {
+     "url": "https://web.archive.org/web/20070302011928im_/http://www.uconnhooplegends.com:80/images_menslegends/MacklinOliver.jpg",
+     "page": "http://www.uconnhooplegends.com/menslegends/MacklinOliver.html",
+     "w": 105,
+     "h": 140,
+     "kind": "other",
+     "caption": "Oliver Macklin, later-life portrait from his UConn Hoop Legends profile (c. 2004)"
+    }
+   ]
+  },
+  {
+   "sr_id": "leon-tolksdorf-1",
+   "name": "Leon Tolksdorf",
+   "years": "2012–14",
+   "number": "22",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/9266921.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/leon-tolksdorf/1816",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Leon Tolksdorf — 2013-14 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/leon_tolksdorf.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 189,
+     "h": 267,
+     "kind": "uconn-action",
+     "caption": "Leon Tolksdorf — Storrs Stories UConn player photo (); not individually reviewed"
+    }
+   ]
+  },
+  {
    "sr_id": "michael-leblanc-1",
    "name": "Michael Leblanc",
    "years": "1996–97",
    "number": "5",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
      "url": "https://www.storrsstories.com/images/leblanc.jpg",
@@ -369,7 +1398,7 @@
    "name": "David Onuorah",
    "years": "2017–18",
    "number": "34",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
      "url": "https://www.storrsstories.com/images/donuorah.jpg",
@@ -378,32 +1407,150 @@
      "h": 200,
      "kind": "uconn-action",
      "caption": "David Onuorah — Storrs Stories UConn player photo (2017-18); jersey #34 visible, matches roster"
+    },
+    {
+     "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/cornellbigred.com/images/2013/12/4/Onuorah_web.jpg",
+     "page": "https://cornellbigred.com/sports/mens-basketball/roster/david-onuorah/42417",
+     "w": 707,
+     "h": 403,
+     "kind": "other",
+     "caption": "David Onuorah (#0, Cornell) in a 2013-14 game — Cornell roster bio image [crop: centre, Cornell #0]",
+     "crop": "centre, Cornell #0"
+    },
+    {
+     "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/cornellbigred.com/images/2015/8/27/Onuorah_web.jpg",
+     "page": "https://cornellbigred.com/sports/mens-basketball/roster/david-onuorah/42417",
+     "w": 200,
+     "h": 280,
+     "kind": "other",
+     "caption": "David Onuorah — official Cornell men's basketball roster headshot (2015-16; he was a graduate transfer to UConn for 2017-18)"
     }
    ]
   },
   {
-   "sr_id": "james-spradling-1",
-   "name": "James Spradling",
-   "years": "1986–88",
-   "number": "44",
-   "status": "has-verified-photo",
+   "sr_id": "ryan-thompson-1",
+   "name": "Ryan Thompson",
+   "years": "2004–06",
+   "number": "13",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
-     "url": "https://iiif.archive.org/image/iiif/3/ct_daily_campus_1987-02-12%2F20002_860226678_jp2.zip%2F20002_860226678_jp2%2F20002_860226678_0031.jp2/1205,645,675,1025/max/0/default.jpg",
-     "page": "https://archive.org/details/ct_daily_campus_1987-02-12/page/n31/mode/1up",
-     "w": 675,
-     "h": 1025,
-     "kind": "uconn-action",
-     "caption": "James Spradling goes up for a shot against Georgetown at the Hartford Civic Center, Feb. 11, 1987 (UConn lost 78-50), per the Daily Campus caption (Feb. 12, 1987, back page); a teammate in #40 trails the play [crop: the leaping UConn player at the rim, upper-left/center]",
-     "crop": "the leaping UConn player at the rim, upper-left/center"
+     "url": "https://uconnhuskies.com/images/2018/6/11/4159053.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/ryan-thompson/1923",
+     "w": 105,
+     "h": 157,
+     "kind": "uconn-headshot",
+     "caption": "Ryan Thompson — 2005-06 UConn men's basketball roster headshot"
     },
     {
-     "url": "https://www.storrsstories.com/images/james_spradling2.jpg",
+     "url": "https://www.storrsstories.com/images/ryan_thompson2.jpg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
-     "w": 140,
-     "h": 263,
+     "w": 158,
+     "h": 243,
      "kind": "uconn-action",
-     "caption": "James Spradling — Storrs Stories UConn player photo (1986-87 : 1987-88); jersey #44 visible, matches roster"
+     "caption": "Ryan Thompson — Storrs Stories UConn player photo (2004-05 : 2005-06); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "chad-wise-1",
+   "name": "Chad Wise",
+   "years": "2001–03",
+   "number": "5",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/chad_wise5.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 264,
+     "h": 149,
+     "kind": "uconn-headshot",
+     "caption": "Chad Wise portrait over a Gampel Pavilion backdrop (media-guide style), c. 2001-03 [crop: left half] (image labeled on Storrs Stories player page)",
+     "crop": "left half"
+    },
+    {
+     "url": "https://wehco.media.clients.ellingtoncms.com/img/obits/2016/04/25/chadwise1_20160426jpg__t300.jpg",
+     "page": "https://www.arkansasonline.com/obituaries/2016/apr/26/chad-wise-2016-04-26/",
+     "w": 300,
+     "h": 440,
+     "kind": "other",
+     "caption": "Chad Wise, formal portrait from his 2016 obituary (Lonoke HS 2000 state champion; UConn scholarship player 2001-03)"
+    }
+   ]
+  },
+  {
+   "sr_id": "scottie-haralson-1",
+   "name": "Scottie Haralson",
+   "years": "2008–09",
+   "number": "34",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/sharalson.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 200,
+     "h": 164,
+     "kind": "uconn-action",
+     "caption": "Scottie Haralson (#30, white) shooting a jumper over a Syracuse defender, 2008-09 [crop: center-left, UConn player in white #30 shooting; #12 in foreground is A.J. Price] (image labeled on Storrs Stories player page)",
+     "crop": "center-left, UConn player in white #30 shooting; #12 in foreground is A.J. Price"
+    },
+    {
+     "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/tulsahurricane.com/images/2015/5/8/7957601.jpeg",
+     "page": "https://tulsahurricane.com/sports/mens-basketball/roster/scottie-haralson/3681",
+     "w": 105,
+     "h": 145,
+     "kind": "other",
+     "caption": "Scottie Haralson — Tulsa men's basketball roster headshot (c. 2012; transferred from UConn after 2008-09)"
+    }
+   ]
+  },
+  {
+   "sr_id": "rakem-lubin-1",
+   "name": "Rakim Lubin",
+   "years": "2014–15",
+   "number": "14",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/10394245.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/rakim-lubin/1799",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Rakim Lubin — 2014-15 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/rlubin.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 200,
+     "h": 140,
+     "kind": "uconn-action",
+     "caption": "Rakim Lubin — Storrs Stories UConn player photo (2014-15); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "jonathan-mandeldove-1",
+   "name": "Jonathan Mandeldove",
+   "years": "2006–09",
+   "number": "32",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/3558188.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/jonathan-mandeldove/1866",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Jonathan Mandeldove — 2009-10 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/jmandledove.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 183,
+     "h": 275,
+     "kind": "uconn-action",
+     "caption": "Jonathan Mandeldove — Storrs Stories UConn player photo (2006-07 : 2008-09); not individually reviewed"
     }
    ]
   },
@@ -412,7 +1559,7 @@
    "name": "Marcus Thomas",
    "years": "1993–95",
    "number": "5",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
      "url": "https://www.storrsstories.com/images/marcust2.jpg",
@@ -438,7 +1585,7 @@
    "name": "Uri Cohen-Mintz",
    "years": "1994–95",
    "number": "50",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
      "url": "https://www.storrsstories.com/images/uri-cohen-mintz3.jpg",
@@ -468,12 +1615,45 @@
    ]
   },
   {
+   "sr_id": "darius-smith-1",
+   "name": "Darius Smith",
+   "years": "2009–10",
+   "number": null,
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/3558210.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/darius-smith/1870",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Darius Smith — 2009-10 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/dsmith.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-action",
+     "caption": "Darius Smith — Storrs Stories UConn player photo (2009-10); not individually reviewed"
+    }
+   ]
+  },
+  {
    "sr_id": "sam-funches-1",
    "name": "Sam Funches",
    "years": "1996–98",
    "number": "31",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
+    {
+     "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1997-1998-Media-guide-Richard-Hamilton-Kevin-Freeman-whitejasper656%2F4.jpg/822,404,185,225/max/0/default.jpg",
+     "page": "https://archive.org/details/UCONN-mens-basketball-1997-1998-Media-guide-Richard-Hamilton-Kevin-Freeman-whitejasper656",
+     "w": 185,
+     "h": 225,
+     "kind": "uconn-headshot",
+     "caption": "Sam Funches, #31, sophomore forward — roster headshot from the 1997-98 UConn men's basketball media guide (name and number printed beside the photo)"
+    },
     {
      "url": "https://www.storrsstories.com/images/sfunches.jpeg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
@@ -489,7 +1669,7 @@
    "name": "Bill Lanes",
    "years": "1987–88",
    "number": "50",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
      "url": "https://www.storrsstories.com/images/vassilas_lanes3.jpg",
@@ -524,7 +1704,7 @@
    "name": "Clint Simmons",
    "years": "1987–89",
    "number": "3",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
      "url": "https://www.storrsstories.com/images/clint_simmons3.jpg",
@@ -537,11 +1717,96 @@
    ]
   },
   {
+   "sr_id": "kyle-chapman-3",
+   "name": "Kyle Chapman",
+   "years": "1995–97",
+   "number": "20",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/jchapman2.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 160,
+     "h": 218,
+     "kind": "uconn-action",
+     "caption": "Kyle Chapman — Storrs Stories UConn player photo (1995-96 : 1996-97); not individually reviewed"
+    },
+    {
+     "url": "https://thekonews.org/wp-content/uploads/2021/04/Livingstone-Image.png",
+     "page": "https://thekonews.org/2021/05/mr-chapmans-incredible-hoops-journey/",
+     "w": 512,
+     "h": 340,
+     "kind": "other",
+     "caption": "Kyle Chapman (UConn guard 1995-97, from Ledyard/Gales Ferry) coaching at Kingswood Oxford, c. 2021 [crop: center, bearded man in green sweater]",
+     "crop": "center, bearded man in green sweater"
+    }
+   ]
+  },
+  {
+   "sr_id": "jason-baisch-1",
+   "name": "Jason Baisch",
+   "years": "2003–05",
+   "number": "24",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/jbaisch2.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 140,
+     "h": 200,
+     "kind": "uconn-action",
+     "caption": "Jason Baisch (#24) in UConn's white uniform, c. 2003-05 (image on Storrs Stories player page, linked to his Sports-Reference profile)"
+    }
+   ]
+  },
+  {
+   "sr_id": "ryan-swaller-1",
+   "name": "Ryan Swaller",
+   "years": "2002–04",
+   "number": "2",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/ryan_swaller2.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 132,
+     "h": 217,
+     "kind": "uconn-action",
+     "caption": "Ryan Swaller (#2) dribbling for UConn, c. 2002-04 (image labeled on Storrs Stories player page)"
+    }
+   ]
+  },
+  {
+   "sr_id": "mike-noyes-1",
+   "name": "Mike Noyes",
+   "years": "2015–18",
+   "number": "31",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/12855522.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/michael-noyes/1771",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Michael Noyes — 2016-17 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/mnoyes.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 209,
+     "h": 206,
+     "kind": "uconn-action",
+     "caption": "Mike Noyes — Storrs Stories UConn player photo (2015-16 : 2017-18); not individually reviewed"
+    }
+   ]
+  },
+  {
    "sr_id": "jeff-calhoun-1",
    "name": "Jeff Calhoun",
    "years": "1992–93",
    "number": "3",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
      "url": "https://www.storrsstories.com/images/jeffcalhoun.jpg",
@@ -554,29 +1819,95 @@
    ]
   },
   {
-   "sr_id": "shawn-ellison-1",
-   "name": "Shawn Ellison",
-   "years": "1990–91",
-   "number": "32",
-   "status": "has-verified-photo",
+   "sr_id": "kwasi-gyambibi-1",
+   "name": "Kwasi Gyambibi",
+   "years": "2000–02",
+   "number": "10",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
-     "url": "https://i.ebayimg.com/images/g/gEQAAeSwUTBqs~-o/s-l1600.jpg",
-     "page": "https://www.ebay.com/itm/237086378458",
-     "w": 540,
-     "h": 760,
+     "url": "https://www.storrsstories.com/images/kwasi_gyambibi2.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 147,
+     "h": 208,
      "kind": "uconn-action",
-     "caption": "Shawn Ellison (#32, freshman forward) reaching for a rebound, with Marc Suhr (#30) in the foreground - front of Ellison's 1990-91 UConn Huskies team-issue card, printed 'SHAWN ELLISON Forward #32'. NOTE: the eBay listing is titled Murray Williams because the scan pairs Ellison's card front with Williams's card back [crop: center player in white #32, upper-middle of photo window]",
-     "crop": "center player in white #32, upper-middle of photo window"
+     "caption": "Kwasi Gyambibi (UConn #10; second digit hidden by defender's arm) driving against a North Carolina defender, c. 2001-02 [crop: left half] (image labeled on Storrs Stories player page)",
+     "crop": "left half"
+    }
+   ]
+  },
+  {
+   "sr_id": "justin-evanovich-1",
+   "name": "Justin Evanovich",
+   "years": "2002–04",
+   "number": "40",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/justin_evanovich.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 149,
+     "h": 200,
+     "kind": "uconn-headshot",
+     "caption": "Justin Evanovich in a UConn Basketball top (media-guide style portrait), c. 2002-04 (image labeled on Storrs Stories player page)"
     },
     {
-     "url": "https://www.storrsstories.com/images/sellison.jpg",
+     "url": "https://education.media.uconn.edu/wp-content/uploads/sites/1621/2015/04/Justin-Evanovich_headshot.jpg",
+     "page": "https://education.uconn.edu/person/justin-evanovich/",
+     "w": 300,
+     "h": 300,
+     "kind": "other",
+     "caption": "Justin Evanovich, UConn Neag School associate clinical professor and Husky Sport managing director — faculty headshot (former teammate per UConn Today, 2016)"
+    }
+   ]
+  },
+  {
+   "sr_id": "nnamdi-amilo-1",
+   "name": "Nnamdi Amilo",
+   "years": "2013–16",
+   "number": "23",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/10394164.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/nnamdi-amilo/1775",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Nnamdi Amilo — 2015-16 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/namilo.jpg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
-     "w": 174,
-     "h": 223,
+     "w": 275,
+     "h": 183,
      "kind": "uconn-action",
-     "caption": "Shawn Ellison — Storrs Stories UConn player photo (1990-91); jersey #32 visible, matches roster [crop: centre-right, #32]",
-     "crop": "centre-right, #32"
+     "caption": "Nnamdi Amilo — Storrs Stories UConn player photo (); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "dan-guest-1",
+   "name": "Dan Guest",
+   "years": "2014–15",
+   "number": "24",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/10727127.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/dan-guest/1796",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Dan Guest — 2014-15 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/danguest.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-action",
+     "caption": "Dan Guest — Storrs Stories UConn player photo (2014-15); not individually reviewed"
     }
    ]
   },
@@ -585,8 +1916,16 @@
    "name": "Justin Srb",
    "years": "1994–96",
    "number": "14",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
+    {
+     "url": "https://iiif.archive.org/image/iiif/3/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656%2F6.jpg/410,480,190,225/max/0/default.jpg",
+     "page": "https://archive.org/details/UCONN-mens-basketball-1995-1996-Media-guide-Ray-Allen-Ricky-Moore-Eric-Hayward-whitejasper656",
+     "w": 190,
+     "h": 225,
+     "kind": "uconn-headshot",
+     "caption": "Justin Srb, #14, senior guard — headshot from the 1995-96 Connecticut Basketball Radio/TV Chart (media guide p. 64; name and number printed beside the photo)"
+    },
     {
      "url": "https://www.storrsstories.com/images/justin_srb.jpg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
@@ -607,135 +1946,380 @@
    ]
   },
   {
-   "sr_id": "richard-moore-2",
-   "name": "Richard Moore",
-   "years": "1998–00",
-   "number": "25",
-   "status": "unverified-only",
+   "sr_id": "pat-lenehan-1",
+   "name": "Pat Lenehan",
+   "years": "2012–15",
+   "number": "22",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
-     "url": "https://www.storrsstories.com/images/richard_moore.jpg",
+     "url": "https://uconnhuskies.com/images/2018/6/11/10394242.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/pat-lenehan/1798",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Pat Lenehan — 2014-15 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/plenehan.jpeg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
-     "w": 33,
-     "h": 41,
-     "kind": "other",
-     "caption": "Richard Moore — Storrs Stories UConn player photo (1998-99 : 1999-2000); UNVERIFIED later-life/face photo (possible namesake) — restoration queue only",
-     "unverified": true
+     "w": 225,
+     "h": 225,
+     "kind": "uconn-action",
+     "caption": "Pat Lenehan — Storrs Stories UConn player photo (); not individually reviewed"
     }
    ]
   },
   {
-   "sr_id": "karsten-kibbe-1",
-   "name": "Karsten Kibbe",
-   "years": "1986–88",
-   "number": null,
-   "status": "unverified-only",
+   "sr_id": "christian-foxen-1",
+   "name": "Christian Foxen",
+   "years": "2015–18",
+   "number": "24",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
-     "url": "https://www.storrsstories.com/images/karsten_kibbe3.jpg",
+     "url": "https://uconnhuskies.com/images/2018/6/11/12855520.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/christian-foxen/1766",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Christian Foxen — 2016-17 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/foxen2.jpg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
-     "w": 123,
+     "w": 143,
+     "h": 231,
+     "kind": "uconn-action",
+     "caption": "Christian Foxen — Storrs Stories UConn player photo (2015-16 : 2017-18); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "beau-archibald-1",
+   "name": "Beau Archibald",
+   "years": "1999–00",
+   "number": "5",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/Beau-Archibald.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 163,
      "h": 200,
+     "kind": "uconn-action",
+     "caption": "Beau Archibald — Storrs Stories UConn player photo (1999-00); not individually reviewed"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Coaching_in_China.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Coaching_in_China.png",
+     "w": 170,
+     "h": 226,
      "kind": "other",
-     "caption": "Karsten Kibbe — Storrs Stories UConn player photo (1986-87 : 1987-8); UNVERIFIED later-life/face photo (possible namesake) — restoration queue only; tinted/colorized face crop",
-     "unverified": true
+     "caption": "Coaching in China"
     }
    ]
   },
   {
-   "sr_id": "chris-crowley-2",
-   "name": "Chris Crowley",
-   "years": "1997–98",
-   "number": "44",
-   "status": "unverified-only",
+   "sr_id": "martin-gagne-1",
+   "name": "Martin Gagne",
+   "years": "2005–07",
+   "number": "35",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
-     "url": "https://www.storrsstories.com/images/ccrowley.jpeg",
+     "url": "https://www.storrsstories.com/images/marty_gagne2.jpg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
-     "w": 192,
-     "h": 240,
-     "kind": "other",
-     "caption": "Chris Crowley — Storrs Stories UConn player photo (1997-98); UNVERIFIED later-life/face photo (possible namesake) — restoration queue only",
-     "unverified": true
+     "w": 149,
+     "h": 200,
+     "kind": "uconn-action",
+     "caption": "Marty (Martin) Gagne (#35) in UConn's white uniform, c. 2004-07 (image labeled on Storrs Stories player page)"
     }
    ]
   },
   {
-   "sr_id": "kurt-bauer-1",
-   "name": "Kurt Bauer",
-   "years": "1986–87",
-   "number": null,
-   "status": "unverified-only",
+   "sr_id": "johnnie-bird-1",
+   "name": "Johnnie Bird",
+   "years": "2007–09",
+   "number": "10",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
-     "url": "https://www.storrsstories.com/images/kbauer.jpeg",
+     "url": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/johnnie-bird/1877",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Johnnie Bird — 2008-09 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/johnnie_bird.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 168,
+     "h": 300,
+     "kind": "uconn-action",
+     "caption": "Johnnie Bird — Storrs Stories UConn player photo (2007-08 : 2008-09); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "jim-veronick-1",
+   "name": "Jim Veronick",
+   "years": "2007–09",
+   "number": "40",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/jim-veronick/1887",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Jim Veronick — 2008-09 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/veronick2.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 230,
+     "h": 219,
+     "kind": "uconn-action",
+     "caption": "Jim Veronick — Storrs Stories UConn player photo (2007-08 : 2008-09); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "jamaal-trice-1",
+   "name": "Jamaal Trice",
+   "years": "2009–10",
+   "number": "13",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/3558212.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/jamaal-trice/1871",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Jamaal Trice — 2009-10 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/jtrice.png",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-action",
+     "caption": "Jamaal Trice — Storrs Stories UConn player photo (2009-10); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "benjamin-stewart-1",
+   "name": "Benjamin Stewart",
+   "years": "2010–12",
+   "number": "23",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/6994457.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/benjamin-stewart/1842",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Benjamin Stewart — 2011-12 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/bstewart.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 216,
+     "h": 144,
+     "kind": "uconn-action",
+     "caption": "Benjamin Stewart — Storrs Stories UConn player photo (); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "brendan-allen-1",
+   "name": "Brendan Allen",
+   "years": "2011–13",
+   "number": "4",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/8103918.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/brendan-allen/1818",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Brendan Allen — 2012-13 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/ballen.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 199,
+     "h": 253,
+     "kind": "uconn-action",
+     "caption": "Brendan Allen — Storrs Stories UConn player photo (2011-12 : 2012-13); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "tor-watts-1",
+   "name": "Tor Watts",
+   "years": "2012–14",
+   "number": "25",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/tor-watts/1817",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Tor Watts — 2013-14 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/torwatts.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 160,
+     "h": 200,
+     "kind": "uconn-action",
+     "caption": "Tor Watts — Storrs Stories UConn player photo (); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "terrance-ditimi-1",
+   "name": "Terrance Ditimi",
+   "years": "2014–15",
+   "number": "33",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/terrance-ditimi/1794",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Terrance Ditimi — 2014-15 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/tditimi.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 158,
+     "h": 230,
+     "kind": "uconn-action",
+     "caption": "Terrance Ditimi — Storrs Stories UConn player photo (2014-15); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "mike-woodward-1",
+   "name": "Mike Woodward",
+   "years": "1999–03",
+   "number": "35",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/mike_woodward2.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 224,
+     "h": 168,
+     "kind": "uconn-headshot",
+     "caption": "Mike Woodward portrait with his UConn jersey number 35 (media-guide style layout), c. 1999-2003 [crop: left half] (image labeled on Storrs Stories player page)",
+     "crop": "left half"
+    }
+   ]
+  },
+  {
+   "sr_id": "nick-forostoski-1",
+   "name": "Nick Forostoski",
+   "years": "2004–06",
+   "number": "55",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/nickforostoski2.jpg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
      "w": 200,
      "h": 200,
      "kind": "other",
-     "caption": "Kurt Bauer — Storrs Stories UConn player photo (1985-86 : 1986-87); UNVERIFIED later-life/face photo (possible namesake) — restoration queue only",
-     "unverified": true
+     "caption": "Nick Forostoski, informal portrait after his UConn walk-on career (undated; image labeled on Storrs Stories player page)"
     }
    ]
   },
   {
-   "sr_id": "brian-hall-1",
-   "name": "Brian Hall",
-   "years": "1986–87",
-   "number": null,
-   "status": "missing",
-   "best_candidates": []
-  },
-  {
-   "sr_id": "jeff-lewis-3",
-   "name": "Jeff Lewis",
-   "years": "1986–87",
-   "number": "15",
-   "status": "unverified-only",
+   "sr_id": "ben-spencer-1",
+   "name": "Ben Spencer",
+   "years": "2005–07",
+   "number": "10",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
-     "url": "https://www.storrsstories.com/images/jeff_lewis2.jpg",
+     "url": "https://www.storrsstories.com/images/ben_spencer2.jpg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
-     "w": 187,
-     "h": 333,
-     "kind": "other",
-     "caption": "Jeff Lewis — Storrs Stories UConn player photo (1986-87); UNVERIFIED later-life/face photo (possible namesake) — restoration queue only; tinted/colorized face crop",
-     "unverified": true
+     "w": 205,
+     "h": 195,
+     "kind": "uconn-action",
+     "caption": "Ben Spencer (#10) with the ball for UConn, c. 2005-07 (image labeled on Storrs Stories player page)"
     }
    ]
   },
   {
-   "sr_id": "rick-bush-1",
-   "name": "Rick Bush",
-   "years": "1987–88",
-   "number": null,
-   "status": "unverified-only",
+   "sr_id": "ben-eaves-2",
+   "name": "Ben Eaves",
+   "years": "2006–07",
+   "number": "2",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
-     "url": "https://www.storrsstories.com/images/rickbush.jpeg",
+     "url": "https://www.storrsstories.com/images/ben_eaves2.jpg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
-     "w": 204,
-     "h": 192,
-     "kind": "other",
-     "caption": "Rick Bush — Storrs Stories UConn player photo (1987-88); UNVERIFIED later-life/face photo (possible namesake) — restoration queue only",
-     "unverified": true
+     "w": 110,
+     "h": 213,
+     "kind": "uconn-action",
+     "caption": "Ben Eaves posing in UConn uniform #2, 2006-07 (media-day style photo; image labeled on Storrs Stories player page)"
+    },
+    {
+     "url": "https://www.eurobasket.com/photos/Eaves_Ben.png",
+     "page": "https://basketball.eurobasket.com/player/Ben-Eaves/70802",
+     "w": 110,
+     "h": 150,
+     "kind": "pro-other",
+     "caption": "Ben Eaves — headshot from his Eurobasket profile (UConn 2006-07, Rhode Island 2008-11, later British BBL/Cyprus)"
     }
    ]
   },
   {
-   "sr_id": "greg-yeomans-1",
-   "name": "Greg Yeomans",
-   "years": "1994–95",
-   "number": "22",
-   "status": "missing",
-   "best_candidates": []
+   "sr_id": "john-lindner-1",
+   "name": "John Lindner",
+   "years": "2007–09",
+   "number": "44",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/john-lindner/1881",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "John Lindner — 2008-09 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/jlindner.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 143,
+     "h": 200,
+     "kind": "uconn-action",
+     "caption": "John Lindner — Storrs Stories UConn player photo (2007-08 : 2008-09); not individually reviewed"
+    }
+   ]
   },
   {
    "sr_id": "jeff-cybart-1",
    "name": "Jeff Cybart",
    "years": "1995–98",
    "number": "53",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
      "url": "https://www.storrsstories.com/images/jcybart2.jpg",
@@ -752,7 +2336,7 @@
    "name": "Pete Kane",
    "years": "1995–96",
    "number": "52",
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
      "url": "https://www.storrsstories.com/images/pkane.jpg",
@@ -769,7 +2353,7 @@
    "name": "Pete McCann",
    "years": "1996–97",
    "number": null,
-   "status": "has-verified-photo",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
      "url": "https://www.storrsstories.com/images/pmccann.jpg",
@@ -782,20 +2366,312 @@
    ]
   },
   {
-   "sr_id": "craig-glazer-1",
-   "name": "Craig Glazer",
-   "years": "1997–98",
-   "number": "25",
-   "status": "unverified-only",
+   "sr_id": "brett-watson-1",
+   "name": "Brett Watson",
+   "years": "1999–00",
+   "number": "10",
+   "status": "small: has-verified-photo",
    "best_candidates": [
     {
-     "url": "https://www.storrsstories.com/images/cglazer.jpeg",
+     "url": "https://www.storrsstories.com/images/bwatson.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 189,
+     "h": 196,
+     "kind": "uconn-action",
+     "caption": "Brett Watson (#10) dribbling for UConn, 1999-2000 (walk-on guard; image labeled on Storrs Stories player page)"
+    }
+   ]
+  },
+  {
+   "sr_id": "ace-watanasuparp-1",
+   "name": "Ace Watanasuparp",
+   "years": "2000–02",
+   "number": "31",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/ace_w3.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 120,
+     "h": 200,
+     "kind": "uconn-action",
+     "caption": "Ace Watanasuparp (#25) dribbling for UConn, 2000-01 (walk-on guard; image labeled on Storrs Stories player page)"
+    },
+    {
+     "url": "https://www.leadersmag.com/issues/2021.4_oct/New_York_City/LEADERS-Ace-Watanasuparp-Citizens-Bank-web-resources/image/LEADERS-Ace-Watanasuparp-Citizens-Bank.png",
+     "page": "https://www.leadersmag.com/issues/2021.4_oct/New_York_City/LEADERS-Ace-Watanasuparp-Citizens-Bank.html",
+     "w": 185,
+     "h": 260,
+     "kind": "other",
+     "caption": "Ace Watanasuparp, Citizens Bank SVP — portrait from LEADERS Magazine interview (2021; UConn finance graduate)"
+    }
+   ]
+  },
+  {
+   "sr_id": "daryl-woods-1",
+   "name": "Daryl Woods",
+   "years": "2001–02",
+   "number": "33",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/dwoods.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 125,
+     "h": 231,
+     "kind": "uconn-action",
+     "caption": "Daryl Woods (#5, his 2000-01 UConn number) at the free-throw line in UConn whites, c. 2000-01 (image labeled on Storrs Stories player page)"
+    }
+   ]
+  },
+  {
+   "sr_id": "sami-ameziane-1",
+   "name": "Sami Ameziane",
+   "years": "2004–05",
+   "number": "10",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/sameziane.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 183,
+     "h": 275,
+     "kind": "uconn-action",
+     "caption": "Sami Ameziane (#10) running the offense for UConn, 2004-05 (image labeled on Storrs Stories player page)"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Comte_de_Bouderbala_2012_d.jpg/1280px-Comte_de_Bouderbala_2012_d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Comte_de_Bouderbala_2012_d.jpg",
+     "w": 1280,
+     "h": 1707,
+     "kind": "other",
+     "caption": "le Comte de Bouderbala (Sami Ameziane), humoriste français, lors d'une prestation dans l'émission de RMC Les Grandes Gueules, diffusée en direct le 19 octobre 2012 depuis la FNAC des Ternes, Paris (17e arrond). [Wikidata image]"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Comte_de_Bouderbala_2012_d.jpg/960px-Comte_de_Bouderbala_2012_d.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Comte_de_Bouderbala_2012_d.jpg",
+     "w": 960,
+     "h": 1280,
+     "kind": "other",
+     "caption": "Sami Ameziane, now the comedian 'Le Comte de Bouderbala', performing on RMC's Les Grandes Gueules, Paris, 19 Oct 2012 (UConn guard 2004-05 per fr.wikipedia)"
+    }
+   ]
+  },
+  {
+   "sr_id": "osazee-omokaro-1",
+   "name": "Osazee Omokaro",
+   "years": "2005–06",
+   "number": "45",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/osazee2.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 126,
+     "h": 205,
+     "kind": "uconn-action",
+     "caption": "Osazee Omokaro holding his framed UConn #45 jersey, 2005-06 (image labeled on Storrs Stories player page)"
+    }
+   ]
+  },
+  {
+   "sr_id": "kyle-bailey-1",
+   "name": "Kyle Bailey",
+   "years": "2007–12",
+   "number": "21",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/6994169.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/kyle-bailey/1830",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Kyle Bailey — 2011-12 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/kbailey.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 159,
+     "h": 240,
+     "kind": "uconn-action",
+     "caption": "Kyle Bailey — Storrs Stories UConn player photo (); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "alex-hornat-1",
+   "name": "Alex Hornat",
+   "years": "2007–10",
+   "number": "22",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/3558179.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/alex-hornat/1864",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Alex Hornat — 2009-10 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/ahornat.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-action",
+     "caption": "Alex Hornat — Storrs Stories UConn player photo (2007-08 : 2009-10); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "pj-cochrane-1",
+   "name": "P.J. Cochrane",
+   "years": "2011–12",
+   "number": "14",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/pj-cochrane/1833",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "P.J. Cochrane — 2011-12 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/pjcochrane.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 327,
+     "h": 218,
+     "kind": "uconn-action",
+     "caption": "PJ Cochrane — Storrs Stories UConn player photo (2011-12); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "ethan-waite-1",
+   "name": "Ethan Waite",
+   "years": "2011–12",
+   "number": "40",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/mtt-logo.gif",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/ethan-waite/1843",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Ethan Waite — 2011-12 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/ethanwaite2.jpg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 133,
+     "h": 208,
+     "kind": "uconn-action",
+     "caption": "Ethan Waite — Storrs Stories UConn player photo (2011-12); not individually reviewed"
+    }
+   ]
+  },
+  {
+   "sr_id": "trey-james-1",
+   "name": "Trey James",
+   "years": "2012–13",
+   "number": "20",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/trey_james.gif",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 128,
+     "h": 179,
+     "kind": "uconn-action",
+     "caption": "Trey James (#20) in UConn whites, 2012-13 (walk-on guard; image labeled on Storrs Stories player page)"
+    },
+    {
+     "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/nicholsathletics.com/images/2016/11/9/james_trey.JPG",
+     "page": "https://nicholsathletics.com/sports/mens-basketball/roster/coaches/trey-james/692",
+     "w": 250,
+     "h": 300,
+     "kind": "other",
+     "caption": "Trey James, Nichols College men's basketball assistant coach — staff headshot (c. 2016)"
+    }
+   ]
+  },
+  {
+   "sr_id": "keifer-lammi-1",
+   "name": "Keifer Lammi",
+   "years": "2012–13",
+   "number": "3",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/lammi.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 275,
+     "h": 183,
+     "kind": "uconn-action",
+     "caption": "Keifer Lammi dunking in UConn whites at Gampel Pavilion, 2012-13 (walk-on; image labeled on Storrs Stories player page)"
+    }
+   ]
+  },
+  {
+   "sr_id": "dave-vandal-1",
+   "name": "Dave Vandal",
+   "years": "2012–13",
+   "number": "23",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/dave_vandal.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 190,
+     "h": 266,
+     "kind": "uconn-action",
+     "caption": "Dave Vandal in a UConn Basketball warm-up shirt, 2012-13 (walk-on; image labeled on Storrs Stories player page)"
+    }
+   ]
+  },
+  {
+   "sr_id": "javon-williams-1",
+   "name": "Javon Williams",
+   "years": "2012–13",
+   "number": "14",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://www.storrsstories.com/images/jevonw.jpeg",
+     "page": "https://www.storrsstories.com/uconn_players2.html",
+     "w": 183,
+     "h": 151,
+     "kind": "other",
+     "caption": "Javon (Jevon) Williams, East Hartford teacher and basketball coach, in an interview after his UConn walk-on season (undated; image labeled on Storrs Stories player page)"
+    }
+   ]
+  },
+  {
+   "sr_id": "restinel-lomotey-1",
+   "name": "Restinel Lomotey",
+   "years": "2016–17",
+   "number": "33",
+   "status": "small: has-verified-photo",
+   "best_candidates": [
+    {
+     "url": "https://uconnhuskies.com/images/2018/6/11/12242276.jpeg",
+     "page": "https://uconnhuskies.com/sports/mens-basketball/roster/restinel-lomotey/1770",
+     "w": 105,
+     "h": 145,
+     "kind": "uconn-headshot",
+     "caption": "Restinel Lomotey — 2016-17 UConn men's basketball roster headshot"
+    },
+    {
+     "url": "https://www.storrsstories.com/images/rlomotey.jpeg",
      "page": "https://www.storrsstories.com/uconn_players2.html",
      "w": 200,
-     "h": 199,
-     "kind": "other",
-     "caption": "Craig Glazer — Storrs Stories UConn player photo (1997-98); UNVERIFIED later-life/face photo (possible namesake) — restoration queue only",
-     "unverified": true
+     "h": 130,
+     "kind": "uconn-action",
+     "caption": "Restinel Lomotey — Storrs Stories UConn player photo (2016-17); not individually reviewed"
     }
    ]
   }

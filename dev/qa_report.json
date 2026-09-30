@@ -2,7 +2,7 @@
  "counts": {
   "G.games": 826,
   "B.boxes": 795,
-  "B.lines": 15694,
+  "B.lines": 15697,
   "X.games": 739,
   "X.lines": 7410,
   "S.seasons": 272,
@@ -14,8 +14,8 @@
  "summary": {
   "G": 5,
   "B": 1,
-  "X": 3,
-  "S": 6,
+  "X": 2,
+  "S": 7,
   "O": 2
  },
  "issues": {
@@ -55,17 +55,10 @@
    {
     "game": "2010-11",
     "team": "Iona",
-    "problem": "players sum to 54, final 74"
+    "problem": "players sum to 148, final 74"
    }
   ],
   "X": [
-   {
-    "game": "2008-33",
-    "player": "Jeff Adrien",
-    "stat": "reb",
-    "espn": 12,
-    "sr": 13
-   },
    {
     "game": "2011-26",
     "player": "Enosch Wolf",
@@ -96,6 +89,14 @@
     "box_g": 19,
     "sr_pts≈": 14,
     "box_pts": 14
+   },
+   {
+    "player": "Enosch Wolf",
+    "season": 2011,
+    "sr_g": 6,
+    "box_g": 7,
+    "sr_pts≈": 7,
+    "box_pts": 7
    },
    {
     "player": "Jonathan Mandeldove",

@@ -34,7 +34,7 @@ export default async function game(main, args, core) {
         </div>
         ${teamBlock(right, g, right === U)}
       </div>
-      <div class="board-foot"><span>${esc(fmtDay(g.day || g.date))} ${esc(fmtDate(g.day || g.date, { year: true }))}</span>${d?.venue?.name || g.arena ? `<span>${esc(d?.venue?.name || g.arena)}${d?.venue?.city || g.city ? ', ' + esc(d?.venue?.city || g.city) : ''}</span>` : ''}${d?.att || g.att ? `<span>Att. ${(+(d?.att || g.att)).toLocaleString()}</span>` : ''}${d?.tv || g.tv ? `<span>${esc(d?.tv || g.tv)}</span>` : ''}${g.rec ? `<span>UConn ${esc(g.rec)}</span>` : ''}</div>
+      <div class="board-foot"><span>${esc(fmtDay(g.day || g.date))} ${esc(fmtDate(g.day || g.date, { year: true }))}</span>${d?.venue?.name || g.arena ? `<span>${esc(d?.venue?.name || g.arena)}${d?.venue?.city || g.city ? ', ' + esc(d?.venue?.city || g.city) : ''}</span>` : ''}${d?.att || g.att ? `<span>Att. ${(+(d?.att || g.att)).toLocaleString()}</span>` : ''}${d?.tv || g.tv ? `<span>${esc(d?.tv || g.tv)}</span>` : ''}${g.rec ? `<span>UConn ${esc(g.rec)}</span>` : ''}${g.vacated ? '<span style="color:var(--red-soft)">Vacated by the NCAA</span>' : ''}</div>
     </div>
   </div></section>
   <div id="gbody"></div>`;

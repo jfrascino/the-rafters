@@ -105,6 +105,38 @@ for yk, extra in MANUAL.items():
         w += g.get('game_result') == 'W'
         l += g.get('game_result') == 'L'
         g['wins'], g['losses'] = w, l
+
+# Rulings on facts where Sports-Reference and UConn's own archive disagree (settled from contemporaneous AP/NCAA sources)
+ADJ = jload(os.path.join(OUT, 'official', 'adjudication.json'), {}) or {}
+for d in ADJ.get('decisions', []):
+    try:
+        y_, n_ = map(int, d['game'].split('-'))
+    except (KeyError, ValueError):
+        continue
+    g_ = next((x for x in (sr_seasons.get(y_) or {}).get('schedule', []) if x['g'] == n_), None)
+    t = d.get('truth') or ''
+    if not g_:
+        continue
+    if d.get('field') == 'score':
+        m = re.match(r'([WL]) (\d+)-(\d+)', t)
+        if m:
+            g_['game_result'], g_['pts'], g_['opp_pts'] = m.group(1), int(m.group(2)), int(m.group(3))
+    elif d.get('field') == 'date' and re.fullmatch(r'\d{4}-\d\d-\d\d', t):
+        g_['date'] = t
+    elif d.get('field') == 'site' and t.split(' ')[0] in ('home', 'away', 'neutral'):
+        g_['site'] = t.split(' ')[0]
+FORCE_PLAYED = set()   # (game id, player name) the official box shows appearing though Sports-Reference omits them
+for st in ADJ.get('stats', []):
+    if 'appearance' in (st.get('stat') or '') and st.get('winner') == 'espn':
+        FORCE_PLAYED.add((st['game'], norm(st.get('player'))))
+# NCAA-vacated games (NCAA Records Book, "Vacated and Forfeited Games")
+VACATED = {
+    1996: {'official': '30–2', 'note': 'The NCAA later vacated all three 1996 NCAA Tournament games (Colgate, Eastern Michigan, Mississippi State).', 'test': lambda g: g['type'] == 'NCAA'},
+    2017: {'official': '0–0', 'note': 'The NCAA vacated the entire 2016–17 season (16 wins, 17 losses) in 2019.', 'test': lambda g: True},
+    2018: {'official': '0–1', 'note': 'The NCAA vacated every 2017–18 game except the March 8 AAC tournament loss to SMU.', 'test': lambda g: g['date'][:10] != '2018-03-08'},
+}
+_rej = jload(os.path.join(HERE, 'photo_rejects.json'), {}) or {}
+REJECT_HASHES = set((_rej.get('hashes') or {}).keys())
 sr_players = {os.path.basename(f)[:-5]: jload(f) for f in glob.glob(os.path.join(OUT, 'sr', 'players', '*.json'))}
 school_index = {r['season']: r for r in (jload(os.path.join(OUT, 'sr', 'school_index.json'), {}) or {}).get('seasons', [])}
 
@@ -578,7 +610,7 @@ photo_for, photo_wide, photo_meta = {}, set(), {}
 for pid, cands in PHOTO_CANDS.items():
     for rank, url, wide, meta in sorted(cands, key=lambda c: c[0]):
         u2 = localize(url)
-        if not u2:
+        if not u2 or (u2.startswith('assets/') and hashlib.md5(open(os.path.join(SITE, '..', u2.split('?')[0]), 'rb').read()).hexdigest() in REJECT_HASHES):
             continue
         photo_for[pid] = u2
         photo_meta[pid] = meta
@@ -1000,7 +1032,7 @@ for y in years:
                 if not p.get('pid') or p.get('dnp'):
                     continue
                 if sr_played is not None:
-                    if p['pid'] not in sr_played:
+                    if p['pid'] not in sr_played and (gid, norm(p.get('name'))) not in FORCE_PLAYED:
                         continue  # Sports-Reference's box (which decides games played) says he didn't get in
 
                 PLAYER_GAMES[p['pid']].append({'id': gid, 'y': y, 'date': g['date'], 'opp': {k: opp[k] for k in ('name', 'abbr', 'logo') if opp.get(k)}, 'ha': ha, 'res': g.get('res'),
@@ -1021,7 +1053,12 @@ for y in years:
         day = row['date'][:10] if row.get('res') else et_date(row['date'])
         if not row.get('res'):
             row['day'] = day
-        if not v or v.get('date') != day:
+        if not v:
+            continue
+        try:
+            if abs((datetime.date.fromisoformat(v['date']) - datetime.date.fromisoformat(day)).days) > 1:
+                continue
+        except (KeyError, ValueError, TypeError):
             continue
         if not v.get('era_name'):
             continue
@@ -1034,6 +1071,37 @@ for y in years:
         det = details.get(row['id'])
         if det is not None:
             det['venue'] = {'name': v['era_name'], 'city': BUILDING_CITY.get(v.get('building_key')) or (det.get('venue') or {}).get('city')}
+
+    # ── stat corrections from official box scores
+    for st in ADJ.get('stats', []):
+        det = details.get(st.get('game'))
+        if not det or int(st['game'].split('-')[0]) != y:
+            continue
+        if st.get('iona_box') or any(k.endswith('_box') for k in st):
+            box = next(v for k, v in st.items() if k.endswith('_box'))
+            spl = lambda x: [int(v) for v in str(x).split('-')] if x and '-' in str(x) else [None, None]
+            det['teams'][1]['players'] = [{'name': b['player'], 'starter': b.get('gs'), 'min': b.get('min'), 'pts': b.get('pts'), 'fgm': spl(b.get('fg'))[0], 'fga': spl(b.get('fg'))[1],
+                                           'tpm': spl(b.get('3pt'))[0], 'tpa': spl(b.get('3pt'))[1], 'ftm': spl(b.get('ft'))[0], 'fta': spl(b.get('ft'))[1], 'oreb': b.get('orb'), 'dreb': b.get('drb'),
+                                           'reb': b.get('reb'), 'ast': b.get('ast'), 'stl': b.get('stl'), 'blk': b.get('blk'), 'to': b.get('to'), 'pf': b.get('pf')}
+                                          for b in box if b.get('player') not in ('TEAM', 'Team', 'Totals', 'TOTALS')]
+            det['teams'][1]['boxSource'] = 'official'
+            continue
+        pl = next((q for q in det['teams'][0]['players'] if norm(q.get('name')) == norm(st.get('player'))), None)
+        if not pl or not str(st.get('truth', '')).split(' ')[0].isdigit():
+            continue
+        v_ = int(str(st['truth']).split(' ')[0])
+        if st.get('stat') == 'rebounds':
+            pl['reb'] = v_
+            if pl.get('oreb') is not None:
+                pl['dreb'] = v_ - pl['oreb']
+        elif st.get('stat') == 'assists':
+            pl['ast'] = v_
+    # ── NCAA-vacated games: still shown (they happened), clearly marked
+    vac = VACATED.get(y)
+    if vac:
+        for row in games_out:
+            if row.get('res') and vac['test'](row):
+                row['vacated'] = True
 
     # ── roster + stats
     roster = []
@@ -1120,6 +1188,8 @@ for y in years:
                           credit='UConn Athletics', kind='uconn-headshot', source=r.get('bio'))
             for rank_, url_, wide_, meta_ in sorted(PHOTO_CANDS.get(pid, []), key=lambda c: c[0]):
                 u2 = localize(url_)
+                if u2 and (u2.startswith('assets/') and hashlib.md5(open(os.path.join(SITE, '..', u2.split('?')[0]), 'rb').read()).hexdigest() in REJECT_HASHES):
+                    u2 = None
                 if u2:
                     photo_for[pid] = u2
                     (photo_wide.add(pid) if wide_ else photo_wide.discard(pid))
@@ -1197,6 +1267,7 @@ for y in years:
         'ppg': (meta.get('pts_per_g') or {}).get('value') or si.get('pts_per_g'), 'oppg': (meta.get('opp_pts_per_g') or {}).get('value') or si.get('opp_pts_per_g'),
         'story': story, 'roster': roster, 'team': team, 'games': games_out, 'polls': polls,
         'videos': [v for v in VIDS if v.get('season') == y], 'photos': photos, 'exhibitions': EXHIBITIONS.get(y) or None,
+        'vacated': {'official': vac['official'], 'note': vac['note']} if vac else None,
     }
     # Efficiency for seasons SR doesn't rate: estimate possessions from team and opponent totals
     if s and not season_obj['ortg']:
@@ -1232,7 +1303,7 @@ for y in years:
         'apPre': season_obj['apPre'], 'apHigh': season_obj['apHigh'], 'apFinal': ap_final, 'srs': season_obj['srs'], 'sos': season_obj['sos'], 'ortg': season_obj['ortg'], 'drtg': season_obj['drtg'],
         'effEst': season_obj.get('effEst'), 'pace': season_obj['pace'], 'ppg': season_obj['ppg'], 'oppg': season_obj['oppg'], 'headline': story.get('headline'), 'ncaaW': ncaaW, 'ncaaL': ncaaL, 'leaders': lead,
         'spark': [g['pts'] - g['opp_pts'] for g in played], 'mop': (legends.get('mop') or {}).get(str(y)) or MOP.get(y) if finish == 'champ' else None,
-        'future': not played,
+        'future': not played, 'officialRec': vac['official'] if vac else None,
     }.items() if v is not None and v != {}})
     if ncaa_games:
         MARCH.append({'y': y, 'seed': seed, 'region': region, 'coach': coach, 'rec': f'{w}–{l}', 'games': [

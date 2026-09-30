@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30 17:28",
+ "generated": "2026-09-30 17:57",
  "seasons": {
   "1995": [
    {
@@ -25,15 +25,6 @@
   ],
   "1999": [
    {
-    "url": "https://portal.ct.gov/lib/sots/registermanual/photo/uconnpic.jpg",
-    "w": 365,
-    "h": 253,
-    "source": "https://portal.ct.gov/SOTS/Register-Manual/Register-Manual/1999-Dedication",
-    "credit": "Connecticut Secretary of the State (State Register & Manual 1999 dedication)",
-    "license": "Copyright State of Connecticut / photographer (hotlinked)",
-    "caption": "Jim Calhoun and the 1999 national-champion UConn Huskies celebrating with the NCAA trophy (1998-99) — CT State Register & Manual 1999 dedication photo"
-   },
-   {
     "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/uconnhuskies.com/images/2024/4/26/99_large.jpg",
     "w": 656,
     "h": 358,
@@ -41,6 +32,15 @@
     "credit": "UConn Athletics",
     "license": "Copyright UConn Athletics (hotlinked)",
     "caption": "1998-99 NCAA national champion UConn men's basketball team — official team photo (Huskies of Honor)"
+   },
+   {
+    "url": "https://portal.ct.gov/lib/sots/registermanual/photo/uconnpic.jpg",
+    "w": 365,
+    "h": 253,
+    "source": "https://portal.ct.gov/SOTS/Register-Manual/Register-Manual/1999-Dedication",
+    "credit": "Connecticut Secretary of the State (State Register & Manual 1999 dedication)",
+    "license": "Copyright State of Connecticut / photographer (hotlinked)",
+    "caption": "Jim Calhoun and the 1999 national-champion UConn Huskies celebrating with the NCAA trophy (1998-99) — CT State Register & Manual 1999 dedication photo"
    }
   ],
   "2004": [
@@ -52,17 +52,6 @@
     "credit": "The Bush White House",
     "license": "Public domain",
     "caption": "President George W. Bush stands with Emeka Okafor of the University of Connecticut's men basketball team during a ceremony in the East Room congratulating four NCAA teams for winning national titles Wednesday, May 19, 2004."
-   }
-  ],
-  "2009": [
-   {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/2009PittUConn2ndmin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "w": 1258,
-    "h": 937,
-    "source": "https://commons.wikimedia.org/wiki/File:2009PittUConn2ndmin.jpg",
-    "credit": "Crazypaco",
-    "license": "CC BY-SA 3.0",
-    "caption": "The University of Pittsburgh Panthers basketball team, then ranked #3, in a game against the #1 ranked UConn Huskies at the Petersen Event's Center on March 7th, 2009. Pitt won the game, nationally broadcast on CBS, 70-60."
    }
   ],
   "2011": [
@@ -85,28 +74,10 @@
     "caption": "President Barack Obama greets members of the University of Connecticut men's basketball team in the Green Room of the White House following an event celebrating the team's 2010 NCAA basketball championship, May 16, 2011. (Official White House Photo by Pete Souza)"
    },
    {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/UConn_Men%27s_Basketball_2011_Championship_Parade_%285630694991%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "w": 720,
-    "h": 540,
-    "source": "https://commons.wikimedia.org/wiki/File:UConn_Men%27s_Basketball_2011_Championship_Parade_(5630694991).jpg",
-    "credit": "Dannel Malloy",
-    "license": "CC BY 2.0",
-    "caption": "Sunday, April 17, 2011 -- Governor Malloy and Lt. Governor Wyman attended the UConn Men's Basketball 2011 NCAA victory parade and rally at the State Capitol in Hartford."
-   },
-   {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/UConn_Men%27s_Basketball_2011_Championship_Parade_%285631276320%29.jpg/1280px-UConn_Men%27s_Basketball_2011_Championship_Parade_%285631276320%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 1280,
     "h": 852,
     "source": "https://commons.wikimedia.org/wiki/File:UConn_Men%27s_Basketball_2011_Championship_Parade_(5631276320).jpg",
-    "credit": "Dannel Malloy",
-    "license": "CC BY 2.0",
-    "caption": "Sunday, April 17, 2011 -- Governor Malloy and Lt. Governor Wyman attended the UConn Men's Basketball 2011 NCAA victory parade and rally at the State Capitol in Hartford."
-   },
-   {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/UConn_Men%27s_Basketball_2011_Championship_Parade_%285631276192%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "w": 720,
-    "h": 540,
-    "source": "https://commons.wikimedia.org/wiki/File:UConn_Men%27s_Basketball_2011_Championship_Parade_(5631276192).jpg",
     "credit": "Dannel Malloy",
     "license": "CC BY 2.0",
     "caption": "Sunday, April 17, 2011 -- Governor Malloy and Lt. Governor Wyman attended the UConn Men's Basketball 2011 NCAA victory parade and rally at the State Capitol in Hartford."
@@ -128,108 +99,9 @@
     "credit": "Dannel Malloy",
     "license": "CC BY 2.0",
     "caption": "Sunday, April 17, 2011 -- Governor Malloy and Lt. Governor Wyman attended the UConn Men's Basketball 2011 NCAA victory parade and rally at the State Capitol in Hartford."
-   },
-   {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/UConn_Men%27s_Basketball_2011_Championship_Parade_%285630694257%29.jpg/1280px-UConn_Men%27s_Basketball_2011_Championship_Parade_%285630694257%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 1280,
-    "h": 960,
-    "source": "https://commons.wikimedia.org/wiki/File:UConn_Men%27s_Basketball_2011_Championship_Parade_(5630694257).jpg",
-    "credit": "Dannel Malloy",
-    "license": "CC BY 2.0",
-    "caption": "Sunday, April 17, 2011 -- Governor Malloy and Lt. Governor Wyman attended the UConn Men's Basketball 2011 NCAA victory parade and rally at the State Capitol in Hartford."
-   },
-   {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/UConn_Men%27s_Basketball_2011_Championship_Parade_%285630694011%29.jpg/1280px-UConn_Men%27s_Basketball_2011_Championship_Parade_%285630694011%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 1280,
-    "h": 960,
-    "source": "https://commons.wikimedia.org/wiki/File:UConn_Men%27s_Basketball_2011_Championship_Parade_(5630694011).jpg",
-    "credit": "Dannel Malloy",
-    "license": "CC BY 2.0",
-    "caption": "Sunday, April 17, 2011 -- Governor Malloy and Lt. Governor Wyman attended the UConn Men's Basketball 2011 NCAA victory parade and rally at the State Capitol in Hartford."
-   },
-   {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/UConn_Men%27s_Basketball_2011_Championship_Parade_%285630693895%29.jpg/1280px-UConn_Men%27s_Basketball_2011_Championship_Parade_%285630693895%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 1280,
-    "h": 960,
-    "source": "https://commons.wikimedia.org/wiki/File:UConn_Men%27s_Basketball_2011_Championship_Parade_(5630693895).jpg",
-    "credit": "Dannel Malloy",
-    "license": "CC BY 2.0",
-    "caption": "Sunday, April 17, 2011 -- Governor Malloy and Lt. Governor Wyman attended the UConn Men's Basketball 2011 NCAA victory parade and rally at the State Capitol in Hartford."
-   },
-   {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/UConn_Men%27s_Basketball_2011_Championship_Parade_%285630693545%29.jpg/1280px-UConn_Men%27s_Basketball_2011_Championship_Parade_%285630693545%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 1280,
-    "h": 960,
-    "source": "https://commons.wikimedia.org/wiki/File:UConn_Men%27s_Basketball_2011_Championship_Parade_(5630693545).jpg",
-    "credit": "Dannel Malloy",
-    "license": "CC BY 2.0",
-    "caption": "Sunday, April 17, 2011 -- Governor Malloy and Lt. Governor Wyman attended the UConn Men's Basketball 2011 NCAA victory parade and rally at the State Capitol in Hartford."
-   },
-   {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/UConn_Men%27s_Basketball_2011_Championship_Parade_%285630694397%29.jpg/1280px-UConn_Men%27s_Basketball_2011_Championship_Parade_%285630694397%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 1280,
-    "h": 960,
-    "source": "https://commons.wikimedia.org/wiki/File:UConn_Men%27s_Basketball_2011_Championship_Parade_(5630694397).jpg",
-    "credit": "Dannel Malloy",
-    "license": "CC BY 2.0",
-    "caption": "Sunday, April 17, 2011 -- Governor Malloy and Lt. Governor Wyman attended the UConn Men's Basketball 2011 NCAA victory parade and rally at the State Capitol in Hartford."
-   },
-   {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/UConn_Men%27s_Basketball_2011_Championship_Parade_%285630693439%29.jpg/1280px-UConn_Men%27s_Basketball_2011_Championship_Parade_%285630693439%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 1280,
-    "h": 960,
-    "source": "https://commons.wikimedia.org/wiki/File:UConn_Men%27s_Basketball_2011_Championship_Parade_(5630693439).jpg",
-    "credit": "Dannel Malloy",
-    "license": "CC BY 2.0",
-    "caption": "Sunday, April 17, 2011 -- Governor Malloy and Lt. Governor Wyman attended the UConn Men's Basketball 2011 NCAA victory parade and rally at the State Capitol in Hartford."
-   },
-   {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/UConn_Men%27s_Basketball_2011_Championship_Parade_%285630694465%29.jpg/1280px-UConn_Men%27s_Basketball_2011_Championship_Parade_%285630694465%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 1280,
-    "h": 2140,
-    "source": "https://commons.wikimedia.org/wiki/File:UConn_Men%27s_Basketball_2011_Championship_Parade_(5630694465).jpg",
-    "credit": "Dannel Malloy",
-    "license": "CC BY 2.0",
-    "caption": "Sunday, April 17, 2011 -- Governor Malloy and Lt. Governor Wyman attended the UConn Men's Basketball 2011 NCAA victory parade and rally at the State Capitol in Hartford."
-   },
-   {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/UConn_Men%27s_Basketball_2011_Championship_Parade_%285631275472%29.jpg/1280px-UConn_Men%27s_Basketball_2011_Championship_Parade_%285631275472%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 1280,
-    "h": 960,
-    "source": "https://commons.wikimedia.org/wiki/File:UConn_Men%27s_Basketball_2011_Championship_Parade_(5631275472).jpg",
-    "credit": "Dannel Malloy",
-    "license": "CC BY 2.0",
-    "caption": "Sunday, April 17, 2011 -- Governor Malloy and Lt. Governor Wyman attended the UConn Men's Basketball 2011 NCAA victory parade and rally at the State Capitol in Hartford."
-   },
-   {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/UConn_Men%27s_Basketball_2011_Championship_Parade_%285630694651%29.jpg/1280px-UConn_Men%27s_Basketball_2011_Championship_Parade_%285630694651%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 1280,
-    "h": 960,
-    "source": "https://commons.wikimedia.org/wiki/File:UConn_Men%27s_Basketball_2011_Championship_Parade_(5630694651).jpg",
-    "credit": "Dannel Malloy",
-    "license": "CC BY 2.0",
-    "caption": "Sunday, April 17, 2011 -- Governor Malloy and Lt. Governor Wyman attended the UConn Men's Basketball 2011 NCAA victory parade and rally at the State Capitol in Hartford."
-   },
-   {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/UConn_Men%27s_Basketball_2011_Championship_Parade_%285631274824%29.jpg/1280px-UConn_Men%27s_Basketball_2011_Championship_Parade_%285631274824%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 1280,
-    "h": 960,
-    "source": "https://commons.wikimedia.org/wiki/File:UConn_Men%27s_Basketball_2011_Championship_Parade_(5631274824).jpg",
-    "credit": "Dannel Malloy",
-    "license": "CC BY 2.0",
-    "caption": "Sunday, April 17, 2011 -- Governor Malloy and Lt. Governor Wyman attended the UConn Men's Basketball 2011 NCAA victory parade and rally at the State Capitol in Hartford."
    }
   ],
   "2013": [
-   {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Huskies_edge_out_Spartans_66-62_in_Armed_Forces_Classic_121110-F-QL239-217.jpg/1280px-Huskies_edge_out_Spartans_66-62_in_Armed_Forces_Classic_121110-F-QL239-217.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 1280,
-    "h": 1924,
-    "source": "https://commons.wikimedia.org/wiki/File:Huskies_edge_out_Spartans_66-62_in_Armed_Forces_Classic_121110-F-QL239-217.jpg",
-    "credit": "Airman 1st Class Caitlin Guinazu",
-    "license": "Public domain",
-    "caption": "Team members from Michigan State and the University of Connecticut wait for a ball to rebound during the 2012 Armed Forces Classic on Ramstein Air Base, Germany, Nov. 10, 2012. The match-up between MSU and UConn is part of ESPN's Veteran's Week initiative to honor the men and women who have served a"
-   },
    {
     "url": "https://today.uconn.edu/wp-content/uploads/2012/11/MENS-BASKETBALL-TEAM-1213-POSTER.jpg",
     "w": 630,
@@ -241,15 +113,6 @@
    }
   ],
   "2014": [
-   {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/2014_UConn_National_Championship_teams_at_the_White_House.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "w": 643,
-    "h": 365,
-    "source": "https://commons.wikimedia.org/wiki/File:2014_UConn_National_Championship_teams_at_the_White_House.JPG",
-    "credit": "The White House",
-    "license": "Public domain",
-    "caption": "2014 UConn National Championship teams at the White House, a screen capture of the White House feed, in public domain."
-   },
    {
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Barack_Obama_with_UConn_men%27s_and_women%27s_2014_NCAA_basketball_champions_2014-06-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "w": 1100,
@@ -276,6 +139,15 @@
     "credit": "Dannel Malloy",
     "license": "CC BY 2.0",
     "caption": "Tuesday, April 8, 2014 -- Governor Dannel P. Malloy greets the 2014 NCAA National Champion UConn Huskies Men's Basketball team as they arrive at Bradley Airport the day after their championship game."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/2014_UConn_National_Championship_teams_at_the_White_House.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 643,
+    "h": 365,
+    "source": "https://commons.wikimedia.org/wiki/File:2014_UConn_National_Championship_teams_at_the_White_House.JPG",
+    "credit": "The White House",
+    "license": "Public domain",
+    "caption": "2014 UConn National Championship teams at the White House, a screen capture of the White House feed, in public domain."
    }
   ]
  }

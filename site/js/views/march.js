@@ -35,6 +35,7 @@ export default async function march(main, _args, core) {
   <section class="section"><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow">Every bracket, every round</span><h2 class="h2">The path, year by year</h2></div>
       <div class="legend"><span><i style="background:rgba(143,193,255,.5)"></i>Win</span><span><i style="background:rgba(228,0,43,.6)"></i>Loss</span><span><i style="background:var(--gold)"></i>Title</span></div></div>
+    ${yrs.some((y) => y.y === 1996) ? '<p class="note" style="margin-bottom:12px">The NCAA later vacated UConn\'s three 1996 tournament games; they are shown as played.</p>' : ''}
     <div class="bracket-scroll"><div class="bracket-years" id="by">
       <div class="byear head"><div>Year</div><div>Seed</div>${ROUNDS.map((r) => `<div>${r}</div>`).join('')}</div>
       ${[...yrs].reverse().map((y) => `<div class="byear"><a class="y" href="#/season/${y.y}">${y.y}</a><span class="sd">${y.seed || ''}</span>${ROUNDS.map((_, r) => {

@@ -34,7 +34,7 @@ function cover(s) {
     <span class="yr">${s.y - 1}<small>–${String(s.y).slice(2)}</small></span>
     <div style="display:grid;gap:6px;align-content:start"><span class="rec">${s.future ? 'Upcoming' : `${s.w}–${s.l}`}${s.cw != null ? ` <span class="muted" style="font-size:14px">(${s.cw}–${s.cl} ${esc(s.confShort || '')})</span>` : ''}</span>
     ${s.headline ? `<span class="muted" style="font-size:13px;line-height:1.3">${esc(s.headline)}</span>` : ''}</div>
-    <div class="meta">${s.future ? '<span class="pill live">Coming soon</span>' : finishPill(s.finish)}${s.seed ? `<span class="pill">No. ${s.seed} seed</span>` : ''}${s.apFinal ? `<span class="pill">AP ${s.apFinal}</span>` : ''}</div>
+    <div class="meta">${s.future ? '<span class="pill live">Coming soon</span>' : finishPill(s.finish)}${s.seed ? `<span class="pill">No. ${s.seed} seed</span>` : ''}${s.apFinal ? `<span class="pill">AP ${s.apFinal}</span>` : ''}${s.officialRec ? `<span class="pill red" title="Official NCAA record ${esc(s.officialRec)}">Vacated</span>` : ''}</div>
     <svg class="spark" viewBox="0 0 200 34" preserveAspectRatio="none" aria-hidden="true">${sparkPath(s.spark)}</svg>
   </a>`;
 }
