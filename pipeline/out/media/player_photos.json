@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30 14:36",
+ "generated": "2026-09-30 14:39",
  "note": "Real photographs only; each image's source page names the player. Hotlink-checked with Referer https://jfrascino.github.io/. Lists are best-first (UConn-era > NBA headshot > other).",
  "players": {
   "richard-hamilton-1": [
@@ -140,6 +140,42 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Christian Vital UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/9/18/CHRISTIAN_VITAL.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1500,
+    "h": 2000,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/christian-vital/10574",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Christian Vital — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2019/9/16/VITAL.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1261,
+    "h": 1729,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/christian-vital/10574",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Christian Vital — 2019-20 UConn men's basketball roster headshot",
+    "season": "2019-20"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/12855525.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/christian-vital/10574",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Christian Vital — 2017-18 UConn men's basketball roster headshot",
+    "season": "2017-18"
    }
   ],
   "jalen-adams-2": [
@@ -155,6 +191,18 @@
     "caption": "Jalen Adams UConn headshot (ESPN)"
    },
    {
+    "url": "https://uconnhuskies.com/images/2018/9/18/JALEN_ADAMS_71.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1455,
+    "h": 2000,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/jalen-adams/9232",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Jalen Adams — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
+   },
+   {
     "url": "https://uconnhuskies.com/images/2018/6/11/12855499.jpeg",
     "kind": "uconn-headshot",
     "cutout": false,
@@ -163,8 +211,8 @@
     "source": "https://uconnhuskies.com/sports/mens-basketball/roster/jalen-adams/9232",
     "credit": "UConn Athletics (uconnhuskies.com)",
     "license": "Copyright UConn Athletics (hotlinked)",
-    "caption": "Jalen Adams — 2015-16 UConn men's basketball roster headshot",
-    "season": "2015-16"
+    "caption": "Jalen Adams — 2017-18 UConn men's basketball roster headshot",
+    "season": "2017-18"
    }
   ],
   "donyell-marshall-1": [
@@ -255,8 +303,8 @@
     "source": "https://uconnhuskies.com/sports/mens-basketball/roster/rodney-purvis/1772",
     "credit": "UConn Athletics (uconnhuskies.com)",
     "license": "Copyright UConn Athletics (hotlinked)",
-    "caption": "Rodney Purvis — 2015-16 UConn men's basketball roster headshot",
-    "season": "2015-16"
+    "caption": "Rodney Purvis — 2016-17 UConn men's basketball roster headshot",
+    "season": "2016-17"
    },
    {
     "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Rodney_Purvis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -449,6 +497,42 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Tyler Polley UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/9/18/TYLER_POLLEY.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1500,
+    "h": 2000,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/tyler-polley/11752",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Tyler Polley — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2019/9/18/TYLER_UPGRADE.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 662,
+    "h": 910,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/tyler-polley/11752",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Tyler Polley — 2019-20 UConn men's basketball roster headshot",
+    "season": "2019-20"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/12855539.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/tyler-polley/11752",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Tyler Polley — 2017-18 UConn men's basketball roster headshot",
+    "season": "2017-18"
    }
   ],
   "amida-brimah-1": [
@@ -461,8 +545,8 @@
     "source": "https://uconnhuskies.com/sports/mens-basketball/roster/amida-brimah/1761",
     "credit": "UConn Athletics (uconnhuskies.com)",
     "license": "Copyright UConn Athletics (hotlinked)",
-    "caption": "Amida Brimah — 2015-16 UConn men's basketball roster headshot",
-    "season": "2015-16"
+    "caption": "Amida Brimah — 2016-17 UConn men's basketball roster headshot",
+    "season": "2016-17"
    },
    {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Amida_Brimah_2.jpg/330px-Amida_Brimah_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -632,6 +716,42 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Josh Carlton UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/9/18/JOSH_CARLTON.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1500,
+    "h": 2000,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/josh-carlton/11136",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Josh Carlton — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2019/9/16/CARLTON.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1302,
+    "h": 1784,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/josh-carlton/11136",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Josh Carlton — 2019-20 UConn men's basketball roster headshot",
+    "season": "2019-20"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/12855507.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/josh-carlton/11136",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Josh Carlton — 2017-18 UConn men's basketball roster headshot",
+    "season": "2017-18"
    }
   ],
   "donovan-clingan-1": [
@@ -671,6 +791,42 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Isaiah Whaley UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/9/18/ISAIAH_WHALEY.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1500,
+    "h": 2000,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/isaiah-whaley/11750",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Isaiah Whaley — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2019/9/16/WHALEY.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1308,
+    "h": 1792,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/isaiah-whaley/11750",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Isaiah Whaley — 2019-20 UConn men's basketball roster headshot",
+    "season": "2019-20"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/12855526.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/isaiah-whaley/11750",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Isaiah Whaley — 2017-18 UConn men's basketball roster headshot",
+    "season": "2017-18"
    }
   ],
   "alterique-gilbert-1": [
@@ -684,6 +840,42 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Alterique Gilbert UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/9/18/ALTERIQUE_GILBERT.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1500,
+    "h": 2000,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/alterique-gilbert/10572",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Alterique Gilbert — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2019/9/16/GILBERT.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1337,
+    "h": 1831,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/alterique-gilbert/10572",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Alterique Gilbert — 2019-20 UConn men's basketball roster headshot",
+    "season": "2019-20"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/12855534.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/alterique-gilbert/10572",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Alterique Gilbert — 2017-18 UConn men's basketball roster headshot",
+    "season": "2017-18"
    }
   ],
   "james-bouknight-1": [
@@ -697,6 +889,18 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "James Bouknight UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2019/9/16/JAMES_BOUKNIGHT.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1323,
+    "h": 1829,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/james-bouknight/11135",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "James Bouknight — 2019-20 UConn men's basketball roster headshot",
+    "season": "2019-20"
    }
   ],
   "niels-giffey-1": [
@@ -824,8 +1028,8 @@
     "source": "https://uconnhuskies.com/sports/mens-basketball/roster/kentan-facey/1765",
     "credit": "UConn Athletics (uconnhuskies.com)",
     "license": "Copyright UConn Athletics (hotlinked)",
-    "caption": "Kentan Facey — 2015-16 UConn men's basketball roster headshot",
-    "season": "2015-16"
+    "caption": "Kentan Facey — 2016-17 UConn men's basketball roster headshot",
+    "season": "2016-17"
    },
    {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Kentan_Facey.jpg/500px-Kentan_Facey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -866,6 +1070,18 @@
    }
   ],
   "terry-larrier-1": [
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/12855536.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/terry-larrier/1769",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Terry Larrier — 2016-17 UConn men's basketball roster headshot",
+    "season": "2016-17"
+   },
    {
     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Terry_Larrier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "kind": "other",
@@ -1032,6 +1248,18 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Jalen Gaffney UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2019/9/16/GAFFNEY.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1375,
+    "h": 1884,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/jalen-gaffney/11748",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Jalen Gaffney — 2019-20 UConn men's basketball roster headshot",
+    "season": "2019-20"
    }
   ],
   "tyler-olander-1": [
@@ -1059,6 +1287,30 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Brendan Adams UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/9/18/BRENDAN_ADAMS.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1500,
+    "h": 2000,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/brendan-adams/11133",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Brendan Adams — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2019/9/16/ADAMS.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1324,
+    "h": 1821,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/brendan-adams/11133",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Brendan Adams — 2019-20 UConn men's basketball roster headshot",
+    "season": "2019-20"
    }
   ],
   "stephon-castle-2": [
@@ -1162,6 +1414,18 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Tarin Smith UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/9/18/TARIN_SMITH.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1455,
+    "h": 2000,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/tarin-smith/9238",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Tarin Smith — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
    }
   ],
   "vance-jackson-1": [
@@ -1175,6 +1439,18 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Vance Jackson UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/12138456.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/vance-jackson/1768",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Vance Jackson — 2016-17 UConn men's basketball roster headshot",
+    "season": "2016-17"
    }
   ],
   "lasan-kromah-2": [
@@ -1215,6 +1491,18 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Akok Akok UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2019/9/16/AKOK.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1346,
+    "h": 1844,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/akok-akok/11751",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Akok Akok — 2019-20 UConn men's basketball roster headshot",
+    "season": "2019-20"
    }
   ],
   "joey-calcaterra-1": [
@@ -1279,6 +1567,30 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Sidney Wilson UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/9/18/SIDNEY_WILSON.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1500,
+    "h": 2000,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/sidney-wilson/10576",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Sidney Wilson — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2019/9/16/WILSON.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1395,
+    "h": 1928,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/sidney-wilson/10576",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Sidney Wilson — 2019-20 UConn men's basketball roster headshot",
+    "season": "2019-20"
    }
   ],
   "donnell-beverly-1": [
@@ -1346,6 +1658,30 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Eric Cobb UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/9/18/ERIC_COBB.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1500,
+    "h": 2000,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/eric-cobb/9234",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Eric Cobb — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/12855528.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/eric-cobb/9234",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Eric Cobb — 2017-18 UConn men's basketball roster headshot",
+    "season": "2017-18"
    }
   ],
   "steven-enoch-1": [
@@ -1369,8 +1705,8 @@
     "source": "https://uconnhuskies.com/sports/mens-basketball/roster/steven-enoch/1764",
     "credit": "UConn Athletics (uconnhuskies.com)",
     "license": "Copyright UConn Athletics (hotlinked)",
-    "caption": "Steven Enoch — 2015-16 UConn men's basketball roster headshot",
-    "season": "2015-16"
+    "caption": "Steven Enoch — 2016-17 UConn men's basketball roster headshot",
+    "season": "2016-17"
    }
   ],
   "curtis-kelly-1": [
@@ -1437,6 +1773,30 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Mamadou Diarra UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/9/18/MAMADOU_DIARRA.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1500,
+    "h": 2000,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/mamadou-diarra/9235",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Mamadou Diarra — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/12855530.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/mamadou-diarra/9235",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Mamadou Diarra — 2017-18 UConn men's basketball roster headshot",
+    "season": "2017-18"
    }
   ],
   "enosch-wolf-1": [
@@ -1489,6 +1849,18 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Juwan Durham UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/12138428.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/juwan-durham/1763",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Juwan Durham — 2016-17 UConn men's basketball roster headshot",
+    "season": "2016-17"
    }
   ],
   "leon-tolksdorf-1": [
@@ -1516,6 +1888,30 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Kwintin Williams UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/9/18/KWINTIN_WILLIAMS.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1500,
+    "h": 2000,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/kwintin-williams/9328",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Kwintin Williams — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/12855527.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/kwintin-williams/9328",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Kwintin Williams — 2017-18 UConn men's basketball roster headshot",
+    "season": "2017-18"
    }
   ],
   "richie-springs-1": [
@@ -1582,6 +1978,18 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Kassoum Yakwe UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2018/9/18/KASSOUM_YAKWE.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1500,
+    "h": 2000,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/kassoum-yakwe/9243",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Kassoum Yakwe — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
    }
   ],
   "dwayne-koroma-1": [
@@ -1769,8 +2177,8 @@
     "source": "https://uconnhuskies.com/sports/mens-basketball/roster/christian-foxen/1766",
     "credit": "UConn Athletics (uconnhuskies.com)",
     "license": "Copyright UConn Athletics (hotlinked)",
-    "caption": "Christian Foxen — 2015-16 UConn men's basketball roster headshot",
-    "season": "2015-16"
+    "caption": "Christian Foxen — 2016-17 UConn men's basketball roster headshot",
+    "season": "2016-17"
    }
   ],
   "javonte-brown-1": [
@@ -1921,6 +2329,44 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Temi Aiyegbusi UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2019/1/1/AIYEGBUSI.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1417,
+    "h": 1948,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/temi-aiyegbusi/10570",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Temi Aiyegbusi — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2019/9/16/AIYEGBUSI.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1395,
+    "h": 1911,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/temi-aiyegbusi/10570",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Temi Aiyegbusi — 2019-20 UConn men's basketball roster headshot",
+    "season": "2019-20"
+   }
+  ],
+  "daniel-brocke-1": [
+   {
+    "url": "https://uconnhuskies.com/images/2019/1/1/BROCKE.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1435,
+    "h": 1973,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/daniel-brocke/10052",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Daniel Brocke — 2018-19 UConn men's basketball roster headshot",
+    "season": "2018-19"
    }
   ],
   "matt-garry-1": [
@@ -1934,6 +2380,18 @@
     "credit": "ESPN",
     "license": "Copyright ESPN (hotlinked)",
     "caption": "Matt Garry UConn headshot (ESPN)"
+   },
+   {
+    "url": "https://uconnhuskies.com/images/2019/9/16/GARRY.jpg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 1367,
+    "h": 1872,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/matt-garry/11139",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Matt Garry — 2019-20 UConn men's basketball roster headshot",
+    "season": "2019-20"
    }
   ],
   "uros-paunovic-1": [
@@ -2030,6 +2488,20 @@
     "license": "Copyright UConn Athletics (hotlinked)",
     "caption": "Ethan Waite — 2011-12 UConn men's basketball roster headshot",
     "season": "2011-12"
+   }
+  ],
+  "restinel-lomotey-1": [
+   {
+    "url": "https://uconnhuskies.com/images/2018/6/11/12242276.jpeg",
+    "kind": "uconn-headshot",
+    "cutout": false,
+    "w": 105,
+    "h": 145,
+    "source": "https://uconnhuskies.com/sports/mens-basketball/roster/restinel-lomotey/1770",
+    "credit": "UConn Athletics (uconnhuskies.com)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "Restinel Lomotey — 2016-17 UConn men's basketball roster headshot",
+    "season": "2016-17"
    }
   ],
   "yarin-hasson-1": [
@@ -2170,7 +2642,6 @@
   "ed-tonella-1",
   "martin-gagne-1",
   "richard-moore-2",
-  "daniel-brocke-1",
   "karsten-kibbe-1",
   "chris-crowley-2",
   "mike-woodward-1",
@@ -2195,7 +2666,6 @@
   "trey-james-1",
   "keifer-lammi-1",
   "dave-vandal-1",
-  "javon-williams-1",
-  "restinel-lomotey-1"
+  "javon-williams-1"
  ]
 }

@@ -1,0 +1,144 @@
+{
+ "counts": {
+  "G.games": 826,
+  "B.boxes": 795,
+  "B.lines": 15694,
+  "X.games": 739,
+  "X.lines": 7410,
+  "S.seasons": 272,
+  "P.lines": 11511,
+  "R.seasons": 41,
+  "T.titles": 6,
+  "O.teams": 196
+ },
+ "summary": {
+  "G": 5,
+  "B": 1,
+  "X": 3,
+  "S": 6,
+  "O": 2
+ },
+ "issues": {
+  "G": [
+   {
+    "game": "2008-1",
+    "date": "2007-11-07",
+    "opp": "Morgan State",
+    "problem": "site SR=home ESPN=neutral"
+   },
+   {
+    "game": "2008-2",
+    "date": "2007-11-08",
+    "opp": "Buffalo",
+    "problem": "site SR=home ESPN=neutral"
+   },
+   {
+    "game": "2009-9",
+    "date": "2008-12-15",
+    "opp": "Stony Brook",
+    "problem": "site SR=home ESPN=neutral"
+   },
+   {
+    "game": "2018-5",
+    "date": "2017-11-25",
+    "opp": "Michigan State",
+    "problem": "ESPN dates it 2017-11-24"
+   },
+   {
+    "game": "2025-7",
+    "date": "2024-11-28",
+    "opp": "Dayton",
+    "problem": "ESPN dates it 2024-11-27"
+   }
+  ],
+  "B": [
+   {
+    "game": "2010-11",
+    "team": "Iona",
+    "problem": "players sum to 54, final 74"
+   }
+  ],
+  "X": [
+   {
+    "game": "2008-33",
+    "player": "Jeff Adrien",
+    "stat": "reb",
+    "espn": 12,
+    "sr": 13
+   },
+   {
+    "game": "2011-26",
+    "player": "Enosch Wolf",
+    "pid": "enosch-wolf-1",
+    "problem": "in ESPN box, not in SR box (id mismatch?)"
+   },
+   {
+    "game": "2016-8",
+    "player": "Amida Brimah",
+    "stat": "ast",
+    "espn": 1,
+    "sr": 0
+   }
+  ],
+  "S": [
+   {
+    "player": "Kentan Facey",
+    "season": 2014,
+    "sr_g": 24,
+    "box_g": 23,
+    "sr_pts≈": 34,
+    "box_pts": 34
+   },
+   {
+    "player": "Donnell Beverly",
+    "season": 2008,
+    "sr_g": 18,
+    "box_g": 19,
+    "sr_pts≈": 14,
+    "box_pts": 14
+   },
+   {
+    "player": "Jonathan Mandeldove",
+    "season": 2008,
+    "sr_g": 21,
+    "box_g": 22,
+    "sr_pts≈": 6,
+    "box_pts": 6
+   },
+   {
+    "player": "Jim Veronick",
+    "season": 2008,
+    "sr_g": 1,
+    "box_g": 2,
+    "sr_pts≈": 0,
+    "box_pts": 0
+   },
+   {
+    "player": "Ben Eaves",
+    "season": 2007,
+    "sr_g": 11,
+    "box_g": 12,
+    "sr_pts≈": 1,
+    "box_pts": 1
+   },
+   {
+    "player": "Javon Williams",
+    "season": 2013,
+    "sr_g": 1,
+    "box_g": 0,
+    "sr_pts≈": 0,
+    "box_pts": 0
+   }
+  ],
+  "O": [
+   {
+    "opp": "Brooklyn",
+    "problem": "no logo"
+   },
+   {
+    "opp": "Southern Connecticut",
+    "problem": "no logo"
+   }
+  ]
+ }
+}

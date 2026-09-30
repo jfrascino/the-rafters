@@ -1,0 +1,61 @@
+SCORE 1990-2   1989-11-25 Auburn             app W 95-91    official no game with that score
+SCORE 1990-8   1989-12-09 Maine              app W 95-55    official W 55-50 vs Maine
+SCORE 1990-19  1990-01-25 Central Connecticu app W 99-77    official no game with that score
+SCORE 1993-7   1992-12-29 Towson             app W 99-66    official W 96-66 vs None
+SCORE 1994-20  1994-02-01 Syracuse           app L 95-108   official L 95-105 vs Syracuse Syracuse, NY L, 95-
+SCORE 1994-29  1994-03-05 St. John's         app W 95-80    official W 80-50 vs St. John's
+SCORE 1996-4   1995-11-29 Northeastern       app W 86-39    official W 86-59 vs Northeastern
+SCORE 1996-31  1996-03-08 Syracuse           app W 85-67    official W 85-66 vs Syracuse
+SCORE 1996-33  1996-03-14 Colgate            app W 68-59    official no game with that score
+SCORE 1996-34  1996-03-16 Eastern Michigan   app W 95-81    official no game with that score
+SCORE 1996-35  1996-03-22 Mississippi State  app L 55-60    official no game with that score
+SCORE 1997-32  1997-03-25 Florida State      app L 65-71    official L 66-71 vs Florida State
+SCORE 1998-2   1997-11-17 Boston University  app W 68-54    official W 66-54 vs Boston
+SCORE 1999-26  1999-02-22 Providence         app W 72-65    official W 72-55 vs Providence Providence, RI W, 
+SCORE 2000-3   1999-11-19 Vermont            app W 89-52    official W 82-59 vs Vermont
+SCORE 2000-13  2000-01-08 Pittsburgh         app W 73-51    official W 73-1 vs Pittsburgh Pittsburgh, PA W, 7
+SCORE 2000-14  2000-01-10 Texas              app W 77-67    official W 76-67 vs None
+SCORE 2000-18  2000-01-27 Providence         app W 64-50    official W 64-54 vs Providence
+SCORE 2000-21  2000-02-05 Michigan State     app L 66-85    official L 65-88 vs Michigan State Grand Rapids, 
+SCORE 2000-29  2000-03-04 Syracuse           app W 69-54    official W 79-64 vs Syracuse
+SCORE 2001-1   2000-11-17 Quinnipiac         app W 86-72    official W 86-71 vs Quinnipiac
+SCORE 2001-6   2000-11-30 Houston            app W 72-60    official W 72-62 vs Houston
+SCORE 2001-18  2001-01-20 Miami              app L 74-77    official L 59-70 vs Miami Miami, FL L, 59-70 Jan 
+SCORE 2001-27  2001-02-24 Miami              app W 60-53    official W 60-50 vs Miami
+SCORE 2002-29  2002-03-08 Notre Dame         app W 82-77    official W 87-82 vs Notre Dame
+SCORE 2003-23  2003-02-22 St. John's         app W 77-69    official W 77-60 vs St. John's
+SCORE 2004-14  2004-01-11 Oklahoma           app W 86-59    official W 86-69 vs Oklahoma
+SCORE 2004-19  2004-01-28 Virginia Tech      app W 96-60    official W 90-66 vs None
+SCORE 2004-20  2004-01-31 Boston College     app W 63-58    official W 63-57 vs Boston College Boston, MA W, 
+SCORE 2004-32  2004-03-12 Villanova          app W 84-67    official no game with that score
+SCORE 2004-36  2004-03-25 Vanderbilt         app W 73-53    official W 73-55 vs Vanderbilt Phoenix, AZ W, 73-
+SCORE 2005-13  2005-01-15 Rutgers            app W 78-64    official W 77-64 vs Rutgers
+SCORE 2005-23  2005-02-19 Rutgers            app W 85-63    official W 85-3 vs Rutgers Newark, NJ W, 85-3 Feb
+SCORE 2006-5   2005-11-29 Army               app W 68-54    official W 68-64 vs None
+SCORE 2006-6   2005-12-02 Texas Southern     app W 113-49   official W 114-49 vs Texas
+SCORE 2006-8   2005-12-18 New Hampshire      app W 86-44    official W 86-84 vs New
+SCORE 2006-12  2006-01-03 Marquette          app L 79-94    official L 74-79 vs Marquette Milwaukee, WI L, 74
+SCORE 2006-26  2006-02-21 Notre Dame         app W 75-74    official W 75-54 vs Notre
+SCORE 2007-27  2007-02-21 Rutgers            app W 65-55    official W 61-50 vs Rutgers
+SCORE 2010-31  2010-03-06 South Florida      app L 68-75    official L 65-78 vs USF Sun
+SCORE 2015-24  2015-02-14 SMU                app L 55-73    official L 54-62 vs SMU Moody Coliseum (Dallas, T
+DATE  1990-3   Florida State      app 1989-11-26 official 1989-11-27
+DATE  1991-1   Charleston         app 1990-11-23 official 1990-11-24
+DATE  1991-14  St. John's         app 1991-01-13 official 1991-01-12
+DATE  1991-28  Georgetown         app 1991-03-07 official 1991-03-08
+DATE  1992-28  St. John's         app 1992-03-13 official 1992-03-12
+DATE  1995-12  Providence         app 1995-01-14 official 1995-01-13
+DATE  1996-24  West Virginia      app 1996-02-15 official 1996-02-14
+DATE  1998-5   Florida State      app 1997-11-27 official 1997-11-26
+DATE  1999-3   Hartford           app 1998-11-24 official 1998-11-21
+DATE  2000-15  St. John's         app 2000-01-15 official 2000-01-16
+DATE  2001-32  Detroit Mercy      app 2001-03-18 official 2001-03-14
+SITE  1987-5   Boston University  app H official at (None)
+SITE  1987-19  Saint Peter's      app N official at (None)
+SITE  1988-7   Hartford           app A official vs (Hartford Hartford, Conn.)
+SITE  1988-22  Fairfield          app N official at (None)
+SITE  1990-23  Fairfield          app H official at (None)
+SITE  1994-27  Pittsburgh         app H official at (None)
+SITE  2010-28  West Virginia      app H official at (Hartford, Conn.)
+SITE  2015-21  East Carolina      app H official at (Storrs, Conn.)
+SITE  2024-33  St. John's         app N official at (None)

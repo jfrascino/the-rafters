@@ -12,6 +12,7 @@ import sys
 from photos_common import fetch, load_players, norm, save_candidates, probe, save_probes
 
 BASE = "https://uconnhuskies.com"
+ALIASES = {"michaelnoyes": "mikenoyes", "martygagne": "martingagne"}
 
 
 def nuxt_data(html):
@@ -66,7 +67,7 @@ def main():
     for p in players:
         by_name.setdefault(norm(p["name"]), []).append(p)
     # seasons with archives
-    seasons = [f"{y}-{str(y + 1)[2:]}" for y in range(2000, 2016)]
+    seasons = [f"{y}-{str(y + 1)[2:]}" for y in range(2000, 2020)]
     cands = {}
     roster_log = {}
     for s in seasons:
@@ -86,7 +87,8 @@ def main():
             name = f"{rp.get('firstName', '')} {rp.get('lastName', '')}".strip()
             img = img_url(rp.get("image"))
             roster_log[s].append({"name": name, "img": img, "bio": rp.get("call_to_action")})
-            matches = [p for p in by_name.get(norm(name), []) if spring in p["years"]]
+            nm = ALIASES.get(norm(name), norm(name))
+            matches = [p for p in by_name.get(nm, []) if spring in p["years"] or spring - 1 in p["years"]]
             if not matches:
                 continue
             p = matches[0]

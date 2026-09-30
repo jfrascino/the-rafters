@@ -84,8 +84,14 @@ for f in glob.glob(os.path.join(OUT, 'sr', 'seasons', '*.json')):
         sr_seasons[int(d['year'])] = d
 sr_boxes = {os.path.basename(f)[:-5]: jload(f) for f in glob.glob(os.path.join(OUT, 'sr', 'boxscores', '*.json'))}
 # Games SR counts in the record but omits from the schedule (non-D-I opponents); renumber and recompute running records
-for yk, extra in (jload(os.path.join(HERE, 'manual_games.json'), {}) or {}).items():
-    if yk.startswith('_') or int(yk) not in sr_seasons:
+MANUAL = jload(os.path.join(HERE, 'manual_games.json'), {}) or {}
+for yk, fixes in (MANUAL.get('date_fixes') or {}).items():
+    for fx in fixes:
+        for g in (sr_seasons.get(int(yk)) or {}).get('schedule', []):
+            if g['date'] == fx['sr_date'] and norm(fx['opp']) in norm(g.get('opp_name')):
+                g['date'] = fx['date']
+for yk, extra in MANUAL.items():
+    if yk.startswith('_') or yk == 'date_fixes' or int(yk) not in sr_seasons:
         continue
     sch = sr_seasons[int(yk)]['schedule']
     have = {(g['date'], g.get('opp_name')) for g in sch}
@@ -352,6 +358,40 @@ for r in (espn_current.get('roster') or []):
             if pid and not pid.startswith('espn-'):
                 photo_for.setdefault(pid, r['headshot'])
                 break
+
+# Jason's photo drop: real photos (often restored from low-res originals) beat every other source
+DROP = os.path.join(HERE, '..', 'photos-drop')
+ASSETS = os.path.join(HERE, '..', 'site', 'assets', 'players')
+os.makedirs(ASSETS, exist_ok=True)
+drop_credit = {}
+for line in open(os.path.join(DROP, 'credits.txt')).read().splitlines() if os.path.exists(os.path.join(DROP, 'credits.txt')) else []:
+    if '|' in line:
+        k, *rest = [x.strip() for x in line.split('|')]
+        drop_credit[k] = ' · '.join(rest)
+known_pids = {pid for yy in roster_names for pid in roster_names[yy].values()}
+name_to_pid_all = {n: pid for yy in roster_names for n, pid in roster_names[yy].items()}
+if os.path.isdir(DROP):
+    import shutil, subprocess
+    for fn in sorted(os.listdir(DROP)):
+        stem, ext = os.path.splitext(fn)
+        if ext.lower() not in ('.jpg', '.jpeg', '.png', '.webp', '.heic', '.tif', '.tiff'):
+            continue
+        pid = stem if stem in known_pids else name_to_pid_all.get(norm(stem))
+        if not pid:
+            print(f'! photos-drop: no player matches "{fn}"')
+            continue
+        dst = os.path.join(ASSETS, f'{pid}.jpg')
+        src = os.path.join(DROP, fn)
+        if not os.path.exists(dst) or os.path.getmtime(dst) < os.path.getmtime(src):
+            if shutil.which('sips'):
+                subprocess.run(['sips', '-s', 'format', 'jpeg', '-s', 'formatOptions', '82', '-Z', '900', src, '--out', dst], check=True, capture_output=True)
+            else:
+                shutil.copy(src, dst)
+            print(f'photos-drop: {fn} → {pid}')
+for fn in os.listdir(ASSETS):
+    pid = os.path.splitext(fn)[0]
+    photo_for[pid] = f'assets/players/{fn}'
+    photo_wide.add(pid)
 
 wiki_players = []
 if isinstance(media_images, dict):
@@ -646,7 +686,10 @@ for y in years:
             rnd = rnd or 'NIT'
         if g['type'] == 'CTOURN' and not rnd:
             rnd = 'Conference tournament'
-        row = {'id': gid, 'date': (g.get('iso') or (e or {}).get('date') or g['date']) if not g.get('res') else g['date'], 'type': g['type'], 'ha': g['ha'], 'opp': opp}
+        ha = g['ha']
+        if g['type'] in ('NCAA', 'CTOURN'):
+            ha = 'N'  # tournament games are neutral-site, even at MSG or in Hartford (sources disagree game to game)
+        row = {'id': gid, 'date': (g.get('iso') or (e or {}).get('date') or g['date']) if not g.get('res') else g['date'], 'type': g['type'], 'ha': ha, 'opp': opp}
         for k in ('res', 'pts', 'opp_pts', 'ot', 'rec', 'arena'):
             if g.get(k) is not None:
                 row[k] = g[k]
@@ -669,6 +712,15 @@ for y in years:
             uc_home = (u or {}).get('homeAway') == 'home'
             U = espn_team_block(u, y, True)
             O = espn_team_block(o, y, False)
+            # ESPN sometimes drops players from a box; if a team's players don't add up to its score, use Sports-Reference's box for that team
+            sb = sr_boxes.get(g.get('box_slug') or '') if g.get('box_slug') else None
+            if sb:
+                for blk, is_uc in ((U, True), (O, False)):
+                    if blk.get('score') is not None and sum((q.get('pts') or 0) for q in blk['players'] if not q.get('dnp')) != blk['score']:
+                        st = next((t for t in sb.get('teams') or [] if (t.get('sr_slug') == 'connecticut') == is_uc), None)
+                        if st and sum((q.get('pts') or 0) for q in st.get('players') or []) == blk['score']:
+                            blk['players'] = sr_team_block(st, is_uc, g['opp'])['players']
+                            blk['boxSource'] = 'sr'
             O.update({'name': g['opp']['name'], 'abbr': O.get('abbr') or g['opp'].get('abbr'), 'logo': O.get('logo') or g['opp'].get('logo')})
             if g.get('opp_seed'):
                 O['seed'] = g['opp_seed']
@@ -716,10 +768,20 @@ for y in years:
                 top = max(ups, key=lambda p: (p.get('pts') or 0, p.get('reb') or 0))
                 row['top'] = f"{top['name']} {top['pts']} pts" + (f", {top['reb']} reb" if (top.get('reb') or 0) >= 10 else '')
             # game logs
+            sr_played = None
+            sbx = sr_boxes.get(g.get('box_slug') or '') if g.get('box_slug') else None
+            if sbx:
+                ut_ = next((t for t in sbx.get('teams') or [] if t.get('sr_slug') == 'connecticut'), None)
+                if ut_:
+                    sr_played = {q.get('sr_id') for q in ut_.get('players') or []}  # SR lists only players who got in (even for seconds)
             for p in det['teams'][0]['players']:
-                if not p.get('pid') or p.get('dnp') or (p.get('min') in (0, None) and p.get('pts') is None):
+                if not p.get('pid') or p.get('dnp'):
                     continue
-                PLAYER_GAMES[p['pid']].append({'id': gid, 'y': y, 'date': g['date'], 'opp': {k: opp[k] for k in ('name', 'abbr', 'logo') if opp.get(k)}, 'ha': g['ha'], 'res': g.get('res'),
+                if sr_played is not None:
+                    if p['pid'] not in sr_played:
+                        continue  # Sports-Reference's box (which decides games played) says he didn't get in
+
+                PLAYER_GAMES[p['pid']].append({'id': gid, 'y': y, 'date': g['date'], 'opp': {k: opp[k] for k in ('name', 'abbr', 'logo') if opp.get(k)}, 'ha': ha, 'res': g.get('res'),
                                                'score': f"{g.get('pts')}-{g.get('opp_pts')}", 'type': g['type'], 'round': rnd, **{k: p.get(k) for k in ('min', 'pts', 'reb', 'ast', 'stl', 'blk', 'to', 'fgm', 'fga', 'tpm', 'tpa', 'ftm', 'fta', 'oreb')}})
         else:
             vids = vids_for_game(y, g['date'], g['opp']['name'])
@@ -727,7 +789,7 @@ for y in years:
                 row['videos'] = vids
         games_out.append(row)
         if row.get('res'):
-            GAMES_INDEX.append({'id': gid, 'y': y, 'date': g['date'], 'type': g['type'], 'ha': g['ha'], 'opp': {k: opp[k] for k in ('key', 'name', 'abbr', 'logo') if opp.get(k)},
+            GAMES_INDEX.append({'id': gid, 'y': y, 'date': g['date'], 'type': g['type'], 'ha': ha, 'opp': {k: opp[k] for k in ('key', 'name', 'abbr', 'logo') if opp.get(k)},
                                 'res': row['res'], 'pts': row['pts'], 'opp_pts': row['opp_pts'], 'ot': row.get('ot'), 'round': rnd if g['type'] in ('NCAA', 'NIT', 'CTOURN') else None,
                                 'top': row.get('top'), 'big': 2 if g['type'] == 'NCAA' else 1 if g.get('opp_rank') else 0})
 
@@ -825,7 +887,7 @@ for y in years:
         if (p.get('poll') or 'AP') != 'AP':
             continue
         wk = p.get('week')
-        polls.append({'wk': wk, 'short': 'PRE' if wk == 'Pre' else 'FINAL' if str(wk).lower() == 'final' else wk, 'label': 'Preseason' if wk == 'Pre' else 'Final poll' if str(wk).lower() == 'final' else f'Week of {wk}', 'date': p.get('date'), 'rank': p.get('rank')})
+        polls.append({'wk': wk, 'short': 'PRE' if wk == 'Pre' else 'FINAL' if str(wk).lower() == 'final' else wk, 'label': 'Preseason' if wk == 'Pre' else 'Final poll' if str(wk).lower() == 'final' else f'Week of {wk}', 'date': p.get('date'), 'rank': p.get('rank') if isinstance(p.get('rank'), int) else None})
 
     played = [g for g in games_out if g.get('res')]
     w = sum(1 for g in played if g['res'] == 'W')
