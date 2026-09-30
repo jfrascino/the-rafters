@@ -48,7 +48,7 @@ try {
     const [w, h] = size.split('x').map(Number);
     errors.length = 0;
     await send('Emulation.setDeviceMetricsOverride', { width: w, height: h, deviceScaleFactor: 1, mobile: w < 600 });
-    await send('Page.navigate', { url: `http://localhost:8786/?b=${Date.now()}#${route}` });
+    await send('Page.navigate', { url: `http://localhost:8786/?shot=1&b=${Date.now()}#${route}` });
     await sleep(Number(process.env.WAIT || 3500));
     let clip;
     if (full) {

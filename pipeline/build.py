@@ -39,6 +39,13 @@ def jdump(p, obj):
         json.dump(obj, f, separators=(',', ':'), ensure_ascii=False)
 
 
+def img_url(x):
+    """Media records store images as a URL string or a {thumb_url, image_url} dict."""
+    if isinstance(x, dict):
+        return x.get('thumb_url') or x.get('image_url') or x.get('url')
+    return x or None
+
+
 def et_date(iso):
     if not iso:
         return None
@@ -1051,7 +1058,7 @@ for e in ERAS:
     cm = coach_media.get(norm(e['name']), {})
     eras_out.append({**e, 'w': sum(s['w'] for s in ss), 'l': sum(s['l'] for s in ss), 'titles': [s['y'] for s in ss if s['finish'] == 'champ'],
                      'ff': sum(1 for s in ss if s['finish'] in ('champ', 'runner', 'final4')), 'ncaa': sum(1 for s in ss if s['finish'] not in ('none', 'nit')),
-                     'photo': cm.get('image') or cm.get('image_url') or cm.get('photo'), 'blurb': cm.get('summary') or cm.get('blurb')})
+                     'photo': img_url(cm.get('image') or cm.get('image_url') or cm.get('photo')), 'blurb': cm.get('summary') or cm.get('blurb')})
 secondary = [{'y': s['y'], 'label': 'NCAA\nFinal Four' if s['finish'] == 'final4' else 'National\nRunner-Up', 'kind': 'ff'} for s in SEASON_SUM if s['finish'] in ('final4', 'runner')]
 
 cur_games = [g for g in json.load(open(os.path.join(SITE, 'seasons', f'{current_season}.json')))['games']]

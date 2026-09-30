@@ -121,7 +121,7 @@ export function mount(host, { titles = [], secondary = [], onPick, onHover } = {
     const m = new THREE.Mesh(geo, mat);
     let x, y, z;
     if (big) { const k = i - (nT - 1) / 2; x = k * 5.6; y = 12 + Math.abs(k) * .2; z = -14 - Math.abs(k) * 1.1; }
-    else { const j = i - nT, n = all.length - nT, k = j - (n - 1) / 2; x = k * 9 + (k < 0 ? -12 : 12); y = 15.5; z = -24; }
+    else { const j = i - nT, n = all.length - nT, k = j - (n - 1) / 2; x = k * 11.2; y = 16.5; z = -25; }
     m.position.set(x, y, z);
     m.rotation.y = -x * 0.012;
     m.userData = { b, base, phase: i * 1.7, amp: big ? 1 : .7, h };
@@ -181,10 +181,13 @@ export function mount(host, { titles = [], secondary = [], onPick, onHover } = {
 
   const resize = () => {
     // the canvas is shorter than the section on phones (copy flows below it)
-    const w = host.clientWidth, h = renderer.domElement.clientHeight || host.clientHeight;
+    const w = renderer.domElement.clientWidth || host.clientWidth, h = renderer.domElement.clientHeight || host.clientHeight;
     renderer.setSize(w, h, false);
     camera.aspect = w / h;
     camera.fov = w < 700 ? 58 : 46;
+    // distance at which the banner row (~34 wide, ~10 tall) fills ~80% of the panel, whatever its shape
+    const t = 2 * Math.tan((camera.fov * Math.PI) / 360);
+    camera.userData.dist = Math.max(34 / (t * (w / h) * 0.8), 10 / (t * 0.55), 16);
     camera.updateProjectionMatrix();
   };
   const ro = new ResizeObserver(resize); ro.observe(host); resize();
@@ -195,7 +198,7 @@ export function mount(host, { titles = [], secondary = [], onPick, onHover } = {
   const onVis = () => { if (!document.hidden) kick(); };
   document.addEventListener('visibilitychange', onVis);
 
-  const intro = { k: reduce ? 1 : 0 };
+  const intro = { k: reduce || /[?&]shot=1/.test(location.search) ? 1 : 0 }; // ?shot=1 skips the rise-in for screenshots
   function frame(now) {
     raf = 0;
     const dt = Math.min((now - last) / 1000, 0.05); last = now;
@@ -205,8 +208,12 @@ export function mount(host, { titles = [], secondary = [], onPick, onHover } = {
     // camera: rise from the floor into the rafters, then drift with the pointer
     px += (tx - px) * Math.min(1, dt * 2.5); py += (ty - py) * Math.min(1, dt * 2.5);
     const drift = reduce ? 0 : Math.sin(t * .15) * 1.2;
-    camera.position.set(px * 3 + drift, -10 + ease * 6 + py * 1.5, 14 - ease * 2);
-    camera.lookAt(px * 2, 11.5 + py * 1.5 + (1 - ease) * -6, -18);
+    // aim at the centre of the banner row from slightly below; rise into place on load
+    const tx0 = px * 1.5, ty0 = 7.2 + py * 0.8, tz0 = -17;
+    const d = (camera.userData.dist || 30) * (1 + (1 - ease) * 0.35);
+    const ux = 0, uy = -0.38, uz = 1, un = Math.hypot(ux, uy, uz);
+    camera.position.set(tx0 + drift + (ux / un) * d, ty0 + (uy / un) * d - (1 - ease) * 6, tz0 + (uz / un) * d);
+    camera.lookAt(tx0, ty0, tz0);
     if (!reduce) {
       for (const m of banners) {
         const { base, phase, amp, h } = m.userData;
