@@ -23,11 +23,11 @@ export default async function season(main, args, core) {
       <div class="s-hero-top"><span class="eyebrow">${esc(s.label)} · ${esc(s.coach)} · ${esc(s.conf || '')}</span>
         <nav class="s-nav" aria-label="Season navigation">${prev ? `<a href="#/season/${prev.y}">← ${esc(prev.label)}</a>` : ''}${next ? `<a href="#/season/${next.y}">${esc(next.label)} →</a>` : ''}</nav></div>
       <h1 class="h-display" style="font-size:clamp(40px,7vw,104px);max-width:14ch">${esc(story.headline || s.label)}</h1>
-      <div class="chips">${finishPill(s.finish)}${s.seed ? `<span class="pill">No. ${s.seed} seed${s.region ? ' · ' + esc(s.region) : ''}</span>` : ''}${s.confFinish ? `<span class="pill">${esc(s.confFinish)}</span>` : ''}${(story.honors || []).filter((h) => /champion/i.test(h)).slice(0, 3).map((h) => `<span class="pill ff">${esc(h)}</span>`).join('')}</div>
+      <div class="chips">${!played.length ? `<span class="pill live">Tips off ${esc(fmtDate((s.games[0] || {}).date, { year: true }))}</span>` : finishPill(s.finish)}${s.seed ? `<span class="pill">No. ${s.seed} seed${s.region ? ' · ' + esc(s.region) : ''}</span>` : ''}${s.confFinish ? `<span class="pill">${esc(s.confFinish)}</span>` : ''}${(story.honors || []).filter((h) => /champion/i.test(h)).slice(0, 3).map((h) => `<span class="pill ff">${esc(h)}</span>`).join('')}</div>
       <div class="statline">
-        <div><b>${s.w}–${s.l}</b><span>Overall</span></div>
-        ${s.cw != null ? `<div><b>${s.cw}–${s.cl}</b><span>${esc(s.confShort || 'Conf')}</span></div>` : ''}
-        <div><b>${s.apFinal ? '#' + s.apFinal : s.apHigh ? '#' + s.apHigh : 'NR'}</b><span>${s.apFinal ? 'Final AP' : s.apHigh ? 'AP peak' : 'Final AP'}</span></div>
+        ${!played.length ? `<div><b>${s.games.length}</b><span>Games scheduled</span></div><div><b>${(s.roster || []).length}</b><span>Players</span></div>${s.apPre ? `<div><b>#${s.apPre}</b><span>Preseason AP</span></div>` : ''}` : `<div><b>${s.w}–${s.l}</b><span>Overall</span></div>`}
+        ${played.length && s.cw != null ? `<div><b>${s.cw}–${s.cl}</b><span>${esc(s.confShort || 'Conf')}</span></div>` : ''}
+        ${played.length ? `<div><b>${s.apFinal ? '#' + s.apFinal : s.apHigh ? '#' + s.apHigh : 'NR'}</b><span>${s.apFinal ? 'Final AP' : s.apHigh ? 'AP peak' : 'Final AP'}</span></div>` : ''}
         ${s.apHigh && s.apFinal ? `<div><b>#${s.apHigh}</b><span>AP peak</span></div>` : ''}
         ${s.ppg ? `<div><b>${n1(s.ppg)}</b><span>Points/G</span></div><div><b>${n1(s.oppg)}</b><span>Allowed/G</span></div>` : ''}
         ${s.srs != null ? `<div><b>${n1(s.srs)}</b><span title="Simple Rating System: points better than an average team">SRS</span></div>` : ''}
@@ -44,7 +44,7 @@ export default async function season(main, args, core) {
     </div>
   </div></section>` : ''}
 
-  <section class="section"><div class="wrap">
+  <section class="section"${played.length ? '' : ' hidden'}><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow">Game by game · ${played.length} games</span><h2 class="h2">The heartbeat</h2></div><span class="aside">Bar height is the final margin. Wins rise, losses fall. Tap any game for its box score.</span></div>
     <div id="hb"></div>
   </div></section>
@@ -141,11 +141,11 @@ function runSection(games, title, champ, conf) {
 export function playerCard(p, champ, y, opts = {}) {
   const pg = p.pg || {};
   const photo = p.photo ? `<img src="${esc(p.photo)}" alt="" loading="lazy" class="${p.photoWide ? 'wide' : ''}"${p.photoPos ? ` style="object-position:${esc(p.photoPos)}"` : ''} onerror="this.remove()">` : '';
-  return `<div class="pcard${champ ? ' champ' : ''}" tabindex="0" aria-label="${esc(p.name)} card">
+  return `<div class="pcard${champ ? ' champ' : ''}${p.photoStudio && p.photo ? ' studio' : ''}" tabindex="0" aria-label="${esc(p.name)} card">
     <div class="pcard-in">
       <div class="pcard-face pcard-front">
         <div class="photo"><span class="initials" aria-hidden="true">${esc(initials(p.name))}</span>${photo}</div>
-        ${p.num != null && p.num !== '' ? `<span class="jnum">${esc(p.num)}</span>` : ''}
+        ${p.num != null && p.num !== '' ? `<span class="jnum" aria-label="Number ${esc(p.num)}">${esc(p.num)}</span>` : ''}
         ${p.pos ? `<span class="pill pos">${esc(p.pos)}</span>` : ''}
         <div class="plate"><span class="nm">${esc(p.name)}<small>${[p.cls, p.ht, p.home].filter(Boolean).map(esc).join(' · ')}</small></span>
           <span class="mini"><span><b>${n1(pg.pts)}</b>PTS</span><span><b>${n1(pg.trb)}</b>REB</span><span><b>${n1(pg.ast)}</b>AST</span></span></div>

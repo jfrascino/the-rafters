@@ -9,7 +9,7 @@ export default async function player(main, args, core) {
   const champYears = uc.filter((s) => s.finish === 'champ').map((s) => s.y);
   const c = p.career || {};
   const logs = p.gamelog || [];
-  const card = { ...last, name: p.name, pid: p.id, photo: p.photo, photoWide: p.photoWide, photoPos: p.photoPos, num: p.num ?? last.num, pos: p.pos, cls: p.span, ht: p.ht, home: p.home, hs: p.hs, wt: p.wt,
+  const card = { ...last, name: p.name, pid: p.id, photo: p.photo, photoWide: p.photoWide, photoPos: p.photoPos, photoStudio: p.photoStudio, num: p.num ?? last.num, pos: p.pos, cls: p.span, ht: p.ht, home: p.home, hs: p.hs, wt: p.wt,
     pg: { g: c.g, mp: c.mp_pg, pts: c.pts_pg, trb: c.trb_pg, ast: c.ast_pg, stl: c.stl_pg, blk: c.blk_pg, fg_pct: c.fg_pct, fg3_pct: c.fg3_pct, ft_pct: c.ft_pct } };
   const best = [...logs].filter((g) => g.pts != null).sort((a, b) => b.pts - a.pts || b.reb - a.reb).slice(0, 10);
   const tourney = logs.filter((g) => g.type === 'NCAA');
