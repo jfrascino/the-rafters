@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30 15:04",
+ "generated": "2026-09-30 15:07",
  "seasons": {
   "1999": [
    {
@@ -10,6 +10,17 @@
     "credit": "Connecticut Secretary of the State (State Register & Manual 1999 dedication)",
     "license": "Copyright State of Connecticut / photographer (hotlinked)",
     "caption": "Jim Calhoun and the 1999 national-champion UConn Huskies celebrating with the NCAA trophy (1998-99) — CT State Register & Manual 1999 dedication photo"
+   }
+  ],
+  "2013": [
+   {
+    "url": "https://today.uconn.edu/wp-content/uploads/2012/11/MENS-BASKETBALL-TEAM-1213-POSTER.jpg",
+    "w": 630,
+    "h": 420,
+    "source": "https://today.uconn.edu/2012/11/uconn-men-play-michigan-state-in-armed-forces-classic/",
+    "credit": "UConn Division of Athletics (via UConn Today)",
+    "license": "Copyright UConn Athletics (hotlinked)",
+    "caption": "The 2012-13 UConn men's basketball team — official team poster photo (UConn Division of Athletics)"
    }
   ]
  }

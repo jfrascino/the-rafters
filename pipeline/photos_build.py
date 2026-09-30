@@ -162,7 +162,9 @@ def main():
     for pid in ids:
         lst = out_players.get(pid, [])
         best = lst[0] if lst else None
-        small = best is not None and min(best.get("w") or 0, best.get("h") or 0) < SMALL
+        short = min(best.get("w") or 0, best.get("h") or 0) if best else 0
+        # studio cutout headshots (ESPN/NBA, 600x436) are clean enough; everything else under SMALL is queued
+        small = best is not None and short < SMALL and not (best.get("cutout") and short >= 400)
         if best is not None and not small:
             continue
         p = pinfo[pid]
@@ -175,7 +177,8 @@ def main():
                                            **({"crop": c["crop"]} if c.get("crop") else {})} for c in cands[:4]]})
     tmp = QUEUE_OUT + ".tmp"
     json.dump({"generated": time.strftime("%Y-%m-%d %H:%M"),
-               "note": f"Players with no photo, or whose best photo is under {SMALL}px on its short side. "
+               "note": f"Players with no photo, or whose best photo is under {SMALL}px on its short side "
+                       "(clean studio cutout headshots >=400px excepted). "
                        "best_candidates are real, identity-verified images (UConn-era first, then largest) for restoration.",
                "queue": queue}, open(tmp, "w"), indent=1, ensure_ascii=False)
     os.replace(tmp, QUEUE_OUT)

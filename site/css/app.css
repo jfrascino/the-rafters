@@ -121,38 +121,51 @@ main { min-height: 70vh; outline: none; }
 .hscroll { display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 10px; scrollbar-width: thin; scrollbar-color: var(--line-2) transparent; }
 .hscroll > * { scroll-snap-align: start; flex: none; }
 
-/* ───────── Hero (home): the real banners in Gampel's rafters, fading into the page ───────── */
-/* Desktop: headline column on solid ink, the whole photo (all six banners, never cropped) in the right column. */
-.hero { position: relative; display: grid; grid-template-columns: minmax(0, 41fr) minmax(0, 59fr); align-items: stretch;
-  min-height: clamp(520px, calc(100vh - var(--topbar)), 860px); overflow: hidden; background: var(--ink); }
-.hero-media { grid-column: 2; grid-row: 1; position: relative; min-height: 0; display: flex; align-items: center; justify-content: flex-end; container-type: size; }
-/* size the image to the photo itself (4:3, never cropped) so the fades land on its real edges */
-.hero-img { display: block; width: min(100cqw, 133.33cqh); height: min(75cqw, 100cqh); max-width: none; object-fit: cover; animation: heroIn 1.2s ease-out both;
-  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 18%), linear-gradient(0deg, transparent 0%, #000 16%, #000 86%, transparent 100%);
-  -webkit-mask-composite: source-in;
-  mask-image: linear-gradient(90deg, transparent 0%, #000 18%), linear-gradient(0deg, transparent 0%, #000 16%, #000 86%, transparent 100%);
-  mask-composite: intersect; }
-@keyframes heroIn { from { opacity: 0; } }
-.hero-copy { grid-column: 1; grid-row: 1; position: relative; z-index: 1; align-self: center;
-  padding: clamp(36px, 6vh, 80px) 12px clamp(36px, 6vh, 80px) max(var(--gut), calc((100vw - var(--maxw)) / 2 + var(--gut))); }
-.hero-copy .wrap { max-width: none; margin: 0; padding: 0; display: grid; gap: clamp(12px, 2.2vh, 18px); }
-.hero-copy .h-display { font-size: clamp(48px, min(5.4vw, 11vh), 108px); }
+/* ───────── Hero (home): the real banners in Gampel's rafters ───────── */
+/* One content grid shared with the rest of the page: headline left (5/12), the photo right (7/12),
+   its right edge on the same line as everything below. The photo dissolves into the ink on every side. */
+.hero { position: relative; overflow: hidden; padding-block: clamp(36px, 7vh, 96px) clamp(28px, 5vh, 64px);
+  background: radial-gradient(55% 75% at 76% 46%, rgba(26,52,112,.42), rgba(4,10,24,0) 70%), var(--ink); }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(20px, 3vw, 56px); align-items: center; }
+.hero-copy { display: grid; gap: clamp(14px, 2.4vh, 20px); min-width: 0; }
+.hero-copy .eyebrow { font-size: 14px; }
+.hero-copy .h-display { font-size: clamp(52px, min(5.9vw, 13vh), 98px); line-height: .86; }
 .hero-copy .h-display > span { display: block; white-space: nowrap; }
 .hero-copy .h-display .gold { color: var(--gold); }
-.hero-copy .h-display .thin { color: transparent; -webkit-text-stroke: 1.5px var(--fg-2); }
-.hero-copy .lede { max-width: 46ch; color: var(--fg-2); }
-.title-years { display: flex; flex-wrap: wrap; gap: 6px 14px; font: 400 clamp(15px, 1.3vw, 19px)/1 var(--f-varsity); letter-spacing: .04em; }
-.title-years a { color: var(--gold); padding-bottom: 3px; border-bottom: 1px solid rgba(227,189,110,.35); }
+.hero-copy .h-display .thin { color: transparent; -webkit-text-stroke: 1.6px var(--fg-2); }
+.hero-copy .lede { font-size: clamp(17px, 1.35vw, 20px); max-width: 40ch; color: var(--fg-2); }
+.hero-copy .btn { padding: 14px 18px; font-size: 15px; }
+.title-years { display: flex; flex-wrap: wrap; gap: 6px 16px; font: 400 clamp(16px, 1.45vw, 21px)/1 var(--f-varsity); letter-spacing: .04em; }
+.title-years a { color: var(--gold); padding-bottom: 4px; border-bottom: 1px solid rgba(227,189,110,.35); }
 .title-years a:hover { border-color: var(--gold); }
-.hero-credit { position: absolute; right: var(--gut); bottom: 12px; margin: 0; font: 600 11px/1.3 var(--f-cond); letter-spacing: .08em; text-transform: uppercase; color: rgba(195,203,220,.72); }
+.hero-media { margin: 0; min-width: 0; display: grid; gap: 8px; }
+.hero-frame { position: relative; aspect-ratio: 16 / 9; width: 100%; isolation: isolate; }
+.hero-img { display: block; width: 100%; height: 100%; max-width: none; object-fit: cover; object-position: 50% 22%;
+  filter: saturate(.86) contrast(1.06) brightness(.97); animation: heroIn 1.2s ease-out both; }
+@keyframes heroIn { from { opacity: 0; } }
+/* navy grade pulls Gampel's purple house lights toward the site palette */
+.hero-frame::after { content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none; mix-blend-mode: multiply;
+  background: radial-gradient(110% 95% at 66% 30%, rgba(0,14,47,0) 44%, rgba(4,10,24,.5) 100%), linear-gradient(0deg, rgba(0,14,47,.4) 0%, rgba(0,14,47,0) 45%); }
+/* soft edges on all four sides; the bottom fade follows the diagonal line of the banners (1999 lowest, 2024 highest) */
+.hero-frame::before { content: ""; position: absolute; inset: -1px; z-index: 2; pointer-events: none;
+  background:
+    linear-gradient(90deg, var(--ink) 0%, rgba(4,10,24,0) 9%, rgba(4,10,24,0) 93%, var(--ink) 100%),
+    linear-gradient(180deg, var(--ink) 0%, rgba(4,10,24,0) 12%),
+    linear-gradient(0deg, var(--ink) 0%, rgba(4,10,24,0) 9%),
+    linear-gradient(168deg, rgba(4,10,24,0) 68%, rgba(4,10,24,.85) 88%, var(--ink) 97%); }
+.hero-credit { justify-self: end; font: 600 11px/1.3 var(--f-cond); letter-spacing: .08em; text-transform: uppercase; color: rgba(195,203,220,.62); }
 .hero-credit a { text-decoration: underline; text-underline-offset: 2px; }
 @media (max-width: 900px) {
-  .hero { display: block; min-height: 0; }
-  .hero-media { height: clamp(260px, 74vw, 560px); display: block; container-type: normal; }
-  .hero-img { width: 100%; height: 100%; object-fit: cover; object-position: 55% 40%;
-    -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent); mask-image: linear-gradient(180deg, #000 60%, transparent); -webkit-mask-composite: source-over; mask-composite: add; }
-  .hero-copy { padding: 4px var(--gut) 20px; }
-  .hero-credit { position: static; padding: 0 var(--gut) 28px; text-align: left; }
+  .hero { padding-block: 0 28px; background: var(--ink); }
+  .hero .wrap.hero-grid { padding-inline: 0; }
+  .hero-grid { grid-template-columns: 1fr; gap: 0; }
+  .hero-media { order: -1; }
+  .hero-frame { aspect-ratio: 4 / 3; max-height: 74vw; }
+  .hero-img { object-position: 55% 12%; }
+  .hero-frame::before { background: linear-gradient(0deg, var(--ink) 0%, rgba(4,10,24,.7) 22%, rgba(4,10,24,0) 52%); }
+  .hero-credit { justify-self: start; padding-inline: var(--gut); margin-top: -26px; position: relative; z-index: 3; }
+  .hero-copy { padding: 20px var(--gut) 0; }
+  .hero-copy .lede { max-width: none; }
 }
 
 /* Scoreboard (LED) */
