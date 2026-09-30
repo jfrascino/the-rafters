@@ -23,7 +23,7 @@ export default async function season(main, args, core) {
       <div class="s-hero-top"><span class="eyebrow">${esc(s.label)} · ${esc(s.coach)} · ${esc(s.conf || '')}</span>
         <nav class="s-nav" aria-label="Season navigation">${prev ? `<a href="#/season/${prev.y}">← ${esc(prev.label)}</a>` : ''}${next ? `<a href="#/season/${next.y}">${esc(next.label)} →</a>` : ''}</nav></div>
       <h1 class="h-display" style="font-size:clamp(40px,7vw,104px);max-width:14ch">${esc(story.headline || s.label)}</h1>
-      <div class="chips">${!played.length ? `<span class="pill live">Tips off ${esc(fmtDate((s.games[0] || {}).date, { year: true }))}</span>` : finishPill(s.finish)}${s.seed ? `<span class="pill">No. ${s.seed} seed${s.region ? ' · ' + esc(s.region) : ''}</span>` : ''}${s.confFinish ? `<span class="pill">${esc(s.confFinish)}</span>` : ''}${(story.honors || []).filter((h) => /champion/i.test(h)).slice(0, 3).map((h) => `<span class="pill ff">${esc(h)}</span>`).join('')}</div>
+      <div class="chips">${!played.length ? `<span class="pill live">Tips off ${esc(fmtDate((s.games[0] || {}).day || (s.games[0] || {}).date, { year: true }))}</span>` : finishPill(s.finish)}${s.seed ? `<span class="pill">No. ${s.seed} seed${s.region ? ' · ' + esc(s.region) : ''}</span>` : ''}${s.confFinish ? `<span class="pill">${esc(s.confFinish)}</span>` : ''}${(story.honors || []).filter((h) => /champion/i.test(h)).slice(0, 3).map((h) => `<span class="pill ff">${esc(h)}</span>`).join('')}</div>
       <div class="statline">
         ${!played.length ? `<div><b>${s.games.length}</b><span>Games scheduled</span></div><div><b>${(s.roster || []).length}</b><span>Players</span></div>${s.apPre ? `<div><b>#${s.apPre}</b><span>Preseason AP</span></div>` : ''}` : `<div><b>${s.w}–${s.l}</b><span>Overall</span></div>`}
         ${played.length && s.cw != null ? `<div><b>${s.cw}–${s.cl}</b><span>${esc(s.confShort || 'Conf')}</span></div>` : ''}
@@ -128,10 +128,10 @@ function runSection(games, title, champ, conf) {
     <div class="panel run">${games.map((g, i) => {
       const cls = g.res === 'L' ? 'l' : (i === games.length - 1 && won && (champ || conf)) ? 'title' : '';
       return `<a class="run-step ${cls}" href="#/game/${g.id}">
-        <span class="round">${esc(g.round || fmtDate(g.date))}</span>
+        <span class="round">${esc(g.round || fmtDate(g.day || g.date))}</span>
         <span class="opp">${logo(g.opp)}<span>${g.opp.seed ? `<span class="muted">${g.opp.seed}</span> ` : ''}${esc(g.opp.name)}</span></span>
         <span class="sc">${g.res ? `${g.res} ${g.pts}–${g.opp_pts}` : 'TBD'}</span>
-        <span class="where">${fmtDate(g.date, { year: true })}${g.arena ? ' · ' + esc(g.arena) : ''}${g.ot ? ' · ' + esc(g.ot) : ''}</span>
+        <span class="where">${fmtDate(g.day || g.date, { year: true })}${g.arena ? ' · ' + esc(g.arena) : ''}${g.ot ? ' · ' + esc(g.ot) : ''}</span>
         ${g.top ? `<span class="where" style="color:var(--fg-2)">${esc(g.top)}</span>` : ''}
       </a>`;
     }).join('')}</div>
@@ -203,14 +203,15 @@ function statTables(s, roster) {
 export function schedule(games, opts = {}) {
   let month = '';
   return games.map((g) => {
-    const m = new Date(g.date.slice(0, 10) + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+    const day = g.day || g.date.slice(0, 10);
+    const m = new Date(day + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
     const head = m !== month ? `<div class="month-h">${(month = m)}</div>` : '';
     const post = g.type === 'NCAA' || g.type === 'NIT';
     const ha = g.ha === 'A' ? 'at' : g.ha === 'N' ? 'vs.' : 'vs.';
     const site = g.arena || (!g.res && g.ha === 'H' ? 'Home site TBA (Storrs or Hartford)' : '');
     const sub = [g.round, site, g.tv && !g.res ? g.tv : ''].filter(Boolean).join(' · ');
     return `${head}<a class="srow${post ? ' post' : ''}" href="#/game/${g.id}">
-      <span class="d">${fmtDate(g.date)}<br><span style="font-size:11px">${new Date(g.date.slice(0, 10) + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short' })}</span></span>
+      <span class="d">${fmtDate(day)}<br><span style="font-size:11px">${new Date(day + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short' })}</span></span>
       ${logo(g.opp)}
       <span class="o"><b><span class="muted" style="font-weight:600">${ha}</span> ${g.opp.rank ? `<span class="rk">${g.opp.rank}</span>` : ''}${esc(g.opp.name)}</b>${sub ? `<small>${esc(sub)}</small>` : ''}</span>
       <span class="r ${g.res || ''}">${g.res ? `${g.res} ${g.pts}–${g.opp_pts}${g.ot ? `<em>${esc(g.ot)}</em>` : ''}` : `<span class="muted" style="font-size:14px">${esc(fmtTime(g.date) || 'TBA')}</span>`}</span>
