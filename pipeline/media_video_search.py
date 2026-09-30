@@ -35,7 +35,7 @@ OFFICIAL = {"march madness": 6, "ncaa march madness": 6, "uconn huskies": 5, "uc
             "big east conference": 5, "big east": 4, "cbs sports": 4, "cbs sports hq": 3, "espn": 4, "espn college basketball": 4,
             "fox sports": 4, "fox college hoops": 4, "house of highlights": 1, "the american": 3, "american athletic conference": 3,
             "ncaa": 5, "tnt sports": 3, "bleacher report": 1, "nbc connecticut": 2, "wfsb": 1, "sny": 2}
-BAD = ["women", "wbb", "lady", "2k", "simulation", "sim ", "prediction", "predictions", "preview", "picks", "reaction",
+BAD = ["free pick", "free college basketball pick", "tournament pick", "sportsbook", "🔴", " live |", "live:", "simulated", "cyberpuck", "sue bird", "diana taurasi", "paige bueckers", "geno", "auriemma", "women", "wbb", "lady", "2k", "simulation", "sim ", "prediction", "predictions", "preview", "picks", "reaction",
        "odds", "betting", "bracket", "live stream", "watch live", "livestream", "podcast", "fortnite", "gameplay", "ps5", "xbox",
        "college hoops 2k", "ncaa basketball 10", "march madness 0", "live score", "score update", "ai "]
 
@@ -51,14 +51,26 @@ def score(c, t, year):
     ch = (c["channel"] or "").lower()
     s = 0.0; why = []
     txt = " " + title + " "
+    must_hit = False
+    if t.get("must_any"):
+        if any(m in txt for m in t["must_any"]): s += 5; why.append("must"); must_hit = True
+        elif any(m in desc for m in t["must_any"]): s += 1; why.append("must-desc")
+        else: s -= 8; why.append("no-must")
     if any(u in txt for u in UCONN): s += 3; why.append("uconn")
     elif any(u in desc for u in UCONN): s += 1
-    else: s -= 6; why.append("no-uconn")
+    else: s -= (2 if must_hit else 6); why.append("no-uconn")
     ot = opp_terms(t["opponent"]) if t.get("opponent") else []
     if ot:
         if any(o in txt for o in ot): s += 4; why.append("opp")
         elif any(o in desc for o in ot): s += 1.5; why.append("opp-desc")
         else: s -= 5; why.append("no-opp")
+    if not year:
+        L = length_sec(c["length"])
+        if any(b in txt for b in BAD): s -= 8; why.append("bad")
+        for k, v in OFFICIAL.items():
+            if ch == k or (len(k) > 5 and ch.startswith(k)):
+                s += v; why.append("official"); break
+        return s, why, L
     ys = [str(year)]
     if t.get("date", "")[:4].isdigit(): ys.append(t["date"][:4])
     yrs = set(ys) | {"'" + y[2:] for y in ys}
@@ -121,5 +133,7 @@ def run(targets, outname="video_candidates.json"):
     return res
 
 if __name__ == "__main__":
-    targets = json.load(open(os.path.join(CACHE, "video_targets.json")))
-    run(targets)
+    name = sys.argv[1] if len(sys.argv) > 1 else "video_targets.json"
+    out = sys.argv[2] if len(sys.argv) > 2 else "video_candidates.json"
+    targets = json.load(open(os.path.join(CACHE, name)))
+    run(targets, out)

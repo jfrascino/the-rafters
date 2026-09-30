@@ -45,7 +45,11 @@ def pick(entries, min_score=8, per_kind=("full_game", "highlights", "moment"), m
             scored.append(dict(c, score2=s, why2=why, det=det, kind=k))
         scored.sort(key=lambda c: -c["score2"])
         chosen = []
-        for k in per_kind:
+        if t.get("target_kind") in ("moment", "documentary", "interview", "highlights"):
+            for c in scored:
+                if c["score2"] >= min_score and len(chosen) < (2 if t.get("target_kind") == "documentary" else 1):
+                    chosen.append(c)
+        for k in (per_kind if not chosen else ()):
             best = next((c for c in scored if c["kind"] == k and c["score2"] >= min_score and c not in chosen), None)
             if best and len(chosen) < max_total: chosen.append(best)
         if not chosen:
