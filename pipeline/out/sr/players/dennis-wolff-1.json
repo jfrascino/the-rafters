@@ -1,0 +1,688 @@
+{
+ "sr_id": "dennis-wolff-1",
+ "url": "https://www.sports-reference.com/cbb/players/dennis-wolff-1.html",
+ "name": "Dennis Wolff",
+ "photo_url": null,
+ "bio_lines": [
+  "Position: Guard",
+  "6-3 , 174lb (190cm, 78kg)",
+  "Hometown: Flushing, NY",
+  "Schools: Louisiana State (Men) and Connecticut (Men)"
+ ],
+ "bio": {
+  "Position": "Guard",
+  "Hometown": "Flushing, NY",
+  "Schools": "Louisiana State (Men) and Connecticut (Men)",
+  "school_slugs": [
+   "louisiana-state",
+   "connecticut"
+  ]
+ },
+ "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://cdn.ssref.net/req/202609231/tlogo/ncaa/connecticut.png",
+ "draft_text": null,
+ "draft": null,
+ "nba_url": null,
+ "tables": {
+  "players_per_game": {
+   "rows": [
+    {
+     "year_id": "1973-74",
+     "team_name_abbr": "LSU",
+     "conf_abbr": "SEC",
+     "class": "FR",
+     "pos": "G",
+     "games": 25,
+     "games_started": 4,
+     "mp_per_g": 18.2,
+     "fg_per_g": 1.7,
+     "fga_per_g": 4.0,
+     "fg_pct": 0.424,
+     "ft_per_g": 1.7,
+     "fta_per_g": 2.2,
+     "ft_pct": 0.778,
+     "trb_per_g": 1.1,
+     "ast_per_g": 3.5,
+     "pf_per_g": 2.1,
+     "pts_per_g": 5.0,
+     "awards": null,
+     "school_slug": "louisiana-state"
+    },
+    {
+     "year_id": "1974-75",
+     "team_name_abbr": "LSU",
+     "conf_abbr": "SEC",
+     "class": "SO",
+     "pos": "G",
+     "games": 25,
+     "games_started": 1,
+     "mp_per_g": 11.7,
+     "fg_per_g": 1.5,
+     "fga_per_g": 4.0,
+     "fg_pct": 0.366,
+     "ft_per_g": 1.1,
+     "fta_per_g": 1.6,
+     "ft_pct": 0.692,
+     "trb_per_g": 1.2,
+     "ast_per_g": 2.4,
+     "pf_per_g": 1.4,
+     "pts_per_g": 4.0,
+     "awards": null,
+     "school_slug": "louisiana-state"
+    },
+    {
+     "year_id": "1975-76",
+     "team_name_abbr": "Did not play - transfer (Transfer)"
+    },
+    {
+     "year_id": "1976-77",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "JR",
+     "pos": "G",
+     "games": 26,
+     "games_started": null,
+     "mp_per_g": null,
+     "fg_per_g": 2.5,
+     "fga_per_g": 5.1,
+     "fg_pct": 0.485,
+     "ft_per_g": 1.1,
+     "fta_per_g": 1.6,
+     "ft_pct": 0.683,
+     "trb_per_g": 2.2,
+     "ast_per_g": 2.8,
+     "pf_per_g": 2.7,
+     "pts_per_g": 6.0,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1977-78",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "SR",
+     "pos": "G",
+     "games": 26,
+     "games_started": null,
+     "mp_per_g": null,
+     "fg_per_g": 3.3,
+     "fga_per_g": 6.2,
+     "fg_pct": 0.531,
+     "ft_per_g": 1.6,
+     "fta_per_g": 1.9,
+     "ft_pct": 0.84,
+     "trb_per_g": 3.6,
+     "ast_per_g": 3.0,
+     "pf_per_g": 2.7,
+     "pts_per_g": 8.2,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 102,
+     "games_started": 5,
+     "mp_per_g": 15.0,
+     "fg_per_g": 2.2,
+     "fga_per_g": 4.8,
+     "fg_pct": 0.463,
+     "ft_per_g": 1.4,
+     "fta_per_g": 1.8,
+     "ft_pct": 0.755,
+     "trb_per_g": 2.1,
+     "ast_per_g": 2.9,
+     "pf_per_g": 2.2,
+     "pts_per_g": 5.8,
+     "awards": null
+    },
+    {
+     "year_id": null,
+     "pos": null,
+     "games": null,
+     "games_started": null,
+     "mp_per_g": null,
+     "fg_per_g": null,
+     "fga_per_g": null,
+     "fg_pct": null,
+     "ft_per_g": null,
+     "fta_per_g": null,
+     "ft_pct": null,
+     "trb_per_g": null,
+     "ast_per_g": null,
+     "pf_per_g": null,
+     "pts_per_g": null,
+     "awards": null
+    },
+    {
+     "year_id": "Connecticut (2 Yrs)",
+     "pos": null,
+     "games": 52,
+     "games_started": null,
+     "mp_per_g": null,
+     "fg_per_g": 2.9,
+     "fga_per_g": 5.6,
+     "fg_pct": 0.51,
+     "ft_per_g": 1.3,
+     "fta_per_g": 1.8,
+     "ft_pct": 0.769,
+     "trb_per_g": 2.9,
+     "ast_per_g": 2.9,
+     "pf_per_g": 2.7,
+     "pts_per_g": 7.1,
+     "awards": null
+    },
+    {
+     "year_id": "Louisiana State (2 Yrs)",
+     "pos": null,
+     "games": 50,
+     "games_started": 5,
+     "mp_per_g": 15.0,
+     "fg_per_g": 1.6,
+     "fga_per_g": 4.0,
+     "fg_pct": 0.395,
+     "ft_per_g": 1.4,
+     "fta_per_g": 1.9,
+     "ft_pct": 0.742,
+     "trb_per_g": 1.2,
+     "ast_per_g": 3.0,
+     "pf_per_g": 1.8,
+     "pts_per_g": 4.5,
+     "awards": null
+    }
+   ]
+  },
+  "players_totals": {
+   "rows": [
+    {
+     "year_id": "1973-74",
+     "team_name_abbr": "LSU",
+     "conf_abbr": "SEC",
+     "class": "FR",
+     "pos": "G",
+     "games": 25,
+     "games_started": 4,
+     "mp": 456,
+     "fg": 42,
+     "fga": 99,
+     "fg_pct": 0.424,
+     "fg2": 42,
+     "fg2a": 99,
+     "ft": 42,
+     "fta": 54,
+     "ft_pct": 0.778,
+     "trb": 28,
+     "ast": 88,
+     "pf": 52,
+     "pts": 126,
+     "awards": null,
+     "school_slug": "louisiana-state"
+    },
+    {
+     "year_id": "1974-75",
+     "team_name_abbr": "LSU",
+     "conf_abbr": "SEC",
+     "class": "SO",
+     "pos": "G",
+     "games": 25,
+     "games_started": 1,
+     "mp": 292,
+     "fg": 37,
+     "fga": 101,
+     "fg_pct": 0.366,
+     "fg2": 37,
+     "fg2a": 101,
+     "ft": 27,
+     "fta": 39,
+     "ft_pct": 0.692,
+     "trb": 31,
+     "ast": 60,
+     "pf": 36,
+     "pts": 101,
+     "awards": null,
+     "school_slug": "louisiana-state"
+    },
+    {
+     "year_id": "1975-76",
+     "team_name_abbr": "Did not play - transfer (Transfer)"
+    },
+    {
+     "year_id": "1976-77",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "JR",
+     "pos": "G",
+     "games": 26,
+     "games_started": null,
+     "mp": null,
+     "fg": 64,
+     "fga": 132,
+     "fg_pct": 0.485,
+     "fg2": 64,
+     "fg2a": 132,
+     "ft": 28,
+     "fta": 41,
+     "ft_pct": 0.683,
+     "trb": 57,
+     "ast": 73,
+     "pf": 71,
+     "pts": 156,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1977-78",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "SR",
+     "pos": "G",
+     "games": 26,
+     "games_started": null,
+     "mp": null,
+     "fg": 85,
+     "fga": 160,
+     "fg_pct": 0.531,
+     "fg2": 85,
+     "fg2a": 160,
+     "ft": 42,
+     "fta": 50,
+     "ft_pct": 0.84,
+     "trb": 94,
+     "ast": 77,
+     "pf": 70,
+     "pts": 212,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 102,
+     "games_started": 5,
+     "mp": 748,
+     "fg": 228,
+     "fga": 492,
+     "fg_pct": 0.463,
+     "fg2": 228,
+     "fg2a": 492,
+     "ft": 139,
+     "fta": 184,
+     "ft_pct": 0.755,
+     "trb": 210,
+     "ast": 298,
+     "pf": 229,
+     "pts": 595,
+     "awards": null
+    },
+    {
+     "year_id": null,
+     "pos": null,
+     "games": null,
+     "games_started": null,
+     "mp": null,
+     "fg": null,
+     "fga": null,
+     "fg_pct": null,
+     "fg2": null,
+     "fg2a": null,
+     "ft": null,
+     "fta": null,
+     "ft_pct": null,
+     "trb": null,
+     "ast": null,
+     "pf": null,
+     "pts": null,
+     "awards": null
+    },
+    {
+     "year_id": "Connecticut (2 Yrs)",
+     "pos": null,
+     "games": 52,
+     "games_started": null,
+     "mp": null,
+     "fg": 149,
+     "fga": 292,
+     "fg_pct": 0.51,
+     "fg2": 149,
+     "fg2a": 292,
+     "ft": 70,
+     "fta": 91,
+     "ft_pct": 0.769,
+     "trb": 151,
+     "ast": 150,
+     "pf": 141,
+     "pts": 368,
+     "awards": null
+    },
+    {
+     "year_id": "Louisiana State (2 Yrs)",
+     "pos": null,
+     "games": 50,
+     "games_started": 5,
+     "mp": 748,
+     "fg": 79,
+     "fga": 200,
+     "fg_pct": 0.395,
+     "fg2": 79,
+     "fg2a": 200,
+     "ft": 69,
+     "fta": 93,
+     "ft_pct": 0.742,
+     "trb": 59,
+     "ast": 148,
+     "pf": 88,
+     "pts": 227,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_min": {
+   "rows": [
+    {
+     "year_id": "1973-74",
+     "team_name_abbr": "LSU",
+     "conf_abbr": "SEC",
+     "class": "FR",
+     "pos": "G",
+     "games": 25,
+     "games_started": 4,
+     "mp": 456,
+     "awards": null,
+     "school_slug": "louisiana-state"
+    },
+    {
+     "year_id": "1974-75",
+     "team_name_abbr": "LSU",
+     "conf_abbr": "SEC",
+     "class": "SO",
+     "pos": "G",
+     "games": 25,
+     "games_started": 1,
+     "mp": 292,
+     "awards": null,
+     "school_slug": "louisiana-state"
+    },
+    {
+     "year_id": "1975-76",
+     "team_name_abbr": "Did not play - transfer (Transfer)"
+    },
+    {
+     "year_id": "1976-77",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "JR",
+     "pos": "G",
+     "games": 26,
+     "games_started": null,
+     "mp": null,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1977-78",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "SR",
+     "pos": "G",
+     "games": 26,
+     "games_started": null,
+     "mp": null,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 102,
+     "games_started": 5,
+     "mp": 748,
+     "awards": null
+    },
+    {
+     "year_id": null,
+     "pos": null,
+     "games": null,
+     "games_started": null,
+     "mp": null,
+     "awards": null
+    },
+    {
+     "year_id": "Connecticut (2 Yrs)",
+     "pos": null,
+     "games": 52,
+     "games_started": null,
+     "mp": null,
+     "awards": null
+    },
+    {
+     "year_id": "Louisiana State (2 Yrs)",
+     "pos": null,
+     "games": 50,
+     "games_started": 5,
+     "mp": 748,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_poss": {
+   "rows": [
+    {
+     "year_id": "1973-74",
+     "team_name_abbr": "LSU",
+     "conf_abbr": "SEC",
+     "class": "FR",
+     "pos": "G",
+     "games": 25,
+     "games_started": 4,
+     "mp": 456,
+     "awards": null,
+     "school_slug": "louisiana-state"
+    },
+    {
+     "year_id": "1974-75",
+     "team_name_abbr": "LSU",
+     "conf_abbr": "SEC",
+     "class": "SO",
+     "pos": "G",
+     "games": 25,
+     "games_started": 1,
+     "mp": 292,
+     "awards": null,
+     "school_slug": "louisiana-state"
+    },
+    {
+     "year_id": "1975-76",
+     "team_name_abbr": "Did not play - transfer (Transfer)"
+    },
+    {
+     "year_id": "1976-77",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "JR",
+     "pos": "G",
+     "games": 26,
+     "games_started": null,
+     "mp": null,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1977-78",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "SR",
+     "pos": "G",
+     "games": 26,
+     "games_started": null,
+     "mp": null,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 102,
+     "games_started": 5,
+     "mp": 748,
+     "awards": null
+    },
+    {
+     "year_id": null,
+     "pos": null,
+     "games": null,
+     "games_started": null,
+     "mp": null,
+     "awards": null
+    },
+    {
+     "year_id": "Connecticut (2 Yrs)",
+     "pos": null,
+     "games": 52,
+     "games_started": null,
+     "mp": null,
+     "awards": null
+    },
+    {
+     "year_id": "Louisiana State (2 Yrs)",
+     "pos": null,
+     "games": 50,
+     "games_started": 5,
+     "mp": 748,
+     "awards": null
+    }
+   ]
+  },
+  "players_advanced": {
+   "rows": [
+    {
+     "year_id": "1973-74",
+     "team_name_abbr": "LSU",
+     "conf_abbr": "SEC",
+     "class": "FR",
+     "pos": "G",
+     "games": 25,
+     "games_started": 4,
+     "mp": 456,
+     "ts_pct": 0.505,
+     "fta_per_fga_pct": 0.545,
+     "awards": null,
+     "school_slug": "louisiana-state"
+    },
+    {
+     "year_id": "1974-75",
+     "team_name_abbr": "LSU",
+     "conf_abbr": "SEC",
+     "class": "SO",
+     "pos": "G",
+     "games": 25,
+     "games_started": 1,
+     "mp": 292,
+     "ts_pct": 0.423,
+     "fta_per_fga_pct": 0.386,
+     "awards": null,
+     "school_slug": "louisiana-state"
+    },
+    {
+     "year_id": "1975-76",
+     "team_name_abbr": "Did not play - transfer (Transfer)"
+    },
+    {
+     "year_id": "1976-77",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "JR",
+     "pos": "G",
+     "games": 26,
+     "games_started": null,
+     "mp": null,
+     "ts_pct": 0.515,
+     "fta_per_fga_pct": 0.311,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1977-78",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "SR",
+     "pos": "G",
+     "games": 26,
+     "games_started": null,
+     "mp": null,
+     "ts_pct": 0.577,
+     "fta_per_fga_pct": 0.313,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 102,
+     "games_started": 5,
+     "mp": 748,
+     "ts_pct": 0.513,
+     "fta_per_fga_pct": 0.374,
+     "awards": null
+    },
+    {
+     "year_id": null,
+     "pos": null,
+     "games": null,
+     "games_started": null,
+     "mp": null,
+     "ts_pct": null,
+     "fta_per_fga_pct": null,
+     "awards": null
+    },
+    {
+     "year_id": "Connecticut (2 Yrs)",
+     "pos": null,
+     "games": 52,
+     "games_started": null,
+     "mp": null,
+     "ts_pct": 0.549,
+     "fta_per_fga_pct": 0.312,
+     "awards": null
+    },
+    {
+     "year_id": "Louisiana State (2 Yrs)",
+     "pos": null,
+     "games": 50,
+     "games_started": 5,
+     "mp": 748,
+     "ts_pct": 0.465,
+     "fta_per_fga_pct": 0.465,
+     "awards": null
+    }
+   ]
+  }
+ },
+ "awards": [],
+ "bling": [],
+ "leaderboards": {
+  "ast": {
+   "title": "Assists",
+   "entries": [
+    "1973-74 SEC 88 (11th)"
+   ]
+  },
+  "ast_per_g": {
+   "title": "Assists Per Game",
+   "entries": [
+    "1973-74 SEC 3.5 (11th)"
+   ]
+  }
+ },
+ "uconn_seasons": [
+  1978
+ ]
+}

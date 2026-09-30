@@ -1,0 +1,264 @@
+{
+ "sr_id": "ken-blume-1",
+ "url": "https://www.sports-reference.com/cbb/players/ken-blume-1.html",
+ "name": "Ken Blume",
+ "photo_url": null,
+ "bio_lines": [
+  "Position: Forward",
+  "6-5 , 191lb (196cm, 86kg)",
+  "Hometown: Greenwich, CT",
+  "School: Connecticut (Men)"
+ ],
+ "bio": {
+  "Position": "Forward",
+  "Hometown": "Greenwich, CT",
+  "School": "Connecticut (Men)",
+  "school_slugs": [
+   "connecticut"
+  ]
+ },
+ "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://cdn.ssref.net/req/202609231/tlogo/ncaa/connecticut.png",
+ "draft_text": null,
+ "draft": null,
+ "nba_url": null,
+ "tables": {
+  "players_per_game": {
+   "rows": [
+    {
+     "year_id": "1976-77",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "JR",
+     "pos": "F",
+     "games": 20,
+     "fg_per_g": 0.3,
+     "fga_per_g": 1.1,
+     "fg_pct": 0.238,
+     "ft_per_g": 0.1,
+     "fta_per_g": 0.4,
+     "ft_pct": 0.286,
+     "trb_per_g": 1.4,
+     "ast_per_g": 0.5,
+     "pf_per_g": 0.6,
+     "pts_per_g": 0.6,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1977-78",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "SR",
+     "pos": "F",
+     "games": 10,
+     "fg_per_g": 0.7,
+     "fga_per_g": 2.2,
+     "fg_pct": 0.318,
+     "ft_per_g": 0.1,
+     "fta_per_g": 0.3,
+     "ft_pct": 0.333,
+     "trb_per_g": 0.8,
+     "ast_per_g": 0.2,
+     "pf_per_g": 1.1,
+     "pts_per_g": 1.5,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 30,
+     "fg_per_g": 0.4,
+     "fga_per_g": 1.4,
+     "fg_pct": 0.279,
+     "ft_per_g": 0.1,
+     "fta_per_g": 0.3,
+     "ft_pct": 0.3,
+     "trb_per_g": 1.2,
+     "ast_per_g": 0.4,
+     "pf_per_g": 0.8,
+     "pts_per_g": 0.9,
+     "awards": null
+    }
+   ]
+  },
+  "players_totals": {
+   "rows": [
+    {
+     "year_id": "1976-77",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "JR",
+     "pos": "F",
+     "games": 20,
+     "fg": 5,
+     "fga": 21,
+     "fg_pct": 0.238,
+     "fg2": 5,
+     "fg2a": 21,
+     "ft": 2,
+     "fta": 7,
+     "ft_pct": 0.286,
+     "trb": 27,
+     "ast": 10,
+     "pf": 12,
+     "pts": 12,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1977-78",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "SR",
+     "pos": "F",
+     "games": 10,
+     "fg": 7,
+     "fga": 22,
+     "fg_pct": 0.318,
+     "fg2": 7,
+     "fg2a": 22,
+     "ft": 1,
+     "fta": 3,
+     "ft_pct": 0.333,
+     "trb": 8,
+     "ast": 2,
+     "pf": 11,
+     "pts": 15,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 30,
+     "fg": 12,
+     "fga": 43,
+     "fg_pct": 0.279,
+     "fg2": 12,
+     "fg2a": 43,
+     "ft": 3,
+     "fta": 10,
+     "ft_pct": 0.3,
+     "trb": 35,
+     "ast": 12,
+     "pf": 23,
+     "pts": 27,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_min": {
+   "rows": [
+    {
+     "year_id": "1976-77",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "JR",
+     "pos": "F",
+     "games": 20,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1977-78",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "SR",
+     "pos": "F",
+     "games": 10,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 30,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_poss": {
+   "rows": [
+    {
+     "year_id": "1976-77",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "JR",
+     "pos": "F",
+     "games": 20,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1977-78",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "SR",
+     "pos": "F",
+     "games": 10,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 30,
+     "awards": null
+    }
+   ]
+  },
+  "players_advanced": {
+   "rows": [
+    {
+     "year_id": "1976-77",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "JR",
+     "pos": "F",
+     "games": 20,
+     "ts_pct": 0.247,
+     "fta_per_fga_pct": 0.333,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1977-78",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "SR",
+     "pos": "F",
+     "games": 10,
+     "ts_pct": 0.32,
+     "fta_per_fga_pct": 0.136,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 30,
+     "ts_pct": 0.283,
+     "fta_per_fga_pct": 0.233,
+     "awards": null
+    }
+   ]
+  }
+ },
+ "awards": [],
+ "bling": [],
+ "leaderboards": {},
+ "uconn_seasons": [
+  1978
+ ]
+}

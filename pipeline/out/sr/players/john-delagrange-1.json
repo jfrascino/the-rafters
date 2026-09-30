@@ -1,0 +1,334 @@
+{
+ "sr_id": "john-delagrange-1",
+ "url": "https://www.sports-reference.com/cbb/players/john-delagrange-1.html",
+ "name": "John Delagrange",
+ "photo_url": null,
+ "bio_lines": [
+  "Position: Forward",
+  "6-8 , 205lb (203cm, 92kg)",
+  "Hometown: New London, CT",
+  "School: Connecticut (Men)"
+ ],
+ "bio": {
+  "Position": "Forward",
+  "Hometown": "New London, CT",
+  "School": "Connecticut (Men)",
+  "school_slugs": [
+   "connecticut"
+  ]
+ },
+ "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://cdn.ssref.net/req/202609231/tlogo/ncaa/connecticut.png",
+ "draft_text": null,
+ "draft": null,
+ "nba_url": null,
+ "tables": {
+  "players_per_game": {
+   "rows": [
+    {
+     "year_id": "1978-79",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "JR",
+     "pos": "F",
+     "games": 20,
+     "games_started": null,
+     "mp_per_g": null,
+     "fg_per_g": 2.9,
+     "fga_per_g": 5.6,
+     "fg_pct": 0.514,
+     "ft_per_g": 2.0,
+     "fta_per_g": 2.6,
+     "ft_pct": 0.769,
+     "trb_per_g": 4.1,
+     "ast_per_g": 0.4,
+     "stl_per_g": null,
+     "pf_per_g": 1.9,
+     "pts_per_g": 7.7,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1979-80",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SR",
+     "pos": "F",
+     "games": 11,
+     "games_started": 11,
+     "mp_per_g": 22.4,
+     "fg_per_g": 3.0,
+     "fga_per_g": 6.3,
+     "fg_pct": 0.478,
+     "ft_per_g": 2.2,
+     "fta_per_g": 3.0,
+     "ft_pct": 0.727,
+     "trb_per_g": 6.6,
+     "ast_per_g": 1.4,
+     "stl_per_g": 0.6,
+     "pf_per_g": 1.9,
+     "pts_per_g": 8.2,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 31,
+     "games_started": 11,
+     "mp_per_g": 22.4,
+     "fg_per_g": 2.9,
+     "fga_per_g": 5.8,
+     "fg_pct": 0.5,
+     "ft_per_g": 2.1,
+     "fta_per_g": 2.7,
+     "ft_pct": 0.753,
+     "trb_per_g": 5.0,
+     "ast_per_g": 0.7,
+     "stl_per_g": 0.6,
+     "pf_per_g": 1.9,
+     "pts_per_g": 7.9,
+     "awards": null
+    }
+   ]
+  },
+  "players_totals": {
+   "rows": [
+    {
+     "year_id": "1978-79",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "JR",
+     "pos": "F",
+     "games": 20,
+     "games_started": null,
+     "mp": null,
+     "fg": 57,
+     "fga": 111,
+     "fg_pct": 0.514,
+     "fg2": 57,
+     "fg2a": 111,
+     "ft": 40,
+     "fta": 52,
+     "ft_pct": 0.769,
+     "trb": 82,
+     "ast": 8,
+     "stl": null,
+     "pf": 38,
+     "pts": 154,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1979-80",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SR",
+     "pos": "F",
+     "games": 11,
+     "games_started": 11,
+     "mp": 246,
+     "fg": 33,
+     "fga": 69,
+     "fg_pct": 0.478,
+     "fg2": 33,
+     "fg2a": 69,
+     "ft": 24,
+     "fta": 33,
+     "ft_pct": 0.727,
+     "trb": 73,
+     "ast": 15,
+     "stl": 7,
+     "pf": 21,
+     "pts": 90,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 31,
+     "games_started": 11,
+     "mp": 246,
+     "fg": 90,
+     "fga": 180,
+     "fg_pct": 0.5,
+     "fg2": 90,
+     "fg2a": 180,
+     "ft": 64,
+     "fta": 85,
+     "ft_pct": 0.753,
+     "trb": 155,
+     "ast": 23,
+     "stl": 7,
+     "pf": 59,
+     "pts": 244,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_min": {
+   "rows": [
+    {
+     "year_id": "1978-79",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "JR",
+     "pos": "F",
+     "games": 20,
+     "games_started": null,
+     "mp": null,
+     "fg_per_min": null,
+     "fga_per_min": null,
+     "fg_pct": 0.514,
+     "ft_per_min": null,
+     "fta_per_min": null,
+     "ft_pct": 0.769,
+     "trb_per_min": null,
+     "ast_per_min": null,
+     "stl_per_min": null,
+     "pf_per_min": null,
+     "pts_per_min": null,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1979-80",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SR",
+     "pos": "F",
+     "games": 11,
+     "games_started": 11,
+     "mp": 246,
+     "fg_per_min": 5.4,
+     "fga_per_min": 11.2,
+     "fg_pct": 0.478,
+     "ft_per_min": 3.9,
+     "fta_per_min": 5.4,
+     "ft_pct": 0.727,
+     "trb_per_min": 11.9,
+     "ast_per_min": 2.4,
+     "stl_per_min": 1.1,
+     "pf_per_min": 3.4,
+     "pts_per_min": 14.6,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 31,
+     "games_started": 11,
+     "mp": 246,
+     "fg_per_min": 14.6,
+     "fga_per_min": 29.3,
+     "fg_pct": 0.5,
+     "ft_per_min": 10.4,
+     "fta_per_min": 13.8,
+     "ft_pct": 0.753,
+     "trb_per_min": 25.2,
+     "ast_per_min": 3.7,
+     "stl_per_min": 1.1,
+     "pf_per_min": 9.6,
+     "pts_per_min": 39.7,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_poss": {
+   "rows": [
+    {
+     "year_id": "1978-79",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "JR",
+     "pos": "F",
+     "games": 20,
+     "games_started": null,
+     "mp": null,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1979-80",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SR",
+     "pos": "F",
+     "games": 11,
+     "games_started": 11,
+     "mp": 246,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 31,
+     "games_started": 11,
+     "mp": 246,
+     "awards": null
+    }
+   ]
+  },
+  "players_advanced": {
+   "rows": [
+    {
+     "year_id": "1978-79",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "JR",
+     "pos": "F",
+     "games": 20,
+     "games_started": null,
+     "mp": null,
+     "ts_pct": 0.567,
+     "fta_per_fga_pct": 0.468,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1979-80",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SR",
+     "pos": "F",
+     "games": 11,
+     "games_started": 11,
+     "mp": 246,
+     "ts_pct": 0.531,
+     "fta_per_fga_pct": 0.478,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 31,
+     "games_started": 11,
+     "mp": 246,
+     "ts_pct": 0.554,
+     "fta_per_fga_pct": 0.472,
+     "awards": null
+    }
+   ]
+  }
+ },
+ "awards": [],
+ "bling": [],
+ "leaderboards": {},
+ "uconn_seasons": [
+  1979,
+  1980
+ ]
+}

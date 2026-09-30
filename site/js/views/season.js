@@ -1,4 +1,4 @@
-import { esc, load, logo, fmtDate, fmtTime, finishPill, FINISH, n1, n0, pct, statTable, bindTips, tip, videoCard, bindVideos, photoFig, bindPhotos, initials, ord } from '../ui.js';
+import { esc, load, logo, eraLogo, fmtDate, fmtTime, finishPill, FINISH, n1, n0, pct, statTable, bindTips, tip, videoCard, bindVideos, photoFig, bindPhotos, initials, ord } from '../ui.js';
 import { heartbeat, pollLine, onResize } from '../charts.js';
 
 export default async function season(main, args, core) {
@@ -20,7 +20,7 @@ export default async function season(main, args, core) {
   <section class="s-hero">
     <div class="bgyear" aria-hidden="true">${String(y - 1).slice(2)}–${String(y).slice(2)}</div>
     <div class="wrap">
-      <div class="s-hero-top"><span class="eyebrow">${esc(s.label)} · ${esc(s.coach)} · ${esc(s.conf || '')}</span>
+      <div class="s-hero-top"><span class="eyebrow">${esc(s.label)} · ${esc(s.coach)} · ${esc(s.conf === 'Ind' ? 'Independent' : s.conf || '')}${s.confDiv ? ` · ${esc(/^Big East/.test(s.confDiv) ? s.confDiv : `${s.confDiv} Division`)}` : ''}</span>
         <nav class="s-nav" aria-label="Season navigation">${prev ? `<a href="#/season/${prev.y}">← ${esc(prev.label)}</a>` : ''}${next ? `<a href="#/season/${next.y}">${esc(next.label)} →</a>` : ''}</nav></div>
       <h1 class="h-display" style="font-size:clamp(40px,7vw,104px);max-width:14ch">${esc(story.headline || s.label)}</h1>
       <div class="chips">${!played.length ? `<span class="pill live">Tips off ${esc(fmtDate((s.games[0] || {}).day || (s.games[0] || {}).date, { year: true }))}</span>` : finishPill(s.finish)}${s.seed ? `<span class="pill">No. ${s.seed} seed${s.region ? ' · ' + esc(s.region) : ''}</span>` : ''}${s.confFinish ? `<span class="pill">${esc(s.confFinish)}</span>` : ''}${(story.honors || []).filter((h) => /champion/i.test(h)).slice(0, 3).map((h) => `<span class="pill ff">${esc(h)}</span>`).join('')}</div>
@@ -141,8 +141,9 @@ function runSection(games, title, champ, conf) {
 
 export function playerCard(p, champ, y, opts = {}) {
   const pg = p.pg || {};
-  const logoImg = `<img src="assets/husky-logo.png" alt="" class="husky" loading="lazy">`;
-  const photo = p.photo ? `<img src="${esc(p.photo)}" alt="" loading="lazy" class="${p.photoWide ? 'wide' : ''}"${p.photoPos ? ` style="object-position:${esc(p.photoPos)}"` : ''} onerror="this.onerror=null;this.removeAttribute('style');this.className='husky';this.src='assets/husky-logo.png';this.closest('.pcard').classList.remove('studio')">` : logoImg;
+  const lg = eraLogo(y || p.years?.at?.(-1));   // the Husky UConn wore that season
+  const logoImg = `<img src="${lg}" alt="" class="husky" loading="lazy">`;
+  const photo = p.photo ? `<img src="${esc(p.photo)}" alt="" loading="lazy" class="${p.photoWide ? 'wide' : ''}"${p.photoPos ? ` style="object-position:${esc(p.photoPos)}"` : ''} onerror="this.onerror=null;this.removeAttribute('style');this.className='husky';this.src='${lg}';this.closest('.pcard').classList.remove('studio')">` : logoImg;
   return `<div class="pcard${champ ? ' champ' : ''}${p.photoStudio && p.photo ? ' studio' : ''}" tabindex="0" aria-label="${esc(p.name)} card">
     <div class="pcard-in">
       <div class="pcard-face pcard-front">
@@ -172,16 +173,16 @@ function statTables(s, roster) {
   const G = (k) => (r) => r.pg?.[k], T = (k) => (r) => r.tot?.[k], A = (k) => (r) => r.adv?.[k];
   const withStats = roster.filter((r) => r.pg && r.pg.g);
   return [
-    () => statTable([who, { k: 'cls', label: 'Cl', l: true, get: (r) => r.cls }, { k: 'g', label: 'G', get: G('g') }, { k: 'gs', label: 'GS', get: G('gs') }, { k: 'mp', label: 'MIN', get: G('mp'), fmt: n1 },
+    () => statTable([who, { k: 'cls', label: 'Cl', l: true, get: (r) => r.cls }, { k: 'g', label: 'G', get: G('g') }, { k: 'gs', label: 'GS', get: G('gs'), title: 'Games started' }, { k: 'mp', label: 'MIN', get: G('mp'), fmt: n1, title: 'Minutes' },
       { k: 'pts', label: 'PTS', get: G('pts'), fmt: n1, heat: 1 }, { k: 'trb', label: 'REB', get: G('trb'), fmt: n1, heat: 1 }, { k: 'ast', label: 'AST', get: G('ast'), fmt: n1, heat: 1 },
-      { k: 'stl', label: 'STL', get: G('stl'), fmt: n1 }, { k: 'blk', label: 'BLK', get: G('blk'), fmt: n1 }, { k: 'tov', label: 'TO', get: G('tov'), fmt: n1 },
-      { k: 'fg_pct', label: 'FG%', get: G('fg_pct'), fmt: pct }, { k: 'fg3_pct', label: '3P%', get: G('fg3_pct'), fmt: pct }, { k: 'ft_pct', label: 'FT%', get: G('ft_pct'), fmt: pct },
-      { k: 'orb', label: 'OREB', get: G('orb'), fmt: n1 }, { k: 'pf', label: 'PF', get: G('pf'), fmt: n1 }], withStats, { sort: 'pts' }),
-    () => statTable([who, { k: 'g', label: 'G', get: T('g') }, { k: 'mp', label: 'MIN', get: T('mp'), fmt: n0 }, { k: 'pts', label: 'PTS', get: T('pts'), fmt: n0, heat: 1 },
-      { k: 'fg', label: 'FGM', get: T('fg') }, { k: 'fga', label: 'FGA', get: T('fga') }, { k: 'fg3', label: '3PM', get: T('fg3') }, { k: 'fg3a', label: '3PA', get: T('fg3a') },
-      { k: 'ft', label: 'FTM', get: T('ft') }, { k: 'fta', label: 'FTA', get: T('fta') }, { k: 'orb', label: 'OREB', get: T('orb') }, { k: 'trb', label: 'REB', get: T('trb'), heat: 1 },
-      { k: 'ast', label: 'AST', get: T('ast'), heat: 1 }, { k: 'stl', label: 'STL', get: T('stl') }, { k: 'blk', label: 'BLK', get: T('blk') }, { k: 'tov', label: 'TO', get: T('tov') }, { k: 'pf', label: 'PF', get: T('pf') }],
-      withStats.filter((r) => r.tot), { sort: 'pts' }),
+      { k: 'stl', label: 'STL', get: G('stl'), fmt: n1, title: 'Steals' }, { k: 'blk', label: 'BLK', get: G('blk'), fmt: n1, title: 'Blocks' }, { k: 'tov', label: 'TO', get: G('tov'), fmt: n1, title: 'Turnovers' },
+      { k: 'fg_pct', label: 'FG%', get: G('fg_pct'), fmt: pct }, { k: 'fg3_pct', label: '3P%', get: G('fg3_pct'), fmt: pct, title: '3-point %' }, { k: 'ft_pct', label: 'FT%', get: G('ft_pct'), fmt: pct },
+      { k: 'orb', label: 'OREB', get: G('orb'), fmt: n1, title: 'Offensive rebounds' }, { k: 'pf', label: 'PF', get: G('pf'), fmt: n1, title: 'Personal fouls' }], withStats, { sort: 'pts', hideEmpty: true, era: s.label }),
+    () => statTable([who, { k: 'g', label: 'G', get: T('g') }, { k: 'mp', label: 'MIN', get: T('mp'), fmt: n0, title: 'Minutes' }, { k: 'pts', label: 'PTS', get: T('pts'), fmt: n0, heat: 1 },
+      { k: 'fg', label: 'FGM', get: T('fg') }, { k: 'fga', label: 'FGA', get: T('fga') }, { k: 'fg3', label: '3PM', get: T('fg3'), title: '3-pointers made' }, { k: 'fg3a', label: '3PA', get: T('fg3a'), title: '3-pointers attempted' },
+      { k: 'ft', label: 'FTM', get: T('ft') }, { k: 'fta', label: 'FTA', get: T('fta') }, { k: 'orb', label: 'OREB', get: T('orb'), title: 'Offensive rebounds' }, { k: 'trb', label: 'REB', get: T('trb'), heat: 1 },
+      { k: 'ast', label: 'AST', get: T('ast'), heat: 1 }, { k: 'stl', label: 'STL', get: T('stl'), title: 'Steals' }, { k: 'blk', label: 'BLK', get: T('blk'), title: 'Blocks' }, { k: 'tov', label: 'TO', get: T('tov'), title: 'Turnovers' }, { k: 'pf', label: 'PF', get: T('pf'), title: 'Personal fouls' }],
+      withStats.filter((r) => r.tot), { sort: 'pts', hideEmpty: true, era: s.label }),
     () => {
       const cols = [who, { k: 'per', label: 'PER', get: A('per'), fmt: n1, heat: 1, title: 'Player Efficiency Rating' }, { k: 'ts_pct', label: 'TS%', get: A('ts_pct'), fmt: pct, title: 'True shooting %' },
         { k: 'efg_pct', label: 'eFG%', get: A('efg_pct'), fmt: pct }, { k: 'usg_pct', label: 'USG%', get: A('usg_pct'), fmt: n1, title: 'Usage rate' }, { k: 'ast_pct', label: 'AST%', get: A('ast_pct'), fmt: n1 },
@@ -189,7 +190,7 @@ function statTables(s, roster) {
         { k: 'ortg', label: 'ORtg', get: A('off_rtg'), fmt: n1 }, { k: 'drtg', label: 'DRtg', get: A('def_rtg'), fmt: n1 }, { k: 'ws', label: 'WS', get: A('ws'), fmt: n1, heat: 1, title: 'Win shares' },
         { k: 'bpm', label: 'BPM', get: A('bpm'), fmt: n1, title: 'Box plus/minus' }];
       const rows = withStats.filter((r) => r.adv);
-      return rows.length ? statTable(cols, rows, { sort: 'ws' }) : { html: '<div class="empty">Advanced stats are not available for this season.</div>', bind() {} };
+      return rows.length ? statTable(cols, rows, { sort: 'ws', hideEmpty: true, era: s.label }) : { html: '<div class="empty">Advanced stats are not available for this season.</div>', bind() {} };
     },
     () => {
       const t = s.team?.pg || {}, o = s.team?.opp || {};

@@ -13,9 +13,10 @@ CACHE = os.path.join(HERE, 'cache.nosync')
 SITE = os.path.join(HERE, '..', 'site', 'data')
 ET = ZoneInfo('America/New_York')
 UCONN_ESPN = '41'
-FIRST, = (1987,)
+FIRST, = (1978,)   # Dom Perno's first season, 1977-78
 
 ERAS = [
+    {'id': 'perno', 'name': 'Dom Perno', 'short': 'Perno', 'from': 1978, 'to': 1986},
     {'id': 'calhoun', 'name': 'Jim Calhoun', 'short': 'Calhoun', 'from': 1987, 'to': 2012},
     {'id': 'ollie', 'name': 'Kevin Ollie', 'short': 'Ollie', 'from': 2013, 'to': 2018},
     {'id': 'hurley', 'name': 'Dan Hurley', 'short': 'Hurley', 'from': 2019, 'to': 9999},
@@ -232,8 +233,17 @@ def apply_legends_ledger(led):
 
 
 apply_legends_ledger(jload(os.path.join(M, 'verify_legends.json')))
+_cp = jload(os.path.join(M, 'coach_perno.json'))
+if isinstance(_cp, dict) and _cp.get('name') and not any(norm(c.get('name')) == norm(_cp['name']) for c in legends.get('coaches') or []):
+    legends.setdefault('coaches', []).insert(0, _cp)
+# The Husky logo UConn used each season (for player cards without a photo)
+_lg = jload(os.path.join(M, 'logos.json'), {}) or {}
+LOGOS = {'by_season': {str(k): v for k, v in (_lg.get('by_season') or {}).items()},
+         'files': {l['key']: l['file'] for l in (_lg.get('logos') or []) if l.get('key') and l.get('file') and os.path.exists(os.path.join(HERE, '..', 'site', l['file']))}}
 if isinstance(media_seasons, dict):
     media_seasons = media_seasons.get('seasons', list(media_seasons.values()))
+_perno = jload(os.path.join(M, 'seasons_perno.json'), []) or []
+media_seasons = list(media_seasons) + [m for m in (_perno.get('seasons', _perno) if isinstance(_perno, dict) else _perno) if isinstance(m, dict)]
 media_by_year = {int(m['year']): m for m in media_seasons if isinstance(m, dict) and m.get('year')}
 
 # Apply the independent fact-check ledger (FIX = replace exact substring, REMOVE = drop it)
@@ -505,7 +515,19 @@ def drop_pid(stem):
         return pid
     first, _, rest = norm(stem).partition(' ')
     if first in NICK:
-        return compact_to_pid.get(compact(NICK[first] + ' ' + rest))
+        pid = compact_to_pid.get(compact(NICK[first] + ' ' + rest))
+        if pid:
+            return pid
+    # forgive small typos ("Donyell Beverly" → Donnell Beverly): same last name, close first name, only one such player
+    import difflib
+    k = norm(stem)
+    last = k.split(' ')[-1] if k else ''
+    close = {pid_ for n, pid_ in name_to_pid_all.items()
+             if n.split(' ')[-1] == last and difflib.SequenceMatcher(None, n, k).ratio() >= .8}
+    if len(close) == 1:
+        pid = close.pop()
+        print(f'photos-drop: treating "{stem}" as {pid} (closest name)')
+        return pid
     return None
 
 
@@ -578,7 +600,10 @@ for fn in os.listdir(ASSETS):
 
 # Photo agent: UConn-era portraits/action shots, pro headshots
 RANK_KIND = {'uconn-headshot': 2, 'uconn-action': 3, 'uconn-team': 3, 'nba-headshot': 4, 'pro-other': 5, 'other': 5}
-for pid, lst in ((jload(os.path.join(M, 'player_photos.json'), {}) or {}).get('players') or {}).items():
+_pp = dict(((jload(os.path.join(M, 'player_photos.json'), {}) or {}).get('players') or {}))
+for _k, _v in ((jload(os.path.join(M, 'player_photos_perno.json'), {}) or {}).get('players') or {}).items():
+    _pp.setdefault(_k, []).extend(_v or [])
+for pid, lst in _pp.items():
     for ph in lst or []:
         if ph.get('url'):
             add_photo(pid, RANK_KIND.get(ph.get('kind'), 5), ph['url'], not ph.get('cutout'), credit=ph.get('credit'), license=ph.get('license'),
@@ -701,8 +726,10 @@ for ph in COMMONS:
 
 # ───────────────────────── Videos ─────────────────────────
 VIDS = []
-_extra = jload(os.path.join(M, 'videos_extra.json'), {}) or {}
-_extra = _extra.get('videos', _extra) if isinstance(_extra, dict) else _extra
+_extra = []
+for _fn in ('videos_extra.json', 'videos_perno.json'):
+    _x = jload(os.path.join(M, _fn), {}) or {}
+    _extra += list(_x.get('videos', _x) if isinstance(_x, dict) else _x)
 _vled = {}
 for it in (jload(os.path.join(M, 'verify_videos.json'), {}) or {}).get('items', []):
     _vled.setdefault(it.get('id'), []).append(it)
@@ -862,11 +889,34 @@ def round_label(g, r):
     return f"NCAA {base}{' · ' + reg.group(1) if reg and r <= 3 else ''}"
 
 
+def ncaa_round(name, y, order):
+    """0 = round of 64 (or first round), 1 = round of 32 ... 5 = title game, from the official round name.
+    Early brackets gave byes (1979: UConn's first game was a second-round game); 2011-15 called the round of 64
+    the "second round" and the round of 32 the "third round" (First Four era naming)."""
+    n = (name or '').lower()
+    if 'national final' in n or 'championship' in n:
+        return 5
+    if 'national semifinal' in n or 'final four' in n:
+        return 4
+    if 'regional final' in n:
+        return 3
+    if 'regional semifinal' in n:
+        return 2
+    first_four_era = 2011 <= y <= 2015
+    if 'third round' in n:
+        return 1
+    if 'second round' in n:
+        return 0 if first_four_era else 1
+    if 'first round' in n:
+        return 0
+    return order
+
+
 def finish_for(games):
     ncaa = [g for g in games if g['type'] == 'NCAA' and g.get('res')]
     if ncaa:
-        r = len(ncaa) - 1
         last = ncaa[-1]
+        r = last.get('r', len(ncaa) - 1)
         if r == 5:
             return 'champ' if last['res'] == 'W' else 'runner'
         return ['r64', 'r32', 'sweet16', 'elite8', 'final4'][r] if last['res'] == 'L' else ['r64', 'r32', 'sweet16', 'elite8', 'final4'][r]
@@ -971,7 +1021,7 @@ for y in years:
         rnd = g.get('round')
         r_idx = None
         if g['type'] == 'NCAA':
-            r_idx = ncaa_i
+            r_idx = ncaa_round(g.get('round'), y, ncaa_i)
             ncaa_i += 1
             rnd = round_label(g, r_idx)
         elif g['type'] == 'CTOURN' and not rnd and e and e.get('note'):
@@ -1310,12 +1360,17 @@ for y in years:
     confname = meta.get('conference') or (si.get('conf_abbr'))
     if not s and y == current_season:
         confname = 'Big East'
+    # SR names division years "Big East MBB Big East 6" (1996-98) and "Big East MBB East" (2001-03): keep the league, file the division
+    confdiv = None
+    mdiv = re.match(r'^Big East(?: MBB)?\s+(.+)$', confname or '')
+    if mdiv:
+        confname, confdiv = 'Big East', mdiv.group(1).strip()
     ap_final = si.get('rank_final') or meta.get('ap_final_meta')
     story = {'headline': ms.get('headline'), 'text': ms.get('story'), 'moments': ms.get('key_moments') or [], 'honors': ms.get('honors') or [], 'sources': ms.get('sources') or []}
     story = {k: v for k, v in story.items() if v}
     photos = (COMMONS_BY_SEASON.get(y, [])[:48] + SEASON_PHOTOS.get(y, []))[:90]
     season_obj = {
-        'y': y, 'label': label(y), 'coach': coach, 'conf': confname, 'confShort': conf_short(confname), 'w': w, 'l': l, 'cw': rec_cw, 'cl': rec_cl,
+        'y': y, 'label': label(y), 'coach': coach, 'conf': confname, 'confDiv': confdiv, 'confShort': conf_short(confname), 'w': w, 'l': l, 'cw': rec_cw, 'cl': rec_cl,
         'confFinish': f"{meta.get('conf_finish')} in {conf_short(confname)}" if meta.get('conf_finish') else None,
         'finish': finish, 'seed': seed, 'region': region, 'apPre': si.get('rank_pre'), 'apHigh': si.get('rank_min'), 'apFinal': ap_final,
         'srs': (meta.get('srs') or {}).get('value'), 'sos': (meta.get('sos') or {}).get('value'), 'ortg': (meta.get('off_rtg') or {}).get('value'), 'drtg': (meta.get('def_rtg') or {}).get('value'),
@@ -1355,7 +1410,7 @@ for y in years:
         if best:
             lead[k] = {'pid': best['pid'], 'name': best['name'], 'v': best['pg'].get(pk)}
     SEASON_SUM.append({k: v for k, v in {
-        'y': y, 'label': label(y), 'coach': coach, 'w': w, 'l': l, 'cw': rec_cw, 'cl': rec_cl, 'conf': confname, 'confShort': conf_short(confname), 'finish': finish, 'seed': seed,
+        'y': y, 'label': label(y), 'coach': coach, 'w': w, 'l': l, 'cw': rec_cw, 'cl': rec_cl, 'conf': confname, 'confDiv': confdiv, 'confShort': conf_short(confname), 'finish': finish, 'seed': seed,
         'apPre': season_obj['apPre'], 'apHigh': season_obj['apHigh'], 'apFinal': ap_final, 'srs': season_obj['srs'], 'sos': season_obj['sos'], 'ortg': season_obj['ortg'], 'drtg': season_obj['drtg'],
         'effEst': season_obj.get('effEst'), 'pace': season_obj['pace'], 'ppg': season_obj['ppg'], 'oppg': season_obj['oppg'], 'headline': story.get('headline'), 'ncaaW': ncaaW, 'ncaaL': ncaaL, 'leaders': lead,
         'spark': [g['pts'] - g['opp_pts'] for g in played], 'mop': (legends.get('mop') or {}).get(str(y)) or MOP.get(y) if finish == 'champ' else None,
@@ -1394,7 +1449,7 @@ for pid, rows in PLAYER_SEASONS.items():
         other.append({'y': yy, 'label': label(yy), 'school': team, 'uconn': False, 'cls': tr.get('class'), 'g': tr.get('games'), 'gs': tr.get('games_started'), 'mp': tr.get('mp_per_g'),
                       'pts': tr.get('pts_per_g'), 'trb': tr.get('trb_per_g'), 'ast': tr.get('ast_per_g'), 'stl': tr.get('stl_per_g'), 'blk': tr.get('blk_per_g'), 'fg_pct': tr.get('fg_pct'),
                       'fg3_pct': tr.get('fg3_pct'), 'ft_pct': tr.get('ft_pct')})
-    all_rows = sorted(uc_rows + other, key=lambda r: (r['y'], r['uconn']))
+    all_rows = sorted([dict(r) for r in uc_rows] + other, key=lambda r: (r['y'], r['uconn']))   # copies: uc_rows keep 'tot' for the leaderboards
     T = collections.Counter()
     for r in uc_rows:
         for k, v in (r.get('tot') or {}).items():
@@ -1411,6 +1466,30 @@ for pid, rows in PLAYER_SEASONS.items():
         career.update({'mp_pg': (T.get('mp') or 0) / G if T.get('mp') else None, 'pts_pg': (career['pts'] or 0) / G, 'trb_pg': (career['trb'] or 0) / G, 'ast_pg': (career['ast'] or 0) / G,
                        'stl_pg': (career['stl'] or 0) / G, 'blk_pg': (career['blk'] or 0) / G,
                        'fg_pct': T['fg'] / T['fga'] if T.get('fga') else None, 'fg3_pct': T['fg3'] / T['fg3a'] if T.get('fg3a') else None, 'ft_pct': T['ft'] / T['fta'] if T.get('fta') else None})
+        # Stats the record keepers didn't track in every season (steals/blocks before the mid-'80s, minutes and starts in the
+        # late '70s): the career total covers only the seasons they were kept, and the average divides by those seasons' games
+        # (dividing by every game would understate it). 'partial' names the seasons without the stat so pages can say so.
+        partial = {}
+        played = [r for r in uc_rows if (r.get('g') or 0) > 0]
+        for k, pg in (('mp', 'mp_pg'), ('stl', 'stl_pg'), ('blk', 'blk_pg'), ('gs', None)):
+            def season_val(r, k=k):   # a season's total for k, or None when it wasn't kept
+                if k == 'gs':
+                    return r.get('gs')
+                if r.get('tot'):
+                    return r['tot'].get(k)
+                return r[k] * (r.get('g') or 0) if r.get(k) is not None else None   # current season from ESPN: per-game only
+            kept = [r for r in played if season_val(r) is not None]
+            if not kept:
+                career[k] = None
+                if pg:
+                    career[pg] = None
+            elif len(kept) < len(played):
+                partial[k] = [r['y'] for r in played if season_val(r) is None]
+                if pg:
+                    gk = sum(r.get('g') or 0 for r in kept)
+                    career[pg] = sum(season_val(r) for r in kept) / gk if gk else None
+        if partial:
+            career['partial'] = partial
     career = {k: (round(v, 3) if isinstance(v, float) else v) for k, v in career.items() if v is not None}
     for r in all_rows:
         r.pop('tot', None)
@@ -1453,7 +1532,8 @@ def rank_map(key):
 RANKS = {k: rank_map(k) for k in ('pts', 'trb', 'ast', 'blk', 'stl')}
 core_players = []
 for player, uc_rows in PLAYERS:
-    player['ranks'] = {k: RANKS[k].get(player['id']) for k in RANKS if RANKS[k].get(player['id'])}
+    part = player['career'].get('partial') or {}   # a partial total is only a floor, so it gets no rank of its own
+    player['ranks'] = {k: RANKS[k].get(player['id']) for k in RANKS if RANKS[k].get(player['id']) and k not in part}
     jdump(os.path.join(SITE, 'players', f"{player['id']}.json"), {k: v for k, v in player.items() if v not in (None, [], '')})
     c = player['career']
     first, last_n = player['name'].split(' ', 1) if ' ' in player['name'] else ('', player['name'])
@@ -1479,7 +1559,12 @@ def board(rows, key, n=10, sub=None, minv=None):
     return out
 
 
-career_rows = [{'pid': p['id'], 'name': p['name'], 'span': p['span'], **{k: p['career'].get(k) for k in ('pts', 'trb', 'ast', 'blk', 'stl', 'fg3')}} for p, _ in PLAYERS]
+career_rows = [{'pid': p['id'], 'name': p['name'], 'span': p['span'], 'partial': p['career'].get('partial') or {}, **{k: p['career'].get(k) for k in ('pts', 'trb', 'ast', 'blk', 'stl', 'fg3')}} for p, _ in PLAYERS]
+def career_sub(k):
+    def sub(r):
+        miss = r['partial'].get(k)
+        return f"{r['span']} · not kept {', '.join(label(y) for y in miss)}" if miss else r['span']
+    return sub
 season_rows = []
 for p, uc in PLAYERS:
     for r in uc:
@@ -1493,7 +1578,7 @@ for pid, gl in PLAYER_GAMES.items():
         game_rows.append({'pid': pid, 'name': nm, 'gid': g['id'], 'y': g['y'], 'opp': g['opp']['name'], 'date': g['date'], **{k: g.get(k) for k in ('pts', 'reb', 'ast', 'blk', 'tpm', 'stl')}})
 sy = lambda r: label(r['y'])
 LEADERS = {
-    'career': {k: board(career_rows, k, sub=lambda r: r['span']) for k in ('pts', 'trb', 'ast', 'blk', 'stl', 'fg3')},
+    'career': {k: board(career_rows, k, sub=career_sub(k)) for k in ('pts', 'trb', 'ast', 'blk', 'stl', 'fg3')},
     'season': {**{k: board(season_rows, k, sub=sy) for k in ('pts', 'trb', 'ast', 'blk', 'fg3')}, 'ppg': board(season_rows, 'ppg', sub=sy)},
     'game': {k: board(game_rows, k, sub=lambda r: f"vs. {r['opp']} · {r['date'][:4]}") for k in ('pts', 'reb', 'ast', 'blk', 'tpm', 'stl')},
     'gameNote': f"From {len({g['gid'] for g in game_rows})} box scores on file: every game since 2002–03, plus NCAA Tournament games before that.",
@@ -1551,7 +1636,7 @@ core = {
     'updated': datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'),
     'seasons': SEASON_SUM, 'eras': eras_out, 'players': sorted(core_players, key=lambda p: -(p.get('pts') or 0)),
     'opponents': OPP, 'leaders': LEADERS, 'march': {'years': MARCH, 'titles': titles, 'nit': nit},
-    'banners': {'secondary': secondary}, 'current': CURRENT,
+    'banners': {'secondary': secondary}, 'current': CURRENT, 'logos': LOGOS if LOGOS['files'] else None,
     'videos': [dict(v) for v in (featured[:40] + [v for v in VIDS if v.get('round') and v not in featured][:60])],
 }
 jdump(os.path.join(SITE, 'core.json'), core)

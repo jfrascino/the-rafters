@@ -1,0 +1,229 @@
+{
+ "sr_id": "scott-carson-1",
+ "url": "https://www.sports-reference.com/cbb/players/scott-carson-1.html",
+ "name": "Scott Carson",
+ "photo_url": null,
+ "bio_lines": [
+  "School: Connecticut (Men)"
+ ],
+ "bio": {
+  "School": "Connecticut (Men)",
+  "school_slugs": [
+   "connecticut"
+  ]
+ },
+ "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://cdn.ssref.net/req/202609231/tlogo/ncaa/connecticut.png",
+ "draft_text": null,
+ "draft": null,
+ "nba_url": null,
+ "tables": {
+  "players_per_game": {
+   "rows": [
+    {
+     "year_id": "1984-85",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": null,
+     "games": 9,
+     "games_started": 0,
+     "mp_per_g": 2.6,
+     "fg_per_g": 0.2,
+     "fga_per_g": 1.0,
+     "fg_pct": 0.222,
+     "ft_per_g": 0.1,
+     "fta_per_g": 0.1,
+     "ft_pct": 1.0,
+     "trb_per_g": 0.1,
+     "ast_per_g": 0.0,
+     "stl_per_g": 0.0,
+     "blk_per_g": 0.0,
+     "tov_per_g": 0.1,
+     "pts_per_g": 0.6,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "games": 9,
+     "games_started": 0,
+     "mp_per_g": 2.6,
+     "fg_per_g": 0.2,
+     "fga_per_g": 1.0,
+     "fg_pct": 0.222,
+     "ft_per_g": 0.1,
+     "fta_per_g": 0.1,
+     "ft_pct": 1.0,
+     "trb_per_g": 0.1,
+     "ast_per_g": 0.0,
+     "stl_per_g": 0.0,
+     "blk_per_g": 0.0,
+     "tov_per_g": 0.1,
+     "pts_per_g": 0.6,
+     "awards": null
+    }
+   ]
+  },
+  "players_totals": {
+   "rows": [
+    {
+     "year_id": "1984-85",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": null,
+     "games": 9,
+     "games_started": 0,
+     "mp": 23,
+     "fg": 2,
+     "fga": 9,
+     "fg_pct": 0.222,
+     "fg2": 2,
+     "fg2a": 9,
+     "ft": 1,
+     "fta": 1,
+     "ft_pct": 1.0,
+     "trb": 1,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "tov": 1,
+     "pts": 5,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "games": 9,
+     "games_started": 0,
+     "mp": 23,
+     "fg": 2,
+     "fga": 9,
+     "fg_pct": 0.222,
+     "fg2": 2,
+     "fg2a": 9,
+     "ft": 1,
+     "fta": 1,
+     "ft_pct": 1.0,
+     "trb": 1,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "tov": 1,
+     "pts": 5,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_min": {
+   "rows": [
+    {
+     "year_id": "1984-85",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": null,
+     "games": 9,
+     "games_started": 0,
+     "mp": 23,
+     "fg_per_min": 3.5,
+     "fga_per_min": 15.7,
+     "fg_pct": 0.222,
+     "ft_per_min": 1.7,
+     "fta_per_min": 1.7,
+     "ft_pct": 1.0,
+     "trb_per_min": 1.7,
+     "ast_per_min": 0.0,
+     "stl_per_min": 0.0,
+     "blk_per_min": 0.0,
+     "tov_per_min": 1.7,
+     "pts_per_min": 8.7,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "games": 9,
+     "games_started": 0,
+     "mp": 23,
+     "fg_per_min": 3.5,
+     "fga_per_min": 15.7,
+     "fg_pct": 0.222,
+     "ft_per_min": 1.7,
+     "fta_per_min": 1.7,
+     "ft_pct": 1.0,
+     "trb_per_min": 1.7,
+     "ast_per_min": 0.0,
+     "stl_per_min": 0.0,
+     "blk_per_min": 0.0,
+     "tov_per_min": 1.7,
+     "pts_per_min": 8.7,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_poss": {
+   "rows": [
+    {
+     "year_id": "1984-85",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": null,
+     "games": 9,
+     "games_started": 0,
+     "mp": 23,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "games": 9,
+     "games_started": 0,
+     "mp": 23,
+     "awards": null
+    }
+   ]
+  },
+  "players_advanced": {
+   "rows": [
+    {
+     "year_id": "1984-85",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": null,
+     "games": 9,
+     "games_started": 0,
+     "mp": 23,
+     "ts_pct": 0.264,
+     "fta_per_fga_pct": 0.111,
+     "tov_pct": 9.5,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "games": 9,
+     "games_started": 0,
+     "mp": 23,
+     "ts_pct": 0.264,
+     "fta_per_fga_pct": 0.111,
+     "tov_pct": 9.5,
+     "awards": null
+    }
+   ]
+  }
+ },
+ "awards": [],
+ "bling": [],
+ "leaderboards": {},
+ "uconn_seasons": [
+  1985
+ ]
+}

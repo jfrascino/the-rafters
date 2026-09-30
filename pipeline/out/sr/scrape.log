@@ -1470,3 +1470,82 @@
 12:44:15 == build
 12:46:36   built 40 seasons, 795 boxscores, 248 players
 12:46:36 done in 942s; net=228 cache=1428 404=6
+19:32:02 == seasons: 9 years
+19:32:02   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1978.html (186 KB)
+19:32:06   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1978-schedule.html (170 KB)
+19:32:09   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1979.html (218 KB)
+19:32:13   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1979-schedule.html (180 KB)
+19:32:16   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1980.html (231 KB)
+19:32:20   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1980-schedule.html (178 KB)
+19:32:23   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1981.html (227 KB)
+19:32:27   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1981-schedule.html (178 KB)
+19:32:30   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1982.html (227 KB)
+19:32:34   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1982-schedule.html (177 KB)
+19:32:37   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1983.html (231 KB)
+19:32:41   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1983-schedule.html (176 KB)
+19:32:44   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1984.html (237 KB)
+19:32:48   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1984-schedule.html (176 KB)
+19:32:51   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1985.html (240 KB)
+19:32:55   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1985-schedule.html (175 KB)
+19:32:58   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1986.html (246 KB)
+19:33:02   GET https://www.sports-reference.com/cbb/schools/connecticut/men/1986-schedule.html (175 KB)
+19:33:02 == build
+19:33:07   built 9 seasons, 0 boxscores, 6 players
+19:33:07 == boxscores: 1 linked, 1 to download
+19:33:07   GET https://www.sports-reference.com/cbb/boxscores/1979-03-10-connecticut.html (161 KB)
+19:33:07   box progress 0/1
+19:33:07 == build
+19:33:08   built 9 seasons, 1 boxscores, 6 players
+19:33:08 == players: 53 unique, 47 to download
+19:33:11   GET https://www.sports-reference.com/cbb/players/joe-whelton-1.html (171 KB)
+19:33:11   player progress 0/47
+19:33:14   GET https://www.sports-reference.com/cbb/players/james-abromaitis-1.html (183 KB)
+19:33:18   GET https://www.sports-reference.com/cbb/players/jeff-carr-2.html (168 KB)
+19:33:21   GET https://www.sports-reference.com/cbb/players/dennis-wolff-1.html (179 KB)
+19:33:25   GET https://www.sports-reference.com/cbb/players/randy-lavigne-1.html (167 KB)
+19:33:28   GET https://www.sports-reference.com/cbb/players/alfred-lewis-1.html (171 KB)
+19:33:32   GET https://www.sports-reference.com/cbb/players/james-fearon-1.html (154 KB)
+19:33:35   GET https://www.sports-reference.com/cbb/players/albert-johnson-1.html (158 KB)
+19:33:39   GET https://www.sports-reference.com/cbb/players/nicholas-stefkovich-1.html (172 KB)
+19:33:42   GET https://www.sports-reference.com/cbb/players/ken-blume-1.html (153 KB)
+19:33:46   GET https://www.sports-reference.com/cbb/players/dennis-long-1.html (157 KB)
+19:33:49   GET https://www.sports-reference.com/cbb/players/corny-thompson-1.html (196 KB)
+19:33:53   GET https://www.sports-reference.com/cbb/players/mike-mckay-1.html (191 KB)
+19:33:56   GET https://www.sports-reference.com/cbb/players/bobby-dulin-1.html (201 KB)
+19:34:00   GET https://www.sports-reference.com/cbb/players/clay-johnson-3.html (166 KB)
+19:34:03   GET https://www.sports-reference.com/cbb/players/john-delagrange-1.html (161 KB)
+19:34:07   GET https://www.sports-reference.com/cbb/players/james-sullivan-1.html (178 KB)
+19:34:10   GET https://www.sports-reference.com/cbb/players/bruce-kuczenski-1.html (181 KB)
+19:34:14   GET https://www.sports-reference.com/cbb/players/glen-miller-2.html (200 KB)
+19:34:17   GET https://www.sports-reference.com/cbb/players/mark-benson-1.html (154 KB)
+19:34:21   GET https://www.sports-reference.com/cbb/players/craig-wood-1.html (163 KB)
+19:34:24   GET https://www.sports-reference.com/cbb/players/chuck-aleksinas-1.html (201 KB)
+19:34:28   GET https://www.sports-reference.com/cbb/players/vernon-giscombe-1.html (179 KB)
+19:34:31   GET https://www.sports-reference.com/cbb/players/karl-hobbs-2.html (185 KB)
+19:34:35   GET https://www.sports-reference.com/cbb/players/norman-bailey-1.html (174 KB)
+19:34:38   GET https://www.sports-reference.com/cbb/players/larry-blucher-1.html (169 KB)
+19:34:38   player progress 25/47
+19:34:42   GET https://www.sports-reference.com/cbb/players/mike-vaughan-1.html (163 KB)
+19:34:45   GET https://www.sports-reference.com/cbb/players/brian-buckelew-1.html (175 KB)
+19:34:49   GET https://www.sports-reference.com/cbb/players/earl-kelley-1.html (189 KB)
+19:34:52   GET https://www.sports-reference.com/cbb/players/eddie-williams-4.html (178 KB)
+19:34:56   GET https://www.sports-reference.com/cbb/players/tim-coles-1.html (182 KB)
+19:34:59   GET https://www.sports-reference.com/cbb/players/vicente-ithier-1.html (164 KB)
+19:35:03   GET https://www.sports-reference.com/cbb/players/len-feroleto-1.html (158 KB)
+19:35:06   GET https://www.sports-reference.com/cbb/players/bill-taylor-2.html (158 KB)
+19:35:10   GET https://www.sports-reference.com/cbb/players/alvin-frederick-1.html (169 KB)
+19:35:13   GET https://www.sports-reference.com/cbb/players/ray-broxton-1.html (191 KB)
+19:35:17   GET https://www.sports-reference.com/cbb/players/ken-henry-1.html (208 KB)
+19:35:20   GET https://www.sports-reference.com/cbb/players/peter-coolidge-1.html (158 KB)
+19:35:24   GET https://www.sports-reference.com/cbb/players/matt-bremmer-1.html (163 KB)
+19:35:27   GET https://www.sports-reference.com/cbb/players/terence-warren-1.html (166 KB)
+19:35:31   GET https://www.sports-reference.com/cbb/players/terry-coffey-1.html (163 KB)
+19:35:34   GET https://www.sports-reference.com/cbb/players/anthony-moye-1.html (211 KB)
+19:35:38   GET https://www.sports-reference.com/cbb/players/john-shea-1.html (163 KB)
+19:35:41   GET https://www.sports-reference.com/cbb/players/scott-carson-1.html (155 KB)
+19:35:45   GET https://www.sports-reference.com/cbb/players/ken-scott-1.html (175 KB)
+19:35:48   GET https://www.sports-reference.com/cbb/players/alvin-armstrong-1.html (153 KB)
+19:35:52   GET https://www.sports-reference.com/cbb/players/shawn-bolden-1.html (155 KB)
+19:35:52 == build
+19:35:54   built 9 seasons, 1 boxscores, 53 players
+19:35:54 done in 232s; net=66 cache=185 404=0

@@ -1,0 +1,217 @@
+{
+ "sr_id": "alvin-armstrong-1",
+ "url": "https://www.sports-reference.com/cbb/players/alvin-armstrong-1.html",
+ "name": "Al Armstrong",
+ "photo_url": null,
+ "bio_lines": [
+  "School: Connecticut (Men)"
+ ],
+ "bio": {
+  "School": "Connecticut (Men)",
+  "school_slugs": [
+   "connecticut"
+  ]
+ },
+ "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://cdn.ssref.net/req/202609231/tlogo/ncaa/connecticut.png",
+ "draft_text": null,
+ "draft": null,
+ "nba_url": null,
+ "tables": {
+  "players_per_game": {
+   "rows": [
+    {
+     "year_id": "1985-86",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": null,
+     "games": 1,
+     "games_started": 0,
+     "mp_per_g": 1.0,
+     "fg_per_g": 0.0,
+     "fga_per_g": 0.0,
+     "ft_per_g": 0.0,
+     "fta_per_g": 0.0,
+     "trb_per_g": 0.0,
+     "ast_per_g": 0.0,
+     "stl_per_g": 0.0,
+     "blk_per_g": 0.0,
+     "tov_per_g": 0.0,
+     "pf_per_g": 0.0,
+     "pts_per_g": 0.0,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "games": 1,
+     "games_started": 0,
+     "mp_per_g": 1.0,
+     "fg_per_g": 0.0,
+     "fga_per_g": 0.0,
+     "ft_per_g": 0.0,
+     "fta_per_g": 0.0,
+     "trb_per_g": 0.0,
+     "ast_per_g": 0.0,
+     "stl_per_g": 0.0,
+     "blk_per_g": 0.0,
+     "tov_per_g": 0.0,
+     "pf_per_g": 0.0,
+     "pts_per_g": 0.0,
+     "awards": null
+    }
+   ]
+  },
+  "players_totals": {
+   "rows": [
+    {
+     "year_id": "1985-86",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": null,
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "fg": 0,
+     "fga": 0,
+     "fg2": 0,
+     "fg2a": 0,
+     "ft": 0,
+     "fta": 0,
+     "trb": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "tov": 0,
+     "pf": 0,
+     "pts": 0,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "fg": 0,
+     "fga": 0,
+     "fg2": 0,
+     "fg2a": 0,
+     "ft": 0,
+     "fta": 0,
+     "trb": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "tov": 0,
+     "pf": 0,
+     "pts": 0,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_min": {
+   "rows": [
+    {
+     "year_id": "1985-86",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": null,
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "fg_per_min": 0.0,
+     "fga_per_min": 0.0,
+     "ft_per_min": 0.0,
+     "fta_per_min": 0.0,
+     "trb_per_min": 0.0,
+     "ast_per_min": 0.0,
+     "stl_per_min": 0.0,
+     "blk_per_min": 0.0,
+     "tov_per_min": 0.0,
+     "pf_per_min": 0.0,
+     "pts_per_min": 0.0,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "fg_per_min": 0.0,
+     "fga_per_min": 0.0,
+     "ft_per_min": 0.0,
+     "fta_per_min": 0.0,
+     "trb_per_min": 0.0,
+     "ast_per_min": 0.0,
+     "stl_per_min": 0.0,
+     "blk_per_min": 0.0,
+     "tov_per_min": 0.0,
+     "pf_per_min": 0.0,
+     "pts_per_min": 0.0,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_poss": {
+   "rows": [
+    {
+     "year_id": "1985-86",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": null,
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "awards": null
+    }
+   ]
+  },
+  "players_advanced": {
+   "rows": [
+    {
+     "year_id": "1985-86",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": null,
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "games": 1,
+     "games_started": 0,
+     "mp": 1,
+     "awards": null
+    }
+   ]
+  }
+ },
+ "awards": [],
+ "bling": [],
+ "leaderboards": {},
+ "uconn_seasons": [
+  1986
+ ]
+}

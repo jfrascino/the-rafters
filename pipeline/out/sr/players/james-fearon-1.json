@@ -1,0 +1,265 @@
+{
+ "sr_id": "james-fearon-1",
+ "url": "https://www.sports-reference.com/cbb/players/james-fearon-1.html",
+ "name": "Jim Fearon",
+ "photo_url": null,
+ "bio_lines": [
+  "Position: Forward",
+  "6-7 , 195lb (201cm, 88kg)",
+  "Hometown: Hicksville, NY",
+  "School: Connecticut (Men)"
+ ],
+ "bio": {
+  "Position": "Forward",
+  "Hometown": "Hicksville, NY",
+  "School": "Connecticut (Men)",
+  "school_slugs": [
+   "connecticut"
+  ]
+ },
+ "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://cdn.ssref.net/req/202609231/tlogo/ncaa/connecticut.png",
+ "draft_text": null,
+ "draft": null,
+ "nba_url": null,
+ "tables": {
+  "players_per_game": {
+   "rows": [
+    {
+     "year_id": "1977-78",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "FR",
+     "pos": "F",
+     "games": 25,
+     "fg_per_g": 1.4,
+     "fga_per_g": 2.7,
+     "fg_pct": 0.507,
+     "ft_per_g": 0.8,
+     "fta_per_g": 1.4,
+     "ft_pct": 0.618,
+     "trb_per_g": 3.2,
+     "ast_per_g": 0.8,
+     "pf_per_g": 1.9,
+     "pts_per_g": 3.6,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1978-79",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "SO",
+     "pos": "F",
+     "games": 27,
+     "fg_per_g": 0.8,
+     "fga_per_g": 1.5,
+     "fg_pct": 0.537,
+     "ft_per_g": 0.2,
+     "fta_per_g": 0.7,
+     "ft_pct": 0.278,
+     "trb_per_g": 1.8,
+     "ast_per_g": 0.6,
+     "pf_per_g": 1.0,
+     "pts_per_g": 1.8,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 52,
+     "fg_per_g": 1.1,
+     "fga_per_g": 2.1,
+     "fg_pct": 0.519,
+     "ft_per_g": 0.5,
+     "fta_per_g": 1.0,
+     "ft_pct": 0.5,
+     "trb_per_g": 2.4,
+     "ast_per_g": 0.7,
+     "pf_per_g": 1.4,
+     "pts_per_g": 2.7,
+     "awards": null
+    }
+   ]
+  },
+  "players_totals": {
+   "rows": [
+    {
+     "year_id": "1977-78",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "FR",
+     "pos": "F",
+     "games": 25,
+     "fg": 34,
+     "fga": 67,
+     "fg_pct": 0.507,
+     "fg2": 34,
+     "fg2a": 67,
+     "ft": 21,
+     "fta": 34,
+     "ft_pct": 0.618,
+     "trb": 79,
+     "ast": 21,
+     "pf": 48,
+     "pts": 89,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1978-79",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "SO",
+     "pos": "F",
+     "games": 27,
+     "fg": 22,
+     "fga": 41,
+     "fg_pct": 0.537,
+     "fg2": 22,
+     "fg2a": 41,
+     "ft": 5,
+     "fta": 18,
+     "ft_pct": 0.278,
+     "trb": 48,
+     "ast": 16,
+     "pf": 27,
+     "pts": 49,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 52,
+     "fg": 56,
+     "fga": 108,
+     "fg_pct": 0.519,
+     "fg2": 56,
+     "fg2a": 108,
+     "ft": 26,
+     "fta": 52,
+     "ft_pct": 0.5,
+     "trb": 127,
+     "ast": 37,
+     "pf": 75,
+     "pts": 138,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_min": {
+   "rows": [
+    {
+     "year_id": "1977-78",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "FR",
+     "pos": "F",
+     "games": 25,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1978-79",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "SO",
+     "pos": "F",
+     "games": 27,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 52,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_poss": {
+   "rows": [
+    {
+     "year_id": "1977-78",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "FR",
+     "pos": "F",
+     "games": 25,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1978-79",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "SO",
+     "pos": "F",
+     "games": 27,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 52,
+     "awards": null
+    }
+   ]
+  },
+  "players_advanced": {
+   "rows": [
+    {
+     "year_id": "1977-78",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "FR",
+     "pos": "F",
+     "games": 25,
+     "ts_pct": 0.535,
+     "fta_per_fga_pct": 0.507,
+     "awards": null,
+     "school_slug": "connecticut"
+    },
+    {
+     "year_id": "1978-79",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Ind",
+     "class": "SO",
+     "pos": "F",
+     "games": 27,
+     "ts_pct": 0.494,
+     "fta_per_fga_pct": 0.439,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 52,
+     "ts_pct": 0.52,
+     "fta_per_fga_pct": 0.481,
+     "awards": null
+    }
+   ]
+  }
+ },
+ "awards": [],
+ "bling": [],
+ "leaderboards": {},
+ "uconn_seasons": [
+  1978,
+  1979
+ ]
+}

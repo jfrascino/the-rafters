@@ -1,0 +1,250 @@
+{
+ "sr_id": "bill-taylor-2",
+ "url": "https://www.sports-reference.com/cbb/players/bill-taylor-2.html",
+ "name": "Bill Taylor",
+ "photo_url": null,
+ "bio_lines": [
+  "Position: Forward",
+  "6-2 , 180lb (188cm, 81kg)",
+  "Hometown: New Canaan, CT",
+  "School: Connecticut (Men)"
+ ],
+ "bio": {
+  "Position": "Forward",
+  "Hometown": "New Canaan, CT",
+  "School": "Connecticut (Men)",
+  "school_slugs": [
+   "connecticut"
+  ]
+ },
+ "og_image": "http://cdn.ssref.net/scripts/image_resize.cgi?min=200&url=https://cdn.ssref.net/req/202609231/tlogo/ncaa/connecticut.png",
+ "draft_text": null,
+ "draft": null,
+ "nba_url": null,
+ "tables": {
+  "players_per_game": {
+   "rows": [
+    {
+     "year_id": "1982-83",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SO",
+     "pos": "F",
+     "games": 7,
+     "games_started": 0,
+     "mp_per_g": 1.9,
+     "fg_per_g": 0.1,
+     "fga_per_g": 0.7,
+     "fg_pct": 0.2,
+     "ft_per_g": 0.0,
+     "fta_per_g": 0.1,
+     "ft_pct": 0.0,
+     "trb_per_g": 0.4,
+     "ast_per_g": 0.0,
+     "stl_per_g": 0.0,
+     "blk_per_g": 0.0,
+     "tov_per_g": 0.0,
+     "pf_per_g": 0.6,
+     "pts_per_g": 0.3,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 7,
+     "games_started": 0,
+     "mp_per_g": 1.9,
+     "fg_per_g": 0.1,
+     "fga_per_g": 0.7,
+     "fg_pct": 0.2,
+     "ft_per_g": 0.0,
+     "fta_per_g": 0.1,
+     "ft_pct": 0.0,
+     "trb_per_g": 0.4,
+     "ast_per_g": 0.0,
+     "stl_per_g": 0.0,
+     "blk_per_g": 0.0,
+     "tov_per_g": 0.0,
+     "pf_per_g": 0.6,
+     "pts_per_g": 0.3,
+     "awards": null
+    }
+   ]
+  },
+  "players_totals": {
+   "rows": [
+    {
+     "year_id": "1982-83",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SO",
+     "pos": "F",
+     "games": 7,
+     "games_started": 0,
+     "mp": 13,
+     "fg": 1,
+     "fga": 5,
+     "fg_pct": 0.2,
+     "fg2": 1,
+     "fg2a": 5,
+     "ft": 0,
+     "fta": 1,
+     "ft_pct": 0.0,
+     "trb": 3,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "tov": 0,
+     "pf": 4,
+     "pts": 2,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 7,
+     "games_started": 0,
+     "mp": 13,
+     "fg": 1,
+     "fga": 5,
+     "fg_pct": 0.2,
+     "fg2": 1,
+     "fg2a": 5,
+     "ft": 0,
+     "fta": 1,
+     "ft_pct": 0.0,
+     "trb": 3,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "tov": 0,
+     "pf": 4,
+     "pts": 2,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_min": {
+   "rows": [
+    {
+     "year_id": "1982-83",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SO",
+     "pos": "F",
+     "games": 7,
+     "games_started": 0,
+     "mp": 13,
+     "fg_per_min": 3.1,
+     "fga_per_min": 15.4,
+     "fg_pct": 0.2,
+     "ft_per_min": 0.0,
+     "fta_per_min": 3.1,
+     "ft_pct": 0.0,
+     "trb_per_min": 9.2,
+     "ast_per_min": 0.0,
+     "stl_per_min": 0.0,
+     "blk_per_min": 0.0,
+     "tov_per_min": 0.0,
+     "pf_per_min": 12.3,
+     "pts_per_min": 6.2,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 7,
+     "games_started": 0,
+     "mp": 13,
+     "fg_per_min": 3.1,
+     "fga_per_min": 15.4,
+     "fg_pct": 0.2,
+     "ft_per_min": 0.0,
+     "fta_per_min": 3.1,
+     "ft_pct": 0.0,
+     "trb_per_min": 9.2,
+     "ast_per_min": 0.0,
+     "stl_per_min": 0.0,
+     "blk_per_min": 0.0,
+     "tov_per_min": 0.0,
+     "pf_per_min": 12.3,
+     "pts_per_min": 6.2,
+     "awards": null
+    }
+   ]
+  },
+  "players_per_poss": {
+   "rows": [
+    {
+     "year_id": "1982-83",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SO",
+     "pos": "F",
+     "games": 7,
+     "games_started": 0,
+     "mp": 13,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 7,
+     "games_started": 0,
+     "mp": 13,
+     "awards": null
+    }
+   ]
+  },
+  "players_advanced": {
+   "rows": [
+    {
+     "year_id": "1982-83",
+     "team_name_abbr": "UConn",
+     "conf_abbr": "Big East",
+     "class": "SO",
+     "pos": "F",
+     "games": 7,
+     "games_started": 0,
+     "mp": 13,
+     "ts_pct": 0.183,
+     "fta_per_fga_pct": 0.2,
+     "tov_pct": 0.0,
+     "awards": null,
+     "school_slug": "connecticut"
+    }
+   ],
+   "career": [
+    {
+     "year_id": "Career",
+     "pos": null,
+     "games": 7,
+     "games_started": 0,
+     "mp": 13,
+     "ts_pct": 0.183,
+     "fta_per_fga_pct": 0.2,
+     "tov_pct": 0.0,
+     "awards": null
+    }
+   ]
+  }
+ },
+ "awards": [],
+ "bling": [],
+ "leaderboards": {},
+ "uconn_seasons": [
+  1983
+ ]
+}

@@ -1,0 +1,2817 @@
+{
+ "1978": {
+  "label": "1977-78",
+  "coach": "Dom Perno",
+  "overall": [
+   11,
+   15
+  ],
+  "conf": null,
+  "home": [
+   9,
+   5
+  ],
+  "away": [
+   2,
+   8
+  ],
+  "neutral": [
+   0,
+   2
+  ],
+  "notes": [],
+  "footnotes": {
+   "#": "UConn Classic, Hartford Civic Center, Hartford, CT",
+   "+": "New Haven Coliseum, New Haven, CT",
+   "*": "Colonial Classic, Boston Garden, Boston, MA"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 26,
+   "wl_parsed": [
+    11,
+    15
+   ],
+   "home_parsed": [
+    9,
+    5
+   ],
+   "away_parsed": [
+    2,
+    8
+   ],
+   "neutral_parsed": [
+    0,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1979": {
+  "label": "1978-79",
+  "coach": "Dom Perno",
+  "overall": [
+   21,
+   8
+  ],
+  "conf": null,
+  "home": [
+   12,
+   1
+  ],
+  "away": [
+   5,
+   5
+  ],
+  "neutral": [
+   4,
+   2
+  ],
+  "notes": [
+   "NCAA Tournament First Round",
+   "ECAC Tournament Champions"
+  ],
+  "footnotes": {
+   "#": "Charlotte Invitational Tournament, Charlotte, NC",
+   "CMC": "Connecticut Mutual Classic, New Haven Coliseum, New Haven, CT",
+   "+": "New Haven Coliseum, New Haven, CT",
+   "##": "Colonial Classic, Boston Garden, Boston, MA",
+   "*": "ECAC Tournament, Providence CC, Providence, RI",
+   "**": "NCAA Tournament, Providence CC, Providence, RI"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 29,
+   "wl_parsed": [
+    21,
+    8
+   ],
+   "home_parsed": [
+    12,
+    1
+   ],
+   "away_parsed": [
+    5,
+    5
+   ],
+   "neutral_parsed": [
+    4,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1980": {
+  "label": "1979-80",
+  "coach": "Dom Perno",
+  "overall": [
+   20,
+   9
+  ],
+  "conf": [
+   3,
+   3
+  ],
+  "home": [
+   14,
+   3
+  ],
+  "away": [
+   4,
+   5
+  ],
+  "neutral": [
+   2,
+   1
+  ],
+  "notes": [
+   "NIT First Round"
+  ],
+  "footnotes": {
+   "^": "Utah forfeited game, ineligible player",
+   "#": "Utah Classic, Salt Lake City, UT",
+   "+": "New Haven Coliseum, New Haven, CT",
+   "CMC": "Conn. Mutual Classic, New Haven Coliseum, New Haven, CT",
+   "*": "Big East Tournament, Providence CC, Providence, RI",
+   "%": "National Invitation Tournament"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 29,
+   "wl_parsed": [
+    20,
+    9
+   ],
+   "home_parsed": [
+    14,
+    3
+   ],
+   "away_parsed": [
+    4,
+    5
+   ],
+   "neutral_parsed": [
+    2,
+    1
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1981": {
+  "label": "1980-81",
+  "coach": "Dom Perno",
+  "overall": [
+   20,
+   9
+  ],
+  "conf": [
+   8,
+   6
+  ],
+  "home": [
+   12,
+   4
+  ],
+  "away": [
+   8,
+   4
+  ],
+  "neutral": [
+   0,
+   1
+  ],
+  "notes": [
+   "NIT Second Round"
+  ],
+  "footnotes": {
+   "CMC": "Connecticut Mutual Classic, Hartford CC, Hartford, CT",
+   "+": "New Haven Coliseum, New Haven, CT",
+   "*": "BIG EAST Tournament at Syracuse, NY",
+   "**": "National Invitation Tournament"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 29,
+   "wl_parsed": [
+    20,
+    9
+   ],
+   "home_parsed": [
+    12,
+    4
+   ],
+   "away_parsed": [
+    8,
+    4
+   ],
+   "neutral_parsed": [
+    0,
+    1
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1982": {
+  "label": "1981-82",
+  "coach": "Dom Perno",
+  "overall": [
+   17,
+   11
+  ],
+  "conf": [
+   7,
+   7
+  ],
+  "home": [
+   10,
+   3
+  ],
+  "away": [
+   7,
+   7
+  ],
+  "neutral": [
+   0,
+   1
+  ],
+  "notes": [
+   "NIT First Round"
+  ],
+  "footnotes": {
+   "+": "New Haven Coliseum, New Haven, CT",
+   "#": "Oil Capital Classic, Tulsa, OK",
+   "CMC": "Connecticut Mutual Classic, Hartford CC, Hartford, CT",
+   "*": "BIG EAST Tournament, Hartford CC, Hartford, CT",
+   "**": "National Invitation Tournament"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 28,
+   "wl_parsed": [
+    17,
+    11
+   ],
+   "home_parsed": [
+    10,
+    3
+   ],
+   "away_parsed": [
+    6,
+    7
+   ],
+   "neutral_parsed": [
+    1,
+    1
+   ],
+   "wl_ok": true,
+   "han_ok": false
+  }
+ },
+ "1983": {
+  "label": "1982-83",
+  "coach": "Dom Perno",
+  "overall": [
+   12,
+   16
+  ],
+  "conf": [
+   5,
+   11
+  ],
+  "home": [
+   6,
+   7
+  ],
+  "away": [
+   5,
+   8
+  ],
+  "neutral": [
+   1,
+   1
+  ],
+  "notes": [],
+  "footnotes": {
+   "+": "Fiesta Basketball Classic, Tempe, AZ",
+   "#": "New Haven Coliseum, New Haven, CT",
+   "CMC": "Connecticut Mutual Classic, Hartford CC, Hartford, CT",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, NY"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 28,
+   "wl_parsed": [
+    12,
+    16
+   ],
+   "home_parsed": [
+    6,
+    7
+   ],
+   "away_parsed": [
+    5,
+    8
+   ],
+   "neutral_parsed": [
+    1,
+    1
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1984": {
+  "label": "1983-84",
+  "coach": "Dom Perno",
+  "overall": [
+   13,
+   15
+  ],
+  "conf": [
+   5,
+   11
+  ],
+  "home": [
+   9,
+   6
+  ],
+  "away": [
+   4,
+   8
+  ],
+  "neutral": [
+   0,
+   1
+  ],
+  "notes": [],
+  "footnotes": {
+   "CMC": "Connecticut Mutual Classic, Hartford CC, Hartford, CT",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 28,
+   "wl_parsed": [
+    13,
+    15
+   ],
+   "home_parsed": [
+    9,
+    6
+   ],
+   "away_parsed": [
+    4,
+    8
+   ],
+   "neutral_parsed": [
+    0,
+    1
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1985": {
+  "label": "1984-85",
+  "coach": "Dom Perno",
+  "overall": [
+   13,
+   15
+  ],
+  "conf": [
+   6,
+   10
+  ],
+  "home": [
+   10,
+   7
+  ],
+  "away": [
+   3,
+   7
+  ],
+  "neutral": [
+   0,
+   1
+  ],
+  "notes": [],
+  "footnotes": {
+   "+": "New Haven Coliseum, New Haven, CT",
+   "CMC": "Connecticut Mutual Classic, Hartford CC, Hart- ford, CT",
+   "*": "BIG EAST Tournament at Madison Square Garden, New York, N.Y."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 28,
+   "wl_parsed": [
+    13,
+    15
+   ],
+   "home_parsed": [
+    10,
+    7
+   ],
+   "away_parsed": [
+    3,
+    7
+   ],
+   "neutral_parsed": [
+    0,
+    1
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1986": {
+  "label": "1985-86",
+  "coach": "Dom Perno",
+  "overall": [
+   12,
+   16
+  ],
+  "conf": [
+   3,
+   13
+  ],
+  "home": [
+   9,
+   6
+  ],
+  "away": [
+   3,
+   9
+  ],
+  "neutral": [
+   0,
+   1
+  ],
+  "notes": [],
+  "footnotes": {
+   "CMC": "Connecticut Mutual Classic, Hartford CC, Hart- ford, CT",
+   "*": "BIG EAST Tournament at Madison Square Garden, New York, N.Y."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 28,
+   "wl_parsed": [
+    12,
+    16
+   ],
+   "home_parsed": [
+    9,
+    6
+   ],
+   "away_parsed": [
+    3,
+    9
+   ],
+   "neutral_parsed": [
+    0,
+    1
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1987": {
+  "label": "1986-87",
+  "coach": "Jim Calhoun",
+  "overall": [
+   9,
+   19
+  ],
+  "conf": [
+   3,
+   13
+  ],
+  "home": [
+   7,
+   9
+  ],
+  "away": [
+   2,
+   9
+  ],
+  "neutral": [
+   0,
+   1
+  ],
+  "notes": [],
+  "footnotes": {
+   "+": "New Haven Coliseum, New Haven, CT",
+   "%": "Connecticut Mutual Classic, Hartford CC, Hartford, CT",
+   "*": "BIG EAST Tournament at Madison Square Garden, New York, N.Y."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 28,
+   "wl_parsed": [
+    9,
+    19
+   ],
+   "home_parsed": [
+    7,
+    9
+   ],
+   "away_parsed": [
+    2,
+    9
+   ],
+   "neutral_parsed": [
+    0,
+    1
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1988": {
+  "label": "1987-88",
+  "coach": "Jim Calhoun",
+  "overall": [
+   20,
+   14
+  ],
+  "conf": [
+   4,
+   12
+  ],
+  "home": [
+   12,
+   6
+  ],
+  "away": [
+   5,
+   7
+  ],
+  "neutral": [
+   3,
+   1
+  ],
+  "notes": [
+   "National Invitation Tournament Champions"
+  ],
+  "footnotes": {
+   "%": "Connecticut Mutual Classic, Hartford CC, Hartford CT",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "National Invitation Tournament",
+   "##": "National Invitation Tournament, Madison Square Garden, New York, N.Y."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 34,
+   "wl_parsed": [
+    20,
+    14
+   ],
+   "home_parsed": [
+    12,
+    6
+   ],
+   "away_parsed": [
+    5,
+    7
+   ],
+   "neutral_parsed": [
+    3,
+    1
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1989": {
+  "label": "1988-89",
+  "coach": "Jim Calhoun",
+  "overall": [
+   18,
+   13
+  ],
+  "conf": [
+   6,
+   10
+  ],
+  "home": [
+   14,
+   4
+  ],
+  "away": [
+   4,
+   8
+  ],
+  "neutral": [
+   0,
+   1
+  ],
+  "notes": [
+   "National Invitation Tournament Quarterfinals"
+  ],
+  "footnotes": {
+   "%": "Connecticut Mutual Classic, Hartford CC, Hartford, CT",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "National Invitation Tournament"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 31,
+   "wl_parsed": [
+    18,
+    13
+   ],
+   "home_parsed": [
+    14,
+    4
+   ],
+   "away_parsed": [
+    4,
+    8
+   ],
+   "neutral_parsed": [
+    0,
+    1
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1990": {
+  "label": "1989-90",
+  "coach": "Jim Calhoun",
+  "overall": [
+   31,
+   6
+  ],
+  "conf": [
+   12,
+   4
+  ],
+  "home": [
+   17,
+   1
+  ],
+  "away": [
+   8,
+   4
+  ],
+  "neutral": [
+   6,
+   2
+  ],
+  "notes": [
+   "NCAA Tournament Elite Eight",
+   "BIG EAST Tournament Champions",
+   "BIG EAST Regular Season Co-Champions"
+  ],
+  "footnotes": {
+   "+": "Great Alaska Shootout, Anchorage, AK",
+   "^": "ACC-BIG EAST Challenge",
+   "%": "Connecticut Mutual Classic, Hartford CC, Hartford, CT",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA East Region First Round, Hartford, CT",
+   "##": "NCAA East Region Second Round, Hartford, CT",
+   "$": "NCAA Eastern Regional Semi-Finals, East Rutherford, NJ",
+   "$$": "NCAA Eastern Regional Finals, East Rutherford, NJ"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 37,
+   "wl_parsed": [
+    31,
+    6
+   ],
+   "home_parsed": [
+    17,
+    1
+   ],
+   "away_parsed": [
+    6,
+    3
+   ],
+   "neutral_parsed": [
+    8,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": false
+  }
+ },
+ "1991": {
+  "label": "1990-91",
+  "coach": "Jim Calhoun",
+  "overall": [
+   20,
+   11
+  ],
+  "conf": [
+   9,
+   7
+  ],
+  "home": [
+   12,
+   4
+  ],
+  "away": [
+   6,
+   5
+  ],
+  "neutral": [
+   2,
+   2
+  ],
+  "notes": [
+   "NCAA Tournament Sweet 16"
+  ],
+  "footnotes": {
+   "^": "ACC/BIG EAST Challenge, Chapel Hill, NC",
+   "%": "Connecticut Mutual Classic, Hartford CC, Hartford, CT",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA Midwest Region First Round, Minneapolis, MN",
+   "##": "NCAA Midwest Region Second Round, Minneapolis, MN",
+   "###": "NCAA Midwest Regional Semi-Finals, Pontiac, MI"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 31,
+   "wl_parsed": [
+    20,
+    11
+   ],
+   "home_parsed": [
+    12,
+    4
+   ],
+   "away_parsed": [
+    6,
+    5
+   ],
+   "neutral_parsed": [
+    2,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1992": {
+  "label": "1991-92",
+  "coach": "Jim Calhoun",
+  "overall": [
+   20,
+   10
+  ],
+  "conf": [
+   10,
+   8
+  ],
+  "home": [
+   14,
+   2
+  ],
+  "away": [
+   5,
+   6
+  ],
+  "neutral": [
+   1,
+   2
+  ],
+  "notes": [
+   "NCAA Tournament Second Round"
+  ],
+  "footnotes": {
+   "^": "ACC/BIG EAST Challenge, Hartford, CT",
+   "%": "Connecticut Mutual Classic, Hartford CC, Hartford, CT",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA Southeast Region First Round, Cincinnati, OH",
+   "##": "NCAA Southeast Region Second Round, Cincinnati, OH"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 30,
+   "wl_parsed": [
+    20,
+    10
+   ],
+   "home_parsed": [
+    14,
+    2
+   ],
+   "away_parsed": [
+    5,
+    6
+   ],
+   "neutral_parsed": [
+    1,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1993": {
+  "label": "1992-93",
+  "coach": "Jim Calhoun",
+  "overall": [
+   15,
+   13
+  ],
+  "conf": [
+   9,
+   9
+  ],
+  "home": [
+   10,
+   6
+  ],
+  "away": [
+   5,
+   5
+  ],
+  "neutral": [
+   0,
+   2
+  ],
+  "notes": [
+   "National Invitation Tournament First Round"
+  ],
+  "footnotes": {
+   "+": "Hall of Fame Tip-Off Classic, Springfield CC, Springfield, MA",
+   "%": "Connecticut Mutual Classic, Hartford CC, Hartford, CT",
+   "*": "BIG EAST Tournament at Madison Square Garden,New York, N.Y.",
+   "#": "National Invitation Tournament"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 28,
+   "wl_parsed": [
+    15,
+    13
+   ],
+   "home_parsed": [
+    10,
+    6
+   ],
+   "away_parsed": [
+    5,
+    5
+   ],
+   "neutral_parsed": [
+    0,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1994": {
+  "label": "1993-94",
+  "coach": "Jim Calhoun",
+  "overall": [
+   29,
+   5
+  ],
+  "conf": [
+   16,
+   2
+  ],
+  "home": [
+   15,
+   0
+  ],
+  "away": [
+   9,
+   2
+  ],
+  "neutral": [
+   5,
+   3
+  ],
+  "notes": [
+   "NCAA Tournament Sweet 16",
+   "BIG EAST Regular Season Champions"
+  ],
+  "footnotes": {
+   "+": "Big Island Invitational, Hilo, HI",
+   "$": "Hershey Arena, Hershey, PA",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA East Regional First Round, Uniondale, NY",
+   "##": "NCAA East Regional Second Round, Uniondale, NY",
+   "###": "NCAA East Regional Semifinals, Miami, FL"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 34,
+   "wl_parsed": [
+    29,
+    5
+   ],
+   "home_parsed": [
+    15,
+    0
+   ],
+   "away_parsed": [
+    8,
+    2
+   ],
+   "neutral_parsed": [
+    6,
+    3
+   ],
+   "wl_ok": true,
+   "han_ok": false
+  }
+ },
+ "1995": {
+  "label": "1994-95",
+  "coach": "Jim Calhoun",
+  "overall": [
+   28,
+   5
+  ],
+  "conf": [
+   16,
+   2
+  ],
+  "home": [
+   14,
+   1
+  ],
+  "away": [
+   8,
+   2
+  ],
+  "neutral": [
+   6,
+   2
+  ],
+  "notes": [
+   "NCAA Tournament Elite Eight",
+   "BIG EAST Regular Season Champions"
+  ],
+  "footnotes": {
+   "$": "Great Eight Basketball Tourn., The Palace, Auburn Hills, MI",
+   "+": "Kemper Arena, Kansas City, MO",
+   "*": "BIG EAST Tournament at Madison Square Garden, New York, N.Y.",
+   "#": "NCAA West Regional First Round, Salt Lake City, UT",
+   "##": "NCAA West Regional Second Round, Salt Lake City, UT",
+   "%": "NCAA West Regional Semifinal, Oakland, CA",
+   "%%": "NCAA West Regional Final, Oakland, CA"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 33,
+   "wl_parsed": [
+    28,
+    5
+   ],
+   "home_parsed": [
+    14,
+    1
+   ],
+   "away_parsed": [
+    8,
+    2
+   ],
+   "neutral_parsed": [
+    6,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1996": {
+  "label": "1995-96",
+  "coach": "Jim Calhoun",
+  "overall": [
+   32,
+   3
+  ],
+  "conf": [
+   17,
+   1
+  ],
+  "home": [
+   15,
+   0
+  ],
+  "away": [
+   10,
+   1
+  ],
+  "neutral": [
+   7,
+   2
+  ],
+  "notes": [
+   "NCAA Tournament Sweet 16**",
+   "BIG EAST Tournament Champions",
+   "BIG EAST Regular Season Champions"
+  ],
+  "footnotes": {
+   "$": "Great Alaska Shootout, Anchorage, AK",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA Mideast Regional First Round, Indianapolis, IN",
+   "##": "NCAA Mideast Regional Second Round, Indianapolis, IN",
+   "%": "NCAA Mideast Regional Semi-Finals, Lexington, KY",
+   "**": "NCAA Tournament games vacated; official NCAA record 30-2"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 35,
+   "wl_parsed": [
+    32,
+    3
+   ],
+   "home_parsed": [
+    15,
+    0
+   ],
+   "away_parsed": [
+    10,
+    1
+   ],
+   "neutral_parsed": [
+    7,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1997": {
+  "label": "1996-97",
+  "coach": "Jim Calhoun",
+  "overall": [
+   18,
+   15
+  ],
+  "conf": [
+   7,
+   11
+  ],
+  "home": [
+   12,
+   7
+  ],
+  "away": [
+   4,
+   5
+  ],
+  "neutral": [
+   2,
+   3
+  ],
+  "notes": [
+   "National Invitational Tournament-3rd Place"
+  ],
+  "footnotes": {
+   "+": "The Classic, RCA Dome, Indianapolis, IN",
+   "%": "MassMutual \"UGame\", Hartford Civic Center, Hartford, CT",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "National Invitation Tournament",
+   "##": "National Invitation Tournament, Madison Square Garden"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 33,
+   "wl_parsed": [
+    18,
+    15
+   ],
+   "home_parsed": [
+    12,
+    7
+   ],
+   "away_parsed": [
+    4,
+    5
+   ],
+   "neutral_parsed": [
+    2,
+    3
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1998": {
+  "label": "1997-98",
+  "coach": "Jim Calhoun",
+  "overall": [
+   32,
+   5
+  ],
+  "conf": [
+   15,
+   3
+  ],
+  "home": [
+   17,
+   0
+  ],
+  "away": [
+   7,
+   3
+  ],
+  "neutral": [
+   8,
+   2
+  ],
+  "notes": [
+   "NCAA Tournament Elite Eight",
+   "BIG EAST Tournament Champions",
+   "BIG EAST Regular Season Champions"
+  ],
+  "footnotes": {
+   "$": "Pre-Season NIT",
+   "$$": "Pre-Season NIT, Madison Square Garden, New York, N.Y.",
+   "+": "MassMutual \"UGame\", Hartford Civic Center, Hartford, CT",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA East Regional First Round, Washington, DC",
+   "##": "NCAA East Regional Second Round, Washington, DC",
+   "%": "NCAA East Regional Semifinals, Greensboro, NC",
+   "%%": "NCAA East Regional Final, Greensboro, NC"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 37,
+   "wl_parsed": [
+    32,
+    5
+   ],
+   "home_parsed": [
+    17,
+    0
+   ],
+   "away_parsed": [
+    7,
+    3
+   ],
+   "neutral_parsed": [
+    8,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "1999": {
+  "label": "1998-99",
+  "coach": "Jim Calhoun",
+  "overall": [
+   34,
+   2
+  ],
+  "conf": [
+   16,
+   2
+  ],
+  "home": [
+   13,
+   2
+  ],
+  "away": [
+   11,
+   0
+  ],
+  "neutral": [
+   10,
+   0
+  ],
+  "notes": [
+   "NCAA National Champions",
+   "BIG EAST Tournament Champions",
+   "BIG EAST Regular Season Champions"
+  ],
+  "footnotes": {
+   "$": "Great Eight Basketball Classic, United Center, Chicago, IL",
+   "+": "MassMutual \"UGame\", Mullins Center, Amherst, MA",
+   "*": "BIG EAST Tournament at Madison Square Garden, New York, N.Y.",
+   "#": "NCAA West Regional First Round, Denver, CO",
+   "##": "NCAA West Regional Second Round, Denver, CO",
+   "%": "NCAA West Regional Semifinals, Phoenix, AZ",
+   "%%": "NCAA West Regional Finals, Phoenix, AZ",
+   "@": "NCAA National Semifinals, St. Petersburg, FL",
+   "@@": "NCAA National Championship, St. Petersburg, FL"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 36,
+   "wl_parsed": [
+    34,
+    2
+   ],
+   "home_parsed": [
+    13,
+    2
+   ],
+   "away_parsed": [
+    11,
+    0
+   ],
+   "neutral_parsed": [
+    10,
+    0
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2000": {
+  "label": "1999-00",
+  "coach": "Jim Calhoun",
+  "overall": [
+   25,
+   10
+  ],
+  "conf": [
+   10,
+   6
+  ],
+  "home": [
+   13,
+   3
+  ],
+  "away": [
+   6,
+   4
+  ],
+  "neutral": [
+   6,
+   3
+  ],
+  "notes": [
+   "NCAA Tournament Second Round"
+  ],
+  "footnotes": {
+   "@": "Coaches vs. Cancer IKON Classic, MSG, New York, N.Y.",
+   "$": "Great Eight Basketball Classic, United Ctr., Chicago, IL",
+   "+": "MassMutual \"UGame\", Gampel Pavilion, Storrs, CT",
+   "*": "BIG EAST Tournament at Madison Square Garden, New York, N.Y.",
+   "#": "NCAA South Regional First Round, Birmingham, AL",
+   "##": "NCAA South Regional Second Round, Birmingham, AL"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 35,
+   "wl_parsed": [
+    25,
+    10
+   ],
+   "home_parsed": [
+    13,
+    3
+   ],
+   "away_parsed": [
+    6,
+    4
+   ],
+   "neutral_parsed": [
+    6,
+    3
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2001": {
+  "label": "2000-01",
+  "coach": "Jim Calhoun",
+  "overall": [
+   20,
+   12
+  ],
+  "conf": [
+   8,
+   8
+  ],
+  "home": [
+   16,
+   2
+  ],
+  "away": [
+   1,
+   8
+  ],
+  "neutral": [
+   3,
+   2
+  ],
+  "notes": [
+   "National Invitation Tournament Second Round"
+  ],
+  "footnotes": {
+   "@": "Maui Invitational, Maui, Hawaii",
+   "+": "MassMutual \"UGame\", Hartford Civic Ctr., Hartford, CT",
+   "*": "BIG EAST Tournament at Madison Square Garden, New York, N.Y.",
+   "#": "National Invitation Tournament First Round, Storrs, CT",
+   "##": "National Invitation Tournament Second Round, Storrs, CT"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 32,
+   "wl_parsed": [
+    20,
+    12
+   ],
+   "home_parsed": [
+    16,
+    2
+   ],
+   "away_parsed": [
+    1,
+    8
+   ],
+   "neutral_parsed": [
+    3,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2002": {
+  "label": "2001-02",
+  "coach": "Jim Calhoun",
+  "overall": [
+   27,
+   7
+  ],
+  "conf": [
+   13,
+   3
+  ],
+  "home": [
+   13,
+   2
+  ],
+  "away": [
+   7,
+   3
+  ],
+  "neutral": [
+   7,
+   2
+  ],
+  "notes": [
+   "NCAA Tournament Elite Eight",
+   "BIG EAST Tournament Champions",
+   "BIG EAST Regular Season Champions"
+  ],
+  "footnotes": {
+   "$": "BB&T Classic, MCI Center, Washington, DC",
+   "+": "MassMutual \"UGame\", Mullins Center, Amherst, MA",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA East Regional First Round, Washington, DC",
+   "##": "NCAA East Regional Second Round, Washington, DC",
+   "%": "NCAA East Regional Semifinal, Syracuse, N.Y.",
+   "%%": "NCAA East Regional Final, Syracuse, N.Y."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 34,
+   "wl_parsed": [
+    27,
+    7
+   ],
+   "home_parsed": [
+    13,
+    2
+   ],
+   "away_parsed": [
+    7,
+    3
+   ],
+   "neutral_parsed": [
+    7,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2003": {
+  "label": "2002-03",
+  "coach": "Jim Calhoun",
+  "overall": [
+   23,
+   10
+  ],
+  "conf": [
+   10,
+   6
+  ],
+  "home": [
+   14,
+   2
+  ],
+  "away": [
+   5,
+   6
+  ],
+  "neutral": [
+   4,
+   2
+  ],
+  "notes": [
+   "NCAA Tournament Sweet 16",
+   "BIG EAST Regular Season Co-Champions"
+  ],
+  "footnotes": {
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, NY",
+   "#": "NCAA South Regional First Round, Spokane, WA",
+   "##": "NCAA South Regional Second Round, Spokane, WA",
+   "%": "NCAA South Regional Semifinals, San Antonio, TX"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 33,
+   "wl_parsed": [
+    23,
+    10
+   ],
+   "home_parsed": [
+    14,
+    2
+   ],
+   "away_parsed": [
+    5,
+    6
+   ],
+   "neutral_parsed": [
+    4,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2004": {
+  "label": "2003-04",
+  "coach": "Jim Calhoun",
+  "overall": [
+   33,
+   6
+  ],
+  "conf": [
+   12,
+   4
+  ],
+  "home": [
+   17,
+   1
+  ],
+  "away": [
+   6,
+   4
+  ],
+  "neutral": [
+   10,
+   1
+  ],
+  "notes": [
+   "NCAA National Champions",
+   "BIG EAST Tournament Champions"
+  ],
+  "footnotes": {
+   "$": "Pre-Season NIT",
+   "$$": "Pre-Season NIT, Madison Square Garden, New York, N.Y.",
+   "*": "BIG EAST Tournament at Madison Square Garden, New York, N.Y.",
+   "#": "NCAA Phoenix Region First Round, Buffalo, NY",
+   "##": "NCAA Phoenix Region Second Round, Buffalo, NY",
+   "%": "NCAA Phoenix Regional Semifinals, Phoenix, AZ",
+   "%%": "NCAA Phoenix Regional Finals, Phoenix, AZ",
+   "@": "NCAA National Semifinals, San Antonio, TX",
+   "@@": "NCAA National Championship, San Antonio, TX"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 39,
+   "wl_parsed": [
+    33,
+    6
+   ],
+   "home_parsed": [
+    17,
+    1
+   ],
+   "away_parsed": [
+    6,
+    4
+   ],
+   "neutral_parsed": [
+    10,
+    1
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2005": {
+  "label": "2004-05",
+  "coach": "Jim Calhoun",
+  "overall": [
+   23,
+   8
+  ],
+  "conf": [
+   13,
+   3
+  ],
+  "home": [
+   14,
+   3
+  ],
+  "away": [
+   7,
+   3
+  ],
+  "neutral": [
+   2,
+   2
+  ],
+  "notes": [
+   "BIG EAST Regular Season Co-Champions",
+   "NCAA Tournament Second Round"
+  ],
+  "footnotes": {
+   "*": "BIG EAST Tournament at Madison Square Garden, New York, N.Y.",
+   "#": "NCAA Syracuse Region First Round, Worcester, MA",
+   "##": "NCAA Syracuse Region Second Round, Worcester, MA"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 31,
+   "wl_parsed": [
+    23,
+    8
+   ],
+   "home_parsed": [
+    14,
+    3
+   ],
+   "away_parsed": [
+    7,
+    3
+   ],
+   "neutral_parsed": [
+    2,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2006": {
+  "label": "2005-06",
+  "coach": "Jim Calhoun",
+  "overall": [
+   30,
+   4
+  ],
+  "conf": [
+   14,
+   2
+  ],
+  "home": [
+   16,
+   0
+  ],
+  "away": [
+   8,
+   2
+  ],
+  "neutral": [
+   6,
+   2
+  ],
+  "notes": [
+   "BIG EAST Regular Season Co-Champions",
+   "NCAA Tournament Elite Eight",
+   "Maui Invitational Champions"
+  ],
+  "footnotes": {
+   "$": "EA Sports Maui Invitational, Lahaina Civic Center, Lahaina, Hawaii",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA Washington D.C. Region First Round, Philadelphia, PA",
+   "##": "NCAA Washington D.C. Region Second Round, Philadelphia, PA",
+   "%": "NCAA Washington D.C. Regional Semifinals, Washington, D.C.",
+   "%%": "NCAA Washington D.C. Regional Finals, Washington, D.C."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 34,
+   "wl_parsed": [
+    30,
+    4
+   ],
+   "home_parsed": [
+    16,
+    0
+   ],
+   "away_parsed": [
+    8,
+    2
+   ],
+   "neutral_parsed": [
+    6,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2007": {
+  "label": "2006-07",
+  "coach": "Jim Calhoun",
+  "overall": [
+   17,
+   14
+  ],
+  "conf": [
+   6,
+   10
+  ],
+  "home": [
+   15,
+   5
+  ],
+  "away": [
+   2,
+   8
+  ],
+  "neutral": [
+   0,
+   1
+  ],
+  "notes": [],
+  "footnotes": {
+   "$": "Hispanic College Fund Classic, Hartford CC, Hartford, CT",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 31,
+   "wl_parsed": [
+    17,
+    14
+   ],
+   "home_parsed": [
+    15,
+    5
+   ],
+   "away_parsed": [
+    2,
+    8
+   ],
+   "neutral_parsed": [
+    0,
+    1
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2008": {
+  "label": "2007-08",
+  "coach": "Jim Calhoun",
+  "overall": [
+   24,
+   9
+  ],
+  "conf": [
+   13,
+   5
+  ],
+  "home": [
+   16,
+   1
+  ],
+  "away": [
+   7,
+   4
+  ],
+  "neutral": [
+   1,
+   4
+  ],
+  "notes": [
+   "NCAA Tournament First Round"
+  ],
+  "footnotes": {
+   "+": "2K Sports College Hoops Classic, Gampel Pavilion, Storrs, Conn.",
+   "$": "2K Sports College Hoops Classic, Madison Square Garden, New York, N.Y.",
+   "%": "The Hartford Hall of Fame Showcase, TD Banknorth Garden, Boston, Mass.",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA West Region 1st Round, Tampa, Fla."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 33,
+   "wl_parsed": [
+    24,
+    9
+   ],
+   "home_parsed": [
+    16,
+    1
+   ],
+   "away_parsed": [
+    7,
+    4
+   ],
+   "neutral_parsed": [
+    1,
+    4
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2009": {
+  "label": "2008-09",
+  "coach": "Jim Calhoun",
+  "overall": [
+   31,
+   5
+  ],
+  "conf": [
+   15,
+   3
+  ],
+  "home": [
+   14,
+   2
+  ],
+  "away": [
+   9,
+   1
+  ],
+  "neutral": [
+   8,
+   2
+  ],
+  "notes": [
+   "NCAA Final Four",
+   "U.S.V.I. Paradise Jam Champions"
+  ],
+  "footnotes": {
+   "$": "U.S.V.I. Paradise Jam, Univ. of the V.I., Charlotte Amalie, St. Thomas",
+   "%": "Battle in Seattle, Key Arena, Seattle, Wash.",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA West Region, 1st and 2nd Rounds, Philadelphia, Pa.",
+   "##": "NCAA West Regional, Glendale, Ariz.",
+   "###": "NCAA Final Four, Detroit, Mich."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 36,
+   "wl_parsed": [
+    31,
+    5
+   ],
+   "home_parsed": [
+    14,
+    2
+   ],
+   "away_parsed": [
+    9,
+    1
+   ],
+   "neutral_parsed": [
+    8,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2010": {
+  "label": "2009-10",
+  "coach": "Jim Calhoun",
+  "overall": [
+   18,
+   16
+  ],
+  "conf": [
+   7,
+   11
+  ],
+  "home": [
+   15,
+   4
+  ],
+  "away": [
+   2,
+   9
+  ],
+  "neutral": [
+   1,
+   3
+  ],
+  "notes": [
+   "NIT First Round"
+  ],
+  "footnotes": {
+   "$": "NIT Season Tip-Off North Regional, Gampel Pavilion, Storrs, Conn.",
+   "$$": "NIT Season Tip-Off Championship Madison Square Garden, New York, N.Y.",
+   "%": "SEC/BIG EAST Invitational, Madison Square Garden, New York, N.Y.",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NIT First Round, Storrs, Conn.",
+   "##": "NIT Second Round, Blacksburg, Va."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 34,
+   "wl_parsed": [
+    18,
+    16
+   ],
+   "home_parsed": [
+    15,
+    4
+   ],
+   "away_parsed": [
+    2,
+    9
+   ],
+   "neutral_parsed": [
+    1,
+    3
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2011": {
+  "label": "2010-11",
+  "coach": "Jim Calhoun",
+  "overall": [
+   32,
+   9
+  ],
+  "conf": [
+   9,
+   9
+  ],
+  "home": [
+   13,
+   4
+  ],
+  "away": [
+   5,
+   5
+  ],
+  "neutral": [
+   14,
+   0
+  ],
+  "notes": [
+   "NCAA National Champions",
+   "BIG EAST Tournament Champions",
+   "Maui Invitational Champions"
+  ],
+  "footnotes": {
+   "$": "EA Sports Maui Invitational, Lahaina Civic Center, Lahaina, Hawaii",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA West Region 2nd and 3rd Round, Verizon Center, Washington, D.C.",
+   "##": "NCAA West Regional, Honda Center, Anaheim, Calif.",
+   "###": "NCAA Final Four, Reliant Stadium, Houston, Texas"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 41,
+   "wl_parsed": [
+    32,
+    9
+   ],
+   "home_parsed": [
+    13,
+    4
+   ],
+   "away_parsed": [
+    5,
+    5
+   ],
+   "neutral_parsed": [
+    14,
+    0
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2012": {
+  "label": "2011-12",
+  "coach": "Jim Calhoun",
+  "overall": [
+   20,
+   14
+  ],
+  "conf": [
+   8,
+   10
+  ],
+  "home": [
+   13,
+   4
+  ],
+  "away": [
+   3,
+   7
+  ],
+  "neutral": [
+   4,
+   3
+  ],
+  "notes": [
+   "NCAA Tournament First Round"
+  ],
+  "footnotes": {
+   "$": "Battle 4 Atlantis, Paradise Island, Bahamas",
+   "*": "Big East Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA Championship, South Region 2nd Round, KFC Yum! Center, Louisville, Ky."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 34,
+   "wl_parsed": [
+    20,
+    14
+   ],
+   "home_parsed": [
+    13,
+    4
+   ],
+   "away_parsed": [
+    3,
+    7
+   ],
+   "neutral_parsed": [
+    4,
+    3
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2013": {
+  "label": "2012-13",
+  "coach": "Kevin Ollie",
+  "overall": [
+   20,
+   10
+  ],
+  "conf": [
+   10,
+   8
+  ],
+  "home": [
+   13,
+   3
+  ],
+  "away": [
+   4,
+   5
+  ],
+  "neutral": [
+   3,
+   2
+  ],
+  "notes": [
+   "Armed Forces Classic champion",
+   "Ineligible for postseason play"
+  ],
+  "footnotes": {
+   "%": "Armed Forces Classic, Ramstein Air Base, Ramstein, Germany",
+   "$": "U.S.V.I. Paradise Jam, Univ. of the Virgin Islands, Charlotte Amalie, St. Thomas",
+   "&": "Jimmy V Classic, Madison Square Garden, New York, N.Y."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 30,
+   "wl_parsed": [
+    20,
+    10
+   ],
+   "home_parsed": [
+    13,
+    3
+   ],
+   "away_parsed": [
+    4,
+    5
+   ],
+   "neutral_parsed": [
+    3,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2014": {
+  "label": "2013-14",
+  "coach": "Kevin Ollie",
+  "overall": [
+   32,
+   8
+  ],
+  "conf": [
+   12,
+   6
+  ],
+  "home": [
+   15,
+   3
+  ],
+  "away": [
+   7,
+   4
+  ],
+  "neutral": [
+   10,
+   1
+  ],
+  "notes": [
+   "NCAA National Champion",
+   "2K Sports Classic Champion"
+  ],
+  "footnotes": {
+   "%": "Barclay’s Center, Brooklyn, N.Y.",
+   "$": "2K Sports Classic, Gampel Pavilion, Storrs, Conn.",
+   "$$": "2K Sports Classic, Madison Square Garden, New York, N.Y.",
+   "*": "American Athletic Conference Championship, FedExForum, Memphis, Tenn.",
+   "#": "NCAA East Region, 2nd and 3rd Rounds, First Niagara Center, Buffalo, N.Y.",
+   "##": "NCAA East Regional, Madison Square Garden, New York, N.Y.",
+   "###": "NCAA Final Four, AT&T Stadium, Arlington, Texas"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 40,
+   "wl_parsed": [
+    32,
+    8
+   ],
+   "home_parsed": [
+    15,
+    3
+   ],
+   "away_parsed": [
+    6,
+    4
+   ],
+   "neutral_parsed": [
+    11,
+    1
+   ],
+   "wl_ok": true,
+   "han_ok": false
+  }
+ },
+ "2015": {
+  "label": "2014-15",
+  "coach": "Kevin Ollie",
+  "overall": [
+   20,
+   15
+  ],
+  "conf": [
+   10,
+   8
+  ],
+  "home": [
+   11,
+   5
+  ],
+  "away": [
+   4,
+   7
+  ],
+  "neutral": [
+   5,
+   3
+  ],
+  "notes": [
+   "NIT First Round"
+  ],
+  "footnotes": {
+   "$": "Puerto Rico Tip-Off, Coliseo Roberto Clemente, San Juan",
+   "%": "Izod Center, East Rutherford, N.J.",
+   "*": "American Athletic Conference Championship, XL Center, Hartford, Conn.",
+   "#": "NIT, 1st Round, Gampel Pavilion, Storrs, Conn."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 35,
+   "wl_parsed": [
+    20,
+    15
+   ],
+   "home_parsed": [
+    11,
+    5
+   ],
+   "away_parsed": [
+    4,
+    7
+   ],
+   "neutral_parsed": [
+    5,
+    3
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2016": {
+  "label": "2015-16",
+  "coach": "Kevin Ollie",
+  "overall": [
+   25,
+   11
+  ],
+  "conf": [
+   11,
+   7
+  ],
+  "home": [
+   14,
+   3
+  ],
+  "away": [
+   6,
+   4
+  ],
+  "neutral": [
+   5,
+   4
+  ],
+  "notes": [
+   "AAC Tournament Champion",
+   "NCAA Second Round"
+  ],
+  "footnotes": {
+   "$": "Battle 4 Atlantis, Imperial Arena, Paradise Island, Bahamas",
+   "%": "Jimmy V Classic, Madison Square Garden, New York, N.Y.",
+   "*": "American Athletic Conference Championship, Amway Center, Orlando, Fla.",
+   "#": "NCAA South Region, 1st and 2nd Rounds, Wells Fargo Arena, Des Moines, Iowa"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 36,
+   "wl_parsed": [
+    25,
+    11
+   ],
+   "home_parsed": [
+    14,
+    3
+   ],
+   "away_parsed": [
+    6,
+    4
+   ],
+   "neutral_parsed": [
+    5,
+    4
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2017": {
+  "label": "2016-17",
+  "coach": "Kevin Ollie",
+  "overall": [
+   16,
+   17
+  ],
+  "conf": [
+   9,
+   9
+  ],
+  "home": [
+   8,
+   6
+  ],
+  "away": [
+   4,
+   8
+  ],
+  "neutral": [
+   4,
+   3
+  ],
+  "notes": [],
+  "footnotes": {
+   "$": "Maui Jim Maui Invitational, Lahaina Civic center, Maui, Hawaii",
+   "&": "Tire Pros Classic, Madison Square Garden, New York, N.Y.",
+   "*": "American Athletic Conference Championship, XL Center, Hartford, Conn."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 33,
+   "wl_parsed": [
+    16,
+    17
+   ],
+   "home_parsed": [
+    8,
+    6
+   ],
+   "away_parsed": [
+    4,
+    8
+   ],
+   "neutral_parsed": [
+    4,
+    3
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2018": {
+  "label": "2017-18#",
+  "coach": "Kevin Ollie",
+  "overall": [
+   14,
+   18
+  ],
+  "conf": [
+   7,
+   11
+  ],
+  "home": [
+   11,
+   5
+  ],
+  "away": [
+   2,
+   9
+  ],
+  "neutral": [
+   1,
+   4
+  ],
+  "notes": [],
+  "footnotes": {
+   "$": "PK80 Phil Knight Invitational, Moda Center-Veterans Memorial Coliseum, Portland, Ore.",
+   "&": "Jimmy V Classic, Madison Square Garden, New York, N.Y.",
+   "*": "American Athletic Conference Championship, Amway Center, Orlando, Fla..",
+   "#": "31 games vacated; official NCAA record 0-1"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 32,
+   "wl_parsed": [
+    14,
+    18
+   ],
+   "home_parsed": [
+    11,
+    5
+   ],
+   "away_parsed": [
+    2,
+    9
+   ],
+   "neutral_parsed": [
+    1,
+    4
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2019": {
+  "label": "2018-19",
+  "coach": "Dan Hurley",
+  "overall": [
+   16,
+   17
+  ],
+  "conf": [
+   6,
+   12
+  ],
+  "home": [
+   13,
+   5
+  ],
+  "away": [
+   1,
+   8
+  ],
+  "neutral": [
+   2,
+   4
+  ],
+  "notes": [],
+  "footnotes": {
+   "$": "2K Empire Classic Regional Round, Gampel Pavilion, Storrs, Conn.",
+   "&": "2K Empire Classic Championship Round, Madison Square Garden, New York, N.Y.",
+   "%": "Never Forget Tribute Classic, Prudential Center, Newark, N.J.",
+   "*": "American Athletic Conference Championship, FedExForum, Memphis, Tenn."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 33,
+   "wl_parsed": [
+    16,
+    17
+   ],
+   "home_parsed": [
+    13,
+    5
+   ],
+   "away_parsed": [
+    1,
+    8
+   ],
+   "neutral_parsed": [
+    2,
+    4
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2020": {
+  "label": "2019-20",
+  "coach": "Dan Hurley",
+  "overall": [
+   19,
+   12
+  ],
+  "conf": [
+   10,
+   8
+  ],
+  "home": [
+   14,
+   3
+  ],
+  "away": [
+   3,
+   7
+  ],
+  "neutral": [
+   2,
+   2
+  ],
+  "notes": [],
+  "footnotes": {
+   "&": "Charleston Classic, TD Arena, Charleston, S.C.",
+   "$": "Jimmy V Classic, Madison Square Garden, New York, N.Y.",
+   "**": "American Athletic Conference Championship (Dickies Arena, Fort Worth, Texas) cancelled due to global pandemic."
+  },
+  "not_played": [
+   {
+    "date": null,
+    "text": "3/12-15 **",
+    "status": "Canceled (AAC tournament, COVID-19)"
+   }
+  ],
+  "check": {
+   "games_parsed": 31,
+   "wl_parsed": [
+    19,
+    12
+   ],
+   "home_parsed": [
+    14,
+    3
+   ],
+   "away_parsed": [
+    3,
+    7
+   ],
+   "neutral_parsed": [
+    2,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2021": {
+  "label": "2020-21",
+  "coach": "Dan Hurley",
+  "overall": [
+   15,
+   8
+  ],
+  "conf": [
+   11,
+   6
+  ],
+  "home": [
+   7,
+   3
+  ],
+  "away": [
+   6,
+   3
+  ],
+  "neutral": [
+   2,
+   2
+  ],
+  "notes": [
+   "NCAA Tournament First Round"
+  ],
+  "footnotes": {
+   "&": "Legends Classic, Mohegan Sun Arena, Uncasville, Conn.",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA Tournament, First Round, Mackey Arena, West Lafayette, Ind."
+  },
+  "not_played": [
+   {
+    "date": "2020-12-01",
+    "text": "12/1 vs. Vanderbilt & ARV -- ESPN2 Canceled",
+    "status": "Canceled"
+   },
+   {
+    "date": "2020-12-05",
+    "text": "12/5 vs. N. Carolina St. (MSA) ARV -- ESPNU Canceled",
+    "status": "Canceled"
+   },
+   {
+    "date": "2020-12-11",
+    "text": "12/11 St. John's (GP) ARV -- FS1 Postponed",
+    "status": "Postponed"
+   },
+   {
+    "date": "2020-12-13",
+    "text": "12/13 at Georgetown ARV -- FS1 Postponed",
+    "status": "Postponed"
+   },
+   {
+    "date": "2020-12-17",
+    "text": "12/17 at Providence ARV -- FS1 Postponed",
+    "status": "Postponed"
+   },
+   {
+    "date": "2020-12-23",
+    "text": "12/23 at DePaul -- FS1 Postponed",
+    "status": "Postponed"
+   },
+   {
+    "date": "2021-01-15",
+    "text": "1/15 Villanova (GP) 25 -- FS1 Postponed",
+    "status": "Postponed"
+   },
+   {
+    "date": "2021-01-20",
+    "text": "1/20 Xavier (GP) 23 -- CBS SN Postponed",
+    "status": "Postponed"
+   },
+   {
+    "date": "2021-01-28",
+    "text": "1/28 Villanova (GP) ARV 3 -- FS1 Postponed",
+    "status": "Postponed"
+   },
+   {
+    "date": "2021-01-31",
+    "text": "1/31 at St. John's ARV -- FOX Postponed",
+    "status": "Postponed"
+   }
+  ],
+  "check": {
+   "games_parsed": 23,
+   "wl_parsed": [
+    15,
+    8
+   ],
+   "home_parsed": [
+    7,
+    3
+   ],
+   "away_parsed": [
+    6,
+    3
+   ],
+   "neutral_parsed": [
+    2,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2022": {
+  "label": "2021-22",
+  "coach": "Dan Hurley",
+  "overall": [
+   23,
+   10
+  ],
+  "conf": [
+   13,
+   6
+  ],
+  "home": [
+   14,
+   2
+  ],
+  "away": [
+   5,
+   5
+  ],
+  "neutral": [
+   4,
+   3
+  ],
+  "notes": [
+   "NCAA Tournament First Round"
+  ],
+  "footnotes": {
+   "&": "Battle 4 Atlantis, Paradise Island, Bahamas",
+   "$": "BIG EAST-Big 12 Battle, Morgantown, WVa.",
+   "%": "Never Forget Tribute Classic, Prudential Center, Newark, N.J.",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA Tournament, 1st Round, KeyBank Center, Buffalo, N.Y."
+  },
+  "not_played": [
+   {
+    "date": "2021-12-28",
+    "text": "12/28 at Xavier ARV 23 Postponed to 2/11",
+    "status": "Postponed"
+   },
+   {
+    "date": "2022-01-01",
+    "text": "1/1 Butler (XL) ARV Postponed to 1/18",
+    "status": "Postponed"
+   },
+   {
+    "date": "2022-01-15",
+    "text": "1/15 at Providence ARV Canceled",
+    "status": "Canceled"
+   }
+  ],
+  "check": {
+   "games_parsed": 33,
+   "wl_parsed": [
+    23,
+    10
+   ],
+   "home_parsed": [
+    14,
+    2
+   ],
+   "away_parsed": [
+    5,
+    5
+   ],
+   "neutral_parsed": [
+    4,
+    3
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2023": {
+  "label": "2022-23",
+  "coach": "Dan Hurley",
+  "overall": [
+   31,
+   8
+  ],
+  "conf": [
+   13,
+   7
+  ],
+  "home": [
+   15,
+   2
+  ],
+  "away": [
+   6,
+   5
+  ],
+  "neutral": [
+   10,
+   1
+  ],
+  "notes": [
+   "NCAA National Champions",
+   "Phil Knight Invitational Champions"
+  ],
+  "footnotes": {
+   "&": "Phil Knight Invitational, Moda Center, Portland, Ore.",
+   "&^": "Phil Knight Invitational, Veterans Memorial Coliseum, Portland, Ore.",
+   "$": "BIG EAST-Big 12 Battle",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA Tournament, 1st and 2nd Rounds, MVP Arena, Albany, N.Y.",
+   "##": "NCAA Tournament West Regional, T-Mobile Arena, Las Vegas, Nev.",
+   "###": "NCAA Tournament Final Four, NRG Stadium, Houston, Texas"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 39,
+   "wl_parsed": [
+    31,
+    8
+   ],
+   "home_parsed": [
+    15,
+    2
+   ],
+   "away_parsed": [
+    6,
+    5
+   ],
+   "neutral_parsed": [
+    10,
+    1
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2024": {
+  "label": "2023-24",
+  "coach": "Dan Hurley",
+  "overall": [
+   37,
+   3
+  ],
+  "conf": [
+   18,
+   2
+  ],
+  "home": [
+   16,
+   0
+  ],
+  "away": [
+   9,
+   3
+  ],
+  "neutral": [
+   12,
+   0
+  ],
+  "notes": [
+   "NCAA National Champions",
+   "BIG EAST Regular Season Champions",
+   "BIG EAST Tournament Champions",
+   "Empire Classic Champions"
+  ],
+  "footnotes": {
+   "^": "Empire Classic, Madison Square Garden, New York, N.Y.",
+   "%": "BIG EAST-Big 12 Battle",
+   "&": "Jimmy V Classic, Madison Square Garden, New York, N.Y.",
+   "@": "Continental Tire Seattle Tip-Off, Climate Pledge Arena, Seattle, Wash.",
+   "*": "BIG EAST Tournament, Madison Square Garden, New York, N.Y.",
+   "#": "NCAA First and Second Rounds, Barclays Center, Brooklyn, N.Y.",
+   "##": "NCAA East Regional, TD Garden, Boston, Mass.",
+   "###": "NCAA Final Four, Statefarm Stadium, Glendale, Ariz."
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 40,
+   "wl_parsed": [
+    37,
+    3
+   ],
+   "home_parsed": [
+    16,
+    0
+   ],
+   "away_parsed": [
+    9,
+    3
+   ],
+   "neutral_parsed": [
+    12,
+    0
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2025": {
+  "label": "2024-25",
+  "coach": "Dan Hurley",
+  "overall": [
+   24,
+   11
+  ],
+  "conf": [
+   14,
+   6
+  ],
+  "home": [
+   14,
+   2
+  ],
+  "away": [
+   7,
+   4
+  ],
+  "neutral": [
+   3,
+   5
+  ],
+  "notes": [
+   "NCAA Second Round"
+  ],
+  "footnotes": {
+   "^": "2024 Maui Invitational (Lahaina Civic Center, Lahaina, Hawaii)",
+   "@": "BIG EAST-Big 12 Battle",
+   "%": "Basketball Hall of Fame Series (Madison Square Garden, New York, N.Y.)",
+   "*": "BIG EAST Tournament (Madison Square Garden, New York, N.Y.)",
+   "#": "NCAA Tournament First & Second Rounds (Lenovo Center, Raleigh, N.C.)"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 35,
+   "wl_parsed": [
+    24,
+    11
+   ],
+   "home_parsed": [
+    14,
+    2
+   ],
+   "away_parsed": [
+    7,
+    4
+   ],
+   "neutral_parsed": [
+    3,
+    5
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ },
+ "2026": {
+  "label": "2025-26",
+  "coach": "Dan Hurley",
+  "overall": [
+   34,
+   6
+  ],
+  "conf": [
+   17,
+   3
+  ],
+  "home": [
+   15,
+   2
+  ],
+  "away": [
+   9,
+   2
+  ],
+  "neutral": [
+   10,
+   2
+  ],
+  "notes": [
+   "NCAA Runner-Up"
+  ],
+  "footnotes": {
+   "^": "Hall of Fame Series Boston (TD Garden, Boston, Mass.)",
+   "%": "SentinelOne Showdown (Madison Square Garden, New York, N.Y.)",
+   "&": "Jimmy V Classic (Madison Square Garden, New York, N.Y.)",
+   "*": "BIG EAST Tournament (Madison Square Garden, New York, N.Y.)",
+   "!": "NCAA First and Second Rounds (Xfinity Mobile Arena, Philadelphia, Pa.)",
+   "~": "NCAA East Regional (Capital One Arena, Washington, D.C.)",
+   "+": "NCAA Final Four (Lucas Oil Stadium, Indianapolis, Ind.)"
+  },
+  "not_played": [],
+  "check": {
+   "games_parsed": 40,
+   "wl_parsed": [
+    34,
+    6
+   ],
+   "home_parsed": [
+    15,
+    2
+   ],
+   "away_parsed": [
+    9,
+    2
+   ],
+   "neutral_parsed": [
+    10,
+    2
+   ],
+   "wl_ok": true,
+   "han_ok": true
+  }
+ }
+}
