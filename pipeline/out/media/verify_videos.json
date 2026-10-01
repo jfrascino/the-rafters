@@ -333,6 +333,22 @@
    "old": "Uconn vs pitt (VJ10014; linked to 2011-03-10 Pittsburgh)",
    "new": null,
    "reason": "62-second fan upload (26 views) whose own description says '2011 big east championship / March 11 2011' -- March 11 was the Syracuse semifinal, the Pitt game was March 10. What it shows can't be confirmed, so it comes off. Flagged by the Moments research, 2026-10-01."
+  },
+  {
+   "id": "_R2SIVU9dJU",
+   "status": "FIX",
+   "field": "description",
+   "old": "Highlights of UConn's 69\u201354 win over Syracuse (1998 Big East Tournament Final) at Madison Square Garden; uploaded by GampelCrazies.",
+   "new": "Highlights of UConn's 69\u201364 win over Syracuse (1998 Big East Tournament Final) at Madison Square Garden; uploaded by GampelCrazies.",
+   "reason": "The 1998 Big East final was 69-64 (the score was already corrected in the season story)."
+  },
+  {
+   "id": "X4wOus1Ju3M",
+   "status": "REMOVE",
+   "field": "video",
+   "old": "Ray Allen UConn vs Georgetown 1996 (Mr. Martin Productions; linked to the 1996 Big East final)",
+   "new": null,
+   "reason": "No description; its ESPN Classic score bug reads Georgetown 31, UConn 40 with 3:13 left in the first half, which doesn't fit the Big East final (Georgetown led 46-42 at halftime after scoring the half's last six points). It may be the Feb. 19 game but that can't be confirmed either."
   }
  ]
 }

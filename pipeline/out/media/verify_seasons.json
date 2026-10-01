@@ -404,6 +404,24 @@
    "new": "came on April 18, when Braylon Mullins",
    "reason": "Mullins announced his return on Instagram on Saturday, April 18, 2026 (his 20th birthday).",
    "source": "https://www.wfsb.com/2026/04/18/braylon-mullins-announces-decision-about-uconn-return/; https://sports.yahoo.com/articles/star-guard-braylon-mullins-returns-233717619.html"
+  },
+  {
+   "year": 1998,
+   "field": "story",
+   "status": "FIX",
+   "old": "the Huskies got three shots in the final 15 seconds, and Hamilton rebounded a Jake Voskuhl miss, then his own, before hitting the winner at the horn, 75\u201374.",
+   "new": "the Huskies got three shots in the final seconds: Jake Voskuhl's rimmed out, Hamilton's putback rolled in and out, and when the ball was tipped back to him Hamilton hit the winner at the horn, 75\u201374.",
+   "reason": "Hamilton didn't rebound his own miss: after his putback rolled out the ball was tipped back to him (by Kevin Freeman, per the NYT); AP called the winner UConn's third shot in the final eight seconds.",
+   "source": "https://www.nytimes.com/1998/03/20/sports/ncaa-tournament-east-uconn-wins-with-shot-at-buzzer.html; AP game story via Washington Athletics (Moments research 2026-10-01)"
+  },
+  {
+   "year": 1996,
+   "field": "story",
+   "status": "FIX",
+   "old": "Ray Allen's off-balance winner with 14 seconds to go, 75\u201374",
+   "new": "Ray Allen's off-balance winner with 13.6 seconds to go, 75\u201374",
+   "reason": "UPI and the game's on-screen clock put Allen's shot at 13.6 seconds left.",
+   "source": "UPI game story, March 9, 1996; ESPN broadcast (Moments research 2026-10-01)"
   }
  ]
 }
