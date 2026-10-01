@@ -2051,6 +2051,8 @@ import moments   # long-form Moments pages, built from the fact-checked drafts +
 moments.main()
 import venues_build   # Home floors: record book lines + every game since 1986-87 in its true building
 venues_build.main()
+import history_build   # the early years (1900-01 to 1976-77) from the record book (out/official/history.json)
+history_build.main()
 sizes = sum(os.path.getsize(f) for f in glob.glob(os.path.join(SITE, '**', '*.json'), recursive=True))
 jdump(os.path.join(OUT, 'official', 'stats_validation.json'), OFFICIAL_STATS.report)
 print(f'jersey numbers: record book and roster archive disagree on {len(NUM_DISAGREE)}: {NUM_DISAGREE}')
