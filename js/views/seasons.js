@@ -11,6 +11,7 @@ export default async function seasons(main, _args, core) {
     <div id="eras">${byEra.map(({ e, list }) => `
       <div class="era-block">
         <div class="era-title"><h2 class="h2">${esc(e.name)}</h2><span class="muted">${e.from - 1}–${e.to === 9999 ? 'now' : e.to} · ${e.w}–${e.l}${e.titles?.length ? ` · ${e.titles.length} title${e.titles.length > 1 ? 's' : ''}` : ''}</span></div>
+        ${e.recordNote ? `<p class="note stat-note" style="margin:-6px 0 16px">${e.w}–${e.l} is his official record; the team went ${e.courtW}–${e.courtL} on the court. ${esc(e.recordNote)}</p>` : ''}
         <div class="covers">${list.map(cover).join('')}</div>
       </div>`).join('')}</div>
   </div></section>`;

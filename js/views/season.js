@@ -74,7 +74,7 @@ export default async function season(main, args, core) {
   </div></section>
 
   ${(s.polls || []).length > 1 ? `<section class="section"><div class="wrap">
-    <div class="sec-head"><div><span class="eyebrow">AP Top 25, week by week</span><h2 class="h2">The poll ride</h2></div></div>
+    <div class="sec-head"><div><span class="eyebrow">AP Top ${s.y >= 1990 ? 25 : 20}, week by week</span><h2 class="h2">The poll ride</h2></div></div>
     <div class="panel chart-card" id="poll"></div>
   </div></section>` : ''}
 
@@ -177,12 +177,12 @@ function statTables(s, roster) {
       { k: 'pts', label: 'PTS', get: G('pts'), fmt: n1, heat: 1 }, { k: 'trb', label: 'REB', get: G('trb'), fmt: n1, heat: 1 }, { k: 'ast', label: 'AST', get: G('ast'), fmt: n1, heat: 1 },
       { k: 'stl', label: 'STL', get: G('stl'), fmt: n1, title: 'Steals' }, { k: 'blk', label: 'BLK', get: G('blk'), fmt: n1, title: 'Blocks' }, { k: 'tov', label: 'TO', get: G('tov'), fmt: n1, title: 'Turnovers' },
       { k: 'fg_pct', label: 'FG%', get: G('fg_pct'), fmt: pct }, { k: 'fg3_pct', label: '3P%', get: G('fg3_pct'), fmt: pct, title: '3-point %' }, { k: 'ft_pct', label: 'FT%', get: G('ft_pct'), fmt: pct },
-      { k: 'orb', label: 'OREB', get: G('orb'), fmt: n1, title: 'Offensive rebounds' }, { k: 'pf', label: 'PF', get: G('pf'), fmt: n1, title: 'Personal fouls' }], withStats, { sort: 'pts', hideEmpty: true, era: s.label }),
+      { k: 'orb', label: 'OREB', get: G('orb'), fmt: n1, title: 'Offensive rebounds' }, { k: 'pf', label: 'PF', get: G('pf'), fmt: n1, title: 'Personal fouls' }], withStats, { sort: 'pts', hideEmpty: true, era: s.label, y: s.y }),
     () => statTable([who, { k: 'g', label: 'G', get: T('g') }, { k: 'mp', label: 'MIN', get: T('mp'), fmt: n0, title: 'Minutes' }, { k: 'pts', label: 'PTS', get: T('pts'), fmt: n0, heat: 1 },
       { k: 'fg', label: 'FGM', get: T('fg') }, { k: 'fga', label: 'FGA', get: T('fga') }, { k: 'fg3', label: '3PM', get: T('fg3'), title: '3-pointers made' }, { k: 'fg3a', label: '3PA', get: T('fg3a'), title: '3-pointers attempted' },
       { k: 'ft', label: 'FTM', get: T('ft') }, { k: 'fta', label: 'FTA', get: T('fta') }, { k: 'orb', label: 'OREB', get: T('orb'), title: 'Offensive rebounds' }, { k: 'trb', label: 'REB', get: T('trb'), heat: 1 },
       { k: 'ast', label: 'AST', get: T('ast'), heat: 1 }, { k: 'stl', label: 'STL', get: T('stl'), title: 'Steals' }, { k: 'blk', label: 'BLK', get: T('blk'), title: 'Blocks' }, { k: 'tov', label: 'TO', get: T('tov'), title: 'Turnovers' }, { k: 'pf', label: 'PF', get: T('pf'), title: 'Personal fouls' }],
-      withStats.filter((r) => r.tot), { sort: 'pts', hideEmpty: true, era: s.label }),
+      withStats.filter((r) => r.tot), { sort: 'pts', hideEmpty: true, era: s.label, y: s.y }),
     () => {
       const cols = [who, { k: 'per', label: 'PER', get: A('per'), fmt: n1, heat: 1, title: 'Player Efficiency Rating' }, { k: 'ts_pct', label: 'TS%', get: A('ts_pct'), fmt: pct, title: 'True shooting %' },
         { k: 'efg_pct', label: 'eFG%', get: A('efg_pct'), fmt: pct }, { k: 'usg_pct', label: 'USG%', get: A('usg_pct'), fmt: n1, title: 'Usage rate' }, { k: 'ast_pct', label: 'AST%', get: A('ast_pct'), fmt: n1 },
@@ -190,7 +190,7 @@ function statTables(s, roster) {
         { k: 'ortg', label: 'ORtg', get: A('off_rtg'), fmt: n1 }, { k: 'drtg', label: 'DRtg', get: A('def_rtg'), fmt: n1 }, { k: 'ws', label: 'WS', get: A('ws'), fmt: n1, heat: 1, title: 'Win shares' },
         { k: 'bpm', label: 'BPM', get: A('bpm'), fmt: n1, title: 'Box plus/minus' }];
       const rows = withStats.filter((r) => r.adv);
-      return rows.length ? statTable(cols, rows, { sort: 'ws', hideEmpty: true, era: s.label }) : { html: '<div class="empty">Advanced stats are not available for this season.</div>', bind() {} };
+      return rows.length ? statTable(cols, rows, { sort: 'ws', hideEmpty: true, era: s.label, y: s.y }) : { html: '<div class="empty">Advanced stats are not available for this season.</div>', bind() {} };
     },
     () => {
       const t = s.team?.pg || {}, o = s.team?.opp || {};
@@ -212,12 +212,12 @@ export function schedule(games, opts = {}) {
     const post = g.type === 'NCAA' || g.type === 'NIT';
     const ha = g.ha === 'A' ? 'at' : g.ha === 'N' ? 'vs.' : 'vs.';
     const site = g.arena || (!g.res && g.ha === 'H' ? 'Home site TBA (Storrs or Hartford)' : '');
-    const sub = [g.vacated ? 'Vacated by the NCAA' : '', g.round, site, g.tv && !g.res ? g.tv : ''].filter(Boolean).join(' · ');
+    const sub = [g.vacated ? 'Vacated by the NCAA' : '', g.forfeit ? 'Forfeit win: lost on the court, the opponent later forfeited' : '', g.round, site, g.tv && !g.res ? g.tv : ''].filter(Boolean).join(' · ');
     return `${head}<a class="srow${post ? ' post' : ''}" href="#/game/${g.id}">
       <span class="d">${fmtDate(day)}<br><span style="font-size:11px">${new Date(day + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short' })}</span></span>
       ${logo(g.opp)}
       <span class="o"><b><span class="muted" style="font-weight:600">${ha}</span> ${g.opp.rank ? `<span class="rk">${g.opp.rank}</span>` : ''}${esc(g.opp.name)}</b>${sub ? `<small>${esc(sub)}</small>` : ''}</span>
-      <span class="r ${g.res || ''}">${g.res ? `${g.res} ${g.pts}–${g.opp_pts}${g.ot ? `<em>${esc(g.ot)}</em>` : ''}` : `<span class="muted" style="font-size:14px">${esc(fmtTime(g.date) || 'TBA')}</span>`}</span>
+      <span class="r ${g.res || ''}">${g.res ? `${g.res}${g.forfeit ? '<em>FF</em>' : ''} ${g.pts}–${g.opp_pts}${g.ot ? `<em>${esc(g.ot)}</em>` : ''}` : `<span class="muted" style="font-size:14px">${esc(fmtTime(g.date) || 'TBA')}</span>`}</span>
       <span class="x" aria-hidden="true">${g.box ? '›' : ''}</span>
     </a>`;
   }).join('');

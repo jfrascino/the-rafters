@@ -17,7 +17,7 @@ export default async function game(main, args, core) {
   const left = home ? O : U, right = home ? U : O; // scoreboard convention: away on the left
   const final = !!g.res;
   const nPer = Math.max(U.line?.length || 0, O.line?.length || 0);
-  const title = `${g.res ? (g.res === 'W' ? 'UConn beats' : 'UConn falls to') : 'UConn vs.'} ${g.opp.name}`;
+  const title = g.forfeit ? `UConn falls to ${g.opp.name}, wins by forfeit` : `${g.res ? (g.res === 'W' ? 'UConn beats' : 'UConn falls to') : 'UConn vs.'} ${g.opp.name}`;
 
   main.innerHTML = `<div data-title="${esc(`${title}, ${fmtDate(g.day || g.date, { year: true })}`)}"></div>
   <section class="g-hero"><div class="wrap">
@@ -34,7 +34,7 @@ export default async function game(main, args, core) {
         </div>
         ${teamBlock(right, g, right === U)}
       </div>
-      <div class="board-foot"><span>${esc(fmtDay(g.day || g.date))} ${esc(fmtDate(g.day || g.date, { year: true }))}</span>${d?.venue?.name || g.arena ? `<span>${esc(d?.venue?.name || g.arena)}${d?.venue?.city || g.city ? ', ' + esc(d?.venue?.city || g.city) : ''}</span>` : ''}${d?.att || g.att ? `<span>Att. ${(+(d?.att || g.att)).toLocaleString()}</span>` : ''}${d?.tv || g.tv ? `<span>${esc(d?.tv || g.tv)}</span>` : ''}${g.rec ? `<span>UConn ${esc(g.rec)}</span>` : ''}${g.vacated ? '<span style="color:var(--red-soft)">Vacated by the NCAA</span>' : ''}</div>
+      <div class="board-foot"><span>${esc(fmtDay(g.day || g.date))} ${esc(fmtDate(g.day || g.date, { year: true }))}</span>${d?.venue?.name || g.arena ? `<span>${esc(d?.venue?.name || g.arena)}${d?.venue?.city || g.city ? ', ' + esc(d?.venue?.city || g.city) : ''}</span>` : ''}${d?.att || g.att ? `<span>Att. ${(+(d?.att || g.att)).toLocaleString()}</span>` : ''}${d?.tv || g.tv ? `<span>${esc(d?.tv || g.tv)}</span>` : ''}${g.rec ? `<span>UConn ${esc(g.rec)}</span>` : ''}${g.vacated ? '<span style="color:var(--red-soft)">Vacated by the NCAA</span>' : ''}${g.forfeit ? `<span style="color:var(--gold)">${esc(typeof g.forfeit === 'string' ? g.forfeit : 'Forfeit win')}</span>` : ''}</div>
     </div>
   </div></section>
   <div id="gbody"></div>`;
