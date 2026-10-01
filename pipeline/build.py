@@ -975,21 +975,40 @@ def plays_for(e, uc_home):
     return rows, wp
 
 
+CLIP_ACT = [('made', ('made', 'makes')), ('missed', ('missed', 'misses')), ('block', ('block',)), ('steal', ('steal',)), ('turnover', ('turnover',)),
+            ('foul', ('foul',)), ('rebound', ('rebound',))]
+
+
 def clip_index(e, rows):
-    """Match ESPN per-play clips ("1H (15:36) ...") to play rows."""
+    """Match ESPN per-play clips ("1H (15:36) ..." / headline "2H CONN J. Adams made Jumper.") to play rows.
+    Several plays often share one clock second (a block and its rebound), so a clip goes to the play, within 4 seconds,
+    whose player is named in the clip's headline, preferring the same action and the closest clock.
+    No confident match = no clip: a wrong clip is worse than none."""
     out = {}
-    by = collections.defaultdict(list)
-    for i, r in enumerate(rows):
-        by[(r[0], r[1])].append(i)
+    secs = lambda c: int(c.split(':')[0]) * 60 + int(c.split(':')[1].split('.')[0])
+
+    def player(t):
+        m = re.match(r"^\s*(?:Foul on\s+)?([A-Z][\w.'\-]*(?:\s+[A-Z][\w.'\-]*){0,3})\s+(?:made|missed|makes|misses|Block|Steal|Turnover|Offensive|Defensive|Foul|Jumpball|blocked|Technical|\.)", t or '')
+        if not m and (t or '').startswith('Foul on '):
+            m = re.match(r'^Foul on\s+(.+?)\.?$', t)
+        return re.sub(r'[^a-z\- ]', '', m.group(1).lower()).split()[-1] if m else None
+
     for v in e.get('videos') or []:
         m = re.match(r'\s*(\d)H \((\d+:\d\d)\)|\s*OT(\d?) \((\d+:\d\d)\)', v.get('description') or '')
         if not m or not (v.get('links') or {}).get('mp4'):
             continue
         per = int(m.group(1)) if m.group(1) else 2 + int(m.group(3) or 1)
-        clk = m.group(2) or m.group(4)
-        cands = by.get((per, clk)) or by.get((per, clk.lstrip('0')))
-        if cands:
-            out[cands[-1]] = {'src': v['links']['mp4'], 'thumb': v.get('thumbnail'), 'title': v.get('headline')}
+        clk = secs(m.group(2) or m.group(4))
+        title = v.get('headline') or ''
+        tl = title.lower()
+        act = next((alts for k, alts in CLIP_ACT if k in tl), None)
+        cands = sorted((i for i, r in enumerate(rows) if r[0] == per and r[1] and abs(secs(r[1]) - clk) <= 4), key=lambda i: abs(secs(rows[i][1]) - clk))
+        named = [i for i in cands if (lambda n: n and len(n) >= 3 and re.search(r'\b' + re.escape(n) + r'\b', tl))(player(rows[i][7]))]
+        both = [i for i in named if act and any(a in (rows[i][7] or '').lower() for a in act)]
+        pool = both if act else named   # when the headline names an action, the play must show that action too
+        hit = pool[0] if pool else None
+        if hit is not None and hit not in out:
+            out[hit] = {'src': v['links']['mp4'], 'thumb': v.get('thumbnail'), 'title': re.sub(r'^\s*(?:\dH|OT\d?)\s+[A-Z]{2,5}\s+', '', title)}
     return out
 
 

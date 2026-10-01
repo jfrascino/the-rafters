@@ -127,16 +127,20 @@ def clock_s(c):
 
 
 def align(seq, plays):
-    """match each beat of the decisive sequence to its play in our play-by-play (same period, clock and score)"""
+    """match each beat of the decisive sequence to its row in our (ESPN) play-by-play. The drafts use UConn's official
+    clock times, which can differ from ESPN's by a few seconds, so: same period, within 8 seconds, same score after the
+    play, preferring a play that names someone in the beat, then the closest clock."""
     out = []
     for b in seq:
         pn, cs = per_num(b.get('period')), clock_s(b.get('clock'))
         hit = None
         if pn and cs is not None:
-            cands = [i for i, p in enumerate(plays) if p[0] == pn and clock_s(p[1]) == cs]
-            exact = [i for i in cands if b.get('uconn') is not None and plays[i][3] == b.get('uconn') and plays[i][4] == b.get('opp') and plays[i][5]]
-            exact = exact or [i for i in cands if b.get('uconn') is not None and plays[i][3] == b.get('uconn') and plays[i][4] == b.get('opp')]
-            hit = (exact or [None])[-1]
+            cands = [i for i, p in enumerate(plays) if p[0] == pn and clock_s(p[1]) is not None and abs(clock_s(p[1]) - cs) <= 8]
+            if b.get('uconn') is not None:
+                cands = [i for i in cands if plays[i][3] == b['uconn'] and plays[i][4] == b['opp']]
+            words = {w.lower() for w in re.findall(r"[A-Z][a-z'\-]{2,}", b.get('text') or '')} - {'uconn', 'the', 'connecticut'}
+            rank = lambda i: (0 if any(w in (plays[i][7] or '').lower() for w in words) else 1, abs(clock_s(plays[i][1]) - cs), 0 if plays[i][5] else 1)
+            hit = min(cands, key=rank) if cands else None
         out.append(hit)
     return out
 
