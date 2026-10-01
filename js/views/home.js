@@ -25,7 +25,7 @@ export default async function home(main, _args, core) {
   </section>
 
   <section class="section"><div class="wrap grid" style="gap:28px">
-    ${nextGameBlock(cur)}
+    ${nextGameBlock(cur, core.hub)}
   </div></section>
 
   <section class="section"><div class="wrap">
@@ -39,7 +39,7 @@ export default async function home(main, _args, core) {
     <div class="feature-row">${eras.map(eraCard).join('')}</div>
   </div></section>
 
-  <section class="section" id="otdSec"><div class="wrap">
+  <section class="section" id="otdSec" hidden><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow" id="otdEyebrow">On this day</span><h2 class="h2">This date in Husky history</h2></div><span class="aside">Games played on today's date in any season since ${firstY - 1}.</span></div>
     <div class="feature-row" id="otd"><div class="empty">Loading…</div></div>
   </div></section>
@@ -83,24 +83,16 @@ export default async function home(main, _args, core) {
     const el = main.querySelector('#otd'); if (!el) return;
     if (!gi) { main.querySelector('#otdSec').hidden = true; return; }
     const now = new Date();
-    let md = `${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
-    let hits = gi.filter((g) => g.date.slice(5, 10) === md && g.res);
-    let label = 'On this day';
-    if (!hits.length) {
-      // nearest upcoming date that has a game
-      const all = [...new Set(gi.filter((g) => g.res).map((g) => g.date.slice(5, 10)))].sort();
-      const next = all.find((d) => d > md) || all[0];
-      hits = gi.filter((g) => g.date.slice(5, 10) === next && g.res); md = next;
-      const [mm, dd] = next.split('-');
-      label = `No games on today's date. Next up: ${new Date(2000, mm - 1, dd).toLocaleDateString('en-US', { month: 'long', day: 'numeric' })}`;
-    }
-    main.querySelector('#otdEyebrow').textContent = label;
+    const md = `${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+    const hits = gi.filter((g) => g.date.slice(5, 10) === md && g.res);
+    if (!hits.length) { main.querySelector('#otdSec').hidden = true; return; }   // nothing happened on this date: no section
+    main.querySelector('#otdSec').hidden = false;
     hits.sort((a, b) => (b.big || 0) - (a.big || 0) || b.date.localeCompare(a.date));
     el.innerHTML = hits.slice(0, 6).map((g) => `
       <a class="panel otd" href="#/game/${g.id}">
         <span class="eyebrow ${g.type === 'NCAA' ? 'gold' : ''}">${fmtDate(g.date, { year: true })}${g.round ? ' · ' + esc(g.round) : ''}</span>
         <div class="game-line">${logo(g.opp)}<b style="font:700 18px/1.1 var(--f-cond);text-transform:uppercase">${g.ha === 'A' ? 'at ' : g.ha === 'N' ? 'vs. ' : 'vs. '}${esc(g.opp.name)}</b></div>
-        <div class="game-line"><span class="score" style="color:${g.res === 'W' ? 'var(--ice)' : 'var(--red-soft)'}">${g.res} ${g.pts}–${g.opp_pts}</span>${g.ot ? `<span class="pill">${esc(g.ot)}</span>` : ''}</div>
+        <div class="game-line"><span class="score" style="color:${g.res === 'W' ? 'var(--ice)' : 'var(--red-soft)'}">${g.res}${g.forfeit ? ' (forfeit)' : ''} ${g.pts}–${g.opp_pts}</span>${g.ot ? `<span class="pill">${esc(g.ot)}</span>` : ''}</div>
         ${g.top ? `<span class="note">${esc(g.top)}</span>` : ''}
       </a>`).join('');
   });
@@ -130,15 +122,15 @@ function eraCard(e) {
     </div>
     <div class="era-stats">
       <div><b>${e.w}–${e.l}</b><span>Record</span></div>
-      <div><b>${e.titles?.length || 0}</b><span>Titles</span></div>
-      <div><b>${e.ff || 0}</b><span>Final Fours</span></div>
-      <div><b>${e.ncaa || 0}</b><span>NCAA trips</span></div>
+      <div><b>${e.titles?.length || 0}</b><span>${e.titles?.length === 1 ? 'Title' : 'Titles'}</span></div>
+      <div><b>${e.ff || 0}</b><span>Final Four${e.ff === 1 ? '' : 's'}</span></div>
+      <div><b>${e.ncaa || 0}</b><span>NCAA trip${e.ncaa === 1 ? '' : 's'}</span></div>
     </div>
     ${e.blurb ? `<p class="muted" style="font-size:15px">${esc(e.blurb)}</p>` : ''}
   </a>`;
 }
 
-function nextGameBlock(cur) {
+function nextGameBlock(cur, hub) {
   const g = cur.next;
   if (!g) return cur.last ? lastGameBlock(cur) : '';
   const opp = g.opp || {};
@@ -153,7 +145,20 @@ function nextGameBlock(cur) {
     </div>
     <div class="board-foot">${g.venue ? `<span>${esc(g.venue)}</span>` : ''}${g.tv ? `<span>TV: ${esc(g.tv)}</span>` : ''}${g.note ? `<span>${esc(g.note)}</span>` : ''}</div>
   </a>
+  ${hubStrip(hub)}
   ${cur.last ? lastGameBlock(cur, true) : ''}`;
+}
+// where UConn stands, in one line (the full hub lives on the season page)
+function hubStrip(h) {
+  if (!h) return '';
+  const fin = (o) => (o?.final ? ' <span class="hub-final">last season</span>' : '');
+  const items = [
+    h.polls?.ap ? `<div class="hub-tile"><span class="eyebrow">AP poll</span><b>${h.polls.ap.rank ? `No. ${h.polls.ap.rank}` : h.polls.ap.votes ? 'RV' : 'NR'}</b>${fin(h.polls.ap)}</div>` : '',
+    h.net ? `<div class="hub-tile"><span class="eyebrow">NCAA NET</span><b>No. ${h.net.rank}</b>${fin(h.net)}</div>` : '',
+    h.bracket?.seed ? `<div class="hub-tile"><span class="eyebrow">Projected seed</span><b>No. ${h.bracket.seed}</b>${fin(h.bracket)}</div>` : '',
+    h.milestones?.length ? `<div class="hub-tile"><span class="eyebrow">Milestone watch</span><span>${esc(h.milestones.slice().sort((a, b) => a.left - b.left)[0].who)}: ${esc(h.milestones.slice().sort((a, b) => a.left - b.left)[0].text)}</span></div>` : '',
+  ].join('');
+  return items ? `<div class="hub-tiles" style="margin-top:14px">${items}</div><p style="margin-top:4px"><a class="btn" href="#/now">Where UConn stands →</a></p>` : '';
 }
 function lastGameBlock(cur, small) {
   const g = cur.last;
