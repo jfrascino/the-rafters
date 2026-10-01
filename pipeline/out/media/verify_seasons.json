@@ -5,8 +5,8 @@
    "year": 1987,
    "field": "story",
    "status": "OK_UNVERIFIABLE",
-   "old": "a 96–94 overtime decision over Rhode Island",
-   "new": "a 96–94 decision over Rhode Island",
+   "old": "a 96\u201394 overtime decision over Rhode Island",
+   "new": "a 96\u201394 decision over Rhode Island",
    "reason": "Sources conflict. The Wikipedia schedule marks the Dec. 11, 1986 game as OT, but SR (authoritative, and it does record OT for other games of that era, e.g., the 1988 NIT at West Virginia) shows no overtime. Dropping 'overtime' is safe either way.",
    "source": "pipeline/out/sr/seasons/1987.json; https://en.wikipedia.org/wiki/1986%E2%80%9387_Connecticut_Huskies_men's_basketball_team"
   },
@@ -14,8 +14,8 @@
    "year": 1990,
    "field": "key_moments[1].text",
    "status": "FIX",
-   "old": "UConn beat Syracuse 78–75 (Championship/Rivalry) at Madison Square Garden",
-   "new": "UConn beat Syracuse 78–75 in the Big East tournament final at Madison Square Garden",
+   "old": "UConn beat Syracuse 78\u201375 (Championship/Rivalry) at Madison Square Garden",
+   "new": "UConn beat Syracuse 78\u201375 in the Big East tournament final at Madison Square Garden",
    "reason": "Wikipedia 'gamename' artifact leaked into text.",
    "source": "https://en.wikipedia.org/wiki/1989%E2%80%9390_Connecticut_Huskies_men's_basketball_team"
   },
@@ -32,9 +32,9 @@
    "year": 1990,
    "field": "key_moments[5].text",
    "status": "FIX",
-   "old": "UConn lost to Duke 78–79 in the NCAA tournament elite eight",
-   "new": "UConn lost to Duke 78–79 in overtime in the NCAA tournament Elite Eight",
-   "reason": "Game went to overtime (SR overtimes=OT); omission contradicts story's '79–78 in overtime'.",
+   "old": "UConn lost to Duke 78\u201379 in the NCAA tournament elite eight",
+   "new": "UConn lost to Duke 78\u201379 in overtime in the NCAA tournament Elite Eight",
+   "reason": "Game went to overtime (SR overtimes=OT); omission contradicts story's '79\u201378 in overtime'.",
    "source": "pipeline/out/sr/seasons/1990.json"
   },
   {
@@ -43,7 +43,7 @@
    "status": "FIX",
    "old": "in back-to-back games at the Hartford Civic Center in January and cracked the AP poll for the first time.",
    "new": "in back-to-back games at the Hartford Civic Center in January and cracked the AP poll for the first time that season.",
-   "reason": "UConn had been ranked before (e.g., No. 18 in the Dec. 5, 1988 AP poll); the Jan. 22, 1990 No. 20 ranking was its first of the 1989–90 season, not its first ever.",
+   "reason": "UConn had been ranked before (e.g., No. 18 in the Dec. 5, 1988 AP poll); the Jan. 22, 1990 No. 20 ranking was its first of the 1989\u201390 season, not its first ever.",
    "source": "pipeline/out/sr/seasons/1989.json polls; https://en.wikipedia.org/wiki/UConn_Huskies_men%27s_basketball"
   },
   {
@@ -52,7 +52,7 @@
    "status": "FIX",
    "old": "No. 20 Georgetown",
    "new": "No. 18 Georgetown",
-   "reason": "SR lists Georgetown as No. 18 for the Feb. 11, 1991 game. That is the AP poll dated the week of Feb. 11–12; Georgetown was No. 20 in the previous week's poll, which the Wikipedia schedule uses. SR is the designated authority. Low-stakes poll-timing discrepancy.",
+   "reason": "SR lists Georgetown as No. 18 for the Feb. 11, 1991 game. That is the AP poll dated the week of Feb. 11\u201312; Georgetown was No. 20 in the previous week's poll, which the Wikipedia schedule uses. SR is the designated authority. Low-stakes poll-timing discrepancy.",
    "source": "pipeline/out/sr/seasons/1991.json; https://en.wikipedia.org/wiki/1990%E2%80%9391_NCAA_Division_I_men%27s_basketball_rankings"
   },
   {
@@ -68,18 +68,18 @@
    "year": 1995,
    "field": "story",
    "status": "FIX",
-   "old": "The Huskies opened with a 90–86 win over No. 8 Duke, reeled off a 15-game winning streak,",
-   "new": "The Huskies started 15–0, a run that included a 90–86 win over No. 6 Duke,",
-   "reason": "Duke was UConn's second game (opener was Lafayette 110–48 on Nov. 25, 1994). Duke was No. 6 in the Nov. 28 AP poll in effect for the Nov. 29 game (SR opp_rank 6; Wikipedia's schedule lists the preseason No. 8).",
+   "old": "The Huskies opened with a 90\u201386 win over No. 8 Duke, reeled off a 15-game winning streak,",
+   "new": "The Huskies started 15\u20130, a run that included a 90\u201386 win over No. 6 Duke,",
+   "reason": "Duke was UConn's second game (opener was Lafayette 110\u201348 on Nov. 25, 1994). Duke was No. 6 in the Nov. 28 AP poll in effect for the Nov. 29 game (SR opp_rank 6; Wikipedia's schedule lists the preseason No. 8).",
    "source": "pipeline/out/sr/seasons/1995.json; https://en.wikipedia.org/wiki/1994%E2%80%9395_NCAA_Division_I_men%27s_basketball_rankings"
   },
   {
    "year": 1996,
    "field": "story",
    "status": "OK_UNVERIFIABLE",
-   "old": "Trailing Georgetown 74–63 with four minutes left",
-   "new": "Trailing Georgetown 74–63 with under five minutes left",
-   "reason": "The 12–0 run (63→75) is consistent, but the exact 'four minutes' time isn't in the cited sources; the program article says the run came 'with under 5 minutes to play'.",
+   "old": "Trailing Georgetown 74\u201363 with four minutes left",
+   "new": "Trailing Georgetown 74\u201363 with under five minutes left",
+   "reason": "The 12\u20130 run (63\u219275) is consistent, but the exact 'four minutes' time isn't in the cited sources; the program article says the run came 'with under 5 minutes to play'.",
    "source": "https://en.wikipedia.org/wiki/UConn_Huskies_men%27s_basketball"
   },
   {
@@ -95,18 +95,18 @@
    "year": 1997,
    "field": "story",
    "status": "FIX",
-   "old": "lost a 71–66 semifinal to Florida State",
-   "new": "lost a 71–65 overtime semifinal to Florida State",
-   "reason": "The Mar. 25, 1997 NIT semifinal was a 71–65 overtime loss (SR schedule; the program article's NIT table also lists L 65–71). Wikipedia's season schedule wrongly shows 66–71.",
+   "old": "lost a 71\u201366 semifinal to Florida State",
+   "new": "lost a 71\u201365 overtime semifinal to Florida State",
+   "reason": "The Mar. 25, 1997 NIT semifinal was a 71\u201365 overtime loss (SR schedule; the program article's NIT table also lists L 65\u201371). Wikipedia's season schedule wrongly shows 66\u201371.",
    "source": "pipeline/out/sr/seasons/1997.json; https://en.wikipedia.org/wiki/UConn_Huskies_men%27s_basketball (NIT results)"
   },
   {
    "year": 1998,
    "field": "key_moments[0].text",
    "status": "FIX",
-   "old": "UConn beat Syracuse 69–54 (Championship/Rivalry) at Madison Square Garden",
-   "new": "UConn beat Syracuse 69–64 in the Big East tournament final at Madison Square Garden",
-   "reason": "Wrong score: the final was 69–64 (SR schedule; 1998 Big East tournament article). Also removes the 'Championship/Rivalry' gamename artifact.",
+   "old": "UConn beat Syracuse 69\u201354 (Championship/Rivalry) at Madison Square Garden",
+   "new": "UConn beat Syracuse 69\u201364 in the Big East tournament final at Madison Square Garden",
+   "reason": "Wrong score: the final was 69\u201364 (SR schedule; 1998 Big East tournament article). Also removes the 'Championship/Rivalry' gamename artifact.",
    "source": "pipeline/out/sr/seasons/1998.json; https://en.wikipedia.org/wiki/1998_Big_East_men%27s_basketball_tournament"
   },
   {
@@ -149,17 +149,17 @@
    "year": 1998,
    "field": "story",
    "status": "FIX",
-   "old": "beating Syracuse 69–54 in the final",
-   "new": "beating Syracuse 69–64 in the final",
-   "reason": "The 1998 Big East final was 69–64 (SR schedule; 1998 Big East tournament article). The Wikipedia season schedule's 69–54 is a typo.",
+   "old": "beating Syracuse 69\u201354 in the final",
+   "new": "beating Syracuse 69\u201364 in the final",
+   "reason": "The 1998 Big East final was 69\u201364 (SR schedule; 1998 Big East tournament article). The Wikipedia season schedule's 69\u201354 is a typo.",
    "source": "pipeline/out/sr/seasons/1998.json; https://en.wikipedia.org/wiki/1998_Big_East_men%27s_basketball_tournament"
   },
   {
    "year": 1999,
    "field": "honors[5]",
    "status": "FIX",
-   "old": "Richard Hamilton – Big East Player of the Year",
-   "new": "Richard Hamilton – Big East Co-Player of the Year",
+   "old": "Richard Hamilton \u2013 Big East Player of the Year",
+   "new": "Richard Hamilton \u2013 Big East Co-Player of the Year",
    "reason": "The 1999 award was shared with Miami's Tim James.",
    "source": "https://en.wikipedia.org/wiki/Big_East_Conference_Men%27s_Basketball_Player_of_the_Year"
   },
@@ -167,17 +167,17 @@
    "year": 2000,
    "field": "story",
    "status": "FIX",
-   "old": "in a 75–70 loss at Notre Dame that snapped",
-   "new": "in a 75–70 home loss to Notre Dame on January 5 that snapped",
-   "reason": "The Jan. 5, 2000 Notre Dame game was a UConn home game (Hartford Civic Center per Wikipedia; SR lists it as a home game). The road game at Notre Dame was a 68–66 loss on Feb. 12.",
+   "old": "in a 75\u201370 loss at Notre Dame that snapped",
+   "new": "in a 75\u201370 home loss to Notre Dame on January 5 that snapped",
+   "reason": "The Jan. 5, 2000 Notre Dame game was a UConn home game (Hartford Civic Center per Wikipedia; SR lists it as a home game). The road game at Notre Dame was a 68\u201366 loss on Feb. 12.",
    "source": "pipeline/out/sr/seasons/2000.json; https://en.wikipedia.org/wiki/Khalid_El-Amin"
   },
   {
    "year": 2002,
    "field": "honors[2]",
    "status": "FIX",
-   "old": "Caron Butler – Big East Player of the Year",
-   "new": "Caron Butler – Big East Co-Player of the Year",
+   "old": "Caron Butler \u2013 Big East Player of the Year",
+   "new": "Caron Butler \u2013 Big East Co-Player of the Year",
    "reason": "Shared with Pitt's Brandin Knight (the story already says so; the honors line should match).",
    "source": "https://en.wikipedia.org/wiki/Big_East_Conference_Men%27s_Basketball_Player_of_the_Year"
   },
@@ -203,8 +203,8 @@
    "year": 2004,
    "field": "honors[4]",
    "status": "FIX",
-   "old": "Emeka Okafor – NABC National Player of the Year",
-   "new": "Emeka Okafor – NABC National Co-Player of the Year",
+   "old": "Emeka Okafor \u2013 NABC National Player of the Year",
+   "new": "Emeka Okafor \u2013 NABC National Co-Player of the Year",
    "reason": "Okafor shared the 2004 NABC Player of the Year award (Wikipedia: 'NABC Co-Player of the Year (2004)'), with Saint Joseph's Jameer Nelson.",
    "source": "https://en.wikipedia.org/wiki/Emeka_Okafor"
   },
@@ -212,8 +212,8 @@
    "year": 2004,
    "field": "story",
    "status": "FIX",
-   "old": "86–59 rout of No. 7 Oklahoma",
-   "new": "86–59 rout of No. 6 Oklahoma",
+   "old": "86\u201359 rout of No. 7 Oklahoma",
+   "new": "86\u201359 rout of No. 6 Oklahoma",
    "reason": "Oklahoma was No. 6 in the AP poll of Jan. 6, 2004, in effect for the Jan. 11 game (SR opp_rank 6). No. 7 is the Coaches' Poll rank.",
    "source": "pipeline/out/sr/seasons/2004.json; https://en.wikipedia.org/wiki/2003%E2%80%9304_NCAA_Division_I_men%27s_basketball_rankings"
   },
@@ -248,8 +248,8 @@
    "year": 2009,
    "field": "honors[4]",
    "status": "FIX",
-   "old": "Hasheem Thabeet – Big East Player of the Year",
-   "new": "Hasheem Thabeet – Big East Co-Player of the Year",
+   "old": "Hasheem Thabeet \u2013 Big East Player of the Year",
+   "new": "Hasheem Thabeet \u2013 Big East Co-Player of the Year",
    "reason": "Shared with Pitt's DeJuan Blair (the story already says so; honors line should match).",
    "source": "https://en.wikipedia.org/wiki/Big_East_Conference_Men%27s_Basketball_Player_of_the_Year"
   },
@@ -259,7 +259,7 @@
    "status": "FIX",
    "old": "Jerome Dyson returned from knee surgery to average 17.7 points and was named Sporting News Comeback Player of the Year,",
    "new": "Jerome Dyson returned from knee surgery to average 17.2 points,",
-   "reason": "SR per-game stats: Dyson averaged 17.2 ppg in 2009–10 (34 games), not 17.7. The 'Sporting News Comeback Player of the Year' award isn't in any cited source (Dyson's Wikipedia article has no such mention); remove unless separately sourced.",
+   "reason": "SR per-game stats: Dyson averaged 17.2 ppg in 2009\u201310 (34 games), not 17.7. The 'Sporting News Comeback Player of the Year' award isn't in any cited source (Dyson's Wikipedia article has no such mention); remove unless separately sourced.",
    "source": "pipeline/out/sr/seasons/2010.json (stats.per_game); https://en.wikipedia.org/wiki/Jerome_Dyson"
   },
   {
@@ -302,8 +302,8 @@
    "year": 2011,
    "field": "story",
    "status": "FIX",
-   "old": "national sensation. an 82–81 overtime win",
-   "new": "national sensation. An 82–81 overtime win",
+   "old": "national sensation. an 82\u201381 overtime win",
+   "new": "national sensation. An 82\u201381 overtime win",
    "reason": "Capitalization typo at sentence start.",
    "source": "n/a (formatting)"
   },
@@ -329,8 +329,8 @@
    "year": 2012,
    "field": "story",
    "status": "FIX",
-   "old": "they lost to Iowa State 77–64 in the NCAA first round.",
-   "new": "they lost to Iowa State 77–64 in their NCAA opener.",
+   "old": "they lost to Iowa State 77\u201364 in the NCAA first round.",
+   "new": "they lost to Iowa State 77\u201364 in their NCAA opener.",
    "reason": "In 2012 the round of 64 was officially the 'second round'. Neutral wording avoids the conflict.",
    "source": "pipeline/out/sr/seasons/2012.json"
   },
@@ -340,7 +340,7 @@
    "status": "FIX",
    "old": "who averaged 12.5 points and a league-best 8.9 rebounds",
    "new": "who averaged 12.5 points and 8.9 rebounds, second in the AAC",
-   "reason": "Hamilton's 8.9 rpg ranked 2nd in the AAC in 2015–16; Memphis' Dedric Lawson led at 9.3.",
+   "reason": "Hamilton's 8.9 rpg ranked 2nd in the AAC in 2015\u201316; Memphis' Dedric Lawson led at 9.3.",
    "source": "https://www.sports-reference.com/cbb/conferences/aac/men/2016-leaders.html"
   },
   {
@@ -356,9 +356,9 @@
    "year": 2017,
    "field": "record",
    "status": "OK_UNVERIFIABLE",
-   "old": "16–17",
-   "new": "16–17 (wins later vacated)",
-   "reason": "The July 2019 NCAA ruling required UConn to vacate wins in which an ineligible player took part during both the 2016–17 and 2017–18 seasons (Kevin Ollie article; Ollie's coaching table shows 2016–17 conference standing 'Vacated' and excludes the 16 wins from his subtotal; SR meta shows '16-17 Overall W-L adjusted'). The 2016–17 season article still lists 16–17. Decide on a convention and note the vacatur (the 2018 entry already does this).",
+   "old": "16\u201317",
+   "new": "16\u201317 (wins later vacated)",
+   "reason": "The July 2019 NCAA ruling required UConn to vacate wins in which an ineligible player took part during both the 2016\u201317 and 2017\u201318 seasons (Kevin Ollie article; Ollie's coaching table shows 2016\u201317 conference standing 'Vacated' and excludes the 16 wins from his subtotal; SR meta shows '16-17 Overall W-L adjusted'). The 2016\u201317 season article still lists 16\u201317. Decide on a convention and note the vacatur (the 2018 entry already does this).",
    "source": "https://en.wikipedia.org/wiki/Kevin_Ollie; pipeline/out/sr/seasons/2017.json meta.raw.Record"
   },
   {
@@ -367,7 +367,7 @@
    "status": "FIX",
    "old": "Christian Vital averaged 14.9 points",
    "new": "Christian Vital averaged 14.2 points",
-   "reason": "SR per-game stats: Vital averaged 14.2 ppg in 2018–19. The 14.9 figure is his 2017–18 average.",
+   "reason": "SR per-game stats: Vital averaged 14.2 ppg in 2018\u201319. The 14.9 figure is his 2017\u201318 average.",
    "source": "pipeline/out/sr/seasons/2019.json and 2018.json (stats.per_game)"
   },
   {
@@ -386,6 +386,24 @@
    "old": "on May 14, 1986",
    "new": "in May 1986",
    "reason": "Sources disagree on the exact day (May 14 in news timelines vs. 'arrived on May 15, 1986' in UConn's 2010-11 media guide); no contemporary report settles it, so the month is used."
+  },
+  {
+   "year": 2026,
+   "field": "story",
+   "status": "FIX",
+   "old": "erased a 19-point second-half deficit",
+   "new": "erased a 19-point first-half deficit",
+   "reason": "Duke's biggest lead, 40-21, came with 5:01 left in the first half; its largest second-half lead was 17 (46-29). Found by the Moments research (AP/ESPN recaps) and confirmed in the ESPN play-by-play.",
+   "source": "site:plays/2026-38; https://www.espn.com/mens-college-basketball/game/_/gameId/401856577"
+  },
+  {
+   "year": 2027,
+   "field": "story",
+   "status": "FIX",
+   "old": "came on April 19, when Braylon Mullins",
+   "new": "came on April 18, when Braylon Mullins",
+   "reason": "Mullins announced his return on Instagram on Saturday, April 18, 2026 (his 20th birthday).",
+   "source": "https://www.wfsb.com/2026/04/18/braylon-mullins-announces-decision-about-uconn-return/; https://sports.yahoo.com/articles/star-guard-braylon-mullins-returns-233717619.html"
   }
  ]
 }
