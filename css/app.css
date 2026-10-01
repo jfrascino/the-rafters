@@ -529,3 +529,29 @@ img.ph-logo { object-fit: contain !important; background: var(--navy) !important
 .pcard.flip .pcard-back { visibility: visible; pointer-events: auto; }
 
 .stat-note { margin-top: 10px; }
+
+/* ───────── Season hub (2026-27 page) ───────── */
+.hub-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.hub-tile { position: relative; display: grid; gap: 6px; padding: 16px 18px; background: linear-gradient(180deg, rgba(17,37,81,.55), rgba(12,26,58,.55)); border: 1px solid var(--line); border-radius: var(--r); }
+.hub-tile b { font: 800 clamp(28px, 3vw, 40px)/1 var(--f-display); color: var(--fg); }
+.hub-tile span:not(.eyebrow):not(.hub-final) { font-size: 13px; color: var(--muted); }
+.hub-final { display: inline-block; justify-self: start; font: 700 10px/1 var(--f-cond); letter-spacing: .1em; text-transform: uppercase; padding: 4px 6px; border-radius: 3px; background: rgba(255,255,255,.07); color: var(--fg-2); }
+.section.hub { padding-top: 28px; }
+.hub-grid { columns: 3 320px; column-gap: 16px; }
+.hub-grid > * { break-inside: avoid; margin-bottom: 16px; }
+.hub-card { padding: 18px 20px; display: grid; gap: 12px; }
+.hub-opp { display: flex; align-items: center; gap: 14px; color: inherit; }
+.hub-opp .h3 { margin: 0; }
+.hub-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.hub-list li { display: flex; justify-content: space-between; gap: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); font-size: 14px; }
+.hub-list li:last-child { border-bottom: 0; padding-bottom: 0; }
+.hub-list li > span { color: var(--muted); }
+.hub-list li > b { font-weight: 600; text-align: right; }
+.hub-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.hub-table th { font: 700 11px/1 var(--f-cond); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); text-align: right; padding: 0 6px 8px; }
+.hub-table td { text-align: right; padding: 7px 6px; border-top: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+.hub-table .l { text-align: left; }
+.hub-table td.l .tm { display: inline-flex; align-items: center; gap: 8px; vertical-align: middle; }
+.hub-table tr.me td { background: rgba(143,193,255,.08); color: var(--fg); font-weight: 700; }
+.hub-table .logo.sm, .hub-table img.logo { width: 20px; height: 20px; }
+@media (max-width: 600px) { .hub-list li { flex-direction: column; gap: 3px; } .hub-list li > b { text-align: left; } }
