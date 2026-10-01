@@ -87,7 +87,7 @@ export default async function game(main, args, core) {
       <a class="panel otd" href="${p.pid ? `#/player/${esc(p.pid)}` : '#'}" style="grid-template-columns:auto 1fr;align-items:center;gap:16px">
         <span style="width:84px;height:84px;border-radius:50%;overflow:hidden;background:var(--panel-2);display:grid;place-items:center">${!p.uconn && !p.photo && O.logo ? `<img src="${esc(O.logo)}" alt="" style="width:62%;height:62%;object-fit:contain">` : headshot(p, '')}</span>
         <span style="display:grid;gap:6px"><span class="eyebrow ${p.uconn ? '' : 'red'}">${p.uconn ? 'UConn' : esc(O.name)}</span><b style="font:800 22px/1 var(--f-display);text-transform:uppercase">${esc(p.name)}</b>
-        <span style="font:700 16px/1.2 var(--f-cond);letter-spacing:.04em"><b style="font-size:26px">${p.pts}</b> PTS · ${p.reb} REB · ${p.ast} AST${p.stl ? ` · ${p.stl} STL` : ''}${p.blk ? ` · ${p.blk} BLK` : ''}</span>
+        <span style="font:700 16px/1.2 var(--f-cond);letter-spacing:.04em"><b style="font-size:26px">${p.pts}</b> PTS${p.rebKnown ? ` · ${p.reb} REB` : ''}${p.astKnown ? ` · ${p.ast} AST` : ''}${p.stl ? ` · ${p.stl} STL` : ''}${p.blk ? ` · ${p.blk} BLK` : ''}</span>
         <span class="note">${p.fgm}-${p.fga} FG${p.tpa != null ? ` · ${p.tpm ?? 0}-${p.tpa} 3PT` : ''} · ${p.ftm}-${p.fta} FT${p.min ? ` · ${p.min} min` : ''}</span></span>
       </a>`).join('')}</div>
   </div></section>
@@ -103,6 +103,7 @@ export default async function game(main, args, core) {
     <div class="sec-head"><div><span class="eyebrow">Box score</span><h2 class="h2">The box</h2></div>
       <div class="chips" id="boxTabs"><button class="chip on" data-b="0">UConn</button><button class="chip" data-b="1">${esc(O.name)}</button></div></div>
     <div id="box"></div>
+    ${d.boxNote ? `<p class="note" style="margin-top:10px">${esc(d.boxNote)}${d.boxSrc ? ` <a href="${esc(d.boxSrc)}" target="_blank" rel="noopener" style="text-decoration:underline">See the page ↗</a>` : ''}</p>` : ''}
   </div></section>
 
   <section class="section"><div class="wrap g-grid">
@@ -202,7 +203,8 @@ function gameScore(p) {
   return p.pts + 0.4 * p.fgm - 0.7 * p.fga - 0.4 * (p.fta - p.ftm) + 0.7 * p.oreb + 0.3 * (p.reb - p.oreb) + p.stl + 0.7 * p.ast + 0.7 * p.blk - 0.4 * p.pf - p.to;
 }
 function topPerformers(U, O) {
-  const norm = (p, uconn) => ({ ...p, uconn, pts: p.pts || 0, reb: p.reb || 0, ast: p.ast || 0, stl: p.stl || 0, blk: p.blk || 0, fgm: p.fgm || 0, fga: p.fga || 0, ftm: p.ftm || 0, fta: p.fta || 0, oreb: p.oreb || 0, to: p.to || 0, pf: p.pf || 0 });
+  // rebKnown/astKnown: an old newspaper box has no per-player rebounds or assists, which must not read as zeros
+  const norm = (p, uconn) => ({ ...p, uconn, rebKnown: p.reb != null, astKnown: p.ast != null, pts: p.pts || 0, reb: p.reb || 0, ast: p.ast || 0, stl: p.stl || 0, blk: p.blk || 0, fgm: p.fgm || 0, fga: p.fga || 0, ftm: p.ftm || 0, fta: p.fta || 0, oreb: p.oreb || 0, to: p.to || 0, pf: p.pf || 0 });
   const us = (U.players || []).map((p) => norm(p, true)).sort((a, b) => gameScore(b) - gameScore(a));
   const them = (O.players || []).map((p) => norm(p, false)).sort((a, b) => gameScore(b) - gameScore(a));
   return [...us.slice(0, 2), ...them.slice(0, 1)].filter(Boolean);
@@ -218,7 +220,7 @@ function boxTable(t, isU) {
   const cols = [who, { k: 'st', label: 'GS', get: (r) => (r.starter ? '•' : ''), html: (r) => (r.starter ? '<span style="color:var(--gold)">●</span>' : '') }, { k: 'min', label: 'MIN' }, { k: 'pts', label: 'PTS', heat: 1 },
     sh('fgm', 'fga'), sh('tpm', 'tpa'), sh('ftm', 'fta'), { k: 'oreb', label: 'OREB' }, { k: 'reb', label: 'REB', heat: 1 }, { k: 'ast', label: 'AST', heat: 1 },
     { k: 'stl', label: 'STL' }, { k: 'blk', label: 'BLK' }, { k: 'to', label: 'TO' }, { k: 'pf', label: 'PF' }];
-  return statTable(cols, ps, { total: { ...tot, name: 'Totals' } });
+  return statTable(cols, ps, { total: { ...tot, name: 'Totals' }, ...(t.boxSource === 'newspaper' ? { hideEmpty: true, hiddenLabel: 'Not in this box score' } : {}) });
 }
 
 function compareRows(U, O) {
