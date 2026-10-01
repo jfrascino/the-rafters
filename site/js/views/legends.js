@@ -44,6 +44,14 @@ export default async function legends(main, _args, core) {
       <div class="recap" style="font-size:16px">${(Array.isArray(c.bio) ? c.bio : String(c.bio || '').split(/\n\s*\n/)).map((p) => `<p>${esc(p)}</p>`).join('')}</div></div>`).join('')}</div>
   </div></section>` : ''}
 
+  ${L.assistants?.heads?.length ? `<section class="section"><div class="wrap">
+    <div class="sec-head"><div><span class="eyebrow">Since 1900–01 · from the record book</span><h2 class="h2">Every head coach</h2></div>
+      <span class="aside">Official records. Before 1915 the team had no coach; the interim lines are part of the head coach's season.</span></div>
+    <div class="tbl-wrap"><table class="stats"><thead><tr><th class="l">Coach</th><th class="l">Years</th><th>W</th><th>L</th><th>Pct.</th></tr></thead><tbody>
+      ${L.assistants.heads.slice().reverse().map((h) => `<tr><td class="l"><b>${esc(h.name === 'No Coach' ? 'No head coach' : h.name)}</b></td><td class="l">${esc(h.name === 'No Coach' ? '1900–1915' : fullYears(h.years))}</td><td>${h.w}</td><td>${h.l}</td><td>${(h.w / (h.w + h.l)).toFixed(3).replace(/^0/, '')}</td></tr>`).join('')}
+    </tbody></table></div>
+  </div></section>` : ''}
+
   ${L.assistants?.list?.length ? `<section class="section"><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow">Every assistant since 1946–47 · ${L.assistants.list.length}</span><h2 class="h2">The bench behind the bench</h2></div><span class="aside">From UConn's record book. Bars are seasons on staff, shaded by head coach. Gold names also played for UConn in the Storrs Lore era (1977–78 on) and link to their player pages.</span></div>
     <div class="panel asst-wrap"><div id="asst"></div></div>
@@ -96,6 +104,16 @@ export default async function legends(main, _args, core) {
     const off = onResize(el, draw);
     return { destroy() { off(); tip(null); } };
   }
+}
+
+// "1986-12" -> "1986–2012", "2018-" -> "2018–now" (the record book abbreviates)
+function fullYears(y) {
+  const m = String(y).match(/^(\d{4})-(\d{2,4})?$/);
+  if (!m) return String(y);
+  if (!m[2]) return `${m[1]}–now`;
+  let end = m[2].length === 2 ? +(m[1].slice(0, 2) + m[2]) : +m[2];
+  if (end < +m[1]) end += 100;
+  return `${m[1]}–${end}`;
 }
 
 // One row per assistant, a bar per unbroken run of seasons, over the head coaches' eras.
