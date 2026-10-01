@@ -90,7 +90,7 @@ export default async function season(main, args, core) {
 
   // Heartbeat + poll
   const hb = main.querySelector('#hb');
-  const drawHb = () => heartbeat(hb, s.games);
+  const drawHb = () => heartbeat(hb, s.games, { ctLabels: s.conf === 'Ind' ? ['ECAC TOURNEY', 'ECAC'] : ['CONF. TOURNEY', 'CONF.'] });
   drawHb(); bindTips(hb);
   const offs = [onResize(hb, drawHb)];
   const pollEl = main.querySelector('#poll');
