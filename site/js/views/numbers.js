@@ -49,6 +49,7 @@ export default async function numbers(main, args, core) {
       const t = statTable([
         { k: 'name', label: 'Opponent', l: true, html: (r) => `<a class="who" href="#/numbers/opp/${esc(r.key)}">${logo(r)}${esc(r.name)}</a>` },
         { k: 'g', label: 'G', get: (r) => r.w + r.l, heat: 1 }, { k: 'w', label: 'W' }, { k: 'l', label: 'L' }, { k: 'pct', label: 'Win%', get: (r) => r.w / (r.w + r.l), fmt: (v) => (v * 100).toFixed(0) },
+        { k: 'all', label: 'All-time', title: 'Official all-time series record (UConn record book, every era)', html: (r) => (r.allW != null ? `${r.allW}–${r.allL}` : ''), get: (r) => (r.allW != null ? r.allW + r.allL : -1) },
         { k: 'ncaa', label: 'NCAA', title: 'Meetings in the NCAA Tournament', html: (r) => (r.ncaa ? `${r.ncaaW}–${r.ncaa - r.ncaaW}` : '') , get: (r) => r.ncaa },
         { k: 'last', label: 'Last met', html: (r) => fmtDate(r.last, { year: true }), get: (r) => r.last },
       ], opps, { sort: 'g' });
@@ -72,7 +73,7 @@ async function opponent(main, key, core) {
   <section class="s-hero"><div class="wrap">
     <a class="eyebrow" href="#/numbers/tab/3">← All opponents</a>
     <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap">${logo(o, 'xl')}<h1 class="h-display" style="font-size:clamp(40px,7vw,96px)">vs. ${esc(o.name)}</h1></div>
-    <div class="statline"><div><b>${o.w}–${o.l}</b><span>Since ${core.seasons[0].y - 1}</span></div><div><b>${gs.length ? n1(pts / gs.length) : '–'}–${gs.length ? n1(opp / gs.length) : '–'}</b><span>Avg score</span></div><div><b>${streak}</b><span>Current streak</span></div>${o.ncaa ? `<div><b>${o.ncaaW}–${o.ncaa - o.ncaaW}</b><span>In the NCAAs</span></div>` : ''}</div>
+    <div class="statline">${o.allW != null ? `<div><b>${o.allW}–${o.allL}</b><span>All-time (official)</span></div>` : ''}<div><b>${o.w}–${o.l}</b><span>Since ${core.seasons[0].y - 1}–${String(core.seasons[0].y).slice(2)}</span></div><div><b>${gs.length ? n1(pts / gs.length) : '–'}–${gs.length ? n1(opp / gs.length) : '–'}</b><span>Avg score</span></div><div><b>${streak}</b><span>Current streak</span></div>${o.ncaa ? `<div><b>${o.ncaaW}–${o.ncaa - o.ncaaW}</b><span>In the NCAAs</span></div>` : ''}</div>
   </div></section>
   <section class="section"><div class="wrap"><div class="panel sched">${gs.slice().reverse().map((g) => `
     <a class="srow${g.type === 'NCAA' ? ' post' : ''}" href="#/game/${g.id}"><span class="d">${fmtDate(g.date, { year: true }).replace(', ', '<br>')}</span>${logo(g.opp)}

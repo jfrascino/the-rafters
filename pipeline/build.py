@@ -1822,11 +1822,46 @@ for g in GAMES_INDEX:
         o['ncaaW'] += g['res'] == 'W'
     o['last'] = max(o['last'] or '', g['date'])
 
+# UConn's official all-time series record vs each opponent (record book series pages, through last season)
+SERIES = (jload(os.path.join(OUT, 'official', 'series_records.json'), {}) or {}).get('series') or {}
+SERIES_N = {re.sub(r'[^a-z]', '', norm(k)): v for k, v in SERIES.items()}
+SERIES_ALIAS = {'TCU': 'Texas Christian', 'VCU': 'Virginia Commonwealth', 'LSU': 'Louisiana State', 'UCLA': 'Cal - Los Angeles (UCLA)', 'NC State': 'North Carolina State',
+                'Miami': 'Miami (Fla.)', 'BYU': 'Brigham Young', 'UCF': 'Central Florida', 'UMBC': 'Maryland-Balt. County', 'SMU': 'Southern Methodist',
+                'USC': 'Southern California', 'UAB': 'Alabama-Birmingham', 'Charlotte': 'UNC-Charlotte', 'Charleston': 'College of Charleston', 'Ohio': 'Ohio University',
+                'McNeese': 'McNeese State', 'Towson': 'Towson State', 'UT Arlington': 'Texas-Arlington', 'Texas State': 'Southwest Texas State', 'UTSA': 'Texas-San Antonio',
+                'UAlbany': 'Albany (NY St. Teachers*)', 'Ole Miss': 'Mississippi', "Saint Mary's": "Saint Mary's (Calif.)", 'Loyola Maryland': 'Loyola (Md.)',
+                'Kansas City': 'Missouri-Kansas City', 'Grambling': 'Grambling State', 'St. Francis Brooklyn': 'St. Francis (NY)', 'Saint Francis': 'St. Francis (PA)',
+                'Long Island University': 'Long Island', 'Brooklyn': 'Brooklyn College'}
+for o in OPP.values():
+    rec_ = SERIES_N.get(re.sub(r'[^a-z]', '', norm(SERIES_ALIAS.get(o['name'], o['name']))))
+    if rec_:
+        o['allW'], o['allL'] = rec_['w'], rec_['l']
+
 # ───────────────────────── Eras, banners, current ─────────────────────────
 coach_media = {}
 for c in (legends.get('coaches') or []):
     if isinstance(c, dict) and c.get('name'):
         coach_media[norm(c['name'])] = c
+# Jason's coach photos (photos-drop/coaches/<Coach Name>.png|jpg) always win; a committed copy in site/assets/coaches keeps them on deploys
+COACH_PHOTO = {}
+for e in ERAS:
+    _drop = [f for f in glob.glob(os.path.join(HERE, '..', 'photos-drop', 'coaches', '*')) if norm(os.path.splitext(os.path.basename(f))[0]) == norm(e['name'])]
+    _dst_dir = os.path.join(HERE, '..', 'site', 'assets', 'coaches')
+    if _drop:
+        _src = max(_drop, key=os.path.getmtime)
+        _ext = os.path.splitext(_src)[1].lower()
+        _dst = os.path.join(_dst_dir, e['id'] + _ext)
+        os.makedirs(_dst_dir, exist_ok=True)
+        if not os.path.exists(_dst) or open(_src, 'rb').read() != open(_dst, 'rb').read():
+            for _old in glob.glob(os.path.join(_dst_dir, e['id'] + '.*')):
+                os.remove(_old)
+            open(_dst, 'wb').write(open(_src, 'rb').read())
+    _have = glob.glob(os.path.join(_dst_dir, e['id'] + '.*'))
+    if _have:
+        COACH_PHOTO[norm(e['name'])] = 'assets/coaches/' + os.path.basename(_have[0])
+for c in (legends.get('coaches') or []):
+    if isinstance(c, dict) and COACH_PHOTO.get(norm(c.get('name'))):
+        c['image'] = {'image_url': COACH_PHOTO[norm(c['name'])], 'thumb_url': COACH_PHOTO[norm(c['name'])], 'supplied': 'Jason'}
 COACH_OFFICIAL = (jload(os.path.join(HERE, 'coach_records.json'), {}) or {}).get('coaches') or {}
 eras_out = []
 for e in ERAS:
@@ -1843,7 +1878,7 @@ for e in ERAS:
     eras_out.append({**e, 'w': wo, 'l': lo, 'courtW': w_court if (wo, lo) != (w_court, l_court) else None, 'courtL': l_court if (wo, lo) != (w_court, l_court) else None,
                      'recordNote': (off or {}).get('why') if (wo, lo) != (w_court, l_court) else None, 'titles': [s['y'] for s in ss if s['finish'] == 'champ'],
                      'ff': sum(1 for s in ss if s['finish'] in ('champ', 'runner', 'final4')), 'ncaa': sum(1 for s in ss if s['finish'] not in ('none', 'nit')),
-                     'photo': localize(img_url(cm.get('image') or cm.get('image_url') or cm.get('photo')), force=True) or img_url(cm.get('image') or cm.get('image_url') or cm.get('photo')),
+                     'photo': COACH_PHOTO.get(norm(e['name'])) or localize(img_url(cm.get('image') or cm.get('image_url') or cm.get('photo')), force=True) or img_url(cm.get('image') or cm.get('image_url') or cm.get('photo')),
                      'blurb': cm.get('summary') or cm.get('blurb')})
 secondary = [{'y': s['y'], 'label': 'NCAA\nFinal Four' if s['finish'] == 'final4' else 'National\nRunner-Up', 'kind': 'ff'} for s in SEASON_SUM if s['finish'] in ('final4', 'runner')]
 
@@ -1892,7 +1927,8 @@ if CURRENT.get('next'):
                       'record': H_NO.get('record') if H_NO.get('game') == CURRENT['next']['id'] else None,
                       'standing': H_NO.get('standing') if H_NO.get('game') == CURRENT['next']['id'] else None,
                       'leaders': (H_NO.get('leaders') or []) if H_NO.get('game') == CURRENT['next']['id'] else [],
-                      'series': {'w': sum(g['res'] == 'W' for g in meet_), 'l': sum(g['res'] == 'L' for g in meet_), 'first': meet_[0]['date'][:4] if meet_ else None},
+                      'series': {'w': sum(g['res'] == 'W' for g in meet_), 'l': sum(g['res'] == 'L' for g in meet_), 'first': meet_[0]['date'][:4] if meet_ else None,
+                                 **({'allW': OPP[o_['key']]['allW'], 'allL': OPP[o_['key']]['allL']} if o_.get('key') in OPP and 'allW' in OPP[o_['key']] else {})},
                       'last': {k: meet_[-1].get(k) for k in ('id', 'date', 'res', 'pts', 'opp_pts', 'ha', 'ot')} if meet_ else None}
 # milestone watch
 MILES = []

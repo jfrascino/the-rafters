@@ -1,0 +1,1033 @@
+{
+ "_source": "UConn 2026-27 Record Book, series records (through 2025-26)",
+ "series": {
+  "Air Force": {
+   "w": 2,
+   "l": 0
+  },
+  "Akron": {
+   "w": 0,
+   "l": 1
+  },
+  "Alabama": {
+   "w": 3,
+   "l": 0
+  },
+  "Alabama-Birmingham": {
+   "w": 0,
+   "l": 1
+  },
+  "Albany (NY St. Teachers*)": {
+   "w": 3,
+   "l": 0
+  },
+  "Albany Law": {
+   "w": 2,
+   "l": 0
+  },
+  "American International": {
+   "w": 20,
+   "l": 0
+  },
+  "American University": {
+   "w": 5,
+   "l": 1
+  },
+  "Arizona": {
+   "w": 5,
+   "l": 3
+  },
+  "Arizona State": {
+   "w": 2,
+   "l": 2
+  },
+  "Arkansas": {
+   "w": 4,
+   "l": 1
+  },
+  "Arkansas-Pine Bluff": {
+   "w": 1,
+   "l": 0
+  },
+  "Army": {
+   "w": 7,
+   "l": 3
+  },
+  "Arnold": {
+   "w": 3,
+   "l": 1
+  },
+  "Auburn": {
+   "w": 2,
+   "l": 2
+  },
+  "Ball State": {
+   "w": 1,
+   "l": 0
+  },
+  "Bates": {
+   "w": 1,
+   "l": 0
+  },
+  "Baylor": {
+   "w": 2,
+   "l": 0
+  },
+  "Binghamton": {
+   "w": 1,
+   "l": 0
+  },
+  "Boston College": {
+   "w": 55,
+   "l": 35
+  },
+  "Boston  University": {
+   "w": 45,
+   "l": 12
+  },
+  "Bradley": {
+   "w": 1,
+   "l": 0
+  },
+  "Bridgewater  State": {
+   "w": 2,
+   "l": 0
+  },
+  "Brigham Young": {
+   "w": 2,
+   "l": 0
+  },
+  "Brooklyn  College": {
+   "w": 3,
+   "l": 0
+  },
+  "Brown": {
+   "w": 26,
+   "l": 18
+  },
+  "Bryant": {
+   "w": 3,
+   "l": 0
+  },
+  "Bucknell": {
+   "w": 3,
+   "l": 0
+  },
+  "Buffalo": {
+   "w": 9,
+   "l": 1
+  },
+  "Butler": {
+   "w": 13,
+   "l": 0
+  },
+  "California": {
+   "w": 2,
+   "l": 0
+  },
+  "Cal - Fullerton": {
+   "w": 1,
+   "l": 0
+  },
+  "Cal - Los Angeles (UCLA)": {
+   "w": 0,
+   "l": 1
+  },
+  "Canisius": {
+   "w": 2,
+   "l": 2
+  },
+  "Central Arkansas": {
+   "w": 1,
+   "l": 0
+  },
+  "Central  Connecticut": {
+   "w": 16,
+   "l": 0
+  },
+  "Central Florida": {
+   "w": 12,
+   "l": 4
+  },
+  "Chaminade": {
+   "w": 2,
+   "l": 0
+  },
+  "Champlain": {
+   "w": 1,
+   "l": 0
+  },
+  "Chattanooga": {
+   "w": 2,
+   "l": 0
+  },
+  "Cincinnati": {
+   "w": 14,
+   "l": 16
+  },
+  "Clark": {
+   "w": 6,
+   "l": 4
+  },
+  "Clemson": {
+   "w": 1,
+   "l": 0
+  },
+  "Coast Guard": {
+   "w": 24,
+   "l": 9
+  },
+  "Colby": {
+   "w": 5,
+   "l": 1
+  },
+  "Colgate": {
+   "w": 20,
+   "l": 7
+  },
+  "College of Charleston": {
+   "w": 3,
+   "l": 0
+  },
+  "Colorado": {
+   "w": 1,
+   "l": 1
+  },
+  "Columbia": {
+   "w": 10,
+   "l": 2
+  },
+  "Cooper Union": {
+   "w": 1,
+   "l": 0
+  },
+  "Coppin State": {
+   "w": 8,
+   "l": 0
+  },
+  "Cornell": {
+   "w": 2,
+   "l": 1
+  },
+  "Creighton": {
+   "w": 4,
+   "l": 10
+  },
+  "Dartmouth": {
+   "w": 3,
+   "l": 9
+  },
+  "Davidson": {
+   "w": 0,
+   "l": 1
+  },
+  "Dayton": {
+   "w": 1,
+   "l": 3
+  },
+  "Delaware State": {
+   "w": 3,
+   "l": 0
+  },
+  "DePaul": {
+   "w": 23,
+   "l": 1
+  },
+  "Detroit Mercy": {
+   "w": 1,
+   "l": 1
+  },
+  "Drake": {
+   "w": 0,
+   "l": 1
+  },
+  "Drexel": {
+   "w": 1,
+   "l": 0
+  },
+  "Duke": {
+   "w": 5,
+   "l": 6
+  },
+  "East Carolina": {
+   "w": 12,
+   "l": 2
+  },
+  "East Stroudsburg": {
+   "w": 2,
+   "l": 0
+  },
+  "East Texas A&M": {
+   "w": 1,
+   "l": 0
+  },
+  "Eastern Michigan": {
+   "w": 2,
+   "l": 0
+  },
+  "Eastern Washington": {
+   "w": 1,
+   "l": 0
+  },
+  "Fairfield": {
+   "w": 29,
+   "l": 5
+  },
+  "Fairleigh Dickinson": {
+   "w": 2,
+   "l": 0
+  },
+  "Fitchburg  State": {
+   "w": 1,
+   "l": 0
+  },
+  "Florida": {
+   "w": 6,
+   "l": 2
+  },
+  "Florida A&M": {
+   "w": 1,
+   "l": 0
+  },
+  "Florida International": {
+   "w": 1,
+   "l": 0
+  },
+  "Florida  Southern": {
+   "w": 1,
+   "l": 1
+  },
+  "Florida State": {
+   "w": 3,
+   "l": 5
+  },
+  "Fordham": {
+   "w": 12,
+   "l": 10
+  },
+  "Furman": {
+   "w": 3,
+   "l": 0
+  },
+  "Gardner-Webb": {
+   "w": 2,
+   "l": 0
+  },
+  "George Mason": {
+   "w": 0,
+   "l": 1
+  },
+  "George Washington": {
+   "w": 5,
+   "l": 1
+  },
+  "Georgetown": {
+   "w": 43,
+   "l": 36
+  },
+  "Georgia Tech": {
+   "w": 2,
+   "l": 2
+  },
+  "Gonzaga": {
+   "w": 6,
+   "l": 2
+  },
+  "Grambling State": {
+   "w": 1,
+   "l": 0
+  },
+  "Hampton": {
+   "w": 1,
+   "l": 0
+  },
+  "Hartford": {
+   "w": 14,
+   "l": 1
+  },
+  "Harvard": {
+   "w": 17,
+   "l": 2
+  },
+  "Hawaii": {
+   "w": 0,
+   "l": 1
+  },
+  "Hofstra": {
+   "w": 2,
+   "l": 0
+  },
+  "Holy Cross": {
+   "w": 22,
+   "l": 42
+  },
+  "Houston": {
+   "w": 6,
+   "l": 9
+  },
+  "Maryland": {
+   "w": 4,
+   "l": 4
+  },
+  "Maryland-Balt. County": {
+   "w": 1,
+   "l": 0
+  },
+  "Maryland-Eastern Shore": {
+   "w": 4,
+   "l": 0
+  },
+  "Massachusetts": {
+   "w": 69,
+   "l": 39
+  },
+  "Howard": {
+   "w": 1,
+   "l": 0
+  },
+  "Illinois": {
+   "w": 5,
+   "l": 1
+  },
+  "Illinois State": {
+   "w": 0,
+   "l": 1
+  },
+  "Indiana": {
+   "w": 7,
+   "l": 4
+  },
+  "Iona": {
+   "w": 5,
+   "l": 1
+  },
+  "Iowa": {
+   "w": 1,
+   "l": 3
+  },
+  "Iowa State": {
+   "w": 2,
+   "l": 1
+  },
+  "Jackson State": {
+   "w": 0,
+   "l": 1
+  },
+  "Kansas": {
+   "w": 1,
+   "l": 4
+  },
+  "Kentucky": {
+   "w": 4,
+   "l": 1
+  },
+  "Lafayette": {
+   "w": 4,
+   "l": 0
+  },
+  "LaSalle": {
+   "w": 1,
+   "l": 0
+  },
+  "Lebanon Valley": {
+   "w": 1,
+   "l": 0
+  },
+  "Le Moyne": {
+   "w": 1,
+   "l": 0
+  },
+  "Lehigh": {
+   "w": 2,
+   "l": 0
+  },
+  "Long Island": {
+   "w": 4,
+   "l": 2
+  },
+  "Louisiana  State": {
+   "w": 3,
+   "l": 1
+  },
+  "Louisiana Tech": {
+   "w": 1,
+   "l": 0
+  },
+  "Louisville": {
+   "w": 6,
+   "l": 11
+  },
+  "Loyola (Md.)": {
+   "w": 1,
+   "l": 0
+  },
+  "Loyola (New Orleans)": {
+   "w": 1,
+   "l": 1
+  },
+  "Loyola Marymount": {
+   "w": 1,
+   "l": 0
+  },
+  "Maine": {
+   "w": 85,
+   "l": 16
+  },
+  "Manhattan": {
+   "w": 20,
+   "l": 14
+  },
+  "Marist": {
+   "w": 1,
+   "l": 0
+  },
+  "Marquette": {
+   "w": 14,
+   "l": 9
+  },
+  "M.I.T.": {
+   "w": 2,
+   "l": 0
+  },
+  "McGill": {
+   "w": 1,
+   "l": 0
+  },
+  "McNeese State": {
+   "w": 1,
+   "l": 0
+  },
+  "Memphis": {
+   "w": 8,
+   "l": 9
+  },
+  "Miami (Fla.)": {
+   "w": 18,
+   "l": 8
+  },
+  "Michigan": {
+   "w": 2,
+   "l": 3
+  },
+  "Michigan State": {
+   "w": 5,
+   "l": 4
+  },
+  "Middlebury": {
+   "w": 2,
+   "l": 0
+  },
+  "Minnesota": {
+   "w": 1,
+   "l": 2
+  },
+  "Mississippi": {
+   "w": 1,
+   "l": 0
+  },
+  "Mississippi State": {
+   "w": 1,
+   "l": 2
+  },
+  "Mississippi Valley State": {
+   "w": 1,
+   "l": 0
+  },
+  "Missouri": {
+   "w": 1,
+   "l": 0
+  },
+  "Missouri-Kansas City": {
+   "w": 1,
+   "l": 0
+  },
+  "Monmouth": {
+   "w": 1,
+   "l": 0
+  },
+  "Morehead State": {
+   "w": 2,
+   "l": 0
+  },
+  "Morgan State": {
+   "w": 2,
+   "l": 0
+  },
+  "Muhlenberg": {
+   "w": 1,
+   "l": 1
+  },
+  "Navy": {
+   "w": 0,
+   "l": 1
+  },
+  "Nebraska": {
+   "w": 2,
+   "l": 0
+  },
+  "Nevada": {
+   "w": 1,
+   "l": 0
+  },
+  "New Hampshire": {
+   "w": 96,
+   "l": 25
+  },
+  "New Mexico": {
+   "w": 1,
+   "l": 1
+  },
+  "New Mexico State": {
+   "w": 0,
+   "l": 1
+  },
+  "New York University": {
+   "w": 2,
+   "l": 7
+  },
+  "Niagara": {
+   "w": 0,
+   "l": 3
+  },
+  "Northern Arizona": {
+   "w": 1,
+   "l": 0
+  },
+  "UNC Asheville": {
+   "w": 3,
+   "l": 0
+  },
+  "North Carolina": {
+   "w": 2,
+   "l": 5
+  },
+  "UNC-Charlotte": {
+   "w": 1,
+   "l": 0
+  },
+  "UNC-Wilmington": {
+   "w": 2,
+   "l": 0
+  },
+  "North Carolina State": {
+   "w": 2,
+   "l": 3
+  },
+  "Northeastern": {
+   "w": 35,
+   "l": 5
+  },
+  "Northwestern": {
+   "w": 1,
+   "l": 0
+  },
+  "North Florida": {
+   "w": 1,
+   "l": 0
+  },
+  "Norwich": {
+   "w": 4,
+   "l": 0
+  },
+  "Notre Dame": {
+   "w": 18,
+   "l": 10
+  },
+  "Ohio State": {
+   "w": 3,
+   "l": 4
+  },
+  "Ohio University": {
+   "w": 1,
+   "l": 1
+  },
+  "Oklahoma": {
+   "w": 2,
+   "l": 3
+  },
+  "Oklahoma State": {
+   "w": 1,
+   "l": 2
+  },
+  "Oral Roberts": {
+   "w": 0,
+   "l": 2
+  },
+  "Oregon": {
+   "w": 2,
+   "l": 1
+  },
+  "Pennsylvania Teachers": {
+   "w": 1,
+   "l": 0
+  },
+  "Pepperdine": {
+   "w": 4,
+   "l": 0
+  },
+  "Pittsburgh": {
+   "w": 32,
+   "l": 29
+  },
+  "Portland": {
+   "w": 1,
+   "l": 0
+  },
+  "Pratt": {
+   "w": 1,
+   "l": 0
+  },
+  "Princeton": {
+   "w": 2,
+   "l": 1
+  },
+  "Providence": {
+   "w": 53,
+   "l": 31
+  },
+  "Puerto Rico": {
+   "w": 1,
+   "l": 0
+  },
+  "Purdue": {
+   "w": 2,
+   "l": 4
+  },
+  "Quinnipiac": {
+   "w": 10,
+   "l": 0
+  },
+  "RPI": {
+   "w": 1,
+   "l": 1
+  },
+  "Rhode Island": {
+   "w": 77,
+   "l": 68
+  },
+  "Rice": {
+   "w": 2,
+   "l": 0
+  },
+  "Richmond": {
+   "w": 2,
+   "l": 0
+  },
+  "Rider": {
+   "w": 1,
+   "l": 0
+  },
+  "Rutgers": {
+   "w": 37,
+   "l": 14
+  },
+  "Sacred Heart": {
+   "w": 8,
+   "l": 0
+  },
+  "St. Anselm\u2019s": {
+   "w": 1,
+   "l": 0
+  },
+  "St. Bonaventure": {
+   "w": 3,
+   "l": 1
+  },
+  "St. Francis (NY)": {
+   "w": 1,
+   "l": 4
+  },
+  "St. Francis (PA)": {
+   "w": 1,
+   "l": 0
+  },
+  "St. John\u2019s": {
+   "w": 35,
+   "l": 41
+  },
+  "Saint Joseph\u2019s": {
+   "w": 5,
+   "l": 3
+  },
+  "St. Lawrence": {
+   "w": 0,
+   "l": 2
+  },
+  "Saint Louis": {
+   "w": 0,
+   "l": 1
+  },
+  "Saint Mary's (Calif.)": {
+   "w": 2,
+   "l": 0
+  },
+  "St. Michael's": {
+   "w": 3,
+   "l": 1
+  },
+  "Saint Peter's": {
+   "w": 4,
+   "l": 3
+  },
+  "San Diego": {
+   "w": 0,
+   "l": 1
+  },
+  "San Diego State": {
+   "w": 3,
+   "l": 0
+  },
+  "San Jose": {
+   "w": 0,
+   "l": 1
+  },
+  "UC-Santa  Barbara": {
+   "w": 0,
+   "l": 1
+  },
+  "Santa Clara": {
+   "w": 0,
+   "l": 1
+  },
+  "Seattle": {
+   "w": 0,
+   "l": 1
+  },
+  "Seton Hall": {
+   "w": 52,
+   "l": 24
+  },
+  "South Carolina": {
+   "w": 1,
+   "l": 1
+  },
+  "Stanford": {
+   "w": 4,
+   "l": 2
+  },
+  "Stetson": {
+   "w": 1,
+   "l": 0
+  },
+  "Stevens": {
+   "w": 0,
+   "l": 3
+  },
+  "Stonehill": {
+   "w": 2,
+   "l": 0
+  },
+  "Stony Brook": {
+   "w": 6,
+   "l": 0
+  },
+  "Syracuse": {
+   "w": 39,
+   "l": 56
+  },
+  "South Florida": {
+   "w": 23,
+   "l": 4
+  },
+  "Southern California": {
+   "w": 1,
+   "l": 0
+  },
+  "Southern Connecticut": {
+   "w": 1,
+   "l": 0
+  },
+  "Southern Illinois": {
+   "w": 1,
+   "l": 0
+  },
+  "Southern  Methodist": {
+   "w": 4,
+   "l": 11
+  },
+  "Southwest Texas State": {
+   "w": 1,
+   "l": 0
+  },
+  "Springfield": {
+   "w": 13,
+   "l": 16
+  },
+  "Temple": {
+   "w": 11,
+   "l": 11
+  },
+  "Tennessee": {
+   "w": 1,
+   "l": 2
+  },
+  "Tennessee Tech": {
+   "w": 1,
+   "l": 0
+  },
+  "Texas": {
+   "w": 9,
+   "l": 3
+  },
+  "Texas A&M": {
+   "w": 2,
+   "l": 1
+  },
+  "Texas-Arlington": {
+   "w": 1,
+   "l": 0
+  },
+  "Texas Christian": {
+   "w": 2,
+   "l": 1
+  },
+  "Texas-San Antonio": {
+   "w": 1,
+   "l": 0
+  },
+  "Texas Southern": {
+   "w": 2,
+   "l": 0
+  },
+  "Towson State": {
+   "w": 2,
+   "l": 0
+  },
+  "Trinity": {
+   "w": 17,
+   "l": 15
+  },
+  "Tufts": {
+   "w": 14,
+   "l": 5
+  },
+  "Tulane": {
+   "w": 9,
+   "l": 0
+  },
+  "Tulsa": {
+   "w": 5,
+   "l": 7
+  },
+  "UMass-Lowell": {
+   "w": 2,
+   "l": 0
+  },
+  "U.S. International": {
+   "w": 2,
+   "l": 0
+  },
+  "Union": {
+   "w": 0,
+   "l": 1
+  },
+  "Upsula": {
+   "w": 1,
+   "l": 0
+  },
+  "Utah": {
+   "w": 3,
+   "l": 1
+  },
+  "Utah State": {
+   "w": 1,
+   "l": 0
+  },
+  "Vanderbilt": {
+   "w": 3,
+   "l": 0
+  },
+  "Vermont": {
+   "w": 47,
+   "l": 8
+  },
+  "Villanova": {
+   "w": 40,
+   "l": 40
+  },
+  "Virginia": {
+   "w": 6,
+   "l": 2
+  },
+  "Virginia Commonwealth": {
+   "w": 2,
+   "l": 0
+  },
+  "Virginia  Military": {
+   "w": 3,
+   "l": 0
+  },
+  "Virginia Tech": {
+   "w": 6,
+   "l": 2
+  },
+  "Wagner": {
+   "w": 5,
+   "l": 1
+  },
+  "Wake Forest": {
+   "w": 2,
+   "l": 1
+  },
+  "Washington": {
+   "w": 5,
+   "l": 0
+  },
+  "Wayne": {
+   "w": 3,
+   "l": 0
+  },
+  "Wentworth": {
+   "w": 2,
+   "l": 0
+  },
+  "Wesleyan": {
+   "w": 17,
+   "l": 24
+  },
+  "West Virginia": {
+   "w": 16,
+   "l": 7
+  },
+  "Western Carolina": {
+   "w": 1,
+   "l": 0
+  },
+  "Western Kentucky": {
+   "w": 1,
+   "l": 0
+  },
+  "Western Reserve": {
+   "w": 0,
+   "l": 1
+  },
+  "Wichita State": {
+   "w": 2,
+   "l": 4
+  },
+  "William & Mary": {
+   "w": 1,
+   "l": 0
+  },
+  "Winthrop": {
+   "w": 1,
+   "l": 0
+  },
+  "Wisconsin": {
+   "w": 1,
+   "l": 0
+  },
+  "Worcester Polytechnic": {
+   "w": 9,
+   "l": 9
+  },
+  "Xavier": {
+   "w": 10,
+   "l": 5
+  },
+  "Yale": {
+   "w": 44,
+   "l": 23
+  }
+ }
+}
