@@ -1,4 +1,5 @@
-import { esc, load, logo, fmtDate, headshot } from '../ui.js';
+import { esc, load, logo, fmtDate, headshot, bindTips, tip, seasonLabel } from '../ui.js';
+import { onResize } from '../charts.js';
 
 const norm = (s) => String(s || '').toLowerCase().normalize('NFKD').replace(/[^\w ]/g, '').replace(/\b(jr|sr|ii|iii)\b/g, '').replace(/\s+/g, ' ').trim();
 
@@ -43,6 +44,12 @@ export default async function legends(main, _args, core) {
       <div class="recap" style="font-size:16px">${(Array.isArray(c.bio) ? c.bio : String(c.bio || '').split(/\n\s*\n/)).map((p) => `<p>${esc(p)}</p>`).join('')}</div></div>`).join('')}</div>
   </div></section>` : ''}
 
+  ${L.assistants?.list?.length ? `<section class="section"><div class="wrap">
+    <div class="sec-head"><div><span class="eyebrow">Every assistant since 1946–47 · ${L.assistants.list.length}</span><h2 class="h2">The bench behind the bench</h2></div><span class="aside">From UConn's record book. Bars are seasons on staff, shaded by head coach. Gold names also played for UConn in the Storrs Lore era (1977–78 on) and link to their player pages.</span></div>
+    <div class="panel asst-wrap"><div id="asst"></div></div>
+    ${L.assistants.list.filter((a) => a.ruling).map((a) => `<p class="note" style="margin-top:8px">${esc(a.name)}: ${esc(a.ruling)}</p>`).join('')}
+  </div></section>` : ''}
+
   <section class="section"><div class="wrap num-grid">
     ${aa.length ? `<div><div class="sec-head"><div><span class="eyebrow">By year</span><h3 class="h2" style="font-size:32px">All-Americans</h3></div></div>
       <div class="panel lead-list">${aa.slice().reverse().map((a) => `<div class="lead-row" style="grid-template-columns:52px minmax(0,1fr) auto"><b>${a.year}</b><span><b>${who(a.player)}</b></span><small class="muted" style="text-align:right">${esc(a.team || '')}</small></div>`).join('')}</div></div>` : ''}
@@ -71,7 +78,7 @@ export default async function legends(main, _args, core) {
   </div></section>` : ''}
 
   ${(L.arenas || []).length ? `<section class="section"><div class="wrap">
-    <div class="sec-head"><div><span class="eyebrow">Home floors</span><h2 class="h2">The buildings</h2></div></div>
+    <div class="sec-head"><div><span class="eyebrow">Home floors</span><h2 class="h2">The buildings</h2></div><a class="btn" href="#/venues">Records & streaks in every building →</a></div>
     <div class="feature-row">${L.arenas.map((a) => `<div class="panel otd"><span class="eyebrow">${esc(a.years || '')}${a.capacity ? ` · capacity ${esc(a.capacity)}` : ''}</span><h3 class="h3">${esc(a.name)}</h3><span class="note">${esc(a.location || '')}</span>${a.notes ? `<p class="muted" style="font-size:15px">${esc(a.notes)}</p>` : ''}</div>`).join('')}</div>
   </div></section>` : ''}
 
@@ -81,4 +88,42 @@ export default async function legends(main, _args, core) {
   </div></section>` : ''}
 
   <section class="section"><div class="wrap"><p class="note">Researched from Wikipedia and UConn Athletics sources; every entry in the underlying data carries its source link.</p></div></section>`;
+
+  const el = main.querySelector('#asst');
+  if (el) {
+    const draw = () => { el.innerHTML = assistantsChart(L.assistants, byName, el.clientWidth); };
+    draw(); bindTips(el);
+    const off = onResize(el, draw);
+    return { destroy() { off(); tip(null); } };
+  }
+}
+
+// One row per assistant, a bar per unbroken run of seasons, over the head coaches' eras.
+function assistantsChart(A, byName, width) {
+  const list = A.list, heads = (A.heads || []).filter((h) => h.from && (h.to || 9999) >= 1947 && !/interim/i.test(h.name));
+  const y0 = 1947, y1 = Math.max(...list.flatMap((a) => a.seasons)) + 1;
+  const w = Math.max(760, width || 1100), lw = 150, rh = 21, top = 52, h = top + list.length * rh + 22;
+  const x = (y) => lw + ((y - y0) / (y1 - y0)) * (w - lw - 8);
+  const shade = ['rgba(143,193,255,.07)', 'rgba(143,193,255,.025)'];
+  let svg = `<svg viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" class="asst" role="img" aria-label="UConn assistant coaches by season, 1946-47 to now">`;
+  heads.forEach((hc, i) => {
+    const a = Math.max(hc.from, y0), b = (hc.to || y1 - 1) + 1;
+    const last = hc.name.replace(/\(.*\)/, '').trim().split(' ').filter((t) => !/^(jr|sr)\.?$/i.test(t)).at(-1).replace(/,$/, '');
+    const narrow = x(b) - x(a) < 70;   // short tenures get their label on a second line so neighbours don't collide
+    svg += `<rect x="${x(a)}" y="${top - 6}" width="${x(b) - x(a)}" height="${h - top - 14}" fill="${shade[i % 2]}"/>
+      <text x="${(x(a) + x(b)) / 2}" y="${narrow && i % 2 ? top - 26 : top - 12}" text-anchor="middle" class="asst-hc">${esc(last.replace(/"/g, ''))}</text>`;
+  });
+  for (let y = 1950; y <= y1; y += 10) svg += `<text x="${x(y)}" y="${h - 4}" text-anchor="middle" class="asst-yr">${y}</text>`;
+  list.forEach((a, i) => {
+    const yy = top + i * rh;
+    const p = byName.get(String(a.name).toLowerCase().normalize('NFKD').replace(/[^\w ]/g, '').replace(/\s+/g, ' ').trim());
+    const runs = [];
+    a.seasons.forEach((s) => { const r = runs.at(-1); if (r && s === r[1] + 1) r[1] = s; else runs.push([s, s]); });
+    const span = runs.map(([f, t]) => (f === t ? seasonLabel(f) : `${seasonLabel(f)} to ${seasonLabel(t)}`)).join(', ');
+    const tipHtml = esc(`<b>${esc(a.name)}</b>${a.seasons.length} season${a.seasons.length > 1 ? 's' : ''}: ${esc(span)}${p ? '<br>Also played at UConn' : ''}`);
+    svg += `<g data-tip="${tipHtml}">${p ? `<a href="#/player/${esc(p.id)}">` : ''}<text x="${lw - 10}" y="${yy + 15}" text-anchor="end" class="asst-nm${p ? ' pl' : ''}">${esc(a.name)}</text>${p ? '</a>' : ''}
+      ${runs.map(([f, t]) => `<rect x="${x(f)}" y="${yy + 3}" width="${Math.max(3, x(t + 1) - x(f) - 1.5)}" height="${rh - 6}" rx="3" fill="${p ? 'var(--gold)' : 'var(--ice)'}" opacity=".9"/>`).join('')}
+      <rect x="0" y="${yy}" width="${w}" height="${rh}" fill="transparent"/></g>`;
+  });
+  return svg + '</svg>';
 }

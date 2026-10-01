@@ -6,3 +6,6 @@ photos-drop/
 dev/watch.log
 dev/logs/
 dev/.update_state.json
+pipeline/out/moments/drafts/
+pipeline/out/moments/factcheck/
+dev/frames/

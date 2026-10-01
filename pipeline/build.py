@@ -2026,6 +2026,10 @@ core = {
 jdump(os.path.join(SITE, 'core.json'), core)
 jdump(os.path.join(SITE, 'games_index.json'), GAMES_INDEX)
 if legends:
+    # every assistant coach since 1946-47 and every head coach since 1900-01, from the record book (p. 2)
+    _as = jload(os.path.join(OUT, 'official', 'assistants.json'), {}) or {}
+    if _as.get('assistants'):
+        legends['assistants'] = {'source': _as.get('source'), 'list': _as['assistants'], 'heads': _as.get('head_coaches') or []}
     by_date = collections.defaultdict(list)
     for g in GAMES_INDEX:
         by_date[g['date']].append(g)
@@ -2043,6 +2047,10 @@ if legends:
     jdump(os.path.join(SITE, 'legends.json'), legends)
 media_photos = COMMONS
 jdump(os.path.join(SITE, 'media.json'), {'videos': VIDS, 'photos': media_photos})
+import moments   # long-form Moments pages, built from the fact-checked drafts + the game data written above
+moments.main()
+import venues_build   # Home floors: record book lines + every game since 1986-87 in its true building
+venues_build.main()
 sizes = sum(os.path.getsize(f) for f in glob.glob(os.path.join(SITE, '**', '*.json'), recursive=True))
 jdump(os.path.join(OUT, 'official', 'stats_validation.json'), OFFICIAL_STATS.report)
 print(f'jersey numbers: record book and roster archive disagree on {len(NUM_DISAGREE)}: {NUM_DISAGREE}')

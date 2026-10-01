@@ -1,0 +1,660 @@
+{
+ "source": "UConn 2026-27 Record Book, p. 2 (\"All-Time Assistant Coaches\", 1946-47 to present; \"All-Time Head Coaches\")",
+ "assistants": [
+  {
+   "name": "Hugh Greer",
+   "seasons": [
+    1947
+   ],
+   "book_count": 1
+  },
+  {
+   "name": "Charles Hovarth",
+   "seasons": [
+    1948,
+    1949
+   ],
+   "book_count": 2
+  },
+  {
+   "name": "Charles Muzikevik",
+   "seasons": [
+    1950
+   ],
+   "book_count": 1
+  },
+  {
+   "name": "James Connors",
+   "seasons": [
+    1950
+   ],
+   "book_count": 1
+  },
+  {
+   "name": "Paul White",
+   "seasons": [
+    1953
+   ],
+   "book_count": 1
+  },
+  {
+   "name": "Stan Ward",
+   "seasons": [
+    1953,
+    1954
+   ],
+   "book_count": 2
+  },
+  {
+   "name": "Nick Rodis",
+   "seasons": [
+    1955,
+    1956,
+    1957,
+    1958,
+    1959,
+    1960,
+    1961,
+    1962
+   ],
+   "book_count": 8
+  },
+  {
+   "name": "Don Burns",
+   "seasons": [
+    1961
+   ],
+   "book_count": 1
+  },
+  {
+   "name": "George L. Wigton",
+   "seasons": [
+    1962,
+    1963,
+    1964
+   ],
+   "book_count": 3
+  },
+  {
+   "name": "Burr Carlson",
+   "seasons": [
+    1965,
+    1966,
+    1967
+   ],
+   "book_count": 3
+  },
+  {
+   "name": "Jack Coniam",
+   "seasons": [
+    1968,
+    1969
+   ],
+   "book_count": 2
+  },
+  {
+   "name": "Dick Stewart",
+   "seasons": [
+    1970
+   ],
+   "book_count": 1
+  },
+  {
+   "name": "Fred Barakat",
+   "seasons": [
+    1970
+   ],
+   "book_count": 1
+  },
+  {
+   "name": "Billy Kalbaugh",
+   "seasons": [
+    1971
+   ],
+   "book_count": 1
+  },
+  {
+   "name": "Jim Valvano",
+   "seasons": [
+    1971,
+    1972
+   ],
+   "book_count": 2
+  },
+  {
+   "name": "Bill Gaertner",
+   "seasons": [
+    1972
+   ],
+   "book_count": 1
+  },
+  {
+   "name": "Bob Staak",
+   "seasons": [
+    1973,
+    1974
+   ],
+   "book_count": 2
+  },
+  {
+   "name": "Dom Perno",
+   "seasons": [
+    1973,
+    1974,
+    1975,
+    1976,
+    1977
+   ],
+   "book_count": 5
+  },
+  {
+   "name": "Steven F. Bell",
+   "seasons": [
+    1973,
+    1974,
+    1975,
+    1976
+   ],
+   "book_count": 4
+  },
+  {
+   "name": "Dan Switchenko",
+   "seasons": [
+    1975
+   ],
+   "book_count": 1
+  },
+  {
+   "name": "Arthur A. Perry",
+   "seasons": [
+    1977,
+    1978
+   ],
+   "book_count": 2
+  },
+  {
+   "name": "Jim O'Brien",
+   "seasons": [
+    1978,
+    1979,
+    1980,
+    1981,
+    1982
+   ],
+   "book_count": 5
+  },
+  {
+   "name": "Greg Ashford",
+   "seasons": [
+    1979,
+    1980,
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986
+   ],
+   "book_count": 8
+  },
+  {
+   "name": "Bill Stuart",
+   "seasons": [
+    1980,
+    1981,
+    1982,
+    1983
+   ],
+   "book_count": 4
+  },
+  {
+   "name": "Howie Dickenman",
+   "seasons": [
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996
+   ],
+   "book_count": 14
+  },
+  {
+   "name": "Steve Siegrist",
+   "seasons": [
+    1983,
+    1984,
+    1985,
+    1986
+   ],
+   "book_count": 4
+  },
+  {
+   "name": "Mike McKay",
+   "seasons": [
+    1984
+   ],
+   "book_count": 1
+  },
+  {
+   "name": "Bill Cardarelli",
+   "seasons": [
+    1987
+   ],
+   "book_count": 1
+  },
+  {
+   "name": "Dave Leitao",
+   "seasons": [
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002
+   ],
+   "book_count": 14
+  },
+  {
+   "name": "Glen Miller",
+   "seasons": [
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017
+   ],
+   "book_count": 13
+  },
+  {
+   "name": "Ted Woodward",
+   "seasons": [
+    1987,
+    1988,
+    1989
+   ],
+   "book_count": 3
+  },
+  {
+   "name": "Scott Wissell",
+   "seasons": [
+    1990,
+    1991
+   ],
+   "book_count": 2
+  },
+  {
+   "name": "Steve Pikiell",
+   "seasons": [
+    1992
+   ],
+   "book_count": 1
+  },
+  {
+   "name": "Karl Hobbs",
+   "seasons": [
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2013,
+    2014,
+    2015,
+    2016
+   ],
+   "book_count": 12
+  },
+  {
+   "name": "Tom Moore",
+   "seasons": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "book_count": 20
+  },
+  {
+   "name": "George Blaney",
+   "seasons": [
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013
+   ],
+   "book_count": 12
+  },
+  {
+   "name": "Clyde Vaughan",
+   "seasons": [
+    2003,
+    2004
+   ],
+   "book_count": 2
+  },
+  {
+   "name": "Andre LaFleur",
+   "seasons": [
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011
+   ],
+   "book_count": 7
+  },
+  {
+   "name": "Patrick Sellers",
+   "seasons": [
+    2008,
+    2009,
+    2010
+   ],
+   "book_count": 3
+  },
+  {
+   "name": "Kevin Ollie",
+   "seasons": [
+    2011,
+    2012
+   ],
+   "book_count": 2
+  },
+  {
+   "name": "Ricky Moore",
+   "seasons": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+   ],
+   "book_count": 5
+  },
+  {
+   "name": "Dwayne Killings",
+   "seasons": [
+    2017,
+    2018
+   ],
+   "book_count": 2
+  },
+  {
+   "name": "Raphael Chillious",
+   "seasons": [
+    2018
+   ],
+   "book_count": 1
+  },
+  {
+   "name": "Kenya Hunter",
+   "seasons": [
+    2019,
+    2020
+   ],
+   "book_count": 3,
+   "ruling": "The record book says 3 seasons but lists 2018-19 and 2019-20; his Indiana staff bio confirms two seasons (2018-20).",
+   "sources": [
+    "https://iuhoosiers.com/sports/mens-basketball/roster/coaches/kenya-hunter/3387",
+    "https://www.theuconnblog.com/2020/8/23/21398176/uconn-huskies-mens-basketball-assistant-coach-kenya-hunter-to-leave-for-indiana"
+   ]
+  },
+  {
+   "name": "Kimani Young",
+   "seasons": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026,
+    2027
+   ],
+   "book_count": 9
+  },
+  {
+   "name": "Kevin Freeman",
+   "seasons": [
+    2021
+   ],
+   "book_count": 1
+  },
+  {
+   "name": "Luke Murray",
+   "seasons": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "book_count": 5
+  },
+  {
+   "name": "Mike Nardi",
+   "seasons": [
+    2026,
+    2027
+   ],
+   "book_count": 2
+  }
+ ],
+ "head_coaches": [
+  {
+   "years": "Pre-1915",
+   "from": null,
+   "to": 1915,
+   "name": "No Coach",
+   "w": 45,
+   "l": 44
+  },
+  {
+   "years": "1915-19",
+   "from": 1916,
+   "to": 1919,
+   "name": "John F. Donahue",
+   "w": 11,
+   "l": 23
+  },
+  {
+   "years": "1919-21",
+   "from": 1920,
+   "to": 1921,
+   "name": "M.R. Swartz",
+   "w": 14,
+   "l": 14
+  },
+  {
+   "years": "1921-22",
+   "from": 1922,
+   "to": 1922,
+   "name": "J.W. Tasker",
+   "w": 15,
+   "l": 5
+  },
+  {
+   "years": "1922-23",
+   "from": 1923,
+   "to": 1923,
+   "name": "Roy J. Guyer",
+   "w": 8,
+   "l": 6
+  },
+  {
+   "years": "1923-27",
+   "from": 1924,
+   "to": 1927,
+   "name": "Sumner A. Dole",
+   "w": 39,
+   "l": 25
+  },
+  {
+   "years": "1927-31",
+   "from": 1928,
+   "to": 1931,
+   "name": "Louis A. Alexander",
+   "w": 35,
+   "l": 19
+  },
+  {
+   "years": "1931-36",
+   "from": 1932,
+   "to": 1936,
+   "name": "John J. Heldman, Jr.",
+   "w": 19,
+   "l": 42
+  },
+  {
+   "years": "1935-36",
+   "from": 1936,
+   "to": 1936,
+   "name": "J.O. Christian (Interim)",
+   "w": 3,
+   "l": 10
+  },
+  {
+   "years": "1936-45",
+   "from": 1937,
+   "to": 1945,
+   "name": "Don White",
+   "w": 94,
+   "l": 59
+  },
+  {
+   "years": "1945-46",
+   "from": 1946,
+   "to": 1946,
+   "name": "Blair Gullion",
+   "w": 14,
+   "l": 7
+  },
+  {
+   "years": "1946-63",
+   "from": 1947,
+   "to": 1963,
+   "name": "Hugh S. Greer",
+   "w": 287,
+   "l": 113
+  },
+  {
+   "years": "1963",
+   "from": 1963,
+   "to": 1963,
+   "name": "George Wigton (Interim)",
+   "w": 11,
+   "l": 4
+  },
+  {
+   "years": "1963-67",
+   "from": 1964,
+   "to": 1967,
+   "name": "Fred A. Shabel",
+   "w": 72,
+   "l": 29
+  },
+  {
+   "years": "1967-69",
+   "from": 1968,
+   "to": 1969,
+   "name": "Burr Carlson",
+   "w": 16,
+   "l": 32
+  },
+  {
+   "years": "1969-77",
+   "from": 1970,
+   "to": 1977,
+   "name": "Donald \"Dee\" Rowe",
+   "w": 120,
+   "l": 88
+  },
+  {
+   "years": "1977-86",
+   "from": 1978,
+   "to": 1986,
+   "name": "Dom Perno",
+   "w": 139,
+   "l": 114
+  },
+  {
+   "years": "1986-12",
+   "from": 1987,
+   "to": 2012,
+   "name": "James A. Calhoun",
+   "w": 625,
+   "l": 243
+  },
+  {
+   "years": "2012-18",
+   "from": 2013,
+   "to": 2018,
+   "name": "Kevin Ollie",
+   "w": 127,
+   "l": 79
+  },
+  {
+   "years": "2018-",
+   "from": 2019,
+   "to": null,
+   "name": "Dan Hurley",
+   "w": 199,
+   "l": 75
+  }
+ ]
+}

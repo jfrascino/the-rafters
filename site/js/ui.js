@@ -109,8 +109,8 @@ export function bindTips(root, attr = 'data-tip') {
 export function openVideo(v) {
   const lb = $('#lightbox');
   lb.innerHTML = `<button class="lb-x" aria-label="Close">×</button><div class="lb-in">
-    <iframe src="https://www.youtube-nocookie.com/embed/${esc(v.id)}?autoplay=1&rel=0" title="${esc(v.title)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
-    <div class="lb-cap"><span><b>${esc(v.title)}</b>${v.channel ? ` · ${esc(v.channel)}` : ''}</span><a class="muted" href="https://www.youtube.com/watch?v=${esc(v.id)}" target="_blank" rel="noopener">Open on YouTube ↗</a></div></div>`;
+    <iframe src="https://www.youtube-nocookie.com/embed/${esc(v.id)}?autoplay=1&rel=0${v.start ? `&start=${+v.start}` : ''}" title="${esc(v.title)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+    <div class="lb-cap"><span><b>${esc(v.title)}</b>${v.channel ? ` · ${esc(v.channel)}` : ''}</span><a class="muted" href="https://www.youtube.com/watch?v=${esc(v.id)}${v.start ? `&t=${+v.start}s` : ''}" target="_blank" rel="noopener">Open on YouTube ↗</a></div></div>`;
   showLb(lb);
 }
 export function openMp4(v) {

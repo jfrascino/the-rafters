@@ -1,0 +1,113 @@
+{
+ "source": "UConn 2026-27 Record Book, p. 65",
+ "buildings": {
+  "greer": {
+   "heading": "Record at Storrs Field House (1954-90)",
+   "lines": [
+    {
+     "games": 367,
+     "w": 282,
+     "l": 85,
+     "what": null,
+     "misprint": null
+    }
+   ]
+  },
+  "gampel": {
+   "heading": "Record at Harry A. Gampel Pavilion (1990-Present)",
+   "lines": [
+    {
+     "games": 284,
+     "w": 239,
+     "l": 45,
+     "what": "against college opposition",
+     "misprint": null
+    },
+    {
+     "games": 304,
+     "w": 258,
+     "l": 46,
+     "what": "overall, includes exhibitions",
+     "misprint": null
+    }
+   ]
+  },
+  "hartford_arena": {
+   "heading": "Record at XL (Hartford Civic) Center",
+   "lines": [
+    {
+     "games": 423,
+     "w": 313,
+     "l": 106,
+     "what": "against college opposition",
+     "misprint": "the book lists 423 games, but 313 + 106 = 419"
+    },
+    {
+     "games": 450,
+     "w": 343,
+     "l": 107,
+     "what": "overall, includes exhibitions",
+     "misprint": null
+    }
+   ]
+  },
+  "bridgeport_arena": {
+   "heading": "Record at Webster Bank Arena (Bridgeport)",
+   "lines": [
+    {
+     "games": 2,
+     "w": 2,
+     "l": 0,
+     "what": null,
+     "misprint": null
+    }
+   ]
+  },
+  "new_haven_coliseum": {
+   "heading": "Record at New Haven Coliseum",
+   "lines": [
+    {
+     "games": 27,
+     "w": 19,
+     "l": 8,
+     "what": "11-8 as home team, 8-0 as away team",
+     "misprint": null
+    }
+   ]
+  }
+ },
+ "streaks": {
+  "hartford_arena": [
+   {
+    "games": 33,
+    "when": "1993-94 through 1996-97"
+   }
+  ],
+  "gampel": [
+   {
+    "games": 22,
+    "when": "2008-09 through 2009-10"
+   }
+  ],
+  "home": [
+   {
+    "games": 31,
+    "when": "2004-07"
+   },
+   {
+    "games": 28,
+    "when": "2023-25"
+   },
+   {
+    "games": 26,
+    "when": "1985-89"
+   }
+  ],
+  "home_losing": [
+   {
+    "games": 6,
+    "when": "1971-72 through 1972-73"
+   }
+  ]
+ }
+}
