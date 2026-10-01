@@ -44,6 +44,13 @@ export default async function game(main, args, core) {
     <div class="panel otd" style="border-color:rgba(227,189,110,.4);background:linear-gradient(170deg,#2a2210,#10172b 70%)"><span class="eyebrow gold">The moment</span><h2 class="h2" style="font-size:clamp(26px,3vw,40px)">${esc(m.title)}</h2>${m.text ? `<p class="lede" style="font-size:17px">${esc(m.text)}</p>` : ''}</div>`).join('')}</div></section>`);
   const body = main.querySelector('#gbody');
   const offs = [];
+  tryLoad('moments.json').then((mo) => {
+    const m = (mo?.moments || []).find((x) => x.gid === id);
+    if (!m || !main.isConnected) return;
+    main.querySelector('.g-hero')?.insertAdjacentHTML('afterend', `<section class="section" style="padding-bottom:0"><div class="wrap">
+      <a class="panel mo-banner" href="#/moment/${esc(m.slug)}">${m.hero ? `<img src="${esc(m.hero.url)}" alt="" loading="lazy">` : ''}<span><span class="eyebrow gold">A Storrs Lore Moment</span><b>${esc(m.title)}</b><small>The full story: the final seconds, video, voices and what came next →</small></span></a>
+    </div></section>`);
+  });
   const vids = [...(g.videos || []), ...(d?.videos || [])];
 
   if (!d) {
@@ -241,7 +248,9 @@ function runsHtml(plays, O) {
   });
   if (cur) runs.push(cur);
   const best = runs.filter((r) => r.pts >= 8).sort((a, b) => b.pts - a.pts).slice(0, 4);
-  const leadChanges = ps.reduce((a, p, i) => { if (!i) return a; const d0 = Math.sign(ps[i - 1][3] - ps[i - 1][4]), d1 = Math.sign(p[3] - p[4]); return a + (d0 && d1 && d0 !== d1 ? 1 : 0); }, 0);
+  // a lead change is the lead passing from one team to the other, even by way of a tie
+  let lead = 0, leadChanges = 0;
+  ps.forEach((p) => { const d = Math.sign(p[3] - p[4]); if (d) { if (lead && d !== lead) leadChanges++; lead = d; } });
   const ties = ps.reduce((a, p, i) => a + (i && p[5] && p[3] === p[4] ? 1 : 0), 0);
   const big = Math.max(0, ...ps.map((p) => p[3] - p[4])), bigO = Math.max(0, ...ps.map((p) => p[4] - p[3]));
   return `<div class="feature-row" style="margin-top:16px">

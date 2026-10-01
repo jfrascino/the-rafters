@@ -147,7 +147,7 @@ export function winProb(el, wp, periods, uconnHome, marks = []) {
 }
 
 // Score margin over the course of a game from play-by-play (UConn perspective).
-export function flow(el, series, periods) {
+export function flow(el, series, periods, marks = []) {
   const w = W(el), h = w < 600 ? 200 : 230, l = 36, r = 10, t = 12, b = 24;
   const n = series.length; if (n < 2) { el.innerHTML = ''; return; }
   const m = Math.max(8, ...series.map(Math.abs));
@@ -163,6 +163,7 @@ export function flow(el, series, periods) {
   const big = series.reduce((a, v, i) => (v > series[a] ? i : a), 0), low = series.reduce((a, v, i) => (v < series[a] ? i : a), 0);
   if (series[big] > 0) svg += `<text x="${x(big)}" y="${y(series[big]) - 6}" text-anchor="middle" style="fill:var(--ice)">+${series[big]}</text>`;
   if (series[low] < 0) svg += `<text x="${x(low)}" y="${y(series[low]) + 14}" text-anchor="middle" style="fill:var(--red-soft)">${series[low]}</text>`;
+  marks.forEach((k) => { if (series[k.i] != null) svg += `<circle cx="${x(k.i)}" cy="${y(series[k.i])}" r="4.5" fill="var(--gold)" stroke="var(--ink)" stroke-width="2" data-tip="${esc(k.tip)}"/>`; });
   el.innerHTML = svg + '</svg>';
 }
 

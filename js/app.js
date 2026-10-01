@@ -1,5 +1,5 @@
 // Router, search, and app shell.
-import { $, $$, esc, load, headshot, seasonLabel, FINISH, setLogos } from './ui.js';
+import { $, $$, esc, load, tryLoad, headshot, seasonLabel, FINISH, setLogos } from './ui.js';
 
 const views = {
   '': () => import('./views/home.js'),
@@ -13,8 +13,11 @@ const views = {
   numbers: () => import('./views/numbers.js'),
   vault: () => import('./views/vault.js'),
   legends: () => import('./views/legends.js'),
+  moments: () => import('./views/moments.js'),
+  moment: () => import('./views/moments.js'),
+  venues: () => import('./views/venues.js'),
 };
-const navKey = { season: 'seasons', game: 'seasons', player: 'players' };
+const navKey = { season: 'seasons', game: 'seasons', player: 'players', moment: 'moments', venues: 'legends' };
 
 let current = null; // { destroy }
 let seq = 0;
@@ -53,6 +56,7 @@ async function buildIndex() {
   index = [];
   core.players.forEach((p) => index.push({ k: 'Player', t: p.name, s: `${p.span}${p.pos ? ' · ' + p.pos : ''}${p.ppg != null ? ` · ${p.ppg.toFixed(1)} ppg` : ''}`, h: `#/player/${p.id}`, p, q: p.name.toLowerCase() }));
   core.seasons.forEach((s) => index.push({ k: 'Season', t: `${s.label} ${s.w}-${s.l}`, s: `${s.coach} · ${FINISH[s.finish]?.label || ''}`, h: `#/season/${s.y}`, q: `${s.y} ${s.label} ${s.y - 1} ${s.coach}`.toLowerCase(), yr: s.y }));
+  ((await tryLoad('moments.json'))?.moments || []).forEach((m) => index.push({ k: 'Moment', t: m.title, s: `${m.date.slice(0, 4)}${m.opp ? ` · vs. ${m.opp.name}` : ''}${m.res ? ` · ${m.res} ${m.pts}–${m.opp_pts}` : ''}`, h: `#/moment/${m.slug}`, q: `${m.title} ${m.nickname || ''} ${m.opp?.name || ''} ${m.date.slice(0, 4)} moment`.toLowerCase(), logo: m.opp?.logo }));
   Object.values(core.opponents || {}).forEach((o) => index.push({ k: 'Opponent', t: o.name, s: `${o.w}-${o.l} vs. since ${core.seasons[0].y - 1}–${String(core.seasons[0].y).slice(2)}`, h: `#/numbers/opp/${o.key}`, q: o.name.toLowerCase(), logo: o.logo }));
   return index;
 }
@@ -86,6 +90,8 @@ addEventListener('keydown', (e) => {
   if (e.key === '/' && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { e.preventDefault(); openSearch(); }
 });
 
+// the Moments section appears once fact-checked moments exist
+tryLoad('moments.json').then((m) => { const a = $('#nav [data-nav="moments"]'); if (a) a.hidden = !m?.moments?.length; });
 load('core.json').then((core) => {
   if (core.updated) $('#footUpdated').textContent = `Data updated ${new Date(core.updated).toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' })}.`;
 }).catch(() => {});

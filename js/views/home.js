@@ -2,6 +2,7 @@ import { esc, load, tryLoad, logo, UCONN, fmtDate, fmtTime, fmtDay, bindTips, ti
 import { skyline, onResize } from '../charts.js';
 import { mountWall } from '../wall.js';
 import { watch, nearTip } from '../live.js';
+import { card as momentCard } from './moments.js';
 
 export default async function home(main, _args, core) {
   const titles = core.seasons.filter((s) => s.finish === 'champ');
@@ -39,6 +40,11 @@ export default async function home(main, _args, core) {
     <div class="feature-row">${eras.map(eraCard).join('')}</div>
   </div></section>
 
+  <section class="section" id="moSec" hidden><div class="wrap">
+    <div class="sec-head"><div><span class="eyebrow red">Told in full</span><h2 class="h2">Moments</h2></div><a class="btn" href="#/moments">All moments</a></div>
+    <div class="hscroll mo-row" id="moRow"></div>
+  </div></section>
+
   <section class="section" id="otdSec" hidden><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow" id="otdEyebrow">On this day</span><h2 class="h2">This date in Husky history</h2></div><span class="aside">Games played on today's date in any season since ${firstY - 1}.</span></div>
     <div class="feature-row" id="otd"><div class="empty">Loading…</div></div>
@@ -54,6 +60,14 @@ export default async function home(main, _args, core) {
     <div class="panel lead-list">${[...core.players].filter((p) => p.pts).sort((a, b) => b.pts - a.pts).slice(0, 10).map((p, i) => `
       <a class="lead-row" href="#/player/${p.id}"><span class="i">${i + 1}</span>${headshot(p)}<span><b>${esc(p.name)}</b><small>${esc(p.span)} · ${n1(p.ppg)} ppg</small></span><span class="v">${p.pts.toLocaleString()}</span></a>`).join('')}</div>
   </div></section>`;
+
+  // Moments teaser (newest first)
+  tryLoad('moments.json').then((mo) => {
+    const list = [...(mo?.moments || [])].reverse();
+    if (!list.length || !main.isConnected) return;
+    main.querySelector('#moRow').innerHTML = list.map((m) => momentCard(m, { noWide: true })).join('');
+    main.querySelector('#moSec').hidden = false;
+  });
 
   // Skyline
   const sky = main.querySelector('#sky');
