@@ -36,6 +36,8 @@ const send = (method, params = {}) => new Promise((r) => { const i = ++id; pendi
 try {
   await connect();
   await send('Page.enable'); await send('Runtime.enable');
+  // REDUCED=1 emulates prefers-reduced-motion, so scroll-in reveals are visible in full-page captures
+  if (process.env.REDUCED) await send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-reduced-motion', value: 'reduce' }] });
   const errors = [];
   listeners.push((d) => {
     if (d.method === 'Runtime.exceptionThrown') errors.push(d.params.exceptionDetails?.exception?.description || d.params.exceptionDetails?.text);

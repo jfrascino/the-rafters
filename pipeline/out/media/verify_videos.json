@@ -349,6 +349,14 @@
    "old": "Ray Allen UConn vs Georgetown 1996 (Mr. Martin Productions; linked to the 1996 Big East final)",
    "new": null,
    "reason": "No description; its ESPN Classic score bug reads Georgetown 31, UConn 40 with 3:13 left in the first half, which doesn't fit the Big East final (Georgetown led 46-42 at halftime after scoring the half's last six points). It may be the Feb. 19 game but that can't be confirmed either."
+  },
+  {
+   "id": "NTbNRCSZdLs",
+   "status": "FIX",
+   "field": "description",
+   "old": "WPOP radio broadcast of UConn's 99\u201367 win over Central Connecticut on Jan. 24, 1990 \u2014 the final men's game at the Hugh S. Greer Field House before Gampel Pavilion opened.",
+   "new": "WPOP radio broadcast of UConn's 99\u201377 win over Central Connecticut on Jan. 24, 1990 \u2014 the final men's game at the Field House (renamed for Hugh Greer in 1991) before Gampel Pavilion opened.",
+   "reason": "The score was 99-77 (record book, site), and the building wasn't named for Greer until 1991."
   }
  ]
 }

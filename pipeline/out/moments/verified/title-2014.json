@@ -1,0 +1,600 @@
+{
+ "slug": "title-2014",
+ "gameId": "2014-40",
+ "title": "The Hungry Huskies Win It All",
+ "nickname": null,
+ "dek": "A year after an academic ban kept them out of the NCAA tournament, seventh-seeded UConn never trailed Kentucky's freshmen and won its fourth national title, 60-54.",
+ "date": "2014-04-07",
+ "tip": {
+  "text": "9:10 p.m. ET (8:10 p.m. CT local)",
+  "sources": [
+   "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/1314mb40.html"
+  ]
+ },
+ "venue": "AT&T Stadium",
+ "city": "Arlington, TX",
+ "attendance": {
+  "n": 79238,
+  "sources": [
+   "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/1314mb40.html",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "event": "NCAA tournament national championship game",
+ "tv": {
+  "network": "CBS",
+  "announcers": [
+   "Jim Nantz",
+   "Greg Anthony",
+   "Steve Kerr",
+   "Tracy Wolfson (reporter)"
+  ],
+  "sources": [
+   "https://www.cbsnews.com/texas/news/cbs-sports-turner-announce-ncaa-broadcast-team",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "31-8",
+   "rank": "AP #18",
+   "seed": "7 (East)"
+  },
+  "opp": {
+   "record": "29-10",
+   "rank": "unranked (receiving votes)",
+   "seed": "8 (Midwest)"
+  },
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n38/mode/1up",
+   "https://uconnhuskies.com/news/2014/4/7/Top_Dogs_UConn_Outlasts_Kentucky_60_54_to_Win_Fourth_National_Championship",
+   "https://www.nbcsports.com/college-basketball/news/aaron-harrisons-clutch-three-pointer-lifts-kentucky-past-michigan"
+  ]
+ },
+ "setup": [
+  {
+   "text": "In April 2012 the NCAA turned down UConn's final appeal: because of the program's past Academic Progress Rate scores, the Huskies would be barred from the 2013 postseason. UConn's president complained that current players were paying for the grades of students no longer enrolled. That September, with Jim Calhoun retiring, Kevin Ollie \u2014 a former UConn point guard with a 13-year NBA career and two years as an assistant \u2014 was named head coach.",
+   "sources": [
+    "https://today.uconn.edu/2012/04/ncaa-denies-uconns-final-appeal-of-postseason-ban-for-2012-13/",
+    "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n5/mode/1up",
+    "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n6/mode/1up",
+    "https://www.ncaa.com/news/basketball-men/article/2014-04-08/connecticut-stars-underdog-role-win-national-championship",
+    "https://www.ncaa.org/what-we-do/research/academic-progress-rate/"
+   ]
+  },
+  {
+   "text": "The fallout was heavy. Three players transferred and two left for the NBA, and when the Big East broke apart UConn landed in the new American Athletic Conference. Shabazz Napier, a freshman on the 2011 title team, stuck around. So did Ryan Boatright.",
+   "sources": [
+    "https://www.ncaa.com/news/basketball-men/article/2014-04-08/connecticut-stars-underdog-role-win-national-championship",
+    "https://www.espn.com/mens-college-basketball/recap/_/gameId/400551234",
+    "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n39/mode/1up"
+   ]
+  },
+  {
+   "text": "The 2013-14 Huskies started 9-0, then wobbled. In January, between road losses at Houston and SMU, Ollie took them on a tour of AT&T Stadium and told them to picture coming back in April. They closed the regular season 24-7 \u2014 the finale a 33-point loss at Louisville on March 8 \u2014 and, after losing the AAC tournament final, entered the NCAA tournament as the No. 7 seed in the East.",
+   "sources": [
+    "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n38/mode/1up",
+    "https://www.ncaa.com/news/basketball-men/article/2014-04-08/connecticut-stars-underdog-role-win-national-championship",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://uconnhuskies.com/news/2014/4/8/postgame_quotes.aspx",
+    "http://web.archive.org/web/20140410131711/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-0408-20140407,0,5608329.story"
+   ]
+  },
+  {
+   "text": "Then they ran: No. 10 Saint Joseph's in overtime, No. 2 Villanova, No. 3 Iowa State, No. 4 Michigan State, and No. 1 overall seed Florida, 63-53, in the semifinals. Kentucky \u2014 the preseason No. 1, seeded eighth in the Midwest with five freshmen in its starting lineup \u2014 had won its previous three games on late shots by Aaron Harrison.",
+   "sources": [
+    "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n38/mode/1up",
+    "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n39/mode/1up",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.ncaa.com/news/basketball-men/bracket-beat/2017-03-13/march-madness-getting-know-no-7-seed-ncaa-tournament",
+    "http://web.archive.org/web/20140410131711/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-0408-20140407,0,5608329.story",
+    "https://www.nbcsports.com/college-basketball/news/aaron-harrisons-clutch-three-pointer-lifts-kentucky-past-michigan",
+    "https://www.foxnews.com/sports/ncaa-tournament-kentucky-beats-michigan-to-reach-final-four",
+    "https://uconnhuskies.com/news/2014/4/7/Top_Dogs_UConn_Outlasts_Kentucky_60_54_to_Win_Fourth_National_Championship",
+    "http://web.archive.org/web/20140408211224/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-side-0408-20140407,0,5948591.story"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "UConn came out sharp: Boatright scored eight of UConn's first 19 points, and the Huskies led 30-15 with 5:59 left in the half. At one point in the half, with UConn struggling to solve Kentucky's zone, Napier hit a 3 from about 30 feet, at the edge of the Final Four logo at center court. In a luxury box, former Presidents Bill Clinton and George W. Bush watched side by side.",
+   "sources": [
+    "http://web.archive.org/web/20140408211224/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-side-0408-20140407,0,5948591.story",
+    "https://www.espn.com/mens-college-basketball/recap/_/gameId/400551234",
+    "site:plays/2014-40",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/1314mb40.html",
+    "https://www.cbsnews.com/news/bill-clinton-george-w-bush-watch-ncaa-championship-game-together/"
+   ]
+  },
+  {
+   "text": "Kentucky would not go away. The Wildcats closed the half on a 16-5 run to trail 35-31, and Aaron Harrison's 3 twelve seconds into the second half made it 35-34.",
+   "sources": [
+    "site:plays/2014-40",
+    "http://web.archive.org/web/20140410131711/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-0408-20140407,0,5608329.story"
+   ]
+  },
+  {
+   "text": "UConn pushed the lead back to 48-39 with 11:01 left. Then James Young dunked over freshman center Amida Brimah for a three-point play, starting an 8-0 Kentucky run. In the middle of it Boatright twisted his left ankle; he called timeout, had it worked on and came back. Young's two free throws with 8:13 left made it 48-47.",
+   "sources": [
+    "site:plays/2014-40",
+    "https://uconnhuskies.com/news/2014/4/7/Top_Dogs_UConn_Outlasts_Kentucky_60_54_to_Win_Fourth_National_Championship",
+    "https://uconnhuskies.com/news/2014/4/8/postgame_quotes.aspx"
+   ]
+  },
+  {
+   "text": "Kentucky's misses at the line hurt: the Wildcats made 13 of 24 free throws, while UConn made all 10 of its attempts.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/1314mb40.html",
+    "https://uconnhuskies.com/news/2014/4/7/Top_Dogs_UConn_Outlasts_Kentucky_60_54_to_Win_Fourth_National_Championship"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "2H",
+   "clock": "8:13",
+   "uconn": 48,
+   "opp": 47,
+   "text": "Young makes two free throws. Kentucky is within a point.",
+   "sources": [
+    "site:plays/2014-40",
+    "https://uconnhuskies.com/news/2014/4/7/Top_Dogs_UConn_Outlasts_Kentucky_60_54_to_Win_Fourth_National_Championship"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "7:26",
+   "uconn": 48,
+   "opp": 47,
+   "text": "Aaron Harrison, Kentucky's big-moment shooter, fires from the left corner for the lead. It misses, and Lasan Kromah rebounds.",
+   "sources": [
+    "site:plays/2014-40",
+    "https://uconnhuskies.com/news/2014/4/7/Top_Dogs_UConn_Outlasts_Kentucky_60_54_to_Win_Fourth_National_Championship"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "6:54",
+   "uconn": 51,
+   "opp": 47,
+   "text": "Napier answers with a well-guarded 3 just before the shot clock expires.",
+   "sources": [
+    "site:plays/2014-40",
+    "http://web.archive.org/web/20140410131711/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-0408-20140407,0,5608329.story"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "6:36",
+   "uconn": 51,
+   "opp": 49,
+   "text": "Julius Randle scores inside.",
+   "sources": [
+    "site:plays/2014-40"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "6:19",
+   "uconn": 54,
+   "opp": 49,
+   "text": "Napier finds Niels Giffey, and Giffey's 3 makes it a five-point game.",
+   "sources": [
+    "site:plays/2014-40",
+    "http://web.archive.org/web/20140410131711/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-0408-20140407,0,5608329.story"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "5:04",
+   "uconn": 54,
+   "opp": 50,
+   "text": "Randle makes one of two free throws.",
+   "sources": [
+    "site:plays/2014-40",
+    "http://web.archive.org/web/20140408211224/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-side-0408-20140407,0,5948591.story"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "4:13",
+   "uconn": 56,
+   "opp": 50,
+   "text": "Boatright, playing on the bad ankle, hits a step-back jumper.",
+   "sources": [
+    "site:plays/2014-40",
+    "https://www.ncaa.com/news/basketball-men/article/2014-04-08/connecticut-stars-underdog-role-win-national-championship",
+    "http://web.archive.org/web/20140408211224/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-side-0408-20140407,0,5948591.story"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "3:47",
+   "uconn": 56,
+   "opp": 52,
+   "text": "Alex Poythress dunks a Randle miss, then misses the free throw.",
+   "sources": [
+    "site:plays/2014-40",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/1314mb40.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "2:47",
+   "uconn": 58,
+   "opp": 52,
+   "text": "DeAndre Daniels scores inside, credited to a Napier assist.",
+   "sources": [
+    "site:plays/2014-40",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/1314mb40.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:08",
+   "uconn": 58,
+   "opp": 54,
+   "text": "Young's layup keeps Kentucky alive.",
+   "sources": [
+    "site:plays/2014-40"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:25",
+   "uconn": 60,
+   "opp": 54,
+   "text": "Kromah goes to the line with 25.1 seconds left and makes both. UConn is 10 for 10 from the line.",
+   "sources": [
+    "site:plays/2014-40",
+    "https://uconnhuskies.com/news/2014/4/7/Top_Dogs_UConn_Outlasts_Kentucky_60_54_to_Win_Fourth_National_Championship",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/1314mb40.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:00",
+   "uconn": 60,
+   "opp": 54,
+   "text": "The Harrison twins miss 3s on Kentucky's last trip. Boatright grabs the rebound and dribbles out the clock.",
+   "sources": [
+    "site:plays/2014-40",
+    "https://www.youtube.com/watch?v=AO5WH70hTf0"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "7",
+   "label": "seed \u2014 UConn became the first No. 7 seed to win the national championship",
+   "sources": [
+    "https://www.ncaa.com/news/basketball-men/bracket-beat/2017-03-13/march-madness-getting-know-no-7-seed-ncaa-tournament"
+   ]
+  },
+  {
+   "value": "0",
+   "label": "lead changes \u2014 Kentucky never led",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/1314mb40.html",
+    "site:plays/2014-40"
+   ]
+  },
+  {
+   "value": "79,238",
+   "label": "fans, a Final Four championship-game attendance record when it was set",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/1314mb40.html"
+   ]
+  },
+  {
+   "value": "1974",
+   "label": "the last time (NC State) a team had won the title after missing both the NCAA tournament and the NIT the year before",
+   "sources": [
+    "https://www.ncaa.com/news/basketball-men/article/2014-04-08/connecticut-stars-underdog-role-win-national-championship"
+   ]
+  },
+  {
+   "value": "4",
+   "label": "national titles (1999, 2004, 2011, 2014) \u2014 joining UCLA, Kentucky, North Carolina, Indiana and Duke as the only programs with four or more at the time",
+   "sources": [
+    "https://uconnhuskies.com/news/2014/4/7/Top_Dogs_UConn_Outlasts_Kentucky_60_54_to_Win_Fourth_National_Championship",
+    "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n39/mode/1up"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "You're looking at the hungry Huskies",
+   "who": "Shabazz Napier",
+   "role": "UConn senior guard, Final Four Most Outstanding Player",
+   "when": "postgame, on-court CBS interview",
+   "source": "https://uconnhuskies.com/news/2014/4/7/Top_Dogs_UConn_Outlasts_Kentucky_60_54_to_Win_Fourth_National_Championship"
+  },
+  {
+   "text": "When you ban us, and it's not our fault? We were hungry. I wanted to introduce everybody to the hungry Huskies.",
+   "who": "Shabazz Napier",
+   "role": "UConn senior guard",
+   "when": "postgame",
+   "source": "http://web.archive.org/web/20140410131711/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-0408-20140407,0,5608329.story"
+  },
+  {
+   "text": "Yeah, somebody told me we were Cinderellas. And I was like, No, we're UConn. I mean, this is what we do.",
+   "who": "Kevin Ollie",
+   "role": "UConn head coach",
+   "when": "postgame press conference",
+   "source": "https://uconnhuskies.com/news/2014/4/8/postgame_quotes.aspx"
+  },
+  {
+   "text": "Because they're not missing. Those guards never miss.",
+   "who": "John Calipari",
+   "role": "Kentucky head coach, on why Kentucky did not foul late",
+   "when": "postgame, CBS interview",
+   "source": "https://uconnhuskies.com/news/2014/4/8/postgame_quotes.aspx"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "Napier knelt and pressed his forehead to the court after the buzzer, and he was wiping away tears when he cut down the net. He finished with 22 points, six rebounds and three assists and was named the Final Four's Most Outstanding Player; Boatright and Daniels joined him on the all-tournament team.",
+   "sources": [
+    "https://uconnhuskies.com/news/2014/4/7/Top_Dogs_UConn_Outlasts_Kentucky_60_54_to_Win_Fourth_National_Championship"
+   ]
+  },
+  {
+   "text": "The next night in Nashville, UConn's unbeaten women beat Notre Dame 79-58 for their ninth title, making UConn the only school to win the men's and women's championships in the same year twice \u2014 the first time was 2004.",
+   "sources": [
+    "https://today.uconn.edu/2014/04/record-breakers-womens-team-earns-ninth-national-title"
+   ]
+  },
+  {
+   "text": "On April 8 Gov. Dannel P. Malloy greeted the champions at Bradley International Airport, and on June 9 President Barack Obama honored the UConn men's and women's champions at the White House.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:2014_NCAA_National_Champion_UConn_Huskies_Men%27s_Basketball_team_returns_to_Connecticut_(13725992413).jpg",
+    "https://commons.wikimedia.org/wiki/File:Barack_Obama_with_UConn_men%27s_and_women%27s_2014_NCAA_basketball_champions_2014-06-09.jpg",
+    "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n40/mode/1up"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "UConn was the first No. 7 seed ever to win the title, and the first champion since Arizona in 1997 without a conference regular-season or tournament crown.",
+   "sources": [
+    "https://www.ncaa.com/news/basketball-men/bracket-beat/2017-03-13/march-madness-getting-know-no-7-seed-ncaa-tournament",
+    "https://www.ncaa.com/news/basketball-men/article/2014-04-08/connecticut-stars-underdog-role-win-national-championship"
+   ]
+  },
+  {
+   "text": "Ollie became the first coach since Michigan's Steve Fisher in 1989 to win a national title within two years of taking his first Division I head job, and joined John Thompson, Nolan Richardson and Tubby Smith as Black coaches who led Division I teams to the title.",
+   "sources": [
+    "https://www.ncaa.com/news/basketball-men/article/2014-04-08/connecticut-stars-underdog-role-win-national-championship"
+   ]
+  },
+  {
+   "text": "Napier, Giffey and Tyler Olander, seniors who had also been on the 2011 champions, became the first UConn players with two national titles.",
+   "sources": [
+    "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n39/mode/1up",
+    "http://web.archive.org/web/20140410131711/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-0408-20140407,0,5608329.story"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "f98yI2f9Ys0",
+   "title": "UConn vs. Kentucky: 2014 NCAA men's national championship | FULL REPLAY",
+   "channel": "March Madness",
+   "kind": "full_game",
+   "start": null,
+   "why": "Official NCAA March Madness channel full replay of this game. (Its description wrongly says 'April, 8, 2014 in Dallas'.) Already in site videos[]. Timestamps not determined (video not viewed)."
+  },
+  {
+   "youtube": "KIImO4boG7g",
+   "title": "2014 NCAA DI Men's Basketball Championship Highlights",
+   "channel": "March Madness",
+   "kind": "highlights",
+   "start": null,
+   "why": "Official NCAA channel; description: top moments from the 2014 championship game, 'UConn vs. Kentucky.'"
+  },
+  {
+   "youtube": "AO5WH70hTf0",
+   "title": "Connecticut vs. Kentucky: Huskies win the 2014 NCAA tournament \u2013 2014 March Madness",
+   "channel": "March Madness",
+   "kind": "final_play",
+   "start": null,
+   "why": "Official NCAA channel, 20 seconds; description: 'Ryan Boatright dribbles out the clock as UConn wins its fourth national championship.'"
+  },
+  {
+   "youtube": "nO7U4b87_zo",
+   "title": "UCONN vs Kentucky NCAA 2014 National Championship: FULL Highlights",
+   "channel": "Power House Sports",
+   "kind": "highlights",
+   "start": null,
+   "why": "Highlights of this game uploaded April 9, 2014. Already in site videos[]."
+  },
+  {
+   "youtube": "sOXZY1w6gNY",
+   "title": "Uconn hungry huskies 2014 NCAA champs",
+   "channel": "Dan-NaMal Gambler",
+   "kind": "highlights",
+   "start": null,
+   "why": "80-second clip uploaded the night of the game; description: 'Interview with Napier and boatright' (the postgame on-court interview). Already in site videos[] as the 'Hungry Huskies' moment."
+  },
+  {
+   "youtube": "LLmOomFURJ8",
+   "title": "UConn vs. Kentucky - National Championship - 2014 NCAA Tournament",
+   "channel": "tcf15",
+   "kind": "full_game",
+   "start": null,
+   "why": "Fan upload of the full broadcast (9,205 seconds); description: 'Includes pre game and post game pressers.'"
+  }
+ ],
+ "photos": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/2014_NCAA_National_Champion_UConn_Huskies_Men%27s_Basketball_team_returns_to_Connecticut_%2813725992413%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2014_NCAA_National_Champion_UConn_Huskies_Men%27s_Basketball_team_returns_to_Connecticut_(13725992413).jpg",
+   "credit": "Dannel Malloy (Office of the Governor), via Flickr",
+   "license": "CC BY 2.0",
+   "depicts": "Aftermath, not game action: at the foot of the team plane's stairs at Bradley International Airport on Tuesday, April 8, 2014, Gov. Dannel P. Malloy (right) shakes hands with an arriving member of the UConn party. He appears to be coach Kevin Ollie; the official caption says only that Malloy greets the team.",
+   "verified": "Visually inspected 2026-10-01: one handshake between Malloy and an arriving UConn party member at the plane stairs. The caption and date (April 8, 2014) come from the governor's Flickr account (governordanmalloy) and match Commons. CC BY 2.0, Flickr license review passed 17 May 2017."
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Barack_Obama_with_UConn_men%27s_and_women%27s_2014_NCAA_basketball_champions_2014-06-09.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Barack_Obama_with_UConn_men%27s_and_women%27s_2014_NCAA_basketball_champions_2014-06-09.jpg",
+   "credit": "Official White House Photo by Pete Souza",
+   "license": "Public domain",
+   "depicts": "Aftermath, not game action: President Barack Obama, holding UConn jerseys, poses with UConn players in the East Room of the White House, June 9, 2014. The players include women's stars Stefanie Dolson and Bria Hartley and men's guards Ryan Boatright and Shabazz Napier, as named in the file's Commons categories.",
+   "verified": "Visually inspected 2026-10-01: Obama with Dolson, Hartley, Boatright and Napier holding #1 UConn jerseys in the East Room. White House caption and date June 9, 2014 per Commons; public domain (Official White House Photo by Pete Souza)."
+  }
+ ],
+ "newspaper": [],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "sequence 2:47: who set up Daniels' basket",
+   "ours": "Daniels layup assisted by Napier (site:plays/2014-40; official play-by-play agrees)",
+   "source_says": "Hartford Courant: 'Daniels scored off a lob pass from Boatright.' Draft follows the play-by-play.",
+   "sources": [
+    "http://web.archive.org/web/20140410131711/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-0408-20140407,0,5608329.story",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/1314mb40.html"
+   ]
+  },
+  {
+   "field": "sequence clocks (minor)",
+   "ours": "Aaron Harrison corner 3 miss 7:29; Dakari Johnson layup 9:24; Andrew Harrison missed 3 8:26; Boatright jumper 4:12",
+   "source_says": "UConn official play-by-play: 7:26; 9:25; 8:24; 4:13 (the Courant also has Boatright's jumper at 4:12).",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/1314mb40.html",
+    "http://web.archive.org/web/20140408211224/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-side-0408-20140407,0,5948591.story"
+   ]
+  },
+  {
+   "field": "UConn 7-0 second-half run",
+   "ours": "Lead reached nine (48-39) at 11:01 (46-39 at 11:39)",
+   "source_says": "Courant: '7-0 run to stretch it back to nine points with 11:39 to play.'",
+   "sources": [
+    "http://web.archive.org/web/20140410131711/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-0408-20140407,0,5608329.story",
+    "site:plays/2014-40"
+   ]
+  },
+  {
+   "field": "games/2014.json teams[UConn].rank",
+   "ours": "null",
+   "source_says": "UConn record book (p. 7) lists UConn at No. 18 in the AP poll for this game.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "unsure": [
+  "Exact wording of Napier's on-court 'hungry Huskies' remark varies by transcript: AP has 'Ladies and gentlemen, this is what happens when you banned us'; UConn's official transcript has 'Ladies and gentleman, you are looking at the hungry Huskies. This is what happens.'; other outlets print 'when you ban us.' Only the short 'You're looking at the hungry Huskies' (UConn recap/AP) is quoted.",
+  "Who conducted the on-court interview is not stated in the sources found (UConn labels it a CBS TV interview).",
+  "When Boatright hurt his ankle: AP says during Kentucky's 8-0 run and that he called timeout; the play-by-play's only UConn timeout in that run is at 9:00, but no source ties the two, so no clock is given.",
+  "AP's line that 'Napier and Giffey made 3s on UConn's two possessions after the timeout' doesn't match the play-by-play (Napier missed a jumper right after the 9:00 timeout); not used.",
+  "TV crew is from AP's Feb. 25, 2014 announcement of the Final Four crew, not checked against the broadcast.",
+  "UConn's recap calls 79,238 a 'record crowd', but the semifinal two nights earlier drew 79,444. The official box clarifies it was a Final Four championship-game record; draft says 'when it was set' because later title-game crowds were not checked.",
+  "Timestamps inside the full-game videos not determined (videos not viewed).",
+  "Both photos are aftermath (airport arrival, White House visit); no license-cleared photo of game action was found on Commons. archive.org holds PastPages screenshots of the courant.com homepage the night of the title (e.g. pastpages-hartford-courant-17021-1485372, April 8, 2014 5:06 a.m. UTC) \u2014 not viewed or verified, so none are listed."
+ ],
+ "sources": [
+  {
+   "url": "site:plays/2014-40",
+   "what": "Site play-by-play (ESPN) \u2014 backbone for sequence clocks and scores"
+  },
+  {
+   "url": "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/1314mb40.html",
+   "what": "UConn official box and play-by-play: tip 8:10 p.m. CT, attendance 79,238 ('Final Four Championship game record'), 0 lead changes, UK no lead, FT 10-10 vs 13-24"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2014/4/7/Top_Dogs_UConn_Outlasts_Kentucky_60_54_to_Win_Fourth_National_Championship",
+   "what": "UConn official recap (AP-based): hungry Huskies line, never trailed, 8:13, Harrison corner miss, Young dunk and 8-0 run, Boatright ankle, Kromah's FTs at 25.1, MOP, all-tournament team"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2014/4/8/postgame_quotes.aspx",
+   "what": "UConn official postgame quotes: Ollie (Cinderellas), Calipari (no foul), Boatright, Nolan (33-point Louisville loss)"
+  },
+  {
+   "url": "https://www.espn.com/mens-college-basketball/recap/_/gameId/400551234",
+   "what": "ESPN/AP game story stored in site:games/2014.json: Napier's 30-foot 3 against the zone; 'Napier stuck around. So did Boatright.'"
+  },
+  {
+   "url": "https://www.ncaa.com/news/basketball-men/article/2014-04-08/connecticut-stars-underdog-role-win-national-championship",
+   "what": "AP story on NCAA.com (April 8, 2014): Calhoun retired, transfers/NBA exits, AAC, Ollie background and firsts, Boatright step-back to 56-50, NC State 1974, Arizona 1997"
+  },
+  {
+   "url": "https://www.ncaa.com/news/basketball-men/bracket-beat/2017-03-13/march-madness-getting-know-no-7-seed-ncaa-tournament",
+   "what": "NCAA.com (2017): UConn the first and only No. 7 seed to win the title; OT win over No. 10 Saint Joseph's"
+  },
+  {
+   "url": "http://web.archive.org/web/20140410131711/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-0408-20140407,0,5608329.story",
+   "what": "Hartford Courant game story (Wayback): Napier 'when you ban us' quote, contested 3 at end of clock, Giffey 3 to 54-49, Kentucky top-ranked preseason, first class with two title games"
+  },
+  {
+   "url": "http://web.archive.org/web/20140408211224/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-side-0408-20140407,0,5948591.story",
+   "what": "Hartford Courant Boatright sidebar (Wayback): eight of first 19 points, Randle FT to 54-50, jumper at 4:12, Aaron Harrison's three straight late game-winners"
+  },
+  {
+   "url": "https://today.uconn.edu/2012/04/ncaa-denies-uconns-final-appeal-of-postseason-ban-for-2012-13/",
+   "what": "UConn Today (April 5, 2012): NCAA denies final appeal; 2012-13 postseason ban based on past APR scores; President Herbst's statement"
+  },
+  {
+   "url": "https://today.uconn.edu/2014/04/record-breakers-womens-team-earns-ninth-national-title",
+   "what": "UConn Today (April 9, 2014): women beat Notre Dame 79-58; second men's-and-women's sweep, only school to do it"
+  },
+  {
+   "url": "https://www.cbsnews.com/texas/news/cbs-sports-turner-announce-ncaa-broadcast-team",
+   "what": "AP via CBS Texas (Feb. 25, 2014): Nantz, Kerr, Anthony and Wolfson to work the Final Four; title game on CBS"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/bill-clinton-george-w-bush-watch-ncaa-championship-game-together/",
+   "what": "CBS News: Clinton and George W. Bush watched side by side from Jerry Jones's suite"
+  },
+  {
+   "url": "https://www.nbcsports.com/college-basketball/news/aaron-harrisons-clutch-three-pointer-lifts-kentucky-past-michigan",
+   "what": "NBC Sports: Kentucky the No. 8 seed in the Midwest; wins over Wichita State, Louisville, Michigan"
+  },
+  {
+   "url": "https://www.foxnews.com/sports/ncaa-tournament-kentucky-beats-michigan-to-reach-final-four",
+   "what": "AP (Fox News): Kentucky's five freshman starters; Harrison's go-ahead shots in the Midwest Regional"
+  },
+  {
+   "url": "https://floridagators.com/news/2014/4/6/27866",
+   "what": "Florida athletics: UConn's 63-53 semifinal win before 79,444"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn Record Book 2026-27: p. 7 2013-14 results (AP ranks 18/ARV, 79,238, CBS, Louisville L 48-81); p. 65 largest crowds"
+  },
+  {
+   "url": "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n5/mode/1up",
+   "what": "UConn 2014-15 media guide p. 4: Ollie named 18th head coach Sept. 13, 2012; two seasons as an assistant"
+  },
+  {
+   "url": "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n6/mode/1up",
+   "what": "UConn 2014-15 media guide p. 5: Ollie a four-year starting point guard at UConn (graduated 1995), 13-year NBA career"
+  },
+  {
+   "url": "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n38/mode/1up",
+   "what": "UConn 2014-15 media guide p. 37: 9-0 start, AT&T Stadium tour in January, 24-7 regular season, No. 7 seed East, Saint Joseph's and Villanova"
+  },
+  {
+   "url": "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n39/mode/1up",
+   "what": "UConn 2014-15 media guide p. 38: Iowa State (3) and Michigan State (4), Florida semifinal, never trailed Kentucky, fourth title alongside UCLA/Kentucky/UNC/Indiana/Duke, Napier/Giffey/Olander two titles"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=AO5WH70hTf0",
+   "what": "NCAA March Madness video description: Boatright dribbles out the clock"
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:2014_NCAA_National_Champion_UConn_Huskies_Men%27s_Basketball_team_returns_to_Connecticut_(13725992413).jpg",
+   "what": "Commons photo: Gov. Malloy greets team at Bradley Airport, April 8, 2014"
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:Barack_Obama_with_UConn_men%27s_and_women%27s_2014_NCAA_basketball_champions_2014-06-09.jpg",
+   "what": "Commons photo: White House event honoring both UConn teams, June 9, 2014"
+  }
+ ],
+ "_verified": {
+  "checked": 203,
+  "ok": 197,
+  "edits": 10
+ }
+}

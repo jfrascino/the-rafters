@@ -1,0 +1,644 @@
+{
+ "slug": "jalen-adams-4ot-2016",
+ "gameId": "2016-32",
+ "title": "Jalen Adams' Heave Forces a Fourth Overtime",
+ "nickname": null,
+ "dek": "Down three with 0.8 seconds left in the third overtime, freshman Jalen Adams banked in a three-quarter-court heave \u2014 and UConn outlasted Cincinnati 104-97 in four overtimes.",
+ "date": "2016-03-11",
+ "tip": {
+  "text": "2:00 p.m. ET",
+  "sources": [
+   "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html",
+   "https://espnpressroom.com/us/press-releases/2016/03/menschampweek/"
+  ]
+ },
+ "venue": "Amway Center",
+ "city": "Orlando, FL",
+ "attendance": {
+  "n": 7475,
+  "sources": [
+   "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "event": "American Athletic Conference tournament quarterfinal",
+ "tv": {
+  "network": "ESPN2",
+  "announcers": [
+   "Mike Patrick"
+  ],
+  "sources": [
+   "https://espnpressroom.com/us/press-releases/2016/03/menschampweek/",
+   "https://www.youtube.com/watch?v=axt7zhazgWA",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "21-10",
+   "rank": "unranked",
+   "seed": "5 (AAC tournament)"
+  },
+  "opp": {
+   "record": "22-9",
+   "rank": "unranked (receiving votes)",
+   "seed": "4 (AAC tournament)"
+  },
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru"
+  ]
+ },
+ "setup": [
+  {
+   "text": "UConn came to Orlando with its NCAA tournament hopes on the line. The fifth-seeded Huskies were 21-10 and had lost to Houston and SMU in the final week of the regular season. A loss here, Courant columnist Jeff Jacobs wrote, would in all likelihood have ended any chance at an at-large bid.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://uconnhuskies.com/news/2016/3/13/UConn_Downs_Memphis_72_58_to_take_AAC_Championship",
+    "http://web.archive.org/web/20160313152841/http://www.courant.com/sports/uconn-mens-basketball/hc-jacobs-col-uconn-men-cincy-aac-0312-20160311-column.html"
+   ]
+  },
+  {
+   "text": "Fourth-seeded Cincinnati had NCAA hopes of its own, and it had already beaten UConn twice that season \u2014 58-57 in Hartford and 65-60 at home.",
+   "sources": [
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru",
+    "https://dailycampus.com/2016/03/12/2016-3-11-mens-basketball-uconn-beats-cincinnati-in-four-overtimes-4/",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "UConn's freshman point guard, Jalen Adams of Roxbury, Mass., had a history with long shots. He won Cushing Academy the 2013 New England prep title with a 35-foot buzzer-beater, hit a half-court shot at UConn's First Night in October, and had spent the previous summer goofing around with absurdly long shots alongside sophomore Daniel Hamilton.",
+   "sources": [
+    "http://web.archive.org/web/20160313152841/http://www.courant.com/sports/uconn-mens-basketball/hc-jacobs-col-uconn-men-cincy-aac-0312-20160311-column.html",
+    "http://web.archive.org/web/20160313152901/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-cincinnati-aac-tourney-0312-20160311-story.html",
+    "https://dailycampus.com/2016/03/12/2016-3-11-mens-basketball-uconn-beats-cincinnati-in-four-overtimes-4/"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "Cincinnati controlled the first half, leading by as many as 13 and taking a 36-27 lead into the break while UConn shot 35.7 percent. Forward Shonn Miller, in early foul trouble, played only three minutes before halftime.",
+   "sources": [
+    "http://web.archive.org/web/20160313152901/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-cincinnati-aac-tourney-0312-20160311-story.html",
+    "https://dailycampus.com/2016/03/12/2016-3-11-mens-basketball-uconn-beats-cincinnati-in-four-overtimes-4/",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html"
+   ]
+  },
+  {
+   "text": "UConn opened the second half on a 22-9 run and took its first lead since 4-3 on a Hamilton jumper at 13:22. Hamilton's free throws made it 62-55 with 3:36 left \u2014 and then UConn did not score again in regulation. Farad Cobb hit a 3 after an Adams turnover, Troy Caupain's two free throws tied it 62-62 with 35 seconds left, and Amida Brimah blocked Caupain's layup at the end to force overtime.",
+   "sources": [
+    "https://dailycampus.com/2016/03/12/2016-3-11-mens-basketball-uconn-beats-cincinnati-in-four-overtimes-4/",
+    "site:plays/2016-32",
+    "http://web.archive.org/web/20160313152901/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-cincinnati-aac-tourney-0312-20160311-story.html",
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru"
+   ]
+  },
+  {
+   "text": "Then the game refused to end. The first overtime ended 67-67 after late 3-point misses by Sterling Gibbs and Caupain. In the second, Cincinnati led by four before two Brimah baskets tied it; Caupain's left-handed hook put the Bearcats ahead with about 15 seconds left, and Adams went coast to coast for a layup that tied it 75-75 with under six seconds to go. Miller fouled out in that overtime.",
+   "sources": [
+    "site:plays/2016-32",
+    "http://web.archive.org/web/20160313152841/http://www.courant.com/sports/uconn-mens-basketball/hc-jacobs-col-uconn-men-cincy-aac-0312-20160311-column.html",
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru",
+    "https://dailycampus.com/2016/03/12/2016-3-11-mens-basketball-uconn-beats-cincinnati-in-four-overtimes-4/",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "OT3",
+   "clock": "0:42",
+   "uconn": 84,
+   "opp": 85,
+   "text": "Caupain, on his way to 37 points, hits a jumper. Cincinnati leads by one.",
+   "sources": [
+    "site:plays/2016-32",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html"
+   ]
+  },
+  {
+   "period": "OT3",
+   "clock": "0:28",
+   "uconn": 85,
+   "opp": 85,
+   "text": "Hamilton, fouled by Gary Clark, misses the first free throw and makes the second. Tie game.",
+   "sources": [
+    "site:plays/2016-32",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html"
+   ]
+  },
+  {
+   "period": "OT3",
+   "clock": "0:06",
+   "uconn": 85,
+   "opp": 85,
+   "text": "Caupain misses a 3, but Octavius Ellis grabs the offensive rebound.",
+   "sources": [
+    "site:plays/2016-32",
+    "http://web.archive.org/web/20160313152841/http://www.courant.com/sports/uconn-mens-basketball/hc-jacobs-col-uconn-men-cincy-aac-0312-20160311-column.html"
+   ]
+  },
+  {
+   "period": "OT3",
+   "clock": "0:01",
+   "uconn": 85,
+   "opp": 88,
+   "text": "Ellis kicks it out to Kevin Johnson, who buries a 3 from the left wing. Cincinnati leads by three with 0.8 seconds left, and the Bearcats celebrate as if they have won \u2014 Ellis and Cobb chase Johnson down the floor.",
+   "sources": [
+    "site:plays/2016-32",
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru",
+    "http://web.archive.org/web/20160313152901/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-cincinnati-aac-tourney-0312-20160311-story.html",
+    "http://web.archive.org/web/20160313152841/http://www.courant.com/sports/uconn-mens-basketball/hc-jacobs-col-uconn-men-cincy-aac-0312-20160311-column.html",
+    "https://dailycampus.com/2016/03/12/2016-3-11-mens-basketball-uconn-beats-cincinnati-in-four-overtimes-4/"
+   ]
+  },
+  {
+   "period": "OT3",
+   "clock": "0:01",
+   "uconn": 85,
+   "opp": 88,
+   "text": "With the clock stopped, Hamilton and Adams look at each other; each wants the other to take the ball out. Hamilton inbounds it, unchallenged, to Adams on the left side, level with the top of the 3-point arc at the far end.",
+   "sources": [
+    "https://dailycampus.com/2016/03/12/2016-3-11-mens-basketball-uconn-beats-cincinnati-in-four-overtimes-4/",
+    "http://web.archive.org/web/20160313152841/http://www.courant.com/sports/uconn-mens-basketball/hc-jacobs-col-uconn-men-cincy-aac-0312-20160311-column.html",
+    "https://heavy.com/sports/2016/03/jalen-adams-connecticut-buzzer-beater-triple-overtime-cincinnati-three-quarter-court-video-watch/"
+   ]
+  },
+  {
+   "period": "OT3",
+   "clock": "0:00",
+   "uconn": 88,
+   "opp": 88,
+   "text": "Clark steps toward Adams, then backs off. Adams turns, brings the ball to his waist, leaps and heaves it two-handed from three-quarter court. It banks off the glass and drops through: 88-88.",
+   "sources": [
+    "http://web.archive.org/web/20160313152841/http://www.courant.com/sports/uconn-mens-basketball/hc-jacobs-col-uconn-men-cincy-aac-0312-20160311-column.html",
+    "http://web.archive.org/web/20160313152901/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-cincinnati-aac-tourney-0312-20160311-story.html",
+    "https://www.ncaa.com/news/basketball-men/article/2016-03-11/uconns-jalen-adams-drills-34-court-shot-force-4ot-vs",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html",
+    "site:plays/2016-32"
+   ]
+  },
+  {
+   "period": "OT3",
+   "clock": "0:00",
+   "uconn": 88,
+   "opp": 88,
+   "text": "UConn's players pour onto the floor and pile on Adams. The officials review the play and rule the ball was out of his hands before the horn. Fourth overtime.",
+   "sources": [
+    "http://web.archive.org/web/20160313152901/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-cincinnati-aac-tourney-0312-20160311-story.html",
+    "http://web.archive.org/web/20160313152841/http://www.courant.com/sports/uconn-mens-basketball/hc-jacobs-col-uconn-men-cincy-aac-0312-20160311-column.html",
+    "https://uconnhuskies.com/news/2016/3/11/Adams_Sparks_UConn_in_Win_Over_Cincinnati_104_97"
+   ]
+  },
+  {
+   "period": "OT4",
+   "clock": "4:31",
+   "uconn": 88,
+   "opp": 89,
+   "text": "Rodney Purvis fouls out; Ellis makes one of two free throws.",
+   "sources": [
+    "site:plays/2016-32",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html"
+   ]
+  },
+  {
+   "period": "OT4",
+   "clock": "4:07",
+   "uconn": 90,
+   "opp": 89,
+   "text": "Clark blocks Adams' layup, but Adams grabs his own rebound and scores.",
+   "sources": [
+    "site:plays/2016-32",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html"
+   ]
+  },
+  {
+   "period": "OT4",
+   "clock": "3:08",
+   "uconn": 92,
+   "opp": 91,
+   "text": "After two Caupain free throws, Adams chases down another offensive rebound, and Gibbs is fouled and makes both. UConn leads for good.",
+   "sources": [
+    "site:plays/2016-32",
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru"
+   ]
+  },
+  {
+   "period": "OT4",
+   "clock": "1:36",
+   "uconn": 96,
+   "opp": 91,
+   "text": "Adams hits a jumper at 2:12 and Hamilton follows with another. UConn leads by five.",
+   "sources": [
+    "site:plays/2016-32",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html"
+   ]
+  },
+  {
+   "period": "OT4",
+   "clock": "0:10",
+   "uconn": 104,
+   "opp": 97,
+   "text": "Adams makes four free throws in the final 33 seconds, and Hamilton's two at 0:10 finish it. UConn 104, Cincinnati 97.",
+   "sources": [
+    "site:plays/2016-32",
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "0.8",
+   "label": "seconds left when Adams caught the inbounds pass, down three in the third overtime",
+   "sources": [
+    "http://web.archive.org/web/20160313152901/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-cincinnati-aac-tourney-0312-20160311-story.html",
+    "http://web.archive.org/web/20160313152841/http://www.courant.com/sports/uconn-mens-basketball/hc-jacobs-col-uconn-men-cincy-aac-0312-20160311-column.html",
+    "https://uconnhuskies.com/news/2016/3/11/Adams_Sparks_UConn_in_Win_Over_Cincinnati_104_97"
+   ]
+  },
+  {
+   "value": "4",
+   "label": "overtimes \u2014 the longest game in AAC tournament history at the time, and the only four-overtime game in UConn's record-book list of overtime games (kept since 1956-57)",
+   "sources": [
+    "https://dailycampus.com/2016/03/12/2016-3-11-mens-basketball-uconn-beats-cincinnati-in-four-overtimes-4/",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "value": "37",
+   "label": "points by Cincinnati's Troy Caupain, an AAC tournament record at the time",
+   "sources": [
+    "http://web.archive.org/web/20160313152841/http://www.courant.com/sports/uconn-mens-basketball/hc-jacobs-col-uconn-men-cincy-aac-0312-20160311-column.html",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html"
+   ]
+  },
+  {
+   "value": "15",
+   "label": "of Adams' 22 points came in the overtimes \u2014 8 of them in the fourth",
+   "sources": [
+    "https://roundballdaily.com/2016/03/11/jalen-adams-etches-his-name-in-uconn-record-books-with-ridiculous-unbelievable-season-saving-shot/",
+    "site:plays/2016-32",
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru"
+   ]
+  },
+  {
+   "value": "3",
+   "label": "hours of basketball, by the Hartford Courant's count",
+   "sources": [
+    "http://web.archive.org/web/20160313152901/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-cincinnati-aac-tourney-0312-20160311-story.html",
+    "http://web.archive.org/web/20160313152841/http://www.courant.com/sports/uconn-mens-basketball/hc-jacobs-col-uconn-men-cincy-aac-0312-20160311-column.html"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "If it goes in, it would be amazing, and if we lost at least we would go out fighting.",
+   "who": "Jalen Adams",
+   "role": "UConn freshman guard",
+   "when": "postgame",
+   "source": "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru"
+  },
+  {
+   "text": "That's legendary stuff to make that shot at that time and just keep performing.",
+   "who": "Kevin Ollie",
+   "role": "UConn head coach",
+   "when": "postgame press conference",
+   "source": "https://uconnhuskies.com/news/2016/3/11/uconn_vs_cincinnati_postgame_quotes_3_11_16.aspx"
+  },
+  {
+   "text": "In 0.8 you can't catch the ball, take two steps and then shoot it.",
+   "who": "Mick Cronin",
+   "role": "Cincinnati head coach",
+   "when": "postgame",
+   "source": "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru"
+  },
+  {
+   "text": "But we thought the game was over too early and he hit a shot that put it into another overtime",
+   "who": "Troy Caupain",
+   "role": "Cincinnati guard",
+   "when": "postgame",
+   "source": "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "Cronin argued the clock started late and said he felt Cincinnati had won the game; an AAC spokesman called the restarting of the clock a judgment call.",
+   "sources": [
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru",
+    "http://web.archive.org/web/20160313152841/http://www.courant.com/sports/uconn-mens-basketball/hc-jacobs-col-uconn-men-cincy-aac-0312-20160311-column.html",
+    "http://web.archive.org/web/20160313152901/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-cincinnati-aac-tourney-0312-20160311-story.html"
+   ]
+  },
+  {
+   "text": "UConn kept going. The next afternoon it beat top-seeded Temple 77-62, and on Sunday it beat Memphis 72-58 for the AAC tournament title, the program's first conference tournament championship since 2011. Hamilton, who had a career-high 32 points, 12 rebounds and eight assists against Cincinnati, was named the tournament's MVP.",
+   "sources": [
+    "https://uconnhuskies.com/news/2016/3/13/UConn_Downs_Memphis_72_58_to_take_AAC_Championship",
+    "http://web.archive.org/web/20160313152901/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-cincinnati-aac-tourney-0312-20160311-story.html",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru",
+    "https://www.sports-reference.com/cbb/awards/men/american-tourney-mvp.html"
+   ]
+  },
+  {
+   "text": "Seeded ninth in the NCAA tournament, UConn beat Colorado 74-67 in Des Moines before top-seeded Kansas won 73-61, handing Ollie his first NCAA tournament loss as UConn's coach.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://uconnhuskies.com/news/2016/3/19/No_9_UConn_Falls_to_No_1_Kansas_73_61_in_Second_Round"
+   ]
+  },
+  {
+   "text": "Cincinnati made the NCAA field as a No. 9 seed and lost 78-76 to Saint Joseph's after Octavius Ellis' tying dunk at the buzzer was waved off following a lengthy review \u2014 the AP called it the Bearcats' second straight crushing loss.",
+   "sources": [
+    "https://6abc.com/st-joes-cincinnati-ncaa-tournament-march-madness/1252409/"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "Jacobs added the shot to UConn's list of unforgettable March shots, alongside Ray Allen's against Georgetown and Taliek Brown's against Pitt \u2014 and noted that Allen himself, sitting behind press row, was on his feet with his mouth open.",
+   "sources": [
+    "http://web.archive.org/web/20160313152841/http://www.courant.com/sports/uconn-mens-basketball/hc-jacobs-col-uconn-men-cincy-aac-0312-20160311-column.html"
+   ]
+  },
+  {
+   "text": "Only one game in UConn's record-book list of overtime games ran longer: the six-overtime loss to Syracuse in the 2009 Big East quarterfinals.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru"
+   ]
+  },
+  {
+   "text": "On the shot's sixth anniversary, in 2022, ESPN posted it on its YouTube channel.",
+   "sources": [
+    "https://www.youtube.com/watch?v=NnpFhqHPmVI"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "yZNkrBNVPmg",
+   "title": "Cincinnati vs UConn: 4OT Full Highlights (ESPN) 2016 AAC Tournament",
+   "channel": "Nick Colosimo",
+   "kind": "highlights",
+   "start": null,
+   "why": "7:47 highlight package of this game uploaded March 12, 2016; description: '104-97 in 4 overtimes. Jalen Adams hits a miraculous 3/4 court shot.' Already in site videos[]. Timestamp of the shot not determined (video not viewed)."
+  },
+  {
+   "youtube": "NnpFhqHPmVI",
+   "title": "Six years ago, Jalen Adams hit this last-second heave to send UConn vs. Cincinnati to its 4th OT \ud83d\ude33",
+   "channel": "ESPN",
+   "kind": "final_play",
+   "start": null,
+   "why": "Official ESPN channel, 23 seconds, posted March 11, 2022; description names UConn vs. Cincinnati and the 4th OT."
+  },
+  {
+   "youtube": "9xW8_rdJrsI",
+   "title": "UConn Freshman Jalen Adams Hits Beyond Half Court Buzzer Beater To Force 4th OT",
+   "channel": "American Conference",
+   "kind": "final_play",
+   "start": null,
+   "why": "Official AAC channel, posted the day of the game; description names Cincinnati and the fourth overtime. Already in site videos[]."
+  },
+  {
+   "youtube": "axt7zhazgWA",
+   "title": "Jalen Adams Cincinnati Buzzer Beater (4 Camera Angles)",
+   "channel": "tcf15",
+   "kind": "final_play",
+   "start": null,
+   "why": "80-second upload from March 12, 2016 showing the shot from four camera angles with the TV call (per its description)."
+  },
+  {
+   "youtube": "07dISvVlE58",
+   "title": "UConn Jalen Adams half court buzzer beater",
+   "channel": "LauraRyanSays",
+   "kind": "final_play",
+   "start": null,
+   "why": "Uploaded the day of the game; description: 'Last 3.7 seconds of the 3rd OT and immediate reaction to Jalen Adams' buzzer beater' vs. Cincinnati in Orlando. Already in site videos[]."
+  },
+  {
+   "youtube": "P2W9WIO8qbM",
+   "title": "3/11/16: UConn's Jalen Adams hits UNBELIEVABLE full court buzzer-beater to send the game to 4OT",
+   "channel": "abcdefghijk",
+   "kind": "final_play",
+   "start": null,
+   "why": "21-second clip uploaded March 11, 2016; description names the 104-97 AAC quarterfinal win over Cincinnati."
+  }
+ ],
+ "photos": [],
+ "newspaper": [],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "Adams' points",
+   "ours": "22 (box)",
+   "source_says": "The AP story (stored as our site article for 2016-32) says 'career-high 24' in its body (its headline says 22); UConn's own recap also says 24. The official box score says 22, matching ours.",
+   "sources": [
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru",
+    "https://uconnhuskies.com/news/2016/3/11/Adams_Sparks_UConn_in_Win_Over_Cincinnati_104_97",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html"
+   ]
+  },
+  {
+   "field": "shot distance",
+   "ours": "'62-foot' (play text in site:plays/2016-32)",
+   "source_says": "About 60 feet (UConn recap); '60-foot' (Roundball Daily); 'more than 70 feet' (Courant, Dom Amore); '70-foot' (Courant, Jeff Jacobs); '70-plus feet' (Daily Campus); 75 feet (Heavy headline); 80 feet (Cincinnati coach Mick Cronin; Bleacher Report headline); '3/4-court' (NCAA.com); 'beyond half-court' (AP).",
+   "sources": [
+    "https://uconnhuskies.com/news/2016/3/11/Adams_Sparks_UConn_in_Win_Over_Cincinnati_104_97",
+    "https://roundballdaily.com/2016/03/11/jalen-adams-etches-his-name-in-uconn-record-books-with-ridiculous-unbelievable-season-saving-shot/",
+    "http://web.archive.org/web/20160313152901/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-cincinnati-aac-tourney-0312-20160311-story.html",
+    "http://web.archive.org/web/20160313152841/http://www.courant.com/sports/uconn-mens-basketball/hc-jacobs-col-uconn-men-cincy-aac-0312-20160311-column.html",
+    "https://dailycampus.com/2016/03/12/2016-3-11-mens-basketball-uconn-beats-cincinnati-in-four-overtimes-4/",
+    "https://heavy.com/sports/2016/03/jalen-adams-connecticut-buzzer-beater-triple-overtime-cincinnati-three-quarter-court-video-watch/",
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru",
+    "https://bleacherreport.com/articles/2624006-uconns-jalen-adam-sinks-80-foot-shot-to-force-4th-ot-vs-cincinnati",
+    "https://www.ncaa.com/news/basketball-men/article/2016-03-11/uconns-jalen-adams-drills-34-court-shot-force-4ot-vs"
+   ]
+  },
+  {
+   "field": "sequence: clock of Adams' tying 3",
+   "ours": "0:01 (site:plays/2016-32)",
+   "source_says": "Official play-by-play lists it at 0:00; all accounts say it beat the horn. Draft uses 0:00.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html",
+    "https://uconnhuskies.com/news/2016/3/11/Adams_Sparks_UConn_in_Win_Over_Cincinnati_104_97"
+   ]
+  },
+  {
+   "field": "clock times (second-overtime finish)",
+   "ours": "Caupain go-ahead 0:15; Adams tying layup 0:05",
+   "source_says": "Official play-by-play 0:14 and 0:06; AP '14.9 seconds' and '5.5 seconds' (narrative uses AP's tenths).",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html",
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru"
+   ]
+  },
+  {
+   "field": "clock times (third and fourth overtimes, minor)",
+   "ours": "Johnson 3 at 1:23; Adams jumper 3:01; Hamilton FT 0:27; Caupain missed 3 0:07 (OT3); Caupain FTs 3:39; Gibbs FTs 3:09; Adams putback 4:08; Adams jumper 2:16 (OT4)",
+   "source_says": "Official play-by-play: 1:17; 2:58; 0:28; 0:06; 3:36; 3:08; 4:07; 2:12. (AP agrees with our 3:09 for Gibbs' free throws.)",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html",
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru"
+   ]
+  },
+  {
+   "field": "Adams' miss at the end of regulation",
+   "ours": "Missed jumper at 0:08",
+   "source_says": "Official play-by-play: missed layup at 0:10; Courant: missed 'with 7.9 seconds left'. Narrative doesn't give a clock for it.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html",
+    "http://web.archive.org/web/20160313152901/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-cincinnati-aac-tourney-0312-20160311-story.html"
+   ]
+  },
+  {
+   "field": "attendance",
+   "ours": "7,475",
+   "source_says": "Daily Campus says 7,457; official box and record book say 7,475.",
+   "sources": [
+    "https://dailycampus.com/2016/03/12/2016-3-11-mens-basketball-uconn-beats-cincinnati-in-four-overtimes-4/",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "field": "plays/2016-32.json clips",
+   "ours": "clips['411'] (attached to Adams' tying-shot row) is titled 'K. Johnson made Three Point Jumper. Assisted by O. Ellis.'",
+   "source_says": "That clip title matches the previous row (Johnson's 3). ESPN's clip of Adams' shot is clip 14952572, 'Adams hits near-impossible 3 to force 4OT' (already in games/2016.json videos[]). Several other clips also sit one row late (e.g. '29', '291', '340').",
+   "sources": [
+    "http://www.espn.com/video/clip?id=14952572",
+    "site:plays/2016-32"
+   ]
+  },
+  {
+   "field": "site article for 2016-32",
+   "ours": "Stored AP text says UConn 'moved into the semifinals Friday against top-seeded Temple'",
+   "source_says": "The semifinal was Saturday, March 12 (AP's own 'Up next' line, Courant, Daily Campus).",
+   "sources": [
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru",
+    "http://web.archive.org/web/20160313152901/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-cincinnati-aac-tourney-0312-20160311-story.html",
+    "https://dailycampus.com/2016/03/12/2016-3-11-mens-basketball-uconn-beats-cincinnati-in-four-overtimes-4/"
+   ]
+  },
+  {
+   "field": "UConn free throws",
+   "ours": "22-24",
+   "source_says": "Courant game story says 22-for-25; official box and AP say 22 of 24.",
+   "sources": [
+    "http://web.archive.org/web/20160313152901/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-cincinnati-aac-tourney-0312-20160311-story.html",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html",
+    "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru"
+   ]
+  }
+ ],
+ "unsure": [
+  "Exact distance of the shot: no measured figure found; reported values run from about 60 feet to 80 feet (see conflicts). Narrative says 'three-quarter court' (NCAA.com, Courant) and gives no number.",
+  "Whether Adams dribbled before shooting: AP says he 'took a couple of dribbles'; the Daily Campus says he took two steps; Jacobs says he whirled, took a giant leap and heaved. Narrative avoids a dribble count.",
+  "Whether the clock started late: that is Cronin's claim only; an AAC spokesman called the restart a judgment call. Presented as Cronin's argument, not fact.",
+  "How long the review lasted: the Courant says 'a long review'; Jacobs says officials reviewed it 'a couple of times'.",
+  "TV analyst unclear: ESPN's pre-tournament schedule (marked subject to change) lists Mike Patrick and Tim Welsh; a YouTube uploader credits 'Patrick & Elmore's call'. Only Mike Patrick is listed.",
+  "Heavy and Roundball Daily say ESPN's Joe Lunardi had UConn among his 'First Four Out' before the game; not verified at ESPN, so not used.",
+  "Ollie said of the shot: 'I think it was past half court. I don't think he was over half court' \u2014 not quoted, as it is ambiguous.",
+  "Timestamps of the shot inside the highlight package not determined (videos not viewed).",
+  "No license-cleared photo found: nothing on Wikimedia Commons; Daily Campus photos by Ashley Maher exist on dailycampus.com but not on archive.org or Commons; USA Today/AP photos excluded. No PastPages courant.com captures for March 11-12, 2016 found on archive.org."
+ ],
+ "sources": [
+  {
+   "url": "site:plays/2016-32",
+   "what": "Site play-by-play (ESPN) \u2014 backbone for sequence clocks and scores"
+  },
+  {
+   "url": "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2015-2016/aac4.html",
+   "what": "UConn official box and play-by-play: tip 2:00 p.m., attendance 7,475, Adams 22, Caupain 37, official clocks, Hamilton assist on the tying 3"
+  },
+  {
+   "url": "https://www.si.com/college/2016/03/11/ap-bkc-aac-uconn-cincinnati-1st-ld-writethru",
+   "what": "AP game story (March 11, 2016): Johnson's 3 from the left wing, quotes from Adams, Cronin and Caupain, 14.9/5.5 seconds, Gibbs 92-91 at 3:09, 2009 six-OT note"
+  },
+  {
+   "url": "https://www.espn.com/mens-college-basketball/recap/_/gameId/400870285",
+   "what": "ESPN recap page with the same AP story (stored in site:games/2016.json)"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2016/3/11/Adams_Sparks_UConn_in_Win_Over_Cincinnati_104_97",
+   "what": "UConn recap (AP-based): 0.8 seconds, officials reviewed and ruled the shot good, 'about 60 feet'"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2016/3/11/uconn_vs_cincinnati_postgame_quotes_3_11_16.aspx",
+   "what": "UConn official postgame quotes: Ollie ('legendary stuff'), Adams, Hamilton"
+  },
+  {
+   "url": "http://web.archive.org/web/20160313152901/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-cincinnati-aac-tourney-0312-20160311-story.html",
+   "what": "Hartford Courant game story by Dom Amore (Wayback): celebrating Bearcats, two-handed heave from three-quarter court, kissed the glass, long review, UConn didn't score again in regulation"
+  },
+  {
+   "url": "http://web.archive.org/web/20160313152841/http://www.courant.com/sports/uconn-mens-basketball/hc-jacobs-col-uconn-men-cincy-aac-0312-20160311-column.html",
+   "what": "Hartford Courant column by Jeff Jacobs (Wayback): inbounds detail, Clark backing off, Ray Allen behind press row, Caupain's AAC tournament record, Cushing/First Night shots, AAC spokesman"
+  },
+  {
+   "url": "https://dailycampus.com/2016/03/12/2016-3-11-mens-basketball-uconn-beats-cincinnati-in-four-overtimes-4/",
+   "what": "The Daily Campus (UConn student paper): longest game in AAC tournament history, Bearcats celebrating, Hamilton/Adams inbounds, 22-9 run, Miller's three first-half minutes"
+  },
+  {
+   "url": "https://www.ncaa.com/news/basketball-men/article/2016-03-11/uconns-jalen-adams-drills-34-court-shot-force-4ot-vs",
+   "what": "NCAA.com: '3/4-court shot', Cincinnati led with 0.8 to go"
+  },
+  {
+   "url": "https://www.newsrecord.org/sports/bearcats-lose-to-uconn-in-a-game-for-the-ages/article_c328327a-e7ed-11e5-ab2c-77431dafa4d0.html",
+   "what": "The News Record (Cincinnati student paper): Cronin and Caupain quotes (its 84-81 score is wrong; not used for scores)"
+  },
+  {
+   "url": "https://roundballdaily.com/2016/03/11/jalen-adams-etches-his-name-in-uconn-record-books-with-ridiculous-unbelievable-season-saving-shot/",
+   "what": "Roundball Daily: 15 of Adams' 22 points in the overtimes; '60-foot prayer'"
+  },
+  {
+   "url": "https://heavy.com/sports/2016/03/jalen-adams-connecticut-buzzer-beater-triple-overtime-cincinnati-three-quarter-court-video-watch/",
+   "what": "Heavy: shot banked in 'from the opposite three-point line'; 75-foot headline"
+  },
+  {
+   "url": "https://bleacherreport.com/articles/2624006-uconns-jalen-adam-sinks-80-foot-shot-to-force-4th-ot-vs-cincinnati",
+   "what": "Bleacher Report headline: '80-Foot Shot'"
+  },
+  {
+   "url": "https://espnpressroom.com/us/press-releases/2016/03/menschampweek/",
+   "what": "ESPN Press Room Champ Week schedule: Quarterfinal #2 Cincinnati vs. UConn, 2 p.m., ESPN2, Mike Patrick and Tim Welsh listed"
+  },
+  {
+   "url": "http://www.espn.com/video/clip?id=14952572",
+   "what": "ESPN video clip 14952572 'Adams hits near-impossible 3 to force 4OT' (metadata)"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2016/3/13/UConn_Downs_Memphis_72_58_to_take_AAC_Championship",
+   "what": "UConn/AP recap of AAC final: beat Temple 77-62 and Memphis 72-58; first conference tournament title since 2011; losses to Houston and SMU in the final regular-season week"
+  },
+  {
+   "url": "https://www.sports-reference.com/cbb/awards/men/american-tourney-mvp.html",
+   "what": "Sports Reference: Daniel Hamilton 2016 AAC tournament MVP"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2016/3/19/No_9_UConn_Falls_to_No_1_Kansas_73_61_in_Second_Round",
+   "what": "UConn/AP recap: No. 9 UConn lost 73-61 to No. 1 Kansas, Ollie's first NCAA tournament loss"
+  },
+  {
+   "url": "https://6abc.com/st-joes-cincinnati-ncaa-tournament-march-madness/1252409/",
+   "what": "AP (6abc): Saint Joseph's 78, Cincinnati 76; Ellis' dunk waved off; 'second straight crushing loss'"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn Record Book 2026-27: p. 7 2015-16 results (Cincinnati ARV, 7,475, ESPN2, both regular-season losses, NCAA games); p. 26 AAC results with seeds (#5 vs #4); p. 37 overtime-games list (only 4OT game; 2009 6OT loss)"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=NnpFhqHPmVI",
+   "what": "ESPN YouTube post on the sixth anniversary (March 11, 2022)"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=axt7zhazgWA",
+   "what": "YouTube upload whose description credits 'Patrick & Elmore's call'"
+  }
+ ],
+ "_verified": {
+  "checked": 193,
+  "ok": 183,
+  "edits": 14
+ }
+}

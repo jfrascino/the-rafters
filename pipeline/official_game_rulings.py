@@ -22,6 +22,19 @@ VENUES = [('CMC-NHC', 'New Haven Coliseum'), ('CMC-HCC', 'Hartford Civic Center'
           ('(WB)', 'Webster Bank Arena'), ('(WBA)', 'Webster Bank Arena'), ('Madison Square Garden', 'Madison Square Garden')]
 
 
+# rulings found after the record-book sweep (e.g. by the Moments research), with their evidence
+MANUAL = [
+    {'season': 1978, 'date': '1978-01-21', 'opp': 'Providence', 'field': 'score', 'set': {'res': 'L', 'pts': 47, 'opp_pts': 57, 'site': 'home', 'arena': 'New Haven Coliseum'},
+     'why': "UConn's record book (1977-78 results: '1/21 Providence at New Haven Coliseum L 47-57'), the Manchester Evening Herald (Jan. 23, 1978) "
+            "and the NYT headline all have 57-47; Sports-Reference's 49-57 is the outlier. The game was moved to the New Haven Coliseum after "
+            "the Hartford Civic Center roof collapsed on Jan. 18 (Herald preview, Jan. 21, 1978).",
+     'confidence': 'high', 'sources': ['https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf',
+                                       'https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-23.pdf#page=5',
+                                       'https://www.nytimes.com/1978/01/22/archives/providence-57-uconn-47.html',
+                                       'https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-21.pdf#page=4']},
+]
+
+
 def site_of(t):
     t = (t or '').strip()
     first = t.split(' ')[0].split('(')[0].lower()
@@ -138,6 +151,7 @@ def main():
             if gd != truth:
                 rulings.append({'season': y, 'date': gd, 'opp': go, 'field': 'date', 'set': {'date': truth}, 'why': r.get('note') or '', 'confidence': r['confidence'],
                                 'sources': (r.get('sources') or [])[:3], 'research_key': r['key']})
+    rulings += MANUAL
     out = {'_about': __doc__.strip().splitlines()[0], 'rulings': rulings, 'open': open_items}
     json.dump(out, open(os.path.join(HERE, 'game_rulings.json'), 'w'), indent=1)
     by = {}

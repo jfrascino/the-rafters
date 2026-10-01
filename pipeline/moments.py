@@ -280,7 +280,8 @@ def build_one(m, core):
     att = det.get('att') or ((m.get('attendance') or {}).get('n') if isinstance(m.get('attendance'), dict) else None)
     out['facts'] = {'venue': venue, 'city': city, 'att': att, 'attSrc': S.nums((m.get('attendance') or {}).get('sources')) if not det.get('att') and isinstance(m.get('attendance'), dict) else [],
                     'event': m.get('event') or (g or {}).get('round'), 'tip': (m.get('tip') or {}).get('text') if isinstance(m.get('tip'), dict) else m.get('tip'),
-                    'tv': det.get('tv') or ((m.get('tv') or {}).get('network') if isinstance(m.get('tv'), dict) else None),
+                    # the fact-checked network beats ESPN's feed, which lists streams too ("ESPN3, ESPN2")
+                    'tv': ((m.get('tv') or {}).get('network') if isinstance(m.get('tv'), dict) else None) or det.get('tv'),
                     'announcers': (m.get('tv') or {}).get('announcers') if isinstance(m.get('tv'), dict) else None}
     ent = m.get('entering') or {}
     if ent:
@@ -294,6 +295,7 @@ def build_one(m, core):
     hits = align(seq, plays) if plays else [None] * len(seq)
     clips = (P or {}).get('clips') or {}
     out['sequence'] = []
+    clipped = set()
     for b, i in zip(seq, hits):
         row = {'period': b.get('period'), 'clock': b.get('clock'), 'u': b.get('uconn'), 'o': b.get('opp'), 'text': b['text'].strip(), 'src': S.nums(b.get('sources'))}
         if i is not None:
@@ -301,21 +303,29 @@ def build_one(m, core):
             if (plays[i][3], plays[i][4]) != (b.get('uconn'), b.get('opp')) and b.get('uconn') is not None:
                 print(f"  !! {slug}: beat {b.get('clock')} score {b.get('uconn')}-{b.get('opp')} vs play-by-play {plays[i][3]}-{plays[i][4]}")
             c = clips.get(str(i))
-            if c:
+            if c and i not in clipped:   # two beats can sit on one play (a shot, then the inbound after it): one clip
+                clipped.add(i)
                 row['clip'] = {'src': c['src'], 'thumb': c.get('thumb'), 'title': c.get('title') or plays[i][7]}
         out['sequence'].append(row)
 
     # the decisive shot on a court, when ESPN charted it
-    for b, i in reversed(list(zip(out['sequence'], hits))):
-        if i is not None and plays[i][5] and plays[i][8] is not None and plays[i][9] is not None:
-            dist = re.search(r'(\d+)-foot', plays[i][7] or '')
-            out['shot'] = {'x': plays[i][8], 'y': plays[i][9], 'text': plays[i][7], 'ft': int(dist.group(1)) if dist else None, 'u': plays[i][2] == 'u',
-                           'clock': plays[i][1], 'period': per_label(plays[i][0])}
-            break
+    # the decisive shot: of the made field goals in the sequence that ESPN charted, the one closest to a horn
+    # (free throws carry a placeholder coordinate). Distances are left to the fact-checked words; sources disagree on them.
+    # Only a UConn shot in the last 10 seconds of a period counts: a court diagram of some mid-game basket says nothing.
+    fgs = [(k, i) for k, (b, i) in enumerate(zip(out['sequence'], hits))
+           if i is not None and plays[i][5] and plays[i][2] == 'u' and plays[i][8] is not None and plays[i][9] is not None
+           and 'free throw' not in (plays[i][7] or '').lower() and (clock_s(plays[i][1]) or 0) <= 10]
+    if fgs:
+        k, i = min(fgs, key=lambda t: (clock_s(plays[t[1]][1]) or 0, t[0]))
+        out['shot'] = {'x': plays[i][8], 'y': plays[i][9], 'beat': k, 'u': plays[i][2] == 'u', 'clock': plays[i][1], 'period': per_label(plays[i][0])}
 
     if plays:
         per_idx = [i for i in range(1, len(plays)) if plays[i][0] != plays[i - 1][0]]
-        marks = [{'play': i, 'label': f"{b['clock']} · {b['text'][:90]}"} for b, i in zip(out['sequence'], hits) if i is not None]
+        marks, seen_ = [], set()
+        for b, i in zip(out['sequence'], hits):
+            if i is not None and i not in seen_:
+                seen_.add(i)
+                marks.append({'play': i, 'label': f"{b['clock']} · {b['text'][:90]}"})
         out['chart'] = {'wp': P.get('wp') or None, 'margin': [p[3] - p[4] for p in plays], 'periods': per_idx, 'marks': marks,
                         'nPer': plays[-1][0]}
         out['pbp'] = pbp_facts(plays)
@@ -369,6 +379,14 @@ def build_one(m, core):
         vids.append({'id': vid, 'title': o['title'], 'channel': o['channel'], 'kind': v.get('kind') or 'highlights', 'start': v.get('start')})
     vids.sort(key=lambda v: KIND_ORDER.get(v['kind'], 6))
     out['videos'] = vids
+    sb = (out.get('shot') or {}).get('beat')
+    if sb is not None and not out['sequence'][sb].get('clip'):
+        shooter = (re.match(r"^\s*([A-Z][\w.'\-]+(?:\s+[A-Z][\w.'\-]+)*?)\s+(?:made|makes)", plays[hits[sb]][7] or '') or [None, ''])[1].split()
+        last = shooter[-1].lower() if shooter else None
+        espn = [v for v in vids if v.get('src') and last and re.search(r'\b' + re.escape(last) + r'\b', v['title'].lower())
+                and re.search(r'\b(hits|drains|buries|shot|three|3|heave|winner|buzzer|beats?|forces?)\b', v['title'].lower()) and ':' not in v['title']]
+        if espn:
+            out['sequence'][sb]['clip'] = {'src': espn[0]['src'], 'thumb': espn[0].get('thumb'), 'title': espn[0]['title']}
 
     out['photos'] = [{'url': p['url'], 'page': p.get('page'), 'credit': p.get('credit'), 'license': p.get('license'), 'caption': p.get('depicts')}
                      for p in m.get('photos') or [] if p.get('url')]

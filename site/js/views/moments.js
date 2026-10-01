@@ -159,7 +159,7 @@ async function page(main, slug, core) {
               ${b.clip ? `<button class="mo-clip" data-clip="${i}"><img src="${esc(b.clip.thumb || '')}" alt="" loading="lazy"><span>▶ Watch this play</span></button>` : ''}</div>
           </li>`).join('')}</ol>
         </div>
-        ${m.shot ? `<figure class="panel mo-court"><figcaption><span class="eyebrow gold">The shot</span><b>${esc(m.shot.text)}</b><span class="note">${esc(m.shot.clock)} · ${esc(m.shot.period)}${m.shot.ft ? ` · ${m.shot.ft} feet from the rim, per ESPN's shot chart` : ''}</span></figcaption><div id="moCourt"></div></figure>` : ''}
+        ${m.shot ? `<figure class="panel mo-court"><figcaption><span class="eyebrow gold">Where it happened</span><b>${esc(m.sequence[m.shot.beat]?.text || '')}</b><span class="note">The spot ESPN's shot chart recorded for the decisive shot (${esc(m.shot.period)}).</span></figcaption><div id="moCourt"></div></figure>` : ''}
       </section>` : ''}
 
       ${m.numbers.length || m.pbp ? `<section class="mo-ch reveal" id="ch-numbers"><h2 class="mo-h"><span>04</span>By the numbers</h2>
@@ -311,9 +311,13 @@ async function page(main, slug, core) {
 
 const KIND = { full_game: 'Full game', highlights: 'Highlights', final_play: 'The final play', moment: 'The moment', documentary: 'Documentary', interview: 'Interview', radio: 'Radio call', espn: 'ESPN' };
 const hms = (s) => { s = +s; const h = Math.floor(s / 3600), mm = Math.floor((s % 3600) / 60), ss = s % 60; return `${h ? h + ':' + String(mm).padStart(2, '0') : mm}:${String(ss).padStart(2, '0')}`; };
+// "UConn · 21–10 · Unranked · No. 5 seed (AAC tournament)"
 function enterLine(name, e) {
   if (!e) return '';
-  return esc([e.rank ? `#${String(e.rank).replace(/^#/, '')}` : '', name, e.record ? `(${e.record})` : '', e.seed ? `· ${e.seed} seed` : ''].filter(Boolean).join(' '));
+  const r = String(e.rank ?? '').trim(), sd = String(e.seed ?? '').trim();
+  const rank = !r ? '' : /^#?\d/.test(r) ? `No. ${r.replace(/^#/, '')}` : r[0].toUpperCase() + r.slice(1);
+  const seed = !sd ? '' : (sd.match(/^#?(\d+)\s*(.*)$/) ? sd.replace(/^#?(\d+)\s*(.*)$/, (_, n, rest) => `No. ${n} seed${rest ? ' ' + rest : ''}`) : sd);
+  return esc([name, e.record ? String(e.record).replace('-', '–') : '', rank, seed].filter(Boolean).join(' · '));
 }
 function bump(el, v) {
   if (!el || el.textContent === String(v)) return;
@@ -339,7 +343,7 @@ function fullCourt(el, s) {
   // the shot: along the court = y, across = x
   const sx = X(s.y), sy = Y(s.x), rx = X(5.25), ry = Y(25);
   const mx = (sx + rx) / 2, my = Math.min(sy, ry) - Math.max(40, Math.abs(sx - rx) * 0.28);
-  el.innerHTML = `<svg viewBox="0 0 ${w} ${h}" class="mo-courtsvg" role="img" aria-label="${esc(s.text)}">
+  el.innerHTML = `<svg viewBox="0 0 ${w} ${h}" class="mo-courtsvg" role="img" aria-label="Court diagram: where the decisive shot was taken">
     <defs><linearGradient id="mowood" x1="0" x2="1"><stop offset="0" stop-color="#2a1a0e"/><stop offset=".5" stop-color="#3a2513"/><stop offset="1" stop-color="#2a1a0e"/></linearGradient>
       <radialGradient id="moglow"><stop offset="0" stop-color="var(--gold)" stop-opacity=".9"/><stop offset="1" stop-color="var(--gold)" stop-opacity="0"/></radialGradient></defs>
     <rect width="${w}" height="${h}" rx="4" fill="url(#mowood)"/>
@@ -348,6 +352,6 @@ function fullCourt(el, s) {
     <path d="M${sx},${sy} Q${mx},${my} ${rx},${ry}" fill="none" stroke="var(--gold)" stroke-width="2" stroke-dasharray="6 6" class="mo-flight"/>
     <circle cx="${sx}" cy="${sy}" r="${Math.max(18, 3 * k)}" fill="url(#moglow)"/>
     <circle cx="${sx}" cy="${sy}" r="7" fill="var(--gold)" stroke="var(--ink)" stroke-width="2"/>
-    ${s.ft ? `<text x="${(sx + rx) / 2}" y="${Math.max(16, my + 4)}" text-anchor="middle" class="mo-ftlab">${s.ft} FT</text>` : ''}
+
   </svg>`;
 }

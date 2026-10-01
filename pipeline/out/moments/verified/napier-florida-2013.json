@@ -1,0 +1,567 @@
+{
+ "slug": "napier-florida-2013",
+ "gameId": "2014-8",
+ "title": "Napier Beats Florida at the Horn",
+ "nickname": null,
+ "dek": "Trapped, limping and off balance, Shabazz Napier missed \u2014 then caught DeAndre Daniels' blind tip-back at the free-throw line and beat the horn: UConn 65, No. 15 Florida 64.",
+ "date": "2013-12-02",
+ "tip": {
+  "text": "7:00 p.m. ET",
+  "sources": [
+   "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html",
+   "http://web.archive.org/web/20131203235602/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-1202-20131201,0,103290.story",
+   "https://www.ncaa.com/news/basketball-men/what-watch/2013-12-01/college-basketball-tv-week-5"
+  ]
+ },
+ "venue": "Harry A. Gampel Pavilion",
+ "city": "Storrs, CT",
+ "attendance": {
+  "n": 10167,
+  "sources": [
+   "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html",
+   "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "event": "Regular season, non-conference",
+ "tv": {
+  "network": "ESPN2",
+  "announcers": [
+   "Bob Wischusen",
+   "Seth Greenberg",
+   "Andy Katz"
+  ],
+  "sources": [
+   "https://www.ncaa.com/news/basketball-men/what-watch/2013-12-01/college-basketball-tv-week-5",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "http://web.archive.org/web/20131203235602/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-1202-20131201,0,103290.story"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "7-0",
+   "rank": "AP #12",
+   "seed": ""
+  },
+  "opp": {
+   "record": "6-1",
+   "rank": "AP #15",
+   "seed": ""
+  },
+  "sources": [
+   "http://web.archive.org/web/20131203235602/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-1202-20131201,0,103290.story",
+   "http://web.archive.org/web/20131204215740/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-notebook-1203-20131202,0,1421880.story",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut"
+  ]
+ },
+ "setup": [
+  {
+   "text": "Nothing forced this game onto the calendar \u2014 no league, no tournament. UConn and Florida signed up for a home-and-home series, and the Huskies chose to bring the Gators to small, loud Gampel Pavilion on campus instead of the bigger XL Center in Hartford.",
+   "sources": [
+    "http://web.archive.org/web/20131203235602/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-1202-20131201,0,103290.story",
+    "https://uconnhuskies.com/news/2013/12/2/napier_leads_no_12_connecticut_past_no_15_florida_65_64.aspx"
+   ]
+  },
+  {
+   "text": "UConn arrived 7-0 and had moved up to No. 12 in the AP poll released that Monday. It was already a team living on the edge: its wins over Maryland, Boston College and Indiana had each been decided by one or two points. Florida, No. 15 at 6-1, had lost only at Wisconsin, and this was UConn's first game of the season against a ranked opponent.",
+   "sources": [
+    "http://web.archive.org/web/20131203235602/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-1202-20131201,0,103290.story",
+    "http://web.archive.org/web/20131204215740/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-notebook-1203-20131202,0,1421880.story",
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "The Gators started four seniors, led by top scorer Casey Prather, and had point guard Scottie Wilbekin back from a suspension. But freshman guard Kasey Hill was out with an ankle injury and swingman DeVon Walker was hobbled by a foot sprain. The schools had met only once, in the 1994 Sweet 16, a 69-60 Florida win in overtime.",
+   "sources": [
+    "http://web.archive.org/web/20131203235602/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-1202-20131201,0,103290.story",
+    "https://floridagators.com/news/2013/12/3/26856",
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut"
+   ]
+  },
+  {
+   "text": "Gampel was sold out \u2014 10,167 \u2014 with Jim Calhoun and George Blaney among UConn's guests on press row and more than 20 NBA scouts in the building.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html",
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+    "http://web.archive.org/web/20131204215740/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-notebook-1203-20131202,0,1421880.story"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "Napier hit a 3 on UConn's first possession, but Florida's frontcourt pushed the Huskies around and the Gators led 24-16 with 5:49 left in the half. UConn answered from beyond the arc and went to the locker room up 30-29.",
+   "sources": [
+    "site:plays/2014-8",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html",
+    "http://web.archive.org/web/20131204223628/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-florida-1203-20131202,0,6501658.story",
+    "https://uconnhuskies.com/news/2013/12/2/Post_Game_Notes_12_2_13_UConn_65_Florida_64.aspx"
+   ]
+  },
+  {
+   "text": "Florida came back out strong. A Prather layup made it 48-41 with 12:49 to play \u2014 the first time all season UConn had trailed by seven. Out of an Ollie timeout, Niels Giffey hit a 3 to start a 10-0 run, and Napier's 3 with 10:17 left put UConn ahead 51-48.",
+   "sources": [
+    "site:plays/2014-8",
+    "https://uconnhuskies.com/news/2013/12/2/Post_Game_Notes_12_2_13_UConn_65_Florida_64.aspx",
+    "http://web.archive.org/web/20131204223628/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-florida-1203-20131202,0,6501658.story"
+   ]
+  },
+  {
+   "text": "The lead changed hands six times in the final six minutes. With 3:01 left Florida lost Wilbekin to a sprained ankle; he went to the locker room and did not return. Billy Donovan switched to a 1-3-1 zone, and with UConn big man Phillip Nolan fouled out and Tyler Olander playing with four fouls, 6-foot-9 center Patric Young scored Florida's next seven points.",
+   "sources": [
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+    "http://web.archive.org/web/20131204223628/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-florida-1203-20131202,0,6501658.story",
+    "site:plays/2014-8",
+    "https://uconnhuskies.com/news/2013/12/2/uconn_65_florida_64_quotes.aspx"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "2H",
+   "clock": "3:01",
+   "uconn": 57,
+   "opp": 55,
+   "text": "Wilbekin, Florida's point guard, hurts his ankle and is taken to the locker room. He will not return.",
+   "sources": [
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html",
+    "site:plays/2014-8"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "2:46",
+   "uconn": 57,
+   "opp": 57,
+   "text": "Patric Young ties it with a jumper.",
+   "sources": [
+    "site:plays/2014-8",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "2:02",
+   "uconn": 58,
+   "opp": 59,
+   "text": "After an Amida Brimah free throw, Young tips in a miss to put Florida back in front.",
+   "sources": [
+    "site:plays/2014-8",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:18",
+   "uconn": 59,
+   "opp": 62,
+   "text": "Young scores again and adds the free throw. Florida leads by three.",
+   "sources": [
+    "site:plays/2014-8",
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:44",
+   "uconn": 59,
+   "opp": 62,
+   "text": "UConn misses two 3s \u2014 Napier's, then Lasan Kromah's \u2014 and gets the offensive rebound both times.",
+   "sources": [
+    "site:plays/2014-8",
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html",
+    "https://floridagators.com/news/2013/12/3/26856"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:34",
+   "uconn": 62,
+   "opp": 62,
+   "text": "Napier swishes a 3 and is fouled by Dorian Finney-Smith, landing on Finney-Smith's foot. He stays on the floor for about a minute, holding his left ankle.",
+   "sources": [
+    "site:plays/2014-8",
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+    "https://floridagators.com/news/2013/12/3/26856",
+    "https://uconnhuskies.com/news/2013/12/2/uconn_65_florida_64_quotes.aspx"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:34",
+   "uconn": 63,
+   "opp": 62,
+   "text": "Ollie calls timeout so Napier can stay in and shoot. He makes the free throw: a four-point play.",
+   "sources": [
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+    "site:plays/2014-8",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:18",
+   "uconn": 63,
+   "opp": 64,
+   "text": "Michael Frazier II drives the lane and scores off a screen. Florida leads again and calls timeout.",
+   "sources": [
+    "site:plays/2014-8",
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+    "https://floridagators.com/news/2013/12/3/26856"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:01",
+   "uconn": 63,
+   "opp": 64,
+   "text": "Florida traps Napier about 30 feet from the basket. The ball is knocked loose, he gets it back and throws up a wild, off-balance shot that misses. DeAndre Daniels, off balance himself, slaps it blindly back out.",
+   "sources": [
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+    "https://uconnhuskies.com/news/2013/12/2/uconn_65_florida_64_quotes.aspx",
+    "https://floridagators.com/news/2013/12/3/26856",
+    "site:plays/2014-8"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:00",
+   "uconn": 65,
+   "opp": 64,
+   "text": "The ball finds Napier alone at the free-throw line; his defenders had crashed the glass. He said about nine-tenths of a second remained when he grabbed it. His jumper drops as the horn sounds.",
+   "sources": [
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+    "https://floridagators.com/news/2013/12/3/26856",
+    "http://web.archive.org/web/20131204223628/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-florida-1203-20131202,0,6501658.story",
+    "https://uconnhuskies.com/news/2013/12/2/uconn_65_florida_64_quotes.aspx",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html",
+    "site:plays/2014-8"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "6",
+   "label": "lead changes in the final six minutes",
+   "sources": [
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+    "site:plays/2014-8"
+   ]
+  },
+  {
+   "value": "14",
+   "label": "lead changes in all, with seven ties",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html"
+   ]
+  },
+  {
+   "value": "30",
+   "label": "straight wins for Florida after this loss \u2014 it did not lose again until UConn beat it in the 2014 Final Four",
+   "sources": [
+    "https://floridagators.com/news/2014/4/6/27866",
+    "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n39/mode/1up"
+   ]
+  },
+  {
+   "value": "5",
+   "label": "points \u2014 the combined margin of four of UConn's nine straight season-opening wins: Maryland, Boston College, Indiana and Florida",
+   "sources": [
+    "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n38/mode/1up",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "value": "2 of 3",
+   "label": "Florida's 2013-14 losses that came against UConn (the other was at Wisconsin)",
+   "sources": [
+    "https://floridagators.com/news/2014/4/6/27866",
+    "http://web.archive.org/web/20131203235602/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-1202-20131201,0,103290.story",
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "Growing up, I wanted to be Superman. Everyone wants to be a hero.",
+   "who": "Shabazz Napier",
+   "role": "UConn senior guard",
+   "when": "postgame",
+   "source": "https://uconnhuskies.com/news/2013/12/2/uconn_65_florida_64_quotes.aspx"
+  },
+  {
+   "text": "Point nine. Point eight. I just tried to shoot the ball as quick as I can but still shoot it regular.",
+   "who": "Shabazz Napier",
+   "role": "UConn senior guard",
+   "when": "postgame",
+   "source": "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut"
+  },
+  {
+   "text": "It kind of reminded me of Richard Hamilton.... It was just a tap back and then the fade away shot.",
+   "who": "Kevin Ollie",
+   "role": "UConn head coach",
+   "when": "postgame",
+   "source": "https://uconnhuskies.com/news/2013/12/2/uconn_65_florida_64_quotes.aspx"
+  },
+  {
+   "text": "The guy who won the game for them was DeAndre Daniels",
+   "who": "Billy Donovan",
+   "role": "Florida head coach",
+   "when": "postgame",
+   "source": "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "Bedlam followed, and Napier \u2014 who said he is \u201ckind of claustrophobic\u201d when piled on \u2014 ran for the locker room. His left ankle, taped unusually tight before the game by trainer James Doran, showed no swelling afterward, he said.",
+   "sources": [
+    "http://web.archive.org/web/20131204223628/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-florida-1203-20131202,0,6501658.story",
+    "http://web.archive.org/web/20131204215740/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-notebook-1203-20131202,0,1421880.story"
+   ]
+  },
+  {
+   "text": "UConn stretched its start to 9-0 before Stanford beat the Huskies 53-51 at the XL Center on Dec. 18.",
+   "sources": [
+    "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n38/mode/1up",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "Florida did not lose again for four months. The Gators won 30 straight, a school record, and entered the NCAA tournament as the No. 1 overall seed.",
+   "sources": [
+    "https://floridagators.com/news/2014/4/6/27866",
+    "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n39/mode/1up"
+   ]
+  },
+  {
+   "text": "The rematch came on April 5, 2014, in the national semifinals at AT&T Stadium. Before 79,444, UConn beat Florida again, 63-53, ending the streak \u2014 and two nights later the Huskies won the national championship.",
+   "sources": [
+    "https://floridagators.com/news/2014/4/6/27866",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n39/mode/1up"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "Florida finished 36-3, and two of the three losses were to UConn: this one, by a single point, and the Final Four rematch.",
+   "sources": [
+    "https://floridagators.com/news/2014/4/6/27866",
+    "http://web.archive.org/web/20131203235602/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-1202-20131201,0,103290.story",
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut"
+   ]
+  },
+  {
+   "text": "It was UConn's first win ever over Florida, and Ollie said the tap-back and fadeaway reminded him of Richard Hamilton, author of one of the famous shots in Huskies history.",
+   "sources": [
+    "https://uconnhuskies.com/news/2013/12/2/Post_Game_Notes_12_2_13_UConn_65_Florida_64.aspx",
+    "https://uconnhuskies.com/news/2013/12/2/uconn_65_florida_64_quotes.aspx",
+    "http://web.archive.org/web/20131204223628/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-florida-1203-20131202,0,6501658.story"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "1M-sAzH-xLw",
+   "title": "Shabazz Napier's Buzzer Beater Lifts Huskies Over Florida",
+   "channel": "UConn Huskies",
+   "kind": "highlights",
+   "start": null,
+   "why": "Official UConn channel, uploaded Dec. 3, 2013; description: '#12 UConn Basketball topped #15 Florida 65-64 thanks to a Shabazz Napier bucket as time expired... at Gampel.' Already in site videos[]."
+  },
+  {
+   "youtube": "FSqxUnY1HFY",
+   "title": "#15 Florida @ #12 Connecticut 12-2-2013 (Full Game)",
+   "channel": "ruethewhirly",
+   "kind": "full_game",
+   "start": null,
+   "why": "Title gives the matchup and date; 4,907-second upload from Dec. 5, 2013 whose description credits ESPN. Already in site videos[]. Timestamp of the final play not determined (video not viewed)."
+  },
+  {
+   "youtube": "j0HfoYfokYc",
+   "title": "Shabazz Napier's 4 point play and Buzzer beater Connecticut vs Florida December 2, 2013",
+   "channel": "BigBlueVIP",
+   "kind": "highlights",
+   "start": null,
+   "why": "Title and description cover the four-point play, Frazier's go-ahead basket and the winner; uploaded Dec. 3, 2013. Already in site videos[]."
+  },
+  {
+   "youtube": "Gk1-V1spNxE",
+   "title": "UConn Huskies buzzerbeater vs. Florida Gators December 2, 2013",
+   "channel": "maxgobble",
+   "kind": "final_play",
+   "start": null,
+   "why": "73-second clip titled with the date and opponent, uploaded the night of the game. Already in site videos[]."
+  },
+  {
+   "youtube": "QLcOj6Z7Fus",
+   "title": "UConn's Shabazz Napier hits buzzer beater against No. 15 Florida",
+   "channel": "TimboSlice92",
+   "kind": "final_play",
+   "start": null,
+   "why": "71-second clip uploaded the night of the game (Dec. 2, 2013); description: 'Shabazz Napier beats the buzzer and Florida to send Gampel Pavilion into a frenzy.'"
+  }
+ ],
+ "photos": [],
+ "newspaper": [],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "sequence: clock of Napier's winning jumper",
+   "ours": "0:01 (site:plays/2014-8 lists the made jumper at 0:01)",
+   "source_says": "UConn's official play-by-play lists it at 0:00; AP says it went in 'as the horn sounded.' Draft uses 0:00.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html",
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut"
+   ]
+  },
+  {
+   "field": "sequence: clock of Frazier's go-ahead layup",
+   "ours": "0:19 (Florida timeout at 0:18)",
+   "source_says": "Official play-by-play 0:18; AP 'with 17 seconds left'; Florida athletics and the Courant '17.7 seconds.'",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html",
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+    "https://floridagators.com/news/2013/12/3/26856",
+    "http://web.archive.org/web/20131204223628/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-florida-1203-20131202,0,6501658.story"
+   ]
+  },
+  {
+   "field": "sequence: clocks of UConn's two missed 3s",
+   "ours": "Napier miss 1:09, Kromah miss 0:50",
+   "source_says": "Official play-by-play: 1:03 and 0:44 (Florida athletics also says Napier missed 'at the 1:03 mark').",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html",
+    "https://floridagators.com/news/2013/12/3/26856"
+   ]
+  },
+  {
+   "field": "score after Young's three-point play at 1:18",
+   "ours": "UConn 59, Florida 62",
+   "source_says": "Florida athletics (Chris Harry) says 'Florida led 61-58'; AP, the official play-by-play and our data say 62-59.",
+   "sources": [
+    "https://floridagators.com/news/2013/12/3/26856",
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html"
+   ]
+  },
+  {
+   "field": "sequence: clock of Napier's 4-point play",
+   "ours": "0:34",
+   "source_says": "AP: '33 seconds'; Courant notebook: '33.5 seconds.' Official play-by-play agrees with 0:34.",
+   "sources": [
+    "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+    "http://web.archive.org/web/20131204215740/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-notebook-1203-20131202,0,1421880.story",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html"
+   ]
+  },
+  {
+   "field": "tv",
+   "ours": "ESPN3, ESPN2",
+   "source_says": "UConn record book (p. 7) and the Courant preview list ESPN2.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "http://web.archive.org/web/20131203235602/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-1202-20131201,0,103290.story"
+   ]
+  },
+  {
+   "field": "officials",
+   "ours": "Jamie Luckie, Michael Stephens, Karl Hess",
+   "source_says": "Official box lists 'Karl Hess, James Luckie, Michael Stephens.'",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html"
+   ]
+  }
+ ],
+ "unsure": [
+  "TV announcers (Bob Wischusen, Seth Greenberg, Andy Katz) come from NCAA.com's pregame TV listing; not checked against the broadcast.",
+  "AP and UConn's recap call the winner a 'left-handed jumper'; could not verify, so it is left out.",
+  "Wilbekin's suspension length is inconsistent: AP says he was suspended for the first four games and this was his third game back; the Courant says he was reinstated for Florida's sixth game. Narrative says only that he was back from a suspension.",
+  "Which ankle Wilbekin hurt: Florida athletics says right; AP doesn't say. Narrative doesn't specify.",
+  "Distance of Napier's missed shot on the last possession: Florida athletics calls it an 18-footer; AP says he escaped a trap about 30 feet out. Narrative gives the trap distance only.",
+  "Whether Daniels meant to tip it to Napier: he said both that he didn't know if he touched it and that he was trying to tip it to Napier (official quotes; Courant notebook).",
+  "Napier's 4-point-play 3: AP says 25 feet; ESPN shot-chart coordinates suggest about 27. Distance left out.",
+  "The Courant gives two different counts for UConn's non-conference home streak at Gampel (40 before the game, 42 after); not used.",
+  "Start time of the final play inside the full-game video (FSqxUnY1HFY) not determined; video not viewed.",
+  "No license-cleared photo of this game found on Wikimedia Commons. Daily Campus scans on archive.org end in 1987. archive.org does hold PastPages screenshots of the courant.com homepage from the night (e.g. pastpages-hartford-courant-13999-1230309, Dec. 3, 2013 7:08 a.m. UTC), but none were viewed or verified, so none are listed."
+ ],
+ "sources": [
+  {
+   "url": "site:plays/2014-8",
+   "what": "Site play-by-play (ESPN) \u2014 backbone for the sequence clock and scores"
+  },
+  {
+   "url": "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2013-2014/game08.html",
+   "what": "UConn official box score and play-by-play: tip 7:00 p.m., attendance 10,167, 14 lead changes, 7 ties, official clocks"
+  },
+  {
+   "url": "https://www.foxnews.com/sports/no-15-florida-gives-up-late-rebounds-in-buzzer-beating-65-64-loss-to-no-12-connecticut",
+   "what": "AP game story (Dec. 2, 2013): final sequence, Wilbekin injury at 3:01, Young's seven points, 62-59 at 1:18, four-point play, quotes"
+  },
+  {
+   "url": "https://www.espn.com/mens-college-basketball/recap/_/gameId/400496888",
+   "what": "ESPN recap page carrying the same AP story (stored in site:games/2014.json article)"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2013/12/2/napier_leads_no_12_connecticut_past_no_15_florida_65_64.aspx",
+   "what": "UConn official recap (AP-based)"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2013/12/2/Post_Game_Notes_12_2_13_UConn_65_Florida_64.aspx",
+   "what": "UConn postgame notes: first win ever over Florida, down seven for the first time, 10-0 run, 30-29 half"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2013/12/2/uconn_65_florida_64_quotes.aspx",
+   "what": "UConn official postgame quotes: Napier, Ollie (Richard Hamilton comparison), Daniels, Donovan"
+  },
+  {
+   "url": "https://floridagators.com/news/2013/12/3/26856",
+   "what": "Florida athletics game story by Chris Harry (Dec. 3, 2013): Kasey Hill out, Walker foot sprain, trap and tip-back detail"
+  },
+  {
+   "url": "https://floridagators.com/news/2014/4/6/27866",
+   "what": "Florida athletics story on the April 5, 2014 Final Four loss: 30-game streak, last defeated Dec. 2, 36-3, 79,444"
+  },
+  {
+   "url": "http://web.archive.org/web/20131204223628/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-florida-1203-20131202,0,6501658.story",
+   "what": "Hartford Courant game story (Wayback capture): 24-16 at 5:49, Ollie timeout, Napier ran to the locker room, 17.7 seconds"
+  },
+  {
+   "url": "http://web.archive.org/web/20131204215740/http://www.courant.com:80/sports/uconn-mens-basketball/hc-uconn-men-notebook-1203-20131202,0,1421880.story",
+   "what": "Hartford Courant notebook (Wayback): ankle taping, AP poll move to No. 12, NBA scouts, Calhoun and Blaney on press row"
+  },
+  {
+   "url": "http://web.archive.org/web/20131203235602/http://www.courant.com/sports/uconn-mens-basketball/hc-uconn-men-1202-20131201,0,103290.story",
+   "what": "Hartford Courant preview (Dec. 2, 2013): home-and-home, Gampel over XL Center, records 7-0 and 6-1, ESPN2 at 7 p.m."
+  },
+  {
+   "url": "https://www.ncaa.com/news/basketball-men/what-watch/2013-12-01/college-basketball-tv-week-5",
+   "what": "NCAA.com Viewer's Guide, week 5: ESPN2, 7 p.m., listed announcers"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn Record Book 2026-27: p. 7 season results (AP ranks 12/15, attendance, ESPN2, Stanford loss); attendance list p. 65"
+  },
+  {
+   "url": "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n38/mode/1up",
+   "what": "UConn 2014-15 media guide p. 37: 9-0 start with four wins by a combined five points"
+  },
+  {
+   "url": "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n39/mode/1up",
+   "what": "UConn 2014-15 media guide p. 38: Florida's 30-game streak since the Dec. 2 loss; No. 1 overall seed; 63-53 semifinal"
+  },
+  {
+   "url": "https://archive.org/details/uconn-basketball-2014-15-media-guide/page/n41/mode/1up",
+   "what": "UConn 2014-15 media guide p. 40: 2013-14 results with attendance (12/2/13 Florida W 65-64, 10,167)"
+  }
+ ],
+ "_verified": {
+  "checked": 171,
+  "ok": 164,
+  "edits": 12
+ }
+}
