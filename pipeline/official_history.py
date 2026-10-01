@@ -231,6 +231,19 @@ def key(name):
     return re.sub(r'[^a-z]', '', n)
 
 
+def names_only(doc):
+    """pp. 43-54 (Letterwinner History): letterwinners listed with seasons but no stat line, e.g. 'MOSS, ROBERT 1941-42, 1942-43'"""
+    out = []
+    for p in range(43, 55):
+        for line in doc[p - 1].get_text().splitlines():
+            m = re.match(r"^([A-Z][A-Za-z’'\.\- ]+,\s*[A-Za-z’'\.\-\" ()]+?)\s+((?:\d{4}-\d{2}(?:,\s*)?)+)$", line.strip())
+            if m:
+                mgr = bool(re.search(r'\(MGR\.?\)|\(MANAGER\)', m.group(1), re.I))
+                name = re.sub(r'\s*\((?:MGR\.?|MANAGER)\)', '', m.group(1), flags=re.I).strip()
+                out.append({'name': name, 'mgr': mgr, 'seasons': [int(x[:4]) + 1 for x in re.findall(r'\d{4}-\d{2}', m.group(2))]})
+    return out
+
+
 def main():
     doc = pymupdf.open(PDF)
     S = summary(doc)
@@ -301,7 +314,7 @@ def main():
         hist.append(row)
         if checks:
             report.append((y, checks))
-    json.dump({'source': 'UConn 2026-27 Record Book, pp. 3-4 and 5-21', 'seasons': hist}, open(OUT, 'w'), indent=1)
+    json.dump({'source': 'UConn 2026-27 Record Book, pp. 3-4 and 5-21', 'seasons': hist, 'namesOnly': names_only(doc)}, open(OUT, 'w'), indent=1)
     n = sum(1 for h in hist if not h['none'])
     print(f"{len(hist)} seasons ({n} with games, {sum(len(h['games']) for h in hist)} games); clean: {n - len(report)}; with issues: {len(report)}")
     for y, c in report:

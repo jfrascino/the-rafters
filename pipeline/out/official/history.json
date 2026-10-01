@@ -16466,5 +16466,534 @@
     "site splits {'home': [11, 3], 'away': [5, 5], 'neutral': [1, 2]} vs header {'home': [12, 4], 'away': [4, 4], 'neutral': [1, 2]}"
    ]
   }
+ ],
+ "namesOnly": [
+  {
+   "name": "ALESEVICH, WALTER",
+   "mgr": false,
+   "seasons": [
+    1944,
+    1945,
+    1946,
+    1947
+   ]
+  },
+  {
+   "name": "APPELL, MORRIS",
+   "mgr": false,
+   "seasons": [
+    1936,
+    1937,
+    1938
+   ]
+  },
+  {
+   "name": "BADSTEUBNER, RONALD",
+   "mgr": true,
+   "seasons": [
+    1955
+   ]
+  },
+  {
+   "name": "BALLARD, HORACE",
+   "mgr": false,
+   "seasons": [
+    1938
+   ]
+  },
+  {
+   "name": "BARR, KENYA",
+   "mgr": true,
+   "seasons": [
+    1987
+   ]
+  },
+  {
+   "name": "BECK, ELLIS",
+   "mgr": false,
+   "seasons": [
+    1943
+   ]
+  },
+  {
+   "name": "BLANAR, RAY",
+   "mgr": true,
+   "seasons": [
+    2003
+   ]
+  },
+  {
+   "name": "BLOOM, SEYMOUR",
+   "mgr": false,
+   "seasons": [
+    1937,
+    1938,
+    1939
+   ]
+  },
+  {
+   "name": "BLOUNT, ROB JR.",
+   "mgr": true,
+   "seasons": [
+    1987,
+    1988,
+    1989
+   ]
+  },
+  {
+   "name": "BORTON, KENNY",
+   "mgr": false,
+   "seasons": [
+    2010
+   ]
+  },
+  {
+   "name": "BROOKS, CHARLES",
+   "mgr": false,
+   "seasons": [
+    1938,
+    1939,
+    1940
+   ]
+  },
+  {
+   "name": "BUDKOFSKY, ALYSSA",
+   "mgr": true,
+   "seasons": [
+    1998,
+    1999,
+    2000,
+    2001
+   ]
+  },
+  {
+   "name": "CALAMARI, JOHN",
+   "mgr": false,
+   "seasons": [
+    1931,
+    1932
+   ]
+  },
+  {
+   "name": "CARRASQUILLA, CINDY",
+   "mgr": true,
+   "seasons": [
+    1992,
+    1993,
+    1994
+   ]
+  },
+  {
+   "name": "CEPUCH, MICHAEL",
+   "mgr": false,
+   "seasons": [
+    1940,
+    1941
+   ]
+  },
+  {
+   "name": "CHUBBUCH, D.",
+   "mgr": false,
+   "seasons": [
+    1930,
+    1931
+   ]
+  },
+  {
+   "name": "CONNORS, JAMES",
+   "mgr": false,
+   "seasons": [
+    1941,
+    1942
+   ]
+  },
+  {
+   "name": "CROWLEY, WILLIAM",
+   "mgr": false,
+   "seasons": [
+    1938
+   ]
+  },
+  {
+   "name": "CUDAK, EDWARD A.",
+   "mgr": true,
+   "seasons": [
+    1990
+   ]
+  },
+  {
+   "name": "CUDDY, JAMES V.",
+   "mgr": false,
+   "seasons": [
+    1941,
+    1942,
+    1943
+   ]
+  },
+  {
+   "name": "CWICK, RAYMOND",
+   "mgr": true,
+   "seasons": [
+    1966
+   ]
+  },
+  {
+   "name": "DANIELS, BEE BEE",
+   "mgr": false,
+   "seasons": [
+    1935,
+    1936
+   ]
+  },
+  {
+   "name": "DARROW, WILLIAM H.",
+   "mgr": false,
+   "seasons": [
+    1930,
+    1931
+   ]
+  },
+  {
+   "name": "DAVIS, REID",
+   "mgr": true,
+   "seasons": [
+    1962
+   ]
+  },
+  {
+   "name": "DEGRAZIA, BILL",
+   "mgr": true,
+   "seasons": [
+    1969,
+    1970,
+    1971
+   ]
+  },
+  {
+   "name": "DONAHUE, CORNELIUS",
+   "mgr": false,
+   "seasons": [
+    1933,
+    1934
+   ]
+  },
+  {
+   "name": "DONNELLY, ROBERT",
+   "mgr": false,
+   "seasons": [
+    1939,
+    1940,
+    1941
+   ]
+  },
+  {
+   "name": "DRAGAT, LEO",
+   "mgr": false,
+   "seasons": [
+    1931
+   ]
+  },
+  {
+   "name": "DROPO, MILTON",
+   "mgr": false,
+   "seasons": [
+    1942,
+    1943
+   ]
+  },
+  {
+   "name": "DUFFY, JOHN",
+   "mgr": true,
+   "seasons": [
+    1952
+   ]
+  },
+  {
+   "name": "DUFFY, LEO",
+   "mgr": false,
+   "seasons": [
+    1930
+   ]
+  },
+  {
+   "name": "EDDY, JOHN",
+   "mgr": false,
+   "seasons": [
+    1932,
+    1933
+   ]
+  },
+  {
+   "name": "EWALD, KAREN",
+   "mgr": true,
+   "seasons": [
+    1993,
+    1994,
+    1995,
+    1996
+   ]
+  },
+  {
+   "name": "FERGUSON, J.",
+   "mgr": false,
+   "seasons": [
+    1937
+   ]
+  },
+  {
+   "name": "FINAN, THOMAS J.",
+   "mgr": true,
+   "seasons": [
+    1967
+   ]
+  },
+  {
+   "name": "FISH, WILLARD",
+   "mgr": false,
+   "seasons": [
+    1941
+   ]
+  },
+  {
+   "name": "FISHER, BERNIE",
+   "mgr": false,
+   "seasons": [
+    1944,
+    1945
+   ]
+  },
+  {
+   "name": "FISHER, KARL",
+   "mgr": true,
+   "seasons": [
+    2003
+   ]
+  },
+  {
+   "name": "FITCH, HARRY",
+   "mgr": false,
+   "seasons": [
+    1934
+   ]
+  },
+  {
+   "name": "FLYDA, R.",
+   "mgr": false,
+   "seasons": [
+    1930
+   ]
+  },
+  {
+   "name": "FOREMAN, AL",
+   "mgr": true,
+   "seasons": [
+    1994,
+    1995
+   ]
+  },
+  {
+   "name": "FOX, TIMOTHY",
+   "mgr": true,
+   "seasons": [
+    1988,
+    1989
+   ]
+  },
+  {
+   "name": "FREEDMAN, EDWARD",
+   "mgr": false,
+   "seasons": [
+    1950
+   ]
+  },
+  {
+   "name": "GLENNON, RUSSELL F.",
+   "mgr": false,
+   "seasons": [
+    1930
+   ]
+  },
+  {
+   "name": "GOLD, JOSEPH",
+   "mgr": false,
+   "seasons": [
+    1933,
+    1934,
+    1935
+   ]
+  },
+  {
+   "name": "GREASLEY, PHILIP",
+   "mgr": false,
+   "seasons": [
+    1934,
+    1935,
+    1936
+   ]
+  },
+  {
+   "name": "GROMKO, HENRY",
+   "mgr": true,
+   "seasons": [
+    1932
+   ]
+  },
+  {
+   "name": "HICKEY, WILLIAM",
+   "mgr": false,
+   "seasons": [
+    1945
+   ]
+  },
+  {
+   "name": "HOOD, JAMES",
+   "mgr": true,
+   "seasons": [
+    1960
+   ]
+  },
+  {
+   "name": "IERARDI, RICHARD",
+   "mgr": true,
+   "seasons": [
+    1984,
+    1985,
+    1986,
+    1987,
+    1988
+   ]
+  },
+  {
+   "name": "JANIGA, THADDEUS",
+   "mgr": false,
+   "seasons": [
+    1936,
+    1937,
+    1938
+   ]
+  },
+  {
+   "name": "JASKILKA, SAMUEL",
+   "mgr": false,
+   "seasons": [
+    1941,
+    1942
+   ]
+  },
+  {
+   "name": "JESTER, RICHARD",
+   "mgr": false,
+   "seasons": [
+    1943
+   ]
+  },
+  {
+   "name": "JOHNSON, STUART",
+   "mgr": false,
+   "seasons": [
+    1944,
+    1948
+   ]
+  },
+  {
+   "name": "KAZAR, ANDREW",
+   "mgr": true,
+   "seasons": [
+    1942
+   ]
+  },
+  {
+   "name": "KOSIKOWSKY, FRANK",
+   "mgr": false,
+   "seasons": [
+    1937,
+    1938,
+    1939
+   ]
+  },
+  {
+   "name": "LEOFFLER, ALBERT",
+   "mgr": false,
+   "seasons": [
+    1936,
+    1937,
+    1938
+   ]
+  },
+  {
+   "name": "LEVITOW, LEON",
+   "mgr": false,
+   "seasons": [
+    1931,
+    1932,
+    1933
+   ]
+  },
+  {
+   "name": "LEWIS, EUGENE",
+   "mgr": false,
+   "seasons": [
+    1934,
+    1935,
+    1936
+   ]
+  },
+  {
+   "name": "LIPMAN, NATHAN",
+   "mgr": false,
+   "seasons": [
+    1933,
+    1934,
+    1935
+   ]
+  },
+  {
+   "name": "MADDEN, HAROLD",
+   "mgr": false,
+   "seasons": [
+    1932
+   ]
+  },
+  {
+   "name": "MARKIEWICZ, JULIUS",
+   "mgr": false,
+   "seasons": [
+    1944,
+    1945
+   ]
+  },
+  {
+   "name": "McGINN, JOE",
+   "mgr": true,
+   "seasons": [
+    1993,
+    1994,
+    1995
+   ]
+  },
+  {
+   "name": "McMAHON, KATHERINE",
+   "mgr": true,
+   "seasons": [
+    2010,
+    2011,
+    2012
+   ]
+  },
+  {
+   "name": "MOSS, ROBERT",
+   "mgr": false,
+   "seasons": [
+    1942,
+    1943
+   ]
+  },
+  {
+   "name": "RYAN, RAY",
+   "mgr": false,
+   "seasons": [
+    1930
+   ]
+  }
  ]
 }

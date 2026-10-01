@@ -1,5 +1,5 @@
 // The early years (1900-01 to 1976-77): one season from UConn's record book, its game list exactly as printed.
-import { esc, load, fmtDate, seasonLabel } from '../ui.js';
+import { esc, load, fmtDate, seasonLabel, statTable, n1 } from '../ui.js';
 
 const wl = (r) => (r ? `${r[0]}–${r[1]}` : '');
 
@@ -37,5 +37,33 @@ export default async function historySeason(main, y, core) {
       <b>${g.res} ${g.pts}–${g.opp_pts}${g.ot ? ` <small>${esc(g.ot)}</small>` : ''}</b></div>`).join('')}</div>
     ${s.notes.length || s.coachNote ? `<div class="grid" style="gap:6px;margin-top:14px">${[...s.notes, ...(s.coachNote ? [s.coachNote] : [])].map((t) => `<p class="note"><span class="pill ff" style="margin-right:8px">Record book</span>${esc(t)}</p>`).join('')}</div>` : ''}
   </div></section>` : ''}
-  <section class="section"><div class="wrap"><p class="note">Source: ${esc(H.source)}. Rosters and player stats for the early years are a work in progress.</p></div></section>`;
+  ${roster(s, core)}
+  <section class="section"><div class="wrap"><p class="note">Source: ${esc(H.source)}; letterwinners from the record book's Letterwinner History (pp. 43–54).</p></div></section>`;
+}
+
+function roster(s, core) {
+  const players = s.roster.filter((r) => !r.mgr), mgrs = s.roster.filter((r) => r.mgr);
+  if (!players.length && !mgrs.length) return '';
+  const byName = new Map(core.players.map((p) => [p.name.toLowerCase(), p]));
+  const stats = players.some((r) => r.pts != null);
+  const link = (r) => { const p = byName.get(r.name.toLowerCase()); return p ? `<a href="#/player/${esc(p.id)}" style="text-decoration:underline;text-underline-offset:3px">${esc(r.name)}</a>` : esc(r.name); };
+  let html = '';
+  if (stats) {
+    const tbl = statTable([
+      { k: 'name', label: 'Player', l: true, html: (r) => `${link(r)}${r.note ? ' <sup style="color:var(--gold)">†</sup>' : ''}` },
+      { k: 'g', label: 'G' }, { k: 'fg', label: 'FG' }, { k: 'fga', label: 'FGA' }, { k: 'ft', label: 'FT' }, { k: 'fta', label: 'FTA' },
+      { k: 'trb', label: 'REB' }, { k: 'pts', label: 'PTS', heat: 1 }, { k: 'ppg', label: 'PPG', fmt: (v) => (v == null ? '–' : n1(v)) },
+    ], players, { sort: 'pts', hideEmpty: true });
+    html = `<div id="histRoster">${tbl.html}</div>`;
+    setTimeout(() => { const el = document.getElementById('histRoster'); if (el) tbl.bind(el); });
+  } else {
+    html = `<div class="panel" style="padding:16px 18px;display:flex;flex-wrap:wrap;gap:8px 18px;font-weight:600">${players.map((r) => `<span>${link(r)}</span>`).join('')}</div>`;
+  }
+  return `<section class="section"><div class="wrap">
+    <div class="sec-head"><div><span class="eyebrow">${players.length} letterwinners${stats ? ' · season totals' : ''}</span><h2 class="h2">The team</h2></div>
+      <span class="aside">Letterwinners as the record book lists them${stats ? '' : ', without stats'}; not every player who appeared earned a letter.</span></div>
+    ${html}
+    ${players.filter((r) => r.note).map((r) => `<p class="note" style="margin-top:8px"><span style="color:var(--gold)">†</span> ${esc(r.name)}: ${esc(r.note)}</p>`).join('')}
+    ${mgrs.length ? `<p class="note" style="margin-top:10px">Managers: ${mgrs.map((r) => esc(r.name)).join(', ')}</p>` : ''}
+  </div></section>`;
 }
