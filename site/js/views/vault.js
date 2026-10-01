@@ -27,7 +27,9 @@ export default async function vault(main, _args, core) {
   const render = () => {
     const q = $('#vq').value.trim().toLowerCase();
     const era = eras[$('#vera').value];
-    const list = vids.filter((v) => (!kind || v.kind === kind) && (!era || (v.season >= era.from && v.season <= era.to)) && (!q || `${v.title} ${v.description || ''} ${v.opponent || ''} ${(v.players || []).join(' ')} ${v.season || ''} ${v.round || ''}`.toLowerCase().includes(q)));
+    let list = vids.filter((v) => (!kind || v.kind === kind) && (!era || (v.season >= era.from && v.season <= era.to)) && (!q || `${v.title} ${v.description || ''} ${v.opponent || ''} ${(v.players || []).join(' ')} ${v.season || ''} ${v.round || ''}`.toLowerCase().includes(q)));
+    // within an era, actual game video first (oldest first), then the audio-only radio calls
+    if (era) list = [...list].sort((a, b) => ((a.kind === 'radio') - (b.kind === 'radio')) || String(a.date || a.season).localeCompare(String(b.date || b.season)));
     $('#vg').innerHTML = list.slice(0, shown).map(videoCard).join('') || '<div class="empty">No videos match.</div>';
     $('#vmore').hidden = list.length <= shown;
   };

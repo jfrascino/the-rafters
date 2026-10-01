@@ -898,6 +898,28 @@ for v in list(media_videos or []) + list(_extra or []):
     VIDS.append({k: v_ for k, v_ in {**{k: v.get(k) for k in ('id', 'title', 'channel', 'season', 'date', 'opponent', 'round', 'players', 'description')}, 'kind': kind_}.items() if v_ is not None})
 seen = set()
 VIDS = [v for v in VIDS if not (v['id'] in seen or seen.add(v['id']))]
+# WHUS student-radio uploads come titled like file names ("1980 12 06 MBB Yale"): title and describe them from the schedule
+_RULED = collections.defaultdict(dict)   # every settled fact per game (several rulings can touch one game)
+for r_ in (jload(os.path.join(HERE, 'game_rulings.json'), {}) or {}).get('rulings') or []:
+    _RULED[(r_['date'], r_['opp'])].update(r_['set'])
+_sched_by_date = {}
+for _f in glob.glob(os.path.join(OUT, 'sr', 'seasons', '*.json')):
+    for _g in (jload(_f, {}) or {}).get('schedule') or []:
+        if _g.get('date') and _g.get('game_result'):
+            _fix = _RULED.get((_g['date'], _g.get('opp_name'))) or _RULED.get((_g['date'], re.sub(r'\s*\(.*?\)$', '', _g.get('opp_name') or ''))) or {}
+            _g = {**_g, **{k_: _fix[k_] for k_ in ('pts', 'opp_pts') if k_ in _fix}, 'game_result': _fix.get('res') or _g['game_result'],
+                  'site': _fix.get('site') or _g.get('site'), 'date': _fix.get('date') or _g['date'], 'overtimes': _fix.get('ot') or _g.get('overtimes'),
+                  'opp_name': re.sub(r'\s*\(NY\)$', '', _g.get('opp_name') or '')}
+            _sched_by_date.setdefault(_g['date'], _g)
+for v in VIDS:
+    if v.get('kind') == 'radio' and re.match(r'^\d{4} \d{2} \d{2} MBB', v.get('title') or '') and v.get('date') in _sched_by_date:
+        _g = _sched_by_date[v['date']]
+        _where = 'at' if _g.get('site') == 'away' else 'vs.'
+        _sc = f"{_g['game_result']} {_g['pts']}–{_g['opp_pts']}" + (f" ({_g['overtimes']})" if _g.get('overtimes') else '')
+        v['title'] = f"Radio call: UConn {_where} {_g['opp_name']}, {_sc}"
+        v['opponent'] = _g['opp_name']
+        v['description'] = f"WHUS (UConn student radio) broadcast, audio only: UConn {_where} {_g['opp_name']}, {v['date']}. Uploaded by {v.get('channel') or 'a former WHUS broadcaster'}."
+        v['channel'] = f"WHUS student radio · uploaded by {v.get('channel')}" if v.get('channel') else 'WHUS student radio'
 for v in VIDS:
     try:
         v['season'] = int(v['season']) if v.get('season') else None

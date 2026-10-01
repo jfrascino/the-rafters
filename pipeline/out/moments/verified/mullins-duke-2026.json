@@ -1,0 +1,586 @@
+{
+ "slug": "mullins-duke-2026",
+ "gameId": "2026-38",
+ "title": "Mullins From the Logo Stuns Duke",
+ "nickname": null,
+ "dek": "Down 19 in the first half to top overall seed Duke, UConn won 73-72 on freshman Braylon Mullins's 35-foot 3-pointer with 0.4 seconds left.",
+ "date": "2026-03-29",
+ "tip": {
+  "text": "5:05 p.m. ET, scheduled",
+  "sources": [
+   "https://uconnhuskies.com/news/2026/3/28/mens-basketball-2-uconn-faces-1-duke-in-elite-eight-blockbuster",
+   "https://goduke.com/news/2026/3/29/mens-basketball-uconn-upends-duke-73-72"
+  ]
+ },
+ "venue": "Capital One Arena",
+ "city": "Washington, DC",
+ "attendance": {
+  "n": 19502,
+  "sources": [
+   "https://uconnhuskies.com/sports/mens-basketball/stats/2025-26/duke/boxscore/25483",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "event": "NCAA East Regional final (Elite Eight)",
+ "tv": {
+  "network": "CBS",
+  "announcers": [
+   "Ian Eagle",
+   "Bill Raftery",
+   "Grant Hill",
+   "Tracy Wolfson (reporter)"
+  ],
+  "sources": [
+   "https://uconnhuskies.com/news/2026/3/28/mens-basketball-2-uconn-faces-1-duke-in-elite-eight-blockbuster",
+   "https://awfulannouncing.com/college-basketball/tv-radio-calls-uconn-stuns-duke-elite-eight.html"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "32-5",
+   "rank": "AP #7",
+   "seed": "2 (East)"
+  },
+  "opp": {
+   "record": "35-2",
+   "rank": "AP #1",
+   "seed": "1 (East; No. 1 overall)"
+  },
+  "sources": [
+   "https://uconnhuskies.com/news/2026/3/28/mens-basketball-2-uconn-faces-1-duke-in-elite-eight-blockbuster",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://www.sports-reference.com/cbb/seasons/men/2026-polls.html",
+   "https://www.espn.com/mens-college-basketball/story/_/id/48224650/duke-heads-march-madness-ranked-no-1-ap-top-25"
+  ]
+ },
+ "setup": [
+  {
+   "text": "The regional final fell on the 27th anniversary of UConn's 77-74 upset of Duke for its first national title. The programs had met in the tournament four times since 1990, Duke winning in 1990 and 1991 and UConn in 1999 and the 2004 Final Four. The 1990 game was decided by Christian Laettner's buzzer-beater in this same round.",
+   "sources": [
+    "https://uconnhuskies.com/news/2026/3/28/mens-basketball-2-uconn-faces-1-duke-in-elite-eight-blockbuster",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament"
+   ]
+  },
+  {
+   "text": "Duke (35-2) was the No. 1 overall seed and No. 1 in the AP poll after winning the ACC regular-season and tournament titles. Its star was All-American freshman Cameron Boozer, averaging 22.4 points and 10.3 rebounds, playing alongside his twin brother, Cayden.",
+   "sources": [
+    "https://uconnhuskies.com/news/2026/3/28/mens-basketball-2-uconn-faces-1-duke-in-elite-eight-blockbuster",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48224650/duke-heads-march-madness-ranked-no-1-ap-top-25",
+    "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins"
+   ]
+  },
+  {
+   "text": "UConn (32-5), seeded second and ranked seventh, was chasing a third national title in four seasons, something no program had done since UCLA in the 1970s. After a 72-52 loss to St. John's in the Big East final, the Huskies beat Furman, UCLA and Michigan State; Tarris Reed Jr. opened the tournament with 31 points and 27 rebounds.",
+   "sources": [
+    "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament"
+   ]
+  },
+  {
+   "text": "Freshman Braylon Mullins of Greenfield, Ind., a McDonald's All-American and Indiana's 2025 Mr. Basketball, had once listed Duke among his top 10 schools before canceling a planned visit to Durham and choosing UConn. He was averaging 12.0 points but, by ESPN's account, had been mired in a late-season shooting slump.",
+   "sources": [
+    "https://www.cbssports.com/college-basketball/news/braylon-mullins-uconn-game-winning-shot-duke-recruit-elite-eight-march-madness/",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "Reed's two free throws 21 seconds in gave UConn a 2-0 lead. It would be the Huskies' last lead until the final 0.4 seconds. Duke answered with seven straight points and went up 22-12 on a Cayden Boozer 3 with 13:24 left in the half.",
+   "sources": [
+    "site:plays/2026-38",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48335596/march-madness-predictions-live-tracker-elite-eight-michigan-duke-uconn-2026",
+    "https://uconnhuskies.com/news/2026/3/29/mens-basketball-maddness-mullins-three-sends-huskies-into-final-four",
+    "https://goduke.com/news/2026/3/29/mens-basketball-uconn-upends-duke-73-72"
+   ]
+  },
+  {
+   "text": "UConn started Alex Karaban on Cameron Boozer, and Boozer finished over and around him or found open teammates when help came. A 14-0 Duke run, the largest against UConn since it rejoined the Big East in 2020-21, according to ESPN Research, made it 40-21, and Duke led 44-25 late in the half.",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48335596/march-madness-predictions-live-tracker-elite-eight-michigan-duke-uconn-2026",
+    "https://goduke.com/news/2026/3/29/mens-basketball-uconn-upends-duke-73-72",
+    "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins",
+    "site:plays/2026-38"
+   ]
+  },
+  {
+   "text": "UConn made one of its 11 first-half 3-point attempts and trailed 44-29 at the break, when the Boozer twins had 27 points between them to UConn's 29. With 1:33 left in the half, UConn's win probability had dipped to 1.3 percent.",
+   "sources": [
+    "https://uconnhuskies.com/news/2026/3/29/mens-basketball-maddness-mullins-three-sends-huskies-into-final-four",
+    "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48335596/march-madness-predictions-live-tracker-elite-eight-michigan-duke-uconn-2026",
+    "site:plays/2026-38"
+   ]
+  },
+  {
+   "text": "Duke stretched it to 50-33 on Patrick Ngongba II's alley-oop early in the second half. Reed, who scored 11 points in the first nine minutes after halftime, kept answering: his steal and dunk cut it to 10, and his dunk with 11:15 left made it 56-49 and drew a Duke timeout. With seven minutes left, UConn still had not made a 3 in the half.",
+   "sources": [
+    "https://goduke.com/news/2026/3/29/mens-basketball-uconn-upends-duke-73-72",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament",
+    "site:plays/2026-38",
+    "https://uconnhuskies.com/news/2026/3/29/mens-basketball-maddness-mullins-three-sends-huskies-into-final-four"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "2H",
+   "clock": "7:00",
+   "uconn": 55,
+   "opp": 62,
+   "text": "Silas Demary Jr. hits a corner 3 off a Reed pass, UConn's first make from deep in the half after seven misses and only its second of the game.",
+   "sources": [
+    "site:plays/2026-38",
+    "https://uconnhuskies.com/news/2026/3/29/mens-basketball-maddness-mullins-three-sends-huskies-into-final-four",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "6:37",
+   "uconn": 55,
+   "opp": 65,
+   "text": "Nikolas Khamenia answers with a 3 for Duke, from Cameron Boozer. The lead is back to 10.",
+   "sources": [
+    "site:plays/2026-38",
+    "https://uconnhuskies.com/news/2026/3/29/mens-basketball-maddness-mullins-three-sends-huskies-into-final-four"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "6:07",
+   "uconn": 58,
+   "opp": 65,
+   "text": "Demary hits again, from the opposite corner on a Solo Ball feed. UConn calls timeout.",
+   "sources": [
+    "site:plays/2026-38",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament",
+    "https://uconnhuskies.com/news/2026/3/29/mens-basketball-maddness-mullins-three-sends-huskies-into-final-four"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "3:42",
+   "uconn": 65,
+   "opp": 67,
+   "text": "Ball drives for a layup, draws a foul on Cameron Boozer and makes the free throw, capping a 10-2 UConn run.",
+   "sources": [
+    "site:plays/2026-38",
+    "https://uconnhuskies.com/news/2026/3/29/mens-basketball-maddness-mullins-three-sends-huskies-into-final-four"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "3:22",
+   "uconn": 65,
+   "opp": 69,
+   "text": "Cameron Boozer pulls up from eight feet to push the lead back to four.",
+   "sources": [
+    "site:plays/2026-38",
+    "https://goduke.com/news/2026/3/29/mens-basketball-uconn-upends-duke-73-72"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:51",
+   "uconn": 65,
+   "opp": 70,
+   "text": "After more than a minute and a half without a point by either team, Ngongba makes one of two free throws. Duke leads by five.",
+   "sources": [
+    "site:plays/2026-38",
+    "https://goduke.com/news/2026/3/29/mens-basketball-uconn-upends-duke-73-72"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:05",
+   "uconn": 66,
+   "opp": 70,
+   "text": "Ball's free throw at 1:31 has made it a four-point game. Now Reed steals a Cameron Boozer pass.",
+   "sources": [
+    "site:plays/2026-38"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:50",
+   "uconn": 69,
+   "opp": 70,
+   "text": "Karaban, 0-for-5 from 3 to that point, buries a 26-footer. Duke's lead is one.",
+   "sources": [
+    "site:plays/2026-38",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48335596/march-madness-predictions-live-tracker-elite-eight-michigan-duke-uconn-2026",
+    "https://uconnhuskies.com/news/2026/3/29/mens-basketball-maddness-mullins-three-sends-huskies-into-final-four"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:28",
+   "uconn": 69,
+   "opp": 72,
+   "text": "Cameron Boozer muscles inside for a 9-foot pull-up with 28.9 seconds left. UConn calls timeout.",
+   "sources": [
+    "site:plays/2026-38",
+    "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins",
+    "https://uconnhuskies.com/news/2026/3/29/mens-basketball-maddness-mullins-three-sends-huskies-into-final-four"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:10",
+   "uconn": 70,
+   "opp": 72,
+   "text": "Demary is fouled by Cameron Boozer with 10 seconds left. He misses the first free throw and makes the second.",
+   "sources": [
+    "site:plays/2026-38",
+    "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins",
+    "https://uconnhuskies.com/news/2026/3/29/mens-basketball-maddness-mullins-three-sends-huskies-into-final-four"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:06",
+   "uconn": 70,
+   "opp": 72,
+   "text": "UConn presses. The inbound goes to Cameron Boozer, out to Dame Sarr, then to Cayden Boozer near midcourt. Rather than hold the ball and take a foul, Cayden tries a long pass over the trap toward two open teammates. Demary gets a hand on it, and Mullins scoops it up.",
+   "sources": [
+    "site:plays/2026-38",
+    "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:00.4",
+   "uconn": 73,
+   "opp": 72,
+   "text": "Mullins pushes the ball ahead to Karaban, who sees Cameron Boozer on him and gives it right back. In rhythm, at the edge of the midcourt March Madness logo, Mullins lets go from 35 feet: nothing but net. The clock shows 0.3, officials set it at 0.4, and Karaban swats away Duke's long inbound pass.",
+   "sources": [
+    "site:plays/2026-38",
+    "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament",
+    "https://uconnhuskies.com/news/2026/3/29/mens-basketball-maddness-mullins-three-sends-huskies-into-final-four",
+    "https://awfulannouncing.com/college-basketball/tv-radio-calls-uconn-stuns-duke-elite-eight.html",
+    "https://www.youtube.com/watch?v=mRkuGgeECak&t=5321s"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "19",
+   "label": "UConn's largest deficit (44-25, late in the first half)",
+   "sources": [
+    "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins",
+    "site:plays/2026-38"
+   ]
+  },
+  {
+   "value": "1.3%",
+   "label": "UConn's win probability with 1:33 left in the first half",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/48335596/march-madness-predictions-live-tracker-elite-eight-michigan-duke-uconn-2026",
+    "site:plays/2026-38"
+   ]
+  },
+  {
+   "value": "134-0",
+   "label": "record of No. 1 seeds leading by 15 or more at halftime in the NCAA tournament, before this game",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/48335596/march-madness-predictions-live-tracker-elite-eight-michigan-duke-uconn-2026"
+   ]
+  },
+  {
+   "value": "51.4",
+   "label": "seconds UConn led all game: 51 at 2-0, then the final 0.4",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/48335596/march-madness-predictions-live-tracker-elite-eight-michigan-duke-uconn-2026",
+    "site:plays/2026-38"
+   ]
+  },
+  {
+   "value": "1 for 18",
+   "label": "UConn's start from 3-point range; it then made 4 of its last 5",
+   "sources": [
+    "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48335596/march-madness-predictions-live-tracker-elite-eight-michigan-duke-uconn-2026",
+    "site:plays/2026-38"
+   ]
+  },
+  {
+   "value": "18",
+   "label": "straight UConn wins in the Sweet 16 or later after this game, a streak since its 2009 Final Four loss",
+   "sources": [
+    "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "It just felt like the window where you've just got to let March Madness take over.",
+   "who": "Dan Hurley",
+   "role": "UConn head coach, on not calling a timeout",
+   "when": "postgame, March 29, 2026",
+   "source": "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins"
+  },
+  {
+   "text": "I knew I had to put one up. Man, I'm just happy that was the one that went down tonight.",
+   "who": "Braylon Mullins",
+   "role": "UConn freshman guard",
+   "when": "postgame, March 29, 2026",
+   "source": "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins"
+  },
+  {
+   "text": "The Indiana kid sent us to Indianapolis.",
+   "who": "Alex Karaban",
+   "role": "UConn senior forward",
+   "when": "postgame, March 29, 2026",
+   "source": "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament"
+  },
+  {
+   "text": "I don't have the words. I don't have the words.",
+   "who": "Jon Scheyer",
+   "role": "Duke head coach",
+   "when": "postgame, March 29, 2026",
+   "source": "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "Reed, with 26 points, nine rebounds and four blocks, was named the East Regional's Most Outstanding Player.",
+   "sources": [
+    "https://uconnhuskies.com/news/2026/3/29/mens-basketball-maddness-mullins-three-sends-huskies-into-final-four",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament"
+   ]
+  },
+  {
+   "text": "Six days later at Lucas Oil Stadium in Indianapolis, UConn beat Illinois 71-62 in the Final Four. Reed had 17 points and 11 rebounds, and Mullins scored 15, including a 3 with 52 seconds left that made it 66-59.",
+   "sources": [
+    "https://ipmnewsroom.org/uconn-reaches-3rd-national-title-game-in-4-seasons-beating-illinois-71-62-behind-mullins-and-reed/",
+    "https://uconnhuskies.com/news/2026/4/4/mens-basketball-one-more-huskies-punch-ticket-to-national-title-game"
+   ]
+  },
+  {
+   "text": "On April 6, Michigan beat UConn 69-63 for its first national title since 1989, becoming the first team to beat UConn in the Sweet 16 or later since the 2009 Final Four. UConn shot a season-low 30.9 percent; Karaban had 17 points and 11 rebounds in his final college game.",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/48416755/michigan-holds-uconn-win-second-ncaa-hoops-title",
+    "https://uconnhuskies.com/news/2026/4/6/mens-basketball-huskies-fall-in-national-title-game"
+   ]
+  },
+  {
+   "text": "UConn finished 34-6. It was the program's first loss in seven national championship games.",
+   "sources": [
+    "https://uconnhuskies.com/news/2026/4/6/mens-basketball-huskies-fall-in-national-title-game",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "On April 18, Mullins announced that he would pass on the NBA draft and return for his sophomore season.",
+   "sources": [
+    "https://sports.yahoo.com/mens-college-basketball/article/uconn-ncaa-tournament-hero-braylon-mullins-will-forgo-nba-draft-and-return-to-huskies-for-sophomore-season-230620010.html"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "AP's Noah Trister placed the shot alongside Christian Laettner's for Duke in the 1992 regional final and Kris Jenkins' 2016 title-winner for Villanova.",
+   "sources": [
+    "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins"
+   ]
+  },
+  {
+   "text": "By AP's count from a Sports Reference list, only 16 times before had a team trailing in the Sweet 16 or later won on a last-second shot. Two were UConn's: Tate George in 1990 and Richard Hamilton in 1998.",
+   "sources": [
+    "https://www.nbcconnecticut.com/news/sports/dog-house/mullins-miracle-how-does-his-shot-for-uconn-measure-up-to-other-famous-ones-in-march-madness/3719889/"
+   ]
+  },
+  {
+   "text": "It was Duke's third straight season ended in stunning fashion, after an Elite Eight loss to No. 11 seed NC State in 2024 and a blown lead against Houston in the 2025 Final Four.",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament"
+   ]
+  },
+  {
+   "text": "Khamenia, whose 3 had put Duke up 10 with 6:37 left, later committed to UConn as a transfer.",
+   "sources": [
+    "site:plays/2026-38",
+    "https://sports.yahoo.com/mens-college-basketball/article/uconn-ncaa-tournament-hero-braylon-mullins-will-forgo-nba-draft-and-return-to-huskies-for-sophomore-season-230620010.html"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "mRkuGgeECak",
+   "title": "UConn vs. Duke: 2026 NCAA men's Elite Eight | FULL REPLAY",
+   "channel": "March Madness",
+   "kind": "full_game",
+   "start": 5240,
+   "why": "Official March Madness full replay (CBS broadcast). Already in site videos[]. From the auto-captions: '72-70 Duke, 10 seconds to go' at ~5240s, the deflection and steal at ~5251s, the shot at ~5256s, 'They've added a tenth of a second' at ~5327s, and Duke's final inbound knocked away at ~5395s. The uploader's chapter 'Mullins' game-winning shot' starts at 5262s."
+  },
+  {
+   "youtube": "nWfmFK3lsag",
+   "title": "Final improbable sequence in UConn's comeback win over Duke | 2026 March Madness",
+   "channel": "March Madness",
+   "kind": "final_play",
+   "start": null,
+   "why": "Official March Madness upload from March 29, 2026; description: 'Watch the final seconds here' of Mullins' game-winner. Already in site videos[]."
+  },
+  {
+   "youtube": "tK9VQVjDFkA",
+   "title": "Every angle you didn't see from UConn's thrilling game-winner over Duke",
+   "channel": "March Madness",
+   "kind": "final_play",
+   "start": null,
+   "why": "Official March Madness upload from March 29, 2026: 10 camera angles of the last-second win over Duke. Already in site videos[]."
+  },
+  {
+   "youtube": "QceCVy0SBfI",
+   "title": "UConn Radio Call of Braylon Mullins Game Winner vs Duke | 2026 March Madness",
+   "channel": "FN Sports",
+   "kind": "radio",
+   "start": null,
+   "why": "Third-party upload posted the night of the game; description: audio from flagship WUCS in Hartford with Mike Crispino on the call."
+  }
+ ],
+ "photos": [],
+ "newspaper": [],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "clock on Mullins' shot",
+   "ours": "0:00 (site:plays/2026-38; the official StatCrew play-by-play also shows 00:00)",
+   "source_says": "0.4 seconds left (AP, ESPN, UConn recap; Duke: 'less than one second'). Live calls said 0.3 (CBS's Ian Eagle, Duke radio, Westwood One); the CBS crew then noted a tenth of a second had been added. Sequence uses 0:00.4.",
+   "sources": [
+    "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament",
+    "https://uconnhuskies.com/news/2026/3/29/mens-basketball-maddness-mullins-three-sends-huskies-into-final-four",
+    "https://goduke.com/news/2026/3/29/mens-basketball-uconn-upends-duke-73-72",
+    "https://awfulannouncing.com/college-basketball/tv-radio-calls-uconn-stuns-duke-elite-eight.html",
+    "https://www.youtube.com/watch?v=mRkuGgeECak&t=5321s"
+   ]
+  },
+  {
+   "field": "distance of Mullins' shot",
+   "ours": "35-foot three-point jumper (site:plays/2026-38)",
+   "source_says": "AP, ESPN and CBS Sports: 35 feet. UConn's recap: 'a 40-foot heave' and 'from nearly 40 feet.' UConn radio (Mike Crispino, per Awful Announcing): 'a 45-footer.' Narrative uses 35 feet.",
+   "sources": [
+    "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins",
+    "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament",
+    "https://www.cbssports.com/college-basketball/news/braylon-mullins-uconn-game-winning-shot-duke-recruit-elite-eight-march-madness/",
+    "https://uconnhuskies.com/news/2026/3/29/mens-basketball-maddness-mullins-three-sends-huskies-into-final-four",
+    "https://awfulannouncing.com/college-basketball/tv-radio-calls-uconn-stuns-duke-elite-eight.html"
+   ]
+  },
+  {
+   "field": "assist on Karaban's 3 at 0:50",
+   "ours": "unassisted (site:plays/2026-38)",
+   "source_says": "Official StatCrew play-by-play credits Silas Demary Jr. with the assist.",
+   "sources": [
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2025-26/duke/boxscore/25483"
+   ]
+  },
+  {
+   "field": "seasons/2027.json story: date Mullins chose to return",
+   "ours": "seasons/2027.json moments[] entry 'Mullins returns' dated 2026-04-19 (the season story text already says April 18)",
+   "source_says": "Yahoo Sports (published April 18, 2026): Mullins 'announced via Instagram on Saturday,' i.e., April 18, 2026.",
+   "sources": [
+    "https://sports.yahoo.com/mens-college-basketball/article/uconn-ncaa-tournament-hero-braylon-mullins-will-forgo-nba-draft-and-return-to-huskies-for-sophomore-season-230620010.html"
+   ]
+  }
+ ],
+ "unsure": [
+  "Nickname: AP headlines called it 'Mullins Madness!' (game story) and 'Mullins' Miracle' (analysis piece), and the site's 2026 season story uses 'The Mullins Miracle.' Neither is confirmed as an established nickname, so nickname is null.",
+  "Why the tenth of a second was added (presumably a replay review) is not stated in any print source found; the narrative says only that the clock went from 0.3 to 0.4.",
+  "The CBS broadcast audio suggests Caleb Foster threw Duke's final inbound (the play-by-play shows Foster entering at 0:00), but no print source names him, so he is not named.",
+  "AP's account says Mullins picked the ball up 'near midcourt'; ESPN says 'in the backcourt.' The narrative avoids the distinction.",
+  "No archive.org newspaper scans or Wikimedia Commons photos of this game were found."
+ ],
+ "sources": [
+  {
+   "url": "site:plays/2026-38",
+   "what": "Site play-by-play (ESPN feed) and win probability: backbone for sequence clocks and scores; 2-0 opening lead; 44-25 low point; 1.3% win probability; UConn 3-point sequence (1 for 18)"
+  },
+  {
+   "url": "https://www.wbur.org/news/2026/03/30/uconn-comeback-win-duke-braylon-mullins",
+   "what": "AP game story (Noah Trister) via WBUR: 0.4 seconds, 35 feet, 19-point first-half deficit, 44-29 half, Demary FT with 10 seconds left, the final sequence, quotes (Hurley, Mullins, Scheyer), 17 of first 18 3s missed, 18 straight Sweet 16-or-later wins, Laettner/Jenkins comparison, largest halftime lead blown by a No. 1 seed"
+  },
+  {
+   "url": "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament",
+   "what": "ESPN (Jeff Borzello): steal, Karaban hand-off and 35-footer with 0.4 left; Karaban quote; Mullins' slump and 0-for-4 start; Reed 31/27 vs Furman and 11 points early in the second half; Karaban started on Boozer; 14-0 run largest vs UConn since 2020-21; Duke's three straight stunning exits"
+  },
+  {
+   "url": "https://www.espn.com/mens-college-basketball/story/_/id/48335596/march-madness-predictions-live-tracker-elite-eight-michigan-duke-uconn-2026",
+   "what": "ESPN live tracker (Borzello, Medcalf, ESPN Research): 134-0 and 27-0 halftime stats, 1.3% win probability, UConn led 51.4 seconds, twins 27 vs UConn 29 at half, Karaban missed first five 3s"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2026/3/29/mens-basketball-maddness-mullins-three-sends-huskies-into-final-four",
+   "what": "UConn official recap: 50.5/27.2/10.0 clock details, Demary deflection, Mullins-Karaban-Mullins, 'nearly 40 feet,' Karaban swats Duke's final inbound, Reed East Regional MOP, 1-of-11 first half, 0-of-7 second-half start before Demary's 3, eighth Final Four"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2026/3/28/mens-basketball-2-uconn-faces-1-duke-in-elite-eight-blockbuster",
+   "what": "UConn preview: 5:05 p.m. tip on CBS with Eagle, Hill, Raftery and Wolfson; records 32-5 and 35-2; series history; 27th anniversary of the 1999 title game; Boozer's averages"
+  },
+  {
+   "url": "https://goduke.com/news/2026/3/29/mens-basketball-uconn-upends-duke-73-72",
+   "what": "Duke official recap and notes: 5:05 p.m. tip, 14-0 run to 40-21, 50-33 on Ngongba alley-oop, scoreless stretch until 70-65 at 1:51, 69-65 at 3:22, 35-3 final record"
+  },
+  {
+   "url": "https://uconnhuskies.com/sports/mens-basketball/stats/2025-26/duke/boxscore/25483",
+   "what": "UConn official box score and StatCrew play-by-play: attendance 19,502, Capital One Arena, referees, official clocks, Demary assist on Karaban's 3"
+  },
+  {
+   "url": "https://www.cbssports.com/college-basketball/news/braylon-mullins-uconn-game-winning-shot-duke-recruit-elite-eight-march-madness/",
+   "what": "CBS Sports (Cody Nagel): Mullins' recruitment (Duke in top 10, canceled visit), McDonald's All-American, 2025 Indiana Mr. Basketball, 12.0 ppg, 35-footer with 0.4 left"
+  },
+  {
+   "url": "https://www.nbcconnecticut.com/news/sports/dog-house/mullins-miracle-how-does-his-shot-for-uconn-measure-up-to-other-famous-ones-in-march-madness/3719889/",
+   "what": "AP analysis ('Mullins' Miracle') via NBC Connecticut: 16 prior trailing last-second winners in the Sweet 16 or later per Sports Reference; George 1990 and Hamilton 1998"
+  },
+  {
+   "url": "https://awfulannouncing.com/college-basketball/tv-radio-calls-uconn-stuns-duke-elite-eight.html",
+   "what": "Awful Announcing (Matt Clapp): CBS, UConn radio, Duke radio and Westwood One calls, including '0.3' and 'three-tenths'"
+  },
+  {
+   "url": "https://www.espn.com/mens-college-basketball/story/_/id/48224650/duke-heads-march-madness-ranked-no-1-ap-top-25",
+   "what": "ESPN/AP: final pre-tournament AP poll (Duke No. 1; ACC regular-season and tournament titles); post-tournament final poll scheduled for April 7"
+  },
+  {
+   "url": "https://www.sports-reference.com/cbb/seasons/men/2026-polls.html",
+   "what": "Sports-Reference 2026 AP polls: UConn No. 7 and Duke No. 1 in the March 16 poll"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn Record Book 2026-27: 2025-26 results (UConn AP 7, Duke AP 1, attendance 19,502, CBS); national championship game record 6-1"
+  },
+  {
+   "url": "https://ipmnewsroom.org/uconn-reaches-3rd-national-title-game-in-4-seasons-beating-illinois-71-62-behind-mullins-and-reed/",
+   "what": "AP 2026 Final Four story: UConn 71, Illinois 62; Reed 17/11; Mullins 15 and the 3 with 52 seconds left; 19th straight Sweet 16-or-later win"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2026/4/4/mens-basketball-one-more-huskies-punch-ticket-to-national-title-game",
+   "what": "UConn official recap of the Final Four win over Illinois"
+  },
+  {
+   "url": "https://www.espn.com/mens-college-basketball/story/_/id/48416755/michigan-holds-uconn-win-second-ncaa-hoops-title",
+   "what": "ESPN: Michigan 69, UConn 63; Michigan's first title since 1989; first team to beat UConn in the Sweet 16 or later since 2009"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2026/4/6/mens-basketball-huskies-fall-in-national-title-game",
+   "what": "UConn official recap of the title game: season-low 30.9% shooting, Karaban 17/11 in his final game, UConn 34-6"
+  },
+  {
+   "url": "https://sports.yahoo.com/mens-college-basketball/article/uconn-ncaa-tournament-hero-braylon-mullins-will-forgo-nba-draft-and-return-to-huskies-for-sophomore-season-230620010.html",
+   "what": "Yahoo Sports (Ian Casselberry, April 18, 2026): Mullins returning for sophomore season; Duke's Nikolas Khamenia joining UConn"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=mRkuGgeECak&t=5321s",
+   "what": "Full CBS broadcast replay (official March Madness channel), timestamp where the booth notes the added tenth of a second (auto-captions)"
+  }
+ ],
+ "_verified": {
+  "checked": 179,
+  "ok": 176,
+  "edits": 3
+ }
+}

@@ -1,0 +1,517 @@
+{
+ "slug": "thirty-zero-2024",
+ "gameId": "2024-38",
+ "title": "Thirty Straight: UConn Buries Illinois",
+ "nickname": null,
+ "dek": "Tied 23-23 late in the first half, UConn scored the next 30 points against Illinois in Boston and rolled 77-52 into a second straight Final Four.",
+ "date": "2024-03-30",
+ "tip": {
+  "text": "6:09 p.m. ET, scheduled",
+  "sources": [
+   "https://www.thetelegraph.com/sports/article/illinois-uconn-basketball-game-time-elite-8-19374054.php",
+   "https://uconnhuskies.com/news/2024/3/30/mens-basketball-huskies-headed-to-second-straight-final-four"
+  ]
+ },
+ "venue": "TD Garden",
+ "city": "Boston, MA",
+ "attendance": {
+  "n": 19181,
+  "sources": [
+   "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/illinois/boxscore/24234",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "event": "NCAA East Regional final (Elite Eight)",
+ "tv": {
+  "network": "TBS (simulcast on truTV)",
+  "announcers": [
+   "Kevin Harlan",
+   "Dan Bonner",
+   "Stan Van Gundy",
+   "Andy Katz (reporter)"
+  ],
+  "sources": [
+   "https://www.thetelegraph.com/sports/article/illinois-uconn-basketball-game-time-elite-8-19374054.php",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://www.cbssports.com/college-basketball/news/2024-march-madness-tv-schedules-set-for-ncaa-tournament-with-ian-eagle-set-to-call-first-final-four",
+   "https://www.youtube.com/watch?v=J0shW64QKGw"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "34-3",
+   "rank": "AP #1",
+   "seed": "1 (East; No. 1 overall)"
+  },
+  "opp": {
+   "record": "29-8",
+   "rank": "AP #10",
+   "seed": "3 (East)"
+  },
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://www.ncaa.com/news/basketball-men/article/2024-12-06/2024-ncaa-bracket-scores-stats-march-madness-mens-tournament",
+   "https://www.sports-reference.com/cbb/seasons/men/2024-polls.html",
+   "https://www.thetelegraph.com/sports/article/illinois-uconn-basketball-game-time-elite-8-19374054.php"
+  ]
+ },
+ "setup": [
+  {
+   "text": "A year after its fifth national title, UConn reached the Elite Eight at 34-3, the tournament's No. 1 overall seed and champion of both the Big East regular season and tournament. Its first three NCAA games were routs: 91-52 over Stetson, 75-58 over Northwestern and 82-52 over San Diego State, a rematch of the 2023 final.",
+   "sources": [
+    "https://www.ncaa.com/news/basketball-men/article/2024-12-06/2024-ncaa-bracket-scores-stats-march-madness-mens-tournament",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.ncaa.com/news/basketball-men/article/2023-04-18/2023-ncaa-bracket-scores-stats-march-madness-mens-tournament"
+   ]
+  },
+  {
+   "text": "TD Garden sits about 90 miles from Storrs, and the heavily pro-UConn crowd was one the Huskies called 'Storrs North.' Bill Murray, whose son Luke is a UConn assistant, watched from courtside, and Larry David sat in the first row.",
+   "sources": [
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/",
+    "https://www.cbssports.com/college-basketball/news/uconn-blasts-illinois-in-the-elite-eight-and-is-on-the-verge-of-an-all-time-dominant-american-sports-story/"
+   ]
+  },
+  {
+   "text": "Illinois, the region's No. 3 seed at 29-8 and the Big Ten tournament champion, had the most efficient offense in the country. Terrence Shannon Jr. had scored at least 25 in seven straight games, including 29 against Iowa State in the Sweet 16. The Illini had not been this deep in the tournament since 2005.",
+   "sources": [
+    "https://www.thetelegraph.com/sports/article/illinois-uconn-basketball-game-time-elite-8-19374054.php",
+    "https://www.ncaa.com/news/basketball-men/article/2024-04-05/uconns-dominant-run-final-four-numbers",
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/",
+    "https://www.cbssports.com/college-basketball/news/uconn-blasts-illinois-in-the-elite-eight-and-is-on-the-verge-of-an-all-time-dominant-american-sports-story/"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "Donovan Clingan, the 7-foot-2 center from Connecticut, scored the game's first seven points, and Illinois did not score until after the first media timeout, trailing 9-0.",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/39842442/uconn-romps-back-final-four-blowout-illinois-ncaa-tournament",
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/",
+    "site:plays/2024-38"
+   ]
+  },
+  {
+   "text": "Then the game turned into a grind. UConn missed its first 10 3-point attempts and Tristen Newton went 0-for-6 in the half, while Marcus Domask kept Illinois close with 15 first-half points.",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/39842442/uconn-romps-back-final-four-blowout-illinois-ncaa-tournament",
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/"
+   ]
+  },
+  {
+   "text": "Illinois went scoreless again between the under-12 and under-8 timeouts, missing 11 shots in a row, and managed just four first-half points with Clingan on the floor. Still, back-to-back Domask baskets tied it 23-23 inside the final two minutes of the half.",
+   "sources": [
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/",
+    "https://www.espn.com/mens-college-basketball/story/_/id/39842442/uconn-romps-back-final-four-blowout-illinois-ncaa-tournament",
+    "site:plays/2024-38"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "1H",
+   "clock": "1:49",
+   "uconn": 23,
+   "opp": 23,
+   "text": "Domask's jumper ties the game. It is Illinois' last basket for more than nine minutes of game clock.",
+   "sources": [
+    "site:plays/2024-38",
+    "https://www.espn.com/mens-college-basketball/story/_/id/39842442/uconn-romps-back-final-four-blowout-illinois-ncaa-tournament",
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/illinois/boxscore/24234"
+   ]
+  },
+  {
+   "period": "1H",
+   "clock": "1:22",
+   "uconn": 26,
+   "opp": 23,
+   "text": "Alex Karaban grabs an offensive rebound and kicks it to Hassan Diarra, who drains a 3. The run begins.",
+   "sources": [
+    "site:plays/2024-38",
+    "https://www.cbssports.com/college-basketball/news/uconn-blasts-illinois-in-the-elite-eight-and-is-on-the-verge-of-an-all-time-dominant-american-sports-story/",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/illinois/boxscore/24234"
+   ]
+  },
+  {
+   "period": "1H",
+   "clock": "0:59",
+   "uconn": 28,
+   "opp": 23,
+   "text": "Newton, still without a field goal, makes two free throws. UConn leads 28-23 at the half.",
+   "sources": [
+    "site:plays/2024-38",
+    "https://www.espn.com/mens-college-basketball/story/_/id/39842442/uconn-romps-back-final-four-blowout-illinois-ncaa-tournament",
+    "https://uconnhuskies.com/news/2024/3/30/mens-basketball-huskies-headed-to-second-straight-final-four"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "19:42",
+   "uconn": 30,
+   "opp": 23,
+   "text": "Clingan scores on the Huskies' first possession of the second half.",
+   "sources": [
+    "site:plays/2024-38"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "17:10",
+   "uconn": 35,
+   "opp": 23,
+   "text": "Clingan dunks a Stephon Castle feed to finish a 7-0 start to the half. Illinois calls timeout.",
+   "sources": [
+    "site:plays/2024-38",
+    "https://uconnhuskies.com/news/2024/3/30/mens-basketball-huskies-headed-to-second-straight-final-four",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/illinois/boxscore/24234"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "16:00",
+   "uconn": 39,
+   "opp": 23,
+   "text": "Cam Spencer's jumper makes it 11-0 to open the half and the lead 16. Illinois calls timeout again.",
+   "sources": [
+    "site:plays/2024-38",
+    "https://uconnhuskies.com/news/2024/3/30/mens-basketball-huskies-headed-to-second-straight-final-four"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "14:59",
+   "uconn": 44,
+   "opp": 23,
+   "text": "Karaban's 3, from a Spencer pass, pushes the run to 21-0.",
+   "sources": [
+    "site:plays/2024-38",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/illinois/boxscore/24234"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "14:35",
+   "uconn": 46,
+   "opp": 23,
+   "text": "Clingan makes two free throws and goes to the bench with UConn up 23.",
+   "sources": [
+    "site:plays/2024-38",
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "14:11",
+   "uconn": 48,
+   "opp": 23,
+   "text": "On the next Illinois trip, Clingan's replacement, Samson Johnson, blocks Shannon under the basket and finishes the fast break himself.",
+   "sources": [
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/",
+    "site:plays/2024-38",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/illinois/boxscore/24234"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "13:43",
+   "uconn": 51,
+   "opp": 23,
+   "text": "Karaban dunks a Newton pass, is fouled by Shannon and makes the free throw.",
+   "sources": [
+    "site:plays/2024-38"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "13:16",
+   "uconn": 53,
+   "opp": 23,
+   "text": "Spencer steals the ball and feeds Diarra for a layup: 30-0. Illinois has missed 16 shots in a row; one more miss will make it 17 straight, the last three of the first half and the first 14 of the second.",
+   "sources": [
+    "site:plays/2024-38",
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/illinois/boxscore/24234"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "12:41",
+   "uconn": 53,
+   "opp": 25,
+   "text": "Justin Harmon finally scores for Illinois. UConn's lead is 28, on its way to 77-52.",
+   "sources": [
+    "site:plays/2024-38",
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/illinois/boxscore/24234"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "30-0",
+   "label": "UConn run from 23-23 to 53-23, spanning halftime",
+   "sources": [
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/",
+    "site:plays/2024-38"
+   ]
+  },
+  {
+   "value": "17",
+   "label": "consecutive Illinois misses during the run, including its first 14 shots of the second half",
+   "sources": [
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/",
+    "site:plays/2024-38"
+   ]
+  },
+  {
+   "value": "0 for 19",
+   "label": "Illinois on field-goal attempts contested by Clingan (ESPN Stats & Information)",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/39842442/uconn-romps-back-final-four-blowout-illinois-ncaa-tournament",
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/"
+   ]
+  },
+  {
+   "value": "10",
+   "label": "straight NCAA tournament wins by double digits for UConn, the first team ever to reach that many",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/39842442/uconn-romps-back-final-four-blowout-illinois-ncaa-tournament",
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/",
+    "https://www.cbssports.com/college-basketball/news/uconn-blasts-illinois-in-the-elite-eight-and-is-on-the-verge-of-an-all-time-dominant-american-sports-story/"
+   ]
+  },
+  {
+   "value": "45+",
+   "label": "minutes of real time Illinois went without a point, per CBS Sports' Matt Norlander",
+   "sources": [
+    "https://www.cbssports.com/college-basketball/news/uconn-blasts-illinois-in-the-elite-eight-and-is-on-the-verge-of-an-all-time-dominant-american-sports-story/"
+   ]
+  },
+  {
+   "value": "28",
+   "label": "seconds UConn had trailed in the entire 2024 tournament through this game",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/39842442/uconn-romps-back-final-four-blowout-illinois-ncaa-tournament"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "It was a special level of basketball that we were playing.",
+   "who": "Dan Hurley",
+   "role": "UConn head coach",
+   "when": "postgame, March 30, 2024",
+   "source": "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/"
+  },
+  {
+   "text": "We obviously came out in the second half and got blitzed.",
+   "who": "Brad Underwood",
+   "role": "Illinois head coach",
+   "when": "postgame, March 30, 2024",
+   "source": "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/"
+  },
+  {
+   "text": "It felt like no shots were going in. And it felt like they were getting out in transition and scoring every single time.",
+   "who": "Coleman Hawkins",
+   "role": "Illinois forward",
+   "when": "postgame, March 30, 2024",
+   "source": "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/"
+  },
+  {
+   "text": "I didn't even realize we were on a 30-0 run in the moment, we were having so much fun out there.",
+   "who": "Donovan Clingan",
+   "role": "UConn center",
+   "when": "as quoted by NCAA.com's Mike Lopresti, April 5, 2024",
+   "source": "https://www.ncaa.com/news/basketball-men/article/2024-04-05/uconns-dominant-run-final-four-numbers"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "UConn, which had played its first four NCAA games in Brooklyn and Boston, boarded a plane for the first time in almost a month to head to the Final Four outside Phoenix.",
+   "sources": [
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "The Huskies were the first reigning champion to return to the Final Four since Florida in 2006-07, and it was the first time UConn had reached back-to-back Final Fours.",
+   "sources": [
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/",
+    "https://www.cbssports.com/college-basketball/news/uconn-blasts-illinois-in-the-elite-eight-and-is-on-the-verge-of-an-all-time-dominant-american-sports-story/",
+    "https://uconnhuskies.com/news/2024/3/30/mens-basketball-huskies-headed-to-second-straight-final-four"
+   ]
+  },
+  {
+   "text": "In Glendale, Ariz., UConn beat Alabama 86-72 and Purdue 75-60 to repeat as national champion.",
+   "sources": [
+    "https://www.ncaa.com/news/basketball-men/article/2024-12-06/2024-ncaa-bracket-scores-stats-march-madness-mens-tournament",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "NCAA.com's Mike Lopresti called the 30-0 run the number that best defined UConn's dominance that spring. Through four games UConn's combined margin was 111 points, the fourth-largest for any team heading into a Final Four, behind 1993 Kentucky, 1999 Duke and 1996 Kentucky, according to CBS Sports.",
+   "sources": [
+    "https://www.ncaa.com/news/basketball-men/article/2024-04-05/uconns-dominant-run-final-four-numbers",
+    "https://www.cbssports.com/college-basketball/news/uconn-blasts-illinois-in-the-elite-eight-and-is-on-the-verge-of-an-all-time-dominant-american-sports-story/",
+    "https://www.sports-reference.com/cbb/postseason/men/1993-ncaa.html",
+    "https://www.sports-reference.com/cbb/postseason/men/1999-ncaa.html",
+    "https://www.sports-reference.com/cbb/postseason/men/1996-ncaa.html"
+   ]
+  },
+  {
+   "text": "Two years later the teams met again in the 2026 Final Four in Indianapolis, and UConn won again, 71-62.",
+   "sources": [
+    "https://ipmnewsroom.org/uconn-reaches-3rd-national-title-game-in-4-seasons-beating-illinois-71-62-behind-mullins-and-reed/",
+    "https://uconnhuskies.com/news/2026/4/4/mens-basketball-one-more-huskies-punch-ticket-to-national-title-game",
+    "https://www.si.com/college/illinois/basketball/uconn-30-0-run-illinois-2026-final-four"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "J0shW64QKGw",
+   "title": "UConn vs. Illinois:  2024 NCAA men's Elite Eight | FULL REPLAY",
+   "channel": "March Madness",
+   "kind": "full_game",
+   "start": 1905,
+   "why": "Official March Madness full replay; description cites Clingan's 22-point, 10-rebound double-double. Already in site videos[]. From the auto-captions: Domask's tying basket is called at ~1918s and 'Diarra, a triple' at ~1941s; the booth notes '21 to nothing' at ~2971s and '25 nothing' at ~3101s."
+  },
+  {
+   "youtube": "W1sjG8hONRQ",
+   "title": "UConn's incredible 30-0 run in 2024 Elite Eight \u2014 every single bucket",
+   "channel": "March Madness",
+   "kind": "highlights",
+   "start": null,
+   "why": "Official March Madness clip of every basket in the run, uploaded March 30, 2024. Already in site videos[]."
+  },
+  {
+   "youtube": "RdSlKc1euMs",
+   "title": "UConn vs. Illinois - Elite Eight NCAA tournament extended highlights",
+   "channel": "March Madness",
+   "kind": "highlights",
+   "start": null,
+   "why": "Official March Madness extended highlights uploaded March 30, 2024; description cites UConn's win and Clingan's 22 and 10; includes a chapter labeled 'Connecticut 25-0 run.'"
+  }
+ ],
+ "photos": [],
+ "newspaper": [],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "start of the run (Domask's tying basket)",
+   "ours": "1H 1:51 (site:plays/2024-38)",
+   "source_says": "1:49. Official StatCrew play-by-play: 01:49; ESPN: 'tie the score with 1:49 left until halftime'; AP: the run 'lasted for the last 1:49 of the first half.'",
+   "sources": [
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/illinois/boxscore/24234",
+    "https://www.espn.com/mens-college-basketball/story/_/id/39842442/uconn-romps-back-final-four-blowout-illinois-ncaa-tournament",
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/"
+   ]
+  },
+  {
+   "field": "end of the run (Harmon's basket)",
+   "ours": "2H 12:39, recorded as a layup (site:plays/2024-38)",
+   "source_says": "12:41 and a jumper in the official StatCrew play-by-play; AP: the run lasted 'the first 7:19 of the second [half]' (i.e., to 12:41).",
+   "sources": [
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/illinois/boxscore/24234",
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/"
+   ]
+  },
+  {
+   "field": "Illinois' scoring drought length",
+   "ours": "9:12 of game clock implied by site:plays/2024-38 (1:51 1H to 12:39 2H)",
+   "source_says": "9:08 implied by the official play-by-play and AP (1:49 + 7:19). Narrative says 'more than nine minutes.'",
+   "sources": [
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/illinois/boxscore/24234",
+    "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/"
+   ]
+  },
+  {
+   "field": "other sequence clocks (minor)",
+   "ours": "Diarra 3 at 1:23; Clingan dunk 17:12; Karaban 3 14:58; Johnson layup 14:16; Clingan's 19:42 basket recorded as a layup",
+   "source_says": "Official StatCrew: 1:22; 17:10; 14:59; 14:11; the 19:42 basket recorded as a jumper. CBS (Norlander) puts 53-23 'with 13:17 to go' (ours and official: 13:16) and the tie 'with 1:23 remaining.'",
+   "sources": [
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/illinois/boxscore/24234",
+    "https://www.cbssports.com/college-basketball/news/uconn-blasts-illinois-in-the-elite-eight-and-is-on-the-verge-of-an-all-time-dominant-american-sports-story/"
+   ]
+  }
+ ],
+ "unsure": [
+  "Whether 30-0 is the longest run in NCAA tournament history: ESPN said only that the onslaught was 'not seen this late in the NCAA tournament recently.' No record claim is made.",
+  "The TV crew comes from a pregame listing ('scheduled to be'); the replay's audio confirms booth voices addressed as Kevin and Dan, but Van Gundy's and Katz's roles were not independently confirmed.",
+  "AP calls Illinois' offense the most efficient in the country; CBS calls it the No. 2 offense. The narrative uses AP's wording.",
+  "No archive.org newspaper scans or Wikimedia Commons photos of this game were found."
+ ],
+ "sources": [
+  {
+   "url": "site:plays/2024-38",
+   "what": "Site play-by-play (ESPN feed): backbone for every sequence clock and score; 17 straight Illinois misses; Clingan's first seven points; 9-0 start"
+  },
+  {
+   "url": "https://www.ksat.com/sports/2024/03/31/donovan-clingan-uconn-power-back-into-final-four-behind-30-0-run-in-77-52-rout-of-illinois/",
+   "what": "AP game story (Jimmy Golen) via KSAT: 30-0 run timing, 17 misses, 0-for-19 vs Clingan, Storrs North, Murray and David, Domask 15 first-half points, droughts, Samson Johnson block-and-score, quotes from Hurley, Underwood, Coleman Hawkins; first flight in almost a month"
+  },
+  {
+   "url": "https://www.espn.com/mens-college-basketball/story/_/id/39842442/uconn-romps-back-final-four-blowout-illinois-ncaa-tournament",
+   "what": "ESPN (Jeff Borzello): tie with 1:49 left, Clingan's first seven points, UConn's first 10 3s missed, Newton 0-for-6, ESPN Stats 0-for-19, 10 straight wins by 13+, trailed 28 seconds all tournament"
+  },
+  {
+   "url": "https://www.cbssports.com/college-basketball/news/uconn-blasts-illinois-in-the-elite-eight-and-is-on-the-verge-of-an-all-time-dominant-american-sports-story/",
+   "what": "CBS Sports (Matt Norlander): 45-plus real-time minutes without an Illinois point, Larry David, Shannon's 25-plus streak, first back-to-back Final Fours since UNC 2016-17 and first reigning champ since Florida 2006-07"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2024/3/30/mens-basketball-huskies-headed-to-second-straight-final-four",
+   "what": "UConn official recap: 7-0 and 11-0 second-half starts with timeouts, 25-0 to open the half, 0-for-14 for Illinois, tip 6:09 p.m., first back-to-back Final Fours"
+  },
+  {
+   "url": "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/illinois/boxscore/24234",
+   "what": "UConn official box score and StatCrew play-by-play: attendance 19,181, TD Garden, official clocks (1:49 and 12:41)"
+  },
+  {
+   "url": "https://www.ncaa.com/news/basketball-men/article/2024-04-05/uconns-dominant-run-final-four-numbers",
+   "what": "NCAA.com (Mike Lopresti): Clingan quote, 30-0 as the defining number, 111-point margin through four games, Big Ten tournament champion Illinois"
+  },
+  {
+   "url": "https://www.thetelegraph.com/sports/article/illinois-uconn-basketball-game-time-elite-8-19374054.php",
+   "what": "The Telegraph (Alton, Ill.; Erik Hall): tip time, TBS/truTV crew, Illinois 29-8 and No. 3 seed, deepest run since 2005"
+  },
+  {
+   "url": "https://www.ncaa.com/news/basketball-men/article/2024-12-06/2024-ncaa-bracket-scores-stats-march-madness-mens-tournament",
+   "what": "NCAA.com 2024 bracket: UConn No. 1 overall seed; scores of both teams' tournament games; Final Four results"
+  },
+  {
+   "url": "https://www.ncaa.com/news/basketball-men/article/2023-04-18/2023-ncaa-bracket-scores-stats-march-madness-mens-tournament",
+   "what": "NCAA.com 2023 bracket: San Diego State was UConn's 2023 title-game opponent"
+  },
+  {
+   "url": "https://www.sports-reference.com/cbb/seasons/men/2024-polls.html",
+   "what": "Sports-Reference 2024 AP polls: UConn No. 1, Illinois No. 10 in the March 18 poll"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn Record Book 2026-27: 2023-24 results (AP ranks, attendance, TV), Big East titles, No. 1 overall seed"
+  },
+  {
+   "url": "https://www.si.com/college/illinois/basketball/uconn-30-0-run-illinois-2026-final-four",
+   "what": "Sports Illustrated (Jackson Langendorf, April 2, 2026): the 30-0 run as background to the 2026 Final Four rematch"
+  },
+  {
+   "url": "https://ipmnewsroom.org/uconn-reaches-3rd-national-title-game-in-4-seasons-beating-illinois-71-62-behind-mullins-and-reed/",
+   "what": "AP 2026 Final Four story: UConn 71, Illinois 62"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2026/4/4/mens-basketball-one-more-huskies-punch-ticket-to-national-title-game",
+   "what": "UConn official recap of the 2026 national semifinal vs. Illinois"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=J0shW64QKGw",
+   "what": "Full TBS broadcast replay (official March Madness channel) used to locate the run (auto-captions)"
+  }
+ ],
+ "_verified": {
+  "checked": 138,
+  "ok": 128,
+  "edits": 24
+ }
+}

@@ -1,0 +1,482 @@
+{
+ "slug": "back-to-back-2024",
+ "gameId": "2024-40",
+ "title": "Back-to-Back: UConn Repeats in Glendale",
+ "nickname": null,
+ "dek": "UConn let Zach Edey score 37, took away Purdue's 3-pointers and won 75-60, becoming the first repeat national champion since Florida in 2006 and 2007.",
+ "date": "2024-04-08",
+ "tip": {
+  "text": "9:20 p.m. ET (6:20 p.m. local), scheduled",
+  "sources": [
+   "https://uconnhuskies.com/news/2024/4/8/mens-basketball-back-to-back-champs"
+  ]
+ },
+ "venue": "State Farm Stadium",
+ "city": "Glendale, AZ",
+ "attendance": {
+  "n": 74423,
+  "sources": [
+   "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/purdue-university/boxscore/24243",
+   "https://purduesports.com/news/2024/04/09/purdue-falls-short-to-uconn-in-national-championship-game",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "event": "NCAA championship game (2024 Final Four)",
+ "tv": {
+  "network": "TBS",
+  "announcers": [
+   "Ian Eagle",
+   "Bill Raftery",
+   "Grant Hill",
+   "Tracy Wolfson (reporter)"
+  ],
+  "sources": [
+   "https://www.cbssports.com/college-basketball/news/2024-march-madness-tv-schedules-set-for-ncaa-tournament-with-ian-eagle-set-to-call-first-final-four",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "36-3",
+   "rank": "AP #1",
+   "seed": "1 (East; No. 1 overall)"
+  },
+  "opp": {
+   "record": "34-4",
+   "rank": "AP #3",
+   "seed": "1 (Midwest)"
+  },
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://www.ncaa.com/news/basketball-men/article/2024-12-06/2024-ncaa-bracket-scores-stats-march-madness-mens-tournament",
+   "https://www.sports-reference.com/cbb/seasons/men/2024-polls.html",
+   "https://purduesports.com/news/2024/04/09/purdue-falls-short-to-uconn-in-national-championship-game"
+  ]
+ },
+ "setup": [
+  {
+   "text": "UConn arrived at the final 36-3 and the tournament's No. 1 overall seed, having won five NCAA games by 39, 17, 30, 25 and 14 points, the last an 86-72 semifinal over Alabama. One more win would make it the first repeat champion since Florida in 2006 and 2007.",
+   "sources": [
+    "https://www.ncaa.com/news/basketball-men/article/2024-12-06/2024-ncaa-bracket-scores-stats-march-madness-mens-tournament",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship"
+   ]
+  },
+  {
+   "text": "Purdue, the Midwest's No. 1 seed, was one year removed from becoming only the second No. 1 seed ever to lose in the first round. It had 7-foot-4 Zach Edey, the AP Player of the Year and reigning Wooden Award winner, and the nation's second-best 3-point shooting team.",
+   "sources": [
+    "https://www.ncaa.com/news/basketball-men/article/2024-12-06/2024-ncaa-bracket-scores-stats-march-madness-mens-tournament",
+    "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship",
+    "https://www.espn.com/mens-college-basketball/story/_/id/39904076/connecticut-huskies-cruise-sixth-ncaa-championship"
+   ]
+  },
+  {
+   "text": "UConn's staff bet that Edey would get his points either way; he had averaged 24.9 in Purdue's wins and 25.0 in its losses. So the Huskies guarded him one-on-one with Donovan Clingan and spent their defensive attention on Purdue's guards and shooters.",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/39904076/connecticut-huskies-cruise-sixth-ncaa-championship",
+    "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "Early on, the plan looked shaky. Edey had 14 points when his basket with about eight minutes left in the half put Purdue up 23-21, and he exchanged words with Hurley and the UConn bench.",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/39904076/connecticut-huskies-cruise-sixth-ncaa-championship",
+    "site:plays/2024-40"
+   ]
+  },
+  {
+   "text": "Then the defense took hold. Edey made one field goal over the next 14:28 as UConn turned a two-point deficit into a nine-point lead, and Purdue attempted just two 3-pointers in the half.",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/39904076/connecticut-huskies-cruise-sixth-ncaa-championship"
+   ]
+  },
+  {
+   "text": "Purdue's lone make from deep came from Braden Smith late in the half, and Hurley bolted onto the floor to call timeout. Stephon Castle's tip-in sent UConn to the locker room ahead 36-30.",
+   "sources": [
+    "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship",
+    "https://www.espn.com/mens-college-basketball/story/_/id/39904076/connecticut-huskies-cruise-sixth-ncaa-championship",
+    "site:plays/2024-40"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "1H",
+   "clock": "8:07",
+   "uconn": 21,
+   "opp": 23,
+   "text": "Edey's jumper off a Smith pass gives him 14 points and Purdue the lead.",
+   "sources": [
+    "site:plays/2024-40",
+    "https://www.espn.com/mens-college-basketball/story/_/id/39904076/connecticut-huskies-cruise-sixth-ncaa-championship",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/purdue-university/boxscore/24243"
+   ]
+  },
+  {
+   "period": "1H",
+   "clock": "6:38",
+   "uconn": 26,
+   "opp": 23,
+   "text": "Clingan scores on a Tristen Newton feed and adds the free throw. Purdue never leads again.",
+   "sources": [
+    "site:plays/2024-40"
+   ]
+  },
+  {
+   "period": "1H",
+   "clock": "2:18",
+   "uconn": 32,
+   "opp": 30,
+   "text": "Smith's 3 cuts the lead to two. It is Purdue's only 3-pointer of the night; UConn's timeout follows at 2:09.",
+   "sources": [
+    "site:plays/2024-40",
+    "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/purdue-university/boxscore/24243"
+   ]
+  },
+  {
+   "period": "1H",
+   "clock": "0:46",
+   "uconn": 36,
+   "opp": 30,
+   "text": "Castle tips in Newton's miss for a six-point halftime lead.",
+   "sources": [
+    "site:plays/2024-40",
+    "https://uconnhuskies.com/news/2024/4/8/mens-basketball-back-to-back-champs",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/purdue-university/boxscore/24243"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "19:21",
+   "uconn": 39,
+   "opp": 30,
+   "text": "Newton opens the second half with a 3, set up by Clingan.",
+   "sources": [
+    "site:plays/2024-40",
+    "https://uconnhuskies.com/news/2024/4/8/mens-basketball-back-to-back-champs",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/purdue-university/boxscore/24243"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "15:23",
+   "uconn": 45,
+   "opp": 34,
+   "text": "Newton lobs to Samson Johnson for an alley-oop and UConn's first double-digit lead.",
+   "sources": [
+    "site:plays/2024-40",
+    "https://uconnhuskies.com/news/2024/4/8/mens-basketball-back-to-back-champs",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/purdue-university/boxscore/24243"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "12:06",
+   "uconn": 51,
+   "opp": 38,
+   "text": "Newton slices through traffic for a lay-in.",
+   "sources": [
+    "site:plays/2024-40",
+    "https://uconnhuskies.com/news/2024/4/8/mens-basketball-back-to-back-champs",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/purdue-university/boxscore/24243"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "9:27",
+   "uconn": 56,
+   "opp": 40,
+   "text": "After an Alex Karaban 3, Hassan Diarra's driving layup off a Newton pass makes it 56-40 and forces a Purdue timeout.",
+   "sources": [
+    "site:plays/2024-40",
+    "https://uconnhuskies.com/news/2024/4/8/mens-basketball-back-to-back-champs"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "5:12",
+   "uconn": 65,
+   "opp": 47,
+   "text": "Cam Spencer's jumper in the paint builds the largest lead of the night, 18.",
+   "sources": [
+    "site:plays/2024-40",
+    "https://uconnhuskies.com/news/2024/4/8/mens-basketball-back-to-back-champs"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:19",
+   "uconn": 73,
+   "opp": 60,
+   "text": "Edey scores his 37th point, the most ever by a player on the losing side of a title game.",
+   "sources": [
+    "site:plays/2024-40",
+    "https://www.espn.com/mens-college-basketball/story/_/id/39904076/connecticut-huskies-cruise-sixth-ncaa-championship",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/purdue-university/boxscore/24243"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:44",
+   "uconn": 75,
+   "opp": 60,
+   "text": "Clingan's layup off a Karaban pass is the final basket. UConn is champion again.",
+   "sources": [
+    "site:plays/2024-40",
+    "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/purdue-university/boxscore/24243"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "140",
+   "label": "combined margin of UConn's six 2024 tournament wins, passing 1996 Kentucky's 129",
+   "sources": [
+    "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship"
+   ]
+  },
+  {
+   "value": "12",
+   "label": "straight NCAA tournament wins over two seasons, none by fewer than 13 points",
+   "sources": [
+    "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship",
+    "https://uconnhuskies.com/news/2024/4/8/mens-basketball-back-to-back-champs"
+   ]
+  },
+  {
+   "value": "23.3",
+   "label": "UConn's average margin of victory in the 2024 tournament",
+   "sources": [
+    "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship",
+    "https://www.espn.com/mens-college-basketball/story/_/id/39904076/connecticut-huskies-cruise-sixth-ncaa-championship"
+   ]
+  },
+  {
+   "value": "3rd",
+   "label": "repeat champion since John Wooden's UCLA dynasty, after Duke (1991-92) and Florida (2006-07)",
+   "sources": [
+    "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship"
+   ]
+  },
+  {
+   "value": "1st",
+   "label": "player with 20 points, 5 rebounds and 5 assists and no turnovers in a title game (Newton)",
+   "sources": [
+    "https://uconnhuskies.com/news/2024/4/8/mens-basketball-back-to-back-champs"
+   ]
+  },
+  {
+   "value": "6",
+   "label": "UConn national titles, all since 1999, tying North Carolina for third-most",
+   "sources": [
+    "https://uconnhuskies.com/news/2024/4/8/mens-basketball-back-to-back-champs",
+    "https://www.espn.com/mens-college-basketball/story/_/id/39904076/connecticut-huskies-cruise-sixth-ncaa-championship"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "We won \u2014 by a lot \u2014 again.",
+   "who": "Dan Hurley",
+   "role": "UConn head coach",
+   "when": "postgame, April 8, 2024",
+   "source": "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship"
+  },
+  {
+   "text": "I just think it's the best two-year run in a very, very long time, just because of everything we lost from last year's team.",
+   "who": "Dan Hurley",
+   "role": "UConn head coach",
+   "when": "postgame, April 8, 2024",
+   "source": "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship"
+  },
+  {
+   "text": "They just made a decision \u2014 we can defend the perimeter, and we can take this away from you.",
+   "who": "Matt Painter",
+   "role": "Purdue head coach",
+   "when": "postgame, April 8, 2024",
+   "source": "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship"
+  },
+  {
+   "text": "The coaches made a point that we'd be really locked in if we could control their 3-point attempts.",
+   "who": "Cam Spencer",
+   "role": "UConn guard",
+   "when": "postgame, April 8, 2024",
+   "source": "https://www.espn.com/mens-college-basketball/story/_/id/39904076/connecticut-huskies-cruise-sixth-ncaa-championship"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "Newton, with 20 points, seven assists and five rebounds in the final, was named the Final Four's Most Outstanding Player; Clingan, Castle and Spencer joined him on the all-tournament team. UConn finished 37-3, a program record for wins.",
+   "sources": [
+    "https://uconnhuskies.com/news/2024/4/8/mens-basketball-back-to-back-champs",
+    "https://www.ncaa.com/news/basketball-men/article/2024-12-06/2024-ncaa-bracket-scores-stats-march-madness-mens-tournament"
+   ]
+  },
+  {
+   "text": "Hurley became the first coach to win back-to-back titles since Billy Donovan did it at Florida in 2006 and 2007.",
+   "sources": [
+    "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship",
+    "https://www.espn.com/mens-college-basketball/story/_/id/39904076/connecticut-huskies-cruise-sixth-ncaa-championship"
+   ]
+  },
+  {
+   "text": "Two months later, on June 10, Hurley turned down a six-year, $70 million offer to coach the Los Angeles Lakers and stayed at UConn.",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/40321008/sources-dan-hurley-rejects-lakers-offer-stays-uconn"
+   ]
+  },
+  {
+   "text": "On Sept. 10, 2024, President Joe Biden welcomed the team to the White House to celebrate the title.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:HurleyWH2024.jpg"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "UConn joined Duke (1991-92) and Florida (2006-07) as the only repeat champions since UCLA's run under John Wooden.",
+   "sources": [
+    "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship"
+   ]
+  },
+  {
+   "text": "ESPN Stats & Information found UConn was only the second program to win title games by 15 or more points in consecutive years, after UCLA's 1967-69 teams.",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/39904076/connecticut-huskies-cruise-sixth-ncaa-championship"
+   ]
+  },
+  {
+   "text": "All six of UConn's championships came within 25 years, which tied it with North Carolina for the third-most in NCAA history.",
+   "sources": [
+    "https://uconnhuskies.com/news/2024/4/8/mens-basketball-back-to-back-champs",
+    "https://www.espn.com/mens-college-basketball/story/_/id/39904076/connecticut-huskies-cruise-sixth-ncaa-championship"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "M4N2eDKekIg",
+   "title": "UConn vs. Purdue - 2024 NCAA men's national championship | FULL REPLAY",
+   "channel": "March Madness",
+   "kind": "full_game",
+   "start": 4975,
+   "why": "Official March Madness full replay; description: UConn beat Purdue 75-60 to repeat. Already in site videos[]. From the auto-captions: the booth calls '65-47 Huskies, 18-point lead' at ~4083s and 'the Huskies make history, back to back' at ~4985s, so the final seconds start near 4975s."
+  },
+  {
+   "youtube": "4ZZGU7_f_Rs",
+   "title": "UConn vs. Purdue - 2024 men's National Championship extended highlights",
+   "channel": "March Madness",
+   "kind": "highlights",
+   "start": null,
+   "why": "Official March Madness extended highlights uploaded the night of the game; description: UConn beat Purdue 75-60 for its sixth title, the first repeat since Florida 2006-07. Already in site videos[]."
+  },
+  {
+   "youtube": "FUTOwGZ8hZQ",
+   "title": "UConn Wins National Championship | Final 5 Minutes and Full Postgame (UConn Radio Broadcast)",
+   "channel": "FN32 DXer",
+   "kind": "radio",
+   "start": 1140,
+   "why": "Third-party upload of the UConn radio broadcast 'recorded off 97.9 WUCS-FM,' posted the night of April 8, 2024 (Pacific time); the uploader's key-moments list puts 'UConn wins the Finals' at 19:00 (1140s)."
+  }
+ ],
+ "photos": [],
+ "newspaper": [],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "clock of Braden Smith's 3 (Purdue's only 3-pointer)",
+   "ours": "1H 2:22 (site:plays/2024-40)",
+   "source_says": "AP: 'with 2:17 left in the first half'; official StatCrew play-by-play: 02:18. Both agree UConn's timeout came at 2:09.",
+   "sources": [
+    "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/purdue-university/boxscore/24243"
+   ]
+  },
+  {
+   "field": "clock of Edey's go-ahead basket",
+   "ours": "1H 8:08 (site:plays/2024-40)",
+   "source_says": "ESPN and the official StatCrew play-by-play: 8:07.",
+   "sources": [
+    "https://www.espn.com/mens-college-basketball/story/_/id/39904076/connecticut-huskies-cruise-sixth-ncaa-championship",
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/purdue-university/boxscore/24243"
+   ]
+  },
+  {
+   "field": "other sequence clocks (minor)",
+   "ours": "Castle tip-in 0:49; Newton 3 19:22; Johnson alley-oop 15:24; Newton lay-in 12:09; Karaban 3 9:57; Edey's last basket 1:22 (a dunk); Clingan's last layup 0:45",
+   "source_says": "Official StatCrew: 0:46; 19:21; 15:23 (UConn's recap also says 15:23); 12:06 (UConn's recap also says 12:06); 9:53; 1:19 (recorded as a jumper); 0:44. Edey's go-ahead and Smith's 3 listed separately above.",
+   "sources": [
+    "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/purdue-university/boxscore/24243",
+    "https://uconnhuskies.com/news/2024/4/8/mens-basketball-back-to-back-champs"
+   ]
+  }
+ ],
+ "unsure": [
+  "AP describes Smith's lone 3 as a 'semi-open look'; ESPN calls it a 'desperation jumper with the shot clock winding down.' The narrative does not characterize the shot.",
+  "Hurley's quote 'We won by a lot again' is transcribed slightly differently by AP and ESPN; AP's version is used.",
+  "No archive.org newspaper scans or Wikimedia Commons photos of the game itself were found (Commons has White House photos from Sept. 10, 2024 only)."
+ ],
+ "sources": [
+  {
+   "url": "site:plays/2024-40",
+   "what": "Site play-by-play (ESPN feed): backbone for sequence clocks and scores; Purdue's 3-point attempts; UConn's lead from 6:38 of the first half on"
+  },
+  {
+   "url": "https://www.wbur.org/news/2024/04/09/uconn-mens-basketball-win-championship",
+   "what": "AP game story (Eddie Pells) via WBUR: first repeat since 2007, 12 straight wins none under 13, Purdue 1 of 7 from 3, Edey 37 on 25 shots, sixth team to win all six by double digits, 140 vs 1996 Kentucky's 129, Smith's 3 and Hurley timeout, quotes from Hurley, Painter, Spencer, Donovan/Self/Pitino, 23.3 average, top two 2023 scorers in NBA"
+  },
+  {
+   "url": "https://www.espn.com/mens-college-basketball/story/_/id/39904076/connecticut-huskies-cruise-sixth-ncaa-championship",
+   "what": "ESPN (Jeff Borzello): one-on-one plan on Edey, Edey's 14 points and words with the UConn bench at 8:07, one field goal in 14:28, two 3PA in the first half, 23.3 average, most points in a losing title-game effort, UCLA 1967-69 comparison, Wooden Award winner"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2024/4/8/mens-basketball-back-to-back-champs",
+   "what": "UConn official recap: tip time, 15:23 alley-oop, 12:06 lay-in, 56-40 at 9:27, 65-47 at 5:12, Newton MOP and first 20-5-5 with no turnovers in a title game, all-tournament team, 37 wins, tied with UNC for third-most titles"
+  },
+  {
+   "url": "https://purduesports.com/news/2024/04/09/purdue-falls-short-to-uconn-in-national-championship-game",
+   "what": "Purdue official recap and notes: attendance 74,423 (third-largest title-game crowd), Purdue 34-5 final record, Edey's 37 tied for fourth-most in a title game"
+  },
+  {
+   "url": "https://uconnhuskies.com/sports/mens-basketball/stats/2023-24/purdue-university/boxscore/24243",
+   "what": "UConn official box score and StatCrew play-by-play: attendance, State Farm Stadium, official clocks"
+  },
+  {
+   "url": "https://www.cbssports.com/college-basketball/news/2024-march-madness-tv-schedules-set-for-ncaa-tournament-with-ian-eagle-set-to-call-first-final-four",
+   "what": "CBS Sports (David Cobb): Eagle, Raftery, Hill and Wolfson for the Final Four; title game on TBS"
+  },
+  {
+   "url": "https://www.ncaa.com/news/basketball-men/article/2024-12-06/2024-ncaa-bracket-scores-stats-march-madness-mens-tournament",
+   "what": "NCAA.com 2024 bracket: UConn No. 1 overall seed, Purdue No. 1 Midwest, scores of all of UConn's games, Newton MOP"
+  },
+  {
+   "url": "https://www.sports-reference.com/cbb/seasons/men/2024-polls.html",
+   "what": "Sports-Reference 2024 AP polls: UConn No. 1, Purdue No. 3 in the final pre-tournament poll"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn Record Book 2026-27: 2023-24 results with AP ranks, attendance, TV; No. 1 overall seed"
+  },
+  {
+   "url": "https://www.espn.com/mens-college-basketball/story/_/id/40321008/sources-dan-hurley-rejects-lakers-offer-stays-uconn",
+   "what": "ESPN: Hurley rejects Lakers' six-year, $70 million offer (June 10, 2024)"
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:HurleyWH2024.jpg",
+   "what": "Official White House photo on Wikimedia Commons: Sept. 10, 2024 East Room event celebrating the 2023-24 title"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=M4N2eDKekIg",
+   "what": "Full TBS broadcast replay (official March Madness channel) used to locate the final seconds (auto-captions)"
+  }
+ ],
+ "_verified": {
+  "checked": 131,
+  "ok": 119,
+  "edits": 21
+ }
+}
