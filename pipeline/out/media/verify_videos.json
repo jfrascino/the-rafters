@@ -1,6 +1,6 @@
 {
  "checked": "2026-09-30",
- "method": "oEmbed + watch-page ytInitialPlayerResponse (title, shortDescription, length, playability, embeddable) fetched for all 316 videos; every dated/opponent video matched to games_index.json (±1 day, same opponent); disputed dates cross-checked on Sports Reference.",
+ "method": "oEmbed + watch-page ytInitialPlayerResponse (title, shortDescription, length, playability, embeddable) fetched for all 316 videos; every dated/opponent video matched to games_index.json (\u00b11 day, same opponent); disputed dates cross-checked on Sports Reference.",
  "totals": {
   "videos": 316,
   "game_linked": 245,
@@ -16,7 +16,7 @@
  "ok_game_linked": 214,
  "notes": [
   "All 316 videos returned oEmbed 200, playability OK and playableInEmbed=true on 2026-09-30. No women's-basketball videos (the only 'women' hits were NCAA channel boilerplate or ads).",
-  "Every video with an opponent matches exactly one games_index game within ±1 day once the three date fixes above are applied. No wrong-season videos.",
+  "Every video with an opponent matches exactly one games_index game within \u00b11 day once the three date fixes above are applied. No wrong-season videos.",
   "UPSilt0N15A (2016 Cincinnati 4OT 'full match', 196 min, generic channel 'Rogelio Snively', description = title) could not be content-verified; spot-check that it's a real broadcast before featuring it.",
   "Duplicates worth thinning: two full uploads each of 1996 Georgetown BE final (5uef8OreJPE, UHlavl88BfU), 1996 Mississippi State (0u55wKsnHYw, P4WYP3FLoyE), 1998 North Carolina E8 (0kSGJUzPzkE, uf2m9caXFBI).",
   "Uploader typos in descriptions, not errors in our data: f98yI2f9Ys0 says 'April 8, 2014' (game was Apr 7); uihLjOqoM3I says 'March 20, 2011' (game was Mar 19); nhTmvfxmFyU says '2025 NCAA tournament' (it is 2026)."
@@ -50,8 +50,8 @@
    "id": "NTbNRCSZdLs",
    "status": "FIX",
    "field": "score",
-   "old": "W 99–67",
-   "new": "W 99–77",
+   "old": "W 99\u201367",
+   "new": "W 99\u201377",
    "reason": "games_index 1990-19 and Sports Reference: UConn 99, CCSU 77."
   },
   {
@@ -76,38 +76,38 @@
    "field": "date",
    "old": "1993-03-17",
    "new": "1993-03-19",
-   "reason": "NIT first round vs Jackson State was Fri Mar 19, 1993 at Gampel (games_index 1993-28; Sports Reference). At 1993-03-17 this clip matches no game within ±1 day. Note: it is a 1-min local-news preview (WDAM), not game footage -- consider REMOVE if you only want game video."
+   "reason": "NIT first round vs Jackson State was Fri Mar 19, 1993 at Gampel (games_index 1993-28; Sports Reference). At 1993-03-17 this clip matches no game within \u00b11 day. Note: it is a 1-min local-news preview (WDAM), not game footage -- consider REMOVE if you only want game video."
   },
   {
    "id": "_R2SIVU9dJU",
    "status": "FIX",
    "field": "score",
-   "old": "W 69–54",
-   "new": "W 69–64",
+   "old": "W 69\u201354",
+   "new": "W 69\u201364",
    "reason": "1998 Big East final: UConn 69, Syracuse 64 (games_index)."
   },
   {
    "id": "FilDE3tl3z0",
    "status": "FIX",
    "field": "score",
-   "old": "78–79",
-   "new": "78–79 (OT)",
+   "old": "78\u201379",
+   "new": "78\u201379 (OT)",
    "reason": "1990 Elite Eight vs Duke went to OT (Laettner buzzer-beater in OT); games_index ot=OT; 3fwQyoLHBNc description also says overtime."
   },
   {
    "id": "a_0zgdCboms",
    "status": "FIX",
    "field": "score",
-   "old": "88–83",
-   "new": "88–83 (OT)",
+   "old": "88\u201383",
+   "new": "88\u201383 (OT)",
    "reason": "2008 Battle in Seattle vs Gonzaga went to OT (games_index ot=OT; video is A.J. Price's game-tying 3 that forced OT)."
   },
   {
    "id": "qoLoP4f8pLU",
    "status": "FIX",
    "field": "score",
-   "old": "73–70",
-   "new": "73–70 (OT)",
+   "old": "73\u201370",
+   "new": "73\u201370 (OT)",
    "reason": "2012 at Villanova went to OT (games_index ot=OT; description: Napier's 3 'with 0.6 left on the clock in overtime')."
   },
   {
@@ -307,7 +307,7 @@
    "status": "FIX",
    "field": "round",
    "old": "Rudy Gay UConn career highlights",
-   "new": "Rudy Gay sophomore season (2005–06)",
+   "new": "Rudy Gay sophomore season (2005\u201306)",
    "reason": "Title: Sophomore Season (2005-2006)."
   },
   {
@@ -315,7 +315,7 @@
    "status": "FIX",
    "field": "round",
    "old": "Jeremy Lamb UConn career highlights",
-   "new": "Jeremy Lamb sophomore season (2011–12)",
+   "new": "Jeremy Lamb sophomore season (2011\u201312)",
    "reason": "Title: Sophomore Season (2011-2012)."
   },
   {
@@ -325,6 +325,14 @@
    "old": "interview / Alex Karaban UConn career highlights",
    "new": "interview / Alex Karaban 2025-26 preseason interview",
    "reason": "CBS interview with Matt Norlander previewing 2025-26, not career highlights."
+  },
+  {
+   "id": "buwdIsgizSs",
+   "status": "REMOVE",
+   "field": "video",
+   "old": "Uconn vs pitt (VJ10014; linked to 2011-03-10 Pittsburgh)",
+   "new": null,
+   "reason": "62-second fan upload (26 views) whose own description says '2011 big east championship / March 11 2011' -- March 11 was the Syracuse semifinal, the Pitt game was March 10. What it shows can't be confirmed, so it comes off. Flagged by the Moments research, 2026-10-01."
   }
  ]
 }

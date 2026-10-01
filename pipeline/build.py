@@ -1172,8 +1172,12 @@ for y in years:
             rnd = rnd or 'NIT'
         if g['type'] == 'CTOURN':   # one clean label: the tournament UConn actually played in that year + the round when known
             rl_ = (rnd or '').lower()
-            stage_ = ('quarterfinal' if 'quarter' in rl_ else 'semifinal' if 'semi' in rl_ else 'final' if 'final' in rl_ or 'championship game' in rl_
+            # ESPN abbreviates ("Qtrfinals", "Semis"), so "final" must be a whole word, and a conference final is always on a weekend
+            stage_ = ('quarterfinal' if re.search(r'quarter|qtr', rl_) else 'semifinal' if 'semi' in rl_ else 'final' if re.search(r'\bfinals?\b', rl_) or 'championship game' in rl_
                       else 'first round' if re.search(r'\b(1st|first)\b', rl_) else 'second round' if re.search(r'\b(2nd|second)\b', rl_) else None)
+            if stage_ == 'final' and datetime.date.fromisoformat(g['date'][:10]).weekday() < 5:
+                print(f"  !! {gid}: '{rnd}' says final but {g['date'][:10]} is a weekday; round dropped")
+                stage_ = None
             rnd = ('ECAC New England tournament' if y <= 1979 else 'AAC tournament' if 2014 <= y <= 2020 else 'Big East tournament') + (f' {stage_}' if stage_ else '')
         ha = g['ha']
         if g['type'] in ('NCAA', 'CTOURN'):
