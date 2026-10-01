@@ -199,6 +199,10 @@ class Official:
                         self.report['kept'].append({**note, 'why': rule['why']})
                     continue
                 good = [v for v, bad in ((cv, False), (bv, b_bad)) if v is not None and not bad]
+                if f == 'mp' and o is not None and good and not (len(good) == 2 and good[0] == good[1] != o) \
+                        and all(abs(v - o) <= max(5, 0.005 * o) for v in good):
+                    self.report['agree_fields'] += 1   # minutes within rounding (the two official sources rarely agree to the minute)
+                    continue
                 if not good:
                     if o == cv or o == bv:
                         self.report['agree_fields'] += 1

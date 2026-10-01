@@ -1075,6 +1075,8 @@ for y in years:
         for k in ('res', 'pts', 'opp_pts', 'ot', 'rec', 'arena', 'city', 'forfeit'):
             if g.get(k) is not None:
                 row[k] = g[k]
+        if row.get('arena'):
+            row['arena'] = re.sub(r'\s*\((?:I|II|III|IV|V)\)$', '', row['arena'])   # Sports-Reference's "Madison Square Garden (IV)" = the current Garden
         if y < 2001 and g['type'] in ('REG', 'CTOURN') and not e and not g.get('arena_ok'):
             row.pop('arena', None)  # Sports-Reference arena names before ~2001 are unreliable (fact-check 2026-09-30)
         if rnd:
