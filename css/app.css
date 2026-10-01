@@ -836,3 +836,50 @@ a.ven-g:hover { border-color: var(--line-2); }
 .hist-games.nodate .hist-g { grid-template-columns: minmax(0, 1fr) auto; }
 .hist-games.nodate .hist-g .d { display: none; }
 section[id] { scroll-margin-top: calc(var(--topbar) + 12px); }
+
+/* Compare */
+.cmp-pick { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: end; gap: 14px; max-width: 900px; }
+.cmp-in { position: relative; display: grid; gap: 8px; }
+.cmp-in input { width: 100%; padding: 14px 16px; border-radius: 8px; border: 1px solid var(--line-2); border-left: 4px solid var(--c); background: var(--ink-2); color: var(--fg); font: 600 17px var(--f-body); }
+.cmp-in input:focus { outline: none; border-color: var(--fg-2); border-left-color: var(--c); }
+.cmp-list { position: absolute; top: 100%; left: 0; right: 0; z-index: 20; margin-top: 4px; display: grid; padding: 6px; border-radius: 8px; border: 1px solid var(--line-2); background: var(--ink-2); box-shadow: 0 20px 40px -10px #000; }
+.cmp-list button { display: flex; align-items: center; gap: 10px; padding: 7px 8px; border-radius: 5px; text-align: left; }
+.cmp-list button:hover { background: var(--panel); }
+.cmp-list img { width: 34px; height: 34px; border-radius: 50%; object-fit: cover; object-position: 50% 18%; }
+.cmp-list b { display: block; font: 700 15px/1.1 var(--f-cond); text-transform: uppercase; letter-spacing: .03em; }
+.cmp-list small { color: var(--muted); font-size: 12px; }
+.cmp-vs { align-self: center; font: 900 22px var(--f-display); color: var(--muted); text-transform: uppercase; }
+.cmp-vs.big { font-size: 34px; }
+.cmp-heads { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 18px; margin-bottom: 18px; }
+.cmp-head { display: flex; align-items: center; gap: 16px; padding: 14px; border-radius: 10px; border: 1px solid var(--line); border-top: 4px solid var(--c); background: var(--ink-2); }
+.cmp-head:last-child { flex-direction: row-reverse; text-align: right; }
+.cmp-head .ph { flex: none; width: 96px; height: 96px; border-radius: 50%; overflow: hidden; background: var(--panel-2); }
+.cmp-head .ph img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; }
+.cmp-head b { display: block; margin: 4px 0; font: 900 clamp(26px, 3vw, 40px)/.95 var(--f-display); text-transform: uppercase; }
+.cmp-head small { color: var(--muted); font-size: 13px; }
+.cmp-rows { display: grid; padding: 8px 16px; }
+.cmp-row { display: grid; grid-template-columns: 72px minmax(0, 1fr) minmax(120px, 190px) minmax(0, 1fr) 72px; align-items: center; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.cmp-row:last-child { border-bottom: 0; }
+.cmp-v { font: 600 18px/1 var(--f-cond); letter-spacing: .03em; color: var(--fg-2); font-variant-numeric: tabular-nums; }
+.cmp-row .cmp-v:first-child { text-align: right; }
+.cmp-v.lead { font-weight: 800; color: var(--fg); }
+.cmp-l { text-align: center; font: 700 12px/1.2 var(--f-cond); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.cmp-l sup { color: var(--gold); cursor: help; }
+.cmp-bar { display: flex; height: 10px; }
+.cmp-bar.l { justify-content: flex-end; }
+.cmp-bar i { display: block; height: 100%; border-radius: 4px; }
+.cmp-charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+.cmp-charts figure { margin: 0; padding: 14px; display: grid; gap: 8px; }
+.cmp-charts text { font: 600 11px var(--f-cond); fill: var(--muted); }
+.cmp-honors { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.cmp-honors .panel { padding: 18px; border-top: 4px solid var(--c); }
+.cmp-honors ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 4px; color: var(--fg-2); }
+@media (max-width: 760px) {
+  .cmp-pick, .cmp-heads { grid-template-columns: minmax(0, 1fr); }
+  .cmp-vs { justify-self: center; }
+  .cmp-head:last-child { flex-direction: row; text-align: left; }
+  .cmp-row { grid-template-columns: 52px minmax(0, 1fr) 96px minmax(0, 1fr) 52px; gap: 6px; }
+  .cmp-v { font-size: 15px; }
+  .cmp-l { font-size: 10px; letter-spacing: .06em; }
+  .cmp-honors { grid-template-columns: minmax(0, 1fr); }
+}

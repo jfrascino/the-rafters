@@ -16,8 +16,9 @@ const views = {
   moments: () => import('./views/moments.js'),
   moment: () => import('./views/moments.js'),
   venues: () => import('./views/venues.js'),
+  compare: () => import('./views/compare.js'),
 };
-const navKey = { season: 'seasons', game: 'seasons', player: 'players', moment: 'moments', venues: 'legends' };
+const navKey = { season: 'seasons', game: 'seasons', player: 'players', moment: 'moments', venues: 'legends', compare: 'players' };
 
 let current = null; // { destroy }
 let seq = 0;
@@ -97,3 +98,5 @@ load('core.json').then((core) => {
   if (core.updated) $('#footUpdated').textContent = `Data updated ${new Date(core.updated).toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' })}.`;
 }).catch(() => {});
 route();
+// installable app + offline reading (network-first for pages and data, so nothing goes stale)
+if ('serviceWorker' in navigator && location.protocol === 'https:') addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));

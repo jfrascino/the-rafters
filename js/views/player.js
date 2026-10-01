@@ -26,6 +26,7 @@ export default async function player(main, args, core) {
         <div class="p-bio">${[['HT', p.ht], ['WT', p.wt ? p.wt + ' lb' : ''], ['Home', p.home], ['HS', p.hs], ['Born', p.born]].filter(([, v]) => v).map(([k, v]) => `<span><b>${k}</b>${esc(v)}</span>`).join('')}</div>
         ${p.honors?.length ? `<div class="honor-list">${p.honors.map((h) => `<span class="pill ${/champion|all-america|\bAA\b|POY|MOP|player of the year|most outstanding/i.test(h) ? 'ff' : ''}">${esc(h)}</span>`).join('')}</div>` : ''}
         ${p.draft ? `<p style="font:600 16px/1.4 var(--f-cond);letter-spacing:.04em;text-transform:uppercase"><span class="muted">NBA draft · </span>${esc(p.draft)}</p>` : ''}
+        <div class="chips"><a class="btn" href="#/compare/${esc(p.id)}">Compare with another Husky →</a></div>
         <div class="statline">
           <div><b>${n0(c.pts)}</b><span>Points${p.ranks?.pts ? ` · ${ord(p.ranks.pts)} since '${String(core.seasons[0].y - 1).slice(2)}` : ''}</span></div>
           <div><b>${n0(c.trb)}</b><span>Rebounds${p.ranks?.trb && p.ranks.trb <= 25 ? ` · ${ord(p.ranks.trb)}` : ''}</span></div>
