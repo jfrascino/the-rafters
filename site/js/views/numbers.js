@@ -52,7 +52,7 @@ export default async function numbers(main, args, core) {
         { k: 'ncaa', label: 'NCAA', title: 'Meetings in the NCAA Tournament', html: (r) => (r.ncaa ? `${r.ncaaW}–${r.ncaa - r.ncaaW}` : '') , get: (r) => r.ncaa },
         { k: 'last', label: 'Last met', html: (r) => fmtDate(r.last, { year: true }), get: (r) => r.last },
       ], opps, { sort: 'g' });
-      pane.innerHTML = `<p class="note" style="margin-bottom:12px">${opps.length} opponents. Tap one for the full head-to-head history.</p>${t.html}`; t.bind(pane);
+      pane.innerHTML = `<p class="note" style="margin-bottom:12px">${opps.length} opponents since ${core.seasons[0].y - 1}–${String(core.seasons[0].y).slice(2)}. Tap one for every meeting.</p>${t.html}`; t.bind(pane);
     },
   ];
   const show = (i) => { off(); off = () => {}; panes[i](); };
