@@ -1066,8 +1066,11 @@ for y in years:
             rnd = e['note'].title().replace("Men'S", "Men's")
         elif g['type'] == 'NIT':
             rnd = rnd or 'NIT'
-        if g['type'] == 'CTOURN' and not rnd:
-            rnd = 'Conference tournament'
+        if g['type'] == 'CTOURN':   # one clean label: the tournament UConn actually played in that year + the round when known
+            rl_ = (rnd or '').lower()
+            stage_ = ('quarterfinal' if 'quarter' in rl_ else 'semifinal' if 'semi' in rl_ else 'final' if 'final' in rl_ or 'championship game' in rl_
+                      else 'first round' if re.search(r'\b(1st|first)\b', rl_) else 'second round' if re.search(r'\b(2nd|second)\b', rl_) else None)
+            rnd = ('ECAC New England tournament' if y <= 1979 else 'AAC tournament' if 2014 <= y <= 2020 else 'Big East tournament') + (f' {stage_}' if stage_ else '')
         ha = g['ha']
         if g['type'] in ('NCAA', 'CTOURN'):
             ha = 'N'  # tournament games are neutral-site, even at MSG or in Hartford (sources disagree game to game)

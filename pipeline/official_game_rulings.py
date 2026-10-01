@@ -63,9 +63,11 @@ def main():
         note = (r or {}).get('note') or it.get('note')
         if field == 'missing_in_app':
             continue   # added through manual_games.json
-        if not gid or gid not in games:
+        if not gid:
             continue
-        date, opp = games[gid]
+        # key on the game as it was when verified (the original Sports-Reference date), not today's site data,
+        # which already carries earlier rulings and renumbered game ids
+        date, opp = it['date'], it['opp']
         base = {'season': it['season'], 'date': date, 'opp': opp, 'field': field}
         if truth is None:
             if field == 'ot':
@@ -111,9 +113,31 @@ def main():
     # follow-up date research
     rd = os.path.join(OFF, 'research_dates.json')
     if os.path.exists(rd):
+        from datetime import date as _d
+        by_season = {}   # games as originally verified (date before any ruling), per season
+        for it in v['items']:
+            if it.get('game_id') and it.get('date') and it.get('opp'):
+                by_season.setdefault(int(it['season']), []).append((it['date'], it['opp']))
+        for gid, (gdate, gopp) in games.items():   # games nobody disputed keep their dates, so today's data is fine for them
+            y_ = int(gid.split('-')[0])
+            if not any(go == gopp for _, go in by_season.get(y_, [])):
+                by_season.setdefault(y_, []).append((gdate, gopp))
         for r in json.load(open(rd)).get('rulings') or []:
-            if r.get('truth') and re.fullmatch(r'\d{4}-\d\d-\d\d', str(r['truth'])) and r.get('confidence') in ('high', 'medium'):
-                rulings.append({'research_key': r['key'], 'season': r.get('season'), 'opp': r.get('opponent'), 'set': {'date': r['truth']}, 'why': r.get('note') or '', 'confidence': r['confidence'], 'sources': (r.get('sources') or [])[:3], 'needs_match': True})
+            truth = str(r.get('truth') or '')
+            if not re.fullmatch(r'\d{4}-\d\d-\d\d', truth) or r.get('confidence') not in ('high', 'medium'):
+                continue
+            y = int(str(r.get('season'))[:4]) + 1
+            opp_name = re.split(r'\s*[(-]', r.get('opponent') or '')[0].strip().lower()
+            cands = [(gd, go) for gd, go in by_season.get(y, []) if go and (go.lower() in opp_name or opp_name in go.lower())]
+            if not cands:
+                open_items.append({'season': y, 'research_key': r['key'], 'note': 'researched date matched no game'})
+                continue
+            t = _d.fromisoformat(truth)
+            gd, go = min(cands, key=lambda c: abs((_d.fromisoformat(c[0]) - t).days))
+            open_items[:] = [o for o in open_items if not (o.get('season') == y and o.get('opp') == go and o.get('field') == 'date')]
+            if gd != truth:
+                rulings.append({'season': y, 'date': gd, 'opp': go, 'field': 'date', 'set': {'date': truth}, 'why': r.get('note') or '', 'confidence': r['confidence'],
+                                'sources': (r.get('sources') or [])[:3], 'research_key': r['key']})
     out = {'_about': __doc__.strip().splitlines()[0], 'rulings': rulings, 'open': open_items}
     json.dump(out, open(os.path.join(HERE, 'game_rulings.json'), 'w'), indent=1)
     by = {}

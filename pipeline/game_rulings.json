@@ -1143,64 +1143,129 @@
      "quote": "ESPN: Columbia away, UConn home (Bridgeport arena)"
     }
    ]
-  }
- ],
- "open": [
+  },
   {
    "season": 1979,
    "date": "1979-03-02",
    "opp": "Rhode Island",
    "field": "date",
-   "app": "1979-03-02",
-   "recordbook": "1979-03-03"
+   "set": {
+    "date": "1979-03-03"
+   },
+   "why": "Both semifinals (UConn-BC, URI-Holy Cross) were Thursday Mar. 1 per BC's and Holy Cross's own records. The NYT game story on the final ran in the Sunday Mar. 4 paper, while the Saturday Mar. 3 paper (which carried Friday-night games such as DePaul-Notre Dame) had none, so the final was Saturday Mar. 3. Record book (3/3) is right; app (3/2) is wrong.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://www.nytimes.com/1979/03/04/archives/uconn-five-stymies-rhode-island-5850-uconn-ahead-by-1-at-half.html",
+     "quote": "UConn Five Stymies Rhode Island, 58\u201050 (published Sunday, March 4, 1979)"
+    },
+    {
+     "url": "https://www.nytimes.com/sitemap/1979/03/03/",
+     "quote": "DePaul Five Upsets Notre Dame, 76\u201072 (Saturday Mar. 3 paper carries Friday-night games; no UConn-URI story)"
+    },
+    {
+     "url": "https://www.goholycross.com/fls/33100/sports/m-basketball/archives/results.pdf",
+     "quote": "3/1 Rhode Island ! N37 L, 71-75"
+    }
+   ],
+   "research_key": "1979-URI-date"
   },
   {
    "season": 1980,
    "date": "1980-01-09",
    "opp": "Boston College",
    "field": "date",
-   "app": "1980-01-09",
-   "recordbook": "1980-01-10"
-  },
-  {
-   "season": 1983,
-   "date": "1983-02-14",
-   "opp": "Georgetown",
-   "field": "date",
-   "app": "1983-02-14",
-   "recordbook": "1983-02-12"
+   "set": {
+    "date": "1980-01-10"
+   },
+   "why": "BC's own record book gives Jan. 10, 1980 (a Thursday) in two separate places: the series list and the 1979-80 game list. That matches UConn's record book. Against it, both teams' preseason schedules in Street & Smith's 1979-80 yearbook list the game for Wednesday Jan. 9, which matches SR/the app and fits UConn's usual Wed/Sat home pattern that season. So either the game was moved a day, or both record books are off. I found no game report from the time: the NYT Jan. 10/11 roundup headlines don't mention it, and the Courant, Globe, BC Heights and UConn Daily Campus for that week were unreachable or not digitized. BC's series list also gives the site as Hartford, which is doubtful: the Hartford Civic Center didn't reopen until Feb. 1980 (UConn's first game back there was 2/9 vs URI), and UConn's book marks this as a plain Storrs home game. Leaning record-book date (1/10). Upgrade to high only with a newspaper.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://bceagles.com/documents/download/2025/9/22/2025-26_Record_Book.pdf",
+     "quote": "Jan. 10, 1980 * 71-83 L Hartford, Conn."
+    },
+    {
+     "url": "https://bceagles.com/documents/download/2025/9/22/2025-26_Record_Book.pdf",
+     "quote": "1979-80 ... J 10 A Connecticut* L 71-83 / J 12 A Fordham W 60-47"
+    },
+    {
+     "url": "https://archive.org/details/street-smiths-basketball-yearbook-1979-80-kansas-c",
+     "quote": "UConn schedule (page n172): \"Boston Coll.* .... J9\"; BC schedule (page n170): \"Connecticut .... J9\" (preseason, 'subject to change')"
+    }
+   ],
+   "research_key": "1980-BC-date"
   },
   {
    "season": 1984,
    "date": "1983-12-12",
    "opp": "Yale",
    "field": "date",
-   "app": "1983-12-12",
-   "recordbook": "1983-12-01"
-  },
-  {
-   "season": 1985,
-   "date": "1984-12-28",
-   "opp": "Iona",
-   "field": "date",
-   "app": "1984-12-28",
-   "recordbook": "1984-12-29"
+   "set": {
+    "date": "1983-12-01"
+   },
+   "why": "This is UConn's student paper from the time, not the record book. On Thursday Dec. 1, 1983 it says the season opener against Yale is 'tonight'. The Dec. 9 issue lists only BU (Sat Dec 10) and Brooklyn (Tue Dec 13) as the next two games, so nothing happened on Monday Dec. 12, which rules out a Yale makeup that day. Record book (12/1) is right; app (12/12) is wrong.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://archive.org/details/ct_daily_campus_1983-12-01",
+     "quote": "The men's basketball team begins its season tonight when the Huskies play Yale at the Field House at 8 p.m."
+    },
+    {
+     "url": "https://archive.org/details/ct_daily_campus_1983-11-29",
+     "quote": "Dec. 1- Men's Basketball Yale 8:00 p.m. Dec. 3- Varsity Hockey at Bowdoin ... Dec. 3-Men's Basketball at Ohio State"
+    },
+    {
+     "url": "https://archive.org/details/ct_daily_campus_1983-12-09",
+     "quote": "Tickets are still available for the next two men's basketball games against Boston University Saturday and Brooklyn College Tuesday."
+    }
+   ],
+   "research_key": "1984-Yale-date"
   },
   {
    "season": 1985,
    "date": "1984-12-29",
    "opp": "New Hampshire",
    "field": "date",
-   "app": "1984-12-29",
-   "recordbook": "1984-12-28"
+   "set": {
+    "date": "1984-12-28"
+   },
+   "why": "Two other teams' sites agree. Night 1 (Fri Dec. 28): Iona beat William & Mary 68-55, so UConn played New Hampshire that night and won 81-57. Night 2 (Sat Dec. 29): W&M beat UNH 53-45 in the consolation game, and UConn met Iona in the final. Record book (UNH 12/28) is right; app is wrong.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://tribeathletics.com/sports/mens-basketball/schedule/1984-85",
+     "quote": "Dec 28 (Fri) Iona Hartford, Conn. L, 55-68 ... Dec 29 (Sat) New Hampshire Hartford, Conn. W, 53-45"
+    },
+    {
+     "url": "https://ionagaels.com/sports/mens-basketball/schedule/1984-85",
+     "quote": "Dec 28 (Fri) William & Mary Hartford, CT W, 68-55"
+    }
+   ],
+   "research_key": "1985-NewHampshire-date"
   },
   {
    "season": 1985,
-   "date": "1985-03-07",
-   "opp": "Georgetown",
+   "date": "1984-12-28",
+   "opp": "Iona",
    "field": "date",
-   "app": "1985-03-07",
-   "recordbook": "1985-03-06"
+   "set": {
+    "date": "1984-12-29"
+   },
+   "why": "Iona-UConn (Iona won 55-54) was the Saturday title game. It followed Iona's first-round win over W&M on Friday. Record book (Iona 12/29) is right; app (Iona 12/28) is wrong.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://ionagaels.com/sports/mens-basketball/schedule/1984-85",
+     "quote": "Dec 29 (Sat) at Connecticut Hartford, CT W, 55-54"
+    },
+    {
+     "url": "https://tribeathletics.com/sports/mens-basketball/schedule/1984-85",
+     "quote": "Dec 28 (Fri) Iona Hartford, Conn. L, 55-68"
+    }
+   ],
+   "research_key": "1985-Iona-date"
   }
- ]
+ ],
+ "open": []
 }
