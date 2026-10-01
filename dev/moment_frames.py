@@ -22,7 +22,14 @@ for v in m.get('videos') or []:
         if v.get('thumb'):
             cands.append((f"espn {v['title'][:40]}", v['thumb']))
         continue
-    for f in ('maxresdefault', 'maxres1', 'maxres2', 'maxres3'):
+    # HD stills when the video has them, else the standard-definition set (older uploads)
+    def has(name):
+        try:
+            return urllib.request.urlopen(urllib.request.Request(f"https://i.ytimg.com/vi/{v['id']}/{name}.jpg", method='HEAD'), timeout=15).status == 200
+        except Exception:
+            return False
+    tier = ('maxres', 'maxresdefault') if has('maxresdefault') else ('sd', 'sddefault') if has('sddefault') else ('hq', 'hqdefault')
+    for f in (tier[1], f'{tier[0]}1', f'{tier[0]}2', f'{tier[0]}3'):
         cands.append((f"{v['id']} {f} · {v['kind']}", f"https://i.ytimg.com/vi/{v['id']}/{f}.jpg"))
 for b in m.get('sequence') or []:
     if b.get('clip', {}).get('thumb'):

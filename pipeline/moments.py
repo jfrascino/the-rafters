@@ -336,9 +336,15 @@ def build_one(m, core):
                      for q in m.get('quotes') or [] if q.get('text')]
     out['aftermath'] = paras(m.get('aftermath'), S)
     out['legacy'] = paras(m.get('legacy'), S)
+    # no box in our data (most games before 2002-03): use the draft's transcription from a contemporary paper, if any
+    bx = m.get('box') if isinstance(m.get('box'), dict) else None
+    if not teams and bx and len(bx.get('teams') or []) == 2:
+        U, O = bx['teams'][0], bx['teams'][1]
+        src_ = bx.get('source')
+        src_ = src_ if isinstance(src_, dict) else {'paper': src_}
+        out['boxNote'] = f"Box score: {src_.get('paper') or 'a contemporary newspaper'}{', ' + src_['date'] if src_.get('date') else ''} (transcribed; it has no per-player rebounds or assists)."
+        out['boxSrc'] = src_.get('page_url')
     out['leaders'] = {'u': leaders(U, 3), 'o': leaders(O, 2), 'oName': (g or {}).get('opp', {}).get('name')}
-    if not teams and isinstance(m.get('box'), dict):
-        out['boxNote'] = 'Box score from ' + (m['box'].get('source') or 'a contemporary source')
 
     # UConn players in the story, for links and the cast list
     roster = {r['name']: r for r in season.get('roster') or []}
@@ -397,6 +403,8 @@ def build_one(m, core):
     pick = HEROES.get(slug)
     if hero:
         out['hero'] = {'url': hero, 'kind': 'photo', 'credit': None}
+    elif pick and not pick.get('url'):
+        pass   # deliberately no image (nothing sharp enough exists): the plain typographic hero
     elif pick:
         vid = next((v['id'] for v in vids if v['id'] in pick['url'] or (v.get('thumb') and v['thumb'] == pick['url'])), None)
         out['hero'] = {'url': pick['url'], 'kind': 'video' if vid else 'photo', 'video': vid, 'credit': pick.get('credit'), 'pos': pick.get('pos')}

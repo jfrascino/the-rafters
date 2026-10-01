@@ -28,5 +28,49 @@
  "jalen-adams-4ot-2016": {
   "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2016/0311/evc_NCB_20160311_Connecticut_vs_Cincinnati_f96f3601346/evc_NCB_20160311_Connecticut_vs_Cincinnati_f96f3601346.jpg",
   "credit": "ESPN video still"
+ },
+ "six-overtimes-2009": {
+  "url": "https://i.ytimg.com/vi/fJdXE249xVA/maxresdefault.jpg",
+  "credit": "Video still \u00b7 ESPN"
+ },
+ "kemba-pitt-2011": {
+  "url": "https://i.ytimg.com/vi/6DtMe8Eza-A/maxres2.jpg",
+  "credit": "Video still \u00b7 ESPN Throwback"
+ },
+ "title-2011": {
+  "url": "https://i.ytimg.com/vi/VmTWEDngH8A/maxres3.jpg",
+  "credit": "Video still \u00b7 March Madness (CBS broadcast)"
+ },
+ "the-shot-1990": {
+  "url": "https://i.ytimg.com/vi/kk9DcjGB9cI/maxres3.jpg",
+  "credit": "Video still \u00b7 March Madness (CBS broadcast, 1990)"
+ },
+ "ray-allen-1996": {
+  "url": "https://i.ytimg.com/vi/phwOVE8K_-Q/sd1.jpg",
+  "credit": "Video still \u00b7 ESPN broadcast (via YouTube)"
+ },
+ "rip-hamilton-1998": {
+  "url": "https://i.ytimg.com/vi/gEDFV-UdivU/maxresdefault.jpg",
+  "credit": "Video still \u00b7 March Madness (CBS broadcast)"
+ },
+ "title-1999": {
+  "url": "https://i.ytimg.com/vi/_LlXAbupU8o/maxresdefault.jpg",
+  "credit": "Video still \u00b7 CBS broadcast (via YouTube)"
+ },
+ "duke-comeback-2004": {
+  "url": "https://i.ytimg.com/vi/eNSl_qrYiOc/maxres1.jpg",
+  "credit": "Video still \u00b7 March Madness (CBS broadcast)"
+ },
+ "title-2004": {
+  "url": "https://i.ytimg.com/vi/ViS072wU984/maxres3.jpg",
+  "credit": "Video still \u00b7 CBS broadcast (via YouTube)"
+ },
+ "roof-collapse-1978": {
+  "url": null,
+  "why": "no clean, sharp still exists (only 480x360 documentary interview frames): typographic hero"
+ },
+ "big-east-champs-1990": {
+  "url": null,
+  "why": "the only stills are 480x360: typographic hero"
  }
 }
