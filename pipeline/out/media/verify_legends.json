@@ -610,6 +610,13 @@
    "new": "Longest NCAA tournament winning streak of the modern era: 13 (2023–2025), tying Duke 1991–93",
    "reason": "UConn's official notes: 'UConn won its 13th-straight NCAA Tournament game to equal Duke's 1991-93 streak for the longest in modern tournament history.'",
    "source": "https://uconnhuskies.com/documents/download/2026/9/11/FINAL_NOTES_.pdf"
+  },
+  {
+   "path": "coaches[0].bio[1]",
+   "status": "FIX",
+   "old": "on May 14, 1986",
+   "new": "in May 1986",
+   "reason": "Sources disagree on the exact day (May 14 in news timelines vs. 'arrived on May 15, 1986' in UConn's 2010-11 media guide); no contemporary report settles it, so the month is used."
   }
  ]
 }

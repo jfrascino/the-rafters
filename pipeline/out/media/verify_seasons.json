@@ -378,6 +378,14 @@
    "new": "Washington, D.C.",
    "reason": "Typo: missing comma and doubled period.",
    "source": "n/a (formatting)"
+  },
+  {
+   "year": 1987,
+   "field": "story",
+   "status": "FIX",
+   "old": "on May 14, 1986",
+   "new": "in May 1986",
+   "reason": "Sources disagree on the exact day (May 14 in news timelines vs. 'arrived on May 15, 1986' in UConn's 2010-11 media guide); no contemporary report settles it, so the month is used."
   }
  ]
 }

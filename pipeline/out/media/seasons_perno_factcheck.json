@@ -1,0 +1,1482 @@
+{
+ "generated": "2026-09-30",
+ "summary": {
+  "verified": 160,
+  "corrected": 18,
+  "removed": 6
+ },
+ "claims": [
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "Perno was captain of UConn's 1964 Elite Eight team",
+   "verdict": "verified",
+   "evidence": "https://archive.org/details/ct_daily_campus_1986-04-15 - 'He was captain of the 1963-1964 team which went to the final eight of the National Collegiate Athletic Association tournament'; UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) NCAA history: 1963-64 '(NCAA Elite Eight)'.",
+   "note": ""
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "Perno was Dee Rowe's top assistant for five seasons",
+   "verdict": "corrected",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) assistant-coach list: 'Dom Perno (5 seasons) 76-77, 75-76, 74-75, 73-74, 72-73'; https://archive.org/details/ct_daily_campus_1986-04-15 - 'joined the coaching staff as an assistant to Dee Rowe in August, 1972'.",
+   "note": "Five seasons as Rowe's assistant verified; 'top' assistant not established (Bob Staak was also on the 1972-74 staff), so 'top' dropped."
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "Perno was named head coach on March 17, 1977 (added detail)",
+   "verdict": "verified",
+   "evidence": "https://archive.org/details/ct_daily_campus_1986-04-15 - 'On March 17, 1977, he was appointed head coach.'",
+   "note": ""
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "UConn was an independent in 1977-78 because the Yankee Conference had dropped basketball",
+   "verdict": "verified",
+   "evidence": "https://en.wikipedia.org/wiki/Yankee_Conference - 'From 1947 to 1976, it sponsored competition in many sports, but was a football-only league from mid-1976'; UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) 'YANKEE CONFERENCE HONOR ROLL (1948-49 through 1975-76)'; year-by-year table shows no conference record for 1977-78.",
+   "note": "Reworded as 'the Yankee Conference having become a football-only league in 1976'."
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "Debut: 73-62 win over Fordham at the Hartford Civic Center on Nov. 26, 1977",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1978.json 1977-11-26 H Fordham W 73-62; UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) 1977-78 log: '11/26 Fordham (HCC) W, 73-62'; https://www.sports-reference.com/cbb/schools/connecticut/men/1978-schedule.html arena Hartford Civic Center.",
+   "note": "UConn's archived schedule page lists 'Storrs' for all home games (including the UMass game that was indisputably in Hartford), so it was disregarded on venues."
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "Senior guard Joe Whelton 15.3 ppg",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1978.json roster: Joe Whelton SR G, 15.3 pts/g (383 pts, 25 g).",
+   "note": ""
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "Junior forward Jim Abromaitis 14.5 points, 8.8 rebounds",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1978.json roster: Jim Abromaitis JR F 14.5 pts, 8.8 reb.",
+   "note": ""
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "Jeff Carr, Dennis Wolff and Randy LaVigne were the other main contributors",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1978.json roster: Carr 10.1, Wolff 8.2, LaVigne 7.4 pts/g (3rd-5th in scoring).",
+   "note": ""
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "Jan. 17, 1978: UConn beat UMass 56-49 in Hartford",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1978.json 1978-01-17 H Massachusetts W 56-49; UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '1/17 Massachusetts (HCC) W, 56-49'.",
+   "note": ""
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "Attendance at the UMass game was 4,746",
+   "verdict": "verified",
+   "evidence": "https://connecticuthistory.org/almost-a-tragedy-the-collapse-of-the-hartford-civic-center/ - '4,746 basketball fans watched the UConn men's team upset UMass 56-49 at the Hartford Civic Center'.",
+   "note": ""
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "Early the next morning the Civic Center's snow-laden roof collapsed into the empty arena",
+   "verdict": "corrected",
+   "evidence": "https://connecticuthistory.org/almost-a-tragedy-the-collapse-of-the-hartford-civic-center/ - 'in the early morning of January 18, the roof of the sports coliseum collapsed onto 10,000 empty stadium seats'; 'The roof did not fail due to the heavy snow that fell on that January night'; 'Contributing factors included design errors, an underestimation of the weight of the roof...'",
+   "note": "Timing and empty arena verified. 'Snow-laden' implied snow caused the collapse, which the source rejects; rewritten as 'after a night of heavy snow ... a failure later traced to design errors'."
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "The Huskies played the rest of their home games away from Hartford",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) 1977-78 log: '1/21 Providence +' (+ = New Haven Coliseum); remaining home games unmarked (Storrs); https://www.sports-reference.com/cbb/schools/connecticut/men/1978-schedule.html lists them at Storrs Field House.",
+   "note": "Rendered as 'finished its home schedule in Storrs and New Haven'."
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "UConn was 8-6 after the UMass game and won only three of its last 12",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1978.json rec 8-6 after 1978-01-17; last 12 games 3-9 (BU, Vermont, Manhattan wins).",
+   "note": ""
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "A 63-57 loss at Fairfield closed an 11-15 season",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1978.json 1978-02-28 A Fairfield L 57-63, final 11-15.",
+   "note": ""
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "Whelton finished with 1,337 career points",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) career scoring list: '29.) JOEY WHELTON (4 years, 1974-78), 1,337 pts.'",
+   "note": ""
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "That fall Perno's first recruits arrived: Corny Thompson and Mike McKay",
+   "verdict": "corrected",
+   "evidence": "site/data/seasons/1979.json roster: Thompson FR, McKay FR in 1978-79; UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) 1978-79 NCAA bid.",
+   "note": "Their arrival in fall 1978 is verified, but 'Perno's first recruits' is not established (he was named head coach in March 1977, before the 1977 signing period). Rewritten as 'that fall brought two freshmen who would lead UConn back to the NCAA tournament'."
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "Key moment 1977-11-26: Perno's first game, 73-62 over Fordham at Hartford Civic Center",
+   "verdict": "verified",
+   "evidence": "Same evidence as the debut claim above.",
+   "note": ""
+  },
+  {
+   "year": 1978,
+   "scope": "season",
+   "claim": "Key moment 1978-01-17: UMass 56-49 before 4,746; roof collapses early next morning",
+   "verdict": "corrected",
+   "evidence": "https://connecticuthistory.org/almost-a-tragedy-the-collapse-of-the-hartford-civic-center/",
+   "note": "Kept; 'snow-laden' removed for the reason above."
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Corny Thompson had led Middletown High to a 76-game winning streak",
+   "verdict": "verified",
+   "evidence": "https://web.archive.org/web/20090603182622/http://middletowncthalloffame.com/2006/2006.htm - teams of 1975-76 (24-0), 1976-77 (25-0), 1977-78 (27-0): 'a winning streak of 76 continuous games'; 'Cornelius Thompson, Captain 1976, 1977, 1978'. Also http://www.uconnhooplegends.com/menslegends/ThompsonCorny.html ('the team won 76 games in a row').",
+   "note": "Reworded to 'captained Middletown High through a 76-game winning streak'. (The streak reached 80 the season after he left; Wikipedia's state list shows 80.)"
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Mike McKay is from Bridgeport",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1979.json roster: Mike McKay, home Bridgeport, CT.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Thompson started every game",
+   "verdict": "removed",
+   "evidence": "site/data/seasons/1979.json roster has gs=None for 1978-79 (no start data).",
+   "note": "Only support is Thompson's own recollection on uconnhooplegends.com, which also contains a demonstrably false claim (that he led UConn in scoring all four years; the record book shows McKay led in 1979-80 and 1981-82) and conflicts with record-book data showing 28 starts in 29 games in 1979-80. Removed."
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Thompson averaged 18.6 points and 10.0 rebounds",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1979.json roster: 538 pts / 289 reb in 29 g (18.6, 10.0); UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) season scoring leaders '78-79 Corny Thompson ... 538 18.6'.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "McKay averaged 15.9 points",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1979.json roster: McKay 444 pts, 28 g, 15.9.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Seniors Randy LaVigne and Jeff Carr",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1979.json roster: LaVigne SR, Carr SR.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "The team started 10-2",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1979.json rec 10-2 after 1979-01-11 at BU.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "UConn lost only once at home",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) 1978-79: '12-1 home'; only home loss 1/13 Syracuse (New Haven Coliseum).",
+   "note": "Rendered as 'went 12-1 at home'."
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Overtime wins over Rutgers (69-67) and Holy Cross (109-102, at Boston Garden)",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1979.json 1979-01-09 Rutgers W 69-67 OT; 1979-01-26 Holy Cross W 109-102 OT, arena Boston Garden; UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '## Colonial Classic, Boston Garden'.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "UConn won eight of its last nine regular-season games",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1979.json 1/31-2/24: 8-1 (only loss 2/13 at Rhode Island).",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Capped by an 80-75 overtime win over Rhode Island in New Haven",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '2/24 Rhode Island + W, 80-75 ot' (+ = New Haven Coliseum); site/data/seasons/1979.json 1979-02-24 W 80-75 OT.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "ECAC New England tournament at the Providence Civic Center",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '*ECAC Tournament, Providence CC, Providence, RI'; https://archive.org/details/InternationalHeraldTribune1979FranceEnglish (IHT, Mar 5, 1979 edition, UPI) dateline PROVIDENCE.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "UConn routed Boston College 91-74",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1979.json 1979-03-01 CTOURN W 91-74; https://archive.org/details/InternationalHeraldTribune1979FranceEnglish (IHT, Mar 5, 1979 edition, UPI) (Mar 3 ed.) 'ECAC First Round, New England Division: Connecticut 91, Boston Col. 74'.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "UConn beat Rhode Island again, 58-50, for the title and an NCAA bid",
+   "verdict": "verified",
+   "evidence": "https://archive.org/details/InternationalHeraldTribune1979FranceEnglish (IHT, Mar 5, 1979 edition, UPI) - 'give Connecticut a 58-50 victory over Rhode Island in the ECAC Division 1 New England basketball championship. UConn, 21-7, advances to the NCAA tournament'.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "First NCAA bid since 1976",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) year-by-year: 1975-76 NCAA; 1976-77 and 1977-78 no postseason.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Thompson was the tournament MVP",
+   "verdict": "verified",
+   "evidence": "https://archive.org/details/InternationalHeraldTribune1979FranceEnglish (IHT, Mar 5, 1979 edition, UPI) - 'Thompson, a 6-foot-8 freshman and the tournament's most valuable player'; https://uconnhuskies.com/honors/huskies-of-honor/corny-thompson/5 'ECAC Tournament Most Valuable Player 1979'.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Thompson was the ECAC's Player of the Year and Freshman of the Year",
+   "verdict": "corrected",
+   "evidence": "https://uconnhuskies.com/honors/huskies-of-honor/corny-thompson/5 - 'ECAC & New England Player and Rookie of the Year 1978-1979'.",
+   "note": "Rewritten to match the official citation: 'ECAC and New England Player of the Year and Rookie of the Year'."
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Seeded fifth in the East, UConn met fourth-seeded Syracuse in Providence on March 10, 1979",
+   "verdict": "verified",
+   "evidence": "https://www.sports-reference.com/cbb/postseason/men/1979-ncaa.html - East: '5 UConn 81, 4 Syracuse 89, at Providence, RI'; site/data/seasons/1979.json 1979-03-10 NCAA L 81-89, Providence Civic Center.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "NBC televised the game with Dick Enberg and Al McGuire",
+   "verdict": "removed",
+   "evidence": "https://en.wikipedia.org/wiki/1979_NCAA_Division_I_basketball_tournament (broadcast list, uncited).",
+   "note": "No independent confirmation found (the UConn student paper's archive.org run starts in late 1982; the 506 Sports archive is behind a human-verification wall). Removed per the 'unverified = removed' rule."
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Perno later recalled trailing by 18 and closing to two before losing 89-81",
+   "verdict": "verified",
+   "evidence": "http://www.uconnhooplegends.com/menslegends/PernoDom.html - Perno (2003 interview): 'played Syracuse and was down by 18 and brought the lead down to two'; score per site/data/seasons/1979.json.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "The 21 wins were UConn's most since 1964-65",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) year-by-year: 1964-65 23-3; no season from 1965-66 to 1977-78 exceeded 19 wins.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Key moment 1979-01-26: Holy Cross 109-102 OT, Colonial Classic, Boston Garden",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) 1978-79 log '1/26 vs. Holy Cross ## W, 109-102 ot'; '## Colonial Classic, Boston Garden'.",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Key moment 1979-03-02: ECAC New England title game vs Rhode Island",
+   "verdict": "corrected",
+   "evidence": "https://archive.org/details/InternationalHeraldTribune1979FranceEnglish (IHT, Mar 5, 1979 edition, UPI) (UPI dateline 'PROVIDENCE, R.I., March 4' says the final was played 'yesterday', i.e. March 3); record book prints 3/3; site data has 1979-03-02.",
+   "note": "Per instructions the final's date is under separate research, so no date is asserted for it. The key moment was moved to the agreed 1979-03-01 Boston College game and describes the final without a date. FYI for the date research: the IHT/UPI wire supports March 3."
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Key moment 1979-03-10: fifth-seeded UConn falls 89-81 to fourth-seeded Syracuse in the NCAA East second round at Providence, first tournament game since 1976",
+   "verdict": "verified",
+   "evidence": "https://www.sports-reference.com/cbb/postseason/men/1979-ncaa.html; UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) NCAA history.",
+   "note": "UConn had a first-round bye, so its opener was the second round (the record book calls it 'NCAA Tournament First Round' from UConn's perspective)."
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Honor: ECAC New England Regional champions",
+   "verdict": "corrected",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) 1978-79: 'ECAC Tournament Champions'; https://archive.org/details/InternationalHeraldTribune1979FranceEnglish (IHT, Mar 5, 1979 edition, UPI) 'ECAC Division 1 New England basketball championship'.",
+   "note": "Renamed 'ECAC New England tournament champions'."
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Honor: Corny Thompson - ECAC Player of the Year",
+   "verdict": "corrected",
+   "evidence": "https://uconnhuskies.com/honors/huskies-of-honor/corny-thompson/5",
+   "note": "Combined into 'ECAC and New England Player of the Year' per the official wording."
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Honor: Corny Thompson - ECAC Freshman of the Year",
+   "verdict": "corrected",
+   "evidence": "https://uconnhuskies.com/honors/huskies-of-honor/corny-thompson/5",
+   "note": "Official wording is 'Rookie of the Year'; listed as 'ECAC and New England Rookie of the Year'."
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Honor: Corny Thompson - ECAC New England tournament MVP",
+   "verdict": "verified",
+   "evidence": "https://uconnhuskies.com/honors/huskies-of-honor/corny-thompson/5; https://archive.org/details/InternationalHeraldTribune1979FranceEnglish (IHT, Mar 5, 1979 edition, UPI)",
+   "note": ""
+  },
+  {
+   "year": 1979,
+   "scope": "season",
+   "claim": "Honor: Corny Thompson - New England Player of the Year (1978-79)",
+   "verdict": "verified",
+   "evidence": "https://uconnhuskies.com/honors/huskies-of-honor/corny-thompson/5",
+   "note": "Merged into the combined ECAC/New England Player of the Year entry."
+  },
+  {
+   "year": 1980,
+   "scope": "season",
+   "claim": "UConn was one of the seven charter members of the Big East with BC, Georgetown, Providence, St. John's, Seton Hall and Syracuse",
+   "verdict": "verified",
+   "evidence": "https://web.archive.org/web/20110924084118/http://www.bigeast.org/AbouttheBIGEAST.aspx - 'The BIG EAST became a reality on May 31, 1979, following a meeting of athletic directors from Providence College, St. John's, Georgetown and Syracuse universities. Seton Hall, Connecticut and Boston College completed the original seven school alliance.'",
+   "note": ""
+  },
+  {
+   "year": 1980,
+   "scope": "season",
+   "claim": "First league game: 89-73 win over Seton Hall on Dec. 22, 1979",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1980.json 1979-12-22 Seton Hall W 89-73 (first Big East opponent on the schedule).",
+   "note": ""
+  },
+  {
+   "year": 1980,
+   "scope": "season",
+   "claim": "UConn went 3-3 in the six-game conference schedule",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '20-9, 3-3 in the BIG EAST'.",
+   "note": ""
+  },
+  {
+   "year": 1980,
+   "scope": "season",
+   "claim": "Sophomores McKay (16.7) and Thompson (15.8 points, 9.3 rebounds) led the way",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1980.json roster: McKay SO 16.7; Thompson SO 15.8/9.3.",
+   "note": ""
+  },
+  {
+   "year": 1980,
+   "scope": "season",
+   "claim": "Guard Bobby Dulin and senior forward Jim Abromaitis",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1980.json roster: Dulin JR G 11.3; Abromaitis SR F 9.8.",
+   "note": "Added Dulin's 11.3 ppg and class."
+  },
+  {
+   "year": 1980,
+   "scope": "season",
+   "claim": "Kentucky transfer Chuck Aleksinas sat out the year",
+   "verdict": "verified",
+   "evidence": "https://www.wildcatworld.com/player/chuck-aleksinas/ - 'He played at Kentucky from 1977-78 and 1978-79... He transferred to the University of Connecticut after his sophomore year'; UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) lists Aleksinas stats only for 1980-81 and 1981-82; absent from site/data/seasons/1980.json roster.",
+   "note": ""
+  },
+  {
+   "year": 1980,
+   "scope": "season",
+   "claim": "A 73-66 loss at Utah in the Utah Classic became a forfeit win; final record 20-9",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '12/8 at Utah^ # W, 66-73'; '^ Utah forfeited game, ineligible player'; '# Utah Classic, Salt Lake City, UT'; pipeline/game_rulings.json.",
+   "note": ""
+  },
+  {
+   "year": 1980,
+   "scope": "season",
+   "claim": "First Big East tournament in Providence: beat BC 79-68 in the quarterfinals",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) BE tournament history: '1980 #4 Connecticut 79 #5 Boston College 68 Providence Civic Center'; '*Big East Tournament, Providence CC'.",
+   "note": ""
+  },
+  {
+   "year": 1980,
+   "scope": "season",
+   "claim": "Syracuse routed UConn 92-61 in the semifinals",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '#1 Syracuse 92 #4 Connecticut 61 Providence Civic Center'.",
+   "note": "Added 'top-seeded' from the same line."
+  },
+  {
+   "year": 1980,
+   "scope": "season",
+   "claim": "UConn hosted St. Peter's in the NIT first round at the Field House in Storrs and lost 71-56",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) postseason history: '1979-80 - NIT ... St. Peter's - 3/5/80 Storrs, Conn. L, 56-71'; site/data/seasons/1980.json arena Storrs Field House.",
+   "note": ""
+  },
+  {
+   "year": 1980,
+   "scope": "season",
+   "claim": "Thompson second-team All-Big East, McKay third team, Kuczenski all-freshman",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) Big East all-conference 1979-80.",
+   "note": ""
+  },
+  {
+   "year": 1980,
+   "scope": "season",
+   "claim": "Key moments 1979-12-22, 1980-02-28, 1980-03-05",
+   "verdict": "verified",
+   "evidence": "As above (site data + record book).",
+   "note": ""
+  },
+  {
+   "year": 1980,
+   "scope": "season",
+   "claim": "Honor: Corny Thompson - New England Player of the Year (1979-80)",
+   "verdict": "removed",
+   "evidence": "https://uconnhuskies.com/honors/huskies-of-honor/corny-thompson/5 lists ECAC & New England Player of the Year only for 1978-79.",
+   "note": "Only uncited secondary sites claim a 1980 award; not in the record book or media guides. Removed."
+  },
+  {
+   "year": 1980,
+   "scope": "season",
+   "claim": "Honors: Thompson 2nd team, McKay 3rd team, Kuczenski All-Freshman",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) Big East all-conference 1979-80.",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "Chuck Aleksinas, a 6-foot-11 transfer from Kentucky",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1981.json roster: Aleksinas JR C 6-11; https://www.wildcatworld.com/player/chuck-aleksinas/ (transferred from Kentucky).",
+   "note": "Kentucky listed him at 6-10; UConn's roster says 6-11."
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "Juniors Corny Thompson and Mike McKay",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1981.json roster: both JR.",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "UConn won its first 11 games, including 78-59 over Syracuse",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1981.json 11-0 through 1981-01-12; 1981-01-05 Syracuse W 78-59.",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "UConn climbed to No. 20 in the AP poll in late January",
+   "verdict": "verified",
+   "evidence": "https://www.sports-reference.com/cbb/seasons/men/1981-polls.html - UConn row: 20 in the 1/19 and 1/26 polls, unranked before; site/data/seasons/1981.json polls.",
+   "note": "Made precise: 'entered the AP poll at No. 20 on January 19'."
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "First loss by a point, 58-57 at Boston College",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1981.json 1981-01-14 A Boston College L 57-58.",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "69-68 over St. John's in Hartford",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '1/17 St. John's (HCC) W, 69-68'.",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "75-73 in overtime over Georgetown",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1981.json 1981-01-24 Georgetown W 75-73 OT.",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "65-63 at Syracuse in the new Carrier Dome",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1981.json 1981-02-14 A Syracuse W 65-63; https://www.sports-reference.com/cbb/schools/connecticut/men/1981-schedule.html arena Carrier Dome; https://www.sports-reference.com/cbb/schools/connecticut/men/1980-schedule.html shows the 1980 game at Manley Field House (Dome opened for 1980-81).",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "8-6 in the league",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '20-9, 8-6 in the BIG EAST'.",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "Lost to Villanova 65-54 in the Big East quarterfinals in Syracuse",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '1981 #4 Villanova 65 #5 Connecticut 54 Carrier Dome'; '*BIG EAST Tournament at Syracuse, NY'.",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "Reached the NIT for a second straight year",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) year-by-year: NIT in 1979-80 and 1980-81.",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "Won 65-55 at South Florida; Minnesota ended the season 84-66 at the Hartford Civic Center",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '3/12 at South Florida ** W, 65-55'; '3/16 Minnesota ** (HCC) L, 66-84'.",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "Thompson (15.0, 8.1) first team; Aleksinas (13.8 on .631) second team; McKay third team; Giscombe all-freshman",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1981.json roster stats; UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) Big East all-conference 1980-81; FG% list '63.1% Chuck Aleksinas (154-244) 1980-81'.",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "Freshman point guard Karl Hobbs averaged 4.7 assists",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '80-81 Karl Hobbs 5-8 Fr. 136 4.7'; https://gwsports.com/news/2001/5/7/Karl_Hobbs_Named_Men_s_Basketball_Coach_at_GW ('a four-year starting point guard under former coach Dom Perno').",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "Third straight 20-win season",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) year-by-year 21-8, 20-9, 20-9; https://web.archive.org/web/20110725032114/http://www.gwsports.com/genrel/perno_dom00.html ('three consecutive 20-win seasons').",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "Key moment 1981-01-12: 61-58 at New Hampshire makes UConn 11-0; ranked No. 20 a week later",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1981.json; https://www.sports-reference.com/cbb/seasons/men/1981-polls.html",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "Key moments 1981-01-24 (Georgetown OT), 1981-02-14 (Carrier Dome's first season), 1981-03-12 (NIT at South Florida)",
+   "verdict": "verified",
+   "evidence": "As above.",
+   "note": ""
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "Honor: Corny Thompson - USBWA District Player of the Year",
+   "verdict": "removed",
+   "evidence": "Not in the record book, the cached UConn media guides, or the official Huskies of Honor citation (https://uconnhuskies.com/honors/huskies-of-honor/corny-thompson/5).",
+   "note": "Only uncited secondary sites mention it. Removed."
+  },
+  {
+   "year": 1981,
+   "scope": "season",
+   "claim": "Honors: Thompson 1st team, Aleksinas 2nd, McKay 3rd, Giscombe All-Freshman",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) Big East all-conference 1980-81.",
+   "note": ""
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "UConn won 14 of its first 17 games",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1982.json rec 14-3 after 1982-01-28.",
+   "note": ""
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "63-52 win at No. 13 Georgetown on Jan. 20, 1982",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1982.json 1982-01-20 A Georgetown W 63-52; https://www.sports-reference.com/cbb/schools/connecticut/men/1982-schedule.html 'Georgetown (13)', Capital Centre.",
+   "note": ""
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "Georgetown, featuring freshman Patrick Ewing, would reach the national championship game",
+   "verdict": "verified",
+   "evidence": "https://en.wikipedia.org/wiki/1981%E2%80%9382_Georgetown_Hoyas_men%27s_basketball_team (national runner-up; Ewing a freshman).",
+   "note": "Well-documented, non-controversial fact."
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "Three days later UConn edged Villanova 53-51 in Hartford",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '1/23 Villanova (HCC) W, 53-51'.",
+   "note": ""
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "UConn lost eight of its last 11, including 61-59 at Seton Hall and an overtime loss at Villanova",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1982.json last 11 games 3-8; 1982-02-16 A Seton Hall L 59-61; 1982-02-24 A Villanova L 63-67 OT.",
+   "note": ""
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "Finished 7-7 in the Big East",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '17-11, 7-7 in the BIG EAST'.",
+   "note": ""
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "Lost 54-52 to St. John's in the Big East quarterfinals at the Hartford Civic Center",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '1982 #3 St. John's 54 #6 Connecticut 52 Hartford Civic Center'.",
+   "note": ""
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "Season ended with a 76-75 OT loss at Dayton in the NIT first round",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '1981-82 - NIT ... Dayton -3/10/82 Dayton, Ohio L, 75-76 (ot)'.",
+   "note": ""
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "Thompson first-team All-Big East for the second straight year; McKay second team",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) Big East all-conference 1980-81 and 1981-82.",
+   "note": ""
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "Thompson finished with 1,810 points and 1,017 rebounds",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) career lists: 'CORNY THOMPSON (4 years, 1978-82), 1,810 pts.'; '1017 Corny Thompson 114 1978-82'.",
+   "note": ""
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "McKay finished with 1,633 points (added)",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '17.) MIKE McKAY (4 years, 1978-82), 1,633 pts.'",
+   "note": ""
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "Their four teams went 78-37",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) year-by-year 21-8, 20-9, 20-9, 17-11; https://archive.org/details/1982-University-of-Connecticut-Mutual-Classic-Basketball-Program-Lafayette-AM (1982 program: 'the Huskies compiled an overall record of 78-37 during their four years').",
+   "note": ""
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "Thompson, Aleksinas and McKay were all chosen in the 1982 NBA draft",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) draft list: Thompson 3rd rd/50 Dallas 1982; Aleksinas 4th/76 Chicago 1982; McKay 5th/95 Utah 1982.",
+   "note": ""
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "Key moment 1982-01-20: win at No. 13 Georgetown",
+   "verdict": "verified",
+   "evidence": "As above.",
+   "note": ""
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "Key moment dated 1982-03-05: St. John's edges UConn 54-52 in the Big East quarterfinals",
+   "verdict": "corrected",
+   "evidence": "site/data/seasons/1982.json 1982-03-04 CTOURN L 52-54; UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '3/4 vs. St. John's * L, 52-54'; https://redstormsports.com/sports/mens-basketball/schedule/1981-82 - 'vs Connecticut Hartford, Conn. (Hartford Civic Center) W, 54-52 Mar 4 (Thu)'.",
+   "note": "Date corrected to 1982-03-04. Sports-Reference lists March 5, but UConn's record book, the site data and St. John's own archive all give Thursday, March 4."
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "Key moment 1982-03-10: NIT first round at Dayton, 76-75 OT",
+   "verdict": "verified",
+   "evidence": "As above.",
+   "note": ""
+  },
+  {
+   "year": 1982,
+   "scope": "season",
+   "claim": "Honors: Thompson 1st team, McKay 2nd team",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) Big East all-conference 1981-82.",
+   "note": ""
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "Thompson, McKay and Aleksinas had graduated",
+   "verdict": "verified",
+   "evidence": "https://archive.org/details/1982-University-of-Connecticut-Mutual-Classic-Basketball-Program-Lafayette-AM (Perno: 'We have graduated three outstanding players who were all drafted by the NBA'); UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) draft list.",
+   "note": "Rendered as 'graduated and drafted'."
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "Freshman guard Earl Kelley of New Haven averaged 16.7 points",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1983.json roster: Kelley FR G, New Haven, CT, 16.7.",
+   "note": ""
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "UConn's first Big East Freshman of the Year award",
+   "verdict": "corrected",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) 'BIG EAST ROOKIE OF THE YEAR: Earl Kelley, 1982-83' (first UConn name on the list).",
+   "note": "The award is Rookie of the Year in UConn's record book; corrected in story, headline and honors."
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "Karl Hobbs (11.8 points), Norman Bailey and Bruce Kuczenski supplied experience",
+   "verdict": "corrected",
+   "evidence": "site/data/seasons/1983.json roster: Hobbs JR 11.8; Kuczenski SR 9.8 pts/6.8 reb; Bailey JR played only 11 of 28 games.",
+   "note": "Bailey dropped (11 games only); Kuczenski's stats added."
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "UConn opened 7-2",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1983.json rec 7-2 after 1983-01-04.",
+   "note": ""
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "Split two games at the Fiesta Classic in Tempe",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '12/3 at Arizona State + L, 64-79'; '12/4 vs. Utah + W, 73-63'; '+ Fiesta Basketball Classic, Tempe, AZ'.",
+   "note": ""
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "Beat Air Force and Texas A&M to win its own Connecticut Mutual Classic",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '12/28 Air Force (CMC-HCC) W, 66-50'; '12/29 Texas A&M (CMC-HCC) W, 69-63'; https://12thman.com/sports/mens-basketball/schedule/season/1982-83 (A&M beat Lafayette 12/28, lost to UConn 12/29 = final).",
+   "note": ""
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "Won 71-67 at Pittsburgh in the Panthers' first Big East season",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1983.json 1983-01-04 A Pittsburgh W 71-67; https://en.wikipedia.org/wiki/Big_East_Conference_(1979%E2%80%932013) membership timeline (Pittsburgh from 1982); Pitt listed as non-conference/Eastern 8 in https://www.sports-reference.com/cbb/schools/connecticut/men/1980-schedule.html.",
+   "note": ""
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "The new 16-game league schedule",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '12-16, 5-11 in the BIG EAST' (16 games vs 14 in 1981-82); https://archive.org/details/1982-University-of-Connecticut-Mutual-Classic-Basketball-Program-Lafayette-AM ('playing a demanding 16-game slate in the BIG EAST Conference').",
+   "note": ""
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "UConn lost 13 of 15 games between Jan. 6 and Feb. 21",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1983.json 1/6-2/21: 2-13 (wins Holy Cross 1/19, Seton Hall 1/29).",
+   "note": "Two dates in this stretch are disputed (Georgetown 2/12 vs 2/14; St. John's 2/14 vs 2/17), but all fall inside the window."
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "Most losses were to Big East opponents and several to ranked teams",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1983.json; https://www.sports-reference.com/cbb/schools/connecticut/men/1983-schedule.html ranks: St. John's (3), Syracuse (20), Villanova (12), Georgetown (14), St. John's (7), Villanova (8), Boston College (19).",
+   "note": "Made specific: 11 of the 13 losses were to Big East teams, 7 to ranked teams."
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "Won at Providence and at Seton Hall",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1983.json 1983-02-26 A Providence W 72-62; 1983-03-01 A Seton Hall W 78-67.",
+   "note": ""
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "Upset No. 18 Syracuse 55-54 in Hartford",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '3/5 Syracuse (HCC) W, 55-54'; https://www.sports-reference.com/cbb/schools/connecticut/men/1983-schedule.html 'Syracuse (18)'.",
+   "note": ""
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "Lost 69-68 to No. 13 Villanova in the Big East tournament at MSG",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '1983 #2 Villanova 69 #7 Connecticut 68 Madison Square Garden'; https://www.sports-reference.com/cbb/schools/connecticut/men/1983-schedule.html 'Villanova (13)'.",
+   "note": "Specified as the quarterfinals (2 vs 7 seed)."
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "12-16 was UConn's first losing season since Perno's first year",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) year-by-year: 1977-78 11-15, then 21-8, 20-9, 20-9, 17-11.",
+   "note": ""
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "Key moment 1982-12-29: CMC champions, beat Texas A&M 69-63 at Hartford Civic Center",
+   "verdict": "verified",
+   "evidence": "As above.",
+   "note": ""
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "Key moments 1983-03-05 (No. 18 Syracuse) and 1983-03-10 (No. 13 Villanova, MSG)",
+   "verdict": "verified",
+   "evidence": "As above.",
+   "note": ""
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "Honor: Earl Kelley - Big East Rookie/Freshman of the Year",
+   "verdict": "corrected",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf)",
+   "note": "Listed as 'Big East Rookie of the Year'."
+  },
+  {
+   "year": 1983,
+   "scope": "season",
+   "claim": "Honor: Earl Kelley - Big East All-Freshman team",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) Big East all-conference 1982-83.",
+   "note": ""
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "Earl Kelley opened his sophomore season scoring freely",
+   "verdict": "corrected",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) 30-point games: 'Earl Kelley 12/10/83 Boston University 37'.",
+   "note": "Vague claim replaced with the verified 37-point game against Boston University."
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "Two ankle injuries limited Kelley to 18 games",
+   "verdict": "corrected",
+   "evidence": "site/data/seasons/1984.json roster: Kelley 18 g; https://archive.org/details/ct_daily_campus_1984-01-31 ('return of Kelley from a sprained ankle injury'); https://archive.org/details/ct_daily_campus_1984-02-07 (returned wearing 'an air cast to protect the ankle'); https://archive.org/details/ct_daily_campus_1984-02-16 ('bothered by nagging injuries since mid-December'); https://archive.org/details/ct_daily_campus_1984-02-24 ('if his right ankle heals sufficiently'); https://archive.org/details/ct_daily_campus_1984-02-27 ('missed the game with the injured ankle').",
+   "note": "18 games and ankle trouble verified; whether it was two distinct injuries is not established, so rendered as 'ankle injuries'."
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "5-foot-8 senior captain Karl Hobbs",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1984.json roster: Hobbs SR 5-8; https://gwsports.com/news/2001/5/7/Karl_Hobbs_Named_Men_s_Basketball_Coach_at_GW - 'was captain of the team as a senior in 1983-84'.",
+   "note": ""
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "Hobbs averaged 6.4 assists and made third-team All-Big East",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '83-84 Karl Hobbs 5-8 Sr. 178 6.4'; Big East all-conference 1983-84 'Karl Hobbs, Sr. Third Team'.",
+   "note": ""
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "Hobbs left with a then-school-record 534 career assists",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) career assists list: everyone above Hobbs's 534 (Brown, George, Napier, Ollie, Sheffer) played after 1984; https://gwsports.com/news/2001/5/7/Karl_Hobbs_Named_Men_s_Basketball_Coach_at_GW (2001: 'He currently ranks fourth on the UConn career assists list', behind three post-1984 players).",
+   "note": "Record status at graduation inferred from the official list ordering; consistent with the 2001 GW release."
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "Juniors Frederick and Broxton, sophomores Williams and Coles, senior Giscombe rounded out the rotation",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1984.json roster classes.",
+   "note": ""
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "UConn went 7-2 before Big East play",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1984.json rec 7-2 after 1983-12-29.",
+   "note": ""
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "Beat Columbia and Arizona State to win the Connecticut Mutual Classic",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '12/28 Columbia (CMC-HCC) W, 85-60'; '12/29 Arizona State (CMC-HCC) W, 66-60'; https://www.sports-reference.com/cbb/schools/arizona-state/men/1984-schedule.html (ASU beat Penn State 12/28, lost to UConn 12/29); https://www.sports-reference.com/cbb/schools/columbia/men/1984-schedule.html (Columbia lost consolation to Penn State).",
+   "note": ""
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "Won three of its first six league games, including 79-58 at Pittsburgh",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1984.json first six Big East games 3-3; 1984-01-07 A Pittsburgh W 79-58.",
+   "note": ""
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "The schedule then caught up with a thin team",
+   "verdict": "corrected",
+   "evidence": "site/data/seasons/1984.json after 1984-01-21: 3-10.",
+   "note": "'Thin team' is an unverifiable characterization; replaced with the verified 'won only three of their last 13'."
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "87-85 triple-overtime loss at No. 16 Syracuse in the Carrier Dome on Feb. 18, 1984",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1984.json 1984-02-18 A Syracuse L 85-87 3OT; https://www.sports-reference.com/cbb/schools/connecticut/men/1984-schedule.html 'Syracuse (16)', Carrier Dome; https://archive.org/details/ct_daily_campus_1984-02-20 (AP): 'UConn fell 87-85 to Syracuse in triple overtime at the Carrier Dome'.",
+   "note": ""
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "Giscombe played 55 minutes",
+   "verdict": "verified",
+   "evidence": "https://archive.org/details/ct_daily_campus_1984-02-20 - Giscombe, 'who played the entire game' (a triple-overtime game = 55 minutes); 'recorded a career high 24 points'.",
+   "note": ""
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "Crowd of 29,254; twice UConn hit free throws with no time left to force another OT; Giscombe starting for the injured Kelley (added)",
+   "verdict": "verified",
+   "evidence": "https://archive.org/details/ct_daily_campus_1984-02-20 - 'the roar of 29,254 hostile fans'; 'twice the Huskies sank clutch free throws with no time remaining to send the game to another overtime'; 'They were playing without their scoring leader, Earl Kelley'; https://archive.org/details/ct_daily_campus_1984-02-21 ('Giscombe, getting his third straight start in a row in place of the injured Earl Kelley').",
+   "note": ""
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "UConn finished 13-15 and 5-11, losing its last four games",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '13-15, 5-11 in the BIG EAST'; site/data/seasons/1984.json last four games all losses.",
+   "note": ""
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "Final game: 73-58 to Syracuse in the Big East quarterfinals at MSG",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '1984 #2 Syracuse 73 #7 Connecticut 58 Madison Square Garden'.",
+   "note": ""
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "Key moment 1983-12-29: CMC champions, Arizona State 66-60",
+   "verdict": "verified",
+   "evidence": "As above.",
+   "note": ""
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "Key moment 1984-02-18: No. 16 Syracuse 87-85 in three overtimes at the Carrier Dome",
+   "verdict": "verified",
+   "evidence": "As above.",
+   "note": "Added Giscombe's 55 minutes and career-high 24 (verified)."
+  },
+  {
+   "year": 1984,
+   "scope": "season",
+   "claim": "Honor: Karl Hobbs - Third-team All-Big East",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf)",
+   "note": ""
+  },
+  {
+   "year": 1985,
+   "scope": "season",
+   "claim": "Junior Earl Kelley returned healthy",
+   "verdict": "corrected",
+   "evidence": "site/data/seasons/1985.json roster: Kelley 28 g, 28 starts.",
+   "note": "'Returned healthy' rendered as the verifiable 'played all 28 games'."
+  },
+  {
+   "year": 1985,
+   "scope": "season",
+   "claim": "Kelley averaged 16.8 points and 4.8 assists, second-team All-Big East",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1985.json; UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '84-85 Earl Kelley ... 471 16.8'; '134 4.8'; Big East all-conference 1984-85.",
+   "note": ""
+  },
+  {
+   "year": 1985,
+   "scope": "season",
+   "claim": "Seniors Broxton (13.9) and Frederick (11.9), junior Coles (7.0 rebounds)",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1985.json roster.",
+   "note": ""
+  },
+  {
+   "year": 1985,
+   "scope": "season",
+   "claim": "Season opened with a 61-60 loss at Minnesota",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1985.json 1984-11-28 A Minnesota L 60-61.",
+   "note": ""
+  },
+  {
+   "year": 1985,
+   "scope": "season",
+   "claim": "UConn stood 4-7 after an 0-3 Big East start",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1985.json rec 4-7 after 1985-01-09; Big East 0-3 (St. John's, Villanova, Providence).",
+   "note": ""
+  },
+  {
+   "year": 1985,
+   "scope": "season",
+   "claim": "Then came the season's high point: 70-68 over No. 7 Syracuse at the Carrier Dome on Jan. 19, 1985",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1985.json 1985-01-19 A Syracuse W 70-68; https://www.sports-reference.com/cbb/schools/connecticut/men/1985-schedule.html 'Syracuse (7)', Carrier Dome.",
+   "note": "Sequence clarified: the 76-74 Pittsburgh win (1/12) came first."
+  },
+  {
+   "year": 1985,
+   "scope": "season",
+   "claim": "Feb. 20: beat seventh-ranked Syracuse 71-69 at the Hartford Civic Center to sweep the series",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '2/20 Syracuse (HCC) W, 71-69'; https://www.sports-reference.com/cbb/schools/connecticut/men/1985-schedule.html 'Syracuse (7)'.",
+   "note": ""
+  },
+  {
+   "year": 1985,
+   "scope": "season",
+   "claim": "UConn also beat Pittsburgh 76-74 and won 74-68 at Boston College",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1985.json 1985-01-12 Pittsburgh W 76-74; 1985-02-25 A Boston College W 74-68.",
+   "note": ""
+  },
+  {
+   "year": 1985,
+   "scope": "season",
+   "claim": "13-15 and 6-10 in a league that sent Georgetown, St. John's and champion Villanova to the Final Four",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '13-15, 6-10 in the BIG EAST'; https://en.wikipedia.org/wiki/1985_NCAA_Division_I_men%27s_basketball_tournament",
+   "note": ""
+  },
+  {
+   "year": 1985,
+   "scope": "season",
+   "claim": "Top-ranked Georgetown ended the season 93-62 in the Big East quarterfinals at MSG",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '1985 #2 Georgetown 93 #7 Connecticut 62 Madison Square Garden'; https://www.sports-reference.com/cbb/schools/connecticut/men/1985-schedule.html 'Georgetown (1)'.",
+   "note": "Game date is disputed (3/6 vs 3/7) and is not stated."
+  },
+  {
+   "year": 1985,
+   "scope": "season",
+   "claim": "Kelley reached 1,000 career points at St. John's on Feb. 2 (added)",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '20.) EARL KELLEY ... Reached 1,000 pts in 63rd career game on 2/2/85 at St. John's'.",
+   "note": ""
+  },
+  {
+   "year": 1985,
+   "scope": "season",
+   "claim": "Key moments 1985-01-19 and 1985-02-20 (No. 7 Syracuse twice)",
+   "verdict": "verified",
+   "evidence": "As above.",
+   "note": ""
+  },
+  {
+   "year": 1985,
+   "scope": "season",
+   "claim": "Honor: Earl Kelley - Second-team All-Big East",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf)",
+   "note": ""
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "Perno's ninth season began with eight straight wins",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1986.json 8-0 through 1985-12-27.",
+   "note": ""
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "70-69 win over Minnesota in Hartford",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '12/21 Minnesota (HCC) W, 70-69'.",
+   "note": ""
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "84-61 rout of Saint Francis in the CMC opening round",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '12/27 St. Francis (CMC-HCC) W, 84-61'; https://www.sports-reference.com/cbb/schools/saint-francis-pa/men/1986-schedule.html",
+   "note": "Verified; trimmed from the story for length."
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "Dec. 28, 1985: Northeastern beat UConn 90-73 in the tournament final at the Hartford Civic Center",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '12/28 Northeastern (CMC-HCC) L, 73-90'; https://www.sports-reference.com/cbb/schools/northeastern/men/1986-schedule.html (Northeastern beat Duquesne 12/27, then UConn 12/28 = final).",
+   "note": ""
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "Kelley scored 32 in the Northeastern game (added)",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) 30-point games: 'Earl Kelley 12/28/85 Northeastern 32'.",
+   "note": ""
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "Northeastern's coach, Jim Calhoun, would be UConn's next",
+   "verdict": "verified",
+   "evidence": "https://en.wikipedia.org/wiki/Jim_Calhoun; pipeline/cache.nosync/official/guides/mg2011.txt (UConn 2010-11 media guide: 'In May of 1986, Jim Calhoun was named head coach').",
+   "note": ""
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "Senior Earl Kelley averaged 19.6 points and 6.4 assists",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1986.json; UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '85-86 Earl Kelley ... 411 19.6'; '135 6.4'.",
+   "note": ""
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "UConn won only four of its last 20 games",
+   "verdict": "verified",
+   "evidence": "site/data/seasons/1986.json after 8-0: 4-16.",
+   "note": ""
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "Kelley scored 30 to beat Pittsburgh at the Field House on Feb. 11 (added)",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '2/11/86 Pittsburgh 30'; https://archive.org/details/ct_daily_campus_1986-02-19 ('the 30-point effort which beat the Panthers last week in the field house').",
+   "note": ""
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "In mid-February Kelley was dismissed for academic reasons",
+   "verdict": "verified",
+   "evidence": "https://archive.org/details/ct_daily_campus_1986-02-19 - 'the devastating loss to Holy Cross on Thursday and, more importantly, Friday's anouncement of Kelley's academic ineligibility and dismissal from the basketball team'; https://www.upi.com/Archives/1986/02/20/Earl-Kelley-kicked-off-the-University-of-Connecticut-basketball/8300509259600/ ('kicked off ... for failing a class'; got the news 'last Friday prior to Conneticut's game with St. Johns').",
+   "note": "Announcement Friday, Feb. 14, 1986, the day after the Holy Cross loss."
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "Kelley was the team's leading scorer for four straight seasons",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) season scoring leaders: Earl Kelley 1982-83 (16.7), 1983-84 (14.4), 1984-85 (16.8), 1985-86 (19.6).",
+   "note": "Leader by average (in 1983-84 Frederick had more total points while Kelley missed 10 games)."
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "UConn lost its last eight games",
+   "verdict": "verified",
+   "evidence": "https://archive.org/details/ct_daily_campus_1986-04-15 - 'the team lost it's last eight games, the last seven after guard Earl Kelley was ruled academically ineligible'.",
+   "note": "Clarified as 'seven without him'."
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "Final game: 76-66 to Seton Hall in the first round of the Big East tournament; finished 12-16, 3-13",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) '1986 #9 Seton Hall 76 #8 Connecticut 66 Madison Square Garden'; '12-16, 3-13 in the BIG EAST'.",
+   "note": ""
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "Kelley made second-team All-Big East and was drafted by the San Antonio Spurs",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) Big East all-conference 1985-86; draft list 'Earl Kelley 5th 102 San Antonio Spurs 1986'.",
+   "note": ""
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "Freshmen Phil Gamble (all-freshman) and 6-foot-10 Cliff Robinson offered a glimpse of the future",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) 'Phil Gamble, Fr. All-Freshman Team'; NIT all-tournament '1988-- Phil Gamble (MVP), Cliff Robinson, Tate George'; site/data/seasons/1986.json Robinson FR 6-10.",
+   "note": "Rendered as 'would star on Calhoun's 1988 NIT champions'."
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "April 14, 1986: after four straight losing seasons, Perno resigned with a 139-114 record",
+   "verdict": "verified",
+   "evidence": "https://archive.org/details/ct_daily_campus_1986-04-15 - 'Yesterday, UConn's head basketball coach Dom Perno ... announced his resignation, effective immediately'; 'had a 139-114 record in nine years'; UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) seasons 1982-83 to 1985-86 all losing.",
+   "note": ""
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "A month later UConn hired Calhoun",
+   "verdict": "verified",
+   "evidence": "UConn 2010-11 media guide (pipeline/cache.nosync/official/guides/mg2011.txt): 'In May of 1986, Jim Calhoun was named head coach'; https://en.wikipedia.org/wiki/Jim_Calhoun",
+   "note": ""
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "Key moment 1986-04-14 text: 'UConn hires Calhoun on May 14'",
+   "verdict": "corrected",
+   "evidence": "Wikipedia/existing legends data say May 14, 1986; UConn's 2010-11 media guide says he 'arrived ... on May 15, 1986'.",
+   "note": "Sources conflict on the exact day; rewritten as 'the following month'."
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "Key moments 1985-12-21 (7-0 vs Minnesota) and 1985-12-28 (CMC final vs Northeastern)",
+   "verdict": "verified",
+   "evidence": "As above.",
+   "note": ""
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "Honors: Kelley 2nd team All-Big East; Gamble All-Freshman",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) Big East all-conference 1985-86.",
+   "note": ""
+  },
+  {
+   "year": 1986,
+   "scope": "season",
+   "claim": "Source removed: UPI 1985-12-25 article on Kelley's off-court case",
+   "verdict": "removed",
+   "evidence": "https://www.upi.com/Archives/1985/12/25/Earl-Kelley-a-Connecticut-basketball-star-found-guilty-of/1372504334800/",
+   "note": "Not used by the story, so dropped from sources."
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "Wilbur Cross HS (New Haven): teams won 49 straight games; All-State twice; All-America and state tournament MVP as a senior",
+   "verdict": "verified",
+   "evidence": "https://web.archive.org/web/20110725032114/http://www.gwsports.com/genrel/perno_dom00.html - 'named All-America and MVP of the Connecticut state tournament his senior season. He was also named All-State two consecutive seasons, during which his teams won 49 consecutive games.'",
+   "note": ""
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "Quote: 'a little left-handed guard from Wilbur Cross'",
+   "verdict": "verified",
+   "evidence": "https://archive.org/details/ct_daily_campus_1986-04-15",
+   "note": "Perno's own words at his resignation press conference."
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "Played three varsity seasons (1961-64), 650 points",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) letterwinners: PERNO, DOMINIC P. 1961-62, 1962-63, 1963-64; TOTALS 69 g, 650 pts.",
+   "note": ""
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "Captained the 1963-64 team to the NCAA final eight",
+   "verdict": "verified",
+   "evidence": "https://archive.org/details/ct_daily_campus_1986-04-15; UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) NCAA history (1963-64: Temple W, Princeton W, Duke L).",
+   "note": ""
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "Two free throws with 32 seconds left and a steal from Bill Bradley clinched a 52-50 upset of Princeton at Raleigh",
+   "verdict": "verified",
+   "evidence": "https://www.thecrimson.com/article/1964/3/14/uconn-upends-princeton-bradley-held-to/ - 'Connecticut's Dom Perno hit two free throws with 32 seconds to go, and then stole the ball from All-America Bill Bradley to clinch a stunning 52-50 upset over Princeton in last night's NCAA Eastern regional game at Raleigh, N.C.'",
+   "note": "Wikipedia's claim that the game was at Cameron Indoor Stadium conflicts with the Crimson and the record book (Raleigh); no venue name or date used."
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "UConn class of 1964; coached South Catholic (Hartford), then AD/head coach at St. Paul Catholic (Bristol)",
+   "verdict": "verified",
+   "evidence": "https://web.archive.org/web/20110725032114/http://www.gwsports.com/genrel/perno_dom00.html - 'Alma Mater: Connecticut '64'; 'coached at South Catholic High School in Hartford, CT. He was then named Director of Athletics and Head Basketball Coach at St. Paul Catholic High School in Bristol'.",
+   "note": ""
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "Joined UConn staff as Dee Rowe's assistant in August 1972, replacing Jim Valvano; five seasons; named head coach March 17, 1977",
+   "verdict": "verified",
+   "evidence": "https://archive.org/details/ct_daily_campus_1986-04-15; https://web.archive.org/web/20110725032114/http://www.gwsports.com/genrel/perno_dom00.html ('appointment as assistant coach at Connecticut, replacing Jim Valvano'); UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) assistant list.",
+   "note": ""
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "139-114 (.549) in nine seasons; three straight 20-win seasons; NCAA 1979; NIT 1980-82; charter Big East member",
+   "verdict": "verified",
+   "evidence": "UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf); https://web.archive.org/web/20110725032114/http://www.gwsports.com/genrel/perno_dom00.html; https://web.archive.org/web/20110924084118/http://www.bigeast.org/AbouttheBIGEAST.aspx",
+   "note": ""
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "Kodak District Coach of the Year (1979), UConn Outstanding Alumnus Award, Red O'Neal Award, UConn All-Century Team",
+   "verdict": "removed",
+   "evidence": "https://en.wikipedia.org/wiki/Dom_Perno (uncited infobox); http://www.uconnhooplegends.com/menslegends/PernoDom.html says he was on the All-Century *ballot*; the record book's All-Century Team does not include him.",
+   "note": "Unverified or contradicted; omitted from honors."
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "Resignation quote and denial of pressure",
+   "verdict": "verified",
+   "evidence": "https://archive.org/details/ct_daily_campus_1986-04-15 - '\"I have concluded that this is the best decision for myself, my family, and Connecticut basketball,\" Perno ... said'; 'Perno said he was not pressured out'.",
+   "note": ""
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "Cliff Robinson a future Huskies of Honor inductee",
+   "verdict": "verified",
+   "evidence": "https://uconnhuskies.com/news/2006/12/26/Men_s_Basketball_Huskies_of_Honor_Announced (inaugural class includes 'Clifford Robinson (1985-89)'); UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) Huskies of Honor list.",
+   "note": ""
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "Post-UConn: VP sales & marketing at Roland Dumont Group (Bristol); TV analyst (Big East TV Network, WFSB-TV, ESPN international NBA)",
+   "verdict": "verified",
+   "evidence": "https://web.archive.org/web/20110725032114/http://www.gwsports.com/genrel/perno_dom00.html; https://gwsports.com/news/2011/6/17/George_Washington_University_Associate_Athletic_Director_Dom_Perno_Announces_Retirement",
+   "note": ""
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "Hired by GW Nov. 1997 (assistant AD), associate AD 2006, fundraising and marketing; retired effective June 30, 2011",
+   "verdict": "verified",
+   "evidence": "https://gwsports.com/news/2011/6/17/George_Washington_University_Associate_Athletic_Director_Dom_Perno_Announces_Retirement - 'Hired by GW as Assistant Athletic Director in November 1997 and promoted to Associate AD in 2006'; 'announced his retirement effective June 30' (release dated June 17, 2011); https://web.archive.org/web/20110725032114/http://www.gwsports.com/genrel/perno_dom00.html ('hired ... on Nov. 1, 1997').",
+   "note": ""
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "Worked at GW alongside Karl Hobbs, GW head coach from 2001",
+   "verdict": "verified",
+   "evidence": "https://gwsports.com/news/2001/5/7/Karl_Hobbs_Named_Men_s_Basketball_Coach_at_GW - 'Perno is now Assistant Athletic Director for Development at GW.'",
+   "note": ""
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "Career Division I wins: 139",
+   "verdict": "verified",
+   "evidence": "https://web.archive.org/web/20110725032114/http://www.gwsports.com/genrel/perno_dom00.html (UConn was his only college head-coaching job); UConn 2026-27 Record Book (pipeline/cache.nosync/official/recordbook_pypdf.txt; https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf) 139-114.",
+   "note": ""
+  },
+  {
+   "year": null,
+   "scope": "coach_profile",
+   "claim": "Photo: Perno at his April 14, 1986 resignation press conference (Mark Caswell photo)",
+   "verdict": "verified",
+   "evidence": "https://archive.org/details/ct_daily_campus_1986-04-15 front page, caption 'Dom Perno announced his resignation yesterday during a press conference at the Faculty Alumni Center (Mark Caswell photo).' Item digitized from UConn Archives (archive.org metadata).",
+   "note": "Cropped via the Internet Archive IIIF image service; license not stated on the item."
+  }
+ ]
+}

@@ -18,7 +18,7 @@ export default async function legends(main, _args, core) {
     <span class="eyebrow gold">The program, all time</span>
     <h1 class="h-display">Legends</h1>
     <div class="round-table">${[['National titles', T.national_titles], ['Final Fours', T.final_fours], ['NCAA trips', T.ncaa_appearances], ['Big East tourney titles', T.big_east_tournament_titles], ['Big East reg. season', T.big_east_regular_season_titles], ['NIT titles', T.nit_titles]]
-      .filter(([, v]) => v != null).map(([l, v]) => `<div class="panel"><b>${esc(v)}</b><span>${l}</span></div>`).join('')}</div>
+      .filter(([, v]) => v != null).map(([l, v]) => `<div class="panel"><b>${esc(v)}</b><span>${+v === 1 ? l.replace(/titles$/, 'title').replace(/Fours$/, 'Four').replace(/trips$/, 'trip') : l}</span></div>`).join('')}</div>
     ${T.most_consecutive_wins_sweet16_or_later ? `<p class="lede">Consecutive NCAA Tournament wins from the Sweet 16 on: <b style="color:var(--gold)">${esc(T.most_consecutive_wins_sweet16_or_later)}</b>.</p>` : ''}
   </div></section>
 
