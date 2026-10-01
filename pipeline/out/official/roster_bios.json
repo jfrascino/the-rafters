@@ -1,0 +1,3573 @@
+{
+ "2004": [
+  {
+   "num": "2",
+   "pos": "F",
+   "cls": "Sr.",
+   "ht": "6' 5''",
+   "wt": "208 lbs",
+   "home": "Milford, CT",
+   "prev": "Foran",
+   "name": "Ryan Swaller"
+  },
+  {
+   "num": "3",
+   "pos": "F",
+   "cls": "Fr.",
+   "ht": "6' 11''",
+   "wt": "230 lbs",
+   "home": "Brooklyn, NY",
+   "prev": "Blair Academy (NJ",
+   "name": "Charlie Villanueva"
+  },
+  {
+   "num": "4",
+   "pos": "G",
+   "cls": "Jr.",
+   "ht": "6' 2''",
+   "wt": "195 lbs",
+   "home": "Mount Vernon, NY",
+   "prev": "Mount Vernon",
+   "name": "Ben Gordon"
+  },
+  {
+   "num": "5",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 3''",
+   "wt": "200 lbs",
+   "home": "Los Angeles, Calif.",
+   "prev": "Oak Hill Academy",
+   "name": "Marcus Williams"
+  },
+  {
+   "num": "11",
+   "pos": "F/C",
+   "cls": "So.",
+   "ht": "6' 10''",
+   "wt": "210 lbs",
+   "home": "Peekskill, N.Y.",
+   "prev": "Peekskill HS",
+   "name": "Hilton Armstrong"
+  },
+  {
+   "num": "12",
+   "pos": "G",
+   "cls": "Sr.",
+   "ht": "6' 1''",
+   "wt": "200 lbs",
+   "home": "Queens, NY",
+   "prev": "St. John's Prep",
+   "name": "Taliek Brown"
+  },
+  {
+   "num": "13",
+   "pos": "F",
+   "cls": "Jr.",
+   "ht": "6' 6''",
+   "wt": "215 lbs",
+   "home": "Fort McMurray, Alberta",
+   "name": "Ryan Thompson"
+  },
+  {
+   "num": "21",
+   "pos": "F/C",
+   "cls": "Fr.",
+   "ht": "6' 10''",
+   "wt": "230 lbs",
+   "home": "Mt. Airy, Md.",
+   "prev": "West Nottingham Academy",
+   "name": "Josh Boone"
+  },
+  {
+   "num": "23",
+   "pos": "F",
+   "cls": "So.",
+   "ht": "6' 8''",
+   "wt": "215 lbs",
+   "home": "Chicago, IL",
+   "prev": "Whitney Young",
+   "name": "Marcus White"
+  },
+  {
+   "num": "24",
+   "pos": "F",
+   "cls": "Jr.",
+   "ht": "6' 6''",
+   "wt": "250 lbs",
+   "home": "Southbury, CT",
+   "prev": "Pomperaug HS",
+   "name": "Jason Baisch"
+  },
+  {
+   "num": "30",
+   "pos": "G/F",
+   "cls": "Sr.",
+   "ht": "6' 5''",
+   "wt": "225 lbs",
+   "home": "Coatesville, PA",
+   "prev": "Coatesville",
+   "name": "Shamon Tooles"
+  },
+  {
+   "num": "31",
+   "pos": "G/F",
+   "cls": "So.",
+   "ht": "6' 5''",
+   "wt": "190 lbs",
+   "home": "Lakeland, Fla.",
+   "prev": "Kathleen HS",
+   "name": "Rashad Anderson"
+  },
+  {
+   "num": "32",
+   "pos": "F",
+   "cls": "Jr.",
+   "ht": "6' 8''",
+   "wt": "265 lbs",
+   "home": "Fort Lauderdale, FL",
+   "prev": "Georgia Tech",
+   "name": "Ed Nelson#"
+  },
+  {
+   "num": "33",
+   "pos": "F",
+   "cls": "So.",
+   "ht": "6' 5''",
+   "wt": "205 lbs",
+   "home": "Toronto, Canada",
+   "prev": "West Hill Collegiate",
+   "name": "Denham Brown"
+  },
+  {
+   "num": "40",
+   "pos": "G",
+   "cls": "Sr.",
+   "ht": "6' 3''",
+   "wt": "195 lbs",
+   "home": "Ann Arbor, MI",
+   "prev": "E.O. Smith (CT",
+   "name": "Justin Evanovich"
+  },
+  {
+   "num": "50",
+   "pos": "F/C",
+   "cls": "Jr.",
+   "ht": "6' 9''",
+   "wt": "252 lbs",
+   "home": "Houston, TX",
+   "prev": "Bellaire",
+   "name": "Emeka Okafor"
+  }
+ ],
+ "2005": [
+  {
+   "num": "3",
+   "pos": "F",
+   "cls": "So.",
+   "ht": "6' 11''",
+   "wt": "240 lbs",
+   "home": "Brooklyn, NY",
+   "prev": "Blair Academy (NJ",
+   "name": "Charlie Villanueva"
+  },
+  {
+   "num": "5",
+   "pos": "G",
+   "cls": "So.",
+   "ht": "6' 3''",
+   "wt": "205 lbs",
+   "home": "Los Angeles, Calif.",
+   "prev": "Oak Hill Academy",
+   "name": "Marcus Williams"
+  },
+  {
+   "num": "10",
+   "pos": "G",
+   "cls": "Sr.",
+   "ht": "5' 10''",
+   "wt": "180 lbs",
+   "home": "Saint-Denis, France",
+   "prev": "Lycee Paul Eluard",
+   "name": "Sami Ameziane"
+  },
+  {
+   "num": "11",
+   "pos": "F/C",
+   "cls": "Jr.",
+   "ht": "6' 11''",
+   "wt": "235 lbs",
+   "home": "Peekskill, N.Y.",
+   "prev": "Peekskill HS",
+   "name": "Hilton Armstrong"
+  },
+  {
+   "num": "12",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 2''",
+   "wt": "190 lbs",
+   "home": "Amityville, N.Y.",
+   "name": "A.J. Price"
+  },
+  {
+   "num": "13",
+   "pos": "F",
+   "cls": "Jr.",
+   "ht": "6' 6''",
+   "wt": "215 lbs",
+   "home": "Fort McMurray, Alberta",
+   "name": "Ryan Thompson"
+  },
+  {
+   "num": "21",
+   "pos": "F/C",
+   "cls": "So.",
+   "ht": "6' 10''",
+   "wt": "237 lbs",
+   "home": "Mt. Airy, Md.",
+   "prev": "West Nottingham Academy",
+   "name": "Josh Boone"
+  },
+  {
+   "num": "22",
+   "pos": "F",
+   "cls": "Fr.",
+   "ht": "6' 9''",
+   "wt": "220 lbs",
+   "home": "Baltimore, Md.",
+   "prev": "Archbishop Spalding HS",
+   "name": "Rudy Gay"
+  },
+  {
+   "num": "24",
+   "pos": "F",
+   "cls": "Sr.",
+   "ht": "6' 6''",
+   "wt": "250 lbs",
+   "home": "Southbury, CT",
+   "prev": "Pomperaug HS",
+   "name": "Jason Baisch"
+  },
+  {
+   "num": "31",
+   "pos": "G/F",
+   "cls": "Jr.",
+   "ht": "6' 5''",
+   "wt": "215 lbs",
+   "home": "Lakeland, Fla.",
+   "prev": "Kathleen HS",
+   "name": "Rashad Anderson"
+  },
+  {
+   "num": "32",
+   "pos": "F",
+   "cls": "Jr.",
+   "ht": "6' 8''",
+   "wt": "260 lbs",
+   "home": "Fort Lauderdale, Fla.",
+   "prev": "Georgia Tech",
+   "name": "Ed Nelson"
+  },
+  {
+   "num": "33",
+   "pos": "F",
+   "cls": "Jr.",
+   "ht": "6' 6''",
+   "wt": "220 lbs",
+   "home": "Toronto, Canada",
+   "prev": "West Hill Collegiate",
+   "name": "Denham Brown"
+  },
+  {
+   "num": "35",
+   "pos": "G",
+   "cls": "So.",
+   "wt": "185 lbs",
+   "home": "Vernon, CT",
+   "prev": "Rockville HS",
+   "name": "Martin Gagne"
+  },
+  {
+   "num": "45",
+   "pos": "G",
+   "cls": "Jr.",
+   "ht": "5' 11''",
+   "wt": "170 lbs",
+   "home": "Bloomfield, CT",
+   "prev": "Bloomfield HS",
+   "name": "Leeshan Reid"
+  },
+  {
+   "num": "55",
+   "pos": "F",
+   "cls": "Jr.",
+   "ht": "6' 4''",
+   "wt": "210 lbs",
+   "home": "Westbrook, Conn.",
+   "prev": "Westbrook HS",
+   "name": "Nick Forostoski"
+  }
+ ],
+ "2006": [
+  {
+   "num": "1",
+   "pos": "F/G",
+   "cls": "Fr.",
+   "ht": "6' 6''",
+   "wt": "195 lbs",
+   "home": "Los Angeles, Calif.",
+   "prev": "Westchester HS",
+   "name": "Marcus Johnson"
+  },
+  {
+   "num": "4",
+   "pos": "F",
+   "cls": "Fr.",
+   "ht": "6' 6''",
+   "wt": "225 lbs",
+   "home": "Brookline, Mass.",
+   "name": "Jeff Adrien"
+  },
+  {
+   "num": "5",
+   "pos": "G",
+   "cls": "Jr.",
+   "ht": "6' 3''",
+   "wt": "205 lbs",
+   "home": "Los Angeles, Calif.",
+   "prev": "Oak Hill Academy",
+   "name": "Marcus Williams"
+  },
+  {
+   "num": "10",
+   "pos": "G",
+   "cls": "So.",
+   "ht": "6' 2''",
+   "wt": "180 lbs",
+   "home": "Mansfield, Conn.",
+   "prev": "E.O. Smith HS",
+   "name": "Ben Spencer"
+  },
+  {
+   "num": "11",
+   "pos": "F/C",
+   "cls": "Sr.",
+   "ht": "6' 11''",
+   "wt": "235 lbs",
+   "home": "Peekskill, N.Y.",
+   "prev": "Peekskill HS",
+   "name": "Hilton Armstrong"
+  },
+  {
+   "num": "13",
+   "pos": "G/F",
+   "cls": "Sr.",
+   "ht": "6' 6''",
+   "wt": "215 lbs",
+   "home": "Fort McMurray, Alberta",
+   "name": "Ryan Thompson"
+  },
+  {
+   "num": "21",
+   "pos": "F/C",
+   "cls": "Jr.",
+   "ht": "6' 10''",
+   "wt": "237 lbs",
+   "home": "Mt. Airy, Md.",
+   "prev": "West Nottingham Academy",
+   "name": "Josh Boone"
+  },
+  {
+   "num": "22",
+   "pos": "F",
+   "cls": "So.",
+   "ht": "6' 9''",
+   "wt": "220 lbs",
+   "home": "Baltimore, Md.",
+   "prev": "Archbishop Spalding HS",
+   "name": "Rudy Gay"
+  },
+  {
+   "num": "24",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 3''",
+   "wt": "185 lbs",
+   "home": "Stamford, Conn.",
+   "name": "Craig Austrie"
+  },
+  {
+   "num": "25",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 2''",
+   "wt": "185 lbs",
+   "home": "Niagara Falls, N.Y.",
+   "prev": "Niagara Falls HS",
+   "name": "Rob Garrison"
+  },
+  {
+   "num": "31",
+   "pos": "G/F",
+   "cls": "Sr.",
+   "ht": "6' 5''",
+   "wt": "215 lbs",
+   "home": "Lakeland, Fla.",
+   "prev": "Kathleen HS",
+   "name": "Rashad Anderson"
+  },
+  {
+   "num": "32",
+   "pos": "F",
+   "cls": "Sr.",
+   "ht": "6' 8''",
+   "wt": "260 lbs",
+   "home": "Fort Lauderdale, Fla.",
+   "prev": "Georgia Tech",
+   "name": "Ed Nelson"
+  },
+  {
+   "num": "33",
+   "pos": "F",
+   "cls": "Sr.",
+   "ht": "6' 6''",
+   "wt": "220 lbs",
+   "home": "Toronto, Canada",
+   "prev": "West Hill Collegiate",
+   "name": "Denham Brown"
+  },
+  {
+   "num": "35",
+   "pos": "G",
+   "cls": "Jr.",
+   "wt": "185 lbs",
+   "home": "Vernon, Conn.",
+   "prev": "Rockville HS",
+   "name": "Marty Gagne"
+  },
+  {
+   "num": "45",
+   "pos": "F",
+   "cls": "Sr.",
+   "ht": "6' 3''",
+   "wt": "215 lbs",
+   "home": "Danbury, Conn.",
+   "prev": "Danbury HS",
+   "name": "Osazee Omokaro"
+  },
+  {
+   "num": "55",
+   "pos": "F",
+   "cls": "Sr.",
+   "ht": "6' 4''",
+   "wt": "210 lbs",
+   "home": "Westbrook, Conn.",
+   "prev": "Westbrook HS",
+   "name": "Nick Forostoski"
+  }
+ ],
+ "2007": [
+  {
+   "num": "1",
+   "pos": "F/G",
+   "cls": "So.",
+   "ht": "6' 6''",
+   "wt": "195 lbs",
+   "home": "Los Angeles, Calif.",
+   "prev": "Westchester HS",
+   "name": "Marcus Johnson"
+  },
+  {
+   "num": "2",
+   "pos": "F/G",
+   "cls": "Fr.",
+   "ht": "6' 7''",
+   "wt": "218 lbs",
+   "home": "Lancashire, England",
+   "prev": "Worcester (Mass. Academy",
+   "name": "Ben Eaves"
+  },
+  {
+   "num": "3",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 1''",
+   "wt": "165 lbs",
+   "home": "East Hartford, Conn.",
+   "prev": "East Hartford HS",
+   "name": "Doug Wiggins"
+  },
+  {
+   "num": "4",
+   "pos": "F",
+   "cls": "So.",
+   "ht": "6' 7''",
+   "wt": "238 lbs",
+   "home": "Brookline, Mass.",
+   "name": "Jeff Adrien"
+  },
+  {
+   "num": "10",
+   "pos": "G",
+   "cls": "Jr.",
+   "ht": "6' 2''",
+   "wt": "180 lbs",
+   "home": "Mansfield, Conn.",
+   "prev": "E.O. Smith HS",
+   "name": "Ben Spencer"
+  },
+  {
+   "num": "11",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 3''",
+   "wt": "190 lbs",
+   "home": "Potomac, Md.",
+   "name": "Jerome Dyson"
+  },
+  {
+   "num": "12",
+   "pos": "G",
+   "cls": "So.",
+   "ht": "6' 2''",
+   "wt": "187 lbs",
+   "home": "Amityville, N.Y.",
+   "name": "A.J. Price"
+  },
+  {
+   "num": "14",
+   "pos": "F",
+   "cls": "Fr.",
+   "ht": "6' 9''",
+   "wt": "217 lbs",
+   "home": "Queens, N.Y.",
+   "prev": "Rice HS",
+   "name": "Curtis Kelly"
+  },
+  {
+   "num": "21",
+   "pos": "F",
+   "cls": "Fr.",
+   "ht": "6' 9''",
+   "wt": "210 lbs",
+   "home": "Birmingham, Ala.",
+   "name": "Stanley Robinson"
+  },
+  {
+   "num": "24",
+   "pos": "G",
+   "cls": "So.",
+   "ht": "6' 3''",
+   "wt": "185 lbs",
+   "home": "Stamford, Conn.",
+   "name": "Craig Austrie"
+  },
+  {
+   "num": "25",
+   "pos": "G",
+   "cls": "So.",
+   "ht": "6' 2''",
+   "wt": "185 lbs",
+   "home": "Niagara Falls, N.Y.",
+   "prev": "Niagara Falls HS",
+   "name": "Rob Garrison"
+  },
+  {
+   "num": "32",
+   "pos": "C",
+   "cls": "Fr.",
+   "ht": "6' 11''",
+   "wt": "230 lbs",
+   "home": "Stone Mountain, Ga.",
+   "name": "Jonathan Mandeldove"
+  },
+  {
+   "num": "33",
+   "pos": "F/C",
+   "cls": "Fr.",
+   "ht": "6' 9''",
+   "wt": "230 lbs",
+   "home": "Gilbert, Ariz.",
+   "name": "Gavin Edwards"
+  },
+  {
+   "num": "34",
+   "pos": "C",
+   "cls": "Fr.",
+   "ht": "7' 3''",
+   "wt": "255 lbs",
+   "home": "Dar Es Salaam, Tanzania",
+   "name": "Hasheem Thabeet"
+  },
+  {
+   "num": "35",
+   "pos": "G",
+   "cls": "Sr.",
+   "ht": "6' 6''",
+   "wt": "185 lbs",
+   "home": "Vernon, Conn.",
+   "prev": "Rockville HS",
+   "name": "Marty Gagne"
+  }
+ ],
+ "2008": [
+  {
+   "num": "2",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 4''",
+   "wt": "190 lbs",
+   "home": "Los Angeles, Calif.",
+   "name": "Donnell Beverly"
+  },
+  {
+   "num": "4",
+   "pos": "F",
+   "cls": "Jr.",
+   "ht": "6' 7''",
+   "wt": "243 lbs",
+   "home": "Brookline, Mass.",
+   "name": "Jeff Adrien"
+  },
+  {
+   "num": "11",
+   "pos": "G",
+   "cls": "So.",
+   "ht": "6' 4''",
+   "wt": "190 lbs",
+   "home": "Potomac, Md.",
+   "name": "Jerome Dyson"
+  },
+  {
+   "num": "12",
+   "pos": "G",
+   "cls": "Jr.",
+   "ht": "6' 2''",
+   "wt": "181 lbs",
+   "home": "Amityville, N.Y.",
+   "name": "A.J. Price"
+  },
+  {
+   "num": "21",
+   "pos": "F",
+   "cls": "So.",
+   "ht": "6' 9''",
+   "wt": "200 lbs",
+   "home": "Birmingham, Ala.",
+   "name": "Stanley Robinson"
+  },
+  {
+   "num": "24",
+   "pos": "G",
+   "cls": "Jr.",
+   "ht": "6' 3''",
+   "wt": "176 lbs",
+   "home": "Stamford, Conn.",
+   "name": "Craig Austrie"
+  },
+  {
+   "num": "30",
+   "pos": "F",
+   "cls": "Jr.",
+   "ht": "6' 8''",
+   "wt": "200 lbs",
+   "home": "Durham, Conn.",
+   "name": "Jim Veronick"
+  },
+  {
+   "num": "32",
+   "pos": "C",
+   "cls": "So.",
+   "wt": "240 lbs",
+   "home": "Stone Mountain, Ga.",
+   "name": "Jonathan Mandeldove"
+  },
+  {
+   "num": "33",
+   "pos": "F",
+   "cls": "So.",
+   "ht": "6' 9''",
+   "wt": "234 lbs",
+   "home": "Gilbert, Ariz.",
+   "name": "Gavin Edwards"
+  },
+  {
+   "num": "34",
+   "pos": "C",
+   "cls": "So.",
+   "ht": "7' 3''",
+   "wt": "263 lbs",
+   "home": "Dar Es Salaam, Tanzania",
+   "name": "Hasheem Thabeet"
+  },
+  {
+   "num": "35",
+   "pos": "F",
+   "cls": "So.",
+   "ht": "6' 5''",
+   "wt": "205 lbs",
+   "home": "South Windsor, Conn.",
+   "name": "Alex Hornat"
+  },
+  {
+   "num": "40",
+   "pos": "G",
+   "cls": "Jr.",
+   "wt": "165 lbs",
+   "home": "Fort Bragg, N.C.",
+   "name": "Johnnie Bird"
+  },
+  {
+   "num": "45",
+   "pos": "F",
+   "cls": "Jr.",
+   "ht": "6' 5''",
+   "wt": "265 lbs",
+   "home": "Cheshire, Conn.",
+   "name": "John Lindner"
+  },
+  {
+   "num": "55",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 3''",
+   "wt": "170 lbs",
+   "home": "Lancaster, N.H.",
+   "name": "Kyle Bailey"
+  }
+ ],
+ "2009": [
+  {
+   "num": "2",
+   "pos": "Guard",
+   "cls": "So.",
+   "ht": "6' 4''",
+   "wt": "190 lbs",
+   "home": "Los Angeles, Calif.",
+   "name": "Donnell Beverly"
+  },
+  {
+   "num": "4",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 7''",
+   "wt": "243 lbs",
+   "home": "Brookline, Mass.",
+   "name": "Jeff Adrien"
+  },
+  {
+   "num": "10",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "wt": "165 lbs",
+   "home": "Fort Bragg, N.C.",
+   "name": "Johnnie Bird"
+  },
+  {
+   "num": "11",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 3''",
+   "wt": "180 lbs",
+   "home": "Potomac, Md.",
+   "name": "Jerome Dyson"
+  },
+  {
+   "num": "12",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 2''",
+   "wt": "190 lbs",
+   "home": "Amityville, N.Y.",
+   "name": "A.J. Price"
+  },
+  {
+   "num": "13",
+   "pos": "Forward",
+   "cls": "Jr.",
+   "ht": "6' 5''",
+   "wt": "205 lbs",
+   "home": "South Windsor, Conn.",
+   "name": "Alex Hornat"
+  },
+  {
+   "num": "15",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 1''",
+   "wt": "172 lbs",
+   "home": "Bronx, N.Y.",
+   "name": "Kemba Walker"
+  },
+  {
+   "num": "21",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 9''",
+   "wt": "220 lbs",
+   "home": "Birmingham, Ala.",
+   "name": "Stanley Robinson"
+  },
+  {
+   "num": "24",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 3''",
+   "wt": "176 lbs",
+   "home": "Stamford, Conn.",
+   "name": "Craig Austrie"
+  },
+  {
+   "num": "32",
+   "pos": "Center",
+   "cls": "Jr.",
+   "ht": "6' 11''",
+   "wt": "220 lbs",
+   "home": "Stone Mountain, Ga.",
+   "name": "Jonathan Mandeldove"
+  },
+  {
+   "num": "33",
+   "pos": "Forward/Center",
+   "cls": "Jr.",
+   "ht": "6' 9''",
+   "wt": "230 lbs",
+   "home": "Gilbert, Ariz.",
+   "name": "Gavin Edwards"
+  },
+  {
+   "num": "34",
+   "pos": "Center",
+   "cls": "Jr.",
+   "ht": "7' 3''",
+   "wt": "265 lbs",
+   "home": "Dar Es Salaam, Tanzania",
+   "name": "Hasheem Thabeet"
+  },
+  {
+   "num": "35",
+   "pos": "Center",
+   "cls": "So.",
+   "ht": "7' 1''",
+   "wt": "255 lbs",
+   "home": "Lagos, Nigeria",
+   "name": "Charles Okwandu"
+  },
+  {
+   "num": "40",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 8''",
+   "wt": "200 lbs",
+   "home": "Durham, Conn.",
+   "name": "Jim Veronick"
+  },
+  {
+   "num": "45",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 5''",
+   "wt": "265 lbs",
+   "home": "Cheshire, Conn.",
+   "name": "John Lindner"
+  },
+  {
+   "num": "55",
+   "pos": "Guard",
+   "cls": "So.",
+   "ht": "6' 3''",
+   "wt": "170 lbs",
+   "home": "Lancaster, N.H.",
+   "name": "Kyle Bailey"
+  }
+ ],
+ "2010": [
+  {
+   "num": "2",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 4''",
+   "wt": "190 lbs",
+   "home": "Los Angeles, Calif.",
+   "name": "Donnell Beverly"
+  },
+  {
+   "num": "4",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 7''",
+   "wt": "210 lbs",
+   "home": "Dorchester, Mass.",
+   "name": "Jamal Coombs-McDaniel"
+  },
+  {
+   "num": "5",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 11''",
+   "wt": "233 lbs",
+   "home": "Sydney, Australia",
+   "name": "Ater Majok"
+  },
+  {
+   "num": "11",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 4''",
+   "wt": "190 lbs",
+   "home": "Potomac, Md.",
+   "name": "Jerome Dyson"
+  },
+  {
+   "num": "13",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 5''",
+   "wt": "220 lbs",
+   "home": "Los Angeles, Calif.",
+   "name": "Jamaal Trice"
+  },
+  {
+   "num": "15",
+   "pos": "Guard",
+   "cls": "So.",
+   "ht": "6' 1''",
+   "wt": "172 lbs",
+   "home": "Bronx, N.Y.",
+   "name": "Kemba Walker"
+  },
+  {
+   "num": "21",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 9''",
+   "wt": "220 lbs",
+   "home": "Birmingham, Ala.",
+   "name": "Stanley Robinson"
+  },
+  {
+   "num": "22",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 5''",
+   "wt": "205 lbs",
+   "home": "South Windsor, Conn.",
+   "name": "Alex Hornat"
+  },
+  {
+   "num": "24",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 1''",
+   "wt": "168 lbs",
+   "home": "Chicago, Ill.",
+   "name": "Darius Smith"
+  },
+  {
+   "num": "32",
+   "pos": "Center",
+   "cls": "Sr.",
+   "wt": "240 lbs",
+   "home": "Stone Mountain, Ga.",
+   "name": "Jonathan Mandeldove"
+  },
+  {
+   "num": "33",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 10''",
+   "wt": "230 lbs",
+   "home": "Gilbert, Ariz.",
+   "name": "Gavin Edwards"
+  },
+  {
+   "num": "34",
+   "pos": "Forward/Center",
+   "cls": "Fr.",
+   "ht": "6' 9''",
+   "wt": "240 lbs",
+   "home": "Lowell, Mass.",
+   "name": "Alex Oriakhi"
+  },
+  {
+   "num": "35",
+   "pos": "Center",
+   "cls": "Jr.",
+   "wt": "255 lbs",
+   "home": "Lagos, Nigeria",
+   "name": "Charles Okwandu"
+  },
+  {
+   "num": "55",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 3''",
+   "wt": "170 lbs",
+   "home": "Lancaster, N.H.",
+   "name": "Kyle Bailey"
+  }
+ ],
+ "2011": [
+  {
+   "num": "1",
+   "pos": "Center",
+   "cls": "Fr.",
+   "ht": "7' 1''",
+   "wt": "260 lbs",
+   "home": "Goettingen, Germany",
+   "name": "Enosch Wolf"
+  },
+  {
+   "num": "2",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 4''",
+   "wt": "190 lbs",
+   "home": "Los Angeles, Calif.",
+   "name": "Donnell Beverly"
+  },
+  {
+   "num": "3",
+   "pos": "Guard/Forward",
+   "cls": "Fr.",
+   "ht": "6' 5''",
+   "wt": "185 lbs",
+   "home": "Norcross, Ga.",
+   "name": "Jeremy Lamb"
+  },
+  {
+   "num": "4",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 7''",
+   "wt": "210 lbs",
+   "home": "Dorchester, Mass.",
+   "name": "Jamal Coombs-McDaniel"
+  },
+  {
+   "num": "5",
+   "pos": "Guard/Forward",
+   "cls": "Fr.",
+   "ht": "6' 7''",
+   "wt": "210 lbs",
+   "home": "Berlin, Germany",
+   "name": "Niels Giffey"
+  },
+  {
+   "num": "10",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 9''",
+   "wt": "225 lbs",
+   "home": "Mansfield, Conn.",
+   "name": "Tyler Olander"
+  },
+  {
+   "num": "13",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "wt": "170 lbs",
+   "home": "Roxbury, Mass.",
+   "name": "Shabazz Napier"
+  },
+  {
+   "num": "15",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 1''",
+   "wt": "172 lbs",
+   "home": "Bronx, N.Y.",
+   "name": "Kemba Walker"
+  },
+  {
+   "num": "21",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 3''",
+   "wt": "170 lbs",
+   "home": "Lancaster, N.H.",
+   "name": "Kyle Bailey"
+  },
+  {
+   "num": "22",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 8''",
+   "wt": "205 lbs",
+   "home": "Baltimore, Md.",
+   "name": "Roscoe Smith"
+  },
+  {
+   "num": "23",
+   "pos": "Forward",
+   "cls": "Jr.",
+   "ht": "6' 5''",
+   "wt": "205 lbs",
+   "home": "Denver, Colo.",
+   "name": "Benjamin Stewart"
+  },
+  {
+   "num": "25",
+   "pos": "Center/Forward",
+   "cls": "Fr.",
+   "ht": "6' 10''",
+   "wt": "235 lbs",
+   "home": "Chattanooga, Tenn.",
+   "name": "Michael Bradley"
+  },
+  {
+   "num": "34",
+   "pos": "Forward/Center",
+   "cls": "So.",
+   "ht": "6' 9''",
+   "wt": "240 lbs",
+   "home": "Lowell, Mass.",
+   "name": "Alex Oriakhi"
+  },
+  {
+   "num": "35",
+   "pos": "Center",
+   "cls": "Sr.",
+   "ht": "7' 1''",
+   "wt": "255 lbs",
+   "home": "Lagos, Nigeria",
+   "name": "Charles Okwandu"
+  }
+ ],
+ "2012": [
+  {
+   "num": "1",
+   "pos": "Center",
+   "cls": "So.",
+   "ht": "7' 1''",
+   "wt": "245 lbs",
+   "home": "Goettingen, Germany",
+   "name": "Enosch Wolf"
+  },
+  {
+   "num": "2",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 8''",
+   "wt": "195 lbs",
+   "home": "Los Angeles, Calif.",
+   "name": "DeAndre Daniels"
+  },
+  {
+   "num": "3",
+   "pos": "Guard/Forward",
+   "cls": "So.",
+   "ht": "6' 5''",
+   "wt": "180 lbs",
+   "home": "Norcross, Ga.",
+   "name": "Jeremy Lamb"
+  },
+  {
+   "num": "4",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 3''",
+   "wt": "187 lbs",
+   "home": "Windsor, Conn.",
+   "name": "Brendan Allen"
+  },
+  {
+   "num": "5",
+   "pos": "Guard/Forward",
+   "cls": "So.",
+   "ht": "6' 7''",
+   "wt": "205 lbs",
+   "home": "Berlin, Germany",
+   "name": "Niels Giffey"
+  },
+  {
+   "num": "10",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 9''",
+   "wt": "225 lbs",
+   "home": "Mansfield, Conn.",
+   "name": "Tyler Olander"
+  },
+  {
+   "num": "11",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "wt": "160 lbs",
+   "home": "Aurora, Ill.",
+   "name": "Ryan Boatright"
+  },
+  {
+   "num": "12",
+   "pos": "Center",
+   "cls": "Fr.",
+   "ht": "6' 10''",
+   "wt": "270 lbs",
+   "home": "Middletown, Conn.",
+   "name": "Andre Drummond"
+  },
+  {
+   "num": "13",
+   "pos": "Guard",
+   "cls": "So.",
+   "ht": "6' 1''",
+   "wt": "171 lbs",
+   "home": "Roxbury, Mass.",
+   "name": "Shabazz Napier"
+  },
+  {
+   "num": "14",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 2''",
+   "wt": "200 lbs",
+   "home": "Newtown, Conn.",
+   "name": "P.J. Cochrane"
+  },
+  {
+   "num": "21",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 3''",
+   "wt": "170 lbs",
+   "home": "Lancaster, N.H.",
+   "name": "Kyle Bailey"
+  },
+  {
+   "num": "22",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 8''",
+   "wt": "205 lbs",
+   "home": "Baltimore, Md.",
+   "name": "Roscoe Smith"
+  },
+  {
+   "num": "23",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 5''",
+   "wt": "205 lbs",
+   "home": "Denver, Colo.",
+   "name": "Benjamin Stewart"
+  },
+  {
+   "num": "25",
+   "pos": "Center/Forward",
+   "cls": "R-Fr.",
+   "ht": "6' 10''",
+   "wt": "225 lbs",
+   "home": "Chattanooga, Tenn.",
+   "name": "Michael Bradley"
+  },
+  {
+   "num": "34",
+   "pos": "Forward/Center",
+   "cls": "Jr.",
+   "ht": "6' 9''",
+   "wt": "240 lbs",
+   "home": "Lowell, Mass.",
+   "name": "Alex Oriakhi"
+  },
+  {
+   "num": "40",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "5' 10''",
+   "wt": "165 lbs",
+   "home": "East Hartford, Conn.",
+   "name": "Ethan Waite"
+  }
+ ],
+ "2013": [
+  {
+   "num": "0",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 9''",
+   "wt": "203 lbs",
+   "home": "Milwaukee, Wis.",
+   "name": "Phillip Nolan"
+  },
+  {
+   "num": "1",
+   "pos": "Center",
+   "cls": "Jr.",
+   "ht": "7' 1''",
+   "wt": "245 lbs",
+   "home": "Goettingen, Germany",
+   "name": "Enosch Wolf"
+  },
+  {
+   "num": "2",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 8''",
+   "wt": "195 lbs",
+   "home": "Los Angeles, Calif.",
+   "name": "DeAndre Daniels"
+  },
+  {
+   "num": "4",
+   "pos": "Guard",
+   "cls": "So.",
+   "ht": "6' 3''",
+   "wt": "187 lbs",
+   "home": "Windsor, Conn.",
+   "name": "Brendan Allen"
+  },
+  {
+   "num": "5",
+   "pos": "Guard/Forward",
+   "cls": "Jr.",
+   "ht": "6' 7''",
+   "wt": "205 lbs",
+   "home": "Berlin, Germany",
+   "name": "Niels Giffey"
+  },
+  {
+   "num": "10",
+   "pos": "Forward",
+   "cls": "Jr.",
+   "ht": "6' 9''",
+   "wt": "225 lbs",
+   "home": "Mansfield, Conn.",
+   "name": "Tyler Olander"
+  },
+  {
+   "num": "11",
+   "pos": "Guard",
+   "cls": "So.",
+   "wt": "160 lbs",
+   "home": "Aurora, Ill.",
+   "name": "Ryan Boatright"
+  },
+  {
+   "num": "12",
+   "pos": "Guard",
+   "cls": "5th",
+   "ht": "6' 3''",
+   "wt": "210 lbs",
+   "home": "Salem, Conn.",
+   "name": "R.J. Evans"
+  },
+  {
+   "num": "13",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 1''",
+   "wt": "171 lbs",
+   "home": "Roxbury, Mass.",
+   "name": "Shabazz Napier"
+  },
+  {
+   "num": "21",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 5''",
+   "wt": "192 lbs",
+   "home": "Brooklyn, N.Y.",
+   "name": "Omar Calhoun"
+  },
+  {
+   "num": "22",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 8''",
+   "wt": "220 lbs",
+   "home": "Berlin, Germany",
+   "name": "Leon Tolksdorf"
+  }
+ ],
+ "2014": [
+  {
+   "num": "0",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 10''",
+   "wt": "212 lbs",
+   "home": "Milwaukee, Wis.",
+   "name": "Phillip Nolan"
+  },
+  {
+   "num": "2",
+   "pos": "Forward",
+   "cls": "Jr.",
+   "ht": "6' 9''",
+   "wt": "195 lbs",
+   "home": "Los Angeles, Calif.",
+   "name": "DeAndre Daniels"
+  },
+  {
+   "num": "3",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 4''",
+   "wt": "190 lbs",
+   "home": "Brooklyn, N.Y.",
+   "name": "Terrence Samuel"
+  },
+  {
+   "num": "5",
+   "pos": "Guard/Forward",
+   "cls": "Sr.",
+   "ht": "6' 7''",
+   "wt": "205 lbs",
+   "home": "Berlin, Germany",
+   "name": "Niels Giffey"
+  },
+  {
+   "num": "10",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 10''",
+   "wt": "230 lbs",
+   "home": "Mansfield, Conn.",
+   "name": "Tyler Olander"
+  },
+  {
+   "num": "11",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "wt": "168 lbs",
+   "home": "Aurora, Ill.",
+   "name": "Ryan Boatright"
+  },
+  {
+   "num": "12",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 9''",
+   "wt": "200 lbs",
+   "home": "Trelawny, Jamaica",
+   "name": "Kentan Facey"
+  },
+  {
+   "num": "13",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 1''",
+   "wt": "180 lbs",
+   "home": "Roxbury, Mass.",
+   "name": "Shabazz Napier"
+  },
+  {
+   "num": "14",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 3''",
+   "wt": "181 lbs",
+   "home": "Cheshire, Conn.",
+   "name": "Pat Lenehan"
+  },
+  {
+   "num": "20",
+   "pos": "Guard/Forward",
+   "cls": "5th",
+   "ht": "6' 6''",
+   "wt": "201 lbs",
+   "home": "Greenbelt, Md.",
+   "name": "Lasan Kromah"
+  },
+  {
+   "num": "21",
+   "pos": "Guard",
+   "cls": "So.",
+   "ht": "6' 6''",
+   "wt": "200 lbs",
+   "home": "Brooklyn, N.Y.",
+   "name": "Omar Calhoun"
+  },
+  {
+   "num": "22",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 8''",
+   "wt": "218 lbs",
+   "home": "Berlin, Germany",
+   "name": "Leon Tolksdorf"
+  },
+  {
+   "num": "25",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 1''",
+   "wt": "202 lbs",
+   "home": "Brooklyn, N.Y.",
+   "name": "Tor Watts"
+  },
+  {
+   "num": "35",
+   "pos": "Center",
+   "cls": "Fr.",
+   "wt": "217 lbs",
+   "home": "Accra, Ghana",
+   "name": "Amida Brimah"
+  },
+  {
+   "num": "44",
+   "pos": "Guard",
+   "cls": "R-So.",
+   "ht": "6' 4''",
+   "wt": "203 lbs",
+   "home": "Raleigh. N.C.",
+   "name": "Rodney Purvis"
+  }
+ ],
+ "2015": [
+  {
+   "num": "1",
+   "pos": "Forward",
+   "cls": "Jr.",
+   "ht": "6' 10''",
+   "wt": "237 lbs",
+   "home": "Milwaukee, Wis.",
+   "name": "Phillip Nolan"
+  },
+  {
+   "num": "3",
+   "pos": "Guard",
+   "cls": "So.",
+   "ht": "6' 4''",
+   "wt": "202 lbs",
+   "home": "Brooklyn, N.Y.",
+   "name": "Terrence Samuel"
+  },
+  {
+   "num": "5",
+   "pos": "Guard/Forward",
+   "cls": "Fr.",
+   "ht": "6' 7''",
+   "wt": "190 lbs",
+   "home": "Los Angeles, Calif.",
+   "name": "Daniel Hamilton"
+  },
+  {
+   "num": "10",
+   "pos": "Guard",
+   "cls": "R-So.",
+   "ht": "6' 4''",
+   "wt": "192 lbs",
+   "home": "Baltimore, Md.",
+   "name": "Sam Cassell Jr."
+  },
+  {
+   "num": "11",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "wt": "175 lbs",
+   "home": "Aurora, Ill.",
+   "name": "Ryan Boatright"
+  },
+  {
+   "num": "12",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 9''",
+   "wt": "206 lbs",
+   "home": "Trelawny, Jamaica",
+   "name": "Kentan Facey"
+  },
+  {
+   "num": "14",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 8''",
+   "wt": "260 lbs",
+   "home": "Miami, Fla.",
+   "name": "Rakim Lubin"
+  },
+  {
+   "num": "21",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 5''",
+   "wt": "205 lbs",
+   "home": "Brooklyn, N.Y.",
+   "name": "Omar Calhoun"
+  },
+  {
+   "num": "22",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 3''",
+   "wt": "190 lbs",
+   "home": "Cheshire, Conn.",
+   "name": "Pat Lenehan"
+  },
+  {
+   "num": "23",
+   "pos": "Forward",
+   "cls": "Jr.",
+   "ht": "6' 3''",
+   "wt": "225 lbs",
+   "home": "New Fairfield, Conn.",
+   "name": "Nnamdi Amilo"
+  },
+  {
+   "num": "24",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 2''",
+   "wt": "214 lbs",
+   "home": "West Hartford, Conn.",
+   "name": "Dan Guest"
+  },
+  {
+   "num": "33",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 2''",
+   "wt": "209 lbs",
+   "home": "Stamford, Conn.",
+   "name": "Terrance Ditimi"
+  },
+  {
+   "num": "35",
+   "pos": "Center",
+   "cls": "So.",
+   "wt": "230 lbs",
+   "home": "Accra, Ghana",
+   "name": "Amida Brimah"
+  },
+  {
+   "num": "44",
+   "pos": "Guard",
+   "cls": "R-So.",
+   "ht": "6' 4''",
+   "wt": "205 lbs",
+   "home": "Raleigh. N.C.",
+   "name": "Rodney Purvis"
+  }
+ ],
+ "2016": [
+  {
+   "num": "0",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 10''",
+   "wt": "230 lbs",
+   "home": "Milwaukee, Wis.",
+   "name": "Phillip Nolan"
+  },
+  {
+   "num": "2",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 3''",
+   "wt": "187 lbs",
+   "home": "Roxbury, Mass.",
+   "name": "Jalen Adams"
+  },
+  {
+   "num": "4",
+   "pos": "Guard",
+   "cls": "5th",
+   "ht": "6' 2''",
+   "wt": "191 lbs",
+   "home": "Scotch Plains, N.J.",
+   "name": "Sterling Gibbs"
+  },
+  {
+   "num": "5",
+   "pos": "Guard/Forward",
+   "cls": "So.",
+   "ht": "6' 7''",
+   "wt": "195 lbs",
+   "home": "Los Angeles, Calif.",
+   "name": "Daniel Hamilton"
+  },
+  {
+   "num": "10",
+   "pos": "Guard",
+   "cls": "R-Jr.",
+   "ht": "6' 4''",
+   "wt": "194 lbs",
+   "home": "Baltimore, Md.",
+   "name": "Sam Cassell Jr."
+  },
+  {
+   "num": "12",
+   "pos": "Forward",
+   "cls": "Jr.",
+   "ht": "6' 10''",
+   "wt": "217 lbs",
+   "home": "Trelawny, Jamaica",
+   "name": "Kentan Facey"
+  },
+  {
+   "num": "13",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 11''",
+   "wt": "245 lbs",
+   "home": "Norwalk, Conn.",
+   "name": "Steven Enoch"
+  },
+  {
+   "num": "21",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 6''",
+   "wt": "205 lbs",
+   "home": "Brooklyn, N.Y.",
+   "name": "Omar Calhoun"
+  },
+  {
+   "num": "22",
+   "pos": "Guard/Forward",
+   "cls": "R-Fr.",
+   "ht": "6' 8''",
+   "wt": "195 lbs",
+   "home": "Bronx, N.Y.",
+   "name": "Terry Larrier"
+  },
+  {
+   "num": "23",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 4''",
+   "wt": "225 lbs",
+   "home": "New Fairfield, Conn.",
+   "name": "Nnamdi Amilo"
+  },
+  {
+   "num": "24",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 8''",
+   "wt": "223 lbs",
+   "home": "Rocky Hill, Conn.",
+   "name": "Christian Foxen"
+  },
+  {
+   "num": "31",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "5' 11''",
+   "wt": "185 lbs",
+   "home": "Granby, Conn.",
+   "name": "Michael Noyes"
+  },
+  {
+   "num": "32",
+   "pos": "Forward",
+   "cls": "5th",
+   "ht": "6' 7''",
+   "wt": "222 lbs",
+   "home": "Euclid, Ohio",
+   "name": "Shonn Miller"
+  },
+  {
+   "num": "35",
+   "pos": "Center",
+   "cls": "Jr.",
+   "wt": "232 lbs",
+   "home": "Accra, Ghana",
+   "name": "Amida Brimah"
+  },
+  {
+   "num": "44",
+   "pos": "Guard",
+   "cls": "R-Jr.",
+   "ht": "6' 4''",
+   "wt": "205 lbs",
+   "home": "Raleigh. N.C.",
+   "name": "Rodney Purvis"
+  },
+  {
+   "name": "Kevin Ollie"
+  },
+  {
+   "name": "Glen Miller"
+  },
+  {
+   "name": "Ricky Moore"
+  },
+  {
+   "name": "Dwayne Killings"
+  },
+  {
+   "name": "Kevin Freeman"
+  },
+  {
+   "name": "David Sevush"
+  },
+  {
+   "num": "0",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 10''",
+   "wt": "230 lbs",
+   "home": "Milwaukee, Wis.",
+   "name": "Position"
+  }
+ ],
+ "2017": [
+  {
+   "num": "1",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 2''",
+   "wt": "178 lbs",
+   "home": "Queens Village, N.Y.",
+   "name": "Christian Vital"
+  },
+  {
+   "num": "2",
+   "pos": "Guard",
+   "cls": "So.",
+   "ht": "6' 3''",
+   "wt": "195 lbs",
+   "home": "Roxbury, Mass.",
+   "name": "Jalen Adams"
+  },
+  {
+   "num": "3",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "wt": "175 lbs",
+   "home": "Atlanta, Ga.",
+   "name": "Alterique Gilbert"
+  },
+  {
+   "num": "5",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 8''",
+   "wt": "229 lbs",
+   "home": "Los Angeles, Calif.",
+   "name": "Vance Jackson"
+  },
+  {
+   "num": "12",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 10''",
+   "wt": "227 lbs",
+   "home": "Trelawny, Jamaica",
+   "name": "Kentan Facey"
+  },
+  {
+   "num": "13",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 11''",
+   "wt": "258 lbs",
+   "home": "Norwalk, Conn.",
+   "name": "Steven Enoch"
+  },
+  {
+   "num": "15",
+   "pos": "Guard",
+   "cls": "R-Sr.",
+   "ht": "6' 4''",
+   "wt": "205 lbs",
+   "home": "Raleigh. N.C.",
+   "name": "Rodney Purvis"
+  },
+  {
+   "num": "21",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 8''",
+   "wt": "215 lbs",
+   "home": "Queens, N.Y.",
+   "name": "Mamadou Diarra"
+  },
+  {
+   "num": "22",
+   "pos": "Guard/Forward",
+   "cls": "R-So.",
+   "ht": "6' 8''",
+   "wt": "192 lbs",
+   "home": "Bronx, N.Y.",
+   "name": "Terry Larrier"
+  },
+  {
+   "num": "23",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 11''",
+   "wt": "207 lbs",
+   "home": "Tampa, Fla.",
+   "name": "Juwan Durham"
+  },
+  {
+   "num": "24",
+   "pos": "Forward",
+   "cls": "Jr.",
+   "ht": "6' 8''",
+   "wt": "227 lbs",
+   "home": "Rocky Hill, Conn.",
+   "name": "Christian Foxen"
+  },
+  {
+   "num": "31",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "wt": "186 lbs",
+   "home": "Granby, Conn.",
+   "name": "Michael Noyes"
+  },
+  {
+   "num": "33",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 3''",
+   "wt": "198 lbs",
+   "home": "Branford, Conn.",
+   "name": "Restinel Lomotey"
+  },
+  {
+   "num": "35",
+   "pos": "Center",
+   "cls": "Sr.",
+   "wt": "230 lbs",
+   "home": "Accra, Ghana",
+   "name": "Amida Brimah"
+  },
+  {
+   "name": "Kevin Ollie"
+  },
+  {
+   "name": "Glen Miller"
+  },
+  {
+   "name": "Ricky Moore"
+  },
+  {
+   "name": "Dwayne Killings"
+  },
+  {
+   "name": "Kevin Freeman"
+  },
+  {
+   "name": "David Sevush"
+  },
+  {
+   "num": "1",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 2''",
+   "wt": "178 lbs",
+   "home": "Queens Village, N.Y.",
+   "name": "Position"
+  }
+ ],
+ "2018": [
+  {
+   "num": "0",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 9''",
+   "wt": "280 lbs",
+   "home": "Jacksonville, Fla.",
+   "name": "Eric Cobb"
+  },
+  {
+   "num": "1",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 2''",
+   "wt": "188 lbs",
+   "home": "Queens Village, N.Y.",
+   "name": "Christian Vital"
+  },
+  {
+   "num": "2",
+   "pos": "Guard",
+   "cls": "5th",
+   "ht": "6' 2''",
+   "wt": "185 lbs",
+   "home": "Ocean Township, N.J.",
+   "name": "Tarin Smith"
+  },
+  {
+   "num": "3",
+   "pos": "Guard",
+   "cls": "R-So.",
+   "wt": "171 lbs",
+   "home": "Atlanta, Ga.",
+   "name": "Alterique Gilbert"
+  },
+  {
+   "num": "4",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 3''",
+   "wt": "195 lbs",
+   "home": "Roxbury, Mass.",
+   "name": "Jalen Adams"
+  },
+  {
+   "num": "5",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 8''",
+   "wt": "190 lbs",
+   "home": "Gastonia, N.C.",
+   "name": "Isaiah Whaley"
+  },
+  {
+   "num": "10",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 3''",
+   "wt": "180 lbs",
+   "home": "Baltimore, Md.",
+   "name": "Brendan Adams"
+  },
+  {
+   "num": "12",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 8''",
+   "wt": "190 lbs",
+   "home": "Miramar, Fla.",
+   "name": "Tyler Polley"
+  },
+  {
+   "num": "14",
+   "pos": "Forward",
+   "cls": "5th",
+   "ht": "6' 7''",
+   "wt": "210 lbs",
+   "home": "Bamako, Mali",
+   "name": "Kassoum Yakwe"
+  },
+  {
+   "num": "15",
+   "pos": "Guard / Forward",
+   "cls": "R-Fr.",
+   "ht": "6' 7''",
+   "wt": "183 lbs",
+   "home": "Bronx, N.Y.",
+   "name": "Sidney Wilson"
+  },
+  {
+   "num": "21",
+   "pos": "Forward",
+   "cls": "R-So.",
+   "ht": "6' 8''",
+   "wt": "217 lbs",
+   "home": "Queens, N.Y.",
+   "name": "Mamadou Diarra"
+  },
+  {
+   "num": "22",
+   "pos": "Forward",
+   "cls": "Jr.",
+   "ht": "6' 7''",
+   "wt": "211 lbs",
+   "home": "Anchorage, Alaska",
+   "name": "Kwintin Williams"
+  },
+  {
+   "num": "25",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 9''",
+   "wt": "242 lbs",
+   "home": "Winterville, N.C.",
+   "name": "Josh Carlton"
+  },
+  {
+   "name": "Dan Hurley"
+  },
+  {
+   "name": "Tom Moore"
+  },
+  {
+   "name": "Kimani Young"
+  },
+  {
+   "name": "Kenya Hunter"
+  },
+  {
+   "name": "Eric Youncofski"
+  },
+  {
+   "name": "Tripp Doherty"
+  },
+  {
+   "name": "Kevin Freeman"
+  },
+  {
+   "num": "0",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 9''",
+   "wt": "280 lbs",
+   "home": "Jacksonville, Fla.",
+   "name": "Position"
+  }
+ ],
+ "2019": [
+  {
+   "num": "0",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 9''",
+   "wt": "249 lbs",
+   "home": "Jacksonville, Fla.",
+   "name": "Eric Cobb"
+  },
+  {
+   "num": "1",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 2''",
+   "wt": "177 lbs",
+   "home": "Queens Village, N.Y.",
+   "name": "Christian Vital"
+  },
+  {
+   "num": "2",
+   "pos": "Guard",
+   "cls": "5th",
+   "ht": "6' 3''",
+   "wt": "185 lbs",
+   "home": "Ocean Township, N.J.",
+   "name": "Tarin Smith"
+  },
+  {
+   "num": "3",
+   "pos": "Guard",
+   "cls": "R-So.",
+   "ht": "6' 0''",
+   "wt": "180 lbs",
+   "home": "Atlanta, Ga.",
+   "name": "Alterique Gilbert"
+  },
+  {
+   "num": "4",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 3''",
+   "wt": "195 lbs",
+   "home": "Roxbury, Mass.",
+   "name": "Jalen Adams"
+  },
+  {
+   "num": "5",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 8''",
+   "wt": "210 lbs",
+   "home": "Gastonia, N.C.",
+   "name": "Isaiah Whaley"
+  },
+  {
+   "num": "10",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 4''",
+   "wt": "196 lbs",
+   "home": "Baltimore, Md.",
+   "name": "Brendan Adams"
+  },
+  {
+   "num": "12",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 8''",
+   "wt": "200 lbs",
+   "home": "Miramar, Fla.",
+   "name": "Tyler Polley"
+  },
+  {
+   "num": "14",
+   "pos": "Forward",
+   "cls": "5th",
+   "ht": "6' 7''",
+   "wt": "212 lbs",
+   "home": "Bamako, Mali",
+   "name": "Kassoum Yakwe"
+  },
+  {
+   "num": "15",
+   "pos": "Guard / Forward",
+   "cls": "R-Fr.",
+   "ht": "6' 7''",
+   "wt": "177 lbs",
+   "home": "Bronx, N.Y.",
+   "name": "Sidney Wilson"
+  },
+  {
+   "num": "21",
+   "pos": "Forward",
+   "cls": "R-So.",
+   "ht": "6' 8''",
+   "wt": "225 lbs",
+   "home": "Queens, N.Y.",
+   "name": "Mamadou Diarra"
+  },
+  {
+   "num": "22",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 7''",
+   "wt": "221 lbs",
+   "home": "Anchorage, Alaska",
+   "name": "Kwintin Williams"
+  },
+  {
+   "num": "25",
+   "pos": "Forward-Center",
+   "cls": "So.",
+   "ht": "6' 10''",
+   "wt": "235 lbs",
+   "home": "Winterville, N.C.",
+   "name": "Josh Carlton"
+  },
+  {
+   "num": "40",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 8''",
+   "wt": "230 lbs",
+   "home": "West Hartford, Conn.",
+   "name": "Daniel Brocke"
+  },
+  {
+   "num": "45",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 4''",
+   "wt": "205 lbs",
+   "home": "Conshohocken, Pa.",
+   "name": "Temi Aiyegbusi"
+  },
+  {
+   "name": "Dan Hurley"
+  },
+  {
+   "name": "Tom Moore"
+  },
+  {
+   "name": "Kimani Young"
+  },
+  {
+   "name": "Kenya Hunter"
+  },
+  {
+   "name": "Eric Youncofski"
+  },
+  {
+   "name": "Taliek Brown"
+  },
+  {
+   "name": "Tripp Doherty"
+  },
+  {
+   "name": "Sal Alosi"
+  },
+  {
+   "num": "0",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 9''",
+   "wt": "249 lbs",
+   "home": "Jacksonville, Fla.",
+   "name": "Position"
+  }
+ ],
+ "2020": [
+  {
+   "num": "0",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 2''",
+   "wt": "175 lbs",
+   "home": "Columbus, N.J.",
+   "name": "Jalen Gaffney"
+  },
+  {
+   "num": "1",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 2''",
+   "wt": "187 lbs",
+   "home": "Queens Village, N.Y.",
+   "name": "Christian Vital"
+  },
+  {
+   "num": "2",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 4''",
+   "wt": "175 lbs",
+   "home": "Brooklyn, N.Y.",
+   "name": "James Bouknight"
+  },
+  {
+   "num": "3",
+   "pos": "Guard",
+   "cls": "R-Jr.",
+   "ht": "6' 0''",
+   "wt": "180 lbs",
+   "home": "Atlanta, Ga.",
+   "name": "Alterique Gilbert"
+  },
+  {
+   "num": "4",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 1''",
+   "wt": "185 lbs",
+   "home": "Union, N.J.",
+   "name": "R.J. Cole"
+  },
+  {
+   "num": "5",
+   "pos": "Forward",
+   "cls": "Jr.",
+   "ht": "6' 8''",
+   "wt": "220 lbs",
+   "home": "Gastonia, N.C.",
+   "name": "Isaiah Whaley"
+  },
+  {
+   "num": "10",
+   "pos": "Guard",
+   "cls": "So.",
+   "ht": "6' 4''",
+   "wt": "200 lbs",
+   "home": "Baltimore, Md.",
+   "name": "Brendan Adams"
+  },
+  {
+   "num": "12",
+   "pos": "Forward",
+   "cls": "Jr.",
+   "ht": "6' 9''",
+   "wt": "204 lbs",
+   "home": "Miramar, Fla.",
+   "name": "Tyler Polley"
+  },
+  {
+   "num": "13",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 9''",
+   "wt": "220 lbs",
+   "home": "Brooklyn, N.Y.",
+   "prev": "MacDuffie School",
+   "name": "Richie Springs"
+  },
+  {
+   "num": "15",
+   "pos": "Guard / Forward",
+   "cls": "R-So.",
+   "ht": "6' 7''",
+   "wt": "180 lbs",
+   "home": "Bronx, N.Y.",
+   "name": "Sidney Wilson"
+  },
+  {
+   "num": "23",
+   "pos": "Forward",
+   "cls": "R-Fr.",
+   "ht": "6' 9''",
+   "wt": "193 lbs",
+   "home": "Manchester, N.H.",
+   "name": "Akok Akok"
+  },
+  {
+   "num": "25",
+   "pos": "Forward-Center",
+   "cls": "Jr.",
+   "ht": "6' 11''",
+   "wt": "260 lbs",
+   "home": "Winterville, N.C.",
+   "name": "Josh Carlton"
+  },
+  {
+   "num": "41",
+   "pos": "Guard",
+   "cls": "So.",
+   "ht": "6' 5''",
+   "wt": "188 lbs",
+   "home": "Southington, Conn.",
+   "name": "Matt Garry"
+  },
+  {
+   "num": "45",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 4''",
+   "wt": "200 lbs",
+   "home": "Conshohocken, Pa.",
+   "name": "Temi Aiyegbusi"
+  },
+  {
+   "name": "Dan Hurley"
+  },
+  {
+   "name": "Tom Moore"
+  },
+  {
+   "name": "Kimani Young"
+  },
+  {
+   "name": "Kenya Hunter"
+  },
+  {
+   "name": "Eric Youncofski"
+  },
+  {
+   "name": "Taliek Brown"
+  },
+  {
+   "name": "Tripp Doherty"
+  },
+  {
+   "name": "Sal Alosi"
+  },
+  {
+   "name": "James  Doran"
+  },
+  {
+   "name": "Owen Sammarone"
+  },
+  {
+   "name": "Mathew Johnson"
+  },
+  {
+   "num": "0",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 2''",
+   "wt": "175 lbs",
+   "home": "Columbus, N.J.",
+   "prev": "MacDuffie School",
+   "name": "Position"
+  }
+ ],
+ "2021": [
+  {
+   "num": "0",
+   "pos": "Guard",
+   "cls": "So.",
+   "ht": "6' 3''",
+   "wt": "185 lbs",
+   "home": "Columbus, N.J.",
+   "name": "Jalen Gaffney"
+  },
+  {
+   "num": "1",
+   "pos": "Guard",
+   "cls": "R-Jr.",
+   "ht": "6' 1''",
+   "wt": "185 lbs",
+   "home": "Union, N.J.",
+   "name": "R.J. Cole"
+  },
+  {
+   "num": "2",
+   "pos": "Guard",
+   "cls": "So.",
+   "ht": "6' 5''",
+   "wt": "190 lbs",
+   "home": "Brooklyn, N.Y.",
+   "name": "James Bouknight"
+  },
+  {
+   "num": "4",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 6''",
+   "wt": "215 lbs",
+   "home": "Allentown, Pa.",
+   "prev": "Rhode Island",
+   "name": "Tyrese Martin"
+  },
+  {
+   "num": "5",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 9''",
+   "wt": "230 lbs",
+   "home": "Gastonia, N.C.",
+   "name": "Isaiah Whaley"
+  },
+  {
+   "num": "10",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 4''",
+   "wt": "195 lbs",
+   "home": "Baltimore, Md.",
+   "name": "Brendan Adams"
+  },
+  {
+   "num": "11",
+   "pos": "Forward",
+   "cls": "R-So.",
+   "ht": "6' 9''",
+   "wt": "215 lbs",
+   "home": "Manchester, N.H.",
+   "name": "Akok Akok"
+  },
+  {
+   "num": "12",
+   "pos": "Forward",
+   "cls": "Sr.",
+   "ht": "6' 9''",
+   "wt": "215 lbs",
+   "home": "Miramar, Fla.",
+   "name": "Tyler Polley"
+  },
+  {
+   "num": "13",
+   "pos": "Forward",
+   "cls": "R-Fr.",
+   "ht": "6' 9''",
+   "wt": "225 lbs",
+   "home": "Brooklyn, N.Y.",
+   "prev": "MacDuffie School",
+   "name": "Richie Springs"
+  },
+  {
+   "num": "20",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 1''",
+   "wt": "175 lbs",
+   "home": "Glastonbury, Conn.",
+   "prev": "East Catholic HS",
+   "name": "Andrew Hurley"
+  },
+  {
+   "num": "21",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 9''",
+   "wt": "240 lbs",
+   "home": "Bamako, Mali",
+   "prev": "The Patrick School",
+   "name": "Adama Sanogo"
+  },
+  {
+   "num": "25",
+   "pos": "Forward-Center",
+   "cls": "Sr.",
+   "ht": "6' 11''",
+   "wt": "240 lbs",
+   "home": "Winterville, N.C.",
+   "name": "Josh Carlton"
+  },
+  {
+   "num": "41",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 5''",
+   "wt": "195 lbs",
+   "home": "Southington, Conn.",
+   "name": "Matt Garry"
+  },
+  {
+   "num": "44",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 6''",
+   "wt": "210 lbs",
+   "home": "Amsterdam, N.Y.",
+   "prev": "Albany Academy",
+   "name": "Andre Jackson Jr."
+  },
+  {
+   "name": "Dan Hurley"
+  },
+  {
+   "name": "Kimani Young"
+  },
+  {
+   "name": "Tom Moore"
+  },
+  {
+   "name": "Kevin Freeman"
+  },
+  {
+   "name": "Eric Youncofski"
+  },
+  {
+   "name": "Tripp Doherty"
+  },
+  {
+   "name": "Michael Rehfeldt"
+  },
+  {
+   "name": "James  Doran"
+  },
+  {
+   "name": "Taliek Brown"
+  },
+  {
+   "name": "Paul Wettemann III"
+  },
+  {
+   "name": "Mathew Johnson"
+  },
+  {
+   "num": "0",
+   "pos": "Guard",
+   "cls": "So.",
+   "ht": "6' 3''",
+   "wt": "185 lbs",
+   "home": "Columbus, N.J.",
+   "prev": "Rhode Island",
+   "name": "Position"
+  }
+ ],
+ "2022": [
+  {
+   "num": "0",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 3''",
+   "wt": "180 lbs",
+   "home": "Columbus, N.J.",
+   "name": "Jalen Gaffney"
+  },
+  {
+   "num": "1",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 2''",
+   "wt": "175 lbs",
+   "home": "Philadelphia, Pa.",
+   "name": "Rahsool Diggins"
+  },
+  {
+   "num": "2",
+   "pos": "Guard",
+   "cls": "Gr.",
+   "ht": "6' 1''",
+   "wt": "185 lbs",
+   "home": "Union, N.J.",
+   "name": "R.J. Cole"
+  },
+  {
+   "num": "4",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 6''",
+   "wt": "215 lbs",
+   "home": "Allentown, Pa.",
+   "prev": "Rhode Island",
+   "name": "Tyrese Martin"
+  },
+  {
+   "num": "5",
+   "pos": "Forward",
+   "cls": "Gr.",
+   "ht": "6' 9''",
+   "wt": "225 lbs",
+   "home": "Gastonia, N.C.",
+   "name": "Isaiah Whaley"
+  },
+  {
+   "num": "10",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 8''",
+   "wt": "210 lbs",
+   "home": "Southborough, Mass.",
+   "name": "Alex Karaban"
+  },
+  {
+   "num": "11",
+   "pos": "Forward",
+   "cls": "R-Jr.",
+   "ht": "6' 9''",
+   "wt": "205 lbs",
+   "home": "Manchester, N.H.",
+   "name": "Akok Akok"
+  },
+  {
+   "num": "12",
+   "pos": "Forward",
+   "cls": "Gr.",
+   "ht": "6' 9''",
+   "wt": "200 lbs",
+   "home": "Miramar, Fla.",
+   "name": "Tyler Polley"
+  },
+  {
+   "num": "13",
+   "pos": "Forward",
+   "cls": "R-So.",
+   "ht": "6' 9''",
+   "wt": "225 lbs",
+   "home": "Brooklyn, N.Y.",
+   "prev": "MacDuffie School",
+   "name": "Richie Springs"
+  },
+  {
+   "num": "14",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 3''",
+   "wt": "210 lbs",
+   "home": "Franklin, N.J.",
+   "name": "Corey Floyd, Jr."
+  },
+  {
+   "num": "20",
+   "pos": "Guard",
+   "cls": "So.",
+   "ht": "6' 1''",
+   "wt": "170 lbs",
+   "home": "Glastonbury, Conn.",
+   "prev": "East Catholic HS",
+   "name": "Andrew Hurley"
+  },
+  {
+   "num": "21",
+   "pos": "Forward",
+   "cls": "So.",
+   "ht": "6' 9''",
+   "wt": "240 lbs",
+   "home": "Bamako, Mali",
+   "prev": "The Patrick School",
+   "name": "Adama Sanogo"
+  },
+  {
+   "num": "24",
+   "pos": "Guard",
+   "cls": "Fr.",
+   "ht": "6' 5''",
+   "wt": "190 lbs",
+   "home": "Gaithersburg, Md.",
+   "prev": "DeMatha Catholic HS",
+   "name": "Jordan Hawkins"
+  },
+  {
+   "num": "35",
+   "pos": "Forward",
+   "cls": "Fr.",
+   "ht": "6' 10''",
+   "wt": "205 lbs",
+   "home": "Lome, Togo",
+   "prev": "The Patrick School",
+   "name": "Samson Johnson"
+  },
+  {
+   "num": "41",
+   "pos": "Guard",
+   "cls": "Sr.",
+   "ht": "6' 5''",
+   "wt": "190 lbs",
+   "home": "Southington, Conn.",
+   "name": "Matt Garry"
+  },
+  {
+   "num": "44",
+   "pos": "Guard",
+   "cls": "So.",
+   "ht": "6' 6''",
+   "wt": "205 lbs",
+   "home": "Amsterdam, N.Y.",
+   "prev": "Albany Academy",
+   "name": "Andre Jackson Jr."
+  },
+  {
+   "name": "Dan Hurley"
+  },
+  {
+   "name": "Kimani Young"
+  },
+  {
+   "name": "Tom Moore"
+  },
+  {
+   "name": "Luke Murray"
+  },
+  {
+   "name": "Eric Youncofski"
+  },
+  {
+   "name": "Tripp Doherty"
+  },
+  {
+   "name": "Gavin Roberts"
+  },
+  {
+   "name": "James  Doran"
+  },
+  {
+   "name": "Taliek Brown"
+  },
+  {
+   "name": "Paul Wettemann III"
+  },
+  {
+   "name": "Mathew Johnson"
+  },
+  {
+   "num": "0",
+   "pos": "Guard",
+   "cls": "Jr.",
+   "ht": "6' 3''",
+   "wt": "180 lbs",
+   "home": "Columbus, N.J.",
+   "prev": "Rhode Island",
+   "name": "Position"
+  }
+ ],
+ "2023": [
+  {
+   "num": "2",
+   "pos": "G",
+   "cls": "Sr.",
+   "ht": "6' 5''",
+   "wt": "190 lbs",
+   "home": "El Paso, Texas",
+   "prev": "East Carolina",
+   "name": "Tristen Newton"
+  },
+  {
+   "num": "3",
+   "pos": "G",
+   "cls": "Gr.",
+   "ht": "6' 3''",
+   "wt": "180 lbs",
+   "home": "Novato, Calif.",
+   "prev": "San Diego",
+   "name": "Joey Calcaterra"
+  },
+  {
+   "num": "4",
+   "pos": "G",
+   "cls": "Sr.",
+   "ht": "6' 4''",
+   "wt": "195 lbs",
+   "home": "Buford, Ga.",
+   "prev": "Virginia Tech",
+   "name": "Nahiem Alleyne"
+  },
+  {
+   "num": "5",
+   "pos": "G",
+   "cls": "Jr.",
+   "ht": "6' 2''",
+   "wt": "190 lbs",
+   "home": "Queens, N.Y.",
+   "prev": "Texas A&M",
+   "name": "Hassan Diarra"
+  },
+  {
+   "num": "11",
+   "pos": "F",
+   "cls": "R-Fr.",
+   "ht": "6' 8''",
+   "wt": "210 lbs",
+   "home": "Southborough, Mass.",
+   "prev": "IMG Academy (Fl.)",
+   "name": "Alex Karaban"
+  },
+  {
+   "num": "13",
+   "pos": "F",
+   "cls": "R-Jr.",
+   "ht": "6' 9''",
+   "wt": "235 lbs",
+   "home": "Brooklyn, N.Y.",
+   "prev": "MacDuffie School",
+   "name": "Richie Springs"
+  },
+  {
+   "num": "20",
+   "pos": "G",
+   "cls": "Jr.",
+   "ht": "6' 1''",
+   "wt": "170 lbs",
+   "home": "Glastonbury, Conn.",
+   "prev": "East Catholic HS",
+   "name": "Andrew Hurley"
+  },
+  {
+   "num": "21",
+   "pos": "F",
+   "cls": "Jr.",
+   "ht": "6' 9''",
+   "wt": "245 lbs",
+   "home": "Bamako, Mali",
+   "prev": "The Patrick School",
+   "name": "Adama Sanogo"
+  },
+  {
+   "num": "24",
+   "pos": "G",
+   "cls": "So.",
+   "ht": "6' 5''",
+   "wt": "195 lbs",
+   "home": "Gaithersburg, Md.",
+   "prev": "DeMatha Catholic HS",
+   "name": "Jordan Hawkins"
+  },
+  {
+   "num": "30",
+   "pos": "F",
+   "cls": "Fr.",
+   "ht": "6' 9''",
+   "wt": "205 lbs",
+   "home": "Gan Yavne, Israel",
+   "prev": "Gimnasia Realit",
+   "name": "Yarin Hasson"
+  },
+  {
+   "num": "32",
+   "pos": "C",
+   "cls": "Fr.",
+   "ht": "7' 2''",
+   "wt": "265 lbs",
+   "home": "Bristol, Conn.",
+   "prev": "Bristol Central HS",
+   "name": "Donovan Clingan"
+  },
+  {
+   "num": "33",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 7''",
+   "wt": "200 lbs",
+   "home": "Xanthi, Greece",
+   "prev": "Arion Xanthi Club",
+   "name": "Apostolos Roumoglou"
+  },
+  {
+   "num": "35",
+   "pos": "F",
+   "cls": "So.",
+   "ht": "6' 10''",
+   "wt": "215 lbs",
+   "home": "Lome, Togo",
+   "prev": "The Patrick School",
+   "name": "Samson Johnson"
+  },
+  {
+   "num": "40",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 4''",
+   "wt": "160 lbs",
+   "home": "Bristol, Conn.",
+   "prev": "South Kent School",
+   "name": "Andre Johnson Jr."
+  },
+  {
+   "num": "41",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 3''",
+   "wt": "155 lbs",
+   "home": "Brooklyn, N.Y.",
+   "prev": "Montverde Academy",
+   "name": "Emmett Hendry"
+  },
+  {
+   "num": "44",
+   "pos": "G",
+   "cls": "Jr.",
+   "ht": "6' 6''",
+   "wt": "210 lbs",
+   "home": "Amsterdam, N.Y.",
+   "prev": "Albany Academy",
+   "name": "Andre Jackson Jr."
+  },
+  {
+   "name": "Dan Hurley"
+  },
+  {
+   "name": "Kimani Young"
+  },
+  {
+   "name": "Tom Moore"
+  },
+  {
+   "name": "Luke Murray"
+  },
+  {
+   "name": "Paul Wettemann III"
+  },
+  {
+   "name": "Gavin Roberts"
+  },
+  {
+   "name": "James  Doran"
+  },
+  {
+   "name": "Mathew Johnson"
+  },
+  {
+   "num": "2",
+   "pos": "G",
+   "cls": "Sr.",
+   "ht": "6' 5''",
+   "wt": "190 lbs",
+   "home": "El Paso, Texas",
+   "prev": "East Carolina",
+   "name": "Position"
+  }
+ ],
+ "2024": [
+  {
+   "num": "1",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 3''",
+   "wt": "185 lbs",
+   "home": "Leesburg, Va.",
+   "prev": "Brewster Academy (N.H.)",
+   "name": "Solo Ball"
+  },
+  {
+   "num": "2",
+   "pos": "G",
+   "cls": "Gr.",
+   "ht": "6' 5''",
+   "wt": "195 lbs",
+   "home": "El Paso, Texas",
+   "prev": "East Carolina",
+   "name": "Tristen Newton"
+  },
+  {
+   "num": "3",
+   "pos": "F",
+   "cls": "Fr.",
+   "ht": "6' 7''",
+   "wt": "205 lbs",
+   "home": "Seattle, Wash.",
+   "prev": "Garfield HS",
+   "name": "Jaylin Stewart"
+  },
+  {
+   "num": "5",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 6''",
+   "wt": "215 lbs",
+   "home": "Covington, Ga.",
+   "prev": "Newton HS",
+   "name": "Stephon Castle"
+  },
+  {
+   "num": "10",
+   "pos": "G",
+   "cls": "Sr.",
+   "ht": "6' 2''",
+   "wt": "190 lbs",
+   "home": "Queens, N.Y.",
+   "prev": "Texas A&M",
+   "name": "Hassan Diarra"
+  },
+  {
+   "num": "11",
+   "pos": "F",
+   "cls": "R-So.",
+   "ht": "6' 8''",
+   "wt": "220 lbs",
+   "home": "Southborough, Mass.",
+   "prev": "IMG Academy (Fl.)",
+   "name": "Alex Karaban"
+  },
+  {
+   "num": "12",
+   "pos": "G",
+   "cls": "Gr.",
+   "ht": "6' 4''",
+   "wt": "205 lbs",
+   "home": "Davidsonville, Md.",
+   "prev": "Boys' Latin School",
+   "name": "Cam Spencer"
+  },
+  {
+   "num": "20",
+   "pos": "G",
+   "cls": "Sr.",
+   "ht": "6' 1''",
+   "wt": "170 lbs",
+   "home": "Glastonbury, Conn.",
+   "prev": "East Catholic HS",
+   "name": "Andrew Hurley"
+  },
+  {
+   "num": "23",
+   "pos": "F",
+   "cls": "Fr.",
+   "ht": "6' 7''",
+   "wt": "195 lbs",
+   "home": "Bristow, Va.",
+   "prev": "Long Island Lutheran (N.Y.)",
+   "name": "Jayden Ross"
+  },
+  {
+   "num": "24",
+   "pos": "C",
+   "cls": "Fr.",
+   "ht": "6' 10''",
+   "wt": "220 lbs",
+   "home": "Bamako, Mali",
+   "prev": "Our Saviour Lutheran",
+   "name": "Youssouf Singare"
+  },
+  {
+   "num": "32",
+   "pos": "C",
+   "cls": "So.",
+   "ht": "7' 2''",
+   "wt": "280 lbs",
+   "home": "Bristol, Conn.",
+   "prev": "Bristol Central HS",
+   "name": "Donovan Clingan"
+  },
+  {
+   "num": "33",
+   "pos": "G",
+   "cls": "So.",
+   "ht": "6' 8''",
+   "wt": "215 lbs",
+   "home": "Xanthi, Greece",
+   "prev": "Arion Xanthi Club",
+   "name": "Apostolos Roumoglou"
+  },
+  {
+   "num": "35",
+   "pos": "F",
+   "cls": "Jr.",
+   "ht": "6' 10''",
+   "wt": "225 lbs",
+   "home": "Lome, Togo",
+   "prev": "The Patrick School",
+   "name": "Samson Johnson"
+  },
+  {
+   "num": "40",
+   "pos": "G",
+   "cls": "So.",
+   "ht": "6' 4''",
+   "wt": "170 lbs",
+   "home": "Bristol, Conn.",
+   "prev": "South Kent School",
+   "name": "Andre Johnson Jr."
+  },
+  {
+   "name": "Dan Hurley"
+  },
+  {
+   "name": "Kimani Young"
+  },
+  {
+   "name": "Tom Moore"
+  },
+  {
+   "name": "Luke Murray"
+  },
+  {
+   "name": "Paul Wettemann III"
+  },
+  {
+   "name": "Gavin Roberts"
+  },
+  {
+   "name": "James  Doran"
+  },
+  {
+   "name": "Mathew Johnson"
+  },
+  {
+   "name": "Mamadou Diarra"
+  },
+  {
+   "num": "1",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 3''",
+   "wt": "185 lbs",
+   "home": "Leesburg, Va.",
+   "prev": "Brewster Academy (N.H.)",
+   "name": "Position"
+  }
+ ],
+ "2025": [
+  {
+   "num": "0",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 0''",
+   "wt": "195 lbs",
+   "home": "Philadelphia, Pa.",
+   "prev": "Imhotep",
+   "name": "Ahmad Nowell"
+  },
+  {
+   "num": "1",
+   "pos": "G",
+   "cls": "So.",
+   "ht": "6' 3''",
+   "wt": "190 lbs",
+   "home": "Leesburg, Va.",
+   "prev": "Brewster Academy (N.H.)",
+   "name": "Solo Ball"
+  },
+  {
+   "num": "3",
+   "pos": "F",
+   "cls": "So.",
+   "ht": "6' 7''",
+   "wt": "215 lbs",
+   "home": "Seattle, Wash.",
+   "prev": "Garfield HS",
+   "name": "Jaylin Stewart"
+  },
+  {
+   "num": "4",
+   "pos": "F",
+   "cls": "Fr.",
+   "ht": "6' 7''",
+   "wt": "205 lbs",
+   "home": "Gainesville, Va.",
+   "prev": "Paul VI",
+   "name": "Isaiah Abraham"
+  },
+  {
+   "num": "5",
+   "pos": "C",
+   "cls": "Jr.",
+   "ht": "6' 10''",
+   "wt": "260 lbs",
+   "home": "St. Louis, Mo.",
+   "prev": "Link Academy",
+   "name": "Tarris Reed Jr."
+  },
+  {
+   "num": "10",
+   "pos": "G",
+   "cls": "5th",
+   "ht": "6' 2''",
+   "wt": "195 lbs",
+   "home": "Queens, N.Y.",
+   "prev": "Texas A&M",
+   "name": "Hassan Diarra"
+  },
+  {
+   "num": "11",
+   "pos": "F",
+   "cls": "R-Jr.",
+   "ht": "6' 8''",
+   "wt": "225 lbs",
+   "home": "Southborough, Mass.",
+   "prev": "IMG Academy (Fl.)",
+   "name": "Alex Karaban"
+  },
+  {
+   "num": "20",
+   "pos": "G",
+   "cls": "Jr.",
+   "ht": "6' 3''",
+   "wt": "185 lbs",
+   "home": "Lafayette, Calif.",
+   "prev": "Campolindo",
+   "name": "Aidan Mahaney"
+  },
+  {
+   "num": "23",
+   "pos": "F",
+   "cls": "So.",
+   "ht": "6' 7''",
+   "wt": "205 lbs",
+   "home": "Bristow, Va.",
+   "prev": "Long Island Lutheran (N.Y.)",
+   "name": "Jayden Ross"
+  },
+  {
+   "num": "24",
+   "pos": "C",
+   "cls": "So.",
+   "ht": "6' 10''",
+   "wt": "230 lbs",
+   "home": "Bamako, Mali",
+   "prev": "Our Saviour Lutheran",
+   "name": "Youssouf Singare"
+  },
+  {
+   "num": "30",
+   "pos": "F",
+   "cls": "Fr.",
+   "ht": "6' 7''",
+   "wt": "210 lbs",
+   "home": "Richardson, Texas",
+   "prev": "Montverde Academy",
+   "name": "Liam McNeeley"
+  },
+  {
+   "num": "35",
+   "pos": "C",
+   "cls": "Sr.",
+   "ht": "6' 10''",
+   "wt": "225 lbs",
+   "home": "Lome, Togo",
+   "prev": "The Patrick School",
+   "name": "Samson Johnson"
+  },
+  {
+   "num": "43",
+   "pos": "G",
+   "cls": "Jr.",
+   "ht": "6' 5''",
+   "wt": "185 lbs",
+   "home": "Springfield, Mass.",
+   "prev": "Sabis International Charter",
+   "name": "Souleymane Diaby"
+  },
+  {
+   "name": "Dan Hurley"
+  },
+  {
+   "name": "Kimani Young"
+  },
+  {
+   "name": "Tom Moore"
+  },
+  {
+   "name": "Luke Murray"
+  },
+  {
+   "name": "Paul Wettemann III"
+  },
+  {
+   "name": "Gavin Roberts"
+  },
+  {
+   "name": "James  Doran"
+  },
+  {
+   "name": "Mathew Johnson"
+  },
+  {
+   "name": "Mamadou Diarra"
+  },
+  {
+   "name": "Chris Mastrangelo"
+  },
+  {
+   "num": "0",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 0''",
+   "wt": "195 lbs",
+   "home": "Philadelphia, Pa.",
+   "prev": "Imhotep",
+   "name": "Position"
+  }
+ ],
+ "2026": [
+  {
+   "num": "0",
+   "pos": "G",
+   "cls": "R-Sr.",
+   "ht": "6' 1''",
+   "wt": "180 lbs",
+   "home": "Bronx, N.Y.",
+   "prev": "Previous School: Dayton",
+   "name": "Malachi Smith"
+  },
+  {
+   "num": "1",
+   "pos": "G",
+   "cls": "Jr.",
+   "ht": "6' 4''",
+   "wt": "200 lbs",
+   "home": "Leesburg, Va.",
+   "prev": "Previous School: Brewster Academy",
+   "name": "Solo Ball"
+  },
+  {
+   "num": "2",
+   "pos": "G",
+   "cls": "Jr.",
+   "ht": "6' 4''",
+   "wt": "195 lbs",
+   "home": "Raleigh, N.C.",
+   "prev": "Previous School: Georgia",
+   "name": "Silas Demary Jr."
+  },
+  {
+   "num": "3",
+   "pos": "F",
+   "cls": "Jr.",
+   "ht": "6' 7''",
+   "wt": "225 lbs",
+   "home": "Seattle, Wash.",
+   "prev": "Previous School: Garfield HS",
+   "name": "Jaylin Stewart"
+  },
+  {
+   "num": "4",
+   "pos": "F",
+   "cls": "R-Sr.",
+   "ht": "6' 8''",
+   "wt": "212 lbs",
+   "home": "Berlin, Germany",
+   "prev": "Previous School: Le Moyne",
+   "name": "Dwayne Koroma"
+  },
+  {
+   "num": "5",
+   "pos": "C",
+   "cls": "Sr.",
+   "ht": "6' 11''",
+   "wt": "265 lbs",
+   "home": "St. Louis, Mo.",
+   "prev": "Previous School: Michigan",
+   "name": "Tarris Reed Jr."
+  },
+  {
+   "num": "7",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 6''",
+   "wt": "205 lbs",
+   "home": "Smithton, Tasmania",
+   "prev": "Previous School: NBA Global Academy",
+   "name": "Jacob Furphy"
+  },
+  {
+   "num": "9",
+   "pos": "G",
+   "cls": "Gr.",
+   "ht": "6' 1''",
+   "wt": "190 lbs",
+   "home": "Glenwood, Ill.",
+   "prev": "Previous School: IU Indy",
+   "name": "Alec Millender"
+  },
+  {
+   "num": "10",
+   "pos": "C",
+   "cls": "Fr.",
+   "ht": "7' 2''",
+   "wt": "225 lbs",
+   "home": "Peja, Kosovo",
+   "prev": "Besiktas JK",
+   "name": "Rrezon Elezaj"
+  },
+  {
+   "num": "11",
+   "pos": "F",
+   "cls": "R-Sr.",
+   "ht": "6' 8''",
+   "wt": "230 lbs",
+   "home": "Southborough, Mass.",
+   "prev": "Previous School: IMG Academy",
+   "name": "Alex Karaban"
+  },
+  {
+   "num": "12",
+   "pos": "C",
+   "cls": "Fr.",
+   "ht": "7' 1''",
+   "wt": "260 lbs",
+   "home": "Hanover, Germany",
+   "prev": "Previous School: The Bullis School (Md.)",
+   "name": "Eric Reibe"
+  },
+  {
+   "num": "13",
+   "pos": "F",
+   "cls": "Fr.",
+   "ht": "6' 5''",
+   "wt": "195 lbs",
+   "home": "Bristow, Va.",
+   "prev": "SoCal Academy (Calif.)",
+   "name": "Jacob Ross"
+  },
+  {
+   "num": "23",
+   "pos": "F",
+   "cls": "Jr.",
+   "ht": "6' 7''",
+   "wt": "205 lbs",
+   "home": "Bristow, Va.",
+   "prev": "Previous School: Long Island Lutheran",
+   "name": "Jayden Ross"
+  },
+  {
+   "num": "24",
+   "pos": "G",
+   "cls": "Fr.",
+   "ht": "6' 6''",
+   "wt": "196 lbs",
+   "home": "Greenfield, Ind.",
+   "prev": "Previous School: Greenfield-Central",
+   "name": "Braylon Mullins"
+  },
+  {
+   "num": "77",
+   "pos": "G",
+   "cls": "Jr.",
+   "ht": "6' 3''",
+   "wt": "190 lbs",
+   "home": "Belgrade, Serbia",
+   "prev": "KK Zlatibor",
+   "name": "Uro\u0161 Paunovic"
+  },
+  {
+   "name": "Dan Hurley"
+  },
+  {
+   "name": "Kimani Young"
+  },
+  {
+   "name": "Luke Murray"
+  },
+  {
+   "name": "Mike Nardi"
+  },
+  {
+   "name": "Tom Moore"
+  },
+  {
+   "name": "Paul Wettemann III"
+  },
+  {
+   "name": "Mamadou Diarra"
+  },
+  {
+   "name": "Gavin Roberts"
+  },
+  {
+   "name": "Andre Berry"
+  },
+  {
+   "name": "Cam  Turley"
+  },
+  {
+   "name": "Richard Kelly"
+  },
+  {
+   "name": "Andrew Hurley"
+  },
+  {
+   "name": "Connor Creech"
+  },
+  {
+   "name": "T.J. Gibbs"
+  },
+  {
+   "num": "0",
+   "pos": "G",
+   "cls": "R-Sr.",
+   "ht": "6' 1''",
+   "wt": "180 lbs",
+   "home": "Bronx, N.Y.",
+   "hs": "Twitter",
+   "prev": "Previous School: Dayton",
+   "name": "Position"
+  }
+ ]
+}

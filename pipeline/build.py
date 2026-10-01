@@ -173,6 +173,77 @@ VACATED = {
     2018: {'official': '0–1', 'note': 'The NCAA vacated every 2017–18 game except the March 8 AAC tournament loss to SMU.', 'test': lambda g: g['date'][:10] != '2018-03-08'},
 }
 OFFICIAL_NUMS = {int(k): {norm(n): v for n, v in d.items()} for k, d in (jload(os.path.join(OUT, 'official', 'numbers.json'), {}) or {}).items()}
+ROSTER_SHIFTED = {2018}   # uconnhuskies.com's "2017-18" roster page carries the 2018-19 roster (every class a year ahead)
+for _y in ROSTER_SHIFTED:
+    OFFICIAL_NUMS.pop(_y, None)
+# UConn's official season rosters (2003-04 on): listed height, weight, class and hometown (pipeline/official_rosters_bio.py)
+ROSTER_BIOS = {int(k): v for k, v in (jload(os.path.join(OUT, 'official', 'roster_bios.json'), {}) or {}).items() if int(k) not in ROSTER_SHIFTED}
+AP_STATES = {'Ala.': 'AL', 'Alaska': 'AK', 'Ariz.': 'AZ', 'Ark.': 'AR', 'Calif.': 'CA', 'Colo.': 'CO', 'Conn.': 'CT', 'Del.': 'DE', 'D.C.': 'DC', 'Fla.': 'FL', 'Ga.': 'GA',
+             'Hawaii': 'HI', 'Idaho': 'ID', 'Ill.': 'IL', 'Ind.': 'IN', 'Iowa': 'IA', 'Kan.': 'KS', 'Kans.': 'KS', 'Ky.': 'KY', 'La.': 'LA', 'Maine': 'ME', 'Md.': 'MD',
+             'Mass.': 'MA', 'Mich.': 'MI', 'Minn.': 'MN', 'Miss.': 'MS', 'Mo.': 'MO', 'Mont.': 'MT', 'Neb.': 'NE', 'Nev.': 'NV', 'N.H.': 'NH', 'N.J.': 'NJ', 'N.M.': 'NM',
+             'N.Y.': 'NY', 'N.C.': 'NC', 'N.D.': 'ND', 'Ohio': 'OH', 'Okla.': 'OK', 'Ore.': 'OR', 'Pa.': 'PA', 'R.I.': 'RI', 'S.C.': 'SC', 'S.D.': 'SD', 'Tenn.': 'TN',
+             'Texas': 'TX', 'Utah': 'UT', 'Vt.': 'VT', 'Va.': 'VA', 'Wash.': 'WA', 'W.Va.': 'WV', 'Wis.': 'WI', 'Wyo.': 'WY'}
+
+
+def official_bio(y, name):
+    cards = [c for c in ROSTER_BIOS.get(y, []) if c.get('cls') or c.get('ht')]
+    c = next((c for c in cards if norm(c['name']) == norm(name)), None)
+    if not c:
+        alt = [c for c in cards if norm(c['name']).split()[-1:] == norm(name).split()[-1:] and norm(c['name'])[:1] == norm(name)[:1]]
+        c = alt[0] if len(alt) == 1 else None
+    if not c:
+        return {}
+    out = {}
+    m = re.match(r"\s*(\d)\s*'\s*(\d{1,2})", c.get('ht') or '')
+    if m:
+        out['ht'] = f'{m.group(1)}-{m.group(2)}'
+    m = re.match(r'(\d{3})', c.get('wt') or '')
+    if m:
+        out['wt'] = int(m.group(1))
+    home = c.get('home') or ''
+    if ',' not in home and re.search(r'^[A-Za-z .]+?[a-z]\. [A-Z]\.', home):   # "Raleigh. N.C." (a typo on the roster page), not "Mt. Airy, Md."
+        home = re.sub(r'([a-z])\. (?=[A-Z]\.)', r'\1, ', home, count=1)
+    if home:
+        city_, _, st_ = home.rpartition(', ')
+        out['home'] = f'{city_}, {AP_STATES.get(st_.strip(), st_.strip())}' if city_ else home
+    cl = re.sub(r'\s+', '', (c.get('cls') or '').lower())
+    red = cl.startswith('r-') or cl.startswith('redshirt')
+    base = {'fr': 'FR', 'so': 'SO', 'jr': 'JR', 'sr': 'SR', 'gr': 'GR', 'grad': 'GR', '5th': 'GR', 'gs': 'GR'}.get(re.sub(r'^(r-|redshirt)', '', cl).rstrip('.'))
+    if base:
+        out['cls'] = base
+    return out
+# The record book's ALL-TIME UNIFORM NUMBERS list (pipeline/official_uniforms.py): every number every letterwinner wore,
+# by season. It outranks the roster archive and Sports-Reference (SR had 23 wrong numbers 2004-26 alone).
+UNIFORMS = {int(k): v for k, v in ((jload(os.path.join(OUT, 'official', 'uniforms.json'), {}) or {}).get('by_year') or {}).items()}
+NUM_DISAGREE = []
+PBP_DROPPED = []   # games whose ESPN play-by-play doesn't end at the final score
+BIO_CHANGES = []
+# Honors where Sports-Reference's tally disagrees with UConn's record book honor lists (pp. 57-58), verified by dev/check_honors.py
+RB_DRAFT = ((jload(os.path.join(OUT, 'official', 'draft.json'), {}) or {}).get('picks') or [])   # record book: the team each draftee went to
+DRAFT_TEAM_FIX = {'shabazz-napier-1': 'Charlotte Hornets', 'emeka-okafor-1': 'Charlotte Bobcats'}   # Sports-Reference leaves the picking team blank
+HONOR_FIX = {'khalid-el-amin-1': {'3x All-Big East': '2x All-Big East'}}   # record book: 2nd team 1998-99, 1st team 1999-00 (All-Rookie only in 1997-98)
+
+
+def uniform_for(y, name):
+    parts = norm(name).split()
+    if not parts:
+        return None
+    last, first = parts[-1], (parts[0] if len(parts) > 1 else '')
+    hits = []
+    for e in UNIFORMS.get(y, []):
+        ep = norm(e['name']).split()
+        if not ep or ep[-1] != last:
+            continue
+        ef = ep[0] if len(ep) > 1 else ''
+        short, long_ = sorted((first, ef), key=len)
+        # same first name, a short form of it (Joe/Joey, Al/Alvin, Cliff/Clifford), a nickname (Jim/James) or a spelling
+        # variant (Javon/Jevon, Keifer/Kiefer) -- never just a shared initial (Jacob/Jayden Ross)
+        from official_stats import NICK as _NICK
+        import difflib as _dl
+        if (first == ef or (len(short) >= 2 and long_.startswith(short)) or _NICK.get(first, first) == _NICK.get(ef, ef)
+                or (min(len(first), len(ef)) >= 5 and _dl.SequenceMatcher(None, first, ef).ratio() >= 0.8)):
+            hits.append(e['num'])
+    return hits[0] if len(set(hits)) == 1 else None
 from official_stats import Official   # UConn's record book + season-final stat sheets settle every player stat (see official_stats.py)
 OFFICIAL_STATS = Official()
 _rej = jload(os.path.join(HERE, 'photo_rejects.json'), {}) or {}
@@ -1142,8 +1213,19 @@ for y in years:
             if e.get('plays'):
                 rows, wp = plays_for(e, uc_home)
                 clips = clip_index(e, rows)
-                jdump(os.path.join(SITE, 'plays', f'{gid}.json'), {'plays': rows, 'wp': wp, 'clips': clips})
-                det['hasPlays'] = True
+                fin_ = (row.get('pts'), row.get('opp_pts'))
+                end_ = (rows[-1][3], rows[-1][4]) if rows else None
+                if rows and fin_[0] is not None and end_ != fin_:
+                    # ESPN's feed skips or garbles plays (or belongs to another game): a scoring chart that ends at the wrong score is wrong
+                    det['pbpNote'] = f"ESPN's play-by-play for this game ends at {end_[0]}–{end_[1]}, not the {fin_[0]}–{fin_[1]} final, so it isn't shown."
+                    PBP_DROPPED.append((gid, end_, fin_))
+                    rows, clips = [], (type(clips)())
+                pf_ = os.path.join(SITE, 'plays', f'{gid}.json')
+                if rows or wp:
+                    jdump(pf_, {'plays': rows, 'wp': wp, 'clips': clips})
+                    det['hasPlays'] = True
+                elif os.path.exists(pf_):
+                    os.remove(pf_)
             row['box'] = 'espn'
         elif g.get('box_slug') and g['box_slug'] in sr_boxes and sr_boxes[g['box_slug']]:
             b = sr_boxes[g['box_slug']]
@@ -1270,9 +1352,17 @@ for y in years:
             t = tot.get(pid, {})
             a = adv.get(pid, {})
             ps = poss.get(pid, {})
-            num_ = OFFICIAL_NUMS.get(y, {}).get(norm(r['player']), r.get('number'))  # UConn's own roster beats Sports-Reference
-            item = {'pid': pid, 'name': r['player'], 'num': num_, 'numOfficial': norm(r['player']) in OFFICIAL_NUMS.get(y, {}) or None, 'cls': r.get('class'), 'pos': r.get('pos'), 'ht': r.get('height'), 'wt': r.get('weight'),
+            rbnum_ = uniform_for(y, r['player'])
+            rosternum_ = OFFICIAL_NUMS.get(y, {}).get(norm(r['player']))
+            if rbnum_ is not None and rosternum_ is not None and str(rbnum_).lstrip('0') != str(rosternum_).lstrip('0'):
+                NUM_DISAGREE.append((y, r['player'], rbnum_, rosternum_))
+            num_ = rbnum_ if rbnum_ is not None else rosternum_ if rosternum_ is not None else r.get('number')  # record book > UConn roster archive > SR
+            item = {'pid': pid, 'name': r['player'], 'num': num_, 'numOfficial': (rbnum_ is not None or rosternum_ is not None) or None, 'cls': r.get('class'), 'pos': r.get('pos'), 'ht': r.get('height'), 'wt': r.get('weight'),
                     'home': r.get('hometown'), 'hs': (r.get('high_school') or '').split(';')[0] or None, 'rsci': r.get('rsci'), 'photo': photo_for.get(pid)}
+            for k_, v_ in official_bio(y, r['player']).items():   # UConn's own roster listing beats Sports-Reference's
+                if item.get(k_) != v_:
+                    BIO_CHANGES.append((y, r['player'], k_, item.get(k_), v_))
+                item[k_] = v_
             if pid in photo_wide:
                 item['photoWide'] = True
             if photo_pos(pid):
@@ -1615,11 +1705,27 @@ for pid, rows in PLAYER_SEASONS.items():
     span = f"{yrs[0] - 1}–{str(yrs[-1])[2:]}" if len(yrs) > 1 else label(yrs[0])
     bio = srp.get('bio') or {}
     bl = srp.get('bling') or []
-    honors = [b for b in bl if not re.match(r'HS ', b)]
+    honors = [HONOR_FIX.get(pid, {}).get(b, b) for b in bl if not re.match(r'HS ', b)]
+    # an honor from a season he spent at another school says so ("2014-15 All-Big East (Seton Hall)")
+    other_school = {r['y']: r.get('school') for r in all_rows if r.get('uconn') is False and r.get('school')}
+    uc_years = {r['y'] for r in uc_rows}
+    def _school(h):
+        m = re.match(r'^(\d{4})-(\d{2}) ', h)
+        y_ = int(m.group(1)) + 1 if m else None
+        if y_ and y_ <= 2011:
+            h = h.replace('Pac-12', 'Pac-10')   # the league's name that season
+        if y_ and y_ not in uc_years and other_school.get(y_) and 'NCAA Champion' not in h:
+            return f"{h} ({other_school[y_]})"
+        return h
+    honors = [_school(h) for h in honors]
     draft = None
     if srp.get('draft') and srp['draft'].get('year'):
         dd = srp['draft']
-        draft = f"{dd['year']}, round {dd.get('round')}, pick {dd.get('overall')} · {dd.get('team')}"
+        team_ = dd.get('team') or DRAFT_TEAM_FIX.get(pid)
+        rbd_ = next((e for e in RB_DRAFT if norm(e['name']).split()[-1:] == norm(name).split()[-1:] and e['pick'] == dd.get('overall') and abs(e['year'] - int(dd['year'])) <= 1), None)
+        went_ = rbd_ and rbd_['team']
+        same_ = lambda a, b: bool(a and b) and (norm(a).split()[-1] in norm(b) or norm(b).split()[-1] in norm(a))
+        draft = f"{dd['year']}, round {dd.get('round')}, pick {dd.get('overall')} · {team_ or went_}" + (f" (rights traded to {went_})" if team_ and went_ and not same_(team_, went_) else '')
     last = rows[-1]
     gl = sorted(PLAYER_GAMES.get(pid, []), key=lambda g: g['date'])
     pos_full = bio.get('Position') or last.get('pos')
@@ -1789,5 +1895,8 @@ media_photos = COMMONS
 jdump(os.path.join(SITE, 'media.json'), {'videos': VIDS, 'photos': media_photos})
 sizes = sum(os.path.getsize(f) for f in glob.glob(os.path.join(SITE, '**', '*.json'), recursive=True))
 jdump(os.path.join(OUT, 'official', 'stats_validation.json'), OFFICIAL_STATS.report)
+print(f'jersey numbers: record book and roster archive disagree on {len(NUM_DISAGREE)}: {NUM_DISAGREE}')
+print(f'play-by-play hidden for {len(PBP_DROPPED)} games that do not end at the final score')
+print(f'player bios: {len(BIO_CHANGES)} values set from UConn official rosters', dict(collections.Counter(c[2] for c in BIO_CHANGES)))
 print(OFFICIAL_STATS.summary())
 print(f"\nplayers={len(PLAYERS)} games_indexed={len(GAMES_INDEX)} opponents={len(OPP)} videos={len(VIDS)} data={sizes / 1e6:.1f} MB")

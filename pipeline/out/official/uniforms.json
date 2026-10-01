@@ -1,0 +1,4683 @@
+{
+ "_source": "UConn 2026-27 Record Book, ALL-TIME UNIFORM NUMBERS",
+ "by_year": {
+  "1953": [
+   {
+    "name": "Robert O\u2019Brien",
+    "num": "24"
+   },
+   {
+    "name": "Art Quimby",
+    "num": "25"
+   },
+   {
+    "name": "Phil Jones",
+    "num": "11"
+   },
+   {
+    "name": "Harold Garner",
+    "num": "12"
+   },
+   {
+    "name": "Worthy Patterson",
+    "num": "13"
+   },
+   {
+    "name": "Ted Vartelas",
+    "num": "14"
+   },
+   {
+    "name": "Eugene King",
+    "num": "15"
+   },
+   {
+    "name": "Seymour Menchel",
+    "num": "16"
+   },
+   {
+    "name": "George Dargati",
+    "num": "17"
+   },
+   {
+    "name": "Richard Watson",
+    "num": "18"
+   },
+   {
+    "name": "Gene Sullivan",
+    "num": "19"
+   },
+   {
+    "name": "Joseph Haberl",
+    "num": "20"
+   },
+   {
+    "name": "Melvin Kleckner",
+    "num": "21"
+   },
+   {
+    "name": "Stanley Zima",
+    "num": "22"
+   },
+   {
+    "name": "Lou Orlando",
+    "num": "23"
+   }
+  ],
+  "1954": [
+   {
+    "name": "Robert O\u2019Brien",
+    "num": "24"
+   },
+   {
+    "name": "Art Quimby",
+    "num": "25"
+   },
+   {
+    "name": "Bob Dube",
+    "num": "10"
+   },
+   {
+    "name": "Phil Jones",
+    "num": "11"
+   },
+   {
+    "name": "Al Wehrle",
+    "num": "12"
+   },
+   {
+    "name": "Worthy Patterson",
+    "num": "13"
+   },
+   {
+    "name": "Eric Hohenthal",
+    "num": "14"
+   },
+   {
+    "name": "Stanley Zima",
+    "num": "15"
+   },
+   {
+    "name": "Seymour Menchel",
+    "num": "16"
+   },
+   {
+    "name": "Bob Guinessey",
+    "num": "17"
+   },
+   {
+    "name": "Richard Watson",
+    "num": "18"
+   },
+   {
+    "name": "Gordon Ruddy",
+    "num": "19"
+   },
+   {
+    "name": "Joseph Haberl",
+    "num": "20"
+   },
+   {
+    "name": "Tom Gallagher",
+    "num": "22"
+   },
+   {
+    "name": "Ron Bushwell",
+    "num": "23"
+   }
+  ],
+  "1955": [
+   {
+    "name": "Bob Malone",
+    "num": "24"
+   },
+   {
+    "name": "Art Quimby",
+    "num": "25"
+   },
+   {
+    "name": "Bob Dube",
+    "num": "10"
+   },
+   {
+    "name": "Bob Osborne",
+    "num": "11"
+   },
+   {
+    "name": "Al Wehrle",
+    "num": "12"
+   },
+   {
+    "name": "Dick Kiernan",
+    "num": "13"
+   },
+   {
+    "name": "Ernie Braverman",
+    "num": "14"
+   },
+   {
+    "name": "Stanley Zima",
+    "num": "15"
+   },
+   {
+    "name": "Don Burns",
+    "num": "16"
+   },
+   {
+    "name": "Joe Giminski",
+    "num": "18"
+   },
+   {
+    "name": "Gordon Ruddy",
+    "num": "19"
+   },
+   {
+    "name": "Jim Ahearn",
+    "num": "21"
+   },
+   {
+    "name": "Fran Quinn",
+    "num": "22"
+   },
+   {
+    "name": "Ron Bushwell",
+    "num": "23"
+   }
+  ],
+  "1956": [
+   {
+    "name": "Bob Malone",
+    "num": "24"
+   },
+   {
+    "name": "Paul Kaspar",
+    "num": "25"
+   },
+   {
+    "name": "Gordon Ruddy",
+    "num": "30"
+   },
+   {
+    "name": "Jim O\u2019Connor",
+    "num": "31"
+   },
+   {
+    "name": "Fred Winseck",
+    "num": "32"
+   },
+   {
+    "name": "Bob Cherepy",
+    "num": "33"
+   },
+   {
+    "name": "Bob Dube",
+    "num": "10"
+   },
+   {
+    "name": "Bob Osborne",
+    "num": "11"
+   },
+   {
+    "name": "Bill O\u2019Leary",
+    "num": "12"
+   },
+   {
+    "name": "Dick Kiernan",
+    "num": "13"
+   },
+   {
+    "name": "Steve Narracci",
+    "num": "15"
+   },
+   {
+    "name": "Ron Anastasio",
+    "num": "20"
+   },
+   {
+    "name": "Don Burns",
+    "num": "21"
+   },
+   {
+    "name": "Fran Quinn",
+    "num": "22"
+   },
+   {
+    "name": "Ron Bushwell",
+    "num": "23"
+   }
+  ],
+  "1957": [
+   {
+    "name": "Bob Malone",
+    "num": "24"
+   },
+   {
+    "name": "Paul Kaspar",
+    "num": "25"
+   },
+   {
+    "name": "Larry Doyle",
+    "num": "30"
+   },
+   {
+    "name": "Jim O\u2019Connor",
+    "num": "31"
+   },
+   {
+    "name": "John Warren",
+    "num": "32"
+   },
+   {
+    "name": "Bob Cherepy",
+    "num": "33"
+   },
+   {
+    "name": "Dick Kiernan",
+    "num": "34"
+   },
+   {
+    "name": "Billy Schmidt",
+    "num": "40"
+   },
+   {
+    "name": "Al Cooper",
+    "num": "41"
+   },
+   {
+    "name": "Wayne Davis",
+    "num": "42"
+   },
+   {
+    "name": "Bob Osborne",
+    "num": "11"
+   },
+   {
+    "name": "Bill O\u2019Leary",
+    "num": "12"
+   },
+   {
+    "name": "Al Johnson",
+    "num": "14"
+   },
+   {
+    "name": "Steve Narracci",
+    "num": "15"
+   },
+   {
+    "name": "Gene King",
+    "num": "20"
+   },
+   {
+    "name": "Don Burns",
+    "num": "21"
+   },
+   {
+    "name": "Fran Quinn",
+    "num": "22"
+   }
+  ],
+  "1960": [
+   {
+    "name": "Dave King",
+    "num": "24"
+   },
+   {
+    "name": "Dick Rogers",
+    "num": "25"
+   },
+   {
+    "name": "Gerry Manning",
+    "num": "25"
+   },
+   {
+    "name": "Bob Countryman",
+    "num": "30"
+   },
+   {
+    "name": "George Uhl",
+    "num": "31"
+   },
+   {
+    "name": "Bill Madison",
+    "num": "32"
+   },
+   {
+    "name": "Pete Kelly",
+    "num": "33"
+   },
+   {
+    "name": "Walt Griffin",
+    "num": "40"
+   },
+   {
+    "name": "Dave Daniels",
+    "num": "42"
+   },
+   {
+    "name": "Ed Martin",
+    "num": "43"
+   },
+   {
+    "name": "John Pipczynski",
+    "num": "44"
+   },
+   {
+    "name": "John Risley",
+    "num": "12"
+   },
+   {
+    "name": "Lenny Carlson",
+    "num": "14"
+   },
+   {
+    "name": "Tom Burke",
+    "num": "15"
+   },
+   {
+    "name": "Tom Kellerman",
+    "num": "20"
+   },
+   {
+    "name": "Jack Rose",
+    "num": "21"
+   }
+  ],
+  "1962": [
+   {
+    "name": "Fred Roever",
+    "num": "24"
+   },
+   {
+    "name": "Gerry Manning",
+    "num": "31"
+   },
+   {
+    "name": "Bill Della Sala",
+    "num": "32"
+   },
+   {
+    "name": "Al Ritter",
+    "num": "33"
+   },
+   {
+    "name": "Dave King",
+    "num": "34"
+   },
+   {
+    "name": "Bill Hulteen",
+    "num": "40"
+   },
+   {
+    "name": "Walt Griffin",
+    "num": "42"
+   },
+   {
+    "name": "Ed Slomcenski",
+    "num": "43"
+   },
+   {
+    "name": "Bob Haines",
+    "num": "44"
+   },
+   {
+    "name": "Dale Comey",
+    "num": "12"
+   },
+   {
+    "name": "Lenny Carlson",
+    "num": "14"
+   },
+   {
+    "name": "Dom Perno",
+    "num": "15"
+   },
+   {
+    "name": "Andy Czuchry",
+    "num": "21"
+   },
+   {
+    "name": "Wade Anderson",
+    "num": "22"
+   },
+   {
+    "name": "Brian Kinry",
+    "num": "23"
+   }
+  ],
+  "1963": [
+   {
+    "name": "John Fahey",
+    "num": "24"
+   },
+   {
+    "name": "Gerry Manning",
+    "num": "31"
+   },
+   {
+    "name": "Bill Della Sala",
+    "num": "32"
+   },
+   {
+    "name": "Al Ritter",
+    "num": "33"
+   },
+   {
+    "name": "Michael Salmon",
+    "num": "34"
+   },
+   {
+    "name": "Bill Hulteen",
+    "num": "40"
+   },
+   {
+    "name": "Toby Kimball",
+    "num": "42"
+   },
+   {
+    "name": "Ed Slomcenski",
+    "num": "43"
+   },
+   {
+    "name": "Bob Haines",
+    "num": "44"
+   },
+   {
+    "name": "Dale Comey",
+    "num": "12"
+   },
+   {
+    "name": "Larry Gofberg",
+    "num": "14"
+   },
+   {
+    "name": "Dom Perno",
+    "num": "15"
+   },
+   {
+    "name": "Andy Czuchry",
+    "num": "21"
+   }
+  ],
+  "1964": [
+   {
+    "name": "James Thaxter",
+    "num": "24"
+   },
+   {
+    "name": "Martin Setter",
+    "num": "31"
+   },
+   {
+    "name": "Bill Della Sala",
+    "num": "32"
+   },
+   {
+    "name": "Al Ritter",
+    "num": "33"
+   },
+   {
+    "name": "Kenneth Libertoff",
+    "num": "34"
+   },
+   {
+    "name": "Charles Slimowicz",
+    "num": "40"
+   },
+   {
+    "name": "Toby Kimball",
+    "num": "42"
+   },
+   {
+    "name": "Ed Slomcenski",
+    "num": "43"
+   },
+   {
+    "name": "Chris Whitcomb",
+    "num": "44"
+   },
+   {
+    "name": "Thomas Capiga",
+    "num": "12"
+   },
+   {
+    "name": "Dan Hesford",
+    "num": "14"
+   },
+   {
+    "name": "Dom Perno",
+    "num": "15"
+   },
+   {
+    "name": "Dennis Stanek",
+    "num": "21"
+   },
+   {
+    "name": "Charles Talbott",
+    "num": "22"
+   },
+   {
+    "name": "Kenneth Whitney",
+    "num": "23"
+   }
+  ],
+  "1966": [
+   {
+    "name": "Stanley Olander",
+    "num": "24"
+   },
+   {
+    "name": "Bill Holowaty",
+    "num": "31"
+   },
+   {
+    "name": "Alan Srebnick",
+    "num": "31"
+   },
+   {
+    "name": "Robert Steinberg",
+    "num": "32"
+   },
+   {
+    "name": "Ron Ritter",
+    "num": "33"
+   },
+   {
+    "name": "Kenneth Libertoff",
+    "num": "34"
+   },
+   {
+    "name": "Richard Thompson",
+    "num": "40"
+   },
+   {
+    "name": "John Cafarelli",
+    "num": "42"
+   },
+   {
+    "name": "Karl Niederwerfer",
+    "num": "43"
+   },
+   {
+    "name": "Wes Bialosuknia",
+    "num": "44"
+   },
+   {
+    "name": "Thomas McNeece",
+    "num": "12"
+   },
+   {
+    "name": "Dan Hesford",
+    "num": "14"
+   },
+   {
+    "name": "Tom Penders",
+    "num": "15"
+   },
+   {
+    "name": "P.J. Curran",
+    "num": "21"
+   },
+   {
+    "name": "Bill Corley",
+    "num": "22"
+   },
+   {
+    "name": "Kenneth Whitney",
+    "num": "23"
+   }
+  ],
+  "1967": [
+   {
+    "name": "Tim Smith",
+    "num": "24"
+   },
+   {
+    "name": "Bill Holowaty",
+    "num": "31"
+   },
+   {
+    "name": "Robert Steinberg",
+    "num": "32"
+   },
+   {
+    "name": "Ron Ritter",
+    "num": "33"
+   },
+   {
+    "name": "Anthony Anelauskas",
+    "num": "34"
+   },
+   {
+    "name": "Richard Thompson",
+    "num": "40"
+   },
+   {
+    "name": "Bill Gray",
+    "num": "42"
+   },
+   {
+    "name": "Gerard Bilodeau",
+    "num": "43"
+   },
+   {
+    "name": "Wes Bialosuknia",
+    "num": "44"
+   },
+   {
+    "name": "Thomas McNeece",
+    "num": "12"
+   },
+   {
+    "name": "John Melen",
+    "num": "14"
+   },
+   {
+    "name": "Tom Penders",
+    "num": "15"
+   },
+   {
+    "name": "P.J. Curran",
+    "num": "21"
+   },
+   {
+    "name": "Bill Corley",
+    "num": "22"
+   },
+   {
+    "name": "Fredric Malan, Jr",
+    "num": "23"
+   }
+  ],
+  "1968": [
+   {
+    "name": "Tim Smith",
+    "num": "24"
+   },
+   {
+    "name": "David Storrs",
+    "num": "25"
+   },
+   {
+    "name": "John Crisp",
+    "num": "31"
+   },
+   {
+    "name": "Robert Steinberg",
+    "num": "32"
+   },
+   {
+    "name": "Karl Niederwerfer",
+    "num": "33"
+   },
+   {
+    "name": "Sandford Fishman",
+    "num": "34"
+   },
+   {
+    "name": "Tony Budzinsky",
+    "num": "42"
+   },
+   {
+    "name": "Gerard Bilodeau",
+    "num": "43"
+   },
+   {
+    "name": "Thomas Coleman",
+    "num": "44"
+   },
+   {
+    "name": "Thomas McNeece",
+    "num": "12"
+   },
+   {
+    "name": "John Melen",
+    "num": "14"
+   },
+   {
+    "name": "Joseph Granski",
+    "num": "15"
+   },
+   {
+    "name": "Joseph Kubachka",
+    "num": "21"
+   },
+   {
+    "name": "Bill Corley",
+    "num": "22"
+   },
+   {
+    "name": "Fredric Malan, Jr",
+    "num": "23"
+   }
+  ],
+  "1969": [
+   {
+    "name": "Bob Staak",
+    "num": "24"
+   },
+   {
+    "name": "Stephen Koski",
+    "num": "32"
+   },
+   {
+    "name": "Ron Hrubala",
+    "num": "33"
+   },
+   {
+    "name": "Stephen Townsend",
+    "num": "34"
+   },
+   {
+    "name": "Tom McCrocklin",
+    "num": "40"
+   },
+   {
+    "name": "Phil Hoagland",
+    "num": "41"
+   },
+   {
+    "name": "Tony Budzinsky",
+    "num": "42"
+   },
+   {
+    "name": "Gerard Bilodeau",
+    "num": "43"
+   },
+   {
+    "name": "Anthony Anelauskas",
+    "num": "44"
+   },
+   {
+    "name": "Louis Glazer",
+    "num": "12"
+   },
+   {
+    "name": "John Melen",
+    "num": "14"
+   },
+   {
+    "name": "Robert Boyd",
+    "num": "15"
+   },
+   {
+    "name": "David Yager",
+    "num": "22"
+   },
+   {
+    "name": "Fredric Malan, Jr",
+    "num": "23"
+   }
+  ],
+  "1970": [
+   {
+    "name": "Bob Staak",
+    "num": "24"
+   },
+   {
+    "name": "Stephen Koski",
+    "num": "32"
+   },
+   {
+    "name": "Ron Hrubala",
+    "num": "33"
+   },
+   {
+    "name": "John Crisp",
+    "num": "34"
+   },
+   {
+    "name": "Tom McCrocklin",
+    "num": "40"
+   },
+   {
+    "name": "Phil Hoagland",
+    "num": "41"
+   },
+   {
+    "name": "Tony Budzinsky",
+    "num": "42"
+   },
+   {
+    "name": "Thomas Coleman",
+    "num": "43"
+   },
+   {
+    "name": "Robert Taylor",
+    "num": "44"
+   },
+   {
+    "name": "Nels Wilson",
+    "num": "12"
+   },
+   {
+    "name": "James Jachym",
+    "num": "14"
+   },
+   {
+    "name": "Robert Boyd",
+    "num": "15"
+   },
+   {
+    "name": "Doug Melody",
+    "num": "21"
+   },
+   {
+    "name": "Paul Zorsky",
+    "num": "22"
+   },
+   {
+    "name": "Ray Brooks",
+    "num": "23"
+   }
+  ],
+  "1971": [
+   {
+    "name": "Bob Staak",
+    "num": "24"
+   },
+   {
+    "name": "Patrick DeVries",
+    "num": "32"
+   },
+   {
+    "name": "Ron Hrubala",
+    "num": "33"
+   },
+   {
+    "name": "Lee Barbach",
+    "num": "34"
+   },
+   {
+    "name": "Steven Bell",
+    "num": "40"
+   },
+   {
+    "name": "Phil Hoagland",
+    "num": "41"
+   },
+   {
+    "name": "Bob Parsons",
+    "num": "42"
+   },
+   {
+    "name": "James Pendulik",
+    "num": "43"
+   },
+   {
+    "name": "Robert Taylor",
+    "num": "44"
+   },
+   {
+    "name": "Nels Wilson",
+    "num": "12"
+   },
+   {
+    "name": "Richard Begen",
+    "num": "14"
+   },
+   {
+    "name": "Robert Boyd",
+    "num": "15"
+   },
+   {
+    "name": "Doug Melody",
+    "num": "21"
+   },
+   {
+    "name": "Al Vaughan",
+    "num": "22"
+   },
+   {
+    "name": "William Woolsey",
+    "num": "23"
+   }
+  ],
+  "1976": [
+   {
+    "name": "John Kreusser",
+    "num": "24"
+   },
+   {
+    "name": "Lawrence Kelly",
+    "num": "31"
+   },
+   {
+    "name": "Jake Robinson",
+    "num": "32"
+   },
+   {
+    "name": "Randy LaVigne",
+    "num": "34"
+   },
+   {
+    "name": "John Thomas",
+    "num": "35"
+   },
+   {
+    "name": "Jim Abromaitis",
+    "num": "40"
+   },
+   {
+    "name": "Frederic Beloin",
+    "num": "41"
+   },
+   {
+    "name": "Tony Hanson",
+    "num": "42"
+   },
+   {
+    "name": "Jeff Carr",
+    "num": "43"
+   },
+   {
+    "name": "Lee Otis Wilson",
+    "num": "44"
+   },
+   {
+    "name": "Joey Whelton",
+    "num": "11"
+   },
+   {
+    "name": "Al Weston",
+    "num": "12"
+   },
+   {
+    "name": "William Harris",
+    "num": "14"
+   }
+  ],
+  "1977": [
+   {
+    "name": "John Kreusser",
+    "num": "24"
+   },
+   {
+    "name": "Dennis Long",
+    "num": "25"
+   },
+   {
+    "name": "Albert Johnson",
+    "num": "31"
+   },
+   {
+    "name": "Jake Robinson",
+    "num": "32"
+   },
+   {
+    "name": "Ken Blume",
+    "num": "33"
+   },
+   {
+    "name": "Randy LaVigne",
+    "num": "34"
+   },
+   {
+    "name": "Jim Abromaitis",
+    "num": "40"
+   },
+   {
+    "name": "Nick Stefkovich",
+    "num": "41"
+   },
+   {
+    "name": "Tony Hanson",
+    "num": "42"
+   },
+   {
+    "name": "Jeff Carr",
+    "num": "43"
+   },
+   {
+    "name": "Alfred Lewis",
+    "num": "44"
+   },
+   {
+    "name": "Joey Whelton",
+    "num": "11"
+   },
+   {
+    "name": "Dennis Wolff",
+    "num": "21"
+   },
+   {
+    "name": "Mike Armstrong",
+    "num": "22"
+   },
+   {
+    "name": "William Brandon",
+    "num": "23"
+   }
+  ],
+  "1982": [
+   {
+    "name": "Larry Blucher",
+    "num": "24"
+   },
+   {
+    "name": "Norman Bailey",
+    "num": "30"
+   },
+   {
+    "name": "Mike Vaughan",
+    "num": "35"
+   },
+   {
+    "name": "Brian Buckelew",
+    "num": "44"
+   },
+   {
+    "name": "Chuck Aleksinas",
+    "num": "50"
+   },
+   {
+    "name": "Corny Thompson",
+    "num": "52"
+   },
+   {
+    "name": "Mike McKay",
+    "num": "5"
+   },
+   {
+    "name": "Jim Sullivan",
+    "num": "10"
+   },
+   {
+    "name": "Vernon Giscombe",
+    "num": "12"
+   },
+   {
+    "name": "Karl Hobbs",
+    "num": "14"
+   },
+   {
+    "name": "Bruce Kuczeneski",
+    "num": "23"
+   }
+  ],
+  "1983": [
+   {
+    "name": "Larry Blucher",
+    "num": "24"
+   },
+   {
+    "name": "Norman Bailey",
+    "num": "30"
+   },
+   {
+    "name": "Tim Coles",
+    "num": "34"
+   },
+   {
+    "name": "Mike Vaughan",
+    "num": "35"
+   },
+   {
+    "name": "Vincente Ithier",
+    "num": "41"
+   },
+   {
+    "name": "Bill Taylor",
+    "num": "44"
+   },
+   {
+    "name": "Len Feroleto",
+    "num": "5"
+   },
+   {
+    "name": "Earl Kelley",
+    "num": "10"
+   },
+   {
+    "name": "Vernon Giscombe",
+    "num": "12"
+   },
+   {
+    "name": "Karl Hobbs",
+    "num": "14"
+   },
+   {
+    "name": "Eddie Williams",
+    "num": "22"
+   },
+   {
+    "name": "Bruce Kuczeneski",
+    "num": "23"
+   }
+  ],
+  "1984": [
+   {
+    "name": "Larry Blucher",
+    "num": "24"
+   },
+   {
+    "name": "Ken Henry",
+    "num": "32"
+   },
+   {
+    "name": "Gerry Besselink",
+    "num": "33"
+   },
+   {
+    "name": "Tim Coles",
+    "num": "34"
+   },
+   {
+    "name": "Mike Vaughan",
+    "num": "35"
+   },
+   {
+    "name": "Vincente Ithier",
+    "num": "41"
+   },
+   {
+    "name": "Matt Bremmer",
+    "num": "43"
+   },
+   {
+    "name": "Ray Broxton",
+    "num": "4"
+   },
+   {
+    "name": "Earl Kelley",
+    "num": "10"
+   },
+   {
+    "name": "Vernon Giscombe",
+    "num": "12"
+   },
+   {
+    "name": "Karl Hobbs",
+    "num": "14"
+   },
+   {
+    "name": "Peter Coolidge",
+    "num": "15"
+   },
+   {
+    "name": "Al Frederick",
+    "num": "21"
+   },
+   {
+    "name": "Eddie Williams",
+    "num": "22"
+   }
+  ],
+  "1990": [
+   {
+    "name": "Scott Burrell",
+    "num": "24"
+   },
+   {
+    "name": "Marc Suhr",
+    "num": "30"
+   },
+   {
+    "name": "Tim Pikiell",
+    "num": "31"
+   },
+   {
+    "name": "Tate George",
+    "num": "32"
+   },
+   {
+    "name": "Marte Smith",
+    "num": "34"
+   },
+   {
+    "name": "Nadav Henefeld",
+    "num": "40"
+   },
+   {
+    "name": "Toraino Walker",
+    "num": "42"
+   },
+   {
+    "name": "Dan Cyrulik",
+    "num": "55"
+   },
+   {
+    "name": "Oliver Macklin",
+    "num": "11"
+   },
+   {
+    "name": "Chris Smith",
+    "num": "13"
+   },
+   {
+    "name": "John Gwynn",
+    "num": "15"
+   },
+   {
+    "name": "Murray Williams",
+    "num": "20"
+   },
+   {
+    "name": "Steve Pikiell",
+    "num": "21"
+   },
+   {
+    "name": "Rod Sellers",
+    "num": "22"
+   },
+   {
+    "name": "Lyman DePriest",
+    "num": "23"
+   }
+  ],
+  "1991": [
+   {
+    "name": "Scott Burrell",
+    "num": "24"
+   },
+   {
+    "name": "Marc Suhr",
+    "num": "30"
+   },
+   {
+    "name": "Tim Pikiell",
+    "num": "31"
+   },
+   {
+    "name": "Shawn Ellison",
+    "num": "32"
+   },
+   {
+    "name": "Toraino Walker",
+    "num": "42"
+   },
+   {
+    "name": "Dan Cyrulik",
+    "num": "55"
+   },
+   {
+    "name": "Gilad Katz",
+    "num": "10"
+   },
+   {
+    "name": "Oliver Macklin",
+    "num": "11"
+   },
+   {
+    "name": "Chris Smith",
+    "num": "13"
+   },
+   {
+    "name": "John Gwynn",
+    "num": "15"
+   },
+   {
+    "name": "Murray Williams",
+    "num": "20"
+   },
+   {
+    "name": "Steve Pikiell",
+    "num": "21"
+   },
+   {
+    "name": "Rod Sellers",
+    "num": "22"
+   },
+   {
+    "name": "Lyman DePriest",
+    "num": "23"
+   }
+  ],
+  "1992": [
+   {
+    "name": "Scott Burrell",
+    "num": "24"
+   },
+   {
+    "name": "Tim Pikiell",
+    "num": "31"
+   },
+   {
+    "name": "Donny Marshall",
+    "num": "33"
+   },
+   {
+    "name": "Brian Fair",
+    "num": "34"
+   },
+   {
+    "name": "Donyell Marshall",
+    "num": "42"
+   },
+   {
+    "name": "Dan Cyrulik",
+    "num": "55"
+   },
+   {
+    "name": "Jeff Calhoun",
+    "num": "3"
+   },
+   {
+    "name": "Nantambu Willingham",
+    "num": "4"
+   },
+   {
+    "name": "Gilad Katz",
+    "num": "10"
+   },
+   {
+    "name": "Oliver Macklin",
+    "num": "11"
+   },
+   {
+    "name": "Kevin Ollie",
+    "num": "12"
+   },
+   {
+    "name": "Chris Smith",
+    "num": "13"
+   },
+   {
+    "name": "Richie Ashmeade",
+    "num": "14"
+   },
+   {
+    "name": "Toraino Walker",
+    "num": "21"
+   },
+   {
+    "name": "Rod Sellers",
+    "num": "22"
+   }
+  ],
+  "1993": [
+   {
+    "name": "Scott Burrell",
+    "num": "24"
+   },
+   {
+    "name": "Brian Fair",
+    "num": "31"
+   },
+   {
+    "name": "Donny Marshall",
+    "num": "33"
+   },
+   {
+    "name": "Travis Knight",
+    "num": "40"
+   },
+   {
+    "name": "Donyell Marshall",
+    "num": "42"
+   },
+   {
+    "name": "Eric Hayward",
+    "num": "45"
+   },
+   {
+    "name": "Jeff Calhoun",
+    "num": "3"
+   },
+   {
+    "name": "Nantambu Willingham",
+    "num": "4"
+   },
+   {
+    "name": "Covington Cormier",
+    "num": "5"
+   },
+   {
+    "name": "Oliver Macklin",
+    "num": "11"
+   },
+   {
+    "name": "Kevin Ollie",
+    "num": "12"
+   },
+   {
+    "name": "Toraino Walker",
+    "num": "21"
+   },
+   {
+    "name": "Rudy Johnson",
+    "num": "23"
+   }
+  ],
+  "1996": [
+   {
+    "name": "Dion Carson",
+    "num": "24"
+   },
+   {
+    "name": "Ray Allen",
+    "num": "34"
+   },
+   {
+    "name": "Travis Knight",
+    "num": "40"
+   },
+   {
+    "name": "Predrag Meteric",
+    "num": "44"
+   },
+   {
+    "name": "Eric Hayward",
+    "num": "45"
+   },
+   {
+    "name": "Pete Kane",
+    "num": "52"
+   },
+   {
+    "name": "Jeff Cybart",
+    "num": "53"
+   },
+   {
+    "name": "Rashamel Jones",
+    "num": "3"
+   },
+   {
+    "name": "Ruslan Inyatkin",
+    "num": "10"
+   },
+   {
+    "name": "Doron Sheffer",
+    "num": "11"
+   },
+   {
+    "name": "Kirk King",
+    "num": "13"
+   },
+   {
+    "name": "Justin Srb",
+    "num": "14"
+   },
+   {
+    "name": "Ricky Moore",
+    "num": "21"
+   },
+   {
+    "name": "Antric Klaiber",
+    "num": "22"
+   },
+   {
+    "name": "Rudy Johnson",
+    "num": "23"
+   }
+  ],
+  "1997": [
+   {
+    "name": "Dion Carson",
+    "num": "24"
+   },
+   {
+    "name": "Monquencio Hardnett",
+    "num": "30"
+   },
+   {
+    "name": "Sam Funches",
+    "num": "31"
+   },
+   {
+    "name": "Richard Hamilton",
+    "num": "32"
+   },
+   {
+    "name": "Jake Voskuhl",
+    "num": "43"
+   },
+   {
+    "name": "Rashamel Jones",
+    "num": "3"
+   },
+   {
+    "name": "Michael LeBlanc",
+    "num": "5"
+   },
+   {
+    "name": "Ruslan Inyatkin",
+    "num": "10"
+   },
+   {
+    "name": "Pete McCann",
+    "num": "12"
+   },
+   {
+    "name": "Kirk King",
+    "num": "13"
+   },
+   {
+    "name": "Kevin Freeman",
+    "num": "15"
+   },
+   {
+    "name": "Kyle Chapman",
+    "num": "20"
+   },
+   {
+    "name": "Ricky Moore",
+    "num": "21"
+   },
+   {
+    "name": "Antric Klaiber",
+    "num": "22"
+   }
+  ],
+  "2004": [
+   {
+    "name": "Jason Baisch",
+    "num": "24"
+   },
+   {
+    "name": "Shamon Tooles",
+    "num": "30"
+   },
+   {
+    "name": "Rashad Anderson",
+    "num": "31"
+   },
+   {
+    "name": "Denham Brown",
+    "num": "33"
+   },
+   {
+    "name": "Justin Evanovich",
+    "num": "40"
+   },
+   {
+    "name": "Emeka Okafor",
+    "num": "50"
+   },
+   {
+    "name": "Ryan Swaller",
+    "num": "2"
+   },
+   {
+    "name": "Charlie Villanueva",
+    "num": "3"
+   },
+   {
+    "name": "Ben Gordon",
+    "num": "4"
+   },
+   {
+    "name": "Marcus Williams",
+    "num": "5"
+   },
+   {
+    "name": "Hilton Armstrong",
+    "num": "11"
+   },
+   {
+    "name": "Taliek Brown",
+    "num": "12"
+   },
+   {
+    "name": "Josh Boone",
+    "num": "21"
+   },
+   {
+    "name": "Marcus White",
+    "num": "23"
+   }
+  ],
+  "2005": [
+   {
+    "name": "Jason Baisch",
+    "num": "24"
+   },
+   {
+    "name": "Rashad Anderson",
+    "num": "31"
+   },
+   {
+    "name": "Ed Nelson",
+    "num": "32"
+   },
+   {
+    "name": "Denham Brown",
+    "num": "33"
+   },
+   {
+    "name": "Nick Forostoski",
+    "num": "55"
+   },
+   {
+    "name": "Charlie Villanueva",
+    "num": "3"
+   },
+   {
+    "name": "Marcus Williams",
+    "num": "5"
+   },
+   {
+    "name": "Ater Majok",
+    "num": "5"
+   },
+   {
+    "name": "Sami Ameziane",
+    "num": "10"
+   },
+   {
+    "name": "Hilton Armstrong",
+    "num": "11"
+   },
+   {
+    "name": "Ryan Thompson",
+    "num": "13"
+   },
+   {
+    "name": "Antonio Kellogg",
+    "num": "20"
+   },
+   {
+    "name": "Josh Boone",
+    "num": "21"
+   },
+   {
+    "name": "Rudy Gay",
+    "num": "22"
+   }
+  ],
+  "2006": [
+   {
+    "name": "Craig Austrie",
+    "num": "24"
+   },
+   {
+    "name": "Rob Garrison",
+    "num": "25"
+   },
+   {
+    "name": "Rashad Anderson",
+    "num": "31"
+   },
+   {
+    "name": "Ed Nelson",
+    "num": "32"
+   },
+   {
+    "name": "Denham Brown",
+    "num": "33"
+   },
+   {
+    "name": "Marty Gagne",
+    "num": "35"
+   },
+   {
+    "name": "Osazee Omokaro",
+    "num": "45"
+   },
+   {
+    "name": "Nick Forostoski",
+    "num": "55"
+   },
+   {
+    "name": "Marcus Johnson",
+    "num": "1"
+   },
+   {
+    "name": "Jeff Adrien",
+    "num": "4"
+   },
+   {
+    "name": "Marcus Williams",
+    "num": "5"
+   },
+   {
+    "name": "Ben Spencer",
+    "num": "10"
+   },
+   {
+    "name": "Hilton Armstrong",
+    "num": "11"
+   },
+   {
+    "name": "Ryan Thompson",
+    "num": "13"
+   },
+   {
+    "name": "Josh Boone",
+    "num": "21"
+   },
+   {
+    "name": "Rudy Gay",
+    "num": "22"
+   }
+  ],
+  "2007": [
+   {
+    "name": "Craig Austrie",
+    "num": "24"
+   },
+   {
+    "name": "Rob Garrison",
+    "num": "25"
+   },
+   {
+    "name": "Jonathan Mandeldove",
+    "num": "32"
+   },
+   {
+    "name": "Gavin Edwards",
+    "num": "33"
+   },
+   {
+    "name": "Hasheem Thabeet",
+    "num": "34"
+   },
+   {
+    "name": "Marty Gagne",
+    "num": "35"
+   },
+   {
+    "name": "Marcus Johnson",
+    "num": "1"
+   },
+   {
+    "name": "Ben Eaves",
+    "num": "2"
+   },
+   {
+    "name": "Doug Wiggins",
+    "num": "3"
+   },
+   {
+    "name": "Jeff Adrien",
+    "num": "4"
+   },
+   {
+    "name": "Ben Spencer",
+    "num": "10"
+   },
+   {
+    "name": "Jerome Dyson",
+    "num": "11"
+   },
+   {
+    "name": "A.J. Price",
+    "num": "12"
+   },
+   {
+    "name": "Curtis Kelly",
+    "num": "14"
+   },
+   {
+    "name": "Stanley Robinson",
+    "num": "21"
+   }
+  ],
+  "2008": [
+   {
+    "name": "Craig Austrie",
+    "num": "24"
+   },
+   {
+    "name": "Jim Veronick",
+    "num": "30"
+   },
+   {
+    "name": "Jonathan Mandeldove",
+    "num": "32"
+   },
+   {
+    "name": "Gavin Edwards",
+    "num": "33"
+   },
+   {
+    "name": "Hasheem Thabeet",
+    "num": "34"
+   },
+   {
+    "name": "Alex Hornat",
+    "num": "35"
+   },
+   {
+    "name": "Johnnie Bird",
+    "num": "40"
+   },
+   {
+    "name": "John Lindner",
+    "num": "45"
+   },
+   {
+    "name": "Kyle Bailey",
+    "num": "55"
+   },
+   {
+    "name": "Marcus Johnson",
+    "num": "1"
+   },
+   {
+    "name": "Donnell Beverly",
+    "num": "2"
+   },
+   {
+    "name": "Doug Wiggins",
+    "num": "3"
+   },
+   {
+    "name": "Jeff Adrien",
+    "num": "4"
+   },
+   {
+    "name": "Ben Spencer",
+    "num": "10"
+   },
+   {
+    "name": "Jerome Dyson",
+    "num": "11"
+   },
+   {
+    "name": "A.J. Price",
+    "num": "12"
+   },
+   {
+    "name": "Curtis Kelly",
+    "num": "14"
+   },
+   {
+    "name": "Stanley Robinson",
+    "num": "21"
+   }
+  ],
+  "2009": [
+   {
+    "name": "Craig Austrie",
+    "num": "24"
+   },
+   {
+    "name": "Scottie Haralson",
+    "num": "30"
+   },
+   {
+    "name": "Jonathan Mandeldove",
+    "num": "32"
+   },
+   {
+    "name": "Gavin Edwards",
+    "num": "33"
+   },
+   {
+    "name": "Hasheem Thabeet",
+    "num": "34"
+   },
+   {
+    "name": "Charles Okwandu",
+    "num": "35"
+   },
+   {
+    "name": "Jim Veronick",
+    "num": "40"
+   },
+   {
+    "name": "John Lindner",
+    "num": "44"
+   },
+   {
+    "name": "Kyle Bailey",
+    "num": "55"
+   },
+   {
+    "name": "Donnell Beverly",
+    "num": "2"
+   },
+   {
+    "name": "Jeff Adrien",
+    "num": "4"
+   },
+   {
+    "name": "Johnnie Bird",
+    "num": "10"
+   },
+   {
+    "name": "Jerome Dyson",
+    "num": "11"
+   },
+   {
+    "name": "A.J. Price",
+    "num": "12"
+   },
+   {
+    "name": "Alex Hornat",
+    "num": "13"
+   },
+   {
+    "name": "Kemba Walker",
+    "num": "15"
+   },
+   {
+    "name": "Stanley Robinson",
+    "num": "21"
+   }
+  ],
+  "2010": [
+   {
+    "name": "Darius Smith",
+    "num": "24"
+   },
+   {
+    "name": "Gavin Edwards",
+    "num": "33"
+   },
+   {
+    "name": "Alex Oriakhi",
+    "num": "34"
+   },
+   {
+    "name": "Charles Okwandu",
+    "num": "35"
+   },
+   {
+    "name": "Kyle Bailey",
+    "num": "55"
+   },
+   {
+    "name": "Donnell Beverly",
+    "num": "2"
+   },
+   {
+    "name": "Jamal Coombs-McDaniel",
+    "num": "4"
+   },
+   {
+    "name": "Jerome Dyson",
+    "num": "11"
+   },
+   {
+    "name": "Jamaal Trice",
+    "num": "13"
+   },
+   {
+    "name": "Kemba Walker",
+    "num": "15"
+   },
+   {
+    "name": "Stanley Robinson",
+    "num": "21"
+   },
+   {
+    "name": "Alex Hornat",
+    "num": "22"
+   }
+  ],
+  "2015": [
+   {
+    "name": "Daniel Guest",
+    "num": "24"
+   },
+   {
+    "name": "Terrance Ditimi",
+    "num": "33"
+   },
+   {
+    "name": "Amida Brimah",
+    "num": "35"
+   },
+   {
+    "name": "Rodney Purvis",
+    "num": "44"
+   },
+   {
+    "name": "Phillip Nolan*............,",
+    "num": "1"
+   },
+   {
+    "name": "Terrence Samuel",
+    "num": "3"
+   },
+   {
+    "name": "Daniel Hamilton",
+    "num": "5"
+   },
+   {
+    "name": "Sam Cassell Jr",
+    "num": "10"
+   },
+   {
+    "name": "Ryan Boatright",
+    "num": "11"
+   },
+   {
+    "name": "Kentan Facey",
+    "num": "12"
+   },
+   {
+    "name": "Rakim Lubin",
+    "num": "14"
+   },
+   {
+    "name": "Omar Calhoun",
+    "num": "21"
+   },
+   {
+    "name": "Pat Lenehan",
+    "num": "22"
+   },
+   {
+    "name": "Nnamdi Amilo",
+    "num": "23"
+   }
+  ],
+  "2016": [
+   {
+    "name": "Christian Foxen",
+    "num": "24"
+   },
+   {
+    "name": "Michael Noyes",
+    "num": "31"
+   },
+   {
+    "name": "Shonn Miller",
+    "num": "32"
+   },
+   {
+    "name": "Amida Brimah",
+    "num": "35"
+   },
+   {
+    "name": "Rodney Purvis",
+    "num": "44"
+   },
+   {
+    "name": "Phillip Nolan",
+    "num": "0"
+   },
+   {
+    "name": "Jalen Adams",
+    "num": "2"
+   },
+   {
+    "name": "Sterling Gibbs",
+    "num": "4"
+   },
+   {
+    "name": "Daniel Hamilton",
+    "num": "5"
+   },
+   {
+    "name": "Sam Cassell Jr",
+    "num": "10"
+   },
+   {
+    "name": "Kentan Facey",
+    "num": "12"
+   },
+   {
+    "name": "Steven Enoch",
+    "num": "13"
+   },
+   {
+    "name": "Omar Calhoun",
+    "num": "21"
+   },
+   {
+    "name": "Nnamdi Amilo",
+    "num": "23"
+   }
+  ],
+  "2017": [
+   {
+    "name": "Christian Foxen",
+    "num": "24"
+   },
+   {
+    "name": "Michael Noyes",
+    "num": "31"
+   },
+   {
+    "name": "Restinel Lomotey",
+    "num": "33"
+   },
+   {
+    "name": "Amida Brimah",
+    "num": "35"
+   },
+   {
+    "name": "Temi Aiyegbusi",
+    "num": "45"
+   },
+   {
+    "name": "Christian Vital",
+    "num": "1"
+   },
+   {
+    "name": "Jalen Adams",
+    "num": "2"
+   },
+   {
+    "name": "Alterique Gilbert",
+    "num": "3"
+   },
+   {
+    "name": "Vance Jackson",
+    "num": "5"
+   },
+   {
+    "name": "Kentan Facey",
+    "num": "12"
+   },
+   {
+    "name": "Steven Enoch",
+    "num": "13"
+   },
+   {
+    "name": "Rodney Purvis",
+    "num": "15"
+   },
+   {
+    "name": "Mamadou Diarra",
+    "num": "21"
+   },
+   {
+    "name": "Terry Larrier",
+    "num": "22"
+   },
+   {
+    "name": "Juwan Durham",
+    "num": "23"
+   }
+  ],
+  "2018": [
+   {
+    "name": "Christian Foxen",
+    "num": "24"
+   },
+   {
+    "name": "Josh Carlton",
+    "num": "25"
+   },
+   {
+    "name": "Michael Noyes",
+    "num": "31"
+   },
+   {
+    "name": "David Onuorah",
+    "num": "34"
+   },
+   {
+    "name": "Temi Aiyegbusi",
+    "num": "45"
+   },
+   {
+    "name": "Antwoine Anderson",
+    "num": "0"
+   },
+   {
+    "name": "Christian Vital",
+    "num": "1"
+   },
+   {
+    "name": "Alterique Gilbert",
+    "num": "3"
+   },
+   {
+    "name": "Jalen Adams",
+    "num": "4"
+   },
+   {
+    "name": "Isaiah Whaley",
+    "num": "5"
+   },
+   {
+    "name": "Kwintin Williams",
+    "num": "11"
+   },
+   {
+    "name": "Tyler Polley",
+    "num": "12"
+   },
+   {
+    "name": "Mamadou Diarra",
+    "num": "21"
+   },
+   {
+    "name": "Terry Larrier",
+    "num": "22"
+   },
+   {
+    "name": "Eric Cobb",
+    "num": "23"
+   }
+  ],
+  "2022": [
+   {
+    "name": "Jordan Hawkins",
+    "num": "24"
+   },
+   {
+    "name": "Samson Johnson",
+    "num": "35"
+   },
+   {
+    "name": "Matt Garry",
+    "num": "41"
+   },
+   {
+    "name": "Andre Jackson Jr",
+    "num": "44"
+   },
+   {
+    "name": "Jalen Gaffney",
+    "num": "0"
+   },
+   {
+    "name": "Rahsool Diggins",
+    "num": "1"
+   },
+   {
+    "name": "R.J. Cole",
+    "num": "2"
+   },
+   {
+    "name": "Tristen Newton",
+    "num": "2"
+   },
+   {
+    "name": "Joey Calcaterra",
+    "num": "3"
+   },
+   {
+    "name": "Tyrese Martin",
+    "num": "4"
+   },
+   {
+    "name": "Isaiah Whaley",
+    "num": "5"
+   },
+   {
+    "name": "Hassan Diarra",
+    "num": "5"
+   },
+   {
+    "name": "Akok Akok",
+    "num": "11"
+   },
+   {
+    "name": "Alex Karaban",
+    "num": "11"
+   },
+   {
+    "name": "Tyler Polley",
+    "num": "12"
+   },
+   {
+    "name": "Richie Springs",
+    "num": "13"
+   },
+   {
+    "name": "Andrew Hurley",
+    "num": "20"
+   },
+   {
+    "name": "Adama Sanogo",
+    "num": "21"
+   }
+  ],
+  "2023": [
+   {
+    "name": "Jordan Hawkins",
+    "num": "24"
+   },
+   {
+    "name": "Youssouf Singare",
+    "num": "24"
+   },
+   {
+    "name": "Yarin Hasson",
+    "num": "30"
+   },
+   {
+    "name": "Donovan Clingan",
+    "num": "32"
+   },
+   {
+    "name": "Apostolos Roumoglou",
+    "num": "33"
+   },
+   {
+    "name": "Samson Johnson",
+    "num": "35"
+   },
+   {
+    "name": "Andre Johnson Jr",
+    "num": "40"
+   },
+   {
+    "name": "Emmett Hendry",
+    "num": "41"
+   },
+   {
+    "name": "Andre Jackson Jr",
+    "num": "44"
+   },
+   {
+    "name": "Solo Ball",
+    "num": "1"
+   },
+   {
+    "name": "Tristen Newton",
+    "num": "2"
+   },
+   {
+    "name": "Joey Calcaterra",
+    "num": "3"
+   },
+   {
+    "name": "Nahiem Alleyne",
+    "num": "4"
+   },
+   {
+    "name": "Hassan Diarra",
+    "num": "5"
+   },
+   {
+    "name": "Stephon Castle",
+    "num": "5"
+   },
+   {
+    "name": "Hassan Diarra",
+    "num": "10"
+   },
+   {
+    "name": "Alex Karaban",
+    "num": "11"
+   },
+   {
+    "name": "Richie Springs",
+    "num": "13"
+   },
+   {
+    "name": "Andrew Hurley",
+    "num": "20"
+   },
+   {
+    "name": "Adama Sanogo",
+    "num": "21"
+   },
+   {
+    "name": "Jayden Ross",
+    "num": "23"
+   }
+  ],
+  "2024": [
+   {
+    "name": "Youssouf Singare",
+    "num": "24"
+   },
+   {
+    "name": "Donovan Clingan",
+    "num": "32"
+   },
+   {
+    "name": "Apostolos Roumoglou",
+    "num": "33"
+   },
+   {
+    "name": "Samson Johnson",
+    "num": "35"
+   },
+   {
+    "name": "Andre Johnson Jr",
+    "num": "40"
+   },
+   {
+    "name": "Ahmad Nowell",
+    "num": "0"
+   },
+   {
+    "name": "Solo Ball",
+    "num": "1"
+   },
+   {
+    "name": "Tristen Newton",
+    "num": "2"
+   },
+   {
+    "name": "Jaylin Stewart",
+    "num": "3"
+   },
+   {
+    "name": "Isaiah Abraham",
+    "num": "4"
+   },
+   {
+    "name": "Stephon Castle",
+    "num": "5"
+   },
+   {
+    "name": "Hassan Diarra",
+    "num": "10"
+   },
+   {
+    "name": "Alex Karaban",
+    "num": "11"
+   },
+   {
+    "name": "Cam Spencer",
+    "num": "12"
+   },
+   {
+    "name": "Andrew Hurley",
+    "num": "20"
+   },
+   {
+    "name": "Jayden Ross",
+    "num": "23"
+   }
+  ],
+  "2025": [
+   {
+    "name": "Youssouf Singare",
+    "num": "24"
+   },
+   {
+    "name": "Braylon Mullins",
+    "num": "24"
+   },
+   {
+    "name": "Liam McNeeley",
+    "num": "30"
+   },
+   {
+    "name": "Samson Johnson",
+    "num": "35"
+   },
+   {
+    "name": "Ahmad Nowell",
+    "num": "0"
+   },
+   {
+    "name": "Malachi Smith",
+    "num": "0"
+   },
+   {
+    "name": "Solo Ball",
+    "num": "1"
+   },
+   {
+    "name": "Silas Demary Jr",
+    "num": "2"
+   },
+   {
+    "name": "Jaylin Stewart",
+    "num": "3"
+   },
+   {
+    "name": "Isaiah Abraham",
+    "num": "4"
+   },
+   {
+    "name": "Dwayne Koroma",
+    "num": "4"
+   },
+   {
+    "name": "Tarris Reed Jr",
+    "num": "5"
+   },
+   {
+    "name": "Jacob Furphy",
+    "num": "7"
+   },
+   {
+    "name": "Alec Millender",
+    "num": "9"
+   },
+   {
+    "name": "Hassan Diarra",
+    "num": "10"
+   },
+   {
+    "name": "Rrezon Elezaj",
+    "num": "10"
+   },
+   {
+    "name": "Alex Karaban",
+    "num": "11"
+   },
+   {
+    "name": "Jacob Ross",
+    "num": "13"
+   },
+   {
+    "name": "Aidan Mahaney",
+    "num": "20"
+   },
+   {
+    "name": "Jayden Ross",
+    "num": "23"
+   }
+  ],
+  "2026": [
+   {
+    "name": "Braylon Mullins",
+    "num": "24"
+   },
+   {
+    "name": "Liam McNeeley",
+    "num": "30"
+   },
+   {
+    "name": "Uros Paunovic",
+    "num": "77"
+   },
+   {
+    "name": "Malachi Smith",
+    "num": "0"
+   },
+   {
+    "name": "Solo Ball",
+    "num": "1"
+   },
+   {
+    "name": "Silas Demary Jr",
+    "num": "2"
+   },
+   {
+    "name": "Jaylin Stewart",
+    "num": "3"
+   },
+   {
+    "name": "Dwayne Koroma",
+    "num": "4"
+   },
+   {
+    "name": "Tarris Reed Jr",
+    "num": "5"
+   },
+   {
+    "name": "Jacob Furphy",
+    "num": "7"
+   },
+   {
+    "name": "Alec Millender",
+    "num": "9"
+   },
+   {
+    "name": "Rrezon Elezaj",
+    "num": "10"
+   },
+   {
+    "name": "Alex Karaban",
+    "num": "11"
+   },
+   {
+    "name": "Eric Reibe",
+    "num": "12"
+   },
+   {
+    "name": "Jacob Ross",
+    "num": "13"
+   },
+   {
+    "name": "Jayden Ross",
+    "num": "23"
+   }
+  ],
+  "2027": [
+   {
+    "name": "Braylon Mullins",
+    "num": "24"
+   },
+   {
+    "name": "Liam McNeeley",
+    "num": "30"
+   },
+   {
+    "name": "Solo Ball",
+    "num": "1"
+   },
+   {
+    "name": "Jacob Ross",
+    "num": "13"
+   },
+   {
+    "name": "Jayden Ross",
+    "num": "23"
+   }
+  ],
+  "1952": [
+   {
+    "name": "Wallace Widholm",
+    "num": "25"
+   },
+   {
+    "name": "Phil Jones",
+    "num": "11"
+   },
+   {
+    "name": "Harold Garner",
+    "num": "12"
+   },
+   {
+    "name": "Worthy Patterson",
+    "num": "13"
+   },
+   {
+    "name": "Gerald Deutch",
+    "num": "14"
+   },
+   {
+    "name": "Eugene King",
+    "num": "15"
+   },
+   {
+    "name": "Seymour Menchel",
+    "num": "16"
+   },
+   {
+    "name": "Clyde Brouker",
+    "num": "17"
+   },
+   {
+    "name": "Richard Watson",
+    "num": "18"
+   },
+   {
+    "name": "Burr Carlson",
+    "num": "19"
+   },
+   {
+    "name": "William Ebel",
+    "num": "20"
+   },
+   {
+    "name": "Melvin Kleckner",
+    "num": "21"
+   },
+   {
+    "name": "Vin Yokabaskas",
+    "num": "22"
+   },
+   {
+    "name": "Lou Orlando",
+    "num": "23"
+   }
+  ],
+  "1958": [
+   {
+    "name": "Paul Kaspar",
+    "num": "25"
+   },
+   {
+    "name": "Larry Doyle",
+    "num": "30"
+   },
+   {
+    "name": "Jim O\u2019Connor",
+    "num": "31"
+   },
+   {
+    "name": "Bob Cherepy",
+    "num": "33"
+   },
+   {
+    "name": "Glenn Cross",
+    "num": "34"
+   },
+   {
+    "name": "Billy Schmidt",
+    "num": "40"
+   },
+   {
+    "name": "Al Cooper",
+    "num": "41"
+   },
+   {
+    "name": "Wayne Davis",
+    "num": "42"
+   },
+   {
+    "name": "Ed Martin",
+    "num": "43"
+   },
+   {
+    "name": "John Pipczynski",
+    "num": "44"
+   },
+   {
+    "name": "John Risley",
+    "num": "12"
+   },
+   {
+    "name": "Ted Kosier",
+    "num": "14"
+   },
+   {
+    "name": "Phil Brown",
+    "num": "15"
+   },
+   {
+    "name": "Gene King",
+    "num": "20"
+   },
+   {
+    "name": "Jack Rose",
+    "num": "21"
+   }
+  ],
+  "1959": [
+   {
+    "name": "Phil Harney",
+    "num": "25"
+   },
+   {
+    "name": "Bob Countryman",
+    "num": "30"
+   },
+   {
+    "name": "Bill Madison",
+    "num": "32"
+   },
+   {
+    "name": "Pete Kelly",
+    "num": "33"
+   },
+   {
+    "name": "Glenn Cross",
+    "num": "34"
+   },
+   {
+    "name": "Walt Griffin",
+    "num": "40"
+   },
+   {
+    "name": "Al Cooper",
+    "num": "41"
+   },
+   {
+    "name": "Wayne Davis",
+    "num": "42"
+   },
+   {
+    "name": "Ed Martin",
+    "num": "43"
+   },
+   {
+    "name": "John Pipczynski",
+    "num": "44"
+   },
+   {
+    "name": "Jack Morrison",
+    "num": "11"
+   },
+   {
+    "name": "John Risley",
+    "num": "12"
+   },
+   {
+    "name": "Joe Jackson",
+    "num": "14"
+   },
+   {
+    "name": "Dick Marinaccio",
+    "num": "15"
+   },
+   {
+    "name": "Jack Rose",
+    "num": "21"
+   }
+  ],
+  "1961": [
+   {
+    "name": "Gerry Manning",
+    "num": "25"
+   },
+   {
+    "name": "George Uhl",
+    "num": "31"
+   },
+   {
+    "name": "Bill Madison",
+    "num": "32"
+   },
+   {
+    "name": "Pete Kelly",
+    "num": "33"
+   },
+   {
+    "name": "Dave King",
+    "num": "34"
+   },
+   {
+    "name": "Bill Hulteen",
+    "num": "40"
+   },
+   {
+    "name": "Neil Horne",
+    "num": "41"
+   },
+   {
+    "name": "Dave Daniels",
+    "num": "42"
+   },
+   {
+    "name": "Glenn Cross",
+    "num": "43"
+   },
+   {
+    "name": "Bob Haines",
+    "num": "44"
+   },
+   {
+    "name": "Dale Comey",
+    "num": "12"
+   },
+   {
+    "name": "Lenny Carlson",
+    "num": "14"
+   },
+   {
+    "name": "Paul Gomes",
+    "num": "15"
+   }
+  ],
+  "1972": [
+   {
+    "name": "Patrick Mullin",
+    "num": "25"
+   },
+   {
+    "name": "Lawrence Truster",
+    "num": "31"
+   },
+   {
+    "name": "Patrick DeVries",
+    "num": "32"
+   },
+   {
+    "name": "Taurus Preikstas",
+    "num": "33"
+   },
+   {
+    "name": "Lee Barbach",
+    "num": "34"
+   },
+   {
+    "name": "Steven Bell",
+    "num": "40"
+   },
+   {
+    "name": "Gary Custick",
+    "num": "41"
+   },
+   {
+    "name": "Bob Parsons",
+    "num": "42"
+   },
+   {
+    "name": "William Deehan",
+    "num": "43"
+   },
+   {
+    "name": "Cal Chapman, Jr",
+    "num": "44"
+   },
+   {
+    "name": "Nels Wilson",
+    "num": "12"
+   },
+   {
+    "name": "Richard Begen",
+    "num": "14"
+   },
+   {
+    "name": "Doug Melody",
+    "num": "21"
+   },
+   {
+    "name": "Al Vaughan",
+    "num": "22"
+   }
+  ],
+  "1973": [
+   {
+    "name": "Patrick Mullin",
+    "num": "25"
+   },
+   {
+    "name": "Kenneth Wright",
+    "num": "31"
+   },
+   {
+    "name": "Earl Wilson, Jr",
+    "num": "32"
+   },
+   {
+    "name": "William Dedhan",
+    "num": "33"
+   },
+   {
+    "name": "Curtis Johnson",
+    "num": "34"
+   },
+   {
+    "name": "Gary Custick",
+    "num": "41"
+   },
+   {
+    "name": "Bob Parsons",
+    "num": "42"
+   },
+   {
+    "name": "Cal Chapman, Jr",
+    "num": "44"
+   },
+   {
+    "name": "Ed Harrison",
+    "num": "14"
+   },
+   {
+    "name": "Dennis Cole",
+    "num": "15"
+   },
+   {
+    "name": "Jimmy Foster",
+    "num": "21"
+   },
+   {
+    "name": "Al Vaughan",
+    "num": "22"
+   }
+  ],
+  "1974": [
+   {
+    "name": "Tony Hanson",
+    "num": "25"
+   },
+   {
+    "name": "Kenneth Wright",
+    "num": "31"
+   },
+   {
+    "name": "Earl Wilson, Jr",
+    "num": "32"
+   },
+   {
+    "name": "Patrick Sibilia",
+    "num": "33"
+   },
+   {
+    "name": "Curtis Johnson",
+    "num": "34"
+   },
+   {
+    "name": "John Thomas",
+    "num": "35"
+   },
+   {
+    "name": "Eric DeCicco",
+    "num": "40"
+   },
+   {
+    "name": "Gary Custick",
+    "num": "41"
+   },
+   {
+    "name": "Roger Lawton",
+    "num": "42"
+   },
+   {
+    "name": "Richard Semo",
+    "num": "43"
+   },
+   {
+    "name": "Cal Chapman, Jr",
+    "num": "44"
+   },
+   {
+    "name": "Al Weston",
+    "num": "12"
+   },
+   {
+    "name": "Ed Harrison",
+    "num": "14"
+   },
+   {
+    "name": "Dennis Cole",
+    "num": "15"
+   },
+   {
+    "name": "Rodney Bass",
+    "num": "20"
+   },
+   {
+    "name": "Jimmy Foster",
+    "num": "21"
+   }
+  ],
+  "1975": [
+   {
+    "name": "Tony Hanson",
+    "num": "25"
+   },
+   {
+    "name": "Kenneth Wright",
+    "num": "31"
+   },
+   {
+    "name": "Earl Wilson, Jr",
+    "num": "32"
+   },
+   {
+    "name": "Patrick Sibilia",
+    "num": "33"
+   },
+   {
+    "name": "Curtis Johnson",
+    "num": "34"
+   },
+   {
+    "name": "John Thomas",
+    "num": "35"
+   },
+   {
+    "name": "Larry Kelly",
+    "num": "40"
+   },
+   {
+    "name": "Roger Lawton",
+    "num": "42"
+   },
+   {
+    "name": "Peter Axtenn",
+    "num": "43"
+   },
+   {
+    "name": "Joey Whelton",
+    "num": "11"
+   },
+   {
+    "name": "Al Weston",
+    "num": "12"
+   },
+   {
+    "name": "William Harris",
+    "num": "14"
+   },
+   {
+    "name": "Dennis Cole",
+    "num": "15"
+   },
+   {
+    "name": "Rodney Bass",
+    "num": "20"
+   },
+   {
+    "name": "Lee Otis Wilson",
+    "num": "23"
+   }
+  ],
+  "1978": [
+   {
+    "name": "Dennis Long",
+    "num": "25"
+   },
+   {
+    "name": "Albert Johnson",
+    "num": "31"
+   },
+   {
+    "name": "John Delagrange",
+    "num": "32"
+   },
+   {
+    "name": "Ken Blume",
+    "num": "33"
+   },
+   {
+    "name": "Randy LaVigne",
+    "num": "34"
+   },
+   {
+    "name": "Jim Abromaitis",
+    "num": "40"
+   },
+   {
+    "name": "Nick Stefkovich",
+    "num": "41"
+   },
+   {
+    "name": "Jeff Carr",
+    "num": "43"
+   },
+   {
+    "name": "Alfred Lewis",
+    "num": "44"
+   },
+   {
+    "name": "Joey Whelton",
+    "num": "11"
+   },
+   {
+    "name": "James Fearon",
+    "num": "20"
+   },
+   {
+    "name": "Dennis Wolff",
+    "num": "21"
+   },
+   {
+    "name": "Mike Armstrong",
+    "num": "22"
+   }
+  ],
+  "1979": [
+   {
+    "name": "Dennis Long",
+    "num": "25"
+   },
+   {
+    "name": "Albert Johnson",
+    "num": "31"
+   },
+   {
+    "name": "John Delagrange",
+    "num": "32"
+   },
+   {
+    "name": "Randy LaVigne",
+    "num": "34"
+   },
+   {
+    "name": "Jim Abromaitis",
+    "num": "40"
+   },
+   {
+    "name": "Nick Stefkovich",
+    "num": "41"
+   },
+   {
+    "name": "Jeff Carr",
+    "num": "43"
+   },
+   {
+    "name": "Alfred Lewis",
+    "num": "44"
+   },
+   {
+    "name": "Corny Thompson",
+    "num": "52"
+   },
+   {
+    "name": "Mike McKay",
+    "num": "5"
+   },
+   {
+    "name": "Jim Sullivan",
+    "num": "10"
+   },
+   {
+    "name": "Bobby Dulin",
+    "num": "15"
+   },
+   {
+    "name": "James Fearon",
+    "num": "20"
+   },
+   {
+    "name": "Clay Johnson",
+    "num": "22"
+   }
+  ],
+  "1980": [
+   {
+    "name": "Craig Wood",
+    "num": "25"
+   },
+   {
+    "name": "Mark Benson",
+    "num": "31"
+   },
+   {
+    "name": "John Delagrange",
+    "num": "32"
+   },
+   {
+    "name": "Jim Abromaitis",
+    "num": "40"
+   },
+   {
+    "name": "Nick Stefkovich",
+    "num": "41"
+   },
+   {
+    "name": "Alfred Lewis",
+    "num": "44"
+   },
+   {
+    "name": "Corny Thompson",
+    "num": "52"
+   },
+   {
+    "name": "Mike McKay",
+    "num": "5"
+   },
+   {
+    "name": "Jim Sullivan",
+    "num": "10"
+   },
+   {
+    "name": "Bobby Dulin",
+    "num": "15"
+   },
+   {
+    "name": "Glen Miller",
+    "num": "20"
+   },
+   {
+    "name": "Clay Johnson",
+    "num": "22"
+   },
+   {
+    "name": "Bruce Kuczeneski",
+    "num": "23"
+   }
+  ],
+  "1981": [
+   {
+    "name": "Craig Wood",
+    "num": "25"
+   },
+   {
+    "name": "Norman Bailey",
+    "num": "30"
+   },
+   {
+    "name": "Mark Benson",
+    "num": "31"
+   },
+   {
+    "name": "Chuck Aleksinas",
+    "num": "50"
+   },
+   {
+    "name": "Corny Thompson",
+    "num": "52"
+   },
+   {
+    "name": "Mike McKay",
+    "num": "5"
+   },
+   {
+    "name": "Jim Sullivan",
+    "num": "10"
+   },
+   {
+    "name": "Vernon Giscombe",
+    "num": "12"
+   },
+   {
+    "name": "Karl Hobbs",
+    "num": "14"
+   },
+   {
+    "name": "Bobby Dulin",
+    "num": "15"
+   },
+   {
+    "name": "Glen Miller",
+    "num": "20"
+   },
+   {
+    "name": "Clay Johnson",
+    "num": "22"
+   },
+   {
+    "name": "Bruce Kuczeneski",
+    "num": "23"
+   }
+  ],
+  "1985": [
+   {
+    "name": "Anthony Moye",
+    "num": "25"
+   },
+   {
+    "name": "John Shea",
+    "num": "30"
+   },
+   {
+    "name": "Ken Henry",
+    "num": "32"
+   },
+   {
+    "name": "Gerry Besselink",
+    "num": "33"
+   },
+   {
+    "name": "Tim Coles",
+    "num": "34"
+   },
+   {
+    "name": "Jeff King",
+    "num": "40"
+   },
+   {
+    "name": "Matt Bremmer",
+    "num": "43"
+   },
+   {
+    "name": "Terry Coffey",
+    "num": "3"
+   },
+   {
+    "name": "Ray Broxton",
+    "num": "4"
+   },
+   {
+    "name": "Earl Kelley",
+    "num": "10"
+   },
+   {
+    "name": "Terence Warren",
+    "num": "20"
+   },
+   {
+    "name": "Al Frederick",
+    "num": "21"
+   },
+   {
+    "name": "Eddie Williams",
+    "num": "22"
+   }
+  ],
+  "1986": [
+   {
+    "name": "Phil Gamble",
+    "num": "25"
+   },
+   {
+    "name": "John Shea",
+    "num": "30"
+   },
+   {
+    "name": "Robert Ursery",
+    "num": "31"
+   },
+   {
+    "name": "Gerry Besselink",
+    "num": "33"
+   },
+   {
+    "name": "Tim Coles",
+    "num": "34"
+   },
+   {
+    "name": "Jeff King",
+    "num": "40"
+   },
+   {
+    "name": "Clifford Robinson",
+    "num": "00"
+   },
+   {
+    "name": "Terry Coffey",
+    "num": "3"
+   },
+   {
+    "name": "Earl Kelley",
+    "num": "10"
+   },
+   {
+    "name": "Kenny Scott",
+    "num": "12"
+   },
+   {
+    "name": "Terence Warren",
+    "num": "20"
+   },
+   {
+    "name": "Eddie Williams",
+    "num": "22"
+   }
+  ],
+  "1987": [
+   {
+    "name": "Phil Gamble",
+    "num": "25"
+   },
+   {
+    "name": "Robert Ursery",
+    "num": "31"
+   },
+   {
+    "name": "Tate George",
+    "num": "32"
+   },
+   {
+    "name": "Gerry Besselink",
+    "num": "33"
+   },
+   {
+    "name": "Jeff King",
+    "num": "40"
+   },
+   {
+    "name": "James Spradling",
+    "num": "44"
+   },
+   {
+    "name": "Karsten Kibbe",
+    "num": "50"
+   },
+   {
+    "name": "Clifford Robinson",
+    "num": "00"
+   },
+   {
+    "name": "Jeff Lewis",
+    "num": "15"
+   },
+   {
+    "name": "Steve Pikiell",
+    "num": "21"
+   },
+   {
+    "name": "Greg Economou",
+    "num": "23"
+   }
+  ],
+  "1988": [
+   {
+    "name": "Phil Gamble",
+    "num": "25"
+   },
+   {
+    "name": "Robert Ursery",
+    "num": "31"
+   },
+   {
+    "name": "Tate George",
+    "num": "32"
+   },
+   {
+    "name": "Willie McCloud",
+    "num": "33"
+   },
+   {
+    "name": "Jeff King",
+    "num": "40"
+   },
+   {
+    "name": "James Spradling",
+    "num": "44"
+   },
+   {
+    "name": "Karsten Kibbe",
+    "num": "50"
+   },
+   {
+    "name": "Bill Lanes",
+    "num": "50"
+   },
+   {
+    "name": "Clifford Robinson",
+    "num": "00"
+   },
+   {
+    "name": "Murray Williams",
+    "num": "20"
+   },
+   {
+    "name": "Steve Pikiell",
+    "num": "21"
+   },
+   {
+    "name": "Greg Economou",
+    "num": "22"
+   },
+   {
+    "name": "Lyman DePriest",
+    "num": "23"
+   }
+  ],
+  "1989": [
+   {
+    "name": "Phil Gamble",
+    "num": "25"
+   },
+   {
+    "name": "Marc Suhr",
+    "num": "30"
+   },
+   {
+    "name": "Tate George",
+    "num": "32"
+   },
+   {
+    "name": "Willie McCloud",
+    "num": "33"
+   },
+   {
+    "name": "Chris Fleming",
+    "num": "40"
+   },
+   {
+    "name": "Dan Cyrulik",
+    "num": "55"
+   },
+   {
+    "name": "Clifford Robinson",
+    "num": "00"
+   },
+   {
+    "name": "Clint Simmons",
+    "num": "3"
+   },
+   {
+    "name": "Chris Smith",
+    "num": "13"
+   },
+   {
+    "name": "John Gwynn",
+    "num": "15"
+   },
+   {
+    "name": "Murray Williams",
+    "num": "20"
+   },
+   {
+    "name": "Steve Pikiell",
+    "num": "21"
+   },
+   {
+    "name": "Rod Sellers",
+    "num": "22"
+   },
+   {
+    "name": "Lyman DePriest",
+    "num": "23"
+   }
+  ],
+  "1998": [
+   {
+    "name": "Craig Glazer",
+    "num": "25"
+   },
+   {
+    "name": "Monquencio Hardnett",
+    "num": "30"
+   },
+   {
+    "name": "Richard Hamilton",
+    "num": "32"
+   },
+   {
+    "name": "Souleymane Wane",
+    "num": "34"
+   },
+   {
+    "name": "E.J. Harrison",
+    "num": "40"
+   },
+   {
+    "name": "Khalid El-Amin",
+    "num": "42"
+   },
+   {
+    "name": "Jake Voskuhl",
+    "num": "43"
+   },
+   {
+    "name": "Chris Crowley",
+    "num": "44"
+   },
+   {
+    "name": "Jeff Cybart",
+    "num": "53"
+   },
+   {
+    "name": "Rashamel Jones",
+    "num": "3"
+   },
+   {
+    "name": "Kevin Freeman",
+    "num": "15"
+   },
+   {
+    "name": "Ricky Moore",
+    "num": "21"
+   },
+   {
+    "name": "Antric Klaiber",
+    "num": "22"
+   },
+   {
+    "name": "Albert Mouring",
+    "num": "23"
+   }
+  ],
+  "1999": [
+   {
+    "name": "Ed Tonella",
+    "num": "25"
+   },
+   {
+    "name": "E.J. Harrison",
+    "num": "31"
+   },
+   {
+    "name": "Richard Hamilton",
+    "num": "32"
+   },
+   {
+    "name": "Souleymane Wane",
+    "num": "34"
+   },
+   {
+    "name": "Richard Moore",
+    "num": "35"
+   },
+   {
+    "name": "Khalid El-Amin",
+    "num": "42"
+   },
+   {
+    "name": "Jake Voskuhl",
+    "num": "43"
+   },
+   {
+    "name": "Stanley Ocitti",
+    "num": "50"
+   },
+   {
+    "name": "Edmund Saunders",
+    "num": "51"
+   },
+   {
+    "name": "Rashamel Jones",
+    "num": "3"
+   },
+   {
+    "name": "Kevin Freeman",
+    "num": "15"
+   },
+   {
+    "name": "Ricky Moore",
+    "num": "21"
+   },
+   {
+    "name": "Antric Klaiber",
+    "num": "22"
+   },
+   {
+    "name": "Albert Mouring",
+    "num": "23"
+   }
+  ],
+  "2001": [
+   {
+    "name": "Ace Watanasuparp",
+    "num": "25"
+   },
+   {
+    "name": "Shamon Tooles",
+    "num": "30"
+   },
+   {
+    "name": "Tony Robertson",
+    "num": "32"
+   },
+   {
+    "name": "Souleymane Wane",
+    "num": "34"
+   },
+   {
+    "name": "Mike Woodward",
+    "num": "35"
+   },
+   {
+    "name": "Johnnie Selvie",
+    "num": "44"
+   },
+   {
+    "name": "Marcus Cox",
+    "num": "50"
+   },
+   {
+    "name": "Edmund Saunders",
+    "num": "51"
+   },
+   {
+    "name": "Robert Swain",
+    "num": "2"
+   },
+   {
+    "name": "Caron Butler",
+    "num": "3"
+   },
+   {
+    "name": "Ajou Deng",
+    "num": "4"
+   },
+   {
+    "name": "Kwasi Gyambibi",
+    "num": "10"
+   },
+   {
+    "name": "Taliek Brown",
+    "num": "12"
+   },
+   {
+    "name": "Justin Brown",
+    "num": "20"
+   },
+   {
+    "name": "Scott Hazelton",
+    "num": "21"
+   },
+   {
+    "name": "Albert Mouring",
+    "num": "23"
+   }
+  ],
+  "2002": [
+   {
+    "name": "Mike Hayes",
+    "num": "25"
+   },
+   {
+    "name": "Shamon Tooles",
+    "num": "30"
+   },
+   {
+    "name": "Ace Watanasuparp",
+    "num": "31"
+   },
+   {
+    "name": "Tony Robertson",
+    "num": "32"
+   },
+   {
+    "name": "Daryl Woods",
+    "num": "33"
+   },
+   {
+    "name": "Mike Woodward",
+    "num": "35"
+   },
+   {
+    "name": "Johnnie Selvie",
+    "num": "44"
+   },
+   {
+    "name": "Emeka Okafor",
+    "num": "50"
+   },
+   {
+    "name": "Chris McLaughlin",
+    "num": "55"
+   },
+   {
+    "name": "Robert Swain",
+    "num": "2"
+   },
+   {
+    "name": "Ryan Swaller",
+    "num": "2"
+   },
+   {
+    "name": "Caron Butler",
+    "num": "3"
+   },
+   {
+    "name": "Ben Gordon",
+    "num": "4"
+   },
+   {
+    "name": "Chad Wise",
+    "num": "5"
+   },
+   {
+    "name": "Kwasi Gyambibi",
+    "num": "10"
+   },
+   {
+    "name": "Taliek Brown",
+    "num": "12"
+   },
+   {
+    "name": "Ryan Swaller",
+    "num": "15"
+   },
+   {
+    "name": "Justin Brown",
+    "num": "20"
+   },
+   {
+    "name": "Scott Hazelton",
+    "num": "21"
+   }
+  ],
+  "2003": [
+   {
+    "name": "Mike Hayes",
+    "num": "25"
+   },
+   {
+    "name": "Shamon Tooles",
+    "num": "30"
+   },
+   {
+    "name": "Rashad Anderson",
+    "num": "31"
+   },
+   {
+    "name": "Tony Robertson",
+    "num": "32"
+   },
+   {
+    "name": "Denham Brown",
+    "num": "33"
+   },
+   {
+    "name": "Mike Woodward",
+    "num": "35"
+   },
+   {
+    "name": "Justin Evanovich",
+    "num": "40"
+   },
+   {
+    "name": "Emeka Okafor",
+    "num": "50"
+   },
+   {
+    "name": "Ryan Swaller",
+    "num": "2"
+   },
+   {
+    "name": "Ben Gordon",
+    "num": "4"
+   },
+   {
+    "name": "Chad Wise",
+    "num": "5"
+   },
+   {
+    "name": "Hilton Armstrong",
+    "num": "11"
+   },
+   {
+    "name": "Taliek Brown",
+    "num": "12"
+   },
+   {
+    "name": "Justin Brown",
+    "num": "20"
+   },
+   {
+    "name": "Marcus White",
+    "num": "23"
+   }
+  ],
+  "2011": [
+   {
+    "name": "Michael Bradley",
+    "num": "25"
+   },
+   {
+    "name": "Alex Oriakhi",
+    "num": "34"
+   },
+   {
+    "name": "Charles Okwandu",
+    "num": "35"
+   },
+   {
+    "name": "Enosch Wolf",
+    "num": "1"
+   },
+   {
+    "name": "Donnell Beverly",
+    "num": "2"
+   },
+   {
+    "name": "Jeremy Lamb",
+    "num": "3"
+   },
+   {
+    "name": "Jamal Coombs-McDaniel",
+    "num": "4"
+   },
+   {
+    "name": "Niels Giffey",
+    "num": "5"
+   },
+   {
+    "name": "Tyler Olander",
+    "num": "10"
+   },
+   {
+    "name": "Shabazz Napier",
+    "num": "13"
+   },
+   {
+    "name": "P.J. Cochrane",
+    "num": "14"
+   },
+   {
+    "name": "Kemba Walker",
+    "num": "15"
+   },
+   {
+    "name": "Kyle Bailey",
+    "num": "21"
+   },
+   {
+    "name": "Roscoe Smith",
+    "num": "22"
+   },
+   {
+    "name": "Benjamin Stewart",
+    "num": "23"
+   }
+  ],
+  "2012": [
+   {
+    "name": "Michael Bradley",
+    "num": "25"
+   },
+   {
+    "name": "Alex Oriakhi",
+    "num": "34"
+   },
+   {
+    "name": "Ethan Waite",
+    "num": "40"
+   },
+   {
+    "name": "Enosch Wolf",
+    "num": "1"
+   },
+   {
+    "name": "DeAndre Daniels",
+    "num": "2"
+   },
+   {
+    "name": "Jeremy Lamb",
+    "num": "3"
+   },
+   {
+    "name": "Brendan Allen",
+    "num": "4"
+   },
+   {
+    "name": "Niels Giffey",
+    "num": "5"
+   },
+   {
+    "name": "Tyler Olander",
+    "num": "10"
+   },
+   {
+    "name": "Ryan Boatright",
+    "num": "11"
+   },
+   {
+    "name": "Andre Drummond",
+    "num": "12"
+   },
+   {
+    "name": "Shabazz Napier",
+    "num": "13"
+   },
+   {
+    "name": "P.J. Cochrane",
+    "num": "14"
+   },
+   {
+    "name": "Kyle Bailey",
+    "num": "21"
+   },
+   {
+    "name": "Roscoe Smith",
+    "num": "22"
+   },
+   {
+    "name": "Benjamin Stewart",
+    "num": "23"
+   }
+  ],
+  "2013": [
+   {
+    "name": "Tor Watts",
+    "num": "25"
+   },
+   {
+    "name": "Phillip Nolan",
+    "num": "0"
+   },
+   {
+    "name": "Enosch Wolf",
+    "num": "1"
+   },
+   {
+    "name": "DeAndre Daniels",
+    "num": "2"
+   },
+   {
+    "name": "Kiefer Lammi",
+    "num": "3"
+   },
+   {
+    "name": "Brendan Allen",
+    "num": "4"
+   },
+   {
+    "name": "Niels Giffey",
+    "num": "5"
+   },
+   {
+    "name": "Tyler Olander",
+    "num": "10"
+   },
+   {
+    "name": "Ryan Boatright",
+    "num": "11"
+   },
+   {
+    "name": "R.J. Evans",
+    "num": "12"
+   },
+   {
+    "name": "Shabazz Napier",
+    "num": "13"
+   },
+   {
+    "name": "Jevon Williams",
+    "num": "14"
+   },
+   {
+    "name": "Pat Lenehan",
+    "num": "14"
+   },
+   {
+    "name": "Trey James",
+    "num": "20"
+   },
+   {
+    "name": "Omar Calhoun",
+    "num": "21"
+   },
+   {
+    "name": "Leon Tolksdorf",
+    "num": "22"
+   },
+   {
+    "name": "Dave Vandal",
+    "num": "23"
+   }
+  ],
+  "2014": [
+   {
+    "name": "Tor Watts",
+    "num": "25"
+   },
+   {
+    "name": "Amida Brimah",
+    "num": "35"
+   },
+   {
+    "name": "Phillip Nolan",
+    "num": "0"
+   },
+   {
+    "name": "DeAndre Daniels",
+    "num": "2"
+   },
+   {
+    "name": "Terrence Samuel",
+    "num": "3"
+   },
+   {
+    "name": "Niels Giffey",
+    "num": "5"
+   },
+   {
+    "name": "Tyler Olander",
+    "num": "10"
+   },
+   {
+    "name": "Ryan Boatright",
+    "num": "11"
+   },
+   {
+    "name": "Kentan Facey",
+    "num": "12"
+   },
+   {
+    "name": "Shabazz Napier",
+    "num": "13"
+   },
+   {
+    "name": "Pat Lenehan",
+    "num": "14"
+   },
+   {
+    "name": "Lasan Kromah",
+    "num": "20"
+   },
+   {
+    "name": "Omar Calhoun",
+    "num": "21"
+   },
+   {
+    "name": "Leon Tolksdorf",
+    "num": "22"
+   },
+   {
+    "name": "Nnamdi Amilo",
+    "num": "23"
+   }
+  ],
+  "2019": [
+   {
+    "name": "Josh Carlton",
+    "num": "25"
+   },
+   {
+    "name": "Daniel Brocke",
+    "num": "40"
+   },
+   {
+    "name": "Matt Garry",
+    "num": "41"
+   },
+   {
+    "name": "Temi Aiyegbusi",
+    "num": "45"
+   },
+   {
+    "name": "Eric Cobb",
+    "num": "0"
+   },
+   {
+    "name": "Christian Vital",
+    "num": "1"
+   },
+   {
+    "name": "Alterique Gilbert",
+    "num": "3"
+   },
+   {
+    "name": "Jalen Adams",
+    "num": "4"
+   },
+   {
+    "name": "Isaiah Whaley",
+    "num": "5"
+   },
+   {
+    "name": "Brendan Adams",
+    "num": "10"
+   },
+   {
+    "name": "Tyler Polley",
+    "num": "12"
+   },
+   {
+    "name": "Kassoum Yakwe",
+    "num": "14"
+   },
+   {
+    "name": "Sidney Wilson",
+    "num": "15"
+   },
+   {
+    "name": "Mamadou Diarra",
+    "num": "21"
+   },
+   {
+    "name": "Kwintin Williams",
+    "num": "22"
+   }
+  ],
+  "2020": [
+   {
+    "name": "Josh Carlton",
+    "num": "25"
+   },
+   {
+    "name": "Matt Garry",
+    "num": "41"
+   },
+   {
+    "name": "Temi Aiyegbusi",
+    "num": "45"
+   },
+   {
+    "name": "Jalen Gaffney",
+    "num": "0"
+   },
+   {
+    "name": "Christian Vital",
+    "num": "1"
+   },
+   {
+    "name": "James Bouknight",
+    "num": "2"
+   },
+   {
+    "name": "Alterique Gilbert",
+    "num": "3"
+   },
+   {
+    "name": "Isaiah Whaley",
+    "num": "5"
+   },
+   {
+    "name": "Brendan Adams",
+    "num": "10"
+   },
+   {
+    "name": "Tyler Polley",
+    "num": "12"
+   },
+   {
+    "name": "Sidney Wilson",
+    "num": "15"
+   },
+   {
+    "name": "Akok Akok",
+    "num": "23"
+   }
+  ],
+  "2021": [
+   {
+    "name": "Josh Carlton",
+    "num": "25"
+   },
+   {
+    "name": "Javonte Brown",
+    "num": "31"
+   },
+   {
+    "name": "Samson Johnson",
+    "num": "35"
+   },
+   {
+    "name": "Matt Garry",
+    "num": "41"
+   },
+   {
+    "name": "Andre Jackson Jr",
+    "num": "44"
+   },
+   {
+    "name": "Jalen Gaffney",
+    "num": "0"
+   },
+   {
+    "name": "R.J. Cole",
+    "num": "1"
+   },
+   {
+    "name": "James Bouknight",
+    "num": "2"
+   },
+   {
+    "name": "Tyrese Martin",
+    "num": "4"
+   },
+   {
+    "name": "Isaiah Whaley",
+    "num": "5"
+   },
+   {
+    "name": "Brendan Adams",
+    "num": "10"
+   },
+   {
+    "name": "Akok Akok",
+    "num": "11"
+   },
+   {
+    "name": "Tyler Polley",
+    "num": "12"
+   },
+   {
+    "name": "Richie Springs",
+    "num": "13"
+   },
+   {
+    "name": "Andrew Hurley",
+    "num": "20"
+   },
+   {
+    "name": "Adama Sanogo",
+    "num": "21"
+   }
+  ],
+  "2000": [
+   {
+    "name": "Mike Woodward",
+    "num": "30"
+   },
+   {
+    "name": "Tony Robertson",
+    "num": "32"
+   },
+   {
+    "name": "Kevin Freeman",
+    "num": "33"
+   },
+   {
+    "name": "Souleymane Wane",
+    "num": "34"
+   },
+   {
+    "name": "Richard Moore",
+    "num": "35"
+   },
+   {
+    "name": "Khalid El-Amin",
+    "num": "42"
+   },
+   {
+    "name": "Jake Voskuhl",
+    "num": "43"
+   },
+   {
+    "name": "Marcus Cox",
+    "num": "50"
+   },
+   {
+    "name": "Edmund Saunders",
+    "num": "51"
+   },
+   {
+    "name": "Doug Wrenn",
+    "num": "55"
+   },
+   {
+    "name": "Stanley Ocitti",
+    "num": "3"
+   },
+   {
+    "name": "Ajou Deng",
+    "num": "4"
+   },
+   {
+    "name": "Beau Archibald",
+    "num": "5"
+   },
+   {
+    "name": "Brett Watson",
+    "num": "10"
+   },
+   {
+    "name": "Justin Brown",
+    "num": "20"
+   },
+   {
+    "name": "Albert Mouring",
+    "num": "23"
+   }
+  ],
+  "1965": [
+   {
+    "name": "Bill Holowaty",
+    "num": "31"
+   },
+   {
+    "name": "Bill Della Sala",
+    "num": "32"
+   },
+   {
+    "name": "Ron Ritter",
+    "num": "33"
+   },
+   {
+    "name": "Kenneth Libertoff",
+    "num": "34"
+   },
+   {
+    "name": "Richard Thompson",
+    "num": "40"
+   },
+   {
+    "name": "Toby Kimball",
+    "num": "42"
+   },
+   {
+    "name": "Robert Cote",
+    "num": "43"
+   },
+   {
+    "name": "Wes Bialosuknia",
+    "num": "44"
+   },
+   {
+    "name": "Jacob Holmes",
+    "num": "12"
+   },
+   {
+    "name": "Dan Hesford",
+    "num": "14"
+   },
+   {
+    "name": "Tom Penders",
+    "num": "15"
+   },
+   {
+    "name": "P.J. Curran",
+    "num": "21"
+   },
+   {
+    "name": "Chris Whitcomb",
+    "num": "22"
+   },
+   {
+    "name": "Kenneth Whitney",
+    "num": "23"
+   }
+  ],
+  "1994": [
+   {
+    "name": "Brian Fair",
+    "num": "31"
+   },
+   {
+    "name": "Kirk King",
+    "num": "32"
+   },
+   {
+    "name": "Donny Marshall",
+    "num": "33"
+   },
+   {
+    "name": "Ray Allen",
+    "num": "34"
+   },
+   {
+    "name": "Travis Knight",
+    "num": "40"
+   },
+   {
+    "name": "Donyell Marshall",
+    "num": "42"
+   },
+   {
+    "name": "Eric Hayward",
+    "num": "45"
+   },
+   {
+    "name": "Steve Emt",
+    "num": "50"
+   },
+   {
+    "name": "Jeff Calhoun",
+    "num": "3"
+   },
+   {
+    "name": "Nantambu Willingham",
+    "num": "4"
+   },
+   {
+    "name": "Marcus Thomas",
+    "num": "5"
+   },
+   {
+    "name": "Doron Sheffer",
+    "num": "11"
+   },
+   {
+    "name": "Kevin Ollie",
+    "num": "12"
+   },
+   {
+    "name": "Rudy Johnson",
+    "num": "23"
+   }
+  ],
+  "1995": [
+   {
+    "name": "Brian Fair",
+    "num": "31"
+   },
+   {
+    "name": "Kirk King",
+    "num": "32"
+   },
+   {
+    "name": "Donny Marshall",
+    "num": "33"
+   },
+   {
+    "name": "Ray Allen",
+    "num": "34"
+   },
+   {
+    "name": "Travis Knight",
+    "num": "40"
+   },
+   {
+    "name": "Eric Hayward",
+    "num": "45"
+   },
+   {
+    "name": "Uri Cohen-Mintz",
+    "num": "50"
+   },
+   {
+    "name": "Nantambu Willingham",
+    "num": "4"
+   },
+   {
+    "name": "Marcus Thomas",
+    "num": "5"
+   },
+   {
+    "name": "Ruslan Inyatkin",
+    "num": "10"
+   },
+   {
+    "name": "Doron Sheffer",
+    "num": "11"
+   },
+   {
+    "name": "Kevin Ollie",
+    "num": "12"
+   },
+   {
+    "name": "Justin Srb",
+    "num": "14"
+   },
+   {
+    "name": "Greg Yeomans",
+    "num": "22"
+   },
+   {
+    "name": "Rudy Johnson",
+    "num": "23"
+   }
+  ],
+  "1949": [
+   {
+    "name": "Charles Muzikevik",
+    "num": "3"
+   },
+   {
+    "name": "James Blozie",
+    "num": "4"
+   },
+   {
+    "name": "Joseph Maloney",
+    "num": "5"
+   },
+   {
+    "name": "Stan Sorota",
+    "num": "6"
+   },
+   {
+    "name": "Henry Bartnicki",
+    "num": "7"
+   },
+   {
+    "name": "Arthur Fisher",
+    "num": "12"
+   },
+   {
+    "name": "Peter Lind",
+    "num": "14"
+   },
+   {
+    "name": "Ernest Gates",
+    "num": "17"
+   }
+  ],
+  "1946": [
+   {
+    "name": "Walter Alesevich",
+    "num": "4"
+   },
+   {
+    "name": "Bernie Fisher",
+    "num": "7"
+   },
+   {
+    "name": "Alan Cole",
+    "num": "8"
+   },
+   {
+    "name": "Walter Dropo",
+    "num": "9"
+   },
+   {
+    "name": "Michael Morris",
+    "num": "10"
+   },
+   {
+    "name": "Donald Grant",
+    "num": "11"
+   },
+   {
+    "name": "Arthur Fisher",
+    "num": "12"
+   },
+   {
+    "name": "Stanley Patella",
+    "num": "13"
+   },
+   {
+    "name": "Julius Markiewicz",
+    "num": "14"
+   },
+   {
+    "name": "Fred Daly",
+    "num": "15"
+   },
+   {
+    "name": "Henry Olyarczyk",
+    "num": "16"
+   },
+   {
+    "name": "Charles Muzikevic",
+    "num": "18"
+   }
+  ],
+  "1951": [
+   {
+    "name": "Melvin Kleckner",
+    "num": "15"
+   }
+  ]
+ }
+}

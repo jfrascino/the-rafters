@@ -1,0 +1,4200 @@
+{
+ "diffs": [
+  {
+   "y": 2013,
+   "pid": "javon-williams-1",
+   "name": "Javon Williams",
+   "site": null,
+   "record_book": [
+    "14"
+   ]
+  },
+  {
+   "y": 2025,
+   "pid": "jayden-ross-2",
+   "name": "Jayden Ross",
+   "site": "23",
+   "record_book": [
+    "13"
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "num": "24",
+   "name": "Robert O\u2019Brien",
+   "years": [
+    1953,
+    1954
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Bob Malone",
+   "years": [
+    1955,
+    1956,
+    1957
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Dave King",
+   "years": [
+    1960
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Fred Roever",
+   "years": [
+    1962
+   ]
+  },
+  {
+   "num": "24",
+   "name": "John Fahey",
+   "years": [
+    1963
+   ]
+  },
+  {
+   "num": "24",
+   "name": "James Thaxter",
+   "years": [
+    1964
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Stanley Olander",
+   "years": [
+    1966
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Tim Smith",
+   "years": [
+    1967,
+    1968
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Bob Staak",
+   "years": [
+    1969,
+    1970,
+    1971
+   ]
+  },
+  {
+   "num": "24",
+   "name": "John Kreusser",
+   "years": [
+    1976,
+    1977
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Larry Blucher",
+   "years": [
+    1982,
+    1983,
+    1984
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Scott Burrell",
+   "years": [
+    1990,
+    1991,
+    1992,
+    1993
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Dion Carson",
+   "years": [
+    1996,
+    1997
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Jason Baisch",
+   "years": [
+    2004,
+    2005
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Craig Austrie",
+   "years": [
+    2006,
+    2007,
+    2008,
+    2009
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Darius Smith",
+   "years": [
+    2010
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Daniel Guest",
+   "years": [
+    2015
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Christian Foxen",
+   "years": [
+    2016,
+    2017,
+    2018
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Jordan Hawkins",
+   "years": [
+    2022,
+    2023
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Youssouf Singare",
+   "years": [
+    2023,
+    2024,
+    2025
+   ]
+  },
+  {
+   "num": "24",
+   "name": "Braylon Mullins",
+   "years": [
+    2025
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Wallace Widholm",
+   "years": [
+    1952
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Art Quimby",
+   "years": [
+    1953,
+    1954,
+    1955
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Paul Kaspar",
+   "years": [
+    1956,
+    1957,
+    1958
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Phil Harney",
+   "years": [
+    1959
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Dick Rogers",
+   "years": [
+    1960
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Gerry Manning",
+   "years": [
+    1960,
+    1961
+   ]
+  },
+  {
+   "num": "25",
+   "name": "David Storrs",
+   "years": [
+    1968
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Patrick Mullin",
+   "years": [
+    1972,
+    1973
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Tony Hanson",
+   "years": [
+    1974,
+    1975
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Dennis Long",
+   "years": [
+    1977,
+    1978,
+    1979
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Craig Wood",
+   "years": [
+    1980,
+    1981
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Anthony Moye",
+   "years": [
+    1985
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Phil Gamble",
+   "years": [
+    1986,
+    1987,
+    1988,
+    1989
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Craig Glazer",
+   "years": [
+    1998
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Ed Tonella",
+   "years": [
+    1999
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Ace Watanasuparp",
+   "years": [
+    2001
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Mike Hayes",
+   "years": [
+    2002,
+    2003
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Rob Garrison",
+   "years": [
+    2006,
+    2007
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Michael Bradley",
+   "years": [
+    2011,
+    2012
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Tor Watts",
+   "years": [
+    2013,
+    2014
+   ]
+  },
+  {
+   "num": "25",
+   "name": "Josh Carlton",
+   "years": [
+    2018,
+    2019,
+    2020,
+    2021
+   ]
+  },
+  {
+   "num": "30",
+   "name": "Gordon Ruddy",
+   "years": [
+    1956
+   ]
+  },
+  {
+   "num": "30",
+   "name": "Larry Doyle",
+   "years": [
+    1957,
+    1958
+   ]
+  },
+  {
+   "num": "30",
+   "name": "Bob Countryman",
+   "years": [
+    1959,
+    1960
+   ]
+  },
+  {
+   "num": "30",
+   "name": "Norman Bailey",
+   "years": [
+    1981,
+    1982,
+    1983
+   ]
+  },
+  {
+   "num": "30",
+   "name": "John Shea",
+   "years": [
+    1985,
+    1986
+   ]
+  },
+  {
+   "num": "30",
+   "name": "Marc Suhr",
+   "years": [
+    1989,
+    1990,
+    1991
+   ]
+  },
+  {
+   "num": "30",
+   "name": "Monquencio Hardnett",
+   "years": [
+    1997,
+    1998
+   ]
+  },
+  {
+   "num": "30",
+   "name": "Mike Woodward",
+   "years": [
+    2000
+   ]
+  },
+  {
+   "num": "30",
+   "name": "Shamon Tooles",
+   "years": [
+    2001,
+    2002,
+    2003,
+    2004
+   ]
+  },
+  {
+   "num": "30",
+   "name": "Jim Veronick",
+   "years": [
+    2008
+   ]
+  },
+  {
+   "num": "30",
+   "name": "Scottie Haralson",
+   "years": [
+    2009
+   ]
+  },
+  {
+   "num": "30",
+   "name": "Yarin Hasson",
+   "years": [
+    2023
+   ]
+  },
+  {
+   "num": "30",
+   "name": "Liam McNeeley",
+   "years": [
+    2025
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Jim O\u2019Connor",
+   "years": [
+    1956,
+    1957,
+    1958
+   ]
+  },
+  {
+   "num": "31",
+   "name": "George Uhl",
+   "years": [
+    1960,
+    1961
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Gerry Manning",
+   "years": [
+    1962,
+    1963
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Martin Setter",
+   "years": [
+    1964
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Bill Holowaty",
+   "years": [
+    1965,
+    1966,
+    1967
+   ]
+  },
+  {
+   "num": "31",
+   "name": "John Crisp",
+   "years": [
+    1968
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Alan Srebnick",
+   "years": [
+    1966
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Lawrence Truster",
+   "years": [
+    1972
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Kenneth Wright",
+   "years": [
+    1973,
+    1974,
+    1975
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Lawrence Kelly",
+   "years": [
+    1976
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Albert Johnson",
+   "years": [
+    1977,
+    1978,
+    1979
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Mark Benson",
+   "years": [
+    1980,
+    1981
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Robert Ursery",
+   "years": [
+    1986,
+    1987,
+    1988
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Tim Pikiell",
+   "years": [
+    1990,
+    1991,
+    1992
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Brian Fair",
+   "years": [
+    1993,
+    1994,
+    1995
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Sam Funches",
+   "years": [
+    1997
+   ]
+  },
+  {
+   "num": "31",
+   "name": "E.J. Harrison",
+   "years": [
+    1999
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Ace Watanasuparp",
+   "years": [
+    2002
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Rashad Anderson",
+   "years": [
+    2003,
+    2004,
+    2005,
+    2006
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Michael Noyes",
+   "years": [
+    2016,
+    2017,
+    2018
+   ]
+  },
+  {
+   "num": "31",
+   "name": "Javonte Brown",
+   "years": [
+    2021
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Fred Winseck",
+   "years": [
+    1956
+   ]
+  },
+  {
+   "num": "32",
+   "name": "John Warren",
+   "years": [
+    1957
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Bill Madison",
+   "years": [
+    1959,
+    1960,
+    1961
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Bill Della Sala",
+   "years": [
+    1962,
+    1963,
+    1964,
+    1965
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Robert Steinberg",
+   "years": [
+    1966,
+    1967,
+    1968
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Stephen Koski",
+   "years": [
+    1969,
+    1970
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Patrick DeVries",
+   "years": [
+    1971,
+    1972
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Earl Wilson, Jr",
+   "years": [
+    1973,
+    1974,
+    1975
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Jake Robinson",
+   "years": [
+    1976,
+    1977
+   ]
+  },
+  {
+   "num": "32",
+   "name": "John Delagrange",
+   "years": [
+    1978,
+    1979,
+    1980
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Ken Henry",
+   "years": [
+    1984,
+    1985
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Tate George",
+   "years": [
+    1987,
+    1988,
+    1989,
+    1990
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Shawn Ellison",
+   "years": [
+    1991
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Kirk King",
+   "years": [
+    1994,
+    1995
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Richard Hamilton",
+   "years": [
+    1997,
+    1998,
+    1999
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Tony Robertson",
+   "years": [
+    2000,
+    2001,
+    2002,
+    2003
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Ed Nelson",
+   "years": [
+    2005,
+    2006
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Jonathan Mandeldove",
+   "years": [
+    2007,
+    2008,
+    2009
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Shonn Miller",
+   "years": [
+    2016
+   ]
+  },
+  {
+   "num": "32",
+   "name": "Donovan Clingan",
+   "years": [
+    2023,
+    2024
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Bob Cherepy",
+   "years": [
+    1956,
+    1957,
+    1958
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Pete Kelly",
+   "years": [
+    1959,
+    1960,
+    1961
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Al Ritter",
+   "years": [
+    1962,
+    1963,
+    1964
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Ron Ritter",
+   "years": [
+    1965,
+    1966,
+    1967
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Karl Niederwerfer",
+   "years": [
+    1968
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Ron Hrubala",
+   "years": [
+    1969,
+    1970,
+    1971
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Taurus Preikstas",
+   "years": [
+    1972
+   ]
+  },
+  {
+   "num": "33",
+   "name": "William Dedhan",
+   "years": [
+    1973
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Patrick Sibilia",
+   "years": [
+    1974,
+    1975
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Ken Blume",
+   "years": [
+    1977,
+    1978
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Gerry Besselink",
+   "years": [
+    1984,
+    1985,
+    1986,
+    1987
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Willie McCloud",
+   "years": [
+    1988,
+    1989
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Donny Marshall",
+   "years": [
+    1992,
+    1993,
+    1994,
+    1995
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Kevin Freeman",
+   "years": [
+    2000
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Daryl Woods",
+   "years": [
+    2002
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Denham Brown",
+   "years": [
+    2003,
+    2004,
+    2005,
+    2006
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Gavin Edwards",
+   "years": [
+    2007,
+    2008,
+    2009,
+    2010
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Terrance Ditimi",
+   "years": [
+    2015
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Restinel Lomotey",
+   "years": [
+    2017
+   ]
+  },
+  {
+   "num": "33",
+   "name": "Apostolos Roumoglou",
+   "years": [
+    2023,
+    2024
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Dick Kiernan",
+   "years": [
+    1957
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Glenn Cross",
+   "years": [
+    1958,
+    1959
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Dave King",
+   "years": [
+    1961,
+    1962
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Michael Salmon",
+   "years": [
+    1963
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Kenneth Libertoff",
+   "years": [
+    1964,
+    1965,
+    1966
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Anthony Anelauskas",
+   "years": [
+    1967
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Sandford Fishman",
+   "years": [
+    1968
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Stephen Townsend",
+   "years": [
+    1969
+   ]
+  },
+  {
+   "num": "34",
+   "name": "John Crisp",
+   "years": [
+    1970
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Lee Barbach",
+   "years": [
+    1971,
+    1972
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Curtis Johnson",
+   "years": [
+    1973,
+    1974,
+    1975
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Randy LaVigne",
+   "years": [
+    1976,
+    1977,
+    1978,
+    1979
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Tim Coles",
+   "years": [
+    1983,
+    1984,
+    1985,
+    1986
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Marte Smith",
+   "years": [
+    1990
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Brian Fair",
+   "years": [
+    1992
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Ray Allen",
+   "years": [
+    1994,
+    1995,
+    1996
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Souleymane Wane",
+   "years": [
+    1998,
+    1999,
+    2000,
+    2001
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Hasheem Thabeet",
+   "years": [
+    2007,
+    2008,
+    2009
+   ]
+  },
+  {
+   "num": "34",
+   "name": "Alex Oriakhi",
+   "years": [
+    2010,
+    2011,
+    2012
+   ]
+  },
+  {
+   "num": "34",
+   "name": "David Onuorah",
+   "years": [
+    2018
+   ]
+  },
+  {
+   "num": "35",
+   "name": "John Thomas",
+   "years": [
+    1974,
+    1975,
+    1976
+   ]
+  },
+  {
+   "num": "35",
+   "name": "Mike Vaughan",
+   "years": [
+    1982,
+    1983,
+    1984
+   ]
+  },
+  {
+   "num": "35",
+   "name": "Richard Moore",
+   "years": [
+    1999,
+    2000
+   ]
+  },
+  {
+   "num": "35",
+   "name": "Mike Woodward",
+   "years": [
+    2001,
+    2002,
+    2003
+   ]
+  },
+  {
+   "num": "35",
+   "name": "Marty Gagne",
+   "years": [
+    2006,
+    2007
+   ]
+  },
+  {
+   "num": "35",
+   "name": "Alex Hornat",
+   "years": [
+    2008
+   ]
+  },
+  {
+   "num": "35",
+   "name": "Charles Okwandu",
+   "years": [
+    2009,
+    2010,
+    2011
+   ]
+  },
+  {
+   "num": "35",
+   "name": "Amida Brimah",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017
+   ]
+  },
+  {
+   "num": "35",
+   "name": "Samson Johnson",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Billy Schmidt",
+   "years": [
+    1957,
+    1958
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Walt Griffin",
+   "years": [
+    1959,
+    1960
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Bill Hulteen",
+   "years": [
+    1961,
+    1962,
+    1963
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Charles Slimowicz",
+   "years": [
+    1964
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Richard Thompson",
+   "years": [
+    1965,
+    1966,
+    1967
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Tom McCrocklin",
+   "years": [
+    1969,
+    1970
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Steven Bell",
+   "years": [
+    1971,
+    1972
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Eric DeCicco",
+   "years": [
+    1974
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Larry Kelly",
+   "years": [
+    1975
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Jim Abromaitis",
+   "years": [
+    1976,
+    1977,
+    1978,
+    1979,
+    1980
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Jeff King",
+   "years": [
+    1985,
+    1986,
+    1987,
+    1988
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Chris Fleming",
+   "years": [
+    1989
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Nadav Henefeld",
+   "years": [
+    1990
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Travis Knight",
+   "years": [
+    1993,
+    1994,
+    1995,
+    1996
+   ]
+  },
+  {
+   "num": "40",
+   "name": "E.J. Harrison",
+   "years": [
+    1998
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Justin Evanovich",
+   "years": [
+    2003,
+    2004
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Johnnie Bird",
+   "years": [
+    2008
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Jim Veronick",
+   "years": [
+    2009
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Ethan Waite",
+   "years": [
+    2012
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Daniel Brocke",
+   "years": [
+    2019
+   ]
+  },
+  {
+   "num": "40",
+   "name": "Andre Johnson Jr",
+   "years": [
+    2023,
+    2024
+   ]
+  },
+  {
+   "num": "41",
+   "name": "Al Cooper",
+   "years": [
+    1957,
+    1958,
+    1959
+   ]
+  },
+  {
+   "num": "41",
+   "name": "Neil Horne",
+   "years": [
+    1961
+   ]
+  },
+  {
+   "num": "41",
+   "name": "Phil Hoagland",
+   "years": [
+    1969,
+    1970,
+    1971
+   ]
+  },
+  {
+   "num": "41",
+   "name": "Gary Custick",
+   "years": [
+    1972,
+    1973,
+    1974
+   ]
+  },
+  {
+   "num": "41",
+   "name": "Frederic Beloin",
+   "years": [
+    1976
+   ]
+  },
+  {
+   "num": "41",
+   "name": "Nick Stefkovich",
+   "years": [
+    1977,
+    1978,
+    1979,
+    1980
+   ]
+  },
+  {
+   "num": "41",
+   "name": "Vincente Ithier",
+   "years": [
+    1983,
+    1984
+   ]
+  },
+  {
+   "num": "41",
+   "name": "Matt Garry",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022
+   ]
+  },
+  {
+   "num": "41",
+   "name": "Emmett Hendry",
+   "years": [
+    2023
+   ]
+  },
+  {
+   "num": "42",
+   "name": "Wayne Davis",
+   "years": [
+    1957,
+    1958,
+    1959
+   ]
+  },
+  {
+   "num": "42",
+   "name": "Dave Daniels",
+   "years": [
+    1960,
+    1961
+   ]
+  },
+  {
+   "num": "42",
+   "name": "Walt Griffin",
+   "years": [
+    1962
+   ]
+  },
+  {
+   "num": "42",
+   "name": "Toby Kimball",
+   "years": [
+    1963,
+    1964,
+    1965
+   ]
+  },
+  {
+   "num": "42",
+   "name": "John Cafarelli",
+   "years": [
+    1966
+   ]
+  },
+  {
+   "num": "42",
+   "name": "Bill Gray",
+   "years": [
+    1967
+   ]
+  },
+  {
+   "num": "42",
+   "name": "Tony Budzinsky",
+   "years": [
+    1968,
+    1969,
+    1970
+   ]
+  },
+  {
+   "num": "42",
+   "name": "Bob Parsons",
+   "years": [
+    1971,
+    1972,
+    1973
+   ]
+  },
+  {
+   "num": "42",
+   "name": "Roger Lawton",
+   "years": [
+    1974,
+    1975
+   ]
+  },
+  {
+   "num": "42",
+   "name": "Tony Hanson",
+   "years": [
+    1976,
+    1977
+   ]
+  },
+  {
+   "num": "42",
+   "name": "Toraino Walker",
+   "years": [
+    1990,
+    1991
+   ]
+  },
+  {
+   "num": "42",
+   "name": "Donyell Marshall",
+   "years": [
+    1992,
+    1993,
+    1994
+   ]
+  },
+  {
+   "num": "42",
+   "name": "Khalid El-Amin",
+   "years": [
+    1998,
+    1999,
+    2000
+   ]
+  },
+  {
+   "num": "43",
+   "name": "Ed Martin",
+   "years": [
+    1958,
+    1959,
+    1960
+   ]
+  },
+  {
+   "num": "43",
+   "name": "Glenn Cross",
+   "years": [
+    1961
+   ]
+  },
+  {
+   "num": "43",
+   "name": "Ed Slomcenski",
+   "years": [
+    1962,
+    1963,
+    1964
+   ]
+  },
+  {
+   "num": "43",
+   "name": "Robert Cote",
+   "years": [
+    1965
+   ]
+  },
+  {
+   "num": "43",
+   "name": "Karl Niederwerfer",
+   "years": [
+    1966
+   ]
+  },
+  {
+   "num": "43",
+   "name": "Gerard Bilodeau",
+   "years": [
+    1967,
+    1968,
+    1969
+   ]
+  },
+  {
+   "num": "43",
+   "name": "Thomas Coleman",
+   "years": [
+    1970
+   ]
+  },
+  {
+   "num": "43",
+   "name": "James Pendulik",
+   "years": [
+    1971
+   ]
+  },
+  {
+   "num": "43",
+   "name": "William Deehan",
+   "years": [
+    1972
+   ]
+  },
+  {
+   "num": "43",
+   "name": "Richard Semo",
+   "years": [
+    1974
+   ]
+  },
+  {
+   "num": "43",
+   "name": "Peter Axtenn",
+   "years": [
+    1975
+   ]
+  },
+  {
+   "num": "43",
+   "name": "Jeff Carr",
+   "years": [
+    1976,
+    1977,
+    1978,
+    1979
+   ]
+  },
+  {
+   "num": "43",
+   "name": "Matt Bremmer",
+   "years": [
+    1984,
+    1985
+   ]
+  },
+  {
+   "num": "43",
+   "name": "Jake Voskuhl",
+   "years": [
+    1997,
+    1998,
+    1999,
+    2000
+   ]
+  },
+  {
+   "num": "44",
+   "name": "John Pipczynski",
+   "years": [
+    1958,
+    1959,
+    1960
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Bob Haines",
+   "years": [
+    1961,
+    1962,
+    1963
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Chris Whitcomb",
+   "years": [
+    1964
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Wes Bialosuknia",
+   "years": [
+    1965,
+    1966,
+    1967
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Thomas Coleman",
+   "years": [
+    1968
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Anthony Anelauskas",
+   "years": [
+    1969
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Robert Taylor",
+   "years": [
+    1970,
+    1971
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Cal Chapman, Jr",
+   "years": [
+    1972,
+    1973,
+    1974
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Lee Otis Wilson",
+   "years": [
+    1976
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Alfred Lewis",
+   "years": [
+    1977,
+    1978,
+    1979,
+    1980
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Bill Taylor",
+   "years": [
+    1983
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Brian Buckelew",
+   "years": [
+    1982
+   ]
+  },
+  {
+   "num": "44",
+   "name": "James Spradling",
+   "years": [
+    1987,
+    1988
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Predrag Meteric",
+   "years": [
+    1996
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Chris Crowley",
+   "years": [
+    1998
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Johnnie Selvie",
+   "years": [
+    2001,
+    2002
+   ]
+  },
+  {
+   "num": "44",
+   "name": "John Lindner",
+   "years": [
+    2009
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Rodney Purvis",
+   "years": [
+    2015,
+    2016
+   ]
+  },
+  {
+   "num": "44",
+   "name": "Andre Jackson Jr",
+   "years": [
+    2021,
+    2022,
+    2023
+   ]
+  },
+  {
+   "num": "45",
+   "name": "Eric Hayward",
+   "years": [
+    1993,
+    1994,
+    1995,
+    1996
+   ]
+  },
+  {
+   "num": "45",
+   "name": "Osazee Omokaro",
+   "years": [
+    2006
+   ]
+  },
+  {
+   "num": "45",
+   "name": "John Lindner",
+   "years": [
+    2008
+   ]
+  },
+  {
+   "num": "45",
+   "name": "Temi Aiyegbusi",
+   "years": [
+    2017,
+    2018,
+    2019,
+    2020
+   ]
+  },
+  {
+   "num": "50",
+   "name": "Chuck Aleksinas",
+   "years": [
+    1981,
+    1982
+   ]
+  },
+  {
+   "num": "50",
+   "name": "Karsten Kibbe",
+   "years": [
+    1987,
+    1988
+   ]
+  },
+  {
+   "num": "50",
+   "name": "Bill Lanes",
+   "years": [
+    1988
+   ]
+  },
+  {
+   "num": "50",
+   "name": "Steve Emt",
+   "years": [
+    1994
+   ]
+  },
+  {
+   "num": "50",
+   "name": "Uri Cohen-Mintz",
+   "years": [
+    1995
+   ]
+  },
+  {
+   "num": "50",
+   "name": "Stanley Ocitti",
+   "years": [
+    1999
+   ]
+  },
+  {
+   "num": "50",
+   "name": "Marcus Cox",
+   "years": [
+    2000,
+    2001
+   ]
+  },
+  {
+   "num": "50",
+   "name": "Emeka Okafor",
+   "years": [
+    2002,
+    2003,
+    2004
+   ]
+  },
+  {
+   "num": "51",
+   "name": "Edmund Saunders",
+   "years": [
+    1999,
+    2000,
+    2001
+   ]
+  },
+  {
+   "num": "52",
+   "name": "Corny Thompson",
+   "years": [
+    1979,
+    1980,
+    1981,
+    1982
+   ]
+  },
+  {
+   "num": "52",
+   "name": "Pete Kane",
+   "years": [
+    1996
+   ]
+  },
+  {
+   "num": "53",
+   "name": "Jeff Cybart",
+   "years": [
+    1996,
+    1998
+   ]
+  },
+  {
+   "num": "55",
+   "name": "Dan Cyrulik",
+   "years": [
+    1989,
+    1990,
+    1991,
+    1992
+   ]
+  },
+  {
+   "num": "55",
+   "name": "Doug Wrenn",
+   "years": [
+    2000
+   ]
+  },
+  {
+   "num": "55",
+   "name": "Chris McLaughlin",
+   "years": [
+    2002
+   ]
+  },
+  {
+   "num": "55",
+   "name": "Nick Forostoski",
+   "years": [
+    2005,
+    2006
+   ]
+  },
+  {
+   "num": "55",
+   "name": "Kyle Bailey",
+   "years": [
+    2008,
+    2009,
+    2010
+   ]
+  },
+  {
+   "num": "77",
+   "name": "Uros Paunovic",
+   "years": [
+    2026
+   ]
+  },
+  {
+   "num": "00",
+   "name": "Clifford Robinson",
+   "years": [
+    1986,
+    1987,
+    1988,
+    1989
+   ]
+  },
+  {
+   "num": "0",
+   "name": "Phillip Nolan",
+   "years": [
+    2013,
+    2014,
+    2016
+   ]
+  },
+  {
+   "num": "0",
+   "name": "Antwoine Anderson",
+   "years": [
+    2018
+   ]
+  },
+  {
+   "num": "0",
+   "name": "Eric Cobb",
+   "years": [
+    2019
+   ]
+  },
+  {
+   "num": "0",
+   "name": "Jalen Gaffney",
+   "years": [
+    2020,
+    2021,
+    2022
+   ]
+  },
+  {
+   "num": "0",
+   "name": "Ahmad Nowell",
+   "years": [
+    2024,
+    2025
+   ]
+  },
+  {
+   "num": "0",
+   "name": "Malachi Smith",
+   "years": [
+    2025,
+    2026
+   ]
+  },
+  {
+   "num": "1",
+   "name": "Marcus Johnson",
+   "years": [
+    2006,
+    2007,
+    2008
+   ]
+  },
+  {
+   "num": "1",
+   "name": "Enosch Wolf",
+   "years": [
+    2011,
+    2012,
+    2013
+   ]
+  },
+  {
+   "num": "1",
+   "name": "Phillip Nolan*............,",
+   "years": [
+    2015
+   ]
+  },
+  {
+   "num": "1",
+   "name": "Christian Vital",
+   "years": [
+    2017,
+    2018,
+    2019,
+    2020
+   ]
+  },
+  {
+   "num": "1",
+   "name": "R.J. Cole",
+   "years": [
+    2021
+   ]
+  },
+  {
+   "num": "1",
+   "name": "Rahsool Diggins",
+   "years": [
+    2022
+   ]
+  },
+  {
+   "num": "1",
+   "name": "Solo Ball",
+   "years": [
+    2023
+   ]
+  },
+  {
+   "num": "2",
+   "name": "Robert Swain",
+   "years": [
+    2001,
+    2002
+   ]
+  },
+  {
+   "num": "2",
+   "name": "Ryan Swaller",
+   "years": [
+    2002,
+    2003,
+    2004
+   ]
+  },
+  {
+   "num": "2",
+   "name": "Ben Eaves",
+   "years": [
+    2007
+   ]
+  },
+  {
+   "num": "2",
+   "name": "Donnell Beverly",
+   "years": [
+    2008,
+    2009,
+    2010,
+    2011
+   ]
+  },
+  {
+   "num": "2",
+   "name": "DeAndre Daniels",
+   "years": [
+    2012,
+    2013,
+    2014
+   ]
+  },
+  {
+   "num": "2",
+   "name": "Jalen Adams",
+   "years": [
+    2016,
+    2017
+   ]
+  },
+  {
+   "num": "2",
+   "name": "James Bouknight",
+   "years": [
+    2020,
+    2021
+   ]
+  },
+  {
+   "num": "2",
+   "name": "R.J. Cole",
+   "years": [
+    2022
+   ]
+  },
+  {
+   "num": "2",
+   "name": "Tristen Newton",
+   "years": [
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "num": "2",
+   "name": "Silas Demary Jr",
+   "years": [
+    2025,
+    2026
+   ]
+  },
+  {
+   "num": "3",
+   "name": "Charles Muzikevik",
+   "years": [
+    1949
+   ]
+  },
+  {
+   "num": "3",
+   "name": "Terry Coffey",
+   "years": [
+    1985,
+    1986
+   ]
+  },
+  {
+   "num": "3",
+   "name": "Clint Simmons",
+   "years": [
+    1989
+   ]
+  },
+  {
+   "num": "3",
+   "name": "Jeff Calhoun",
+   "years": [
+    1992,
+    1993,
+    1994
+   ]
+  },
+  {
+   "num": "3",
+   "name": "Rashamel Jones",
+   "years": [
+    1996,
+    1997,
+    1998,
+    1999
+   ]
+  },
+  {
+   "num": "3",
+   "name": "Stanley Ocitti",
+   "years": [
+    2000
+   ]
+  },
+  {
+   "num": "3",
+   "name": "Caron Butler",
+   "years": [
+    2001,
+    2002
+   ]
+  },
+  {
+   "num": "3",
+   "name": "Charlie Villanueva",
+   "years": [
+    2004,
+    2005
+   ]
+  },
+  {
+   "num": "3",
+   "name": "Doug Wiggins",
+   "years": [
+    2007,
+    2008
+   ]
+  },
+  {
+   "num": "3",
+   "name": "Jeremy Lamb",
+   "years": [
+    2011,
+    2012
+   ]
+  },
+  {
+   "num": "3",
+   "name": "Kiefer Lammi",
+   "years": [
+    2013
+   ]
+  },
+  {
+   "num": "3",
+   "name": "Terrence Samuel",
+   "years": [
+    2014,
+    2015
+   ]
+  },
+  {
+   "num": "3",
+   "name": "Alterique Gilbert",
+   "years": [
+    2017,
+    2018,
+    2019,
+    2020
+   ]
+  },
+  {
+   "num": "3",
+   "name": "Joey Calcaterra",
+   "years": [
+    2022,
+    2023
+   ]
+  },
+  {
+   "num": "3",
+   "name": "Jaylin Stewart",
+   "years": [
+    2024,
+    2025,
+    2026
+   ]
+  },
+  {
+   "num": "4",
+   "name": "Walter Alesevich",
+   "years": [
+    1946
+   ]
+  },
+  {
+   "num": "4",
+   "name": "James Blozie",
+   "years": [
+    1949
+   ]
+  },
+  {
+   "num": "4",
+   "name": "Ray Broxton",
+   "years": [
+    1984,
+    1985
+   ]
+  },
+  {
+   "num": "4",
+   "name": "Nantambu Willingham",
+   "years": [
+    1992,
+    1993,
+    1994,
+    1995
+   ]
+  },
+  {
+   "num": "4",
+   "name": "Ajou Deng",
+   "years": [
+    2000,
+    2001
+   ]
+  },
+  {
+   "num": "4",
+   "name": "Ben Gordon",
+   "years": [
+    2002,
+    2003,
+    2004
+   ]
+  },
+  {
+   "num": "4",
+   "name": "Jeff Adrien",
+   "years": [
+    2006,
+    2007,
+    2008,
+    2009
+   ]
+  },
+  {
+   "num": "4",
+   "name": "Jamal Coombs-McDaniel",
+   "years": [
+    2010,
+    2011
+   ]
+  },
+  {
+   "num": "4",
+   "name": "Brendan Allen",
+   "years": [
+    2012,
+    2013
+   ]
+  },
+  {
+   "num": "4",
+   "name": "Sterling Gibbs",
+   "years": [
+    2016
+   ]
+  },
+  {
+   "num": "4",
+   "name": "Jalen Adams",
+   "years": [
+    2018,
+    2019
+   ]
+  },
+  {
+   "num": "4",
+   "name": "Tyrese Martin",
+   "years": [
+    2021,
+    2022
+   ]
+  },
+  {
+   "num": "4",
+   "name": "Nahiem Alleyne",
+   "years": [
+    2023
+   ]
+  },
+  {
+   "num": "4",
+   "name": "Isaiah Abraham",
+   "years": [
+    2024,
+    2025
+   ]
+  },
+  {
+   "num": "4",
+   "name": "Dwayne Koroma",
+   "years": [
+    2025,
+    2026
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Joseph Maloney",
+   "years": [
+    1949
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Mike McKay",
+   "years": [
+    1979,
+    1980,
+    1981,
+    1982
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Len Feroleto",
+   "years": [
+    1983
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Covington Cormier",
+   "years": [
+    1993
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Marcus Thomas",
+   "years": [
+    1994,
+    1995
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Michael LeBlanc",
+   "years": [
+    1997
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Beau Archibald",
+   "years": [
+    2000
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Chad Wise",
+   "years": [
+    2002,
+    2003
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Marcus Williams",
+   "years": [
+    2004,
+    2005,
+    2006
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Ater Majok",
+   "years": [
+    2005
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Niels Giffey",
+   "years": [
+    2011,
+    2012,
+    2013,
+    2014
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Daniel Hamilton",
+   "years": [
+    2015,
+    2016
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Vance Jackson",
+   "years": [
+    2017
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Isaiah Whaley",
+   "years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Hassan Diarra",
+   "years": [
+    2022,
+    2023
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Stephon Castle",
+   "years": [
+    2023,
+    2024
+   ]
+  },
+  {
+   "num": "5",
+   "name": "Tarris Reed Jr",
+   "years": [
+    2025,
+    2026
+   ]
+  },
+  {
+   "num": "6",
+   "name": "Stan Sorota",
+   "years": [
+    1949
+   ]
+  },
+  {
+   "num": "7",
+   "name": "Bernie Fisher",
+   "years": [
+    1946
+   ]
+  },
+  {
+   "num": "7",
+   "name": "Henry Bartnicki",
+   "years": [
+    1949
+   ]
+  },
+  {
+   "num": "7",
+   "name": "Jacob Furphy",
+   "years": [
+    2025,
+    2026
+   ]
+  },
+  {
+   "num": "8",
+   "name": "Alan Cole",
+   "years": [
+    1946
+   ]
+  },
+  {
+   "num": "9",
+   "name": "Walter Dropo",
+   "years": [
+    1946
+   ]
+  },
+  {
+   "num": "9",
+   "name": "Alec Millender",
+   "years": [
+    2025,
+    2026
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Michael Morris",
+   "years": [
+    1946
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Bob Dube",
+   "years": [
+    1954,
+    1955,
+    1956
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Jim Sullivan",
+   "years": [
+    1979,
+    1980,
+    1981,
+    1982
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Earl Kelley",
+   "years": [
+    1983,
+    1984,
+    1985,
+    1986
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Gilad Katz",
+   "years": [
+    1991,
+    1992
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Ruslan Inyatkin",
+   "years": [
+    1995,
+    1996,
+    1997
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Brett Watson",
+   "years": [
+    2000
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Kwasi Gyambibi",
+   "years": [
+    2001,
+    2002
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Sami Ameziane",
+   "years": [
+    2005
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Ben Spencer",
+   "years": [
+    2006,
+    2007,
+    2008
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Johnnie Bird",
+   "years": [
+    2009
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Tyler Olander",
+   "years": [
+    2011,
+    2012,
+    2013,
+    2014
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Sam Cassell Jr",
+   "years": [
+    2015,
+    2016
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Brendan Adams",
+   "years": [
+    2019,
+    2020,
+    2021
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Hassan Diarra",
+   "years": [
+    2023,
+    2024,
+    2025
+   ]
+  },
+  {
+   "num": "10",
+   "name": "Rrezon Elezaj",
+   "years": [
+    2025,
+    2026
+   ]
+  },
+  {
+   "num": "11",
+   "name": "Donald Grant",
+   "years": [
+    1946
+   ]
+  },
+  {
+   "num": "11",
+   "name": "Phil Jones",
+   "years": [
+    1952,
+    1953,
+    1954
+   ]
+  },
+  {
+   "num": "11",
+   "name": "Bob Osborne",
+   "years": [
+    1955,
+    1956,
+    1957
+   ]
+  },
+  {
+   "num": "11",
+   "name": "Joey Whelton",
+   "years": [
+    1975,
+    1976,
+    1977,
+    1978
+   ]
+  },
+  {
+   "num": "11",
+   "name": "Jack Morrison",
+   "years": [
+    1959
+   ]
+  },
+  {
+   "num": "11",
+   "name": "Oliver Macklin",
+   "years": [
+    1990,
+    1991,
+    1992,
+    1993
+   ]
+  },
+  {
+   "num": "11",
+   "name": "Doron Sheffer",
+   "years": [
+    1994,
+    1995,
+    1996
+   ]
+  },
+  {
+   "num": "11",
+   "name": "Hilton Armstrong",
+   "years": [
+    2003,
+    2004,
+    2005,
+    2006
+   ]
+  },
+  {
+   "num": "11",
+   "name": "Jerome Dyson",
+   "years": [
+    2007,
+    2008,
+    2009,
+    2010
+   ]
+  },
+  {
+   "num": "11",
+   "name": "Ryan Boatright",
+   "years": [
+    2012,
+    2013,
+    2014,
+    2015
+   ]
+  },
+  {
+   "num": "11",
+   "name": "Kwintin Williams",
+   "years": [
+    2018
+   ]
+  },
+  {
+   "num": "11",
+   "name": "Akok Akok",
+   "years": [
+    2021,
+    2022
+   ]
+  },
+  {
+   "num": "11",
+   "name": "Alex Karaban",
+   "years": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Arthur Fisher",
+   "years": [
+    1946,
+    1949
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Harold Garner",
+   "years": [
+    1952,
+    1953
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Al Wehrle",
+   "years": [
+    1954,
+    1955
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Bill O\u2019Leary",
+   "years": [
+    1956,
+    1957
+   ]
+  },
+  {
+   "num": "12",
+   "name": "John Risley",
+   "years": [
+    1958,
+    1959,
+    1960
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Dale Comey",
+   "years": [
+    1961,
+    1962,
+    1963
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Thomas Capiga",
+   "years": [
+    1964
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Jacob Holmes",
+   "years": [
+    1965
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Thomas McNeece",
+   "years": [
+    1966,
+    1967,
+    1968
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Louis Glazer",
+   "years": [
+    1969
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Nels Wilson",
+   "years": [
+    1970,
+    1971,
+    1972
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Al Weston",
+   "years": [
+    1974,
+    1975,
+    1976
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Vernon Giscombe",
+   "years": [
+    1981,
+    1982,
+    1983,
+    1984
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Kenny Scott",
+   "years": [
+    1986
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Kevin Ollie",
+   "years": [
+    1992,
+    1993,
+    1994,
+    1995
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Pete McCann",
+   "years": [
+    1997
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Taliek Brown",
+   "years": [
+    2001,
+    2002,
+    2003,
+    2004
+   ]
+  },
+  {
+   "num": "12",
+   "name": "A.J. Price",
+   "years": [
+    2007,
+    2008,
+    2009
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Andre Drummond",
+   "years": [
+    2012
+   ]
+  },
+  {
+   "num": "12",
+   "name": "R.J. Evans",
+   "years": [
+    2013
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Kentan Facey",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Tyler Polley",
+   "years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Cam Spencer",
+   "years": [
+    2024
+   ]
+  },
+  {
+   "num": "12",
+   "name": "Eric Reibe",
+   "years": [
+    2026
+   ]
+  },
+  {
+   "num": "13",
+   "name": "Stanley Patella",
+   "years": [
+    1946
+   ]
+  },
+  {
+   "num": "13",
+   "name": "Worthy Patterson",
+   "years": [
+    1952,
+    1953,
+    1954
+   ]
+  },
+  {
+   "num": "13",
+   "name": "Dick Kiernan",
+   "years": [
+    1955,
+    1956
+   ]
+  },
+  {
+   "num": "13",
+   "name": "Chris Smith",
+   "years": [
+    1989,
+    1990,
+    1991,
+    1992
+   ]
+  },
+  {
+   "num": "13",
+   "name": "Kirk King",
+   "years": [
+    1996,
+    1997
+   ]
+  },
+  {
+   "num": "13",
+   "name": "Ryan Thompson",
+   "years": [
+    2005,
+    2006
+   ]
+  },
+  {
+   "num": "13",
+   "name": "Alex Hornat",
+   "years": [
+    2009
+   ]
+  },
+  {
+   "num": "13",
+   "name": "Jamaal Trice",
+   "years": [
+    2010
+   ]
+  },
+  {
+   "num": "13",
+   "name": "Shabazz Napier",
+   "years": [
+    2011,
+    2012,
+    2013,
+    2014
+   ]
+  },
+  {
+   "num": "13",
+   "name": "Steven Enoch",
+   "years": [
+    2016,
+    2017
+   ]
+  },
+  {
+   "num": "13",
+   "name": "Richie Springs",
+   "years": [
+    2021,
+    2022,
+    2023
+   ]
+  },
+  {
+   "num": "13",
+   "name": "Jacob Ross",
+   "years": [
+    2025
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Julius Markiewicz",
+   "years": [
+    1946
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Peter Lind",
+   "years": [
+    1949
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Gerald Deutch",
+   "years": [
+    1952
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Ted Vartelas",
+   "years": [
+    1953
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Eric Hohenthal",
+   "years": [
+    1954
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Ernie Braverman",
+   "years": [
+    1955
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Al Johnson",
+   "years": [
+    1957
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Ted Kosier",
+   "years": [
+    1958
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Joe Jackson",
+   "years": [
+    1959
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Lenny Carlson",
+   "years": [
+    1960,
+    1961,
+    1962
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Larry Gofberg",
+   "years": [
+    1963
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Dan Hesford",
+   "years": [
+    1964,
+    1965,
+    1966
+   ]
+  },
+  {
+   "num": "14",
+   "name": "John Melen",
+   "years": [
+    1967,
+    1968,
+    1969
+   ]
+  },
+  {
+   "num": "14",
+   "name": "James Jachym",
+   "years": [
+    1970
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Richard Begen",
+   "years": [
+    1971,
+    1972
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Ed Harrison",
+   "years": [
+    1973,
+    1974
+   ]
+  },
+  {
+   "num": "14",
+   "name": "William Harris",
+   "years": [
+    1975,
+    1976
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Karl Hobbs",
+   "years": [
+    1981,
+    1982,
+    1983,
+    1984
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Richie Ashmeade",
+   "years": [
+    1992
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Justin Srb",
+   "years": [
+    1995,
+    1996
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Curtis Kelly",
+   "years": [
+    2007,
+    2008
+   ]
+  },
+  {
+   "num": "14",
+   "name": "P.J. Cochrane",
+   "years": [
+    2011,
+    2012
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Jevon Williams",
+   "years": [
+    2013
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Pat Lenehan",
+   "years": [
+    2013,
+    2014
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Rakim Lubin",
+   "years": [
+    2015
+   ]
+  },
+  {
+   "num": "14",
+   "name": "Kassoum Yakwe",
+   "years": [
+    2019
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Fred Daly",
+   "years": [
+    1946
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Melvin Kleckner",
+   "years": [
+    1951
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Eugene King",
+   "years": [
+    1952,
+    1953
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Stanley Zima",
+   "years": [
+    1954,
+    1955
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Steve Narracci",
+   "years": [
+    1956,
+    1957
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Phil Brown",
+   "years": [
+    1958
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Dick Marinaccio",
+   "years": [
+    1959
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Tom Burke",
+   "years": [
+    1960
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Paul Gomes",
+   "years": [
+    1961
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Dom Perno",
+   "years": [
+    1962,
+    1963,
+    1964
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Tom Penders",
+   "years": [
+    1965,
+    1966,
+    1967
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Joseph Granski",
+   "years": [
+    1968
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Robert Boyd",
+   "years": [
+    1969,
+    1970,
+    1971
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Dennis Cole",
+   "years": [
+    1973,
+    1974,
+    1975
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Bobby Dulin",
+   "years": [
+    1979,
+    1980,
+    1981
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Peter Coolidge",
+   "years": [
+    1984
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Jeff Lewis",
+   "years": [
+    1987
+   ]
+  },
+  {
+   "num": "15",
+   "name": "John Gwynn",
+   "years": [
+    1989,
+    1990,
+    1991
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Kevin Freeman",
+   "years": [
+    1997,
+    1998,
+    1999
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Ryan Swaller",
+   "years": [
+    2002
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Kemba Walker",
+   "years": [
+    2009,
+    2010,
+    2011
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Rodney Purvis",
+   "years": [
+    2017
+   ]
+  },
+  {
+   "num": "15",
+   "name": "Sidney Wilson",
+   "years": [
+    2019,
+    2020
+   ]
+  },
+  {
+   "num": "16",
+   "name": "Henry Olyarczyk",
+   "years": [
+    1946
+   ]
+  },
+  {
+   "num": "16",
+   "name": "Seymour Menchel",
+   "years": [
+    1952,
+    1953,
+    1954
+   ]
+  },
+  {
+   "num": "16",
+   "name": "Don Burns",
+   "years": [
+    1955
+   ]
+  },
+  {
+   "num": "17",
+   "name": "Ernest Gates",
+   "years": [
+    1949
+   ]
+  },
+  {
+   "num": "17",
+   "name": "Clyde Brouker",
+   "years": [
+    1952
+   ]
+  },
+  {
+   "num": "17",
+   "name": "George Dargati",
+   "years": [
+    1953
+   ]
+  },
+  {
+   "num": "17",
+   "name": "Bob Guinessey",
+   "years": [
+    1954
+   ]
+  },
+  {
+   "num": "18",
+   "name": "Charles Muzikevic",
+   "years": [
+    1946
+   ]
+  },
+  {
+   "num": "18",
+   "name": "Richard Watson",
+   "years": [
+    1952,
+    1953,
+    1954
+   ]
+  },
+  {
+   "num": "18",
+   "name": "Joe Giminski",
+   "years": [
+    1955
+   ]
+  },
+  {
+   "num": "19",
+   "name": "Burr Carlson",
+   "years": [
+    1952
+   ]
+  },
+  {
+   "num": "19",
+   "name": "Gene Sullivan",
+   "years": [
+    1953
+   ]
+  },
+  {
+   "num": "19",
+   "name": "Gordon Ruddy",
+   "years": [
+    1954,
+    1955
+   ]
+  },
+  {
+   "num": "20",
+   "name": "William Ebel",
+   "years": [
+    1952
+   ]
+  },
+  {
+   "num": "20",
+   "name": "Joseph Haberl",
+   "years": [
+    1953,
+    1954
+   ]
+  },
+  {
+   "num": "20",
+   "name": "Ron Anastasio",
+   "years": [
+    1956
+   ]
+  },
+  {
+   "num": "20",
+   "name": "Gene King",
+   "years": [
+    1957,
+    1958
+   ]
+  },
+  {
+   "num": "20",
+   "name": "Tom Kellerman",
+   "years": [
+    1960
+   ]
+  },
+  {
+   "num": "20",
+   "name": "Rodney Bass",
+   "years": [
+    1974,
+    1975
+   ]
+  },
+  {
+   "num": "20",
+   "name": "James Fearon",
+   "years": [
+    1978,
+    1979
+   ]
+  },
+  {
+   "num": "20",
+   "name": "Glen Miller",
+   "years": [
+    1980,
+    1981
+   ]
+  },
+  {
+   "num": "20",
+   "name": "Terence Warren",
+   "years": [
+    1985,
+    1986
+   ]
+  },
+  {
+   "num": "20",
+   "name": "Murray Williams",
+   "years": [
+    1988,
+    1989,
+    1990,
+    1991
+   ]
+  },
+  {
+   "num": "20",
+   "name": "Kyle Chapman",
+   "years": [
+    1997
+   ]
+  },
+  {
+   "num": "20",
+   "name": "Justin Brown",
+   "years": [
+    2000,
+    2001,
+    2002,
+    2003
+   ]
+  },
+  {
+   "num": "20",
+   "name": "Antonio Kellogg",
+   "years": [
+    2005
+   ]
+  },
+  {
+   "num": "20",
+   "name": "Trey James",
+   "years": [
+    2013
+   ]
+  },
+  {
+   "num": "20",
+   "name": "Lasan Kromah",
+   "years": [
+    2014
+   ]
+  },
+  {
+   "num": "20",
+   "name": "Andrew Hurley",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "num": "20",
+   "name": "Aidan Mahaney",
+   "years": [
+    2025
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Melvin Kleckner",
+   "years": [
+    1952,
+    1953
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Jim Ahearn",
+   "years": [
+    1955
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Don Burns",
+   "years": [
+    1956,
+    1957
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Jack Rose",
+   "years": [
+    1958,
+    1959,
+    1960
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Andy Czuchry",
+   "years": [
+    1962,
+    1963
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Dennis Stanek",
+   "years": [
+    1964
+   ]
+  },
+  {
+   "num": "21",
+   "name": "P.J. Curran",
+   "years": [
+    1965,
+    1966,
+    1967
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Joseph Kubachka",
+   "years": [
+    1968
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Doug Melody",
+   "years": [
+    1970,
+    1971,
+    1972
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Jimmy Foster",
+   "years": [
+    1973,
+    1974
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Dennis Wolff",
+   "years": [
+    1977,
+    1978
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Al Frederick",
+   "years": [
+    1984,
+    1985
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Steve Pikiell",
+   "years": [
+    1987,
+    1988,
+    1989,
+    1990,
+    1991
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Toraino Walker",
+   "years": [
+    1992,
+    1993
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Ricky Moore",
+   "years": [
+    1996,
+    1997,
+    1998,
+    1999
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Scott Hazelton",
+   "years": [
+    2001,
+    2002
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Josh Boone",
+   "years": [
+    2004,
+    2005,
+    2006
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Stanley Robinson",
+   "years": [
+    2007,
+    2008,
+    2009,
+    2010
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Kyle Bailey",
+   "years": [
+    2011,
+    2012
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Omar Calhoun",
+   "years": [
+    2013,
+    2014,
+    2015,
+    2016
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Mamadou Diarra",
+   "years": [
+    2017,
+    2018,
+    2019
+   ]
+  },
+  {
+   "num": "21",
+   "name": "Adama Sanogo",
+   "years": [
+    2021,
+    2022,
+    2023
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Vin Yokabaskas",
+   "years": [
+    1952
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Stanley Zima",
+   "years": [
+    1953
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Tom Gallagher",
+   "years": [
+    1954
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Fran Quinn",
+   "years": [
+    1955,
+    1956,
+    1957
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Wade Anderson",
+   "years": [
+    1962
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Charles Talbott",
+   "years": [
+    1964
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Chris Whitcomb",
+   "years": [
+    1965
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Bill Corley",
+   "years": [
+    1966,
+    1967,
+    1968
+   ]
+  },
+  {
+   "num": "22",
+   "name": "David Yager",
+   "years": [
+    1969
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Paul Zorsky",
+   "years": [
+    1970
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Al Vaughan",
+   "years": [
+    1971,
+    1972,
+    1973
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Mike Armstrong",
+   "years": [
+    1977,
+    1978
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Clay Johnson",
+   "years": [
+    1979,
+    1980,
+    1981
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Eddie Williams",
+   "years": [
+    1983,
+    1984,
+    1985,
+    1986
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Greg Economou",
+   "years": [
+    1988
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Rod Sellers",
+   "years": [
+    1989,
+    1990,
+    1991,
+    1992
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Greg Yeomans",
+   "years": [
+    1995
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Antric Klaiber",
+   "years": [
+    1996,
+    1997,
+    1998,
+    1999
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Rudy Gay",
+   "years": [
+    2005,
+    2006
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Alex Hornat",
+   "years": [
+    2010
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Roscoe Smith",
+   "years": [
+    2011,
+    2012
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Leon Tolksdorf",
+   "years": [
+    2013,
+    2014
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Pat Lenehan",
+   "years": [
+    2015
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Terry Larrier",
+   "years": [
+    2017,
+    2018
+   ]
+  },
+  {
+   "num": "22",
+   "name": "Kwintin Williams",
+   "years": [
+    2019
+   ]
+  },
+  {
+   "num": "23",
+   "name": "Lou Orlando",
+   "years": [
+    1952,
+    1953
+   ]
+  },
+  {
+   "num": "23",
+   "name": "Ron Bushwell",
+   "years": [
+    1954,
+    1955,
+    1956
+   ]
+  },
+  {
+   "num": "23",
+   "name": "Brian Kinry",
+   "years": [
+    1962
+   ]
+  },
+  {
+   "num": "23",
+   "name": "Kenneth Whitney",
+   "years": [
+    1964,
+    1965,
+    1966
+   ]
+  }
+ ]
+}

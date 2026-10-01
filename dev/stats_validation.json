@@ -93,8 +93,8 @@
   "1988": {
    "roster": 15,
    "checked": 14,
-   "all_equal": 13,
-   "with_diffs": 1,
+   "all_equal": 12,
+   "with_diffs": 2,
    "sources": [
     "rb"
    ]
@@ -102,8 +102,8 @@
   "1989": {
    "roster": 14,
    "checked": 13,
-   "all_equal": 13,
-   "with_diffs": 0,
+   "all_equal": 12,
+   "with_diffs": 1,
    "sources": [
     "rb"
    ]
@@ -120,8 +120,8 @@
   "1991": {
    "roster": 14,
    "checked": 14,
-   "all_equal": 14,
-   "with_diffs": 0,
+   "all_equal": 12,
+   "with_diffs": 2,
    "sources": [
     "rb"
    ]
@@ -129,8 +129,8 @@
   "1992": {
    "roster": 15,
    "checked": 15,
-   "all_equal": 14,
-   "with_diffs": 1,
+   "all_equal": 13,
+   "with_diffs": 2,
    "sources": [
     "rb"
    ]
@@ -147,8 +147,8 @@
   "1994": {
    "roster": 13,
    "checked": 13,
-   "all_equal": 11,
-   "with_diffs": 2,
+   "all_equal": 9,
+   "with_diffs": 4,
    "sources": [
     "rb"
    ]
@@ -156,8 +156,8 @@
   "1995": {
    "roster": 15,
    "checked": 15,
-   "all_equal": 14,
-   "with_diffs": 1,
+   "all_equal": 9,
+   "with_diffs": 6,
    "sources": [
     "rb"
    ]
@@ -165,8 +165,8 @@
   "1996": {
    "roster": 15,
    "checked": 15,
-   "all_equal": 15,
-   "with_diffs": 0,
+   "all_equal": 14,
+   "with_diffs": 1,
    "sources": [
     "rb"
    ]
@@ -174,8 +174,8 @@
   "1997": {
    "roster": 14,
    "checked": 14,
-   "all_equal": 13,
-   "with_diffs": 1,
+   "all_equal": 7,
+   "with_diffs": 7,
    "sources": [
     "rb"
    ]
@@ -183,8 +183,8 @@
   "1998": {
    "roster": 15,
    "checked": 15,
-   "all_equal": 14,
-   "with_diffs": 1,
+   "all_equal": 9,
+   "with_diffs": 6,
    "sources": [
     "rb"
    ]
@@ -201,8 +201,8 @@
   "2000": {
    "roster": 16,
    "checked": 16,
-   "all_equal": 15,
-   "with_diffs": 1,
+   "all_equal": 9,
+   "with_diffs": 7,
    "sources": [
     "rb"
    ]
@@ -240,8 +240,8 @@
   "2004": {
    "roster": 14,
    "checked": 14,
-   "all_equal": 14,
-   "with_diffs": 0,
+   "all_equal": 12,
+   "with_diffs": 2,
    "sources": [
     "rb"
    ]
@@ -297,8 +297,8 @@
   "2010": {
    "roster": 13,
    "checked": 13,
-   "all_equal": 12,
-   "with_diffs": 1,
+   "all_equal": 8,
+   "with_diffs": 5,
    "sources": [
     "rb"
    ]
@@ -306,8 +306,8 @@
   "2011": {
    "roster": 13,
    "checked": 13,
-   "all_equal": 13,
-   "with_diffs": 0,
+   "all_equal": 11,
+   "with_diffs": 2,
    "sources": [
     "rb"
    ]
@@ -315,8 +315,8 @@
   "2012": {
    "roster": 15,
    "checked": 15,
-   "all_equal": 14,
-   "with_diffs": 1,
+   "all_equal": 12,
+   "with_diffs": 3,
    "sources": [
     "rb"
    ]
@@ -434,8 +434,8 @@
   "2024": {
    "roster": 14,
    "checked": 14,
-   "all_equal": 14,
-   "with_diffs": 0,
+   "all_equal": 5,
+   "with_diffs": 9,
    "sources": [
     "cume"
    ]
@@ -443,8 +443,8 @@
   "2025": {
    "roster": 12,
    "checked": 12,
-   "all_equal": 12,
-   "with_diffs": 0,
+   "all_equal": 1,
+   "with_diffs": 11,
    "sources": [
     "cume"
    ]
@@ -452,8 +452,8 @@
   "2026": {
    "roster": 14,
    "checked": 14,
-   "all_equal": 13,
-   "with_diffs": 1,
+   "all_equal": 0,
+   "with_diffs": 14,
    "sources": [
     "cume"
    ]
@@ -553,6 +553,21 @@
   },
   {
    "y": 1988,
+   "pid": "phil-gamble-1",
+   "name": "Phil Gamble",
+   "field": "mp",
+   "ours": 1136,
+   "cume": null,
+   "rb": 1137,
+   "mg": {
+    "mg2010": 1137,
+    "mg2009": 1137
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1988,
    "pid": "lyman-depriest-1",
    "name": "Lyman DePriest",
    "field": "fg3a",
@@ -566,6 +581,21 @@
    "rb_flags": [
     "fg3/fg3a vs fg3_pct"
    ],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1989,
+   "pid": "phil-gamble-1",
+   "name": "Phil Gamble",
+   "field": "mp",
+   "ours": 950,
+   "cume": null,
+   "rb": 947,
+   "mg": {
+    "mg2010": 947,
+    "mg2009": 947
+   },
+   "rb_flags": [],
    "rb_totals_mismatch": null
   },
   {
@@ -607,6 +637,36 @@
    "rb_totals_mismatch": null
   },
   {
+   "y": 1991,
+   "pid": "oliver-macklin-1",
+   "name": "Oliver Macklin",
+   "field": "mp",
+   "ours": 35,
+   "cume": null,
+   "rb": 37,
+   "mg": {
+    "mg2010": 31,
+    "mg2009": 31
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1991,
+   "pid": "shawn-ellison-1",
+   "name": "Shawn Ellison",
+   "field": "mp",
+   "ours": 21,
+   "cume": null,
+   "rb": 22,
+   "mg": {
+    "mg2010": 0,
+    "mg2009": 0
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
    "y": 1992,
    "pid": "gilad-katz-1",
    "name": "Gilad Katz",
@@ -618,6 +678,17 @@
     "mg2010": 4,
     "mg2009": 4
    },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1992,
+   "pid": "rudy-johnson-1",
+   "name": "Rudy Johnson",
+   "field": "mp",
+   "ours": 6,
+   "cume": null,
+   "rb": 8,
    "rb_flags": [],
    "rb_totals_mismatch": null
   },
@@ -635,6 +706,45 @@
    },
    "rb_flags": [],
    "rb_totals_mismatch": null
+  },
+  {
+   "y": 1994,
+   "pid": "donny-marshall-1",
+   "name": "Donny Marshall",
+   "field": "mp",
+   "ours": 999,
+   "cume": null,
+   "rb": 1001,
+   "mg": {
+    "mg2010": 1001,
+    "mg2009": 1001
+   },
+   "rb_flags": [
+    "ft/fta vs ft_pct"
+   ],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1994,
+   "pid": "travis-knight-1",
+   "name": "Travis Knight",
+   "field": "mp",
+   "ours": 390,
+   "cume": null,
+   "rb": 391,
+   "mg": {
+    "mg2010": 391,
+    "mg2009": 391
+   },
+   "rb_flags": [
+    "ft/fta vs ft_pct"
+   ],
+   "rb_totals_mismatch": {
+    "fg3a": [
+     5,
+     0
+    ]
+   }
   },
   {
    "y": 1994,
@@ -656,6 +766,51 @@
   },
   {
    "y": 1995,
+   "pid": "donny-marshall-1",
+   "name": "Donny Marshall",
+   "field": "mp",
+   "ours": 976,
+   "cume": null,
+   "rb": 977,
+   "mg": {
+    "mg2010": 977,
+    "mg2009": 977
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1995,
+   "pid": "doron-sheffer-1",
+   "name": "Doron Sheffer",
+   "field": "mp",
+   "ours": 954,
+   "cume": null,
+   "rb": 951,
+   "mg": {
+    "mg2010": 951,
+    "mg2009": 951
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1995,
+   "pid": "kirk-king-1",
+   "name": "Kirk King",
+   "field": "mp",
+   "ours": 332,
+   "cume": null,
+   "rb": 334,
+   "mg": {
+    "mg2010": 334,
+    "mg2009": 334
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1995,
    "pid": "rudy-johnson-1",
    "name": "Rudy Johnson",
    "field": "ft",
@@ -671,6 +826,47 @@
     "ft/fta vs ft_pct",
     "fg3/fg3a vs fg3_pct"
    ],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1995,
+   "pid": "boo-willingham-1",
+   "name": "Boo Willingham",
+   "field": "mp",
+   "ours": 100,
+   "cume": null,
+   "rb": 101,
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1995,
+   "pid": "uri-cohen-mintz-1",
+   "name": "Uri Cohen-Mintz",
+   "field": "mp",
+   "ours": 77,
+   "cume": null,
+   "rb": 79,
+   "mg": {
+    "mg2010": 91,
+    "mg2009": 91
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1996,
+   "pid": "doron-sheffer-1",
+   "name": "Doron Sheffer",
+   "field": "mp",
+   "ours": 1116,
+   "cume": null,
+   "rb": 1115,
+   "mg": {
+    "mg2010": 1115,
+    "mg2009": 1115
+   },
+   "rb_flags": [],
    "rb_totals_mismatch": null
   },
   {
@@ -708,6 +904,139 @@
    }
   },
   {
+   "y": 1997,
+   "pid": "rashamel-jones-1",
+   "name": "Rashamel Jones",
+   "field": "mp",
+   "ours": 1029,
+   "cume": null,
+   "rb": 1028,
+   "mg": {
+    "mg2010": 1028,
+    "mg2009": 1028
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": {
+    "fg3a": [
+     273,
+     274
+    ]
+   }
+  },
+  {
+   "y": 1997,
+   "pid": "monquencio-hardnett-1",
+   "name": "Monquencio Hardnett",
+   "field": "mp",
+   "ours": 512,
+   "cume": null,
+   "rb": 513,
+   "mg": {
+    "mg2010": 513,
+    "mg2009": 513
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1997,
+   "pid": "antric-klaiber-1",
+   "name": "Antric Klaiber",
+   "field": "mp",
+   "ours": 442,
+   "cume": null,
+   "rb": 441,
+   "mg": {
+    "mg2010": 441,
+    "mg2009": 441
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1997,
+   "pid": "dion-carson-1",
+   "name": "Dion Carson",
+   "field": "mp",
+   "ours": 465,
+   "cume": null,
+   "rb": 464,
+   "mg": {
+    "mg2010": 464,
+    "mg2009": 464
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1997,
+   "pid": "sam-funches-1",
+   "name": "Sam Funches",
+   "field": "mp",
+   "ours": 66,
+   "cume": null,
+   "rb": 65,
+   "mg": {
+    "mg2010": 61,
+    "mg2009": 61
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1997,
+   "pid": "ruslan-inyatkin-1",
+   "name": "Ruslan Inyatkin",
+   "field": "mp",
+   "ours": 76,
+   "cume": null,
+   "rb": 75,
+   "mg": {
+    "mg2010": 0,
+    "mg2009": 0
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1998,
+   "pid": "khalid-el-amin-1",
+   "name": "Khalid El-Amin",
+   "field": "mp",
+   "ours": 1106,
+   "cume": null,
+   "rb": 1105,
+   "mg": {
+    "mg2010": 1105,
+    "mg2009": 1105
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1998,
+   "pid": "kevin-freeman-1",
+   "name": "Kevin Freeman",
+   "field": "mp",
+   "ours": 1062,
+   "cume": null,
+   "rb": 1063,
+   "mg": {
+    "mg2010": 1063,
+    "mg2009": 1063
+   },
+   "rb_flags": [
+    "pts != 2*FG + 3P + FT",
+    "ft/fta vs ft_pct"
+   ],
+   "rb_totals_mismatch": {
+    "ft": [
+     423,
+     422
+    ]
+   }
+  },
+  {
    "y": 1998,
    "pid": "kevin-freeman-1",
    "name": "Kevin Freeman",
@@ -729,6 +1058,183 @@
      422
     ]
    }
+  },
+  {
+   "y": 1998,
+   "pid": "ricky-moore-1",
+   "name": "Ricky Moore",
+   "field": "mp",
+   "ours": 1121,
+   "cume": null,
+   "rb": 1122,
+   "mg": {
+    "mg2010": 1122,
+    "mg2009": 1122
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1998,
+   "pid": "rashamel-jones-1",
+   "name": "Rashamel Jones",
+   "field": "mp",
+   "ours": 501,
+   "cume": null,
+   "rb": 500,
+   "mg": {
+    "mg2010": 500,
+    "mg2009": 500
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": {
+    "fg3a": [
+     273,
+     274
+    ]
+   }
+  },
+  {
+   "y": 1998,
+   "pid": "antric-klaiber-1",
+   "name": "Antric Klaiber",
+   "field": "mp",
+   "ours": 432,
+   "cume": null,
+   "rb": 431,
+   "mg": {
+    "mg2010": 431,
+    "mg2009": 431
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 1998,
+   "pid": "souleymane-wane-1",
+   "name": "Souleymane Wane",
+   "field": "mp",
+   "ours": 330,
+   "cume": null,
+   "rb": 329,
+   "mg": {
+    "mg2010": 329,
+    "mg2009": 329
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2000,
+   "pid": "khalid-el-amin-1",
+   "name": "Khalid El-Amin",
+   "field": "mp",
+   "ours": 1118,
+   "cume": null,
+   "rb": 1117,
+   "mg": {
+    "mg2010": 1117,
+    "mg2009": 1117
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2000,
+   "pid": "kevin-freeman-1",
+   "name": "Kevin Freeman",
+   "field": "mp",
+   "ours": 1177,
+   "cume": null,
+   "rb": 1178,
+   "mg": {
+    "mg2010": 1178,
+    "mg2009": 1178
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": {
+    "ft": [
+     423,
+     422
+    ]
+   }
+  },
+  {
+   "y": 2000,
+   "pid": "jake-voskuhl-1",
+   "name": "Jake Voskuhl",
+   "field": "mp",
+   "ours": 778,
+   "cume": null,
+   "rb": 777,
+   "mg": {
+    "mg2010": 777,
+    "mg2009": 777
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2000,
+   "pid": "ajou-deng-1",
+   "name": "Ajou Deng",
+   "field": "mp",
+   "ours": 511,
+   "cume": null,
+   "rb": 510,
+   "mg": {
+    "mg2010": 510,
+    "mg2009": 510
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2000,
+   "pid": "doug-wrenn-1",
+   "name": "Doug Wrenn",
+   "field": "mp",
+   "ours": 165,
+   "cume": null,
+   "rb": 169,
+   "mg": {
+    "mg2010": 169,
+    "mg2009": 169
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2000,
+   "pid": "marcus-cox-1",
+   "name": "Marcus Cox",
+   "field": "mp",
+   "ours": 166,
+   "cume": null,
+   "rb": 165,
+   "mg": {
+    "mg2010": 165,
+    "mg2009": 165
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2000,
+   "pid": "beau-archibald-1",
+   "name": "Beau Archibald",
+   "field": "mp",
+   "ours": 33,
+   "cume": null,
+   "rb": 34,
+   "mg": {
+    "mg2010": 0,
+    "mg2009": 0
+   },
+   "rb_flags": [
+    "pts != 2*FG + 3P + FT"
+   ],
+   "rb_totals_mismatch": null
   },
   {
    "y": 2000,
@@ -847,6 +1353,36 @@
      20
     ]
    }
+  },
+  {
+   "y": 2004,
+   "pid": "charlie-villanueva-1",
+   "name": "Charlie Villanueva",
+   "field": "mp",
+   "ours": 607,
+   "cume": null,
+   "rb": 609,
+   "mg": {
+    "mg2010": 609,
+    "mg2009": 609
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2004,
+   "pid": "ryan-swaller-1",
+   "name": "Ryan Swaller",
+   "field": "mp",
+   "ours": 19,
+   "cume": null,
+   "rb": 17,
+   "mg": {
+    "mg2010": 0,
+    "mg2009": 0
+   },
+   "rb_flags": [],
+   "rb_totals_mismatch": null
   },
   {
    "y": 2005,
@@ -1246,7 +1782,7 @@
    "pid": "jim-veronick-1",
    "name": "Jim Veronick",
    "field": "mp",
-   "ours": 1,
+   "ours": 3,
    "cume": 1,
    "rb": 0,
    "rb_flags": [],
@@ -1256,6 +1792,50 @@
      5
     ]
    }
+  },
+  {
+   "y": 2010,
+   "pid": "kemba-walker-1",
+   "name": "Kemba Walker",
+   "field": "mp",
+   "ours": 1197,
+   "cume": null,
+   "rb": 1199,
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2010,
+   "pid": "gavin-edwards-1",
+   "name": "Gavin Edwards",
+   "field": "mp",
+   "ours": 1029,
+   "cume": null,
+   "rb": 1034,
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2010,
+   "pid": "ater-majok-1",
+   "name": "Ater Majok",
+   "field": "mp",
+   "ours": 383,
+   "cume": null,
+   "rb": 379,
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2010,
+   "pid": "darius-smith-1",
+   "name": "Darius Smith",
+   "field": "mp",
+   "ours": 85,
+   "cume": null,
+   "rb": 84,
+   "rb_flags": [],
+   "rb_totals_mismatch": null
   },
   {
    "y": 2010,
@@ -1280,6 +1860,33 @@
    "rb_totals_mismatch": null
   },
   {
+   "y": 2011,
+   "pid": "alex-oriakhi-1",
+   "name": "Alex Oriakhi",
+   "field": "mp",
+   "ours": 1193,
+   "cume": null,
+   "rb": 1192,
+   "rb_flags": [],
+   "rb_totals_mismatch": {
+    "fta": [
+     290,
+     "BAD:29-"
+    ]
+   }
+  },
+  {
+   "y": 2011,
+   "pid": "enosch-wolf-1",
+   "name": "Enosch Wolf",
+   "field": "mp",
+   "ours": 25,
+   "cume": null,
+   "rb": 26,
+   "rb_flags": [],
+   "rb_totals_mismatch": null
+  },
+  {
    "y": 2012,
    "pid": "jeremy-lamb-1",
    "name": "Jeremy Lamb",
@@ -1296,6 +1903,33 @@
      336
     ]
    }
+  },
+  {
+   "y": 2012,
+   "pid": "alex-oriakhi-1",
+   "name": "Alex Oriakhi",
+   "field": "mp",
+   "ours": 731,
+   "cume": null,
+   "rb": 730,
+   "rb_flags": [],
+   "rb_totals_mismatch": {
+    "fta": [
+     290,
+     "BAD:29-"
+    ]
+   }
+  },
+  {
+   "y": 2012,
+   "pid": "roscoe-smith-1",
+   "name": "Roscoe Smith",
+   "field": "mp",
+   "ours": 601,
+   "cume": null,
+   "rb": 602,
+   "rb_flags": [],
+   "rb_totals_mismatch": null
   },
   {
    "y": 2014,
@@ -1396,7 +2030,7 @@
    "pid": "josh-carlton-1",
    "name": "Josh Carlton",
    "field": "mp",
-   "ours": 734,
+   "ours": 733,
    "cume": 734,
    "rb": 733,
    "rb_flags": [],
@@ -1436,7 +2070,7 @@
    "pid": "eric-cobb-1",
    "name": "Eric Cobb",
    "field": "mp",
-   "ours": 392,
+   "ours": 393,
    "cume": 392,
    "rb": 391,
    "rb_flags": [],
@@ -1447,7 +2081,7 @@
    "pid": "christian-vital-1",
    "name": "Christian Vital",
    "field": "mp",
-   "ours": 999,
+   "ours": 998,
    "cume": 999,
    "rb": 1002,
    "rb_flags": [],
@@ -1463,7 +2097,7 @@
    "pid": "james-bouknight-1",
    "name": "James Bouknight",
    "field": "mp",
-   "ours": 726,
+   "ours": 725,
    "cume": 726,
    "rb": 724,
    "rb_flags": [],
@@ -1495,7 +2129,7 @@
    "pid": "alterique-gilbert-1",
    "name": "Alterique Gilbert",
    "field": "mp",
-   "ours": 818,
+   "ours": 815,
    "cume": 818,
    "rb": 817,
    "rb_flags": [],
@@ -1527,7 +2161,7 @@
    "pid": "josh-carlton-1",
    "name": "Josh Carlton",
    "field": "mp",
-   "ours": 660,
+   "ours": 659,
    "cume": 660,
    "rb": 658,
    "rb_flags": [],
@@ -1543,7 +2177,7 @@
    "pid": "brendan-adams-1",
    "name": "Brendan Adams",
    "field": "mp",
-   "ours": 682,
+   "ours": 681,
    "cume": 682,
    "rb": 680,
    "rb_flags": [],
@@ -1559,7 +2193,7 @@
    "pid": "isaiah-whaley-1",
    "name": "Isaiah Whaley",
    "field": "mp",
-   "ours": 561,
+   "ours": 565,
    "cume": 561,
    "rb": 563,
    "rb_flags": [
@@ -1577,7 +2211,7 @@
    "pid": "akok-akok-1",
    "name": "Akok Akok",
    "field": "mp",
-   "ours": 700,
+   "ours": 701,
    "cume": 700,
    "rb": 702,
    "rb_flags": [],
@@ -1648,7 +2282,7 @@
    "pid": "isaiah-whaley-1",
    "name": "Isaiah Whaley",
    "field": "mp",
-   "ours": 636,
+   "ours": 635,
    "cume": 636,
    "rb": 631,
    "rb_flags": [],
@@ -1664,7 +2298,7 @@
    "pid": "tyler-polley-1",
    "name": "Tyler Polley",
    "field": "mp",
-   "ours": 455,
+   "ours": 454,
    "cume": 455,
    "rb": 457,
    "rb_flags": [],
@@ -1675,7 +2309,7 @@
    "pid": "jalen-gaffney-1",
    "name": "Jalen Gaffney",
    "field": "mp",
-   "ours": 447,
+   "ours": 446,
    "cume": 447,
    "rb": 449,
    "rb_flags": [],
@@ -1707,7 +2341,7 @@
    "pid": "josh-carlton-1",
    "name": "Josh Carlton",
    "field": "mp",
-   "ours": 213,
+   "ours": 214,
    "cume": 213,
    "rb": 216,
    "rb_flags": [],
@@ -1821,7 +2455,7 @@
    "pid": "isaiah-whaley-1",
    "name": "Isaiah Whaley",
    "field": "mp",
-   "ours": 910,
+   "ours": 912,
    "cume": 910,
    "rb": 908,
    "rb_flags": [],
@@ -1848,7 +2482,7 @@
    "pid": "jordan-hawkins-1",
    "name": "Jordan Hawkins",
    "field": "mp",
-   "ours": 397,
+   "ours": 398,
    "cume": 397,
    "rb": 396,
    "rb_flags": [],
@@ -1875,7 +2509,7 @@
    "pid": "akok-akok-1",
    "name": "Akok Akok",
    "field": "mp",
-   "ours": 321,
+   "ours": 319,
    "cume": 321,
    "rb": 322,
    "rb_flags": [],
@@ -2040,7 +2674,7 @@
    "pid": "andrew-hurley-1",
    "name": "Andrew Hurley",
    "field": "mp",
-   "ours": 21,
+   "ours": 20,
    "cume": 21,
    "rb": 20,
    "rb_flags": [
@@ -2076,12 +2710,386 @@
    "rb_totals_mismatch": null
   },
   {
+   "y": 2024,
+   "pid": "tristen-newton-1",
+   "name": "Tristen Newton",
+   "field": "mp",
+   "ours": 1327,
+   "cume": 1328,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2024,
+   "pid": "cam-spencer-1",
+   "name": "Cam Spencer",
+   "field": "mp",
+   "ours": 1318,
+   "cume": 1312,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2024,
+   "pid": "hassan-diarra-1",
+   "name": "Hassan Diarra",
+   "field": "mp",
+   "ours": 774,
+   "cume": 772,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2024,
+   "pid": "samson-johnson-1",
+   "name": "Samson Johnson",
+   "field": "mp",
+   "ours": 640,
+   "cume": 641,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2024,
+   "pid": "solomon-ball-2",
+   "name": "Solomon Ball",
+   "field": "mp",
+   "ours": 447,
+   "cume": 450,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2024,
+   "pid": "jayden-ross-2",
+   "name": "Jayden Ross",
+   "field": "mp",
+   "ours": 102,
+   "cume": 101,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2024,
+   "pid": "andrew-hurley-1",
+   "name": "Andrew Hurley",
+   "field": "mp",
+   "ours": 25,
+   "cume": 26,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2024,
+   "pid": "youssouf-singare-1",
+   "name": "Youssouf Singare",
+   "field": "mp",
+   "ours": 45,
+   "cume": 47,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2024,
+   "pid": "andre-johnson-jr-1",
+   "name": "Andre Johnson",
+   "field": "mp",
+   "ours": 11,
+   "cume": 12,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2025,
+   "pid": "alex-karaban-1",
+   "name": "Alex Karaban",
+   "field": "mp",
+   "ours": 1184,
+   "cume": 1180,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2025,
+   "pid": "liam-mcneeley-1",
+   "name": "Liam McNeeley",
+   "field": "mp",
+   "ours": 867,
+   "cume": 863,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2025,
+   "pid": "tarris-reed-jr-1",
+   "name": "Tarris Reed",
+   "field": "mp",
+   "ours": 697,
+   "cume": 695,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2025,
+   "pid": "hassan-diarra-1",
+   "name": "Hassan Diarra",
+   "field": "mp",
+   "ours": 976,
+   "cume": 973,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2025,
+   "pid": "samson-johnson-1",
+   "name": "Samson Johnson",
+   "field": "mp",
+   "ours": 658,
+   "cume": 660,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2025,
+   "pid": "jaylin-stewart-3",
+   "name": "Jaylin Stewart",
+   "field": "mp",
+   "ours": 624,
+   "cume": 628,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2025,
+   "pid": "aidan-mahaney-1",
+   "name": "Aidan Mahaney",
+   "field": "mp",
+   "ours": 420,
+   "cume": 419,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2025,
+   "pid": "jayden-ross-2",
+   "name": "Jayden Ross",
+   "field": "mp",
+   "ours": 375,
+   "cume": 376,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2025,
+   "pid": "ahmad-nowell-1",
+   "name": "Ahmad Nowell",
+   "field": "mp",
+   "ours": 115,
+   "cume": 118,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2025,
+   "pid": "isaiah-abraham-1",
+   "name": "Isaiah Abraham",
+   "field": "mp",
+   "ours": 32,
+   "cume": 34,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2025,
+   "pid": "youssouf-singare-1",
+   "name": "Youssouf Singare",
+   "field": "mp",
+   "ours": 42,
+   "cume": 44,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2026,
+   "pid": "alex-karaban-1",
+   "name": "Alex Karaban",
+   "field": "mp",
+   "ours": 1370,
+   "cume": 1374,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2026,
+   "pid": "tarris-reed-jr-1",
+   "name": "Tarris Reed",
+   "field": "mp",
+   "ours": 956,
+   "cume": 957,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2026,
+   "pid": "solomon-ball-2",
+   "name": "Solomon Ball",
+   "field": "mp",
+   "ours": 1106,
+   "cume": 1108,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2026,
+   "pid": "braylon-mullins-1",
+   "name": "Braylon Mullins",
+   "field": "mp",
+   "ours": 931,
+   "cume": 933,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2026,
+   "pid": "silas-demary-jr-2",
+   "name": "Silas Demary",
+   "field": "mp",
+   "ours": 1108,
+   "cume": 1106,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2026,
+   "pid": "eric-reibe-1",
+   "name": "Eric Reibe",
+   "field": "mp",
+   "ours": 552,
+   "cume": 550,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2026,
+   "pid": "jayden-ross-2",
+   "name": "Jayden Ross",
+   "field": "mp",
+   "ours": 663,
+   "cume": 666,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2026,
+   "pid": "malachi-smith-2",
+   "name": "Malachi Smith",
+   "field": "mp",
+   "ours": 636,
+   "cume": 631,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
    "y": 2026,
    "pid": "malachi-smith-2",
    "name": "Malachi Smith",
    "field": "tov",
    "ours": 38,
    "cume": 39,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2026,
+   "pid": "jaylin-stewart-3",
+   "name": "Jaylin Stewart",
+   "field": "mp",
+   "ours": 520,
+   "cume": 518,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2026,
+   "pid": "dwayne-koroma-1",
+   "name": "Dwayne Koroma",
+   "field": "mp",
+   "ours": 93,
+   "cume": 92,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2026,
+   "pid": "alec-millender-1",
+   "name": "Alec Millender",
+   "field": "mp",
+   "ours": 61,
+   "cume": 59,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2026,
+   "pid": "jacob-furphy-1",
+   "name": "Jacob Furphy",
+   "field": "mp",
+   "ours": 35,
+   "cume": 36,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2026,
+   "pid": "uros-paunovic-1",
+   "name": "Uro\u0161 Paunovi\u0107",
+   "field": "mp",
+   "ours": 14,
+   "cume": 15,
+   "rb": null,
+   "rb_flags": null,
+   "rb_totals_mismatch": null
+  },
+  {
+   "y": 2026,
+   "pid": "rrezon-elezaj-1",
+   "name": "Rrezon Elezaj",
+   "field": "mp",
+   "ours": 4,
+   "cume": 5,
    "rb": null,
    "rb_flags": null,
    "rb_totals_mismatch": null
