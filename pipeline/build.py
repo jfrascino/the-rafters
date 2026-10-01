@@ -251,6 +251,32 @@ REJECT_HASHES = set((_rej.get('hashes') or {}).keys())
 sr_players = {os.path.basename(f)[:-5]: jload(f) for f in glob.glob(os.path.join(OUT, 'sr', 'players', '*.json'))}
 school_index = {r['season']: r for r in (jload(os.path.join(OUT, 'sr', 'school_index.json'), {}) or {}).get('seasons', [])}
 
+# Box scores transcribed from contemporary newspapers for games no other source covers; only from fact-checked Moments
+NEWSPAPER_BOXES = {}
+for _f in glob.glob(os.path.join(OUT, 'moments', 'verified', '*.json')):
+    _m = jload(_f) or {}
+    if _m.get('gameId') and isinstance(_m.get('box'), dict) and len(_m['box'].get('teams') or []) == 2:
+        NEWSPAPER_BOXES[_m['gameId']] = _m
+
+
+def newspaper_det(g, m, opp):
+    box = m['box']
+    src = box.get('source') if isinstance(box.get('source'), dict) else {'paper': box.get('source')}
+    teams = []
+    for k, t in enumerate(box['teams'][:2]):
+        isU = k == 0
+        st = t.get('stats') or {}
+        pct = lambda a, b: round(100 * st[a] / st[b], 1) if st.get(b) else None
+        players = [{'name': p['name'], 'pid': p.get('pid') if isU else None, 'starter': bool(p.get('starter')), 'photo': photo_for.get(p.get('pid')) if isU else None,
+                    **{k2: p.get(k2) for k2 in ('min', 'pts', 'fgm', 'fga', 'tpm', 'tpa', 'ftm', 'fta', 'reb', 'ast')}} for p in t.get('players') or []]
+        base = {'name': 'UConn', 'abbr': 'CONN', 'logo': 'https://a.espncdn.com/i/teamlogos/ncaa/500/41.png'} if isU else {k2: opp.get(k2) for k2 in ('name', 'abbr', 'logo')}
+        teams.append({**base, 'score': t.get('score'), 'line': t.get('line'), 'boxSource': 'newspaper', 'players': players,
+                      'stats': {'fg_pct': pct('fgm', 'fga'), 'tp_pct': pct('tpm', 'tpa'), 'ft_pct': pct('ftm', 'fta'), 'reb': st.get('reb'), 'ast': st.get('ast')}})
+    return {'venue': {'name': m.get('venue') or g.get('arena'), 'city': m.get('city') or g.get('city')}, 'att': box.get('att'), 'officials': [], 'teams': teams,
+            'source': 'newspaper', 'boxNote': f"Box score transcribed from {src.get('paper') or 'a contemporary newspaper'}{', ' + src['date'] if src.get('date') else ''}.",
+            'boxSrc': src.get('page_url')}
+
+
 espn_games = {}
 for f in glob.glob(os.path.join(OUT, 'espn', 'games', '*.json')):
     d = jload(f)
@@ -1265,6 +1291,9 @@ for y in years:
                 det = {'venue': {'name': arena.split(',')[0] if arena else g.get('arena'), 'city': ', '.join(arena.split(',')[1:]).strip()}, 'att': b.get('attendance'),
                        'officials': b.get('officials') or [], 'teams': [U, O], 'source': 'sr'}
                 row['box'] = 'sr'
+        if not det and gid in NEWSPAPER_BOXES:
+            det = newspaper_det(g, NEWSPAPER_BOXES[gid], opp)
+            row['box'] = 'newspaper'
         if det:
             det['teams'][0]['rank'] = det['teams'][0].get('rank')
             det['teams'][1]['rank'] = det['teams'][1].get('rank') or g.get('opp_rank')

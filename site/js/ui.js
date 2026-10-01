@@ -189,7 +189,7 @@ export function statTable(cols, rows, opts = {}) {
   const no3 = opts.y && opts.y < 1987, is3 = (t) => /3-point/i.test(t || '');
   const notKept = hidden.filter((t) => !(no3 && is3(t)));
   const noteParts = [
-    notKept.length ? `Not in the official records${opts.era ? ` for ${esc(opts.era)}` : ''}: ${notKept.map(esc).join(', ')}.` : '',
+    notKept.length ? `${opts.hiddenLabel || 'Not in the official records'}${opts.era ? ` for ${esc(opts.era)}` : ''}: ${notKept.map(esc).join(', ')}.` : '',
     no3 && hidden.some(is3) ? 'No 3-point line until 1986–87.' : '',
     opts.why ? esc(opts.why) : '',
   ].filter(Boolean);
