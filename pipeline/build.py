@@ -639,8 +639,12 @@ for fn in os.listdir(ASSETS):
 # Photo agent: UConn-era portraits/action shots, pro headshots
 RANK_KIND = {'uconn-headshot': 2, 'uconn-action': 3, 'uconn-team': 3, 'nba-headshot': 4, 'pro-other': 5, 'other': 5}
 _pp = dict(((jload(os.path.join(M, 'player_photos.json'), {}) or {}).get('players') or {}))
+# Perno-era finds (1977-86): listed best-first by a researcher who looked at every image; UConn-era shots beat later pro photos
 for _k, _v in ((jload(os.path.join(M, 'player_photos_perno.json'), {}) or {}).get('players') or {}).items():
-    _pp.setdefault(_k, []).extend(_v or [])
+    for _i, _ph in enumerate(_v or []):
+        if _ph.get('url'):
+            add_photo(_k, 1.8 + _i * 0.01, _ph['url'], not _ph.get('cutout'), credit=_ph.get('credit'), license=_ph.get('license'),
+                      source=_ph.get('source'), caption=_ph.get('caption'), kind=_ph.get('kind'), crop=_ph.get('crop'))
 for pid, lst in _pp.items():
     for ph in lst or []:
         if ph.get('url'):
@@ -675,17 +679,19 @@ os.makedirs(REMOTE_DIR, exist_ok=True)
 _localize_memo = {}
 
 
-def localize(url):
-    if not url or url.startswith('assets/') or urllib.parse.urlparse(url).netloc in STABLE_HOSTS:
+def localize(url, crop=None):
+    """copy a photo from a non-CDN host into site/assets/players-remote/; crop = {x, y, w, h} in source pixels (team photos)"""
+    if not url or url.startswith('assets/') or (urllib.parse.urlparse(url).netloc in STABLE_HOSTS and not crop):
         return url
-    if url in _localize_memo:
-        return _localize_memo[url]
+    mkey = (url, json.dumps(crop, sort_keys=True) if crop else None)
+    if mkey in _localize_memo:
+        return _localize_memo[mkey]
     import subprocess, time as _t
-    key = hashlib.sha1(url.encode()).hexdigest()[:14]
+    key = hashlib.sha1((url + (mkey[1] or '')).encode()).hexdigest()[:14]
     for ext in ('.png', '.jpg'):
         if os.path.exists(os.path.join(REMOTE_DIR, key + ext)):
-            _localize_memo[url] = f'assets/players-remote/{key}{ext}'
-            return _localize_memo[url]
+            _localize_memo[mkey] = f'assets/players-remote/{key}{ext}'
+            return _localize_memo[mkey]
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36'})
         r = urllib.request.urlopen(req, timeout=25)
@@ -698,14 +704,18 @@ def localize(url):
         open(tmp, 'wb').write(data)
         out = os.path.join(REMOTE_DIR, key + ext)
         fmt = 'png' if ext == '.png' else 'jpeg'
+        if crop:   # sips: -c height width, --cropOffset y x
+            cut = tmp + '.crop'
+            subprocess.run(['sips', '-c', str(int(crop['h'])), str(int(crop['w'])), '--cropOffset', str(int(crop['y'])), str(int(crop['x'])), tmp, '--out', cut], check=True, capture_output=True)
+            os.replace(cut, tmp)
         subprocess.run(['sips', '-s', 'format', fmt, '-Z', '700', tmp, '--out', out], check=True, capture_output=True)
         os.remove(tmp)
         _t.sleep(1.2 if 'archive.org' in url else 0.3)
-        _localize_memo[url] = f'assets/players-remote/{key}{ext}'
+        _localize_memo[mkey] = f'assets/players-remote/{key}{ext}'
     except Exception as e:
         print(f'! photo not reachable, trying next source: {url[:90]} ({e})')
-        _localize_memo[url] = None
-    return _localize_memo[url]
+        _localize_memo[mkey] = None
+    return _localize_memo[mkey]
 
 
 LOGO_ONLY = set((_rej.get('logo_only') or {}).keys())   # Jason asked for the Husky logo instead of any found photo
@@ -714,7 +724,7 @@ for pid, cands in PHOTO_CANDS.items():
     if pid in LOGO_ONLY:
         continue
     for rank, url, wide, meta in sorted(cands, key=lambda c: c[0]):
-        u2 = localize(url)
+        u2 = localize(url, meta.get('crop') if isinstance(meta.get('crop'), dict) else None)
         if not u2 or (u2.startswith('assets/') and hashlib.md5(open(os.path.join(SITE, '..', u2.split('?')[0]), 'rb').read()).hexdigest() in REJECT_HASHES):
             continue
         photo_for[pid] = u2
@@ -733,7 +743,7 @@ def photo_studio(pid):
 
 def photo_pos(pid):
     c = (photo_meta.get(pid) or {}).get('crop')
-    return CROP_POS.get(c) if c else None
+    return CROP_POS.get(c) if isinstance(c, str) else None   # a dict crop is already cut out of the source image
 
 
 # ───────────────────────── Commons photos ─────────────────────────
@@ -784,7 +794,10 @@ for v in list(media_videos or []) + list(_extra or []):
                 v[f['field']] = f.get('new')
     if not isinstance(v, dict) or not v.get('id'):
         continue
-    VIDS.append({k: v.get(k) for k in ('id', 'title', 'channel', 'kind', 'season', 'date', 'opponent', 'round', 'players', 'description') if v.get(k) is not None})
+    kind_ = {'full-game': 'full_game', 'feature': 'documentary'}.get(v.get('kind'), v.get('kind'))
+    if re.search(r'\bWHUS\b|radio broadcast|audio only', v.get('description') or '', re.I):
+        kind_ = 'radio'   # student-radio calls (audio only) are not game video
+    VIDS.append({k: v_ for k, v_ in {**{k: v.get(k) for k in ('id', 'title', 'channel', 'season', 'date', 'opponent', 'round', 'players', 'description')}, 'kind': kind_}.items() if v_ is not None})
 seen = set()
 VIDS = [v for v in VIDS if not (v['id'] in seen or seen.add(v['id']))]
 for v in VIDS:
