@@ -77,5 +77,5 @@ async function opponent(main, key, core) {
   <section class="section"><div class="wrap"><div class="panel sched">${gs.slice().reverse().map((g) => `
     <a class="srow${g.type === 'NCAA' ? ' post' : ''}" href="#/game/${g.id}"><span class="d">${fmtDate(g.date, { year: true }).replace(', ', '<br>')}</span>${logo(g.opp)}
       <span class="o"><b><span class="muted" style="font-weight:600">${g.ha === 'A' ? 'at' : 'vs.'}</span> ${esc(g.opp.name)}</b><small>${esc([g.round, g.top].filter(Boolean).join(' · '))}</small></span>
-      <span class="r ${g.res}">${g.res} ${g.pts}–${g.opp_pts}${g.ot ? `<em>${esc(g.ot)}</em>` : ''}</span><span class="x">›</span></a>`).join('')}</div></div></section>`;
+      <span class="r ${g.res}">${g.res}${g.forfeit ? '<em>FF</em>' : ''} ${g.pts}–${g.opp_pts}${g.ot ? `<em>${esc(g.ot)}</em>` : ''}</span><span class="x">›</span></a>`).join('')}</div></div></section>`;
 }

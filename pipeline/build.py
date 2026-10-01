@@ -750,9 +750,10 @@ os.makedirs(REMOTE_DIR, exist_ok=True)
 _localize_memo = {}
 
 
-def localize(url, crop=None):
-    """copy a photo from a non-CDN host into site/assets/players-remote/; crop = {x, y, w, h} in source pixels (team photos)"""
-    if not url or url.startswith('assets/') or (urllib.parse.urlparse(url).netloc in STABLE_HOSTS and not crop):
+def localize(url, crop=None, force=False):
+    """copy a photo from a non-CDN host into site/assets/players-remote/; crop = {x, y, w, h} in source pixels (team photos);
+    force = copy even from a CDN (small images shown everywhere, e.g. the coaches on the home page)"""
+    if not url or url.startswith('assets/') or (urllib.parse.urlparse(url).netloc in STABLE_HOSTS and not crop and not force):
         return url
     mkey = (url, json.dumps(crop, sort_keys=True) if crop else None)
     if mkey in _localize_memo:
@@ -1277,7 +1278,7 @@ for y in years:
         if row.get('res'):
             GAMES_INDEX.append({'id': gid, 'y': y, 'date': g['date'], 'type': g['type'], 'ha': ha, 'opp': {k: opp[k] for k in ('key', 'name', 'abbr', 'logo') if opp.get(k)},
                                 'res': row['res'], 'pts': row['pts'], 'opp_pts': row['opp_pts'], 'ot': row.get('ot'), 'round': rnd if g['type'] in ('NCAA', 'NIT', 'CTOURN') else None,
-                                'top': row.get('top'), 'big': 2 if g['type'] == 'NCAA' else 1 if g.get('opp_rank') else 0})
+                                'top': row.get('top'), 'big': 2 if g['type'] == 'NCAA' else 1 if g.get('opp_rank') else 0, **({'forfeit': True} if row.get('forfeit') else {})})
 
     # ── venues: era-correct names; single-source Sports-Reference labels before 2001 stay hidden (unreliable)
     for row in games_out:
@@ -1842,7 +1843,8 @@ for e in ERAS:
     eras_out.append({**e, 'w': wo, 'l': lo, 'courtW': w_court if (wo, lo) != (w_court, l_court) else None, 'courtL': l_court if (wo, lo) != (w_court, l_court) else None,
                      'recordNote': (off or {}).get('why') if (wo, lo) != (w_court, l_court) else None, 'titles': [s['y'] for s in ss if s['finish'] == 'champ'],
                      'ff': sum(1 for s in ss if s['finish'] in ('champ', 'runner', 'final4')), 'ncaa': sum(1 for s in ss if s['finish'] not in ('none', 'nit')),
-                     'photo': img_url(cm.get('image') or cm.get('image_url') or cm.get('photo')), 'blurb': cm.get('summary') or cm.get('blurb')})
+                     'photo': localize(img_url(cm.get('image') or cm.get('image_url') or cm.get('photo')), force=True) or img_url(cm.get('image') or cm.get('image_url') or cm.get('photo')),
+                     'blurb': cm.get('summary') or cm.get('blurb')})
 secondary = [{'y': s['y'], 'label': 'NCAA\nFinal Four' if s['finish'] == 'final4' else 'National\nRunner-Up', 'kind': 'ff'} for s in SEASON_SUM if s['finish'] in ('final4', 'runner')]
 
 cur_games = [g for g in json.load(open(os.path.join(SITE, 'seasons', f'{current_season}.json')))['games']]
@@ -1857,6 +1859,9 @@ if lst:
     CURRENT['last'] = {k: lst.get(k) for k in ('id', 'date', 'ha', 'opp', 'res', 'pts', 'opp_pts', 'top')}
 
 # ───────────────────────── Season hub (live: pipeline/season_hub.py) ─────────────────────────
+def ord_(n):
+    return f"{n}{'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
+
 def _hub(name):
     return jload(os.path.join(OUT, 'hub', f'{name}.json'), {}) or {}
 H_ST, H_PO, H_NET, H_BR, H_NO, H_PH = (_hub(n) for n in ('standings', 'polls', 'net', 'bracket', 'next_opp', 'polls_history'))
@@ -1918,6 +1923,20 @@ for player_, uc_ in PLAYERS:
         nxt_ = next((m for m in marks_ if m > v_), None)
         if nxt_ and nxt_ - v_ <= max(pace_, 1):
             MILES.append({'who': player_['name'], 'pid': player_['id'], 'kind': 'player', 'text': f"{v_:,} career {word_} at UConn. {nxt_:,} is {nxt_ - v_} away.", 'left': nxt_ - v_})
+# all-time scoring list: the record book's 1,000-point club (every era), with current players' live totals
+_rbtxt = open(os.path.join(HERE, 'cache.nosync', 'official', 'recordbook_pypdf.txt'), errors='ignore').read() if os.path.exists(os.path.join(HERE, 'cache.nosync', 'official', 'recordbook_pypdf.txt')) else ''
+CLUB = [(m.group(1).strip().title(), int(m.group(2).replace(',', ''))) for m in re.finditer(r"^\s*\d+\.\)\s+([A-Z][A-Za-z.'’ \-]+?)\s+\(\d years?,[^)]*\),?\s+([\d,]+)\s+p", _rbtxt, re.M)]
+CLUB = [(re.sub(r'\bMc([a-z])', lambda m_: 'Mc' + m_.group(1).upper(), n_), v_) for n_, v_ in CLUB]
+for player_, uc_ in PLAYERS:
+    if player_['id'] not in cur_ids_ or (player_['career'].get('pts') or 0) < 900 or not CLUB:
+        continue
+    me_, pts_ = norm(player_['name']), player_['career']['pts']
+    others_ = [(n_, v_) for n_, v_ in CLUB if norm(n_) != me_]
+    rank_ = 1 + sum(1 for _, v_ in others_ if v_ > pts_)
+    above_ = min([(v_, n_) for n_, v_ in others_ if v_ > pts_] or [None], key=lambda x: x[0] if x else 0)
+    if above_:
+        MILES.append({'who': player_['name'], 'pid': player_['id'], 'kind': 'player',
+                      'text': f"{pts_:,} career points, {ord_(rank_)} in UConn history. {above_[0] - pts_ + 1} more passes {above_[1]} ({above_[0]:,}).", 'left': above_[0] - pts_ + 1})
 # streaks (all seasons, newest games last)
 _all = sorted(GAMES_INDEX, key=lambda g: g['date'])
 for label_, pick_ in (('home', lambda g: g['ha'] == 'H'), ('overall', lambda g: True)):
