@@ -25,7 +25,18 @@ fi
 echo "$OUT" | grep -E "official check|play-by-play hidden|jersey numbers|!!" | sed "s/^/$(stamp) /"
 $PY -c "import json,datetime;json.dump({'last':datetime.datetime.now(datetime.timezone.utc).isoformat()},open('dev/.update_state.json','w'))"
 git add site/data site/assets pipeline/out 2>/dev/null
-if git diff --cached --quiet; then echo "$(stamp) no changes"; exit 0; fi
+# the build stamps core.json with the time it ran; that alone is not news
+if git diff --cached --quiet -- . ':!site/data/core.json' && $PY - <<'PYEOF'
+import json, subprocess, sys
+old = json.loads(subprocess.run(['git', 'show', 'HEAD:site/data/core.json'], capture_output=True, text=True).stdout or '{}')
+new = json.load(open('site/data/core.json'))
+old.pop('updated', None); new.pop('updated', None)
+sys.exit(0 if old == new else 1)
+PYEOF
+then
+  git reset -q site/data/core.json && git checkout -q -- site/data/core.json
+  echo "$(stamp) no changes"; exit 0
+fi
 AFTER=$($PY -c "import json;c=json.load(open('site/data/core.json'));print(json.dumps((c.get('current') or {}).get('last')))" 2>/dev/null)
 $G commit -qm "Data update $(date '+%Y-%m-%d %H:%M')"
 git fetch -q origin main && [ "$(git rev-list --count HEAD..origin/main)" != 0 ] && git pull -q --rebase --autostash origin main
