@@ -51,7 +51,7 @@ function hubHtml(core) {
       <span class="eyebrow">Next opponent</span>
       <div class="hub-opp">${logo(pv.opp, 'lg')}<div><h3 class="h3">${esc(pv.opp.name)}</h3><span class="note">${pv.record ? [pv.record, pv.standing].filter(Boolean).map(esc).join(' · ') : 'Their season hasn’t started'}</span></div></div>
       <ul class="hub-list">
-        <li><span>Series since ${core.seasons[0].y - 1}–${String(core.seasons[0].y).slice(2)}</span><b>${pv.series.w + pv.series.l ? `UConn ${pv.series.w}–${pv.series.l}` : 'First meeting'}</b></li>
+        ${pv.series.allW != null ? `<li><span>All-time series</span><b>UConn ${pv.series.allW}–${pv.series.allL}</b></li>` : `<li><span>Series since ${core.seasons[0].y - 1}–${String(core.seasons[0].y).slice(2)}</span><b>${pv.series.w + pv.series.l ? `UConn ${pv.series.w}–${pv.series.l}` : 'First meeting'}</b></li>`}
         ${pv.last ? `<li><span>Last meeting</span><b><a href="#/game/${esc(pv.last.id)}">${esc(pv.last.res)} ${pv.last.pts}–${pv.last.opp_pts}${pv.last.ot ? ' ' + esc(pv.last.ot) : ''}</a> · ${esc(fmtDate(pv.last.date, { year: true }))}</b></li>` : ''}
         ${(pv.leaders || []).map((l) => `<li><span>${esc(l.stat)}</span><b>${esc(l.name)} · ${esc(l.value)}</b></li>`).join('')}
       </ul></div>` : '';
