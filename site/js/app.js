@@ -35,10 +35,10 @@ async function route() {
     current = (await mod.default(main, args, core)) || null;
     if (my !== seq) { current?.destroy?.(); return; }
     const t = main.querySelector('[data-title]')?.dataset.title;
-    document.title = t ? `${t} · The Rafters` : 'The Rafters';
+    document.title = t ? `${t} · Storrs Lore` : 'Storrs Lore';
   } catch (e) {
     console.error(e);
-    if (my === seq) main.innerHTML = `<div class="wrap section"><div class="empty">That page didn't load: ${esc(e.message)}. <a class="btn" href="#/">Back to the rafters</a></div></div>`;
+    if (my === seq) main.innerHTML = `<div class="wrap section"><div class="empty">That page didn't load: ${esc(e.message)}. <a class="btn" href="#/">Back home</a></div></div>`;
   }
   if (!location.hash.includes('#top')) scrollTo({ top: 0, behavior: 'instant' });
   main.focus({ preventScroll: true });

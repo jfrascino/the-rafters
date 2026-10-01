@@ -1,4 +1,4 @@
-# The Rafters
+# Storrs Lore
 
 An unofficial, fan-built encyclopedia of UConn men's basketball from Jim Calhoun's first season (1986–87) to now: every season, every game, every Husky.
 

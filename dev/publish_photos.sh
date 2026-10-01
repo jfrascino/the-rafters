@@ -17,4 +17,4 @@ git subtree split --prefix site -b pages-tmp -q >/dev/null && git push -qf origi
 echo "$(date '+%H:%M:%S') published: ${NEW:-(no renamed files)}${BAD:+ | NOT MATCHED: $BAD}"
 MSG="Live in about a minute: ${NEW:-updated photos}"
 [ -n "$BAD" ] && MSG="$MSG. No player named: $BAD (rename the file)"
-osascript -e "display notification \"${MSG//\"/}\" with title \"The Rafters\" subtitle \"Photos published\"" 2>/dev/null || true
+osascript -e "display notification \"${MSG//\"/}\" with title \"Storrs Lore\" subtitle \"Photos published\"" 2>/dev/null || true

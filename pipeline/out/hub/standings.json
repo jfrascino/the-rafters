@@ -1,0 +1,140 @@
+{
+ "season": 2026,
+ "seasonLabel": "2025-26",
+ "phase": 3,
+ "rows": [
+  {
+   "id": "2599",
+   "name": "St. John's",
+   "full": "St. John's Red Storm",
+   "abbr": "SJU",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
+   "conf": "18-2",
+   "overall": "30-7",
+   "seed": "1",
+   "gb": "-",
+   "streak": "L1"
+  },
+  {
+   "id": "41",
+   "name": "UConn",
+   "full": "UConn Huskies",
+   "abbr": "CONN",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+   "conf": "17-3",
+   "overall": "34-6",
+   "seed": "2",
+   "gb": "1",
+   "streak": "L1"
+  },
+  {
+   "id": "222",
+   "name": "Villanova",
+   "full": "Villanova Wildcats",
+   "abbr": "VILL",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
+   "conf": "15-5",
+   "overall": "24-9",
+   "seed": "3",
+   "gb": "3",
+   "streak": "L2"
+  },
+  {
+   "id": "2550",
+   "name": "Seton Hall",
+   "full": "Seton Hall Pirates",
+   "abbr": "HALL",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
+   "conf": "10-10",
+   "overall": "21-12",
+   "seed": "4",
+   "gb": "8",
+   "streak": "L1"
+  },
+  {
+   "id": "156",
+   "name": "Creighton",
+   "full": "Creighton Bluejays",
+   "abbr": "CREI",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
+   "conf": "9-11",
+   "overall": "16-18",
+   "seed": "5",
+   "gb": "9",
+   "streak": "L1"
+  },
+  {
+   "id": "305",
+   "name": "DePaul",
+   "full": "DePaul Blue Demons",
+   "abbr": "DEP",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/305.png",
+   "conf": "8-12",
+   "overall": "16-16",
+   "seed": "6",
+   "gb": "10",
+   "streak": "L3"
+  },
+  {
+   "id": "269",
+   "name": "Marquette",
+   "full": "Marquette Golden Eagles",
+   "abbr": "MARQ",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
+   "conf": "7-13",
+   "overall": "12-20",
+   "seed": "7",
+   "gb": "11",
+   "streak": "L1"
+  },
+  {
+   "id": "2086",
+   "name": "Butler",
+   "full": "Butler Bulldogs",
+   "abbr": "BTLR",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png",
+   "conf": "7-13",
+   "overall": "16-16",
+   "seed": "8",
+   "gb": "11",
+   "streak": "L1"
+  },
+  {
+   "id": "2507",
+   "name": "Providence",
+   "full": "Providence Friars",
+   "abbr": "PROV",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
+   "conf": "7-13",
+   "overall": "15-18",
+   "seed": "9",
+   "gb": "11",
+   "streak": "L1"
+  },
+  {
+   "id": "2752",
+   "name": "Xavier",
+   "full": "Xavier Musketeers",
+   "abbr": "XAV",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png",
+   "conf": "6-14",
+   "overall": "15-18",
+   "seed": "10",
+   "gb": "12",
+   "streak": "L1"
+  },
+  {
+   "id": "46",
+   "name": "Georgetown",
+   "full": "Georgetown Hoyas",
+   "abbr": "GTWN",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
+   "conf": "6-14",
+   "overall": "16-18",
+   "seed": "11",
+   "gb": "12",
+   "streak": "L1"
+  }
+ ],
+ "fetched": "2026-10-01T11:17:40+00:00"
+}

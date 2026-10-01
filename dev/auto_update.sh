@@ -6,7 +6,7 @@ cd "$(dirname "$0")/.."
 PY=/opt/homebrew/bin/python3
 G="git -c user.name=jfrascino -c user.email=47570206+jfrascino@users.noreply.github.com"
 stamp() { date '+%Y-%m-%d %H:%M:%S'; }
-notify() { osascript -e "display notification \"${2//\"/}\" with title \"The Rafters\" subtitle \"$1\"" 2>/dev/null || true; }
+notify() { osascript -e "display notification \"${2//\"/}\" with title \"Storrs Lore\" subtitle \"$1\"" 2>/dev/null || true; }
 $PY dev/should_update.py "$@" || exit 0
 # a code change in progress (Kai mid-edit) must not be built into published data
 if [ -n "$(git status --porcelain -- pipeline/*.py site/js site/css site/index.html 2>/dev/null)" ]; then
