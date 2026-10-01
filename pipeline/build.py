@@ -126,7 +126,43 @@ for d in ADJ.get('decisions', []):
         g_['date'] = t
     elif d.get('field') == 'site' and t.split(' ')[0] in ('home', 'away', 'neutral'):
         g_['site'] = t.split(' ')[0]
+# Game facts settled against UConn's record book and independent sources (pipeline/game_rulings.json, built by
+# official_game_rulings.py): dates, home/away/neutral, overtime, a misprinted score, the 1979-80 Utah forfeit.
+for r_ in (jload(os.path.join(HERE, 'game_rulings.json'), {}) or {}).get('rulings') or []:
+    if r_.get('needs_match') or not r_.get('date'):
+        continue
+    sch_ = (sr_seasons.get(int(r_['season'])) or {}).get('schedule', [])
+    on_ = norm(r_['opp'])
+    day_ = [x for x in sch_ if r_['date'] in (x['date'], x.get('_orig_date'))]   # an earlier ruling may already have moved the date
+    g_ = next((x for x in day_ if on_ in norm(x.get('opp_name')) or norm(x.get('opp_name')) in on_), None) or (day_[0] if len(day_) == 1 else None)
+    if not g_:
+        print(f"  !! game ruling matched no game: {r_['season']} {r_['date']} {r_['opp']} {r_['set']}")
+        continue
+    st_ = r_['set']
+    if 'date' in st_:
+        g_.setdefault('_orig_date', g_['date'])
+    for k_, sk_ in (('date', 'date'), ('site', 'site'), ('arena', 'arena'), ('ot', 'overtimes'), ('res', 'game_result'), ('pts', 'pts'), ('opp_pts', 'opp_pts')):
+        if k_ in st_:
+            g_[sk_] = st_[k_]
+    if 'arena' in st_:
+        g_['arena_verified'] = True
+    if st_.get('forfeit'):
+        g_['forfeit'] = st_.get('note') or True
+for y_, sd_ in sr_seasons.items():   # a corrected date can reorder a season: keep game numbers and running records in date order
+    sch_ = sd_.get('schedule') or []
+    if [g.get('g') for g in sch_] != [g.get('g') for g in sorted(sch_, key=lambda g: (g['date'], g.get('g') or 0))]:
+        sch_.sort(key=lambda g: (g['date'], g.get('g') or 0))
+        print(f"  {y_}: a corrected date reordered the schedule; renumbering")
+        for i_, g in enumerate(sch_):
+            g['g'] = i_ + 1
+    w_ = l_ = 0
+    for g in sch_:
+        w_ += g.get('game_result') == 'W'
+        l_ += g.get('game_result') == 'L'
+        if g.get('game_result'):
+            g['wins'], g['losses'] = w_, l_
 FORCE_PLAYED = set()   # (game id, player name) the official box shows appearing though Sports-Reference omits them
+EXCLUDED_APPEARANCES = collections.defaultdict(list)   # (pid, season) -> game ids where ESPN's box lists him but Sports-Reference's doesn't
 for st in ADJ.get('stats', []):
     if 'appearance' in (st.get('stat') or '') and st.get('winner') == 'espn':
         FORCE_PLAYED.add((st['game'], norm(st.get('player'))))
@@ -137,6 +173,8 @@ VACATED = {
     2018: {'official': '0–1', 'note': 'The NCAA vacated every 2017–18 game except the March 8 AAC tournament loss to SMU.', 'test': lambda g: g['date'][:10] != '2018-03-08'},
 }
 OFFICIAL_NUMS = {int(k): {norm(n): v for n, v in d.items()} for k, d in (jload(os.path.join(OUT, 'official', 'numbers.json'), {}) or {}).items()}
+from official_stats import Official   # UConn's record book + season-final stat sheets settle every player stat (see official_stats.py)
+OFFICIAL_STATS = Official()
 _rej = jload(os.path.join(HERE, 'photo_rejects.json'), {}) or {}
 REJECT_HASHES = set((_rej.get('hashes') or {}).keys())
 sr_players = {os.path.basename(f)[:-5]: jload(f) for f in glob.glob(os.path.join(OUT, 'sr', 'players', '*.json'))}
@@ -1008,7 +1046,7 @@ for y in years:
             raw_games.append({'g': g['g'], 'date': g['date'], 'iso': None, 'type': g.get('game_type') or 'REG', 'ha': {'home': 'H', 'away': 'A', 'neutral': 'N'}.get(g.get('site'), 'H' if not g.get('game_location') else ('A' if g['game_location'] == '@' else 'N')),
                               'opp': opp_t, 'opp_rank': g.get('opp_rank'), 'opp_seed': g.get('opp_seed'), 'arena': g.get('arena'), 'round': g.get('round'), 'res': g.get('game_result'),
                               'pts': g.get('pts'), 'opp_pts': g.get('opp_pts'), 'ot': g.get('overtimes'), 'rec': f"{g.get('wins')}-{g.get('losses')}" if g.get('wins') is not None else None,
-                              'espn': sr_game_espn.get((y, g['g'])), 'box_slug': g.get('box_slug')})
+                              'espn': sr_game_espn.get((y, g['g'])), 'box_slug': g.get('box_slug'), 'forfeit': g.get('forfeit'), 'arena_ok': g.get('arena_verified')})
     else:
         raw_games = espn_only_games(y)
 
@@ -1034,10 +1072,10 @@ for y in years:
         if g['type'] in ('NCAA', 'CTOURN'):
             ha = 'N'  # tournament games are neutral-site, even at MSG or in Hartford (sources disagree game to game)
         row = {'id': gid, 'date': (g.get('iso') or (e or {}).get('date') or g['date']) if not g.get('res') else g['date'], 'type': g['type'], 'ha': ha, 'opp': opp}
-        for k in ('res', 'pts', 'opp_pts', 'ot', 'rec', 'arena', 'city'):
+        for k in ('res', 'pts', 'opp_pts', 'ot', 'rec', 'arena', 'city', 'forfeit'):
             if g.get(k) is not None:
                 row[k] = g[k]
-        if y < 2001 and g['type'] in ('REG', 'CTOURN') and not e:
+        if y < 2001 and g['type'] in ('REG', 'CTOURN') and not e and not g.get('arena_ok'):
             row.pop('arena', None)  # Sports-Reference arena names before ~2001 are unreliable (fact-check 2026-09-30)
         if rnd:
             row['round'] = rnd
@@ -1123,8 +1161,10 @@ for y in years:
             for p in det['teams'][0]['players']:
                 if not p.get('pid') or p.get('dnp'):
                     continue
+                entry_ = None
                 if sr_played is not None:
                     if p['pid'] not in sr_played and (gid, norm(p.get('name'))) not in FORCE_PLAYED:
+                        EXCLUDED_APPEARANCES[(p['pid'], y)].append(gid)   # kept aside: the official games count may say he did get in
                         continue  # Sports-Reference's box (which decides games played) says he didn't get in
 
                 PLAYER_GAMES[p['pid']].append({'id': gid, 'y': y, 'date': g['date'], 'opp': {k: opp[k] for k in ('name', 'abbr', 'logo') if opp.get(k)}, 'ha': ha, 'res': g.get('res'),
@@ -1250,6 +1290,41 @@ for y in years:
                         it.pop('num', None)  # conflicting and unconfirmed: show no number rather than a wrong one
         for it in roster:
             it.pop('numOfficial', None)
+        played_ = [r_ for r_ in games_out if r_.get('res')]
+        box_sums = None
+        if played_ and all(r_['id'] in details for r_ in played_):   # every game has a box score: sum them as a tie-breaker
+            box_sums = collections.defaultdict(collections.Counter)
+            for pid_, gl_ in PLAYER_GAMES.items():
+                for e_ in gl_:
+                    if e_['y'] == y:
+                        bs_ = box_sums[pid_]
+                        bs_['g'] += 1
+                        for kb_, k_ in (('min', 'mp'), ('pts', 'pts'), ('reb', 'trb'), ('ast', 'ast'), ('stl', 'stl'), ('blk', 'blk'), ('to', 'tov'), ('fgm', 'fg'), ('fga', 'fga'),
+                                        ('tpm', 'fg3'), ('tpa', 'fg3a'), ('ftm', 'ft'), ('fta', 'fta'), ('oreb', 'orb')):
+                            bs_[k_] += e_.get(kb_) or 0
+        OFFICIAL_STATS.apply(y, roster, box_sums)
+        # game logs follow the settled games count: restore appearances Sports-Reference's box missed (seconds-long
+        # cameos ESPN's box shows), and drop zero-minute lines the official count doesn't include
+        rows_by_id_ = {r_['id']: r_ for r_ in games_out}
+        for it in roster:
+            g_off = (it.get('tot') or {}).get('g')
+            gl_ = [e_ for e_ in PLAYER_GAMES.get(it['pid'], []) if e_['y'] == y]
+            if not g_off:
+                continue
+            if g_off > len(gl_):
+                for gid_ in EXCLUDED_APPEARANCES.get((it['pid'], y), [])[: g_off - len(gl_)]:
+                    row_, det_ = rows_by_id_.get(gid_), details.get(gid_)
+                    pl_ = next((q for q in (det_ or {}).get('teams', [{}])[0].get('players', []) if q.get('pid') == it['pid']), None)
+                    if not row_ or not pl_:
+                        continue
+                    PLAYER_GAMES[it['pid']].append({'id': gid_, 'y': y, 'date': row_['date'], 'opp': {k: row_['opp'][k] for k in ('name', 'abbr', 'logo') if row_['opp'].get(k)}, 'ha': row_.get('ha'),
+                                                    'res': row_.get('res'), 'score': f"{row_.get('pts')}-{row_.get('opp_pts')}", 'type': row_['type'], 'round': row_.get('round'),
+                                                    **{k: pl_.get(k) for k in ('min', 'pts', 'reb', 'ast', 'stl', 'blk', 'to', 'fgm', 'fga', 'tpm', 'tpa', 'ftm', 'fta', 'oreb')}})
+                PLAYER_GAMES[it['pid']].sort(key=lambda e_: e_['date'])
+            elif g_off < len(gl_):
+                idle_ = [e_ for e_ in gl_ if not e_.get('min') and not any(e_.get(k) for k in ('pts', 'reb', 'ast', 'stl', 'blk', 'fga', 'fta', 'to'))]
+                for e_ in idle_[: len(gl_) - g_off]:
+                    PLAYER_GAMES[it['pid']].remove(e_)
     else:
         # current season from ESPN: roster from current.json, stats aggregated from box scores
         agg = collections.defaultdict(lambda: collections.Counter())
@@ -1330,6 +1405,31 @@ for y in years:
                       'trb': tp.get('trb_per_g'), 'orb': tp.get('orb_per_g'), 'ast': tp.get('ast_per_g'), 'stl': tp.get('stl_per_g'), 'blk': tp.get('blk_per_g'), 'tov': tp.get('tov_per_g'), 'pf': tp.get('pf_per_g')}
         team['opp'] = {'pts': op.get('opp_pts_per_g'), 'fg_pct': op.get('opp_fg_pct'), 'fg3_pct': op.get('opp_fg3_pct'), 'fg3': op.get('opp_fg3_per_g'), 'ft_pct': op.get('opp_ft_pct'), 'ft': op.get('opp_ft_per_g'),
                        'trb': op.get('opp_trb_per_g'), 'orb': op.get('opp_orb_per_g'), 'ast': op.get('opp_ast_per_g'), 'stl': op.get('opp_stl_per_g'), 'blk': op.get('opp_blk_per_g'), 'tov': op.get('opp_tov_per_g'), 'pf': op.get('opp_pf_per_g')}
+        # UConn's shooting and counting stats = the sum of its (officially settled) player lines. Sports-Reference's team row
+        # can disagree with its own players (2004-05 shows .317 from three-point attempts no player has).
+        gp_ = sum(1 for g_ in games_out if g_.get("res"))   # games played (the W-L is tallied further down)
+        if gp_ and roster and all(it.get('tot') for it in roster if (it.get('pg') or {}).get('g')):
+            sums_ = {k: [((it.get('tot') or {}).get(k)) for it in roster if (it.get('pg') or {}).get('g')] for k in ('pts', 'fg', 'fga', 'fg3', 'fg3a', 'ft', 'fta', 'ast', 'stl', 'blk')}
+            S_ = {k: (sum(v) if v and all(x is not None for x in v) else None) for k, v in sums_.items()}
+            fixed_ = {'pts': S_['pts'] / gp_ if S_['pts'] is not None else None, 'fg_pct': S_['fg'] / S_['fga'] if S_['fga'] else None,
+                      'fg3_pct': S_['fg3'] / S_['fg3a'] if S_['fg3a'] else None, 'fg3': S_['fg3'] / gp_ if S_['fg3'] is not None and S_['fg3a'] else None,
+                      'ft_pct': S_['ft'] / S_['fta'] if S_['fta'] else None, 'ft': S_['ft'] / gp_ if S_['ft'] is not None else None,
+                      'ast': S_['ast'] / gp_ if S_['ast'] is not None else None, 'stl': S_['stl'] / gp_ if S_['stl'] is not None else None, 'blk': S_['blk'] / gp_ if S_['blk'] is not None else None}
+            for k_, v_ in fixed_.items():
+                if v_ is None:
+                    continue
+                v_ = round(v_, 3) if k_.endswith('pct') else round(v_, 1)
+                if team['pg'].get(k_) is not None and abs(team['pg'][k_] - v_) > (0.0015 if k_.endswith('pct') else 0.051):
+                    OFFICIAL_STATS.report.setdefault('team_fixed', []).append({'y': y, 'stat': k_, 'was': team['pg'][k_], 'now': v_})
+                team['pg'][k_] = v_
+        tt_ = (OFFICIAL_STATS.cume.get(y) or {}).get('total') or {}
+        if tt_.get('g'):   # the season-final sheet's team line also carries team rebounds and turnovers
+            for k_, src_ in (('trb', 'trb'), ('orb', 'orb'), ('tov', 'tov'), ('pf', 'pf')):
+                if tt_.get(src_) is not None:
+                    v_ = round(tt_[src_] / tt_['g'], 1)
+                    if team['pg'].get(k_) is not None and abs(team['pg'][k_] - v_) > 0.051:
+                        OFFICIAL_STATS.report.setdefault('team_fixed', []).append({'y': y, 'stat': k_, 'was': team['pg'][k_], 'now': v_})
+                    team['pg'][k_] = v_
 
     # ── polls
     polls = []
@@ -1600,11 +1700,21 @@ coach_media = {}
 for c in (legends.get('coaches') or []):
     if isinstance(c, dict) and c.get('name'):
         coach_media[norm(c['name'])] = c
+COACH_OFFICIAL = (jload(os.path.join(HERE, 'coach_records.json'), {}) or {}).get('coaches') or {}
 eras_out = []
 for e in ERAS:
     ss = [s for s in SEASON_SUM if e['from'] <= s['y'] <= e['to'] and not s.get('future')]
     cm = coach_media.get(norm(e['name']), {})
-    eras_out.append({**e, 'w': sum(s['w'] for s in ss), 'l': sum(s['l'] for s in ss), 'titles': [s['y'] for s in ss if s['finish'] == 'champ'],
+    w_court, l_court = sum(s['w'] for s in ss), sum(s['l'] for s in ss)
+    off = COACH_OFFICIAL.get(e['name'])
+    if off and off.get('through') and ss and ss[-1]['y'] > off['through']:   # seasons since the record book went to print
+        extra = [s for s in ss if s['y'] > off['through']]
+        off = {**off, 'w': off['w'] + sum(s['w'] for s in extra), 'l': off['l'] + sum(s['l'] for s in extra)}
+    if off and (off['w'], off['l']) != (w_court, l_court) and not off.get('why'):
+        print(f"  !! {e['name']}: record book {off['w']}-{off['l']} vs games {w_court}-{l_court} (no explanation on file)")
+    wo, lo = (off['w'], off['l']) if off else (w_court, l_court)
+    eras_out.append({**e, 'w': wo, 'l': lo, 'courtW': w_court if (wo, lo) != (w_court, l_court) else None, 'courtL': l_court if (wo, lo) != (w_court, l_court) else None,
+                     'recordNote': (off or {}).get('why') if (wo, lo) != (w_court, l_court) else None, 'titles': [s['y'] for s in ss if s['finish'] == 'champ'],
                      'ff': sum(1 for s in ss if s['finish'] in ('champ', 'runner', 'final4')), 'ncaa': sum(1 for s in ss if s['finish'] not in ('none', 'nit')),
                      'photo': img_url(cm.get('image') or cm.get('image_url') or cm.get('photo')), 'blurb': cm.get('summary') or cm.get('blurb')})
 secondary = [{'y': s['y'], 'label': 'NCAA\nFinal Four' if s['finish'] == 'final4' else 'National\nRunner-Up', 'kind': 'ff'} for s in SEASON_SUM if s['finish'] in ('final4', 'runner')]
@@ -1660,4 +1770,6 @@ if legends:
 media_photos = COMMONS
 jdump(os.path.join(SITE, 'media.json'), {'videos': VIDS, 'photos': media_photos})
 sizes = sum(os.path.getsize(f) for f in glob.glob(os.path.join(SITE, '**', '*.json'), recursive=True))
+jdump(os.path.join(OUT, 'official', 'stats_validation.json'), OFFICIAL_STATS.report)
+print(OFFICIAL_STATS.summary())
 print(f"\nplayers={len(PLAYERS)} games_indexed={len(GAMES_INDEX)} opponents={len(OPP)} videos={len(VIDS)} data={sizes / 1e6:.1f} MB")

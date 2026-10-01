@@ -1,0 +1,10 @@
+{
+  "_source": "UConn Men's Basketball 2026-27 Record Book, p. 2, \"All-Time Head Coaches\" (pipeline/cache.nosync/official/RECORD_BOOK_26-27_V2_.pdf)",
+  "_note": "Official head-coach records. Where they differ from the team's on-court record in his seasons, 'why' explains it and the site shows both.",
+  "coaches": {
+    "Dom Perno": {"w": 139, "l": 114},
+    "Jim Calhoun": {"w": 625, "l": 243, "why": "UConn doesn't credit him with the three 1996 NCAA Tournament games the NCAA vacated (2–1), or the three 2011–12 Big East games he sat out on an NCAA suspension, which George Blaney coached (at USF, St. John's, at Seton Hall: 2–1)."},
+    "Kevin Ollie": {"w": 127, "l": 79, "why": "UConn's record book still credits him with the 2016–17 and 2017–18 games the NCAA later vacated."},
+    "Dan Hurley": {"w": 199, "l": 75, "through": 2026}
+  }
+}

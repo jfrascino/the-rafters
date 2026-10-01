@@ -1,0 +1,1206 @@
+{
+ "_about": "Compose pipeline/game_rulings.json: every settled game fact where the site and UConn's record book disagreed.",
+ "rulings": [
+  {
+   "season": 1978,
+   "date": "1978-01-27",
+   "opp": "Holy Cross",
+   "field": "site",
+   "set": {
+    "site": "neutral",
+    "arena": "Boston Garden"
+   },
+   "why": "Holy Cross's own all-time results list the 1/27/78 UConn game at neutral site N42 = Colonial Classic, Boston Garden (not Worcester); BC's record book shows the same two-night Colonial Classic at Boston Garden (BC-UMass 1/27, BC-UConn 1/28). Record book (N) is right; app's A is wrong. Side note: Holy Cross prints the score as 76-63, while UConn's record book and the app have 78-63 - score not settled here.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://www.goholycross.com/fls/33100/sports/m-basketball/archives/results.pdf",
+     "quote": "1977-1978 ... 1/27 Connecticut N42 W, 76-63 ... 1/28 Massachusetts N42 W, 78-63"
+    },
+    {
+     "url": "https://www.goholycross.com/fls/33100/sports/m-basketball/archives/results.pdf",
+     "quote": "42 Colonial Classic, Boston (Mass.) Garden"
+    },
+    {
+     "url": "https://bceagles.com/documents/download/2025/9/22/2025-26_Record_Book.pdf",
+     "quote": "Colonial Classic J 27 BG Massachusetts L 64-88 J 28 BG Connecticut W 101-72"
+    }
+   ]
+  },
+  {
+   "season": 1978,
+   "date": "1978-01-28",
+   "opp": "Boston College",
+   "field": "site",
+   "set": {
+    "site": "neutral",
+    "arena": "Boston Garden"
+   },
+   "why": "BC's record book lists the game under 'Colonial Classic' at BG (Boston Garden), and its 1977-78 home/away/neutral split (N: 4-4) only adds up if both Colonial Classic games are counted neutral; its series list gives Boston, Mass. rather than Chestnut Hill. Holy Cross's results confirm the event at Boston Garden that weekend. Record book (N) is right; app's A is wrong.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://bceagles.com/documents/download/2025/9/22/2025-26_Record_Book.pdf",
+     "quote": "1977-78 (15-11) H: 6-3 A: 5-4 N: 4-4 ... Colonial Classic ... J 28 BG Connecticut W 101-72"
+    },
+    {
+     "url": "https://bceagles.com/documents/download/2025/9/22/2025-26_Record_Book.pdf",
+     "quote": "Jan. 28, 1978 101-72 W Boston, Mass."
+    },
+    {
+     "url": "https://www.goholycross.com/fls/33100/sports/m-basketball/archives/results.pdf",
+     "quote": "1/27 Connecticut N42 W, 76-63 ... 1/28 Massachusetts N42 W, 78-63"
+    }
+   ]
+  },
+  {
+   "season": 1979,
+   "date": "1979-01-11",
+   "opp": "Boston University",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "UConn's record book lists overtime; our older sources don't record OT",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1979,
+   "date": "1979-01-26",
+   "opp": "Holy Cross",
+   "field": "site",
+   "set": {
+    "site": "neutral",
+    "arena": "Boston Garden"
+   },
+   "why": "Holy Cross's all-time results put the 1/26/79 game at N42 (Colonial Classic, Boston Garden), and its fact-book chronology calls Ronnie Perry's 46 points a Boston Garden collegiate record. BC's record book shows the same event at Boston Garden on 1/26-27/79. Record book (N) is right; app's A is wrong.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://www.goholycross.com/fls/33100/sports/m-basketball/archives/results.pdf",
+     "quote": "1/26 Connecticut (ot) N42 L, 102-109 ... 1/27 Massachusetts N42 W, 78-74"
+    },
+    {
+     "url": "https://static.goholycross.com/custompages/sports/m-basketball/archives/chron.pdf",
+     "quote": "109-102 overtime loss to Connecticut in the Colonial Classic. The 46 points were a Boston Garden collegiate record."
+    },
+    {
+     "url": "https://bceagles.com/documents/download/2025/9/22/2025-26_Record_Book.pdf",
+     "quote": "Colonial Classic J 26 BG Massachusetts W 82-70 J 27 BG Connecticut W 78-77"
+    }
+   ]
+  },
+  {
+   "season": 1979,
+   "date": "1979-01-26",
+   "opp": "Holy Cross",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "Holy Cross's results list and its fact-book chronology both call the 109-102 game an overtime loss to UConn. Record book (OT) is right; app is missing the OT.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://www.goholycross.com/fls/33100/sports/m-basketball/archives/results.pdf",
+     "quote": "1/26 Connecticut (ot) N42 L, 102-109"
+    },
+    {
+     "url": "https://static.goholycross.com/custompages/sports/m-basketball/archives/chron.pdf",
+     "quote": "Jan. 26, 1979: Perry scores a career-high 46 points in a 109-102 overtime loss to Connecticut"
+    }
+   ]
+  },
+  {
+   "season": 1979,
+   "date": "1979-02-24",
+   "opp": "Rhode Island",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "UConn's record book lists overtime; our older sources don't record OT",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1980,
+   "date": "1979-12-08",
+   "opp": "Utah",
+   "field": "result",
+   "set": {
+    "res": "W",
+    "forfeit": true,
+    "note": "Lost 66-73 on the court; Utah later forfeited the game for using an ineligible player, so it counts as a UConn win."
+   },
+   "why": "Provo Daily Herald, Jan. 10, 1980, p. 6 (quoted from a search snippet; the page itself is behind a bot check): Utah declared Danny Vranes ineligible Dec. 22, 1979 over a summer course (an Ottawa University correspondence course; SI's Mar. 2, 1981 Utah story ties it to the FBI's Ottawa credits probe). Utah had to forfeit the games he played while ineligible, which dropped it from 10-5 to 5-10, and the WAC turned down his appeal. Utah's wins before Dec. 22 were Utah State, Cal State Fullerton, UConn (Dec. 8), Nevada and Pacific; Sports-Reference's own forfeit table lists Utah 4L by forfeit and 'Connecticut 1979-80 20-9 -> 21-8, 1W by forfeit'. So the record book is right: officially a UConn forfeit win, and the 66-73 on-court score is also correct. Caveat: Utah's own 2006-07 media guide ignores the forfeits and still lists W 73-66 with an 18-10 record.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://www.newspapers.com/newspage/469138629/",
+     "quote": "Vranes was declared ineligible Dec. 22 because of the university's decision not to accept credit from a course"
+    },
+    {
+     "url": "https://www.newspapers.com/newspage/469138629/",
+     "quote": "the university's basketball record for the season will switch from 10-5 to 5-10"
+    },
+    {
+     "url": "https://www.sports-reference.com/cbb/friv/forfeits.cgi",
+     "quote": "1979-80 Utah WAC F 18-10 14-14 4L by forfeit (non-conf.)"
+    }
+   ]
+  },
+  {
+   "season": 1980,
+   "date": "1979-12-28",
+   "opp": "Ohio",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "New Haven Coliseum"
+   },
+   "why": "UConn's record book designation: H (CMC-NHC) [Conn. Mutual Classic, New Haven Coliseum, New Haven, CT]",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1980,
+   "date": "1979-12-30",
+   "opp": "Pittsburgh",
+   "field": "date",
+   "set": {
+    "date": "1979-12-29"
+   },
+   "why": "Pitt's own media guide lists its Classic games as 12/28 (vs. Cal State Fullerton) and 12/29 (at Connecticut, 77-72), and Street & Smith's 1979-80 preseason listing gives the tournament dates as Dec. 28-29. UConn beat Ohio U. on 12/28, so the final was the next night, 12/29. Record book date is right; app's 12/30 is a day late.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://archive.org/details/pitt-basketball-2025-26-media-guide-2025-10-29-c (Pitt 2025-26 media guide, holiday tournaments + 1979-80 results)",
+     "quote": "Connecticut Mutual Classic (1) 1979 (New Haven, Conn.) 12/28 vs. CSU-Fullerton W, 80-69 | 12/29 at Connecticut W, 77-72"
+    },
+    {
+     "url": "https://archive.org/details/street-smiths-basketball-yearbook-1979-80-kansas-c",
+     "quote": "CONNECTICUT MUTUAL CLASSIC (New Haven, Conn.): Fullerton (Calif.) St., Pitt, Connecticut*, Ohio U. Dec. 28-29"
+    }
+   ]
+  },
+  {
+   "season": 1980,
+   "date": "1979-12-30",
+   "opp": "Pittsburgh",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "New Haven Coliseum"
+   },
+   "why": "UConn was the host: Street & Smith's marks Connecticut with the host asterisk (used for every host in its holiday-tournament list), and Pitt's media guide records the final as 'at Connecticut' rather than 'vs.' The game was in New Haven, not Storrs or Hartford, so 'neutral' is defensible by venue, but by host status the record book's H matches the opponent's own designation.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://archive.org/details/pitt-basketball-2025-26-media-guide-2025-10-29-c (Pitt 2025-26 media guide, 1979-80 results)",
+     "quote": "12/29 at Connecticut % 77 72 W ... % Connecticut Mutual Classic (New Haven, Conn.)"
+    },
+    {
+     "url": "https://archive.org/details/street-smiths-basketball-yearbook-1979-80-kansas-c",
+     "quote": "Fullerton (Calif.) St., Pitt, Connecticut*, Ohio U. Dec. 28-29"
+    }
+   ]
+  },
+  {
+   "season": 1981,
+   "date": "1980-12-09",
+   "opp": "Fairfield",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "Hartford Civic Center"
+   },
+   "why": "UConn's record book designation: H (HCC)",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1981,
+   "date": "1980-12-29",
+   "opp": "Army",
+   "field": "score",
+   "set": {
+    "res": "W",
+    "pts": 81,
+    "opp_pts": 60
+   },
+   "why": "Army's own 2025-26 media guide (All-Time Results, 1980-81, coach Pete Gaudet) lists the CMC game as a 60-81 loss, followed by the 54-61 consolation loss to Saint Louis. So the record book's 81-60 is right and the app's 81-80 is a typo in SR.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://goarmywestpoint.com/documents/download/2025/11/5/Army_Men_s_Basketball_2025-26_Media_Guide.pdf",
+     "quote": "1980-81 (7-19) ... at Connecticut+ L 60 81 ... St. Louis+ L 54 61"
+    },
+    {
+     "url": "https://goarmywestpoint.com/documents/download/2025/11/5/Army_Men_s_Basketball_2025-26_Media_Guide.pdf",
+     "quote": "+Connecticut Mutual Classic"
+    }
+   ]
+  },
+  {
+   "season": 1981,
+   "date": "1980-12-29",
+   "opp": "Army",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "Hartford Civic Center"
+   },
+   "why": "Army's results list this game as 'at Connecticut' with the + footnote for the Connecticut Mutual Classic, so the opponent itself treats it as a UConn home game. The record book places it at the Hartford Civic Center (CMC-HCC), and HCC was UConn's designated home floor. The record book's H is right and the app's N is wrong.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://goarmywestpoint.com/documents/download/2025/11/5/Army_Men_s_Basketball_2025-26_Media_Guide.pdf",
+     "quote": "at Connecticut+ L 60 81"
+    }
+   ]
+  },
+  {
+   "season": 1981,
+   "date": "1981-01-24",
+   "opp": "Georgetown",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "Georgetown archive marks OT (its date for this game, Jan 28, conflicts with Jan 24 in UConn and SR records; Georgetown archive dates for 1980s UConn games are unreliable). App lacks the OT flag.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://guhoyas.com/sports/mens-basketball/schedule/1980-81",
+     "quote": "at Connecticut Storrs, Conn. L, 73-75 OT"
+    }
+   ]
+  },
+  {
+   "season": 1982,
+   "date": "1981-11-28",
+   "opp": "Maine",
+   "field": "site",
+   "set": {
+    "site": "away"
+   },
+   "why": "UConn's record book designation: A",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1982,
+   "date": "1981-12-08",
+   "opp": "Fairfield",
+   "field": "site",
+   "set": {
+    "site": "away",
+    "arena": "New Haven Coliseum"
+   },
+   "why": "UConn's record book designation: A [New Haven Coliseum, New Haven, CT]",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1982,
+   "date": "1981-12-12",
+   "opp": "TCU",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "UConn's record book lists overtime; our older sources don't record OT",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1982,
+   "date": "1981-12-29",
+   "opp": "St. Bonaventure",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "Hartford Civic Center"
+   },
+   "why": "UConn's record book designation: H (CMC-HCC) [Connecticut Mutual Classic, Hartford CC, Hartford, CT]",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1982,
+   "date": "1982-01-13",
+   "opp": "Boston College",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "UConn's record book lists overtime; our older sources don't record OT",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1982,
+   "date": "1982-02-01",
+   "opp": "Providence",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "Providence guide marks the game OT; record book season page, series history and overtime list agree. App lacks the OT flag.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://friars.com/documents/download/2023/11/9/Color_2023_ThruYears_.pdf",
+     "quote": "2-1 45 CONNECTICUT (OT) 47 - 7484"
+    }
+   ]
+  },
+  {
+   "season": 1982,
+   "date": "1982-02-10",
+   "opp": "St. John's",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "App lacks the OT flag.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://redstormsports.com/sports/mens-basketball/schedule/1981-82",
+     "quote": "at Connecticut Hartford, Conn. (Hartford Civic Center) W, 93-82 (OT) Feb 10 (Wed)"
+    }
+   ]
+  },
+  {
+   "season": 1982,
+   "date": "1982-02-20",
+   "opp": "Providence",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "New Haven Coliseum"
+   },
+   "why": "Providence lists it as a road game at Connecticut (att. 8,119); UConn record book: home game at New Haven Coliseum (series code NHC). App shows N.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://friars.com/documents/download/2023/11/9/Color_2023_ThruYears_.pdf",
+     "quote": "2-20 61 at Connecticut 90 - 8119"
+    }
+   ]
+  },
+  {
+   "season": 1982,
+   "date": "1982-02-24",
+   "opp": "Villanova",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "UConn's record book lists overtime; our older sources don't record OT",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1982,
+   "date": "1982-03-05",
+   "opp": "St. John's",
+   "field": "date",
+   "set": {
+    "date": "1982-03-04"
+   },
+   "why": "Big East tournament (Hartford Civic Center) quarterfinal on Thursday March 4, 1982. App has March 5.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://redstormsports.com/sports/mens-basketball/schedule/1981-82",
+     "quote": "vs Connecticut Hartford, Conn. (Hartford Civic Center) W, 54-52 Mar 4 (Thu)"
+    }
+   ]
+  },
+  {
+   "season": 1983,
+   "date": "1982-12-07",
+   "opp": "Fairfield",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "New Haven Coliseum"
+   },
+   "why": "UConn's record book designation: H [New Haven Coliseum, New Haven, CT]",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1983,
+   "date": "1982-12-28",
+   "opp": "Air Force",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "Hartford Civic Center"
+   },
+   "why": "UConn's record book designation: H (CMC-HCC) [Connecticut Mutual Classic, Hartford CC, Hartford, CT]",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1983,
+   "date": "1982-12-29",
+   "opp": "Texas A&M",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "Hartford Civic Center"
+   },
+   "why": "UConn's record book designation: H (CMC-HCC) [Connecticut Mutual Classic, Hartford CC, Hartford, CT]",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1983,
+   "date": "1983-01-11",
+   "opp": "St. John's",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "Hartford Civic Center"
+   },
+   "why": "Big East game hosted by UConn at the Hartford Civic Center. App shows N.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://redstormsports.com/sports/mens-basketball/schedule/1982-83",
+     "quote": "at Connecticut Hartford, Conn. (Hartford Civic Center) W, 85-73 Jan 11 (Tue)"
+    }
+   ]
+  },
+  {
+   "season": 1983,
+   "date": "1983-01-22",
+   "opp": "Boston College",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "New Haven Coliseum"
+   },
+   "why": "UConn's record book designation: H [New Haven Coliseum, New Haven, CT]",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1983,
+   "date": "1983-01-26",
+   "opp": "Providence",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "Hartford Civic Center"
+   },
+   "why": "Providence: road game at Connecticut, att. 10,048 (Hartford Civic Center per UConn record book). App shows N.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://friars.com/documents/download/2023/11/9/Color_2023_ThruYears_.pdf",
+     "quote": "1-26 65 at Connecticut 62 10048"
+    }
+   ]
+  },
+  {
+   "season": 1983,
+   "date": "1983-02-05",
+   "opp": "Pittsburgh",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "Pitt's own media guide (year-by-year results) lists the 2/5/1983 game at Connecticut as an OT win, 72-71, and the UConn student paper's previews/recaps a year later describe Clyde Vaughan's winner in last season's overtime game. Record book (OT) is right; app is missing the OT. Side note: the Daily Campus places this game at the UConn Field House in Storrs, not the Hartford Civic Center.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://archive.org/details/pitt-basketball-2025-26-media-guide-2025-10-29-c (Pitt 2025-26 media guide, all-time results, 1982-83)",
+     "quote": "2/5 at*Connecticut (OT) 72 71 W"
+    },
+    {
+     "url": "https://archive.org/details/ct_daily_campus_1984-02-07",
+     "quote": "Vaughan, who scored the winning basket against UConn to win an overtime game last season"
+    },
+    {
+     "url": "https://archive.org/details/ct_daily_campus_1984-02-06",
+     "quote": "Vaughan scored a basket with 14 seconds remaining last season to defeat the Huskies in the Field House, 72-71."
+    }
+   ]
+  },
+  {
+   "season": 1984,
+   "date": "1983-12-06",
+   "opp": "Fairfield",
+   "field": "site",
+   "set": {
+    "site": "away"
+   },
+   "why": "UConn's record book designation: A",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1984,
+   "date": "1983-12-15",
+   "opp": "Massachusetts",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "UConn's record book lists overtime; our older sources don't record OT",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1984,
+   "date": "1984-02-08",
+   "opp": "Pittsburgh",
+   "field": "date",
+   "set": {
+    "date": "1984-02-06"
+   },
+   "why": "Pitt's media guide lists the game on 2/6 (Monday); the Feb 6, 1984 Daily Campus previews it as 'tonight' (8 p.m., Field House) and the Tuesday Feb 7 issue recaps it as 'last night'. Record book date (2/6) is right; app's 2/8 is wrong. Venue per Daily Campus was the UConn Field House in Storrs (attendance 3,985), not the Hartford Civic Center. (The guide's OCR text reads '(0OT)' for '(OT)'.)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://archive.org/details/pitt-basketball-2025-26-media-guide-2025-10-29-c (Pitt 2025-26 media guide, all-time results, 1983-84)",
+     "quote": "2/6 at*Connecticut(0OT) 75 71 W"
+    },
+    {
+     "url": "https://archive.org/details/ct_daily_campus_1984-02-06",
+     "quote": "Connecticut Daily Campus, Monday, February 6, 1984 ... Tonight the Huskies face a squad"
+    },
+    {
+     "url": "https://archive.org/details/ct_daily_campus_1984-02-07",
+     "quote": "After losing its fourth straight Big East game to Pittsburgh last night"
+    }
+   ]
+  },
+  {
+   "season": 1984,
+   "date": "1984-02-08",
+   "opp": "Pittsburgh",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "Pitt's media guide marks the game OT, and the next-day Daily Campus recap and box (Pitt 37-25-13, UConn 35-27-9; 62-62 after regulation) confirm overtime. Record book (OT) is right; app is missing the OT. (The guide's OCR text reads '(0OT)' for '(OT)'.)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://archive.org/details/pitt-basketball-2025-26-media-guide-2025-10-29-c (Pitt 2025-26 media guide, all-time results, 1983-84)",
+     "quote": "2/6 at*Connecticut(0OT) 75 71 W"
+    },
+    {
+     "url": "https://archive.org/details/ct_daily_campus_1984-02-07",
+     "quote": "Vaughn scores 29; Huskies fall in OT ... the Huskies took the game into overtime before losing, 75-71"
+    }
+   ]
+  },
+  {
+   "season": 1984,
+   "date": "1984-02-18",
+   "opp": "Syracuse",
+   "field": "ot",
+   "set": {
+    "ot": "3OT"
+   },
+   "why": "Famous triple-overtime game at the Carrier Dome. App shows no overtime.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://cuse.com/sports/mens-basketball/schedule/1983-84",
+     "quote": "vs Connecticut JMA Wireless Dome Syracuse, N.Y. W, 87-85 3OT Feb 18 (Sat)"
+    },
+    {
+     "url": "http://www.orangehoops.org/GameResults/G1983-1984.htm",
+     "quote": "2/18/1984 | H | Connecticut | W | 87-85 | ... 3OT"
+    }
+   ]
+  },
+  {
+   "season": 1984,
+   "date": "1984-03-09",
+   "opp": "Syracuse",
+   "field": "date",
+   "set": {
+    "date": "1984-03-08"
+   },
+   "why": "Big East tournament first round, Thursday March 8, 1984. App has March 9.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://cuse.com/sports/mens-basketball/schedule/1983-84",
+     "quote": "BIG EAST Tournament vs Connecticut Madison Square Garden ... W, 73-58 Mar 8 (Thu)"
+    },
+    {
+     "url": "http://www.orangehoops.org/GameResults/G1983-1984.htm",
+     "quote": "3/8/1984 | BET | Connecticut | W | 73-58"
+    }
+   ]
+  },
+  {
+   "season": 1985,
+   "date": "1984-12-08",
+   "opp": "Ohio State",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "Hartford Civic Center"
+   },
+   "why": "UConn's record book designation: H (HCC)",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1985,
+   "date": "1984-12-11",
+   "opp": "Fairfield",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "New Haven Coliseum"
+   },
+   "why": "UConn's record book designation: H [New Haven Coliseum, New Haven, CT]",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1985,
+   "date": "1984-12-28",
+   "opp": "Iona",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "Hartford Civic Center"
+   },
+   "why": "UConn's record book designation: H (CMC-HCC) [Connecticut Mutual Classic, Hartford CC, Hart- ford, CT]",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1985,
+   "date": "1984-12-29",
+   "opp": "New Hampshire",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "Hartford Civic Center"
+   },
+   "why": "UConn's record book designation: H (CMC-HCC) [Connecticut Mutual Classic, Hartford CC, Hart- ford, CT]",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1985,
+   "date": "1985-01-05",
+   "opp": "Villanova",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "UConn's record book lists overtime; our older sources don't record OT",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1985,
+   "date": "1985-01-26",
+   "opp": "Boston College",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "UConn's record book lists overtime; our older sources don't record OT",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1985,
+   "date": "1985-02-09",
+   "opp": "Providence",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "Hartford Civic Center"
+   },
+   "why": "Providence: road game at Connecticut, att. 10,136; UConn record book (HCC). App shows N.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://friars.com/documents/download/2023/11/9/Color_2023_ThruYears_.pdf",
+     "quote": "2-9 70 at Connecticut 84 - 10136"
+    }
+   ]
+  },
+  {
+   "season": 1986,
+   "date": "1985-12-10",
+   "opp": "Fairfield",
+   "field": "site",
+   "set": {
+    "site": "away"
+   },
+   "why": "UConn's record book designation: A",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1987,
+   "date": "1986-12-02",
+   "opp": "Yale",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "UConn's record book lists overtime; our older sources don't record OT",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1987,
+   "date": "1986-12-11",
+   "opp": "Rhode Island",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "UConn's record book lists overtime; our older sources don't record OT",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1988,
+   "date": "1987-12-29",
+   "opp": "Princeton",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "Hartford Civic Center"
+   },
+   "why": "UConn's record book designation: H (HCC) [Connecticut Mutual Classic, Hartford CC, Hartford CT]",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1988,
+   "date": "1988-01-23",
+   "opp": "St. John's",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "UConn's record book lists overtime; our older sources don't record OT",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1988,
+   "date": "1988-02-18",
+   "opp": "Fairfield",
+   "field": "site",
+   "set": {
+    "site": "neutral"
+   },
+   "why": "Settled earlier in adjudication.json (winner: sr). Fairfield's archive marks home games 'vs' (even its relocated White Plains home game) and neutral games bare; this one is bare and in New Haven (presumably New Haven Coliseum). UConn's record book/media guides call it a road game ('at Fairfield', A) with 3,245 attendance - conflict unresolved by a game story, hence medium.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://fairfieldstags.com/sports/mens-basketball/schedule/1987-88",
+     "quote": "Feb 18 (Thu) Connecticut New Haven, Conn. L, 48-74"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "2/18 at Fairfield - - 3,245 - W, 74-48"
+    }
+   ]
+  },
+  {
+   "season": 1989,
+   "date": "1989-02-18",
+   "opp": "Villanova",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "UConn's record book lists overtime; our older sources don't record OT",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1990,
+   "date": "1990-02-19",
+   "opp": "Providence",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "Providence guide and all three record-book listings show OT. App lacks the OT flag.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://friars.com/documents/download/2023/11/9/Color_2023_ThruYears_.pdf",
+     "quote": "2-19 72 at Connecticut (OT) (10/13) 75 - 8302"
+    }
+   ]
+  },
+  {
+   "season": 1990,
+   "date": "1990-03-24",
+   "opp": "Duke",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "Duke's official 1989-90 schedule archive marks the regional final W 79-78 (OT), and the Washington Post Service report in the IHT (Mar 26 1990) describes Laettner's buzzer-beater in the final seconds of overtime. App (OT) is right; the record book season page dropped the OT mark (its own OT list and Duke series history agree it was OT).",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://goduke.com/sports/mens-basketball/schedule/1989-90",
+     "quote": "vs Connecticut East Rutherford, N.J. NCAA Tournament W, 79-78 (OT) Mar 24 (Sat)"
+    },
+    {
+     "url": "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish (Mar 26 1990 issue #33305, OCR text)",
+     "quote": "Blue Devils Win at the Buzzer in OT, 79-78"
+    }
+   ]
+  },
+  {
+   "season": 1991,
+   "date": "1991-01-16",
+   "opp": "Syracuse",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "App lacks the OT flag.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://cuse.com/sports/mens-basketball/schedule/1990-91",
+     "quote": "vs Connecticut JMA Wireless Dome Syracuse, N.Y. W, 81-79 OT Jan 16 (Wed)"
+    }
+   ]
+  },
+  {
+   "season": 1991,
+   "date": "1991-02-19",
+   "opp": "Providence",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "App lacks the OT flag.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://friars.com/documents/download/2023/11/9/Color_2023_ThruYears_.pdf",
+     "quote": "2-19 66 CONNECTICUT (OT) 70 - 13106"
+    }
+   ]
+  },
+  {
+   "season": 1991,
+   "date": "1991-02-27",
+   "opp": "Seton Hall",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "UConn's record book lists overtime; our older sources don't record OT",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1992,
+   "date": "1992-01-22",
+   "opp": "Providence",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "App lacks the OT flag.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://friars.com/documents/download/2023/11/9/Color_2023_ThruYears_.pdf",
+     "quote": "1-22 86 CONNECTICUT (OT) (7/5) 97 - 13106"
+    }
+   ]
+  },
+  {
+   "season": 1992,
+   "date": "1992-01-25",
+   "opp": "Boston College",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "BC's record book marks it LOT (overtime loss) at HCC, and the AP roundup in the International Herald Tribune (OCR text, typos are the scan's) says Chris Smith scored six of his 23 points in overtime, in Hartford. Record book (OT) is right; app is missing the OT. Both sources also put the game in Hartford (Civic Center), not Gampel as SR has it.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://bceagles.com/documents/download/2025/9/22/2025-26_Record_Book.pdf",
+     "quote": "J 25 HCC Connecticut* LOT 77-83"
+    },
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1992FranceEnglish/Jan%2027%201992%2C%20International%20Herald%20Tribune%2C%20%2333875%2C%20France%20%28en%29_djvu.txt",
+     "quote": "No. 7 Connecticut 83, Boston Cofl. 77: In Hanford Connecticut, Chris Smith had six of his 23 prints in overtime"
+    },
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1992FranceEnglish/Jan%2027%201992%2C%20International%20Herald%20Tribune%2C%20%2333875%2C%20France%20%28en%29_djvu.txt",
+     "quote": "SATURDAYS RESULTS EAST ... Ccanectlcul 81 Boston College 77. OT"
+    }
+   ]
+  },
+  {
+   "season": 1993,
+   "date": "1992-12-08",
+   "opp": "St. John's",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "App lacks the OT flag.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://redstormsports.com/sports/mens-basketball/schedule/1992-93",
+     "quote": "at Connecticut STORRS, CONN. (GAMPEL PAVILION) L, 72-74 (OT) Dec 8 (Tue)"
+    }
+   ]
+  },
+  {
+   "season": 1994,
+   "date": "1994-02-09",
+   "opp": "Boston College",
+   "field": "ot",
+   "set": {
+    "ot": "2OT"
+   },
+   "why": "BC's record book marks the game LO2 (double-overtime loss), and the AP roundup in the International Herald Tribune (OCR text) describes Donyell Marshall's go-ahead basket in the second overtime after BC missed two chances at the end of the first. Record book (2OT) is right; app's single OT is wrong.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://bceagles.com/documents/download/2025/9/22/2025-26_Record_Book.pdf",
+     "quote": "F 9 H Connecticut* LO2 91-94"
+    },
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1994FranceEnglish/Feb%2011%201994%2C%20International%20Herald%20Tribune%2C%20%2334509%2C%20France%20%28en%29_djvu.txt",
+     "quote": "Marshall had 33 points and his basket with 2^28 kft in the second overtime gave the visiting Hates (20-2"
+    },
+    {
+     "url": "https://archive.org/download/InternationalHeraldTribune1994FranceEnglish/Feb%2011%201994%2C%20International%20Herald%20Tribune%2C%20%2334509%2C%20France%20%28en%29_djvu.txt",
+     "quote": "the Eagles (16-7, 7-5) had two shots to win at die end of the first overtime."
+    }
+   ]
+  },
+  {
+   "season": 1997,
+   "date": "1996-12-27",
+   "opp": "Massachusetts",
+   "field": "site",
+   "set": {
+    "site": "neutral",
+    "arena": "Hartford Civic Center"
+   },
+   "why": "UConn's record book designation: N [MassMutual \"UGame\", Hartford Civic Center, Hartford, CT]",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1998,
+   "date": "1997-12-23",
+   "opp": "Massachusetts",
+   "field": "site",
+   "set": {
+    "site": "neutral",
+    "arena": "Hartford Civic Center"
+   },
+   "why": "UConn's record book designation: N [MassMutual \"UGame\", Hartford Civic Center, Hartford, CT]",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 1999,
+   "date": "1999-01-20",
+   "opp": "Miami",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "Miami's official athletics site (schedule event 12979, 1999-01-20 at Miami, Fla.) stores the result as a loss with result text '(OT)', 70-68. App (OT) is right; the record book season page omits the OT mark that its own OT list and Miami series history carry. Second independent source still being sought.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://miamihurricanes.com/boxscore/12979",
+     "quote": "Miami 68-70 vs. Connecticut ... Wed, Jan. 20 (1999) ... result: loss, text: (OT)"
+    }
+   ]
+  },
+  {
+   "season": 2001,
+   "date": "2000-12-12",
+   "opp": "Massachusetts",
+   "field": "site",
+   "set": {
+    "site": "neutral"
+   },
+   "why": "UConn's record book designation: N [MassMutual \"UGame\", Hartford Civic Ctr., Hartford, CT]",
+   "confidence": "record book",
+   "sources": []
+  },
+  {
+   "season": 2001,
+   "date": "2001-01-06",
+   "opp": "St. John's",
+   "field": "ot",
+   "set": {
+    "ot": "OT"
+   },
+   "why": "St. John's official 2000-01 schedule archive marks the game L 80-82 (OT), and the AP recap on ESPN (STORRS dateline) says Caron Butler's buzzer 3 forced overtime, which UConn won 7-5. App (OT) is right; the record book season page omits the OT mark that its own OT list and series history carry.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://redstormsports.com/sports/mens-basketball/schedule/2000-01",
+     "quote": "at No. 10 Connecticut Storrs, Conn. (Gampel Pavilion) L, 80-82 (OT) Jan 6 (Sat)"
+    },
+    {
+     "url": "https://www.espn.com/ncb/2001/20010106/recap/sbpcbp.html",
+     "quote": "Huskies outscored St. John's 7-5 in the extra period en route to an 82-80 victory Saturday."
+    }
+   ]
+  },
+  {
+   "season": 2002,
+   "date": "2001-12-28",
+   "opp": "St. Bonaventure",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "Hartford Civic Center"
+   },
+   "why": "Ordinary UConn home game at its regular second home arena (no neutral event); Sports-Reference lists it neutral, which the app copied. The record book's attendance 6,294 is a typo for 16,294.",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://uconnhuskies.com/news/2001/12/28/Huskies_Suffer_88_70_Loss_to_St_Bonaventure",
+     "quote": "St. Bonaventure defeated Connecticut 88-70 before a sellout crowd of 16,294"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "St. Bonaventure series: 12/28/01 L 70-88 HCC"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "date": "2013-12-28",
+   "opp": "Eastern Washington",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "Webster Bank Arena"
+   },
+   "why": "UConn designated it a home game (counted in its 15-3 home record); Eastern Washington and ESPN treat UConn as host. The venue was off campus, so N is defensible physically, but H matches UConn's official home/away splits.",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://goeags.com/sports/mens-basketball/schedule/2013-14",
+     "quote": "at Connecticut ... L, 65-82 ... December 28, 2013"
+    },
+    {
+     "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=400496938",
+     "quote": "ESPN: UConn home, Eastern Washington away, neutral false"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "date": "2014-12-22",
+   "opp": "Columbia",
+   "field": "site",
+   "set": {
+    "site": "home",
+    "arena": "Webster Bank Arena"
+   },
+   "why": "UConn-hosted designated home game in Bridgeport, counted in UConn's official 11-5 home record; Columbia lists it as a road game. Convention call (off-campus venue).",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://gocolumbialions.com/sports/mens-basketball/schedule/2014-15",
+     "quote": "Connecticut Bridgeport, Conn. L, 65-80 Dec 22 (Mon)"
+    },
+    {
+     "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=400586746",
+     "quote": "ESPN: Columbia away, UConn home (Bridgeport arena)"
+    }
+   ]
+  }
+ ],
+ "open": [
+  {
+   "season": 1979,
+   "date": "1979-03-02",
+   "opp": "Rhode Island",
+   "field": "date",
+   "app": "1979-03-02",
+   "recordbook": "1979-03-03"
+  },
+  {
+   "season": 1980,
+   "date": "1980-01-09",
+   "opp": "Boston College",
+   "field": "date",
+   "app": "1980-01-09",
+   "recordbook": "1980-01-10"
+  },
+  {
+   "season": 1983,
+   "date": "1983-02-14",
+   "opp": "Georgetown",
+   "field": "date",
+   "app": "1983-02-14",
+   "recordbook": "1983-02-12"
+  },
+  {
+   "season": 1984,
+   "date": "1983-12-12",
+   "opp": "Yale",
+   "field": "date",
+   "app": "1983-12-12",
+   "recordbook": "1983-12-01"
+  },
+  {
+   "season": 1985,
+   "date": "1984-12-28",
+   "opp": "Iona",
+   "field": "date",
+   "app": "1984-12-28",
+   "recordbook": "1984-12-29"
+  },
+  {
+   "season": 1985,
+   "date": "1984-12-29",
+   "opp": "New Hampshire",
+   "field": "date",
+   "app": "1984-12-29",
+   "recordbook": "1984-12-28"
+  },
+  {
+   "season": 1985,
+   "date": "1985-03-07",
+   "opp": "Georgetown",
+   "field": "date",
+   "app": "1985-03-07",
+   "recordbook": "1985-03-06"
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
-  "_note": "Games Sports-Reference counts in a season record but leaves off its schedule (usually non-Division I opponents). Merged into the SR schedule by build.py.",
+  "_note": "Games Sports-Reference counts in a season record but leaves off its schedule (usually non-Division I opponents, or Central Connecticut before it joined D-I). Merged into the SR schedule by build.py.",
   "1990": [
     {
       "date": "1989-12-23",
@@ -32,5 +32,32 @@
         "source": "https://uconnhuskies.com/sports/mens-basketball/schedule/2024-25 (Maui Invitational, Lahaina: Wed Nov 27, 7 p.m. HST)"
       }
     ]
-  }
+  },
+  "1980": [
+    {
+      "date": "1980-02-16",
+      "opp_name": "Central Connecticut",
+      "opp_slug": "central-connecticut-state",
+      "game_type": "REG",
+      "site": "home",
+      "game_result": "W",
+      "pts": 66,
+      "opp_pts": 58,
+      "arena": "Hugh S. Greer Field House",
+      "source": "UConn 2026-27 Record Book (2/16 Central Connecticut W, 66-58) and CCSU 2025-26 Record Book (1979-80: F16 at Connecticut L 58-66)"
+    }
+  ],
+  "1986": [
+    {
+      "date": "1986-01-29",
+      "opp_name": "Central Connecticut",
+      "opp_slug": "central-connecticut-state",
+      "game_type": "REG",
+      "site": "home",
+      "game_result": "W",
+      "pts": 86,
+      "opp_pts": 69,
+      "source": "UConn 2026-27 Record Book (1/29 Central Connecticut W, 86-69) and CCSU 2025-26 Record Book (1985-86: J29 at UConn L 69-86)"
+    }
+  ]
 }

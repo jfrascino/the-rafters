@@ -1,0 +1,7 @@
+{
+  "_note": "Hand rulings where the automatic rule in official_stats.py would pick a number the evidence says is wrong. 'value' omitted = keep Sports-Reference's number.",
+  "rulings": [
+    {"pid": "gilad-katz-1", "y": 1992, "field": "stl",
+     "why": "The record book's overall line says 0 steals but its own Big East-only line for the same season says 1; overall can't be lower than conference play."}
+  ]
+}

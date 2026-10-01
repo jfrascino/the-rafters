@@ -22,5 +22,57 @@
       }
     ],
     "note": "Provo Daily Herald, Jan. 10, 1980, p. 6 (quoted from a search snippet; the page itself is behind a bot check): Utah declared Danny Vranes ineligible Dec. 22, 1979 over a summer course (an Ottawa University correspondence course; SI's Mar. 2, 1981 Utah story ties it to the FBI's Ottawa credits probe). Utah had to forfeit the games he played while ineligible, which dropped it from 10-5 to 5-10, and the WAC turned down his appeal. Utah's wins before Dec. 22 were Utah State, Cal State Fullerton, UConn (Dec. 8), Nevada and Pacific; Sports-Reference's own forfeit table lists Utah 4L by forfeit and 'Connecticut 1979-80 20-9 -> 21-8, 1W by forfeit'. So the record book is right: officially a UConn forfeit win, and the 66-73 on-court score is also correct. Caveat: Utah's own 2006-07 media guide ignores the forfeits and still lists W 73-66 with an 18-10 record."
+  },
+  {
+    "key": "missing CCSU 1980",
+    "truth": "played: W 66-58 (home, Storrs), 1980-02-16",
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://d2o2figo6ddd0g.cloudfront.net/d/a/d9e6kmreku821q/2025-26_CCSU_MBB_Record_Book.pdf",
+        "quote": "1979-80 (14-13) ... F16 at Connecticut .........................L 58-66"
+      }
+    ],
+    "note": "CCSU's own 2025-26 men's basketball record book (linked from ccsubluedevils.com's MBB Media Center) lists in its year-by-year results for 1979-80 (14-13, Division II era): 'F16 at Connecticut L 58-66'. That matches the record book's 2/16/1980 home win, 66-58, exactly (date, site and score). The app is missing a game that was really played, probably because Sports-Reference leaves out games against non-D-I opponents."
+  },
+  {
+    "key": "missing CCSU 1986",
+    "truth": "played: W 86-69 (home), 1986-01-29",
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://d2o2figo6ddd0g.cloudfront.net/d/a/d9e6kmreku821q/2025-26_CCSU_MBB_Record_Book.pdf",
+        "quote": "1985-86 (15-13) ... J29 at UConn ...............................L 69-86"
+      }
+    ],
+    "note": "CCSU's official record book lists in its 1985-86 results (15-13): 'J29 at UConn L 69-86'. That matches the UConn record book's 1/29/1986 home win, 86-69, on date, site and score. The record book is right and the app is missing a real game; CCSU was not yet counted as Division I in SR's data for that season."
+  },
+  {
+    "key": "1981-5|score",
+    "truth": "W 81-60",
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://goarmywestpoint.com/documents/download/2025/11/5/Army_Men_s_Basketball_2025-26_Media_Guide.pdf",
+        "quote": "1980-81 (7-19) ... at Connecticut+ L 60 81 ... St. Louis+ L 54 61"
+      },
+      {
+        "url": "https://goarmywestpoint.com/documents/download/2025/11/5/Army_Men_s_Basketball_2025-26_Media_Guide.pdf",
+        "quote": "+Connecticut Mutual Classic"
+      }
+    ],
+    "note": "Army's own 2025-26 media guide (All-Time Results, 1980-81, coach Pete Gaudet) lists the CMC game as a 60-81 loss, followed by the 54-61 consolation loss to Saint Louis. So the record book's 81-60 is right and the app's 81-80 is a typo in SR."
+  },
+  {
+    "key": "1981-5|site",
+    "truth": "H (Hartford Civic Center; UConn-hosted Connecticut Mutual Classic)",
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://goarmywestpoint.com/documents/download/2025/11/5/Army_Men_s_Basketball_2025-26_Media_Guide.pdf",
+        "quote": "at Connecticut+ L 60 81"
+      }
+    ],
+    "note": "Army's results list this game as 'at Connecticut' with the + footnote for the Connecticut Mutual Classic, so the opponent itself treats it as a UConn home game. The record book places it at the Hartford Civic Center (CMC-HCC), and HCC was UConn's designated home floor. The record book's H is right and the app's N is wrong."
   }
 ]

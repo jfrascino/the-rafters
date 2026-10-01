@@ -1,22 +1,21 @@
 {
  "counts": {
   "G.games": 826,
-  "B.boxes": 795,
-  "B.lines": 15697,
+  "B.boxes": 796,
+  "B.lines": 15696,
   "X.games": 739,
   "X.lines": 7410,
   "S.seasons": 272,
-  "P.lines": 11511,
-  "R.seasons": 41,
+  "P.lines": 11519,
+  "R.seasons": 50,
   "T.titles": 6,
-  "O.teams": 196
+  "O.teams": 205
  },
  "summary": {
-  "G": 5,
-  "B": 1,
+  "G": 6,
   "X": 2,
-  "S": 7,
-  "O": 2
+  "S": 5,
+  "O": 5
  },
  "issues": {
   "G": [
@@ -39,6 +38,12 @@
     "problem": "site SR=home ESPN=neutral"
    },
    {
+    "game": "2015-9",
+    "date": "2014-12-22",
+    "opp": "Columbia",
+    "problem": "site SR=home ESPN=neutral"
+   },
+   {
     "game": "2018-5",
     "date": "2017-11-25",
     "opp": "Michigan State",
@@ -49,13 +54,6 @@
     "date": "2024-11-28",
     "opp": "Dayton",
     "problem": "ESPN dates it 2024-11-27"
-   }
-  ],
-  "B": [
-   {
-    "game": "2010-11",
-    "team": "Iona",
-    "problem": "players sum to 148, final 74"
    }
   ],
   "X": [
@@ -75,14 +73,6 @@
   ],
   "S": [
    {
-    "player": "Kentan Facey",
-    "season": 2014,
-    "sr_g": 24,
-    "box_g": 23,
-    "sr_pts≈": 34,
-    "box_pts": 34
-   },
-   {
     "player": "Donnell Beverly",
     "season": 2008,
     "sr_g": 18,
@@ -91,20 +81,12 @@
     "box_pts": 14
    },
    {
-    "player": "Enosch Wolf",
-    "season": 2011,
-    "sr_g": 6,
-    "box_g": 7,
-    "sr_pts≈": 7,
-    "box_pts": 7
-   },
-   {
-    "player": "Jonathan Mandeldove",
-    "season": 2008,
-    "sr_g": 21,
-    "box_g": 22,
-    "sr_pts≈": 6,
-    "box_pts": 6
+    "player": "Pat Lenehan",
+    "season": 2013,
+    "sr_g": 1,
+    "box_g": 2,
+    "sr_pts≈": 0,
+    "box_pts": 0
    },
    {
     "player": "Jim Veronick",
@@ -133,7 +115,19 @@
   ],
   "O": [
    {
+    "opp": "St. Francis Brooklyn",
+    "problem": "no logo"
+   },
+   {
+    "opp": "U.S. International",
+    "problem": "no logo"
+   },
+   {
     "opp": "Brooklyn",
+    "problem": "no logo"
+   },
+   {
+    "opp": "Saint Francis",
     "problem": "no logo"
    },
    {

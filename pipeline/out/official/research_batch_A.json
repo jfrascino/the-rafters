@@ -74,5 +74,45 @@
    }
   ],
   "note": "Holy Cross's results list and its fact-book chronology both call the 109-102 game an overtime loss to UConn. Record book (OT) is right; app is missing the OT."
+ },
+ {
+  "key": "1992-16|ot",
+  "truth": "OT (W 83-77)",
+  "confidence": "high",
+  "sources": [
+   {
+    "url": "https://bceagles.com/documents/download/2025/9/22/2025-26_Record_Book.pdf",
+    "quote": "J 25 HCC Connecticut* LOT 77-83"
+   },
+   {
+    "url": "https://archive.org/download/InternationalHeraldTribune1992FranceEnglish/Jan%2027%201992%2C%20International%20Herald%20Tribune%2C%20%2333875%2C%20France%20%28en%29_djvu.txt",
+    "quote": "No. 7 Connecticut 83, Boston Cofl. 77: In Hanford Connecticut, Chris Smith had six of his 23 prints in overtime"
+   },
+   {
+    "url": "https://archive.org/download/InternationalHeraldTribune1992FranceEnglish/Jan%2027%201992%2C%20International%20Herald%20Tribune%2C%20%2333875%2C%20France%20%28en%29_djvu.txt",
+    "quote": "SATURDAYS RESULTS EAST ... Ccanectlcul 81 Boston College 77. OT"
+   }
+  ],
+  "note": "BC's record book marks it LOT (overtime loss) at HCC, and the AP roundup in the International Herald Tribune (OCR text, typos are the scan's) says Chris Smith scored six of his 23 points in overtime, in Hartford. Record book (OT) is right; app is missing the OT. Both sources also put the game in Hartford (Civic Center), not Gampel as SR has it."
+ },
+ {
+  "key": "1994-22|ot",
+  "truth": "2OT (W 94-91)",
+  "confidence": "high",
+  "sources": [
+   {
+    "url": "https://bceagles.com/documents/download/2025/9/22/2025-26_Record_Book.pdf",
+    "quote": "F 9 H Connecticut* LO2 91-94"
+   },
+   {
+    "url": "https://archive.org/download/InternationalHeraldTribune1994FranceEnglish/Feb%2011%201994%2C%20International%20Herald%20Tribune%2C%20%2334509%2C%20France%20%28en%29_djvu.txt",
+    "quote": "Marshall had 33 points and his basket with 2^28 kft in the second overtime gave the visiting Hates (20-2"
+   },
+   {
+    "url": "https://archive.org/download/InternationalHeraldTribune1994FranceEnglish/Feb%2011%201994%2C%20International%20Herald%20Tribune%2C%20%2334509%2C%20France%20%28en%29_djvu.txt",
+    "quote": "the Eagles (16-7, 7-5) had two shots to win at die end of the first overtime."
+   }
+  ],
+  "note": "BC's record book marks the game LO2 (double-overtime loss), and the AP roundup in the International Herald Tribune (OCR text) describes Donyell Marshall's go-ahead basket in the second overtime after BC missed two chances at the end of the first. Record book (2OT) is right; app's single OT is wrong."
  }
 ]

@@ -185,7 +185,15 @@ export function statTable(cols, rows, opts = {}) {
       return any;
     });
   }
-  const note = hidden.length ? `<p class="note stat-note">Not in the official records${opts.era ? ` for ${esc(opts.era)}` : ''}: ${hidden.map(esc).join(', ')}.${opts.why ? ' ' + esc(opts.why) : ''}</p>` : '';
+  // columns nobody kept that season, told apart from the 3-point columns that couldn't exist before the line (1986-87)
+  const no3 = opts.y && opts.y < 1987, is3 = (t) => /3-point/i.test(t || '');
+  const notKept = hidden.filter((t) => !(no3 && is3(t)));
+  const noteParts = [
+    notKept.length ? `Not in the official records${opts.era ? ` for ${esc(opts.era)}` : ''}: ${notKept.map(esc).join(', ')}.` : '',
+    no3 && hidden.some(is3) ? 'No 3-point line until 1986–87.' : '',
+    opts.why ? esc(opts.why) : '',
+  ].filter(Boolean);
+  const note = noteParts.length ? `<p class="note stat-note">${noteParts.join(' ')}</p>` : '';
   const html = `<div class="tbl-wrap"><table class="stats" id="${id}"><thead><tr>${cols.map((c, i) => `<th data-i="${i}" class="${c.l ? 'l' : ''}${opts.sort === c.k ? ' sorted' : ''}" ${c.title ? `title="${esc(c.title)}"` : ''}>${esc(c.label)}</th>`).join('')}</tr></thead>
     <tbody>${body(rows)}</tbody>${opts.total ? `<tfoot><tr class="tot">${cols.map((c) => cell(c, opts.total)).join('')}</tr></tfoot>` : ''}</table></div>${note}`;
   const bind = (root) => {

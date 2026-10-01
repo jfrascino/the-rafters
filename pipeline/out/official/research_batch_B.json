@@ -1,5 +1,93 @@
 [
   {
+    "key": "1980-9|date",
+    "truth": "1979-12-29",
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://archive.org/details/pitt-basketball-2025-26-media-guide-2025-10-29-c (Pitt 2025-26 media guide, holiday tournaments + 1979-80 results)",
+        "quote": "Connecticut Mutual Classic (1) 1979 (New Haven, Conn.) 12/28 vs. CSU-Fullerton W, 80-69 | 12/29 at Connecticut W, 77-72"
+      },
+      {
+        "url": "https://archive.org/details/street-smiths-basketball-yearbook-1979-80-kansas-c",
+        "quote": "CONNECTICUT MUTUAL CLASSIC (New Haven, Conn.): Fullerton (Calif.) St., Pitt, Connecticut*, Ohio U. Dec. 28-29"
+      }
+    ],
+    "note": "Pitt's own media guide lists its Classic games as 12/28 (vs. Cal State Fullerton) and 12/29 (at Connecticut, 77-72), and Street & Smith's 1979-80 preseason listing gives the tournament dates as Dec. 28-29. UConn beat Ohio U. on 12/28, so the final was the next night, 12/29. Record book date is right; app's 12/30 is a day late."
+  },
+  {
+    "key": "1980-9|site",
+    "truth": "H (UConn-hosted Connecticut Mutual Classic, New Haven Coliseum)",
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://archive.org/details/pitt-basketball-2025-26-media-guide-2025-10-29-c (Pitt 2025-26 media guide, 1979-80 results)",
+        "quote": "12/29 at Connecticut % 77 72 W ... % Connecticut Mutual Classic (New Haven, Conn.)"
+      },
+      {
+        "url": "https://archive.org/details/street-smiths-basketball-yearbook-1979-80-kansas-c",
+        "quote": "Fullerton (Calif.) St., Pitt, Connecticut*, Ohio U. Dec. 28-29"
+      }
+    ],
+    "note": "UConn was the host: Street & Smith's marks Connecticut with the host asterisk (used for every host in its holiday-tournament list), and Pitt's media guide records the final as 'at Connecticut' rather than 'vs.' The game was in New Haven, not Storrs or Hartford, so 'neutral' is defensible by venue, but by host status the record book's H matches the opponent's own designation."
+  },
+  {
+    "key": "1983-19|ot",
+    "truth": "OT (L 71-72)",
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://archive.org/details/pitt-basketball-2025-26-media-guide-2025-10-29-c (Pitt 2025-26 media guide, all-time results, 1982-83)",
+        "quote": "2/5 at*Connecticut (OT) 72 71 W"
+      },
+      {
+        "url": "https://archive.org/details/ct_daily_campus_1984-02-07",
+        "quote": "Vaughan, who scored the winning basket against UConn to win an overtime game last season"
+      },
+      {
+        "url": "https://archive.org/details/ct_daily_campus_1984-02-06",
+        "quote": "Vaughan scored a basket with 14 seconds remaining last season to defeat the Huskies in the Field House, 72-71."
+      }
+    ],
+    "note": "Pitt's own media guide (year-by-year results) lists the 2/5/1983 game at Connecticut as an OT win, 72-71, and the UConn student paper's previews/recaps a year later describe Clyde Vaughan's winner in last season's overtime game. Record book (OT) is right; app is missing the OT. Side note: the Daily Campus places this game at the UConn Field House in Storrs, not the Hartford Civic Center."
+  },
+  {
+    "key": "1984-20|date",
+    "truth": "1984-02-06",
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://archive.org/details/pitt-basketball-2025-26-media-guide-2025-10-29-c (Pitt 2025-26 media guide, all-time results, 1983-84)",
+        "quote": "2/6 at*Connecticut(0OT) 75 71 W"
+      },
+      {
+        "url": "https://archive.org/details/ct_daily_campus_1984-02-06",
+        "quote": "Connecticut Daily Campus, Monday, February 6, 1984 ... Tonight the Huskies face a squad"
+      },
+      {
+        "url": "https://archive.org/details/ct_daily_campus_1984-02-07",
+        "quote": "After losing its fourth straight Big East game to Pittsburgh last night"
+      }
+    ],
+    "note": "Pitt's media guide lists the game on 2/6 (Monday); the Feb 6, 1984 Daily Campus previews it as 'tonight' (8 p.m., Field House) and the Tuesday Feb 7 issue recaps it as 'last night'. Record book date (2/6) is right; app's 2/8 is wrong. Venue per Daily Campus was the UConn Field House in Storrs (attendance 3,985), not the Hartford Civic Center. (The guide's OCR text reads '(0OT)' for '(OT)'.)"
+  },
+  {
+    "key": "1984-20|ot",
+    "truth": "OT (L 71-75)",
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://archive.org/details/pitt-basketball-2025-26-media-guide-2025-10-29-c (Pitt 2025-26 media guide, all-time results, 1983-84)",
+        "quote": "2/6 at*Connecticut(0OT) 75 71 W"
+      },
+      {
+        "url": "https://archive.org/details/ct_daily_campus_1984-02-07",
+        "quote": "Vaughn scores 29; Huskies fall in OT ... the Huskies took the game into overtime before losing, 75-71"
+      }
+    ],
+    "note": "Pitt's media guide marks the game OT, and the next-day Daily Campus recap and box (Pitt 37-25-13, UConn 35-27-9; 62-62 after regulation) confirm overtime. Record book (OT) is right; app is missing the OT. (The guide's OCR text reads '(0OT)' for '(OT)'.)"
+  },
+  {
     "key": "2001-14|ot",
     "truth": "OT (W 82-80)",
     "confidence": "high",
