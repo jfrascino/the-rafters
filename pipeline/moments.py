@@ -380,7 +380,7 @@ def build_one(m, core):
     if hero:
         out['hero'] = {'url': hero, 'kind': 'photo', 'credit': None}
     elif pick:
-        vid = next((v['id'] for v in vids if v['id'] in pick['url']), None)
+        vid = next((v['id'] for v in vids if v['id'] in pick['url'] or (v.get('thumb') and v['thumb'] == pick['url'])), None)
         out['hero'] = {'url': pick['url'], 'kind': 'video' if vid else 'photo', 'video': vid, 'credit': pick.get('credit'), 'pos': pick.get('pos')}
     elif out['photos']:
         p = out['photos'][0]
@@ -390,6 +390,34 @@ def build_one(m, core):
         out['hero'] = {'url': yt_poster(v['id']), 'kind': 'video', 'video': v['id'], 'credit': f"Video still · {v['channel']}"}
     out['sources'] = S.items()
     return out
+
+
+SITE_URL = 'https://jfrascino.github.io/the-rafters/'   # change with the custom domain
+STUB = os.path.join(ROOT, 'site', 'm')
+
+
+def stub(d):
+    """site/m/<slug>.html: a tiny page whose tags give link previews (iMessage, Slack, X) the moment's own title, summary and
+    picture, then forwards to the story in the app. The app's hash routes can't carry per-page preview tags themselves."""
+    import html
+    e = lambda x: html.escape(str(x or ''), quote=True)
+    img = (d.get('hero') or {}).get('url') or 'assets/og/default.jpg'
+    img = img if img.startswith('http') else SITE_URL + img
+    target = f"../#/moment/{d['slug']}"
+    title = f"{d['title']} · Storrs Lore"
+    os.makedirs(STUB, exist_ok=True)
+    open(os.path.join(STUB, d['slug'] + '.html'), 'w').write(f'''<!doctype html><html lang="en"><head><meta charset="utf-8">
+<title>{e(title)}</title><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{e(d.get('dek'))}">
+<meta property="og:type" content="article"><meta property="og:site_name" content="Storrs Lore">
+<meta property="og:title" content="{e(d['title'])}"><meta property="og:description" content="{e(d.get('dek'))}">
+<meta property="og:image" content="{e(img)}"><meta property="og:url" content="{e(SITE_URL + 'm/' + d['slug'] + '.html')}">
+<meta name="twitter:card" content="summary_large_image">
+<meta http-equiv="refresh" content="0; url={e(target)}"><link rel="canonical" href="{e(target)}">
+<script>location.replace({json.dumps(target)})</script>
+<style>body{{background:#040a18;color:#eef2f9;font:16px/1.5 system-ui,sans-serif;padding:40px}}a{{color:#8fc1ff}}</style>
+</head><body><p><a href="{e(target)}">{e(d['title'])} →</a></p></body></html>
+''')
 
 
 def main():
@@ -408,12 +436,13 @@ def main():
             print(f'moments: {os.path.basename(f)} failed ({e})')
             continue
         json.dump(d, open(os.path.join(det_dir, d['slug'] + '.json'), 'w'), separators=(',', ':'))
+        stub(d)
         built.add(d['slug'])
         gm = d.get('game') or {}
         cards.append({'slug': d['slug'], 'title': d['title'], 'nickname': d.get('nickname'), 'dek': d['dek'], 'date': d['date'], 'y': d['y'], 'gid': d.get('gid'),
                       'tags': d['tags'], 'hero': d.get('hero'), 'res': gm.get('res'), 'pts': gm.get('pts'), 'opp_pts': gm.get('opp_pts'), 'ot': gm.get('ot'),
                       'opp': gm.get('opp'), 'round': gm.get('round'), 'venue': d['facts'].get('venue'), 'nVideos': len(d['videos'])})
-    for old in glob.glob(os.path.join(det_dir, '*.json')):
+    for old in glob.glob(os.path.join(det_dir, '*.json')) + glob.glob(os.path.join(STUB, '*.html')):
         if os.path.splitext(os.path.basename(old))[0] not in built:
             os.remove(old)
     cards.sort(key=lambda c: c['date'])

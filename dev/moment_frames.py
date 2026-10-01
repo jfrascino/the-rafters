@@ -11,7 +11,11 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 slug = sys.argv[1]
 out = sys.argv[2] if len(sys.argv) > 2 else os.path.join(ROOT, 'dev', 'frames')
-m = json.load(open(os.path.join(ROOT, 'site', 'data', 'moments', f'{slug}.json')))
+# build the moment in memory from its draft (never written to site/data, so nothing unverified can be published)
+sys.path.insert(0, os.path.join(ROOT, 'pipeline'))
+import moments as M
+src = next((p for p in (os.path.join(ROOT, 'pipeline', 'out', 'moments', d, f'{slug}.json') for d in ('verified', 'drafts')) if os.path.exists(p)))
+m = M.build_one(json.load(open(src)), json.load(open(os.path.join(ROOT, 'site', 'data', 'core.json'))))
 cands = []
 for v in m.get('videos') or []:
     if v.get('src'):
