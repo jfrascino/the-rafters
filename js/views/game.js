@@ -87,7 +87,7 @@ export default async function game(main, args, core) {
 
   ${plays?.wp?.length || plays?.plays?.length ? `<section class="section"><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow">Play by play</span><h2 class="h2">How it happened</h2></div>
-      <div class="chips" id="flowTabs">${plays.wp?.length ? '<button class="chip on" data-c="wp">Win probability</button>' : ''}<button class="chip${plays.wp?.length ? '' : ' on'}" data-c="flow">Score margin</button></div></div>
+      <div class="chips" id="flowTabs">${plays.wp?.length ? '<button class="chip on" data-c="wp">Win probability</button>' : ''}${plays.plays?.length ? `<button class="chip${plays.wp?.length ? '' : ' on'}" data-c="flow">Score margin</button>` : ''}</div></div>
     <div class="panel chart-card" id="flowChart"></div>
     ${runsHtml(plays, O)}
   </div></section>` : ''}
@@ -116,6 +116,7 @@ export default async function game(main, args, core) {
     <div class="vids" id="vids">${vids.map(videoCard).join('')}</div>
   </div></section>` : ''}
 
+  ${d.pbpNote ? `<section class="section" style="padding-top:0"><div class="wrap"><p class="note">${esc(d.pbpNote)}</p></div></section>` : ''}
   ${plays?.plays?.length ? `<section class="section"><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow">${plays.plays.length} plays</span><h2 class="h2">Every possession</h2></div>
       <div class="chips" id="pbpTabs"><button class="chip on" data-p="all">All</button><button class="chip" data-p="sc">Scoring</button><button class="chip" data-p="u">UConn</button><button class="chip" data-p="close">Last 5 min</button></div></div>
