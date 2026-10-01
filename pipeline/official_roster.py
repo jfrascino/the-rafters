@@ -33,8 +33,15 @@ def main():
         players.append({'name': name, 'num': num, 'headshot': img, 'bio': ('https://uconnhuskies.com' + bio.group(1)) if bio else None})
     if not players:
         raise SystemExit('roster page parsed 0 players — layout changed?')
+    path = os.path.join(OUT, 'roster_current.json')
+    try:
+        if json.load(open(path)).get('players') == players:
+            print('official roster unchanged')
+            return
+    except Exception:
+        pass
     json.dump({'fetched': datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'), 'source': URL, 'players': players},
-              open(os.path.join(OUT, 'roster_current.json'), 'w'), indent=1)
+              open(path, 'w'), indent=1)
     print(f'official roster: {len(players)} players, {sum(1 for p in players if p["headshot"])} headshots')
 
 
