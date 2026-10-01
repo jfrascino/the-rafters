@@ -883,3 +883,5 @@ section[id] { scroll-margin-top: calc(var(--topbar) + 12px); }
   .cmp-l { font-size: 10px; letter-spacing: .06em; }
   .cmp-honors { grid-template-columns: minmax(0, 1fr); }
 }
+.mo-hero-in .chips { margin-top: 6px; }
+.mo-hero-in .mo-share { background: rgba(4,10,24,.7); }

@@ -46,7 +46,7 @@ export default async function home(main, _args, core) {
   </div></section>
 
   <section class="section" id="otdSec" hidden><div class="wrap">
-    <div class="sec-head"><div><span class="eyebrow" id="otdEyebrow">On this day</span><h2 class="h2">This date in Husky history</h2></div><span class="aside">Games played on today's date in any season since ${firstY - 1}.</span></div>
+    <div class="sec-head"><div><span class="eyebrow" id="otdEyebrow">On this day</span><h2 class="h2">This date in Husky history</h2></div><span class="aside">Games played on today's date in any season, from the record book's early years to now.</span></div>
     <div class="feature-row" id="otd"><div class="empty">Loading…</div></div>
   </div></section>
 
@@ -93,19 +93,23 @@ export default async function home(main, _args, core) {
   }
 
   // On this day
-  tryLoad('games_index.json').then((gi) => {
+  Promise.all([tryLoad('games_index.json'), tryLoad('history.json')]).then(([gi, hist]) => {
     const el = main.querySelector('#otd'); if (!el) return;
     if (!gi) { main.querySelector('#otdSec').hidden = true; return; }
     const now = new Date();
     const md = `${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
-    const hits = gi.filter((g) => g.date.slice(5, 10) === md && g.res);
+    // the early years count too: every dated game in the record book before 1977-78 (they link to their season)
+    const early = (hist?.seasons || []).flatMap((s) => s.games.filter((g) => g.date).map((g) => ({ id: null, y: s.y, date: g.date, ha: g.site, opp: { name: g.opp }, res: g.res, pts: g.pts, opp_pts: g.opp_pts, ot: g.ot, round: g.event, early: true })));
+    const hits = [...gi, ...early].filter((g) => g.date.slice(5, 10) === md && g.res);
     if (!hits.length) { main.querySelector('#otdSec').hidden = true; return; }   // nothing happened on this date: no section
     main.querySelector('#otdSec').hidden = false;
     hits.sort((a, b) => (b.big || 0) - (a.big || 0) || b.date.localeCompare(a.date));
-    el.innerHTML = hits.slice(0, 6).map((g) => `
-      <a class="panel otd" href="#/game/${g.id}">
+    const oldest = hits.filter((g) => g.early).sort((a, b) => a.date.localeCompare(b.date))[0];
+    const show = oldest ? [...hits.filter((g) => !g.early).slice(0, 5), oldest] : hits.slice(0, 6);   // always one from the early years when there is one
+    el.innerHTML = show.map((g) => `
+      <a class="panel otd" href="${g.early ? `#/season/${g.y}` : `#/game/${g.id}`}">
         <span class="eyebrow ${g.type === 'NCAA' ? 'gold' : ''}">${fmtDate(g.date, { year: true })}${g.round ? ' · ' + esc(g.round) : ''}</span>
-        <div class="game-line">${logo(g.opp)}<b style="font:700 18px/1.1 var(--f-cond);text-transform:uppercase">${g.ha === 'A' ? 'at ' : g.ha === 'N' ? 'vs. ' : 'vs. '}${esc(g.opp.name)}</b></div>
+        <div class="game-line">${g.early ? '' : logo(g.opp)}<b style="font:700 18px/1.1 var(--f-cond);text-transform:uppercase">${g.ha === 'A' ? 'at ' : 'vs. '}${esc(g.opp.name)}</b></div>
         <div class="game-line"><span class="score" style="color:${g.res === 'W' ? 'var(--ice)' : 'var(--red-soft)'}">${g.res}${g.forfeit ? ' (forfeit)' : ''} ${g.pts}–${g.opp_pts}</span>${g.ot ? `<span class="pill">${esc(g.ot)}</span>` : ''}</div>
         ${g.top ? `<span class="note">${esc(g.top)}</span>` : ''}
       </a>`).join('');

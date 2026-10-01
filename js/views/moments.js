@@ -100,7 +100,7 @@ async function page(main, slug, core) {
 
   const f = m.facts || {};
   const per = (p) => ({ '1H': '1st half', '2H': '2nd half', OT: 'OT', OT1: 'OT', OT2: '2OT', OT3: '3OT', OT4: '4OT', OT5: '5OT', OT6: '6OT' }[String(p || '').toUpperCase()] || String(p || ''));
-  const heroVid = m.hero?.kind === 'video' ? m.videos.find((v) => v.id === m.hero.video) : null;
+  const heroVid = m.hero?.video ? m.videos.find((v) => v.id === m.hero.video) : null;
 
   main.innerHTML = `<div data-title="${esc(m.title)}"></div>
   <div class="mo-progress" aria-hidden="true"><i id="moProg"></i></div>
@@ -117,7 +117,7 @@ async function page(main, slug, core) {
         <span class="mo-fmid"><span class="board-label">Final${g.ot ? ' / ' + esc(g.ot) : ''}</span>${g.forfeit ? '<span class="board-label" style="color:var(--gold)">Forfeit win</span>' : ''}</span>
         <span class="mo-ft"><b class="led ${g.res === 'L' ? 'white' : 'dim'}" data-count="${g.opp_pts}">${g.opp_pts}</b>${logo(O, 'lg')}</span>
       </div>` : ''}
-      ${heroVid ? `<button class="btn solid mo-heroplay" data-vid="${esc(heroVid.id)}">▶ Watch it</button>` : ''}
+      <div class="chips">${heroVid ? `<button class="btn solid mo-heroplay" data-vid="${esc(heroVid.id)}">▶ Watch it</button>` : ''}<button class="btn mo-share" id="moShare">Share</button></div>
     </div>
     ${m.hero?.credit ? `<span class="mo-credit">${esc(m.hero.credit)}</span>` : ''}
   </header>
@@ -221,6 +221,15 @@ async function page(main, slug, core) {
     const to = +el.dataset.count, t0 = performance.now(), dur = 1400;
     const step = (t) => { const k = Math.min(1, (t - t0) / dur); el.textContent = Math.round(to * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(step); };
     el.textContent = '0'; requestAnimationFrame(step);
+  });
+
+  // share: the /m/<slug>.html page carries this moment's own link preview, then forwards here
+  main.querySelector('#moShare')?.addEventListener('click', async (e) => {
+    const url = new URL(`m/${m.slug}.html`, location.href.split('#')[0]).href;
+    try {
+      if (navigator.share) await navigator.share({ title: m.title, text: m.dek || '', url });
+      else { await navigator.clipboard.writeText(url); e.target.textContent = 'Link copied'; setTimeout(() => { e.target.textContent = 'Share'; }, 2000); }
+    } catch (err) { /* share sheet dismissed */ }
   });
 
   // reading progress + chapter rail
