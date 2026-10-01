@@ -17,6 +17,7 @@ BEFORE=$($PY -c "import json;c=json.load(open('site/data/core.json'));print(json
 $PY pipeline/espn_fetch.py --update --quiet >/dev/null 2>&1 || echo "$(stamp) ESPN fetch had errors (continuing with cached data)"
 $PY pipeline/official_roster.py >/dev/null 2>&1 || echo "$(stamp) official roster fetch failed; keeping the last copy"
 $PY pipeline/official_current_stats.py >/dev/null 2>&1 || echo "$(stamp) official stats fetch failed; keeping the last copy"
+$PY pipeline/season_hub.py >/dev/null 2>&1 || echo "$(stamp) season hub fetch failed; keeping the last copy"
 if ! OUT=$($PY pipeline/build.py 2>&1); then
   echo "$(stamp) BUILD FAILED"; echo "$OUT" | tail -20
   notify "Update failed" "The data build failed; the live site is unchanged. Ask Kai to look at dev/logs/update.log."

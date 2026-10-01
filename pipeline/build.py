@@ -1856,6 +1856,99 @@ if nxt:
 if lst:
     CURRENT['last'] = {k: lst.get(k) for k in ('id', 'date', 'ha', 'opp', 'res', 'pts', 'opp_pts', 'top')}
 
+# ───────────────────────── Season hub (live: pipeline/season_hub.py) ─────────────────────────
+def _hub(name):
+    return jload(os.path.join(OUT, 'hub', f'{name}.json'), {}) or {}
+H_ST, H_PO, H_NET, H_BR, H_NO, H_PH = (_hub(n) for n in ('standings', 'polls', 'net', 'bracket', 'next_opp', 'polls_history'))
+played_now = [g for g in cur_games if g.get('res')]
+HUB = {'season': current_season, 'label': label(current_season)}
+if H_ST.get('rows'):
+    HUB['standings'] = {'label': H_ST.get('seasonLabel'), 'final': H_ST.get('season') != current_season, 'rows': H_ST['rows'], 'fetched': H_ST.get('fetched')}
+for key_ in ('ap', 'coaches'):
+    p_ = H_PO.get(key_)
+    if p_:
+        u_ = next((r for r in p_['ranks'] if r['id'] == '41'), None)
+        HUB.setdefault('polls', {})[key_] = {'date': p_['date'], 'label': p_.get('seasonLabel'), 'final': p_.get('season') != current_season,
+                                            'rank': u_ and u_['rank'], 'prev': u_ and u_['prev'], 'record': u_ and u_.get('record'),
+                                            'votes': next((r['pts'] for r in p_['others'] if r['id'] == '41'), None), 'top': p_['ranks'][:10]}
+if H_PH.get(str(current_season)):
+    HUB['pollHistory'] = H_PH[str(current_season)]
+u_ = next((r for r in H_NET.get('rows') or [] if r.get('School') in ('UConn', 'Connecticut')), None)
+if u_:
+    HUB['net'] = {'rank': int(u_['Rank']), 'record': u_.get('Record'), 'prev': u_.get('Prev'), 'quads': [u_.get(f'Quad {i}') for i in (1, 2, 3, 4)],
+                  'through': H_NET.get('through'), 'final': not played_now}   # until UConn plays, ncaa.com still shows last season's final NET
+if H_BR:
+    HUB['bracket'] = {**{k: H_BR.get(k) for k in ('seed', 'avg', 'brackets', 'updated')}, 'final': (H_BR.get('updated') or '') < f'{current_season - 1}-11-01'}
+# next opponent: their season (ESPN), our history with them (every meeting on the site)
+if CURRENT.get('next'):
+    o_ = CURRENT['next']['opp']
+    meet_ = [g for g in GAMES_INDEX if g['opp'].get('key') == o_.get('key') and g.get('res')]
+    HUB['preview'] = {'opp': o_, 'game': CURRENT['next']['id'],
+                      'record': H_NO.get('record') if H_NO.get('game') == CURRENT['next']['id'] else None,
+                      'standing': H_NO.get('standing') if H_NO.get('game') == CURRENT['next']['id'] else None,
+                      'leaders': (H_NO.get('leaders') or []) if H_NO.get('game') == CURRENT['next']['id'] else [],
+                      'series': {'w': sum(g['res'] == 'W' for g in meet_), 'l': sum(g['res'] == 'L' for g in meet_), 'first': meet_[0]['date'][:4] if meet_ else None},
+                      'last': {k: meet_[-1].get(k) for k in ('id', 'date', 'res', 'pts', 'opp_pts', 'ha', 'ot')} if meet_ else None}
+# milestone watch
+MILES = []
+hur_ = next((e for e in eras_out if e['name'] == 'Dan Hurley'), None)
+if hur_:
+    nxt_ = (hur_['w'] // 50 + 1) * 50
+    MILES.append({'who': 'Dan Hurley', 'kind': 'coach', 'text': f"{hur_['w']} wins at UConn. Win No. {nxt_} is {nxt_ - hur_['w']} away.", 'left': nxt_ - hur_['w']})
+_rbt = re.search(r'^Totals\s+(\d{3,4})\s+(\d{3,4})\s+\.\d{3}', open(os.path.join(HERE, 'cache.nosync', 'official', 'recordbook_pypdf.txt'), errors='ignore').read(), re.M) \
+    if os.path.exists(os.path.join(HERE, 'cache.nosync', 'official', 'recordbook_pypdf.txt')) else None
+if _rbt:   # the record book's all-time total runs through last season
+    allw_ = int(_rbt.group(1)) + sum(g['res'] == 'W' for g in played_now)
+    alll_ = int(_rbt.group(2)) + sum(g['res'] == 'L' for g in played_now)
+    nxt_ = (allw_ // 50 + 1) * 50
+    MILES.append({'who': 'UConn', 'kind': 'program', 'text': f"All-time record {allw_:,}–{alll_:,}. Win No. {nxt_:,} is {nxt_ - allw_} away.", 'left': nxt_ - allw_})
+THRESH = {'pts': ('points', (1000, 1500, 2000)), 'trb': ('rebounds', (500, 750, 1000)), 'ast': ('assists', (300, 400, 500, 600)), 'blk': ('blocks', (100, 150, 200, 300)),
+          'stl': ('steals', (100, 150, 200)), 'fg3': ('3-pointers', (100, 150, 200, 250))}
+cur_ids_ = {r['pid'] for r in json.load(open(os.path.join(SITE, 'seasons', f'{current_season}.json'))).get('roster') or []}
+for player_, uc_ in PLAYERS:
+    if player_['id'] not in cur_ids_:
+        continue
+    c_ = player_['career']
+    gp_ = c_.get('g') or 0
+    if gp_ < 10:
+        continue
+    for k_, (word_, marks_) in THRESH.items():
+        v_ = c_.get(k_) or 0
+        pace_ = v_ / gp_ * 35   # about a season's worth at his career rate
+        nxt_ = next((m for m in marks_ if m > v_), None)
+        if nxt_ and nxt_ - v_ <= max(pace_, 1):
+            MILES.append({'who': player_['name'], 'pid': player_['id'], 'kind': 'player', 'text': f"{v_:,} career {word_} at UConn. {nxt_:,} is {nxt_ - v_} away.", 'left': nxt_ - v_})
+# streaks (all seasons, newest games last)
+_all = sorted(GAMES_INDEX, key=lambda g: g['date'])
+for label_, pick_ in (('home', lambda g: g['ha'] == 'H'), ('overall', lambda g: True)):
+    n_, r_ = 0, None
+    for g in reversed([g for g in _all if g.get('res') and pick_(g)]):
+        if r_ is None:
+            r_ = g['res']
+        if g['res'] != r_:
+            break
+        n_ += 1
+    if r_ == 'W' and n_ >= 5:
+        MILES.append({'who': 'UConn', 'kind': 'streak', 'text': f"{n_} straight {'home ' if label_ == 'home' else ''}wins.", 'left': 0})
+HUB['milestones'] = MILES
+# recap of the latest game this season
+if played_now:
+    lg_ = played_now[-1]
+    det_ = (jload(os.path.join(SITE, 'games', f'{current_season}.json'), {}) or {}).get(lg_['id']) or {}
+    tm_ = det_.get('teams') or []
+    if tm_:
+        def gs_(p):
+            return (p.get('pts') or 0) + 0.4 * (p.get('fgm') or 0) - 0.7 * (p.get('fga') or 0) - 0.4 * ((p.get('fta') or 0) - (p.get('ftm') or 0)) + 0.7 * (p.get('oreb') or 0) \
+                + 0.3 * ((p.get('reb') or 0) - (p.get('oreb') or 0)) + (p.get('stl') or 0) + 0.7 * (p.get('ast') or 0) + 0.7 * (p.get('blk') or 0) - 0.4 * (p.get('pf') or 0) - (p.get('to') or 0)
+        ups_ = sorted([p for p in tm_[0].get('players') or [] if not p.get('dnp') and p.get('pts') is not None], key=gs_, reverse=True)[:3]
+        tops_ = []
+        for p in ups_:
+            prev_hi_ = max([e.get('pts') or 0 for e in PLAYER_GAMES.get(p.get('pid'), []) if e['y'] == current_season and e['id'] != lg_['id']] or [0])
+            tops_.append({'name': p['name'], 'pid': p.get('pid'), 'line': f"{p.get('pts')} pts, {p.get('reb')} reb, {p.get('ast')} ast",
+                          'seasonHigh': bool(p.get('pts')) and p.get('pts') > prev_hi_ and len([e for e in PLAYER_GAMES.get(p.get('pid'), []) if e['y'] == current_season]) > 1})
+        HUB['recap'] = {'id': lg_['id'], 'date': lg_['date'], 'opp': lg_['opp'], 'res': lg_['res'], 'pts': lg_['pts'], 'opp_pts': lg_['opp_pts'], 'ot': lg_.get('ot'),
+                        'record': lg_.get('rec'), 'tops': tops_}
+
 titles = []
 for m in MARCH:
     if len(m['games']) == 6 and m['games'][-1]['res'] == 'W':
@@ -1872,7 +1965,7 @@ core = {
     'updated': datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'),
     'seasons': SEASON_SUM, 'eras': eras_out, 'players': sorted(core_players, key=lambda p: -(p.get('pts') or 0)),
     'opponents': OPP, 'leaders': LEADERS, 'march': {'years': MARCH, 'titles': titles, 'nit': nit},
-    'banners': {'secondary': secondary}, 'current': CURRENT, 'logos': LOGOS if LOGOS['files'] else None,
+    'banners': {'secondary': secondary}, 'current': CURRENT, 'hub': HUB, 'logos': LOGOS if LOGOS['files'] else None,
     'videos': [dict(v) for v in (featured[:40] + [v for v in VIDS if v.get('round') and v not in featured][:60])],
 }
 jdump(os.path.join(SITE, 'core.json'), core)
