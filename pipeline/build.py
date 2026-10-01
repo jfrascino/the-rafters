@@ -1497,6 +1497,8 @@ for y in years:
                 item['tot'] = {'g': n, 'mp': A['min'], 'pts': A['pts'], 'fg': A['fgm'], 'fga': A['fga'], 'fg3': A['tpm'], 'fg3a': A['tpa'], 'ft': A['ftm'], 'fta': A['fta'], 'orb': A['oreb'],
                                'trb': A['reb'], 'ast': A['ast'], 'stl': A['stl'], 'blk': A['blk'], 'tov': A['to'], 'pf': A['pf']}
             roster.append({k: v for k, v in item.items() if v not in (None, '')})
+        if OFFICIAL_STATS.cume.get(y):   # the season in progress: UConn's official stat page settles ESPN's box-score sums
+            OFFICIAL_STATS.apply(y, roster, None)
 
     for r in roster:
         if r.get('pg') or not s:

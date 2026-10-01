@@ -4,3 +4,5 @@ pipeline/cache.nosync/
 dev/shots/
 photos-drop/
 dev/watch.log
+dev/logs/
+dev/.update_state.json

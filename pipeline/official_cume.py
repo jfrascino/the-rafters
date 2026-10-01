@@ -9,7 +9,7 @@ Two formats, both downloaded into pipeline/cache.nosync/official/stats/:
 Unlike the record book's Letterwinner History, these carry games started, offensive/defensive rebounds and fouls,
 and they list every player who appeared, not only letterwinners.
 """
-import html as H, json, os, re
+import glob, html as H, json, os, re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = os.path.join(HERE, 'cache.nosync', 'official', 'stats')
@@ -22,6 +22,10 @@ FILES = {
     **{y: [f'{y}.html'] for y in range(2013, 2019)},
     **{y: [f'{y}.sidearm.html'] for y in range(2019, 2027)},
 }
+# the current season's page is fetched during the season by official_current_stats.py
+for _p in glob.glob(os.path.join(D, '*.sidearm.html')):
+    _y = int(os.path.basename(_p).split('.')[0])
+    FILES.setdefault(_y, [os.path.basename(_p)])
 HDR_MAP = {'GP-GS': ('g', 'gs'), 'Min': ('mp',), 'FG-FGA': ('fg', 'fga'), '3FG-FGA': ('fg3', 'fg3a'), 'FT-FTA': ('ft', 'fta'),
            'Off': ('orb',), 'Def': ('drb',), 'Tot': ('trb',), 'PF': ('pf',), 'A': ('ast',), 'TO': ('tov',), 'Blk': ('blk',), 'Stl': ('stl',), 'Pts': ('pts',)}
 
