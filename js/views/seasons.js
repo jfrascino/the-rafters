@@ -1,7 +1,7 @@
-import { esc, FINISH, finishPill } from '../ui.js';
+import { esc, FINISH, finishPill, tryLoad, seasonLabel } from '../ui.js';
 import { sparkPath } from '../charts.js';
 
-export default async function seasons(main, _args, core) {
+export default async function seasons(main, args, core) {
   const eras = core.eras || [{ name: 'All seasons', from: 0, to: 9999 }];
   const byEra = eras.map((e) => ({ e, list: core.seasons.filter((s) => s.y >= e.from && s.y <= e.to).reverse() })).reverse();
   main.innerHTML = `<div data-title="Seasons"></div>
@@ -27,6 +27,31 @@ export default async function seasons(main, _args, core) {
     main.querySelectorAll('.cover').forEach((c) => { c.hidden = !f(core.seasons.find((s) => s.y === +c.dataset.y)); });
     main.querySelectorAll('.era-block').forEach((blk) => { blk.hidden = !blk.querySelector('.cover:not([hidden])'); });
   });
+  // the early years (1900-01 to 1976-77), from the record book
+  const H = await tryLoad('history.json');
+  if (H?.seasons?.length && main.isConnected) {
+    main.insertAdjacentHTML('beforeend', earlyYears(H));
+    if (args[0] === 'early') setTimeout(() => main.querySelector('#early')?.scrollIntoView({ block: 'start' }), 60);   // after the router's scroll-to-top
+  }
+}
+
+function earlyYears(H) {
+  const S = H.seasons, w = S.reduce((a, s) => a + (s.w || 0), 0), l = S.reduce((a, s) => a + (s.l || 0), 0);
+  const eras = (H.coaches || []).filter((c) => !/interim/i.test(c.name)).map((c) => ({ ...c, list: S.filter((s) => s.y >= (c.from || 0) && s.y <= Math.min(c.to || 9999, 1977)) }))
+    .filter((e) => e.list.length).reverse();
+  const tile = (s) => {
+    const nc = s.titles.some((t) => /NCAA/.test(t)), nit = s.titles.some((t) => /NIT|Invitation/.test(t));
+    const crowns = s.titles.filter((t) => /Champion/i.test(t) && !/NCAA|NIT/.test(t)).map((t) => t.replace(/Conference/, 'Conf.').replace(/Co-Champions?/i, 'co-champs').replace(/Champions?/i, 'champs'));
+    return `<a class="cover early${nc ? ' ncaa' : ''}" href="#/season/${s.y}"><span class="yr">${s.y - 1}<small>–${String(s.y).slice(2)}</small></span>
+      <div style="display:grid;gap:6px;align-content:start"><span class="rec">${s.none ? '<span class="muted" style="font-size:15px">No team</span>' : `${s.w}–${s.l}`}</span></div>
+      <div class="meta">${nc ? '<span class="pill ice">NCAA</span>' : ''}${nit ? '<span class="pill">NIT</span>' : ''}${crowns.map((c) => `<span class="pill ff">${esc(c)}</span>`).join('')}</div></a>`;
+  };
+  return `<section class="section" id="early"><div class="wrap">
+    <div class="sec-head"><div><span class="eyebrow gold">From UConn's record book · ${S.length} seasons</span><h2 class="h1">The early years</h2></div>
+      <span class="aside">1900–01 to 1976–77: ${w}–${l}. Every season's record and results as UConn's record book prints them; where the book disagrees with itself, the season page says so.</span></div>
+    ${eras.map((e) => `<div class="era-block"><div class="era-title"><h3 class="h2">${esc(e.name === 'No Coach' ? 'Before the first coach' : e.name)}</h3><span class="muted">${esc(e.name === 'No Coach' ? '1900–1915' : e.years)} · ${e.w}–${e.l}</span></div>
+      <div class="covers">${e.list.slice().reverse().map(tile).join('')}</div></div>`).join('')}
+  </div></section>`;
 }
 
 function cover(s) {

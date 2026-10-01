@@ -3,9 +3,10 @@ import { heartbeat, pollLine, onResize } from '../charts.js';
 
 export default async function season(main, args, core) {
   const y = +args[0] || core.seasons.at(-1).y;
+  if (y < core.seasons[0].y) return (await import('./history.js')).default(main, y, core);   // the early years, from the record book
   const s = await load(`seasons/${y}.json`);
   const idx = core.seasons.findIndex((x) => x.y === y);
-  const prev = core.seasons[idx - 1], next = core.seasons[idx + 1];
+  const prev = core.seasons[idx - 1] || (idx === 0 ? { y: y - 1, label: `${y - 2}–${String(y - 1).slice(2)}` } : null), next = core.seasons[idx + 1];   // 1977-78 links back into the early years
   const sum = core.seasons[idx] || {};
   const champ = s.finish === 'champ';
   const played = s.games.filter((g) => g.res);

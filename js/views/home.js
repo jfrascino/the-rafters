@@ -36,7 +36,7 @@ export default async function home(main, _args, core) {
   </div></section>
 
   <section class="section"><div class="wrap">
-    <div class="sec-head"><div><span class="eyebrow">${["Two", "Three", "Four", "Five"][eras.length - 2] || eras.length} coaches</span><h2 class="h2">The eras</h2></div></div>
+    <div class="sec-head"><div><span class="eyebrow">${["Two", "Three", "Four", "Five"][eras.length - 2] || eras.length} coaches</span><h2 class="h2">The eras</h2></div><a class="btn" href="#/seasons/early">Before ${firstY - 1}: the early years →</a></div>
     <div class="feature-row">${eras.map(eraCard).join('')}</div>
   </div></section>
 
