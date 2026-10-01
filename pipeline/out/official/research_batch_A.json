@@ -1,0 +1,78 @@
+[
+ {
+  "key": "1978-17|site",
+  "truth": "N (Colonial Classic, Boston Garden)",
+  "confidence": "high",
+  "sources": [
+   {
+    "url": "https://www.goholycross.com/fls/33100/sports/m-basketball/archives/results.pdf",
+    "quote": "1977-1978 ... 1/27 Connecticut N42 W, 76-63 ... 1/28 Massachusetts N42 W, 78-63"
+   },
+   {
+    "url": "https://www.goholycross.com/fls/33100/sports/m-basketball/archives/results.pdf",
+    "quote": "42 Colonial Classic, Boston (Mass.) Garden"
+   },
+   {
+    "url": "https://bceagles.com/documents/download/2025/9/22/2025-26_Record_Book.pdf",
+    "quote": "Colonial Classic J 27 BG Massachusetts L 64-88 J 28 BG Connecticut W 101-72"
+   }
+  ],
+  "note": "Holy Cross's own all-time results list the 1/27/78 UConn game at neutral site N42 = Colonial Classic, Boston Garden (not Worcester); BC's record book shows the same two-night Colonial Classic at Boston Garden (BC-UMass 1/27, BC-UConn 1/28). Record book (N) is right; app's A is wrong. Side note: Holy Cross prints the score as 76-63, while UConn's record book and the app have 78-63 - score not settled here."
+ },
+ {
+  "key": "1978-18|site",
+  "truth": "N (Colonial Classic, Boston Garden)",
+  "confidence": "high",
+  "sources": [
+   {
+    "url": "https://bceagles.com/documents/download/2025/9/22/2025-26_Record_Book.pdf",
+    "quote": "1977-78 (15-11) H: 6-3 A: 5-4 N: 4-4 ... Colonial Classic ... J 28 BG Connecticut W 101-72"
+   },
+   {
+    "url": "https://bceagles.com/documents/download/2025/9/22/2025-26_Record_Book.pdf",
+    "quote": "Jan. 28, 1978 101-72 W Boston, Mass."
+   },
+   {
+    "url": "https://www.goholycross.com/fls/33100/sports/m-basketball/archives/results.pdf",
+    "quote": "1/27 Connecticut N42 W, 76-63 ... 1/28 Massachusetts N42 W, 78-63"
+   }
+  ],
+  "note": "BC's record book lists the game under 'Colonial Classic' at BG (Boston Garden), and its 1977-78 home/away/neutral split (N: 4-4) only adds up if both Colonial Classic games are counted neutral; its series list gives Boston, Mass. rather than Chestnut Hill. Holy Cross's results confirm the event at Boston Garden that weekend. Record book (N) is right; app's A is wrong."
+ },
+ {
+  "key": "1979-16|site",
+  "truth": "N (Colonial Classic, Boston Garden)",
+  "confidence": "high",
+  "sources": [
+   {
+    "url": "https://www.goholycross.com/fls/33100/sports/m-basketball/archives/results.pdf",
+    "quote": "1/26 Connecticut (ot) N42 L, 102-109 ... 1/27 Massachusetts N42 W, 78-74"
+   },
+   {
+    "url": "https://static.goholycross.com/custompages/sports/m-basketball/archives/chron.pdf",
+    "quote": "109-102 overtime loss to Connecticut in the Colonial Classic. The 46 points were a Boston Garden collegiate record."
+   },
+   {
+    "url": "https://bceagles.com/documents/download/2025/9/22/2025-26_Record_Book.pdf",
+    "quote": "Colonial Classic J 26 BG Massachusetts W 82-70 J 27 BG Connecticut W 78-77"
+   }
+  ],
+  "note": "Holy Cross's all-time results put the 1/26/79 game at N42 (Colonial Classic, Boston Garden), and its fact-book chronology calls Ronnie Perry's 46 points a Boston Garden collegiate record. BC's record book shows the same event at Boston Garden on 1/26-27/79. Record book (N) is right; app's A is wrong."
+ },
+ {
+  "key": "1979-16|ot",
+  "truth": "OT (W 109-102)",
+  "confidence": "high",
+  "sources": [
+   {
+    "url": "https://www.goholycross.com/fls/33100/sports/m-basketball/archives/results.pdf",
+    "quote": "1/26 Connecticut (ot) N42 L, 102-109"
+   },
+   {
+    "url": "https://static.goholycross.com/custompages/sports/m-basketball/archives/chron.pdf",
+    "quote": "Jan. 26, 1979: Perry scores a career-high 46 points in a 109-102 overtime loss to Connecticut"
+   }
+  ],
+  "note": "Holy Cross's results list and its fact-book chronology both call the 109-102 game an overtime loss to UConn. Record book (OT) is right; app is missing the OT."
+ }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "key": "2001-14|ot",
+    "truth": "OT (W 82-80)",
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://redstormsports.com/sports/mens-basketball/schedule/2000-01",
+        "quote": "at No. 10 Connecticut Storrs, Conn. (Gampel Pavilion) L, 80-82 (OT) Jan 6 (Sat)"
+      },
+      {
+        "url": "https://www.espn.com/ncb/2001/20010106/recap/sbpcbp.html",
+        "quote": "Huskies outscored St. John's 7-5 in the extra period en route to an 82-80 victory Saturday."
+      }
+    ],
+    "note": "St. John's official 2000-01 schedule archive marks the game L 80-82 (OT), and the AP recap on ESPN (STORRS dateline) says Caron Butler's buzzer 3 forced overtime, which UConn won 7-5. App (OT) is right; the record book season page omits the OT mark that its own OT list and series history carry."
+  },
+  {
+    "key": "1999-16|ot",
+    "truth": "OT (W 70-68)",
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://miamihurricanes.com/boxscore/12979",
+        "quote": "Miami 68-70 vs. Connecticut ... Wed, Jan. 20 (1999) ... result: loss, text: (OT)"
+      }
+    ],
+    "note": "Miami's official athletics site (schedule event 12979, 1999-01-20 at Miami, Fla.) stores the result as a loss with result text '(OT)', 70-68. App (OT) is right; the record book season page omits the OT mark that its own OT list and Miami series history carry. Second independent source still being sought."
+  },
+  {
+    "key": "1990-37|ot",
+    "truth": "OT (L 78-79)",
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://goduke.com/sports/mens-basketball/schedule/1989-90",
+        "quote": "vs Connecticut East Rutherford, N.J. NCAA Tournament W, 79-78 (OT) Mar 24 (Sat)"
+      },
+      {
+        "url": "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish (Mar 26 1990 issue #33305, OCR text)",
+        "quote": "Blue Devils Win at the Buzzer in OT, 79-78"
+      }
+    ],
+    "note": "Duke's official 1989-90 schedule archive marks the regional final W 79-78 (OT), and the Washington Post Service report in the IHT (Mar 26 1990) describes Laettner's buzzer-beater in the final seconds of overtime. App (OT) is right; the record book season page dropped the OT mark (its own OT list and Duke series history agree it was OT)."
+  }
+]

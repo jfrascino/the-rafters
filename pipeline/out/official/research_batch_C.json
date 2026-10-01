@@ -1,0 +1,26 @@
+[
+  {
+    "key": "1980-4|result",
+    "truth": "W by forfeit (lost 66-73 on the court; Utah later forfeited it for using Danny Vranes while he was ineligible)",
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.newspapers.com/newspage/469138629/",
+        "quote": "Vranes was declared ineligible Dec. 22 because of the university's decision not to accept credit from a course"
+      },
+      {
+        "url": "https://www.newspapers.com/newspage/469138629/",
+        "quote": "the university's basketball record for the season will switch from 10-5 to 5-10"
+      },
+      {
+        "url": "https://www.sports-reference.com/cbb/friv/forfeits.cgi",
+        "quote": "1979-80 Utah WAC F 18-10 14-14 4L by forfeit (non-conf.)"
+      },
+      {
+        "url": "https://utahutes.com/documents/download/2016/6/16/0607_mg_08.pdf",
+        "quote": "Dec.8 Connecticut% W 73-66 SaltLakeCity"
+      }
+    ],
+    "note": "Provo Daily Herald, Jan. 10, 1980, p. 6 (quoted from a search snippet; the page itself is behind a bot check): Utah declared Danny Vranes ineligible Dec. 22, 1979 over a summer course (an Ottawa University correspondence course; SI's Mar. 2, 1981 Utah story ties it to the FBI's Ottawa credits probe). Utah had to forfeit the games he played while ineligible, which dropped it from 10-5 to 5-10, and the WAC turned down his appeal. Utah's wins before Dec. 22 were Utah State, Cal State Fullerton, UConn (Dec. 8), Nevada and Pacific; Sports-Reference's own forfeit table lists Utah 4L by forfeit and 'Connecticut 1979-80 20-9 -> 21-8, 1W by forfeit'. So the record book is right: officially a UConn forfeit win, and the 66-73 on-court score is also correct. Caveat: Utah's own 2006-07 media guide ignores the forfeits and still lists W 73-66 with an 18-10 record."
+  }
+]

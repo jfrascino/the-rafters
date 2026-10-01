@@ -1,0 +1,376 @@
+{
+ "_about": "Research rulings for app-vs-record-book differences (keys: game_id|field, or season:date:opp|missing_in_app). truth = verified value; confidence high/medium/low; sources independent of the app's own pipeline where possible.",
+ "rulings": {
+  "2004-32|score": {
+   "truth": "W 84-67",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://villanova.com/news/2004/3/12/Wildcats_Fall_To_No_9_Connecticut_84_67.aspx",
+     "quote": "Wildcats Fall To No. 9 Connecticut, 84-67"
+    },
+    {
+     "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=240720041",
+     "quote": "ESPN box: Villanova 67, UConn 84 (Madison Square Garden)"
+    }
+   ],
+   "note": "Big East semifinal. Record book (season page and Villanova series history) prints 87-64 - digits transposed. App is right."
+  },
+  "2005-13|score": {
+   "truth": "W 78-64",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://scarletknights.com/news/2005/1/15/Connecticut_Hands_Rutgers_78_64_Loss_In_BIG_EAST_Men_s_Basketball_Action.aspx",
+     "quote": "Connecticut Hands Rutgers 78-64 Loss In BIG EAST Men's Basketball Action"
+    },
+    {
+     "url": "https://scarletknights.com/sports/mens-basketball/opponent-history/university-of-connecticut/14",
+     "quote": "2005-01-15 ... Storrs, CT ... Rutgers 64, Connecticut 78 (L)"
+    },
+    {
+     "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=250150041",
+     "quote": "ESPN box: Rutgers 64, UConn 78; UConn player points sum to 78"
+    }
+   ],
+   "note": "Record book season page (and UConn web card) print 77-64; the record book's own Rutgers series history has 78-64. App is right."
+  },
+  "2015-30|score": {
+   "truth": "L 63-75",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://owlsports.com/sports/mens-basketball/schedule/2014-15",
+     "quote": "Mar 7 (Sat) 2:00 p.m. ... vs UConn Liacouras Center ... W, 75-63"
+    },
+    {
+     "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=400586859",
+     "quote": "ESPN box: UConn 63 (37-26), Temple 75 (32-43) at Liacouras Center"
+    }
+   ],
+   "note": "Temple schedule archive and ESPN box agree; UConn web card also says 63-75. Record book season page and Temple series history print 56-70. App is right."
+  },
+  "2005-18|date": {
+   "truth": "2005-02-02",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=250330041",
+     "quote": "ESPN: 2005-02-03T00:00Z (7 p.m. ET Feb 2) Villanova 76, UConn 81"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "Villanova series history: 2/2/05 W 81-76 HCC"
+    }
+   ],
+   "note": "Record book season page prints 1/2 (out of sequence between 1/30 and 2/5) - a typo for 2/2. App is right."
+  },
+  "2019-26|date": {
+   "truth": "2019-02-21",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401084633",
+     "quote": "ESPN: 2019-02-22T02:00Z (Thu Feb 21, 8 p.m. CT) UConn 59, SMU 77, Moody Coliseum"
+    },
+    {
+     "url": "https://uconnhuskies.com/sports/mens-basketball/schedule/2018-19",
+     "quote": "at Southern Methodist University ... L, 59-77 Feb 21 (Thu) 9 p.m."
+    }
+   ],
+   "note": "Record book season page prints 2/22; its SMU series history says 2/21/19. App is right."
+  },
+  "1978-15|score": {
+   "truth": "L 49-57",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://friars.com/documents/download/2023/11/9/Color_2023_ThruYears_.pdf",
+     "quote": "1-21 57 (12/19) at Connecticut 49 4900"
+    }
+   ],
+   "note": "Providence media guide (Through the Years, 1977-78) gives Providence 57, Connecticut 49, attendance 4,900; Sports-Reference also has 49-57. UConn record book (season page and Providence series) prints 47-57. App (49) agrees with Providence."
+  },
+  "1982-19|ot": {
+   "truth": "OT (W 47-45)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://friars.com/documents/download/2023/11/9/Color_2023_ThruYears_.pdf",
+     "quote": "2-1 45 CONNECTICUT (OT) 47 - 7484"
+    }
+   ],
+   "note": "Providence guide marks the game OT; record book season page, series history and overtime list agree. App lacks the OT flag."
+  },
+  "1982-24|site": {
+   "truth": "H (UConn home game at New Haven Coliseum)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://friars.com/documents/download/2023/11/9/Color_2023_ThruYears_.pdf",
+     "quote": "2-20 61 at Connecticut 90 - 8119"
+    }
+   ],
+   "note": "Providence lists it as a road game at Connecticut (att. 8,119); UConn record book: home game at New Haven Coliseum (series code NHC). App shows N."
+  },
+  "1983-16|site": {
+   "truth": "H (Hartford Civic Center)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://friars.com/documents/download/2023/11/9/Color_2023_ThruYears_.pdf",
+     "quote": "1-26 65 at Connecticut 62 10048"
+    }
+   ],
+   "note": "Providence: road game at Connecticut, att. 10,048 (Hartford Civic Center per UConn record book). App shows N."
+  },
+  "1985-20|site": {
+   "truth": "H (Hartford Civic Center)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://friars.com/documents/download/2023/11/9/Color_2023_ThruYears_.pdf",
+     "quote": "2-9 70 at Connecticut 84 - 10136"
+    }
+   ],
+   "note": "Providence: road game at Connecticut, att. 10,136; UConn record book (HCC). App shows N."
+  },
+  "1990-27|ot": {
+   "truth": "OT (W 75-72)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://friars.com/documents/download/2023/11/9/Color_2023_ThruYears_.pdf",
+     "quote": "2-19 72 at Connecticut (OT) (10/13) 75 - 8302"
+    }
+   ],
+   "note": "Providence guide and all three record-book listings show OT. App lacks the OT flag."
+  },
+  "1991-24|ot": {
+   "truth": "OT (W 70-66)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://friars.com/documents/download/2023/11/9/Color_2023_ThruYears_.pdf",
+     "quote": "2-19 66 CONNECTICUT (OT) 70 - 13106"
+    }
+   ],
+   "note": "App lacks the OT flag."
+  },
+  "1992-15|ot": {
+   "truth": "OT (W 97-86)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://friars.com/documents/download/2023/11/9/Color_2023_ThruYears_.pdf",
+     "quote": "1-22 86 CONNECTICUT (OT) (7/5) 97 - 13106"
+    }
+   ],
+   "note": "App lacks the OT flag."
+  },
+  "1984-23|ot": {
+   "truth": "3OT (L 85-87)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://cuse.com/sports/mens-basketball/schedule/1983-84",
+     "quote": "vs Connecticut JMA Wireless Dome Syracuse, N.Y. W, 87-85 3OT Feb 18 (Sat)"
+    },
+    {
+     "url": "http://www.orangehoops.org/GameResults/G1983-1984.htm",
+     "quote": "2/18/1984 | H | Connecticut | W | 87-85 | ... 3OT"
+    }
+   ],
+   "note": "Famous triple-overtime game at the Carrier Dome. App shows no overtime."
+  },
+  "1984-28|date": {
+   "truth": "1984-03-08",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://cuse.com/sports/mens-basketball/schedule/1983-84",
+     "quote": "BIG EAST Tournament vs Connecticut Madison Square Garden ... W, 73-58 Mar 8 (Thu)"
+    },
+    {
+     "url": "http://www.orangehoops.org/GameResults/G1983-1984.htm",
+     "quote": "3/8/1984 | BET | Connecticut | W | 73-58"
+    }
+   ],
+   "note": "Big East tournament first round, Thursday March 8, 1984. App has March 9."
+  },
+  "1986-26|score": {
+   "truth": "L 58-75",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://cuse.com/sports/mens-basketball/schedule/1985-86",
+     "quote": "at Connecticut Hartford Civic Center Hartford, CT W, 75-58 Mar 1 (Sat)"
+    },
+    {
+     "url": "http://www.orangehoops.org/GameResults/G1985-1986.htm",
+     "quote": "3/1/1986 | @ | Connecticut | W | 75-58"
+    }
+   ],
+   "note": "Record book season page prints 68-75; its own Syracuse series history has 58-75. App is right."
+  },
+  "1991-15|ot": {
+   "truth": "OT (L 79-81)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://cuse.com/sports/mens-basketball/schedule/1990-91",
+     "quote": "vs Connecticut JMA Wireless Dome Syracuse, N.Y. W, 81-79 OT Jan 16 (Wed)"
+    }
+   ],
+   "note": "App lacks the OT flag."
+  },
+  "1981-15|ot": {
+   "truth": "OT (W 75-73)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://guhoyas.com/sports/mens-basketball/schedule/1980-81",
+     "quote": "at Connecticut Storrs, Conn. L, 73-75 OT"
+    }
+   ],
+   "note": "Georgetown archive marks OT (its date for this game, Jan 28, conflicts with Jan 24 in UConn and SR records; Georgetown archive dates for 1980s UConn games are unreliable). App lacks the OT flag."
+  },
+  "1982-21|ot": {
+   "truth": "OT (L 82-93)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://redstormsports.com/sports/mens-basketball/schedule/1981-82",
+     "quote": "at Connecticut Hartford, Conn. (Hartford Civic Center) W, 93-82 (OT) Feb 10 (Wed)"
+    }
+   ],
+   "note": "App lacks the OT flag."
+  },
+  "1982-27|date": {
+   "truth": "1982-03-04",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://redstormsports.com/sports/mens-basketball/schedule/1981-82",
+     "quote": "vs Connecticut Hartford, Conn. (Hartford Civic Center) W, 54-52 Mar 4 (Thu)"
+    }
+   ],
+   "note": "Big East tournament (Hartford Civic Center) quarterfinal on Thursday March 4, 1982. App has March 5."
+  },
+  "1983-12|site": {
+   "truth": "H (Hartford Civic Center)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://redstormsports.com/sports/mens-basketball/schedule/1982-83",
+     "quote": "at Connecticut Hartford, Conn. (Hartford Civic Center) W, 85-73 Jan 11 (Tue)"
+    }
+   ],
+   "note": "Big East game hosted by UConn at the Hartford Civic Center. App shows N."
+  },
+  "1983-22|date": {
+   "truth": "1983-02-17",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://redstormsports.com/sports/mens-basketball/schedule/1982-83",
+     "quote": "vs Connecticut Queens, N.Y. (Alumni Hall) W, 98-78 Feb 17 (Thu)"
+    }
+   ],
+   "note": "Record book season page prints 2/14 (series history says 2/12). App (Feb 17) is right."
+  },
+  "1993-3|ot": {
+   "truth": "OT (W 74-72)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://redstormsports.com/sports/mens-basketball/schedule/1992-93",
+     "quote": "at Connecticut STORRS, CONN. (GAMPEL PAVILION) L, 72-74 (OT) Dec 8 (Tue)"
+    }
+   ],
+   "note": "App lacks the OT flag."
+  },
+  "1981-4|site": {
+   "truth": "A (at Boston University)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://goterriers.com/sports/mens-basketball/schedule/1980-81",
+     "quote": "vs Connecticut Boston, MA L, 65-72 Dec 13 (Sat)"
+    }
+   ],
+   "note": "BU lists it as a home game in Boston; UConn record book series history also says A. The season page omits at. App (A) is right."
+  },
+  "1995-16|site": {
+   "truth": "N (Kemper Arena, Kansas City, Mo.; Kansas-hosted game away from Lawrence)",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://kuathletics.com/sports/mens-basketball/schedule/1994-95",
+     "quote": "vs #2 Connecticut Kansas City, Mo. W, 88-59 Jan 28 (Sat)"
+    }
+   ],
+   "note": "Played at Kemper Arena in Kansas City, not Allen Fieldhouse; the record book prints 'at Kansas' (Kansas was the nominal host). Consistent with the earlier ruling on Fairfield-hosted games in New Haven (1988-22 = neutral), the venue makes it neutral, so the app (N) stands. Convention call, not a factual error either way."
+  },
+  "2002-8|site": {
+   "truth": "H (Hartford Civic Center)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://uconnhuskies.com/news/2001/12/28/Huskies_Suffer_88_70_Loss_to_St_Bonaventure",
+     "quote": "St. Bonaventure defeated Connecticut 88-70 before a sellout crowd of 16,294"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "St. Bonaventure series: 12/28/01 L 70-88 HCC"
+    }
+   ],
+   "note": "Ordinary UConn home game at its regular second home arena (no neutral event); Sports-Reference lists it neutral, which the app copied. The record book's attendance 6,294 is a typo for 16,294."
+  },
+  "2014-12|site": {
+   "truth": "H (UConn-hosted game at Webster Bank Arena, Bridgeport)",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://goeags.com/sports/mens-basketball/schedule/2013-14",
+     "quote": "at Connecticut ... L, 65-82 ... December 28, 2013"
+    },
+    {
+     "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=400496938",
+     "quote": "ESPN: UConn home, Eastern Washington away, neutral false"
+    }
+   ],
+   "note": "UConn designated it a home game (counted in its 15-3 home record); Eastern Washington and ESPN treat UConn as host. The venue was off campus, so N is defensible physically, but H matches UConn's official home/away splits."
+  },
+  "2015-9|site": {
+   "truth": "H (UConn-hosted game at Webster Bank Arena, Bridgeport)",
+   "confidence": "medium",
+   "sources": [
+    {
+     "url": "https://gocolumbialions.com/sports/mens-basketball/schedule/2014-15",
+     "quote": "Connecticut Bridgeport, Conn. L, 65-80 Dec 22 (Mon)"
+    },
+    {
+     "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=400586746",
+     "quote": "ESPN: Columbia away, UConn home (Bridgeport arena)"
+    }
+   ],
+   "note": "UConn-hosted designated home game in Bridgeport, counted in UConn's official 11-5 home record; Columbia lists it as a road game. Convention call (off-campus venue)."
+  },
+  "2024-33|site": {
+   "truth": "N (Big East tournament semifinal, Madison Square Garden)",
+   "confidence": "high",
+   "sources": [
+    {
+     "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401625563",
+     "quote": "ESPN: St. John's 90, UConn 95, Madison Square Garden"
+    },
+    {
+     "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+     "quote": "St. John's series: 3/15/24 W 95-90 N-msg"
+    }
+   ],
+   "note": "Conference tournament game at MSG; the record book season page prints 'at St. John's (MSG)' and tallies it as an away game, but its own series history marks it neutral. App (N) is right."
+  }
+ }
+}

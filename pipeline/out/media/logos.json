@@ -1,0 +1,258 @@
+{
+ "generated": "2026-09-30",
+ "season_key": "spring year (2014 = 2013-14)",
+ "logos": [
+  {
+   "key": "husky-1970",
+   "name": "1970s husky head",
+   "first_season": 1971,
+   "last_season": 1981,
+   "description": "Realistic right-facing Jonathan husky head with heavy fur lines, one color (blue #003876) on white. UConn primary athletic mark of the 1970s; replaced for 1981-82. Introduced c. 1970 (SportsLogos dates it 1970-1981; UConn's own timeline just says '1970s'), so first_season 1971 is approximate; the app only needs it for 1977-78 to 1980-81. Caveat: late-1970s basketball press guides (1977-78, 1978-79) also still used the 1960s 'Patriot Husky' spot illustration, and 1981-82 warm-ups carried it, but that was a secondary mark. Vector traced from SportsLogos' 868x901 rendering, TM symbol removed. On a dark card the outer outline is blue (low contrast) but the white face reads clearly; a light plate is optional.",
+   "file": "assets/logos/husky-1970.svg",
+   "format": "svg",
+   "width": 868,
+   "height": 901,
+   "traced": true,
+   "source_image": "https://content.sportslogos.net/logos/35/884/full/uconn_huskies_logo_primary_1970_sportslogosnet-1152.png",
+   "colors": [
+    "#003876",
+    "#ffffff"
+   ],
+   "dark_bg": "ok (blue outline is low-contrast on #0b1a3c; white fill keeps it legible)",
+   "sources": [
+    {
+     "url": "https://www.sportslogos.net/logos/view/88411521970/UConn-Huskies-Logo/1970/Primary-Logo",
+     "quote": "Right-facing Jonathan Husky head with detailed fur lines. Years of official use was in the 1970s."
+    },
+    {
+     "url": "https://today.uconn.edu/2013/04/a-new-husky-for-a-new-era/",
+     "quote": "The new Jonathan Husky logo returns to a more realistic depiction of a Husky, similar to the 1970s look."
+    },
+    {
+     "url": "https://today.uconn.edu/wp-content/uploads/2013/04/UConnHusky-Logo-timelineS.jpg",
+     "quote": "[UConn's official logo timeline image labels this mark '1970s'; next panel is '1980s & 1990s']"
+    },
+    {
+     "url": "https://archive.org/details/197879-UCONN-BASKETBALL-MEDIA-GUIDE-Yearbook-1979-CORNY-THOMPSON-CONNECTICUT",
+     "quote": "[1978-79 Basketball Press Guide: press-info page still shows the 1960s Patriot Husky drawing as a spot illustration]"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "key": "husky-1981",
+   "name": "Friendly husky on blue circle (1981-2002)",
+   "first_season": 1982,
+   "last_season": 2002,
+   "description": "Hand-drawn, friendly open-mouthed husky (tongue out) on a solid blue circle. The full primary also had CONNECTICUT arched above and HUSKIES below; this file is the husky-on-circle without lettering, exactly as UConn's own 2013 logo timeline shows it for '1980s & 1990s'. Built as a vector composite: the head traced from SportsLogos' 870x901 head-only rendering (1981-2002 secondary) plus the circle fitted (center/radius, and the primary's own bottom clipping under the fur) from SportsLogos' 1981-2002 primary; matches the primary at 99.4% of pixels outside the lettering. First confirmed in the 1981-82 UConn basketball yearbook/media guide (fall 1981); the same husky drawing headed the official athletics website from 1999 through Aug. 28, 2002. On a dark card the blue circle is subtle but the white head reads clearly.",
+   "file": "assets/logos/husky-1981.svg",
+   "format": "svg",
+   "width": 879,
+   "height": 906,
+   "traced": true,
+   "source_image": "https://content.sportslogos.net/logos/35/884/full/uconn_huskies_logo_secondary_19813999.png + https://content.sportslogos.net/logos/35/884/full/uconn_huskies_logo_primary_19819385.png",
+   "colors": [
+    "#003876",
+    "#ffffff"
+   ],
+   "dark_bg": "ok (circle is low-contrast on #0b1a3c; head is white)",
+   "sources": [
+    {
+     "url": "https://www.sportslogos.net/logos/view/88496581982/UConn-Huskies-Logo/1981/Primary-Logo",
+     "quote": "New Jonathan Husky head on circle with Connecticut in block letters arched on top"
+    },
+    {
+     "url": "https://today.uconn.edu/wp-content/uploads/2013/04/UConnHusky-Logo-timelineS.jpg",
+     "quote": "[UConn's official logo timeline labels the husky-on-circle '1980s & 1990s']"
+    },
+    {
+     "url": "https://archive.org/details/1981-82-Uconn-college-basketball-yearbook-media-guide-University-of-Connecticut-crew_soccer_fan",
+     "quote": "The Players 1981-1982 [page carries the CONNECTICUT-arched husky-on-circle logo]"
+    },
+    {
+     "url": "https://news.sportslogos.net/2013/03/14/uconn-logo-too-friendly-tougher-one-on-the-way/college/",
+     "quote": "UConn has used the friendlier Jonathan in their logos since 1982"
+    },
+    {
+     "url": "https://web.archive.org/web/19990125104117/http://www.uconnhuskies.com:80/",
+     "quote": "(the official site of University of Connecticut athletics) [Jan 1999 header uses this husky drawing]"
+    },
+    {
+     "url": "https://web.archive.org/web/20020828065652/http://www.uconnhuskies.com:80/",
+     "quote": "[Aug 28, 2002 homepage still uses banner uconn_banner.gif with this husky]"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "key": "husky-2002",
+   "name": "Blue husky with red tongue (2002-2010 colors)",
+   "first_season": 2003,
+   "last_season": 2010,
+   "description": "Modernized, cartoon-style redraw of the friendly husky: navy and white with red tongue, gray eyes/nose highlight and a gray outer outline. Debuted fall 2002: the official athletics site switched to it between Aug 28 and Sep 2, 2002, and it's on the 2002-03 men's basketball media guide back cover. Several 2013 news stories said 'since 1996', citing a Daily Campus article, but primary evidence contradicts that: the 1999 and Jan-Aug 2002 official site, and the 1999 national-champions emblem, all use the older drawing, and UConn itself says 2002. Vector traced from SportsLogos' 839x901 head-only rendering (TM removed). Colors are the 2002 palette per SportsLogos; the same drawing was recolored in 2010 (see husky-2010). The gray outline works well on a dark card.",
+   "file": "assets/logos/husky-2002.svg",
+   "format": "svg",
+   "width": 839,
+   "height": 901,
+   "traced": true,
+   "source_image": "https://content.sportslogos.net/logos/35/884/full/uconn_huskies_logo_secondary_20027498.png",
+   "colors": [
+    "#003263",
+    "#ffffff",
+    "#999b9e",
+    "#ee3a43"
+   ],
+   "dark_bg": "good (gray outer outline)",
+   "sources": [
+    {
+     "url": "https://today.uconn.edu/2013/04/a-new-husky-for-a-new-era/",
+     "quote": "There since have been five different Husky dog logos used, with the most recent update in 2002."
+    },
+    {
+     "url": "https://today.uconn.edu/wp-content/uploads/2013/04/UConnHusky-Logo-timelineS.jpg",
+     "quote": "[UConn's official logo timeline labels this mark '2002 - 2013']"
+    },
+    {
+     "url": "https://www.sportslogos.net/logos/view/88415011996/UConn-Huskies-Logo/2002/Primary-Logo",
+     "quote": "In 2002, UConn modernized the Johnathan Husky logo keeping the similar design as before and updated its typography."
+    },
+    {
+     "url": "https://web.archive.org/web/20020902185516/http://www.uconnhuskies.com:80/",
+     "quote": "Upcoming Events FOOTBALL Sat., Sept. 7 vs. Georgia Tech [new Flash header with this husky, Sep 2, 2002]"
+    },
+    {
+     "url": "https://archive.org/details/2002-2003-University-of-Connecticut-UConn-Mens-Basketball-Media-Guide-mwl95001",
+     "quote": "2002-03 UConn Basketball Schedule [back cover shows this husky]"
+    },
+    {
+     "url": "https://patch.com/connecticut/wallingford/uconn-revamping-its-iconic-husky-logo",
+     "quote": "It has been the official logo for UConn's athletic teams since 1996, according to the Daily Campus story. [contradicted by evidence above]"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "key": "husky-2010",
+   "name": "Blue husky with red tongue (2010-2013 colors)",
+   "first_season": 2011,
+   "last_season": 2013,
+   "description": "Same drawing as husky-2002, recolored in 2010: darker navy, lighter gray, brighter red. SportsLogos is the only source for the recolor and gives just the year 2010, so starting it with the 2010-11 season is an inference. To ignore the recolor, map 2011-2013 to husky-2002. Vector traced from SportsLogos' 838x901 head-only rendering (registered-trademark symbol removed). The gray outline works well on a dark card.",
+   "file": "assets/logos/husky-2010.svg",
+   "format": "svg",
+   "width": 838,
+   "height": 901,
+   "traced": true,
+   "source_image": "https://content.sportslogos.net/logos/35/884/full/uconn_huskies_logo_secondary_20106127.png",
+   "colors": [
+    "#0b2240",
+    "#ffffff",
+    "#c7c7c7",
+    "#ea0a2a"
+   ],
+   "dark_bg": "good (light gray outer outline)",
+   "sources": [
+    {
+     "url": "https://www.sportslogos.net/logos/view/88424362010/UConn-Huskies-Logo/2010/Primary-Logo",
+     "quote": "In 2010, UConn changed their colors slightly, most importantly the gray. Elements of their logos were not changed."
+    },
+    {
+     "url": "https://www.sportslogos.net/logos/view/ghovi5anh2dhgfkif411/UConn-Huskies-Logo/2010/Secondary-Logo",
+     "quote": "In 2010, UConn changed their colors slightly, most importantly the gray."
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "key": "husky-2013",
+   "name": "Nike husky head (2013-present)",
+   "first_season": 2014,
+   "last_season": 2027,
+   "description": "Front-facing, fierce husky head designed with Nike (Graphic Identity Group). Unveiled April 11, 2013: it leaked online, so UConn released it a week before the planned April 18 event. On uniforms of all 24 UConn programs from 2013-14 onward, and still the primary mark in 2026-27. The file is the original vector from Wikipedia ('Connecticut Huskies logo.svg', cleaned 2017) in official colors: navy #000E2F, red #E4002B, gray #A2AAAD, eye blue #A4C8E1. Checked against the ESPN, SportsLogos and NCAA renderings: same design. Not traced. The gray outline works on a dark card.",
+   "file": "assets/logos/husky-2013.svg",
+   "format": "svg",
+   "width": 150,
+   "height": 187.07,
+   "traced": false,
+   "source_image": "https://en.wikipedia.org/wiki/File:Connecticut_Huskies_logo.svg",
+   "colors": [
+    "#000e2f",
+    "#ffffff",
+    "#a2aaad",
+    "#e4002b",
+    "#a4c8e1"
+   ],
+   "dark_bg": "good (gray outer outline)",
+   "sources": [
+    {
+     "url": "https://uconnhuskies.com/news/2013/4/11/UConn_Athletics_Unveils_New_Visual_Identity.aspx",
+     "quote": "The new Husky Dog logo will be featured on uniforms for every one of UConn's 24 athletic programs in 2013-14"
+    },
+    {
+     "url": "https://www.espn.com/college-sports/story/_/id/9161865/connecticut-huskies-uconn-releases-new-husky-logo-earlier-planned",
+     "quote": "The logo was supposed to be released at press event scheduled for April 18."
+    },
+    {
+     "url": "https://www.sportslogos.net/logos/view/88464902013/UConn-Huskies-Logo/2013/Primary-Logo",
+     "quote": "Partnered with Graphic Identity Group (GIG) of Nike, UConn ushered in a new era of their athletics identity."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/File:Connecticut_Huskies_logo.svg",
+     "quote": "cleaned up [file revision 2017-07-14; source of this SVG]"
+    }
+   ],
+   "confidence": "high"
+  }
+ ],
+ "by_season": {
+  "1978": "husky-1970",
+  "1979": "husky-1970",
+  "1980": "husky-1970",
+  "1981": "husky-1970",
+  "1982": "husky-1981",
+  "1983": "husky-1981",
+  "1984": "husky-1981",
+  "1985": "husky-1981",
+  "1986": "husky-1981",
+  "1987": "husky-1981",
+  "1988": "husky-1981",
+  "1989": "husky-1981",
+  "1990": "husky-1981",
+  "1991": "husky-1981",
+  "1992": "husky-1981",
+  "1993": "husky-1981",
+  "1994": "husky-1981",
+  "1995": "husky-1981",
+  "1996": "husky-1981",
+  "1997": "husky-1981",
+  "1998": "husky-1981",
+  "1999": "husky-1981",
+  "2000": "husky-1981",
+  "2001": "husky-1981",
+  "2002": "husky-1981",
+  "2003": "husky-2002",
+  "2004": "husky-2002",
+  "2005": "husky-2002",
+  "2006": "husky-2002",
+  "2007": "husky-2002",
+  "2008": "husky-2002",
+  "2009": "husky-2002",
+  "2010": "husky-2002",
+  "2011": "husky-2010",
+  "2012": "husky-2010",
+  "2013": "husky-2010",
+  "2014": "husky-2013",
+  "2015": "husky-2013",
+  "2016": "husky-2013",
+  "2017": "husky-2013",
+  "2018": "husky-2013",
+  "2019": "husky-2013",
+  "2020": "husky-2013",
+  "2021": "husky-2013",
+  "2022": "husky-2013",
+  "2023": "husky-2013",
+  "2024": "husky-2013",
+  "2025": "husky-2013",
+  "2026": "husky-2013",
+  "2027": "husky-2013"
+ }
+}

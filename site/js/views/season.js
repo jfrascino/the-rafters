@@ -51,7 +51,7 @@ export default async function season(main, args, core) {
   </div></section>
 
   ${ncaa.length || nit.length ? runSection(ncaa.length ? ncaa : nit, ncaa.length ? 'NCAA Tournament' : 'NIT', champ) : ''}
-  ${ctourn.length ? runSection(ctourn, `${s.confShort || 'Conference'} Tournament`, false, true) : ''}
+  ${ctourn.length ? runSection(ctourn, `${s.conf === 'Ind' ? 'ECAC' : s.confShort || 'Conference'} Tournament`, false, true) : ''}
 
   <section class="section"><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow">${roster.length} players</span><h2 class="h2">The roster</h2></div><span class="aside">Tap a card to flip it for the full stat line.</span></div>
