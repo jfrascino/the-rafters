@@ -1317,7 +1317,7 @@ for y in years:
             det = newspaper_det(g, NEWSPAPER_BOXES[gid], opp)
             row['box'] = 'newspaper'
         # attendance settled by the Moments fact-checks where our box sources have none (record book misprints 2004: 44,147 twice)
-        ATT_FIX = {'1999-36': 41340, '2004-38': 44417, '2004-39': 44468, '2009-31': 19375}
+        ATT_FIX = {'1999-36': 41340, '2004-38': 44417, '2004-39': 44468, '2009-31': 19375, '2006-34': 19718}
         if det and not det.get('att') and gid in ATT_FIX:
             det['att'] = ATT_FIX[gid]
         if det:

@@ -1,0 +1,514 @@
+{
+ "slug": "george-mason-2006",
+ "gameId": "2006-34",
+ "title": "George Mason Ends UConn's Final Four Dream",
+ "nickname": null,
+ "dek": "Denham Brown's buzzer-beating reverse forced overtime, but 11th-seeded George Mason never trailed in the extra period and stunned top-seeded UConn, 86-84, to reach the Final Four.",
+ "date": "2006-03-26",
+ "tip": {
+  "text": "2:40 p.m. ET",
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2018/6/26/Elite_Eight_Notes.pdf",
+   "http://web.archive.org/web/20121111124813/http://sports.espn.go.com/ncb/boxscore?gameId=264000030"
+  ]
+ },
+ "venue": "Verizon Center",
+ "city": "Washington, DC",
+ "attendance": {
+  "n": 19718,
+  "sources": [
+   "http://web.archive.org/web/20121111124813/http://sports.espn.go.com/ncb/boxscore?gameId=264000030",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html"
+  ]
+ },
+ "event": "NCAA tournament Washington, D.C. Regional final (Elite Eight)",
+ "tv": {
+  "network": "CBS",
+  "announcers": [
+   "Verne Lundquist",
+   "Bill Raftery"
+  ],
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2018/6/26/Elite_Eight_Notes.pdf",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://www.youtube.com/watch?v=atY_K6AYDjg",
+   "https://www.sportsbroadcastinghalloffame.org/inductees/bill-raftery/",
+   "https://www.youtube.com/watch?v=BpZPInZlWKE"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "30-3",
+   "rank": "2 (AP)",
+   "seed": "1 (Washington, D.C. Region)"
+  },
+  "opp": {
+   "record": "26-7",
+   "rank": "unranked",
+   "seed": "11 (Washington, D.C. Region)"
+  },
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2018/6/26/Elite_Eight_Notes.pdf",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "setup": [
+  {
+   "text": "UConn arrived at the regional final as the No. 1 seed in the Washington, D.C. Region, 30-3 and ranked No. 2 in the AP poll. Jim Calhoun's Huskies had beaten Albany, Kentucky and Washington to get there \u2014 the last one in overtime on Friday night.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2018/6/26/Elite_Eight_Notes.pdf",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "http://web.archive.org/web/20121111124813/http://sports.espn.go.com/ncb/boxscore?gameId=264000030"
+   ]
+  },
+  {
+   "text": "None of those wins came easily. UConn trailed Albany by 12 with 12 minutes left, survived Kentucky by making six free throws in the final 30 seconds, and forced overtime against Washington on Rashad Anderson's long 3-pointer with 1.8 seconds to go.",
+   "sources": [
+    "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html",
+    "https://uconnhuskies.com/documents/download/2018/6/26/Elite_Eight_Notes.pdf"
+   ]
+  },
+  {
+   "text": "The roster was stacked with pros-in-waiting. Three months later, Rudy Gay (No. 8), Hilton Armstrong (No. 12), Marcus Williams (No. 22) and Josh Boone (No. 23) went in the first round of the NBA draft and Denham Brown went 40th \u2014 making UConn the first school to have five players taken in a two-round draft.",
+   "sources": [
+    "https://uconnhuskies.com/news/2006/6/28/Five_Huskies_Earn_Selection_at_the_2006_NBA_Draft"
+   ]
+  },
+  {
+   "text": "George Mason, a commuter school from Fairfax, Va., in the Colonial Athletic Association, had been a contested at-large pick \u2014 CBS commentator Billy Packer was among the critics. The Patriots had never won an NCAA tournament game before this March, then beat Michigan State, North Carolina and Wichita State. The Verizon Center sat about 20 miles from their campus.",
+   "sources": [
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030",
+    "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html",
+    "https://uconnhuskies.com/documents/download/2018/6/26/Elite_Eight_Notes.pdf"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "UConn opened 7-for-10 from the floor but could not shake the Patriots. Two free throws by Will Thomas with 3:07 left in the half put George Mason ahead 29-28, its only lead of the half. UConn answered with a 15-2 run and led 43-31 after Rashad Anderson's 3-pointer with 10 seconds left.",
+   "sources": [
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030",
+    "site:plays/2006-34"
+   ]
+  },
+  {
+   "text": "Folarin Campbell's three-point play in the final seconds made it 43-34 at the half. Mason pulled within one early in the second half with an 8-0 run, and Campbell's 3-pointer at 12:32 tied it at 49. Lamar Butler's 3 at 11:12 gave Mason its first lead of the half, 52-51.",
+   "sources": [
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030",
+    "site:plays/2006-34"
+   ]
+  },
+  {
+   "text": "The Patriots made six straight 3-pointers in the second half. From the 10:37 mark of regulation to the end of overtime, Jim Larranaga never substituted. Jai Lewis' jumper at 5:54 put Mason ahead to stay in regulation, 64-63, and Tony Skinn's 3 at 4:58 made it 67-63.",
+   "sources": [
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030",
+    "site:plays/2006-34",
+    "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html"
+   ]
+  },
+  {
+   "text": "Mason kept going inside to Lewis and Thomas, even though UConn had led the nation in blocked shots five seasons running. The Patriots' three frontcourt starters outscored UConn's 54-34 and outrebounded them 21-15.",
+   "sources": [
+    "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "2H",
+   "clock": "0:47",
+   "uconn": 70,
+   "opp": 71,
+   "text": "Marcus Williams scores on a layup, gets fouled by Butler and makes the free throw. UConn is within one.",
+   "sources": [
+    "site:plays/2006-34",
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:23",
+   "uconn": 70,
+   "opp": 74,
+   "text": "Butler steals the ball, gets fouled by Anderson and makes both free throws. Mason by four.",
+   "sources": [
+    "site:plays/2006-34"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:07",
+   "uconn": 72,
+   "opp": 74,
+   "text": "Williams drives the lane and scores, then UConn calls timeout.",
+   "sources": [
+    "site:plays/2006-34",
+    "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:06",
+   "uconn": 72,
+   "opp": 74,
+   "text": "Skinn misses the front end of a one-and-one. Rudy Gay rebounds.",
+   "sources": [
+    "site:plays/2006-34",
+    "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:00",
+   "uconn": 74,
+   "opp": 74,
+   "text": "Denham Brown drives down the left side, goes under the basket and flips up a reverse layup. It bounces on the rim three times and drops through as the buzzer sounds. Overtime.",
+   "sources": [
+    "site:plays/2006-34",
+    "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html",
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030"
+   ]
+  },
+  {
+   "period": "OT",
+   "clock": "4:13",
+   "uconn": 74,
+   "opp": 76,
+   "text": "Thomas hits a jumper to open overtime. Mason scores first and never trails again.",
+   "sources": [
+    "site:plays/2006-34",
+    "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html"
+   ]
+  },
+  {
+   "period": "OT",
+   "clock": "1:10",
+   "uconn": 80,
+   "opp": 84,
+   "text": "Campbell's baseline fadeaway makes it a four-point game.",
+   "sources": [
+    "site:plays/2006-34",
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030"
+   ]
+  },
+  {
+   "period": "OT",
+   "clock": "0:42",
+   "uconn": 80,
+   "opp": 84,
+   "text": "Anderson airballs a 3-pointer that would have cut the lead to one.",
+   "sources": [
+    "site:plays/2006-34",
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030"
+   ]
+  },
+  {
+   "period": "OT",
+   "clock": "0:11",
+   "uconn": 84,
+   "opp": 86,
+   "text": "Brown misses a 3, but UConn keeps the ball, and Williams buries a 3-pointer. UConn is within two.",
+   "sources": [
+    "site:plays/2006-34"
+   ]
+  },
+  {
+   "period": "OT",
+   "clock": "0:06",
+   "uconn": 84,
+   "opp": 86,
+   "text": "Lewis misses two free throws with 6.1 seconds left, which leaves UConn one last chance. Brown grabs the rebound.",
+   "sources": [
+    "site:plays/2006-34",
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030"
+   ]
+  },
+  {
+   "period": "OT",
+   "clock": "0:00",
+   "uconn": 84,
+   "opp": 86,
+   "text": "Brown passes up a 17-footer, steps back to the left wing and shoots a 3 for the win. It hits the rim and bounces away at the buzzer. George Mason is going to the Final Four.",
+   "sources": [
+    "site:plays/2006-34",
+    "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html",
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "0",
+   "label": "No. 1 seeds in the Final Four \u2014 a first since the field expanded to 64 teams in 1985",
+   "sources": [
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030"
+   ]
+  },
+  {
+   "value": "11",
+   "label": "Mason's seed. Only one double-digit seed had reached a Final Four before: 1986 LSU, also an 11",
+   "sources": [
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030",
+    "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html"
+   ]
+  },
+  {
+   "value": "5",
+   "label": "Mason players who went the last 10:37 of regulation and all of overtime without a substitution",
+   "sources": [
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030"
+   ]
+  },
+  {
+   "value": "4 of 6",
+   "label": "free throws Mason missed in the final 41 seconds of overtime, which kept UConn alive",
+   "sources": [
+    "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html"
+   ]
+  },
+  {
+   "value": "5",
+   "label": "Huskies drafted three months later, the first time any school had five players picked in a two-round draft",
+   "sources": [
+    "https://uconnhuskies.com/news/2006/6/28/Five_Huskies_Earn_Selection_at_the_2006_NBA_Draft"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "I thought we had dodged a bullet. We needed an adrenaline shot and we got it.",
+   "who": "Jim Calhoun",
+   "role": "UConn coach, on Brown's tying layup",
+   "when": "postgame",
+   "source": "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html"
+  },
+  {
+   "text": "Now we have to beat them in a five-minute game.",
+   "who": "Jim Larranaga",
+   "role": "George Mason coach, recalling what he told his team before overtime",
+   "when": "postgame",
+   "source": "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html"
+  },
+  {
+   "text": "They played tough and have a lot of heart.",
+   "who": "Rudy Gay",
+   "role": "UConn forward",
+   "when": "postgame",
+   "source": "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030"
+  },
+  {
+   "text": "By George, the dream is alive!",
+   "who": "Verne Lundquist",
+   "role": "CBS play-by-play announcer",
+   "when": "live call at the final buzzer",
+   "source": "https://www.youtube.com/watch?v=BpZPInZlWKE"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "George Mason went to the Final Four in Indianapolis and lost to Florida 73-58 in the national semifinals, finishing 27-8.",
+   "sources": [
+    "http://web.archive.org/web/20110124164149/http://www.nytimes.com/2006/04/02/sports/ncaabasketball/02mason.html"
+   ]
+  },
+  {
+   "text": "UConn finished 30-4. That June, Gay, Armstrong, Williams and Boone went in the first round of the NBA draft and Brown in the second.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://uconnhuskies.com/news/2006/6/28/Five_Huskies_Earn_Selection_at_the_2006_NBA_Draft"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "Mason became the first team from the CAA to get this far, and the first true outsider in the Final Four since Penn and Indiana State in 1979.",
+   "sources": [
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "BpZPInZlWKE",
+   "title": "George Mason vs. UConn: 2006 Elite Eight | FULL GAME",
+   "channel": "March Madness",
+   "kind": "full_game",
+   "start": 4570,
+   "why": "Official NCAA March Madness channel; description says it is the 86-84 overtime Elite Eight game. Its auto-captions put Brown's tying layup at about 4,578 s and Lundquist's 'by George ... the dream is alive' call at about 5,708 s. Already in the site's videos[]."
+  },
+  {
+   "youtube": "gGHQ6xpnahI",
+   "title": "George Mason Shocks The Hoops World",
+   "channel": "CBS",
+   "kind": "highlights",
+   "start": null,
+   "why": "CBS upload; description says George Mason beat UConn 86-84 in overtime to finish its run to the 2006 Final Four."
+  },
+  {
+   "youtube": "b67YkIt6V6Q",
+   "title": "UConn Ties It Against Mason",
+   "channel": "Chris Mottram",
+   "kind": "final_play",
+   "start": null,
+   "why": "32-second clip uploaded March 26, 2006; description says it shows UConn tying the game at the end of regulation (Brown's layup)."
+  },
+  {
+   "youtube": "H5UEi1bwwdg",
+   "title": "Mason Upsets UConn",
+   "channel": "Chris Mottram",
+   "kind": "final_play",
+   "start": null,
+   "why": "36-second clip uploaded March 26, 2006; description says it shows UConn missing the last-second shot as the 11 seed beats the 1."
+  },
+  {
+   "youtube": "atY_K6AYDjg",
+   "title": "George Mason vs. UCONN - 2006 NCAA Tournament East Regional Final (Elite 8)",
+   "channel": "Distant Replay",
+   "kind": "documentary",
+   "start": null,
+   "why": "46-minute retrospective episode about this game; description names Lundquist and Raftery on the call. Already in the site's videos[]. Its title wrongly calls it the 'East' Regional \u2014 it was the Washington, D.C. Regional."
+  }
+ ],
+ "photos": [],
+ "newspaper": [],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "attendance",
+   "ours": "null (site/data/games/2006.json att)",
+   "source_says": "19,718",
+   "sources": [
+    "http://web.archive.org/web/20121111124813/http://sports.espn.go.com/ncb/boxscore?gameId=264000030",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html"
+   ]
+  },
+  {
+   "field": "officials",
+   "ours": "[] (empty)",
+   "source_says": "Scott Thornley, Tony Greene, Zelton Steed",
+   "sources": [
+    "http://web.archive.org/web/20121111124813/http://sports.espn.go.com/ncb/boxscore?gameId=264000030"
+   ]
+  },
+  {
+   "field": "tv",
+   "ours": "null",
+   "source_says": "CBS (Verne Lundquist, Bill Raftery)",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2018/6/26/Elite_Eight_Notes.pdf",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.youtube.com/watch?v=atY_K6AYDjg",
+    "https://www.sportsbroadcastinghalloffame.org/inductees/bill-raftery/"
+   ]
+  },
+  {
+   "field": "clock \u2014 Campbell's tying 3 and Butler's go-ahead 3",
+   "ours": "12:32 and 11:12 (site:plays/2006-34)",
+   "source_says": "AP: 12:31 and 11:09",
+   "sources": [
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030",
+    "site:plays/2006-34"
+   ]
+  },
+  {
+   "field": "clock \u2014 Lewis's go-ahead jumper / Williams's late layup",
+   "ours": "5:54 and 0:07 (site:plays/2006-34)",
+   "source_says": "NYT: 5:55 and 7.9 seconds",
+   "sources": [
+    "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html",
+    "site:plays/2006-34"
+   ]
+  },
+  {
+   "field": "Brown's tying layup timing",
+   "ours": "0:01 (site:plays/2006-34)",
+   "source_says": "AP and NYT: at the regulation buzzer (the ball dropped as the buzzer sounded)",
+   "sources": [
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030",
+    "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html",
+    "site:plays/2006-34"
+   ]
+  },
+  {
+   "field": "how Williams' 70-71 three-point play started",
+   "ours": "site:plays logs a Marcus Williams defensive rebound at 0:57, no steal",
+   "source_says": "AP: 'Marcus Williams' steal and three-point play'",
+   "sources": [
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030",
+    "site:plays/2006-34"
+   ]
+  },
+  {
+   "field": "Lewis's missed free throws",
+   "ours": "site:plays: Lewis misses at 0:42 and twice at 0:06 (Thomas also misses one at 0:26)",
+   "source_says": "AP: Lewis missed three attempts in the final 15 seconds",
+   "sources": [
+    "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030",
+    "site:plays/2006-34"
+   ]
+  }
+ ],
+ "unsure": [
+  "Rashad Anderson was not drafted in 2006 (the UConn release lists only Gay, Armstrong, Williams, Boone and Brown). I did not verify any NBA career for him, so he is not called a future NBA player here.",
+  "The full-game captions suggest the officials reviewed Brown's layup ('they're reviewing ... out of his hand'), but I left the replay review out of the narrative because no written source confirms it.",
+  "The site's game-level data have no entering AP rank for George Mason. The record book's opponent-rank column is blank for this game, which I read as unranked.",
+  "Video start times come from YouTube auto-caption timing and are approximate."
+ ],
+ "sources": [
+  {
+   "url": "site:plays/2006-34",
+   "what": "Site ESPN play-by-play; backbone for clocks and scores"
+  },
+  {
+   "url": "http://web.archive.org/web/20060614155503/http://sports.espn.go.com:80/ncb/recap?gameId=264000030",
+   "what": "AP game story as published on ESPN.com, March 26, 2006 (Wayback)"
+  },
+  {
+   "url": "https://gomason.com/news/2006/3/26/205047164.aspx",
+   "what": "George Mason athletics repost of the AP story"
+  },
+  {
+   "url": "http://web.archive.org/web/20090424235101/http://www.nytimes.com/2006/03/27/sports/ncaabasketball/27mason.html",
+   "what": "New York Times game story, March 27, 2006 (Wayback)"
+  },
+  {
+   "url": "http://web.archive.org/web/20121111124813/http://sports.espn.go.com/ncb/boxscore?gameId=264000030",
+   "what": "ESPN box score: tip time, line score, officials, attendance (Wayback)"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn record book: 2005-06 schedule (AP ranks, attendance 19,718, CBS), NCAA results"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2018/6/26/Elite_Eight_Notes.pdf",
+   "what": "UConn Elite Eight game notes: entering records, seeds, 2:40 p.m. tip, CBS"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2006/6/28/Five_Huskies_Earn_Selection_at_the_2006_NBA_Draft",
+   "what": "UConn release on the five Huskies drafted in 2006"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=BpZPInZlWKE",
+   "what": "Full CBS broadcast (March Madness channel); auto-captions confirm Lundquist's call"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=atY_K6AYDjg",
+   "what": "Distant Replay retrospective; names Lundquist and Raftery as broadcasters"
+  },
+  {
+   "url": "https://www.sportsbroadcastinghalloffame.org/inductees/bill-raftery/",
+   "what": "Sports Broadcasting Hall of Fame: Raftery called the 2006 Mason-UConn regional final"
+  },
+  {
+   "url": "http://web.archive.org/web/20110124164149/http://www.nytimes.com/2006/04/02/sports/ncaabasketball/02mason.html",
+   "what": "NYT Final Four story: Florida 73, George Mason 58"
+  }
+ ],
+ "_verified": {
+  "checked": 96,
+  "ok": 89,
+  "edits": 10
+ }
+}

@@ -38,6 +38,10 @@ TAGS = {
     'thirty-zero-2024': ['March'],
     'back-to-back-2024': ['Championships', 'March'],
     'mullins-duke-2026': ['Buzzer-beaters', 'March'],
+    'kemba-march-2011': ['March'],
+    'laettner-1990': ['Heartbreak', 'March'],
+    'george-mason-2006': ['Heartbreak', 'March'],
+    'syracuse-3ot-1984': ['Marathons'],
 }
 KIND_ORDER = {'final_play': 0, 'highlights': 1, 'moment': 1, 'espn': 2, 'radio': 2, 'documentary': 3, 'full_game': 4, 'interview': 5}
 

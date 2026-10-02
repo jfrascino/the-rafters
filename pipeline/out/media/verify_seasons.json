@@ -422,6 +422,15 @@
    "new": "Ray Allen's off-balance winner with 13.6 seconds to go, 75\u201374",
    "reason": "UPI and the game's on-screen clock put Allen's shot at 13.6 seconds left.",
    "source": "UPI game story, March 9, 1996; ESPN broadcast (Moments research 2026-10-01)"
+  },
+  {
+   "year": 1984,
+   "field": "story",
+   "status": "FIX",
+   "old": "before 29,254 fans in the Carrier Dome",
+   "new": "before 29,294 fans in the Carrier Dome",
+   "reason": "Syracuse's official box score and the wire box both print 29,294; the Daily Campus figures were misprints.",
+   "source": "https://cuse.com/documents/2011/4/11/Connecticut2.18.84.pdf"
   }
  ]
 }

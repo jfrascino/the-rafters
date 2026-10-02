@@ -1,0 +1,785 @@
+{
+ "slug": "syracuse-3ot-1984",
+ "gameId": "1984-23",
+ "title": "Three Overtimes in the Carrier Dome",
+ "nickname": null,
+ "dek": "Before 29,294 at the Carrier Dome, 11-point underdog UConn twice made free throws with no time left to survive, then fell to No. 16 Syracuse 87-85 in triple overtime.",
+ "date": "1984-02-18",
+ "tip": null,
+ "venue": "Carrier Dome",
+ "city": "Syracuse, NY",
+ "attendance": {
+  "n": 29294,
+  "sources": [
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=8",
+   "http://orangehoops.org/Box%20Scores/19840218.htm",
+   "https://cuse.com/documents/2011/4/11/Connecticut2.18.84.pdf?id=5159"
+  ]
+ },
+ "event": "Big East regular season",
+ "tv": null,
+ "entering": {
+  "uconn": {
+   "record": "12-10 (4-8 Big East)",
+   "rank": "unranked",
+   "seed": ""
+  },
+  "opp": {
+   "record": "16-5 (9-2 Big East)",
+   "rank": "16 (AP)",
+   "seed": ""
+  },
+  "sources": [
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-18.pdf#page=6",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up"
+  ]
+ },
+ "setup": [
+  {
+   "text": "Dom Perno's Huskies came to Syracuse 4-8 in the Big East and in eighth place. They had just ended a five-game losing streak with a win at Seton Hall.",
+   "sources": [
+    "https://archive.org/details/ct_daily_campus_1984-02-17",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-18.pdf#page=6",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "Syracuse was 16th in the nation and second in the Big East. Jim Boeheim's team had star forward Rafael Addison and a freshman guard, Pearl Washington, whom the student paper called a near-lock for Big East Rookie of the Year. In January, the Orangemen had routed UConn 95-68 in Hartford.",
+   "sources": [
+    "https://archive.org/details/ct_daily_campus_1984-02-17",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "UConn was without its scoring leader, Earl Kelley, who was hurt. Senior guard Vern Giscombe had taken his place in the lineup. The Huskies had one win in their last six games and were 11-point underdogs.",
+   "sources": [
+    "https://archive.org/details/ct_daily_campus_1984-02-17",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "Syracuse led 36-29 at halftime. UConn outscored Syracuse 38-31 in the second half, and with five seconds left in regulation, Ray Broxton hit a 12-foot jumper to tie it 67-67.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=8",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n9/mode/1up"
+   ]
+  },
+  {
+   "text": "From there, the game turned into a free-throw test in front of a road crowd of more than 29,000. Boeheim got so angry with Washington at one point that he threw his jacket into the stands and pulled off his tie.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=8"
+   ]
+  },
+  {
+   "text": "Point guard Karl Hobbs made only 1 of 12 shots but had nine assists in 54 minutes. He also guarded Washington, holding the freshman to 13 points with six turnovers. Six players fouled out \u2014 Broxton, Tim Coles and Alvin Frederick for UConn, and Addison, Andre Hawkins and Wendell Alexis for Syracuse.",
+   "sources": [
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n9/mode/1up",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=8"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "2H",
+   "clock": "0:05",
+   "uconn": 67,
+   "opp": 67,
+   "text": "Broxton's 12-foot jumper ties the game and sends it to overtime.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n9/mode/1up"
+   ]
+  },
+  {
+   "period": "OT1",
+   "clock": "0:00",
+   "uconn": 77,
+   "opp": 77,
+   "text": "Reserve center Larry Blucher, used sparingly all season, makes two free throws after the first overtime has ended. Blucher goes to the bench and hugs Perno \u2014 and is told to get back in the huddle. The game is only tied, 77-77.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up"
+   ]
+  },
+  {
+   "period": "OT2",
+   "clock": "0:00",
+   "uconn": 79,
+   "opp": 79,
+   "text": "Five minutes later, Giscombe does it again: two free throws with no time showing tie the game 79-79 and force a third overtime.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up"
+   ]
+  },
+  {
+   "period": "OT3",
+   "clock": null,
+   "uconn": 79,
+   "opp": 86,
+   "text": "Syracuse pulls ahead by seven. George Papadakos, a reserve, makes two free throws for an 86-79 lead, the eventual winning margin.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up"
+   ]
+  },
+  {
+   "period": "OT3",
+   "clock": "0:37",
+   "uconn": 85,
+   "opp": 86,
+   "text": "Syracuse misses three one-and-ones. UConn comes back, and Vicente Ithier's basket cuts the lead to 86-85.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up"
+   ]
+  },
+  {
+   "period": "OT3",
+   "clock": "0:05",
+   "uconn": 85,
+   "opp": 86,
+   "text": "UConn's last play was designed for Hobbs to drive the baseline, but he is well guarded. Ithier takes the shot and misses.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up"
+   ]
+  },
+  {
+   "period": "OT3",
+   "clock": null,
+   "uconn": 85,
+   "opp": 87,
+   "text": "Howard Triche makes a free throw to seal it. Syracuse 87, UConn 85.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=8"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "29,294",
+   "label": "fans in the Carrier Dome",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=8",
+    "http://orangehoops.org/Box%20Scores/19840218.htm",
+    "https://cuse.com/documents/2011/4/11/Connecticut2.18.84.pdf?id=5159"
+   ]
+  },
+  {
+   "value": "2",
+   "label": "times UConn made two free throws with no time on the clock to force another overtime",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up"
+   ]
+  },
+  {
+   "value": "55",
+   "label": "minutes played by Vern Giscombe \u2014 every minute of the game \u2014 on his way to a career-high 24 points",
+   "sources": [
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+    "http://orangehoops.org/Box%20Scores/19840218.htm"
+   ]
+  },
+  {
+   "value": "6",
+   "label": "players who fouled out, three per team",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=8",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n9/mode/1up"
+   ]
+  },
+  {
+   "value": "1 of 12",
+   "label": "Karl Hobbs' shooting, though he had 9 assists and became the Big East's all-time assist leader that night",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=8",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n9/mode/1up",
+    "https://archive.org/details/ct_daily_campus_1984-02-21"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "They had their backs to the wall and just wouldn't quit.",
+   "who": "Dom Perno",
+   "role": "UConn coach",
+   "when": "postgame",
+   "source": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6"
+  },
+  {
+   "text": "I figured there was only one way I could quiet them down.",
+   "who": "Larry Blucher",
+   "role": "UConn center, on his free throws after the first overtime",
+   "when": "postgame",
+   "source": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6"
+  },
+  {
+   "text": "I wanted to fulfill my dream and shut the crowd up at that moment.",
+   "who": "Vern Giscombe",
+   "role": "UConn senior guard, on his free throws after the second overtime",
+   "when": "postgame",
+   "source": "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up"
+  },
+  {
+   "text": "I never want to play another one like that one.",
+   "who": "Jim Boeheim",
+   "role": "Syracuse coach",
+   "when": "postgame",
+   "source": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "The loss dropped UConn to 12-11 and 4-9 in the Big East. Syracuse moved to 17-5 and 10-2.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up"
+   ]
+  },
+  {
+   "text": "Two nights later, the Huskies beat Providence 62-59 before a sellout crowd of 4,660 at the Field House in Storrs. Giscombe, playing his last game there, led UConn with 17.",
+   "sources": [
+    "https://archive.org/details/ct_daily_campus_1984-02-21",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "UConn lost its last four games, the final one 73-58 to Syracuse in the Big East quarterfinals at Madison Square Garden, and finished 13-15.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "UConn's record book lists this 87-85 loss among its triple-overtime games. The Daily Campus summed it up the next Monday: the biggest win of the season had also been its most heartbreaking loss.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up"
+   ]
+  }
+ ],
+ "videos": [],
+ "photos": [],
+ "newspaper": [
+  {
+   "paper": "Connecticut Daily Campus",
+   "date": "1984-02-20",
+   "page_url": "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up",
+   "iiif": "https://iiif.archive.org/image/iiif/3/ct_daily_campus_1984-02-20%2F20002_860289636_jp2.zip%2F20002_860289636_jp2%2F20002_860289636_0011.jp2/187,208,1333,1292/max/0/default.jpg",
+   "headline": "Huskies lose in triple overtime, but gain respect",
+   "verified": "Page 12 (back page) game story by Dana Gauruder, Bill Hisey and the AP, datelined Syracuse. I read it from the page image. The photo on this page shows Giscombe in an EARLIER meeting, per its caption, so it is not from this game."
+  },
+  {
+   "paper": "Connecticut Daily Campus",
+   "date": "1984-02-20",
+   "page_url": "https://archive.org/details/ct_daily_campus_1984-02-20/page/n9/mode/1up",
+   "iiif": "https://iiif.archive.org/image/iiif/3/ct_daily_campus_1984-02-20%2F20002_860289636_jp2.zip%2F20002_860289636_jp2%2F20002_860289636_0009.jp2/860,290,370,840/max/0/default.jpg",
+   "headline": "...Huskies impressive (jump) \u2014 Husky Notes and box score",
+   "verified": "Page 10: jump of the game story, Husky Notes, and the full box score (attendance printed as 29,264). I read it from the page image and IIIF crop."
+  },
+  {
+   "paper": "Manchester Herald",
+   "date": "1984-02-20",
+   "page_url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+   "iiif": "",
+   "headline": "Husky five loses fight to Orange",
+   "verified": "UPI game story datelined Syracuse, read from the PDF. The page also has a wire photo of Eddie Williams and Rafael Addison from this game; it is a wire photo, so it is not included in photos[]."
+  },
+  {
+   "paper": "Manchester Herald",
+   "date": "1984-02-20",
+   "page_url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=8",
+   "iiif": "",
+   "headline": "Big East result: Syracuse 87, Connecticut 85",
+   "verified": "Wire box score on the scoreboard page, read from a 900-dpi render; the source of box."
+  }
+ ],
+ "box": {
+  "source": {
+   "paper": "Manchester Herald (Manchester, Conn.), Big East result box score (wire)",
+   "date": "1984-02-20",
+   "page_url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=8",
+   "printed_page": "PDF page 8 (scoreboard), 'Big East result: Syracuse 87, Connecticut 85'",
+   "method": "Transcribed from a 900-dpi render of the page image, ignoring OCR. Checked line by line against the box in the Connecticut Daily Campus (1984-02-20, p. 10), which matches except for two misprints there (Broxton '3-0', header 'SYRACUSE (89)'). Every player's FG, FT and points, plus both teams' totals, were re-added and match (each player's pts = 2*FGM + FTM, since there was no 3-point line in 1983-84). Starters are the first five listed in each team, per wire-box convention; the starter positions on orangehoops.org agree. Minutes, per-player rebounds and assists come from Syracuse's official box score (cuse.com, 'Official Basketball Box Score', retyped 2/16/11). It agrees with the Herald wire box on every FG, FT and point figure, and its Giscombe (55) and Hobbs (54) minutes match the Daily Campus story. Halftime score is from the box. Scores at the end of regulation and each overtime (67-67, 77-77, 79-79) come from the UPI story, also on page 6 of the Herald."
+  },
+  "format": "Standard wire agate box (per-player FG-FGA, FT-FTA and points, plus team leaders, total fouls and fouled-out players), supplemented with minutes and per-player rebounds and assists from Syracuse's official box score. No 3-point line in 1983-84.",
+  "line": {
+   "periods": [
+    "1H",
+    "2H",
+    "OT1",
+    "OT2",
+    "OT3"
+   ],
+   "uconn": [
+    29,
+    38,
+    10,
+    2,
+    6
+   ],
+   "opp": [
+    36,
+    31,
+    10,
+    2,
+    8
+   ]
+  },
+  "att": 29294,
+  "teams": [
+   {
+    "name": "UConn",
+    "printed": "CONNECTICUT (85)",
+    "score": 85,
+    "line": [
+     29,
+     38,
+     10,
+     2,
+     6
+    ],
+    "stats": {
+     "fgm": 31,
+     "fga": 74,
+     "ftm": 23,
+     "fta": 29,
+     "reb": 43,
+     "ast": 17,
+     "pf": 23,
+     "fouled_out": "Broxton, Coles, Frederick",
+     "technicals": "Hobbs per the Daily Campus box; Syracuse's official box says 'Technical fouls: Connecticut-None. Syracuse-None.' and the Herald wire box lists none"
+    },
+    "leaders": {
+     "reb": "Coles 12",
+     "ast": "Hobbs 9"
+    },
+    "players": [
+     {
+      "name": "Ray Broxton",
+      "printed": "Broxton",
+      "starter": true,
+      "min": 44,
+      "pts": 7,
+      "fgm": 3,
+      "fga": 9,
+      "ftm": 1,
+      "fta": 1,
+      "reb": 6,
+      "ast": 2,
+      "pid": "ray-broxton-1",
+      "notes": "Fouled out. Tied it 67-67 with a 12-foot jumper with five seconds left in regulation (UPI)."
+     },
+     {
+      "name": "Eddie Williams",
+      "printed": "Williams",
+      "starter": true,
+      "min": 45,
+      "pts": 20,
+      "fgm": 6,
+      "fga": 11,
+      "ftm": 8,
+      "fta": 9,
+      "reb": 9,
+      "ast": 2,
+      "pid": "eddie-williams-4"
+     },
+     {
+      "name": "Tim Coles",
+      "printed": "Coles",
+      "starter": true,
+      "min": 36,
+      "pts": 15,
+      "fgm": 6,
+      "fga": 11,
+      "ftm": 3,
+      "fta": 5,
+      "reb": 12,
+      "ast": 0,
+      "pid": "tim-coles-1",
+      "notes": "Fouled out; game-high 12 rebounds."
+     },
+     {
+      "name": "Vern Giscombe",
+      "printed": "Giscombe",
+      "starter": true,
+      "min": 55,
+      "pts": 24,
+      "fgm": 9,
+      "fga": 22,
+      "ftm": 6,
+      "fta": 6,
+      "reb": 4,
+      "ast": 3,
+      "pid": "vernon-giscombe-1",
+      "notes": "Career-high 24; played the entire game (Daily Campus), which in a triple-overtime game is 55 minutes."
+     },
+     {
+      "name": "Karl Hobbs",
+      "printed": "Hobbs",
+      "starter": true,
+      "min": 54,
+      "pts": 4,
+      "fgm": 1,
+      "fga": 12,
+      "ftm": 2,
+      "fta": 4,
+      "reb": 5,
+      "ast": 9,
+      "pid": "karl-hobbs-2",
+      "notes": "9 assists; 54 minutes (Daily Campus); charged with a technical (Daily Campus box)."
+     },
+     {
+      "name": "Alvin Frederick",
+      "printed": "Frederick",
+      "starter": false,
+      "min": 22,
+      "pts": 9,
+      "fgm": 4,
+      "fga": 6,
+      "ftm": 1,
+      "fta": 2,
+      "reb": 4,
+      "ast": 1,
+      "pid": "alvin-frederick-1",
+      "notes": "Fouled out."
+     },
+     {
+      "name": "Gerry Besselink",
+      "printed": "Besselink",
+      "starter": false,
+      "min": 5,
+      "pts": 2,
+      "fgm": 1,
+      "fga": 1,
+      "ftm": 0,
+      "fta": 0,
+      "reb": 1,
+      "ast": 0,
+      "pid": "gerry-besselink-1"
+     },
+     {
+      "name": "Vicente Ithier",
+      "printed": "Ithier",
+      "starter": false,
+      "min": 3,
+      "pts": 2,
+      "fgm": 1,
+      "fga": 2,
+      "ftm": 0,
+      "fta": 0,
+      "reb": 0,
+      "ast": 0,
+      "pid": "vicente-ithier-1"
+     },
+     {
+      "name": "Larry Blucher",
+      "printed": "Blucher",
+      "starter": false,
+      "min": 11,
+      "pts": 2,
+      "fgm": 0,
+      "fga": 0,
+      "ftm": 2,
+      "fta": 2,
+      "reb": 2,
+      "ast": 0,
+      "pid": "larry-blucher-1"
+     }
+    ]
+   },
+   {
+    "name": "Syracuse",
+    "printed": "SYRACUSE (87)",
+    "score": 87,
+    "line": [
+     36,
+     31,
+     10,
+     2,
+     8
+    ],
+    "stats": {
+     "fgm": 34,
+     "fga": 67,
+     "ftm": 19,
+     "fta": 30,
+     "reb": 45,
+     "ast": 20,
+     "pf": 24,
+     "fouled_out": "Addison, Hawkins, Alexis"
+    },
+    "leaders": {
+     "reb": "Addison 10",
+     "ast": "Washington, Waldron 8"
+    },
+    "players": [
+     {
+      "name": "Rafael Addison",
+      "printed": "Addison",
+      "starter": true,
+      "min": 53,
+      "pts": 12,
+      "fgm": 6,
+      "fga": 13,
+      "ftm": 0,
+      "fta": 0,
+      "reb": 10,
+      "ast": 3,
+      "notes": "Fouled out; 10 rebounds, Syracuse high."
+     },
+     {
+      "name": "Sean Kerins",
+      "printed": "Kerins",
+      "starter": true,
+      "min": 47,
+      "pts": 13,
+      "fgm": 5,
+      "fga": 9,
+      "ftm": 3,
+      "fta": 4,
+      "reb": 6,
+      "ast": 0
+     },
+     {
+      "name": "Andre Hawkins",
+      "printed": "Hawkins",
+      "starter": true,
+      "min": 27,
+      "pts": 13,
+      "fgm": 5,
+      "fga": 9,
+      "ftm": 3,
+      "fta": 5,
+      "reb": 6,
+      "ast": 0,
+      "notes": "Fouled out."
+     },
+     {
+      "name": "Dwayne \"Pearl\" Washington",
+      "printed": "Washington",
+      "starter": true,
+      "min": 52,
+      "pts": 13,
+      "fgm": 5,
+      "fga": 12,
+      "ftm": 3,
+      "fta": 5,
+      "reb": 6,
+      "ast": 8,
+      "notes": "8 assists."
+     },
+     {
+      "name": "Gene Waldron",
+      "printed": "Waldron",
+      "starter": true,
+      "min": 37,
+      "pts": 7,
+      "fgm": 3,
+      "fga": 9,
+      "ftm": 1,
+      "fta": 3,
+      "reb": 1,
+      "ast": 8,
+      "notes": "8 assists."
+     },
+     {
+      "name": "Wendell Alexis",
+      "printed": "Alexis",
+      "starter": false,
+      "min": 29,
+      "pts": 14,
+      "fgm": 4,
+      "fga": 8,
+      "ftm": 6,
+      "fta": 7,
+      "reb": 8,
+      "ast": 1,
+      "notes": "Fouled out."
+     },
+     {
+      "name": "Greg Monroe",
+      "printed": "Monroe",
+      "starter": false,
+      "min": 23,
+      "pts": 12,
+      "fgm": 6,
+      "fga": 7,
+      "ftm": 0,
+      "fta": 1,
+      "reb": 1,
+      "ast": 0
+     },
+     {
+      "name": "George Papadakos",
+      "printed": "Papadakos",
+      "starter": false,
+      "min": 5,
+      "pts": 2,
+      "fgm": 0,
+      "fga": 0,
+      "ftm": 2,
+      "fta": 2,
+      "reb": 0,
+      "ast": 0
+     },
+     {
+      "name": "Sonny Spera",
+      "printed": "Spera",
+      "starter": false,
+      "min": 1,
+      "pts": 0,
+      "fgm": 0,
+      "fga": 0,
+      "ftm": 0,
+      "fta": 0,
+      "reb": 0,
+      "ast": 0
+     },
+     {
+      "name": "Howard Triche",
+      "printed": "Triche",
+      "starter": false,
+      "min": 1,
+      "pts": 1,
+      "fgm": 0,
+      "fga": 0,
+      "ftm": 1,
+      "fta": 3,
+      "reb": 1,
+      "ast": 0
+     }
+    ],
+    "names_note": "Wire box prints surnames only. First names are from orangehoops.org (a Syracuse fan site), plus 'Pearl Washington' from the UPI story."
+   }
+  ],
+  "officials": [
+   "M. Crowley",
+   "J. Silvester",
+   "J. Burr"
+  ]
+ },
+ "conflicts": [
+  {
+   "field": "attendance",
+   "ours": "29,254 (site/data/seasons/1984.json story text)",
+   "source_says": "29,294 in the wire box (Manchester Herald) and on orangehoops.org. The Daily Campus prints 29,264 in its box and 29,254 in its story. UPI says 'almost 30,000.'",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=8",
+    "http://orangehoops.org/Box%20Scores/19840218.htm",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n9/mode/1up",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6"
+   ]
+  },
+  {
+   "field": "Syracuse double-figure scorers",
+   "ours": "(no box on site)",
+   "source_says": "UPI says five Orangemen scored in double figures. The box shows six (Addison 12, Kerins 13, Hawkins 13, Washington 13, Alexis 14, Monroe 12), and the Daily Campus also says six.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=8",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up"
+   ]
+  },
+  {
+   "field": "Ithier's final shot",
+   "ours": "n/a",
+   "source_says": "The Daily Campus lede says Ithier's 'eight-foot shot in the final overtime assured Syracuse of its 17th win' (apparently garbled). UPI and the same Daily Campus story's body say Ithier missed the final shot with five seconds left. The narrative follows the miss.",
+   "sources": [
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6"
+   ]
+  },
+  {
+   "field": "Broxton's tying shot",
+   "ours": "n/a",
+   "source_says": "UPI: a 12-foot jumper with five seconds left. orangehoops.org: a two-footer. The narrative uses UPI.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+    "http://orangehoops.org/Box%20Scores/19840218.htm"
+   ]
+  },
+  {
+   "field": "Ithier's class",
+   "ours": "SR (site roster)",
+   "source_says": "Daily Campus: 'Junior Vicente Ithier'",
+   "sources": [
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up"
+   ]
+  },
+  {
+   "field": "venue/arena on game row",
+   "ours": "seasons/1984.json game 1984-23 has no arena/city; games/1984.json has no entry",
+   "source_says": "Carrier Dome, Syracuse, N.Y.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+    "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up",
+    "http://orangehoops.org/Box%20Scores/19840218.htm"
+   ]
+  }
+ ],
+ "unsure": [
+  "Tip time and TV: the Herald's Feb. 18 listings show a 7:30 'Connecticut vs. Syracuse' broadcast on WDRC radio. I found no TV listing or confirmed tip time, so both are null.",
+  "No source I found gives the clock times for Papadakos' free throws (86-79) or Triche's clinching free throw. Those beats have clock null.",
+  "How regulation went before Broxton's tying shot (lead changes, Syracuse's largest lead) is not documented in the sources I found.",
+  "orangehoops.org has per-player minutes, rebounds and assists, but it also has clear errors (Monroe 23 points, Coles 3-15 FT, and the OT scores 87-87/89-89 in its notes). I used it only to corroborate attendance, starters and first names, and did not use its minutes beyond Giscombe's 55, which the Daily Campus confirms.",
+  "The site's season story says Giscombe started in place of the injured Kelley. The Daily Campus (Feb. 17) confirms he went into the lineup in Kelley's place, and the box order lists him among the first five."
+ ],
+ "sources": [
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=6",
+   "what": "Manchester Herald, Feb. 20, 1984: UPI game story 'Husky five loses fight to Orange'"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-20.pdf#page=8",
+   "what": "Manchester Herald, Feb. 20, 1984: wire box score and Big East standings"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-18.pdf#page=6",
+   "what": "Manchester Herald, Feb. 18, 1984: pregame Big East standings, radio listing"
+  },
+  {
+   "url": "https://archive.org/details/ct_daily_campus_1984-02-20/page/n11/mode/1up",
+   "what": "Connecticut Daily Campus, Feb. 20, 1984, p. 12: game story"
+  },
+  {
+   "url": "https://archive.org/details/ct_daily_campus_1984-02-20/page/n9/mode/1up",
+   "what": "Connecticut Daily Campus, Feb. 20, 1984, p. 10: jump, Husky Notes, box score"
+  },
+  {
+   "url": "https://archive.org/details/ct_daily_campus_1984-02-17",
+   "what": "Connecticut Daily Campus, Feb. 17, 1984: preview (Giscombe replacing injured Kelley; earlier 95-68 loss)"
+  },
+  {
+   "url": "https://archive.org/details/ct_daily_campus_1984-02-21",
+   "what": "Connecticut Daily Campus, Feb. 21, 1984: Providence game story; Hobbs became the Big East's all-time assist leader in the Syracuse game"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn record book: 1983-84 results (at Syracuse L 85-87 3ot; Syracuse AP No. 16), series results, overtime games"
+  },
+  {
+   "url": "http://orangehoops.org/Box%20Scores/19840218.htm",
+   "what": "orangehoops.org box (Syracuse fan site): corroborates attendance 29,294, starters, first names; contains errors"
+  }
+ ],
+ "_verified": {
+  "checked": 170,
+  "ok": 166,
+  "edits": 64
+ }
+}
