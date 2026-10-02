@@ -1317,7 +1317,7 @@ for y in years:
             det = newspaper_det(g, NEWSPAPER_BOXES[gid], opp)
             row['box'] = 'newspaper'
         # attendance settled by the Moments fact-checks where our box sources have none (record book misprints 2004: 44,147 twice)
-        ATT_FIX = {'1999-36': 41340, '2004-38': 44417, '2004-39': 44468, '2009-31': 19375, '2006-34': 19718}
+        ATT_FIX = {'1999-36': 41340, '2004-38': 44417, '2004-39': 44468, '2009-31': 19375, '2006-34': 19718, '1990-37': 19546}
         if det and not det.get('att') and gid in ATT_FIX:
             det['att'] = ATT_FIX[gid]
         if det:
@@ -1660,6 +1660,8 @@ for y in years:
     AP_FINAL_FIX = {1990: 3}
     if y in AP_FINAL_FIX:
         ap_final = AP_FINAL_FIX[y]
+        if si.get('rank_min') and si['rank_min'] > ap_final:
+            si['rank_min'] = ap_final   # a peak can't be lower than the final ranking
         for p_ in polls or []:
             if p_.get('wk') == 'Final':
                 p_['rank'] = AP_FINAL_FIX[y]

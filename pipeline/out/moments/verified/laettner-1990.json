@@ -1,0 +1,544 @@
+{
+ "slug": "laettner-1990",
+ "gameId": "1990-37",
+ "title": "2.6 Seconds From Denver",
+ "nickname": null,
+ "dek": "Two nights after Tate George's buzzer-beater, UConn led Duke by one with 2.6 seconds left in overtime. Then Christian Laettner's double-clutch 14-footer ended the Dream Season.",
+ "date": "1990-03-24",
+ "tip": {
+  "text": "1:40 p.m. ET (scheduled)",
+  "sources": [
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-24.pdf#page=25",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-24.pdf#page=23"
+  ]
+ },
+ "venue": "Brendan Byrne Arena",
+ "city": "East Rutherford, NJ",
+ "attendance": {
+  "n": 19546,
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "event": "NCAA tournament East Regional final (Elite Eight)",
+ "tv": {
+  "network": "CBS",
+  "announcers": [
+   "Hubie Brown (analyst)"
+  ],
+  "sources": [
+   "https://www.nytimes.com/1990/03/25/sports/sports-of-the-times-duke-passes-its-final-four-exam-again.html",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-24.pdf#page=23"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "31-5",
+   "rank": "AP No. 3",
+   "seed": "No. 1 (East)"
+  },
+  "opp": {
+   "record": "27-8",
+   "rank": "AP No. 15",
+   "seed": "No. 3 (East)"
+  },
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-24.pdf#page=25",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-24.pdf#page=23",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=6",
+   "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%2333305%2C%20France%20%28en%29/page/n13/mode/1up"
+  ]
+ },
+ "setup": [
+  {
+   "text": "UConn arrived at the Meadowlands with its best season ever: a share of the Big East regular-season title, the Big East tournament title, and the No. 1 seed in the East. Two nights earlier, in this building, Tate George had caught a length-of-the-court pass with one second left and hit a turnaround jumper at the buzzer to beat Clemson, 71-70.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=6",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-24.pdf#page=25",
+    "https://www.sports-reference.com/cbb/conferences/big-east/men/1990.html"
+   ]
+  },
+  {
+   "text": "One more win would send the Huskies to their first Final Four, in Denver. They had played in a regional final only once before, in 1964, and Duke had beaten them 101-54.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=6",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-24.pdf#page=25",
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html"
+   ]
+  },
+  {
+   "text": "Duke, the third seed at 27-8, had been to three of the previous four Final Fours and had beaten UCLA 90-81 behind 28 points from senior guard Phil Henderson. The previews asked two questions: would Duke's size inside, 6-11 Christian Laettner and 6-10 Alaa Abdelnaby, beat the smaller, quicker Huskies, and would Bobby Hurley, Duke's freshman point guard, hold up against UConn's 40-minute press?",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-24.pdf#page=25"
+   ]
+  },
+  {
+   "text": "Laettner, a sophomore, had not forgotten Duke's 1989 national semifinal loss to Seton Hall in Seattle. He said the seniors told him afterward to get back to the Final Four and try to win a national championship.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "Duke played most of the game without senior forward Robert Brickey, who scored two points in 14 minutes on a pulled hamstring. Laettner and Abdelnaby put UConn in foul trouble anyway. Duke led by 11 late in the first half and 37-30 at halftime, and was still up nine early in the second half.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://www.sports-reference.com/cbb/boxscores/1990-03-24-connecticut.html"
+   ]
+  },
+  {
+   "text": "Hurley did not make a field goal in nine tries, but he handed out eight assists, turned it over twice in 43 minutes and dribbled through the press. Duke committed only 12 turnovers; UConn's opponents had averaged 21.6. UConn finished with six steals, two short of Oklahoma's single-season NCAA record of 486.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7"
+   ]
+  },
+  {
+   "text": "From 12:58 to 2:49 of the second half, Duke made only one field goal and missed three free throws. Over the last 15 minutes of regulation and all of overtime neither team led by more than five, and the game had 25 ties and lead changes in that stretch. Over the whole afternoon, The New York Times counted 17 lead changes and 16 ties.",
+   "sources": [
+    "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/",
+    "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%2333305%2C%20France%20%28en%29/page/n13/mode/1up",
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "2H",
+   "clock": "3:55",
+   "uconn": 69,
+   "opp": 64,
+   "text": "Scott Burrell's dunk puts UConn up five. Over the final 15 minutes and overtime, neither team leads by more than that.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=6",
+    "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "3:41",
+   "uconn": 69,
+   "opp": 66,
+   "text": "Henderson makes two free throws. Soon after, Brian Davis scores on an offensive rebound, Duke's first field goal since 12:58, to make it a one-point game.",
+   "sources": [
+    "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:05",
+   "uconn": 69,
+   "opp": 68,
+   "text": "UConn spreads the floor to run clock, but John Gwynn loses the ball in the lane.",
+   "sources": [
+    "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:54",
+   "uconn": 69,
+   "opp": 71,
+   "text": "Henderson's 3-pointer puts Duke ahead, the last of seven straight Duke points.",
+   "sources": [
+    "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:16.8",
+   "uconn": 69,
+   "opp": 72,
+   "text": "George misses on a drive. Abdelnaby rebounds and passes to Hurley, who is fouled. He makes the first of a one-and-one, jumps in celebration, and misses the second badly.",
+   "sources": [
+    "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:09.4",
+   "uconn": 72,
+   "opp": 72,
+   "text": "Chris Smith, a sophomore, hits a 3-pointer to tie the game.",
+   "sources": [
+    "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7",
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:00.3",
+   "uconn": 72,
+   "opp": 72,
+   "text": "Rod Sellers blocks Hurley's shot with three-tenths of a second left. Abdelnaby's shot off an inbounds lob misses at the horn, and the game goes to overtime.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7",
+    "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/",
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html"
+   ]
+  },
+  {
+   "period": "OT1",
+   "clock": "1:28",
+   "uconn": 78,
+   "opp": 77,
+   "text": "Toraino Walker's layup opens overtime, and Henderson answers with another 3 off the same play Duke ran late in regulation. Down 77-76, Nadav Henefeld goes to the line. Abdelnaby is called for goaltending on the first free throw, and Henefeld makes the second for UConn's last lead.",
+   "sources": [
+    "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/",
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7"
+   ]
+  },
+  {
+   "period": "OT1",
+   "clock": "0:11",
+   "uconn": 78,
+   "opp": 77,
+   "text": "George misses a forced shot from the right baseline with the 45-second shot clock almost gone.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7",
+    "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/"
+   ]
+  },
+  {
+   "period": "OT1",
+   "clock": "0:02.6",
+   "uconn": 78,
+   "opp": 77,
+   "text": "George reads Hurley's pass to Henderson in front of the Duke bench and steps in front of it. For a split second he has the ball; then it slips off his hands and out of bounds. Duke calls timeout.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7",
+    "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/",
+    "https://www.nytimes.com/1990/03/25/sports/sports-of-the-times-duke-passes-its-final-four-exam-again.html"
+   ]
+  },
+  {
+   "period": "OT1",
+   "clock": "0:00",
+   "uconn": 78,
+   "opp": 79,
+   "text": "Mike Krzyzewski sees no one guarding Laettner on the inbound and yells \"Special.\" Laettner throws it to Davis, gets it right back, dribbles once, and double-clutches past Lyman DePriest's leap. The 14-footer goes in at the buzzer.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://www.nytimes.com/1990/03/25/sports/sports-of-the-times-duke-passes-its-final-four-exam-again.html",
+    "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/",
+    "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%2333305%2C%20France%20%28en%29/page/n13/mode/1up"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "2.6",
+   "label": "seconds left in overtime when George's near-steal went out of bounds",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://www.nytimes.com/1990/03/25/sports/sports-of-the-times-duke-passes-its-final-four-exam-again.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7"
+   ]
+  },
+  {
+   "value": "42 hr 11 min",
+   "label": "between Tate George's winner against Clemson and Laettner's winner against UConn",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7"
+   ]
+  },
+  {
+   "value": "0-for-9",
+   "label": "Hurley's shooting; he still had 8 assists and only 2 turnovers against the press",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7"
+   ]
+  },
+  {
+   "value": "17 / 16",
+   "label": "lead changes and ties",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html"
+   ]
+  },
+  {
+   "value": "8-0",
+   "label": "Duke's NCAA tournament record at the Meadowlands after the game",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=6"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "I thought I had it, I was on my way up the court. I started celebrating and I lost it.",
+   "who": "Tate George",
+   "role": "UConn senior guard",
+   "when": "postgame",
+   "source": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7"
+  },
+  {
+   "text": "While they were setting up, instead of calling another timeout, you can improvise. It's like calling an audible.",
+   "who": "Mike Krzyzewski",
+   "role": "Duke coach",
+   "when": "postgame",
+   "source": "https://www.nytimes.com/1990/03/25/sports/sports-of-the-times-duke-passes-its-final-four-exam-again.html"
+  },
+  {
+   "text": "There wasn't much time to think.",
+   "who": "Christian Laettner",
+   "role": "Duke sophomore forward",
+   "when": "postgame",
+   "source": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=6"
+  },
+  {
+   "text": "I wouldn't trade this group of kids for 100 Final Fours.",
+   "who": "Jim Calhoun",
+   "role": "UConn coach",
+   "when": "postgame",
+   "source": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=6"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "Krzyzewski walked down the sideline and held Calhoun in a long embrace. Near the tunnel, Abdelnaby hugged George, UConn's only senior, whose college career had just ended.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html"
+   ]
+  },
+  {
+   "text": "UConn finished 31-6. Calhoun said his team went out the way it came in, fighting, and that you don't get to write your own scripts in life. George and Smith made the East Regional all-tournament team; Laettner, with 23 points on 7-of-8 shooting, was the region's most outstanding player.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7",
+    "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=6",
+    "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf"
+   ]
+  },
+  {
+   "text": "Duke beat Arkansas 97-83 in Denver, then lost the national championship game to UNLV, 103-73.",
+   "sources": [
+    "https://www.sports-reference.com/cbb/postseason/men/1990-ncaa.html"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "UConn and Duke met again in the NCAA tournament a year later, and Duke won the 1991 regional semifinal in Pontiac, Mich., 81-67. UConn won their next two NCAA tournament meetings: the 1999 national championship game, 77-74, and the 2004 national semifinal in San Antonio by the same score as 1990, 79-78.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "It was the first of Laettner's famous tournament buzzer-beaters. Two years later he made the more famous one, against Kentucky.",
+   "sources": [
+    "https://www.youtube.com/watch?v=3fwQyoLHBNc"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "FilDE3tl3z0",
+   "title": "(3-24-1990) [NCAA Tournament - Elite 8] (3) Duke Blue Devils vs (1) UConn Huskies",
+   "channel": "Vitamin J",
+   "kind": "full_game",
+   "start": 6850,
+   "why": "In the site's verified videos[]; the description gives the date, the venue (Brendan Byrne Arena) and the final, Duke 79-78 (OT). 1:58:52 long. Storyboard frames show Duke's inbound with 2.6 seconds on the broadcast clock at about 1:54:20 and the shot at about 1:54:30; start is just before the inbound."
+  },
+  {
+   "youtube": "3fwQyoLHBNc",
+   "title": "Christian Laettner buzzer beater vs. UConn (1990)",
+   "channel": "March Madness",
+   "kind": "final_play",
+   "start": null,
+   "why": "Official NCAA March Madness channel; in the site's videos[]. The description says it shows Laettner's overtime shot to beat UConn 79-78 in 1990."
+  },
+  {
+   "youtube": "MjVY39bCnig",
+   "title": "Laettner Beats UConn in 1990",
+   "channel": "DukeBluePlanet Vault",
+   "kind": "final_play",
+   "start": null,
+   "why": "Title names this game and play; 2:13 clip."
+  },
+  {
+   "youtube": "Fqxp2iqdWQA",
+   "title": "Laettner Sends Duke to 1990 Final Four",
+   "channel": "DukeBluePlanet Vault",
+   "kind": "final_play",
+   "start": null,
+   "why": "Title names the 1990 shot that sent Duke to the Final Four (this game); 3:26 clip."
+  }
+ ],
+ "photos": [],
+ "newspaper": [
+  {
+   "paper": "International Herald Tribune (Paris)",
+   "date": "1990-03-26",
+   "page_url": "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%2333305%2C%20France%20%28en%29/page/n13/mode/1up",
+   "iiif": "https://iiif.archive.org/image/iiif/3/InternationalHeraldTribune1990FranceEnglish%2FMar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%252333305%2C%20France%20%28en%29_jp2.zip%2FMar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%252333305%2C%20France%20%28en%29_jp2%2FMar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%252333305%2C%20France%20%28en%29_0013.jp2/260,380,1080,920/max/0/default.jpg",
+   "headline": "Blue Devils Win at the Buzzer in OT, 79-78",
+   "verified": "I opened the IIIF crop of the archive.org scan (Monday, March 26, 1990, printed page 14, scan leaf n13). It shows the headline and the first columns of Anthony Cotton's Washington Post Service story: Laettner's double-clutch 14-footer, George's near-steal, the 'Special' play, and Calhoun's '100 Final Fours' remark. The story calls UConn 'No. 3 Connecticut.'"
+  },
+  {
+   "paper": "Manchester Herald (Manchester, Conn.)",
+   "date": "1990-03-26",
+   "page_url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=6",
+   "iiif": "",
+   "headline": "Duke's success not by coincidence / Husky fans have right to dream on",
+   "verified": "Page 6 of the PDF, Section 2, printed page 11: AP story by Bill Barnard (Laettner quotes, Duke 8-0 at the Meadowlands) and Jim Tierney's column (Calhoun's '100 Final Fours' remark, '2.6 seconds to Denver,' Krzyzewski quotes). The same page carries Tom Canavan's AP story 'Buzzer was friend, enemy for Connecticut Huskies' and an AP photo of Laettner celebrating, with Hurley behind him (an AP photo, so not offered as a site image)."
+  },
+  {
+   "paper": "Manchester Herald (Manchester, Conn.)",
+   "date": "1990-03-26",
+   "page_url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7",
+   "iiif": "",
+   "headline": "(jump pages) Duke / Buzzer / Husky \u2014 From Page 11",
+   "verified": "Page 7 of the PDF, printed page 12: continuations covering the goaltending call, Henderson's 3 with 54 seconds left, Hurley's free throw at 16.8, Smith's tying 3 at 9.4, Sellers' block, the steals record, and George's 2.6-second fumble and quote. Also an AP photo of Calhoun staring at the floor (not offered as a site image)."
+  },
+  {
+   "paper": "Manchester Herald (Manchester, Conn.)",
+   "date": "1990-03-24",
+   "page_url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-24.pdf#page=25",
+   "iiif": "",
+   "headline": "UConn set to Duke it out",
+   "verified": "Page 25 of the PDF: Jim Tierney's preview from East Rutherford (1:40 p.m. start, the 1964 101-54 loss, Duke's three Final Fours in four years, Laettner and Abdelnaby's size). The PDF dated March 26 opens with a copy of this page too. Page 23 has the TV listing (Channel 3, 1:30 p.m.) and the bracket listing (1:40 p.m.)."
+  }
+ ],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "attendance (games/1990.json, 1990-37)",
+   "ours": "null",
+   "source_says": "19,546 (UConn record book)",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "field": "clock of Burrell's 69-64 dunk",
+   "ours": "(no site play-by-play) draft uses 3:55",
+   "source_says": "AP (Barnard) says UConn led 69-64 with 3:55 left; Tierney's column puts Burrell's dunk at 3:57.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=6"
+   ]
+  },
+  {
+   "field": "Duke's final timeout",
+   "ours": "(no site play-by-play) draft uses 2.6 seconds",
+   "source_says": "NYT, Vecsey, and AP (Canavan): 2.6 seconds. AP (Barnard) says 2.3 and has Duke getting the ball off a rebound of George's missed 3. The other accounts all describe George's near-steal going out of bounds. The IHT/Post version says 'final 2\u00bd seconds.'",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://www.nytimes.com/1990/03/25/sports/sports-of-the-times-duke-passes-its-final-four-exam-again.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7",
+    "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%2333305%2C%20France%20%28en%29/page/n13/mode/1up"
+   ]
+  },
+  {
+   "field": "clock of George's missed shot in OT",
+   "ours": "draft uses 0:11",
+   "source_says": "NYT and AP (Barnard): 11 seconds left. Washington Post: 'less than 10 seconds.' NYT calls it a forced shot from the right baseline; AP and the Post call it a 3-point try.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7",
+    "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/"
+   ]
+  },
+  {
+   "field": "length of Laettner's shot",
+   "ours": "draft uses 14 feet",
+   "source_says": "NYT game story, Vecsey and the Washington Post: 14 feet. AP (Canavan): 15-footer.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://www.nytimes.com/1990/03/25/sports/sports-of-the-times-duke-passes-its-final-four-exam-again.html",
+    "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=6"
+   ]
+  }
+ ],
+ "unsure": [
+  "Overtime clocks for Toraino Walker's opening layup and Henderson's 3, and how Duke went from 75-74 to 77-76, were not found in any source, so they are summarized without clocks in the 1:28 beat.",
+  "Exact clock of Brian Davis's putback (the Post says only that it came after Henderson's free throws at 3:41 and ended a drought that ran to the 2:49 mark). It is folded into the 3:41 beat without its own clock.",
+  "CBS play-by-play announcer for this game (Hubie Brown is confirmed as the CBS analyst by Vecsey; the play-by-play voice is not named in any source I read).",
+  "Tierney's column says Calhoun had 'reportedly' been named AP national coach of the year. That was not confirmed, so it is left out.",
+  "Tierney questioned a Burrell foul on Henderson's missed 3 late in regulation. That is opinion and is not used.",
+  "No Wikimedia Commons or archive.org photo of this game was found. Photos in the Manchester Herald and IHT pages are AP/Reuters wire photos. archive.org's Daily Campus scans reportedly cover only 1983-87 (see the-shot-1990 draft).",
+  "The full-game video (FilDE3tl3z0) was not watched, so it gives no timestamp for the final play."
+ ],
+ "sources": [
+  {
+   "url": "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+   "what": "New York Times game story (Malcolm Moran), March 25, 1990, read via the Wayback Machine copy: 2.6-second timeout, 'Special,' George's near-steal and quote, Henefeld's goaltending free throw at 1:28 of OT, George's miss at 0:11, 17 lead changes and 16 ties, Hurley's 0-for-9 and 8 assists, Brickey's hamstring, the 1964 47-point loss, Laettner on Seattle 1989."
+  },
+  {
+   "url": "https://www.nytimes.com/1990/03/25/sports/sports-of-the-times-duke-passes-its-final-four-exam-again.html",
+   "what": "NYT, George Vecsey, Sports of the Times, March 25, 1990: Krzyzewski's 'Special' and the audible quote, Laettner 14 feet from the basket, Hubie Brown broadcasting for CBS."
+  },
+  {
+   "url": "https://www.washingtonpost.com/archive/sports/1990/03/25/duke-stuns-uconn/f2cda8e2-386e-4c67-a42b-3359fece8a1d/",
+   "what": "Washington Post (Anthony Cotton), March 25, 1990, 'Duke Stuns UConn' (Wayback copy): late-regulation sequence with clocks (3:41, 1:48, 1:05, 16.8, 9.4, 0.3), overtime opening, DePriest's contest, Laettner the regional MOP, 25 ties and lead changes over the last 15 minutes plus OT."
+  },
+  {
+   "url": "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%2333305%2C%20France%20%28en%29/page/n13/mode/1up",
+   "what": "International Herald Tribune, March 26, 1990, p. 14 (archive.org scan): Washington Post Service version of Cotton's story."
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=6",
+   "what": "Manchester Herald, March 26, 1990, Section 2 p. 11: AP (Bill Barnard) on Laettner and Duke's 8-0 Meadowlands record; Jim Tierney column with Calhoun and Krzyzewski quotes; AP (Tom Canavan) lead with the 42 hr 11 min gap."
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-26.pdf#page=7",
+   "what": "Manchester Herald, March 26, 1990, p. 12: jump pages with the late-game clocks, the steals-record note, George's quote, Calhoun's 'scripts' remark."
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-24.pdf#page=25",
+   "what": "Manchester Herald, March 24, 1990, preview (Jim Tierney): 1:40 p.m. tip, 31-6 vs. 27-8 (sic; UConn was 31-5 entering), 1964 101-54, Duke's size and Final Four record, Hurley vs. the press."
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-24.pdf#page=23",
+   "what": "Manchester Herald, March 24, 1990, sports listings: Channel 3 coverage at 1:30 p.m.; bracket 'Connecticut (31-5) vs. Duke (27-8), 1:40 p.m.'"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn 2026-27 Record Book: 1989-90 results (3/24 vs. Duke, ranks 4/15 (UConn's 4 is wrong; the series section and AP give 3), attendance 19,546, CBS, L 78-79); NCAA history and series vs. Duke (1991 L 67-81, 1999 W 77-74, 2004 W 79-78)."
+  },
+  {
+   "url": "https://www.sports-reference.com/cbb/boxscores/1990-03-24-connecticut.html",
+   "what": "Sports-Reference box score (the site's box source): line score 37-30 Duke at half, 72-72 regulation, 7-6 OT."
+  },
+  {
+   "url": "https://www.sports-reference.com/cbb/postseason/men/1990-ncaa.html",
+   "what": "Sports-Reference 1990 NCAA tournament: Duke 97-83 over Arkansas, UNLV 103-73 over Duke."
+  },
+  {
+   "url": "https://www.sports-reference.com/cbb/seasons/men/1990-polls.html",
+   "what": "Sports-Reference 1990 AP polls: Duke final No. 15. (Its UConn figure, No. 4, contradicts the AP's own March 1990 reports of a No. 3 final ranking and is not used.)"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf",
+   "what": "UConn 2011 media notes, list of NCAA all-region selections: '1990-- Tate George, Chris Smith (East Regional).'"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=3fwQyoLHBNc",
+   "what": "NCAA March Madness YouTube video and description: Laettner's 1990 shot against UConn came two years before his most memorable buzzer-beater."
+  },
+  {
+   "url": "site:games/1990 (1990-37)",
+   "what": "Site box score: Laettner 23, Abdelnaby 27, Henderson 21, Hurley 3, Henefeld 15, Gwynn 15. Matches the newspaper accounts."
+  }
+ ],
+ "_verified": {
+  "checked": 142,
+  "ok": 139,
+  "edits": 12
+ }
+}

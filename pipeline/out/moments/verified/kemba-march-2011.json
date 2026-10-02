@@ -1,0 +1,526 @@
+{
+ "slug": "kemba-march-2011",
+ "gameId": "2011-40",
+ "title": "Kemba's March: Arizona, Then Kentucky",
+ "nickname": null,
+ "dek": "In one week UConn beat Arizona by two in Anaheim and Kentucky by one in Houston, with both teams missing 3-pointers in the final seconds that would have won it.",
+ "date": "2011-04-02",
+ "tip": {
+  "text": "8:08 p.m. CT (9:08 p.m. ET), the start time on the official box score",
+  "sources": [
+   "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html"
+  ]
+ },
+ "venue": "Reliant Stadium",
+ "city": "Houston, TX",
+ "attendance": {
+  "n": 75421,
+  "sources": [
+   "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "event": "NCAA tournament national semifinal (Final Four)",
+ "tv": {
+  "network": "CBS",
+  "announcers": [
+   "Jim Nantz (play-by-play)",
+   "Clark Kellogg (analyst)",
+   "Steve Kerr (analyst)"
+  ],
+  "sources": [
+   "https://www.sportsmediawatch.com/2011/01/most-of-tnt-nba-crew-to-handle-ncaa/",
+   "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "30-9",
+   "rank": "AP No. 9",
+   "seed": "No. 3 (West)"
+  },
+  "opp": {
+   "record": "29-8",
+   "rank": "AP No. 11",
+   "seed": "No. 4 (East)"
+  },
+  "sources": [
+   "https://web.archive.org/web/20110407145444/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb39.html",
+   "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+   "https://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2011/types/3/weeks/1/rankings/1",
+   "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "setup": [
+  {
+   "text": "Three weeks earlier UConn had finished the regular season 9-9 in the Big East. It then won five games in five days at Madison Square Garden for the conference title, and two more in Washington, D.C., to reach the West Regional in Anaheim.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf",
+    "https://web.archive.org/web/20111025092009/http://espn.go.com/ncb/recap?gameId=310850041"
+   ]
+  },
+  {
+   "text": "In the regional semifinal Kemba Walker scored 36 points against San Diego State, matching the highest-scoring NCAA tournament game in UConn history. Two nights later the opponent was fifth-seeded Arizona, which had beaten Duke 93-77 behind a career-high 32 points from Derrick Williams.",
+   "sources": [
+    "https://web.archive.org/web/20111025092009/http://espn.go.com/ncb/recap?gameId=310850041",
+    "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf"
+   ]
+  },
+  {
+   "text": "Honda Center was packed with Arizona fans, and Arizona's point guard, Lamont Jones, had been Walker's friend since the sixth grade in New York; they played two years together at Rice High School in Harlem.",
+   "sources": [
+    "https://web.archive.org/web/20111025092009/http://espn.go.com/ncb/recap?gameId=310850041"
+   ]
+  },
+  {
+   "text": "The Final Four brought a rematch with Kentucky, which UConn had beaten 84-67 at the Maui Invitational in November. It also brought a family story: the father of UConn freshman Jeremy Lamb, Rolando Lamb, made the game-winning shot that knocked Jim Calhoun's Northeastern team out of the 1984 NCAA tournament. Calhoun and Kentucky's John Calipari had never hidden their dislike for each other, going back to Calipari's years at UMass.",
+   "sources": [
+    "https://web.archive.org/web/20150908011457/http://www.uconnhuskies.com/sports/m-baskbl/recaps/040211aaa.html",
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "Against Arizona, Williams picked up three fouls in the first half and played just seven minutes before the break. After his second foul UConn closed the half on a 22-7 run and led 32-25. Arizona came back, and Jesse Perry's dunk with 7:18 left put the Wildcats ahead, 53-52.",
+   "sources": [
+    "https://web.archive.org/web/20111025092009/http://espn.go.com/ncb/recap?gameId=310850041",
+    "https://web.archive.org/web/20110407145444/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb39.html"
+   ]
+  },
+  {
+   "text": "Jeremy Lamb answered with jumpers at 6:21 and 5:44, both assisted by Walker, to put UConn back in front. After an Alex Oriakhi putback, Lamb stole the ball from Williams and dunked with 3:08 left for a 62-55 lead. Walker's jumper with 1:15 to go made it 65-60.",
+   "sources": [
+    "https://web.archive.org/web/20110407145444/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb39.html",
+    "https://web.archive.org/web/20111025092009/http://espn.go.com/ncb/recap?gameId=310850041"
+   ]
+  },
+  {
+   "text": "Kyle Fogg had already hit a 3 at 1:49, and Jamelle Horne made another with 1:02 left to cut the lead to 65-63. Shabazz Napier missed a 3 with 26 seconds left. Arizona called timeout at 0:18 and got the ball to Williams at the top of the key; his deep 3 with seven seconds left was long. Fogg grabbed the rebound and passed back out to Horne, whose 3 from the right wing missed at 0:02. Lamont Jones grabbed that rebound, and time ran out, and UConn had won the West, 65-63.",
+   "sources": [
+    "https://web.archive.org/web/20110407145444/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb39.html",
+    "https://www.cbsnews.com/texas/news/uconn-survives-arizona-to-reach-final-four",
+    "https://web.archive.org/web/20111025092009/http://espn.go.com/ncb/recap?gameId=310850041",
+    "https://wildcat.arizona.edu/124204/sports/elite-eight-uconn-65-arizona-63/"
+   ]
+  },
+  {
+   "text": "In Houston, Kentucky shot 9 of 32 in the first half and trailed 31-21 at halftime, its lowest first-half total of the season. The score was tied nine times, the last at 48-48 on Doron Lamb's jumper with 7:17 left.",
+   "sources": [
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041",
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "2H",
+   "clock": "7:17",
+   "uconn": 48,
+   "opp": 48,
+   "text": "Doron Lamb's jumper, assisted by Brandon Knight, ties the game for the ninth time. It is Kentucky's last point for more than five and a half minutes.",
+   "sources": [
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "6:35",
+   "uconn": 50,
+   "opp": 48,
+   "text": "Napier misses a layup, and Alex Oriakhi grabs the offensive rebound and scores to put UConn back in front.",
+   "sources": [
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "4:09",
+   "uconn": 52,
+   "opp": 48,
+   "text": "Knight misses a layup, Roscoe Smith rebounds, and Walker scores on the fast break.",
+   "sources": [
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "2:30",
+   "uconn": 54,
+   "opp": 48,
+   "text": "Napier's layup makes it a six-point game, UConn's last field goal of the night.",
+   "sources": [
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:37",
+   "uconn": 54,
+   "opp": 51,
+   "text": "DeAndre Liggins steals the ball from Walker and, seconds later, hits a 3-pointer assisted by Terrence Jones. It is Kentucky's first point since the 7:17 mark.",
+   "sources": [
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:50",
+   "uconn": 54,
+   "opp": 52,
+   "text": "Knight's 3 at 0:59 barely draws iron, but Josh Harrellson gets the offensive rebound. Liggins is fouled by Jeremy Lamb and makes only one of two free throws; Lamb rebounds the miss.",
+   "sources": [
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:16",
+   "uconn": 54,
+   "opp": 52,
+   "text": "Knight steals the ball from Napier, and Kentucky calls timeout with a chance to win.",
+   "sources": [
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:06",
+   "uconn": 54,
+   "opp": 52,
+   "text": "Kentucky goes for the win. Liggins's 3-pointer falls short, and Napier grabs the rebound.",
+   "sources": [
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:02",
+   "uconn": 56,
+   "opp": 52,
+   "text": "Terrence Jones fouls Napier, a freshman, who makes both free throws.",
+   "sources": [
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:00",
+   "uconn": 56,
+   "opp": 55,
+   "text": "Knight hits a 3 at the buzzer, assisted by Harrellson. It changes nothing: UConn wins 56-55 and goes to the national championship game.",
+   "sources": [
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "3",
+   "label": "points: UConn's combined margin over Arizona and Kentucky",
+   "sources": [
+    "https://web.archive.org/web/20110407145444/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb39.html",
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html"
+   ]
+  },
+  {
+   "value": "9 in 19",
+   "label": "games won in 19 days through the Arizona game, by Calhoun's count",
+   "sources": [
+    "https://web.archive.org/web/20111025092009/http://espn.go.com/ncb/recap?gameId=310850041",
+    "https://www.cbsnews.com/texas/news/uconn-survives-arizona-to-reach-final-four"
+   ]
+  },
+  {
+   "value": "5:40",
+   "label": "Kentucky's scoreless stretch late in the second half, from 7:17 to 1:37 on the official play-by-play",
+   "sources": [
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+   ]
+  },
+  {
+   "value": "1-12",
+   "label": "UConn's 3-point shooting against Kentucky, and it still won",
+   "sources": [
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+   ]
+  },
+  {
+   "value": "13-0",
+   "label": "UConn's record in tournament games that season after beating Kentucky (Maui, Big East, NCAA)",
+   "sources": [
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "Never did I imagine a team winning nine games in tournament play in 19 days.",
+   "who": "Jim Calhoun",
+   "role": "UConn coach",
+   "when": "postgame, after Arizona (March 26, 2011)",
+   "source": "https://web.archive.org/web/20111025092009/http://espn.go.com/ncb/recap?gameId=310850041"
+  },
+  {
+   "text": "When he missed it, I looked at the clock and saw zero-zero, and I just went, 'Whooooo.'",
+   "who": "Jeremy Lamb",
+   "role": "UConn freshman guard",
+   "when": "postgame, after Arizona (March 26, 2011)",
+   "source": "https://web.archive.org/web/20111025092009/http://espn.go.com/ncb/recap?gameId=310850041"
+  },
+  {
+   "text": "I should have drove it. It was a good shot, but it fell short.",
+   "who": "DeAndre Liggins",
+   "role": "Kentucky guard",
+   "when": "postgame (April 2, 2011)",
+   "source": "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+  },
+  {
+   "text": "The guys decided they didn't want to go home; this is too much fun.",
+   "who": "Jim Calhoun",
+   "role": "UConn coach",
+   "when": "postgame (April 2, 2011)",
+   "source": "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "After the Arizona win, Walker and Calhoun hugged at center court while former UConn players Emeka Okafor and Jake Voskuhl celebrated on the floor. It was UConn's fourth Final Four, and the fourth time it had come out of the West.",
+   "sources": [
+    "https://web.archive.org/web/20111025092009/http://espn.go.com/ncb/recap?gameId=310850041"
+   ]
+  },
+  {
+   "text": "The Kentucky win was UConn's 10th straight and put it in the national championship game for the third time, all under Calhoun. The Huskies ran off the court to their locker room chanting that they would shock the world.",
+   "sources": [
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041",
+    "https://web.archive.org/web/20150908011457/http://www.uconnhuskies.com/sports/m-baskbl/recaps/040211aaa.html"
+   ]
+  },
+  {
+   "text": "Two nights later, on April 4, UConn beat Butler 53-41 for its third national title and 11th straight win. Walker was named the Final Four's Most Outstanding Player.",
+   "sources": [
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "A team that had gone 9-9 in the Big East regular season won twice in one week by a total of three points to reach the title game. Both games ended with the opponent missing a 3-pointer that would have won it.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf",
+    "https://web.archive.org/web/20110407145444/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb39.html",
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+   ]
+  },
+  {
+   "text": "Jeremy Lamb, whose father had ended Calhoun's 1984 tournament with a last-second shot, scored 19 against Arizona and 12 against Kentucky in the two wins that sent Calhoun to his third title game.",
+   "sources": [
+    "https://web.archive.org/web/20150908011457/http://www.uconnhuskies.com/sports/m-baskbl/recaps/040211aaa.html",
+    "https://web.archive.org/web/20110407145444/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb39.html",
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "iq0ztrNnQK0",
+   "title": "Kentucky VS UConn Highlights 2011",
+   "channel": "15KWalker",
+   "kind": "highlights",
+   "start": null,
+   "why": "In the site's verified videos[] for 2011-40; title names this game."
+  },
+  {
+   "youtube": "mBJmYGo6ZEE",
+   "title": "UConn vs. Kentucky 2011 Final Four",
+   "channel": "Steve Zirolli",
+   "kind": "highlights",
+   "start": null,
+   "why": "In the site's verified videos[] for 2011-40; title names this game."
+  },
+  {
+   "youtube": "a7qgwBpBkBA",
+   "title": "2011 NCAA Final Four Semi Final  Connecticut vs. Kentucky",
+   "channel": "John Quinn",
+   "kind": "full_game",
+   "start": null,
+   "why": "Title names this game; about 68 minutes long, so it looks like a broadcast with the breaks removed. I did not watch it to find the final-possession timestamp."
+  },
+  {
+   "youtube": "UgllFy2JNSU",
+   "title": "UK v. UCONN final possession Final Four 2011",
+   "channel": "kkaabboomm",
+   "kind": "final_play",
+   "start": null,
+   "why": "Title names this game's final possession; 22-second clip."
+  },
+  {
+   "youtube": "2VBamExtCR8",
+   "title": "#11 Kentucky vs #9 UConn Basketball Highlights (4/2/2011 - Final Four)",
+   "channel": "Daniel Hager",
+   "kind": "highlights",
+   "start": null,
+   "why": "Title gives the date, the AP ranks and the round of this game."
+  },
+  {
+   "youtube": "mSgl0PX3lcE",
+   "title": "UConn vs Arizona Highlights 2011",
+   "channel": "15KWalker",
+   "kind": "highlights",
+   "start": null,
+   "why": "In the site's verified videos[] for 2011-39 (the Arizona game covered in setup and game)."
+  },
+  {
+   "youtube": "1np084SNf8Q",
+   "title": "2011 UConn Beats Arizona Elite Eight",
+   "channel": "GampelCrazies",
+   "kind": "final_play",
+   "start": null,
+   "why": "In the site's verified videos[] for 2011-39; 87-second clip of the Arizona finish."
+  },
+  {
+   "youtube": "iIrW8A99GLA",
+   "title": "AZ vs. UCONN Elite 8 - AZ final possession",
+   "channel": "Shaun Frost",
+   "kind": "final_play",
+   "start": null,
+   "why": "Title names Arizona's final possession in this Elite Eight game; 26-second clip."
+  },
+  {
+   "youtube": "L_nV4IN9N5A",
+   "title": "UConn vs. Arizona - 2011 NCAA Tournament - Elite Eight",
+   "channel": "flipsharetcf",
+   "kind": "highlights",
+   "start": null,
+   "why": "Title names the 2011 Elite Eight game against Arizona; 7-minute video."
+  }
+ ],
+ "photos": [],
+ "newspaper": [],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "officials (games/2011.json, 2011-40)",
+   "ours": "Les Jones only",
+   "source_says": "Les Jones, John M. Higgins, Mark B. Whitehead",
+   "sources": [
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+    "http://www.bigbluehistory.net/bb/statistics/games/20110402Connecticut.html"
+   ]
+  },
+  {
+   "field": "AP story: who made the 54-48 basket",
+   "ours": "(not in site data) official play-by-play: Shabazz Napier layup at 2:30",
+   "source_says": "The same AP story says both that Walker, Oriakhi and Napier made the baskets for 54-48 with 2:29 left, and that Jeremy Lamb's scooping layup with 2:29 left put UConn up six. The official play-by-play credits Napier at 2:30. The draft follows the official record.",
+   "sources": [
+    "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+    "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041"
+   ]
+  },
+  {
+   "field": "AP Arizona story: late Arizona 3-pointers",
+   "ours": "(not in site data) official play-by-play: Kyle Fogg 3 at 1:49, Jamelle Horne 3 at 1:02",
+   "source_says": "AP says Lamont Jones and Horne hit the late 3-pointers. The official box has Jones 0-for-1 from 3 and Fogg 2-for-3, with Fogg's 3 at 1:49. The draft follows the official record.",
+   "sources": [
+    "https://web.archive.org/web/20110407145444/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb39.html",
+    "https://web.archive.org/web/20111025092009/http://espn.go.com/ncb/recap?gameId=310850041"
+   ]
+  },
+  {
+   "field": "Arizona timeout clock",
+   "ours": "official play-by-play: 0:18",
+   "source_says": "Sports Network/CBS: timeout with 18.2 seconds left (consistent)",
+   "sources": [
+    "https://web.archive.org/web/20110407145444/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb39.html",
+    "https://www.cbsnews.com/texas/news/uconn-survives-arizona-to-reach-final-four"
+   ]
+  }
+ ],
+ "unsure": [
+  "Kentucky's scoreless stretch: AP says 5:39; the official play-by-play gives 5:40 (7:17 to 1:37). The draft uses the official figure and says 'more than five and a half minutes' in the narrative.",
+  "What kind of turnover Napier committed at 0:16 (the official log shows only 'TURNOVR by Napier, Shabazz' and 'STEAL by KNIGHT, Brandon'). Nothing more is claimed.",
+  "Who Williams' and Horne's defenders were on Arizona's last two shots; no source names them.",
+  "The AP Kentucky story says UConn's last loss was to Notre Dame on Feb. 5. UConn's schedule shows that game was March 5 (Feb. 5 was a win at Seton Hall). The date is left out.",
+  "The two versions of the AP story differ on the chant ('We gonna' on ESPN, 'We're gonna' on UConn's site), so it is paraphrased, not quoted.",
+  "No Wikimedia Commons or archive.org photo from either game was found. Commons has Matthew Britt's Walker photos from March 11, 2011 (Big East tournament) and a Joe D'Ambrosio photo dated April 5, 2011, neither from these games.",
+  "Tip time for the Arizona game: the official box shows 4:05 pm (Pacific). It is not used in the anchor fields."
+ ],
+ "sources": [
+  {
+   "url": "https://web.archive.org/web/20110407145449/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb40.html",
+   "what": "UConn official box score and play-by-play (StatCrew), Kentucky game, archived April 7, 2011: 8:08PM start, attendance 75,421, officials, every late clock and score (the backbone of the sequence). Archived because the live uconn_ftp copy (mbb40.html) now returns 'not found'."
+  },
+  {
+   "url": "https://web.archive.org/web/20110407145444/http://www.uconnhuskies.com:80/sports/m-baskbl/stats/2010-2011/mbb39.html",
+   "what": "UConn official box score and play-by-play, Arizona game (3-26-11, 4:05 pm, Anaheim), archived: attendance 17,856, officials, all late clocks and scores, Williams 20 and Lamb 19. Live uconn_ftp copy (mbb39.html) is gone."
+  },
+  {
+   "url": "https://web.archive.org/web/20111025092009/http://espn.go.com/ncb/recap?gameId=310850041",
+   "what": "AP story on UConn 65, Arizona 63 (ESPN.com, archived), with ESPN Stats & Info notes: Horne's open 3 off the back rim, nine wins in 19 days, Williams 3 first-half fouls and 7 minutes, the 22-7 run, Lamb and Calhoun quotes, Jones-Walker friendship, Okafor and Voskuhl celebrating."
+  },
+  {
+   "url": "https://www.cbsnews.com/texas/news/uconn-survives-arizona-to-reach-final-four",
+   "what": "The Sports Network story via CBS Texas, March 26, 2011: timeout with 18.2 left, Williams' deep try long, Fogg's rebound, Horne off from the right wing."
+  },
+  {
+   "url": "https://wildcat.arizona.edu/124204/sports/elite-eight-uconn-65-arizona-63/",
+   "what": "Arizona Daily Wildcat (Kevin Zimmerman), March 26, 2011: Williams' 3 missed on the final possession, offensive rebound to Horne."
+  },
+  {
+   "url": "https://web.archive.org/web/20111206102758/http://espn.go.com/ncb/recap?gameId=310920041",
+   "what": "AP story on UConn 56, Kentucky 55 (ESPN.com, archived) with ESPN Stats & Info fast facts: Liggins' short 3 and quote, Knight's buzzer 3, 9-for-32 first half, 31-21 halftime, Calipari-Calhoun history, 13-0 in tournament games, 1-of-12 from 3."
+  },
+  {
+   "url": "https://web.archive.org/web/20150908011457/http://www.uconnhuskies.com/sports/m-baskbl/recaps/040211aaa.html",
+   "what": "The same AP story as posted on UConnHuskies.com (archived), which spells Lamb's father's name correctly as Rolando; UConn notes on its fourth Final Four and third title-game trip."
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf",
+   "what": "UConn 2011 NCAA championship media notes: 2010-11 schedule and results (9-9 Big East, MSG and D.C. sites, Arizona and Kentucky results), CBS crew Nantz/Kellogg/Kerr, Walker's 36 vs. San Diego State noted among records."
+  },
+  {
+   "url": "https://www.sportsmediawatch.com/2011/01/most-of-tnt-nba-crew-to-handle-ncaa/",
+   "what": "Sports Media Watch, January 2011: Steve Kerr to call the Final Four with Jim Nantz and Clark Kellogg on CBS."
+  },
+  {
+   "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2011/types/3/weeks/1/rankings/1",
+   "what": "ESPN archive of the final 2010-11 AP poll: UConn No. 9, Kentucky No. 11, Arizona No. 17."
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn 2026-27 Record Book, 2010-11 results: ranks 9/17 and 9/11, attendance 17,856 and 75,421, CBS; Butler 53-41 on 4/4."
+  },
+  {
+   "url": "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041",
+   "what": "AP story on the April 4 title game (archived): 11th straight win, Walker the Most Outstanding Player."
+  },
+  {
+   "url": "http://www.bigbluehistory.net/bb/statistics/games/20110402Connecticut.html",
+   "what": "Big Blue History (Kentucky history site) game page: box score, officials and attendance match the official box."
+  },
+  {
+   "url": "site:games/2011 (2011-39, 2011-40)",
+   "what": "Site box scores (match the official boxes), attendance, and verified videos."
+  }
+ ],
+ "_verified": {
+  "checked": 131,
+  "ok": 130,
+  "edits": 1
+ }
+}
