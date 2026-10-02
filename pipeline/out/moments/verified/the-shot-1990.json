@@ -1,0 +1,508 @@
+{
+ "slug": "the-shot-1990",
+ "gameId": "1990-36",
+ "title": "Burrell to George, One Second Left",
+ "nickname": {
+  "text": "The Shot",
+  "sources": [
+   "http://www.uconnhooplegends.com/menslegends/GeorgeTate.html",
+   "https://www.youtube.com/watch?v=LCiW200g1TI",
+   "https://www.youtube.com/watch?v=ViyKOwrCris",
+   "https://www.youtube.com/watch?v=-4CxbjRXwhY"
+  ]
+ },
+ "dek": "Down 70-69 with one second left and the length of the floor to go, UConn won on Scott Burrell's overhand pass and Tate George's turnaround jumper.",
+ "date": "1990-03-22",
+ "tip": null,
+ "venue": "Brendan Byrne Arena",
+ "city": "East Rutherford, NJ",
+ "attendance": {
+  "n": 19502,
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "event": "NCAA East Regional semifinal (Sweet 16)",
+ "tv": {
+  "network": "CBS",
+  "announcers": [
+   "Dick Stockton (play-by-play)",
+   "Hubie Brown (analyst)"
+  ],
+  "sources": [
+   "https://www.youtube.com/watch?v=kk9DcjGB9cI",
+   "https://www.nytimes.com/1990/03/25/sports/sports-of-the-times-duke-passes-its-final-four-exam-again.html",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "30-5",
+   "rank": "AP No. 3",
+   "seed": "No. 1 (East)"
+  },
+  "opp": {
+   "record": "26-8",
+   "rank": "AP No. 17",
+   "seed": "No. 5 (East)"
+  },
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://www.sports-reference.com/cbb/postseason/men/1990-ncaa.html",
+   "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm",
+   "https://www.youtube.com/watch?v=kk9DcjGB9cI"
+  ]
+ },
+ "setup": [
+  {
+   "text": "UConn came to the Meadowlands as the No. 1 seed in the East, 30-5 and ranked third. Jim Calhoun's Huskies had already won a share of the Big East regular-season title and the Big East tournament, then beaten Boston University and California in Hartford to reach the regional semifinals.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.sports-reference.com/cbb/postseason/men/1990-ncaa.html",
+    "https://www.youtube.com/watch?v=kk9DcjGB9cI",
+    "https://archive.org/download/InternationalHeraldTribune1990FranceEnglish/Mar%2013%201990%2C%20International%20Herald%20Tribune%2C%20%2333294%2C%20France%20%28en%29_djvu.txt"
+   ]
+  },
+  {
+   "text": "Clemson, the No. 5 seed and No. 17 in the AP poll, arrived 26-8 under coach Cliff Ellis, built around big men Dale Davis and Elden Campbell, a 6-foot-11 senior. The Tigers had trailed La Salle by 19 points in the first half of their second-round game before rallying to win, 79-75.",
+   "sources": [
+    "https://www.sports-reference.com/cbb/postseason/men/1990-ncaa.html",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm",
+    "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html",
+    "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2024%201990%2C%20International%20Herald%20Tribune%2C%20%2333304%2C%20France%20%28en%29/page/n16/mode/1up"
+   ]
+  },
+  {
+   "text": "A win would put UConn in a regional final for only the second time in school history, and the first since 1964. Calhoun knew how this kind of night could end: in 1984, coaching Northeastern, he had lost a first-round NCAA game in this same arena, 70-69, on a last-second shot by Virginia Commonwealth.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://www.nytimes.com/1990/03/24/sports/college-basketball-east-regional-anatomy-of-a-miracle-how-the-huskies-won.html",
+    "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "UConn's full-court press owned the first half. Clemson turned the ball over 16 times and was whistled for two 10-second violations before the break, and the Huskies led 38-29.",
+   "sources": [
+    "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm",
+    "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2024%201990%2C%20International%20Herald%20Tribune%2C%20%2333304%2C%20France%20%28en%29/page/n16/mode/1up"
+   ]
+  },
+  {
+   "text": "Chris Smith scored eight points in the first six minutes of the second half, and with 12:36 left UConn led 59-40. Smith finished with 23 points; Scott Burrell, a freshman forward, pulled down 15 rebounds.",
+   "sources": [
+    "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2024%201990%2C%20International%20Herald%20Tribune%2C%20%2333304%2C%20France%20%28en%29/page/n16/mode/1up",
+    "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm",
+    "https://www.nytimes.com/1990/03/24/sports/college-basketball-east-regional-anatomy-of-a-miracle-how-the-huskies-won.html",
+    "https://www.sports-reference.com/cbb/boxscores/1990-03-22-clemson.html"
+   ]
+  },
+  {
+   "text": "Then Clemson turned the game around. The Tigers went to a press of their own, made six straight shots during one stretch and gave the ball away only four times after halftime. UConn, meanwhile, did not make a field goal after the 6:03 mark until the final second.",
+   "sources": [
+    "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm",
+    "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2024%201990%2C%20International%20Herald%20Tribune%2C%20%2333304%2C%20France%20%28en%29/page/n16/mode/1up",
+    "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html"
+   ]
+  },
+  {
+   "text": "A 25-8 Clemson run cut a 19-point lead to two with 3:38 left. The Huskies, whose press had forced opponents into about 22 turnovers a game all season, were suddenly the ones making mistakes.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html",
+    "https://www.nytimes.com/1990/03/25/sports/sports-of-the-times-duke-passes-its-final-four-exam-again.html"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "2H",
+   "clock": "12:36",
+   "uconn": 59,
+   "opp": 40,
+   "text": "UConn's lead peaks at 19 points.",
+   "sources": [
+    "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm",
+    "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2024%201990%2C%20International%20Herald%20Tribune%2C%20%2333304%2C%20France%20%28en%29/page/n16/mode/1up"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "3:38",
+   "uconn": 67,
+   "opp": 65,
+   "text": "A 25-8 Clemson run, sparked by the Tigers' own press, has cut a 19-point deficit to two.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html",
+    "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm",
+    "https://www.youtube.com/watch?v=kk9DcjGB9cI"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:17.5",
+   "uconn": 69,
+   "opp": 67,
+   "text": "Pressured by Derrick Forrest, Tate George loses the ball out of bounds in the backcourt, UConn's 19th turnover. Possession first goes to UConn, but after official James Stupin confers with Jim Bain, Clemson gets the ball.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html",
+    "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm",
+    "https://www.youtube.com/watch?v=kk9DcjGB9cI"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:11",
+   "uconn": 69,
+   "opp": 70,
+   "text": "David Young, a sophomore who had taken only one shot all night and missed it, is left open on the left side and hits a 3-pointer. It is Clemson's first lead since the opening minutes.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html",
+    "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm",
+    "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2024%201990%2C%20International%20Herald%20Tribune%2C%20%2333304%2C%20France%20%28en%29/page/n16/mode/1up"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:04",
+   "uconn": 69,
+   "opp": 70,
+   "text": "Out of a UConn timeout, George misses a jumper from the top of the key.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html",
+    "https://www.youtube.com/watch?v=kk9DcjGB9cI"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:01.6",
+   "uconn": 69,
+   "opp": 70,
+   "text": "Sean Tyson grabs the rebound and is fouled by Burrell. Clemson is in the bonus.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html",
+    "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm",
+    "https://www.youtube.com/watch?v=kk9DcjGB9cI"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:01.0",
+   "uconn": 69,
+   "opp": 70,
+   "text": "Tyson misses the front end of the one-and-one. Burrell rebounds and UConn calls its last timeout with one second showing; Clemson answers with a timeout and Ellis puts the 6-foot-11 Campbell, arms raised, in front of the inbounder.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html",
+    "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm",
+    "https://www.youtube.com/watch?v=kk9DcjGB9cI"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:00",
+   "uconn": 71,
+   "opp": 70,
+   "text": "UConn runs a practice play called \"home run.\" Burrell, a pitcher who had turned down more than $100,000 from the Seattle Mariners, throws an overhand pass of more than 80 feet. George catches it near the right corner, Tyson backs off to avoid fouling, and George turns and shoots from about 16 feet. A CBS slow-motion review showed the clock passing from one-tenth to zero as he released; the horn sounded with the ball in the air.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html",
+    "https://www.nytimes.com/1990/03/24/sports/college-basketball-east-regional-anatomy-of-a-miracle-how-the-huskies-won.html",
+    "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "1.0",
+   "label": "seconds on the clock when Burrell inbounded the ball",
+   "sources": [
+    "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html",
+    "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm"
+   ]
+  },
+  {
+   "value": "80+",
+   "label": "feet traveled by Burrell's pass",
+   "sources": [
+    "https://www.nytimes.com/1990/03/24/sports/college-basketball-east-regional-anatomy-of-a-miracle-how-the-huskies-won.html"
+   ]
+  },
+  {
+   "value": "19",
+   "label": "points UConn led by, 59-40, with 12:36 left",
+   "sources": [
+    "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm",
+    "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2024%201990%2C%20International%20Herald%20Tribune%2C%20%2333304%2C%20France%20%28en%29/page/n16/mode/1up"
+   ]
+  },
+  {
+   "value": "30-10",
+   "label": "Clemson's edge from 59-40 until George's shot",
+   "sources": [
+    "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm",
+    "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html",
+    "https://www.youtube.com/watch?v=kk9DcjGB9cI"
+   ]
+  },
+  {
+   "value": "6:03",
+   "label": "time left when UConn made its last field goal before the winner",
+   "sources": [
+    "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html"
+   ]
+  },
+  {
+   "value": "~2,000",
+   "label": "fans watching on a big screen at Gampel Pavilion who stormed the floor",
+   "sources": [
+    "https://www.nytimes.com/1990/03/24/sports/college-basketball-east-regional-anatomy-of-a-miracle-how-the-huskies-won.html"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "I just never thought we'd have enough time to do it.",
+   "who": "Scott Burrell",
+   "role": "UConn freshman forward",
+   "when": "postgame",
+   "source": "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html"
+  },
+  {
+   "text": "The surprising thing was, when I turned, he backed off.",
+   "who": "Tate George",
+   "role": "UConn senior guard",
+   "when": "postgame",
+   "source": "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html"
+  },
+  {
+   "text": "He threw a strike.",
+   "who": "Cliff Ellis",
+   "role": "Clemson coach",
+   "when": "postgame",
+   "source": "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm"
+  },
+  {
+   "text": "I never really thought we were going to lose.",
+   "who": "Jim Calhoun",
+   "role": "UConn coach",
+   "when": "the next morning (March 23, 1990)",
+   "source": "https://www.nytimes.com/1990/03/24/sports/college-basketball-east-regional-anatomy-of-a-miracle-how-the-huskies-won.html"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "Back in Storrs, about 2,000 fans who had watched on a big screen at the new Gampel Pavilion ran onto the floor, and students lit a bonfire outside the dormitory complex known as the Jungle.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/24/sports/college-basketball-east-regional-anatomy-of-a-miracle-how-the-huskies-won.html"
+   ]
+  },
+  {
+   "text": "Two nights later, in the same building, UConn led Duke 78-77 in the closing seconds of overtime when George stepped in front of a Bobby Hurley pass. The ball slipped through his hands and out of bounds, and Duke called timeout with 2.6 seconds left.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%2333305%2C%20France%20%28en%29/page/n13/mode/1up"
+   ]
+  },
+  {
+   "text": "Mike Krzyzewski saw that no one was guarding Christian Laettner on the inbound and called \"Special.\" Laettner threw the ball to Brian Davis, took it right back and hit a double-clutch 14-footer at the buzzer: Duke 79, UConn 78.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://www.nytimes.com/1990/03/25/sports/sports-of-the-times-duke-passes-its-final-four-exam-again.html",
+    "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%2333305%2C%20France%20%28en%29/page/n13/mode/1up"
+   ]
+  },
+  {
+   "text": "UConn's season ended at 31-6, the same way its 1964 tournament run had ended: with a loss to Duke in a regional final. Calhoun said afterward that he would not trade his players for 100 Final Fours. George and Smith made the East Regional all-tournament team, and Calhoun was the Big East's coach of the year.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%2333305%2C%20France%20%28en%29/page/n13/mode/1up",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "To UConn fans the play is known simply as \"The Shot.\" Eight years later, a Tacoma News Tribune story on another UConn buzzer-beater credited George's basket with instantly marking UConn as a national force.",
+   "sources": [
+    "http://www.uconnhooplegends.com/menslegends/GeorgeTate.html",
+    "https://www.youtube.com/watch?v=LCiW200g1TI",
+    "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/"
+   ]
+  },
+  {
+   "text": "When Richard Hamilton beat Washington at the buzzer in the 1998 East Regional semifinals, the Associated Press game story recalled Burrell's pass and George's jumper.",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920"
+   ]
+  },
+  {
+   "text": "Both men on the play reached the NBA: George went to the New Jersey Nets with the 22nd pick of the 1990 draft, and Burrell to the Charlotte Hornets at No. 20 in 1993.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "kk9DcjGB9cI",
+   "title": "UConn vs. Clemson: 1990 Sweet 16 | FULL GAME",
+   "channel": "March Madness",
+   "kind": "full_game",
+   "start": 5640,
+   "why": "The NCAA's upload of the full CBS broadcast (Dick Stockton and Hubie Brown); its description cites Burrell's inbound with 1.0 second left and the 71-70 final. The auto-transcript's 'Final buzzer beater' chapter starts at 1:31:58; the inbound and shot are called at about 1:34:26 (5666 s), so start=5640 lands just before the inbound."
+  },
+  {
+   "youtube": "-4CxbjRXwhY",
+   "title": "The Shot",
+   "channel": "Michael C. Dreimiller",
+   "kind": "final_play",
+   "start": null,
+   "why": "Uploader's description: with 1 second left and down 70-69 to Clemson in a 1990 Sweet 16 game, Burrell threw a three-quarters-court pass to George, who hit a turnaround to win it."
+  },
+  {
+   "youtube": "xXmuV4-zZIs",
+   "title": "1990 UConn vs. Clemson WTNH Highlights",
+   "channel": "GampelCrazies",
+   "kind": "highlights",
+   "start": null,
+   "why": "Title names the game (WTNH-TV highlights); already in the site's verified videos for 1990-36."
+  },
+  {
+   "youtube": "LCiW200g1TI",
+   "title": "1990 Sweet Sixteen Tate George \"The Shot\" Radio Call",
+   "channel": "GampelCrazies",
+   "kind": "radio",
+   "start": null,
+   "why": "Title names the 1990 Sweet Sixteen radio call of George's shot; description reads 'UCONN'S DREAM SEASON LIVES TO SEE ANOTHER DAY'; already in the site's verified videos for 1990-36."
+  }
+ ],
+ "photos": [],
+ "newspaper": [
+  {
+   "paper": "International Herald Tribune (Paris)",
+   "date": "1990-03-24",
+   "page_url": "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2024%201990%2C%20International%20Herald%20Tribune%2C%20%2333304%2C%20France%20%28en%29/page/n16/mode/1up",
+   "iiif": "https://iiif.archive.org/image/iiif/3/InternationalHeraldTribune1990FranceEnglish%2FMar%2024%201990%2C%20International%20Herald%20Tribune%2C%20%252333304%2C%20France%20%28en%29_jp2.zip%2FMar%2024%201990%2C%20International%20Herald%20Tribune%2C%20%252333304%2C%20France%20%28en%29_jp2%2FMar%2024%201990%2C%20International%20Herald%20Tribune%2C%20%252333304%2C%20France%20%28en%29_0016.jp2/2700,600,430,1100/max/0/default.jpg",
+   "headline": "UConn Beats the Clock and Clemson, Duke Wins / Huskies Stop Rally, 71-70, At the Buzzer",
+   "verified": "Read on the archive.org scan of the Saturday-Sunday March 24-25, 1990 edition, printed page 17 (scan leaf n16): New York Times Service story by Jason Diamos, datelined East Rutherford. The IIIF crop shows the story's headline, byline and lead. The page also carries a Reuters photo of George's winning shot (not cropped; see unsure)."
+  },
+  {
+   "paper": "The Roanoke Times",
+   "date": "1990-03-23",
+   "page_url": "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm",
+   "iiif": "",
+   "headline": "CLEMSON GETS SHOT DOWN",
+   "verified": "Virginia Tech's text archive of the Roanoke Times: page C1 story by Bill Brill, datelined East Rutherford, with the full box score (which matches the site's box). Text only, no page image."
+  },
+  {
+   "paper": "International Herald Tribune (Paris)",
+   "date": "1990-03-26",
+   "page_url": "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%2333305%2C%20France%20%28en%29/page/n13/mode/1up",
+   "iiif": "https://iiif.archive.org/image/iiif/3/InternationalHeraldTribune1990FranceEnglish%2FMar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%252333305%2C%20France%20%28en%29_jp2.zip%2FMar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%252333305%2C%20France%20%28en%29_jp2%2FMar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%252333305%2C%20France%20%28en%29_0013.jp2/260,380,1080,920/max/0/default.jpg",
+   "headline": "Georgia Tech, Arkansas and Duke Triumph, Gaining Final Four / Blue Devils Win at the Buzzer in OT, 79-78",
+   "verified": "Read on the archive.org scan of the Monday March 26, 1990 edition, printed page 14 (scan leaf n13): Washington Post Service story by Anthony Cotton on the Duke game two nights later. The crop covers the story's opening columns, including Calhoun's postgame remarks."
+  }
+ ],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "1990-37 (Duke) overtime marker",
+   "ours": "L 78-79, OT",
+   "source_says": "The 2026-27 UConn Record Book's all-time results print this game as 'L, 78-79' with no OT marker, although it marks other overtime games. The NYT and IHT confirm the game went to overtime, so our data looks right; the record book omits the marker.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+    "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%2333305%2C%20France%20%28en%29/page/n13/mode/1up"
+   ]
+  }
+ ],
+ "unsure": [
+  "Shot distance varies by source: about 12 feet (Roanoke Times), 15 feet (ESPN Classic), 16 feet (NYT), 17 feet (play description used on Sports-Reference). The narrative uses the NYT's 'about 16 feet.'",
+  "Pass length: NYT says 'more than 80 feet.' Later retrospectives say 94 feet, and one YouTube description says three-quarters court. The narrative uses the NYT figure.",
+  "Young's 3-pointer: the Roanoke Times says 11.6 seconds were left; the CBS on-screen clock reads 11.3 once it stops; the NYT News Service story says 11 seconds. The sequence uses 0:11.",
+  "George's missed shot before the foul: NYT says 4 seconds were left (the CBS clock graphic reads 4.0 as the shot goes up). The NYT News Service sidebar says 'an open 17-footer with three seconds left,' and the Roanoke Times calls it a missed 3-pointer. The narrative says only 'from the top of the key' (NYT).",
+  "The 67-65 score at 3:38 is computed: 59-40 (Roanoke/IHT) plus the NYT's 25-8 run. The NYT gives the run and the 2-point margin, not the score. The Roanoke Times separately mentions a 65-63 moment.",
+  "Officials: NYT and Roanoke name Jim Bain and James (Jim) Stupin. The third official's name is garbled in the broadcast's auto-captions, so it is not used.",
+  "Tip time not found.",
+  "A Reuters wire photo of George's winning shot runs on IHT page 17 (caption: George 'puts up the game-winning shot with one second left'). It was left out of photos because the brief bars press-agency photos. If archival scans of wire photos are acceptable, the crop is https://iiif.archive.org/image/iiif/3/InternationalHeraldTribune1990FranceEnglish%2FMar%2024%201990%2C%20International%20Herald%20Tribune%2C%20%252333304%2C%20France%20%28en%29_jp2.zip%2FMar%2024%201990%2C%20International%20Herald%20Tribune%2C%20%252333304%2C%20France%20%28en%29_jp2%2FMar%2024%201990%2C%20International%20Herald%20Tribune%2C%20%252333304%2C%20France%20%28en%29_0016.jp2/2730,1736,500,970/max/0/default.jpg",
+  "No Wikimedia Commons photo of this game was found. archive.org's Daily Campus scans cover only 1983-87. UConn Library's Connecticut Digital Archive has the Daily Campus through spring 1996 (it should hold the March 1990 campus coverage and photos), but the site sits behind a Cloudflare Turnstile check, so a human would need to pull those pages.",
+  "Nickname sourcing: outlets such as the Hartford Courant and SB Nation's The UConn Blog use 'The Shot,' but both block AI access in robots.txt, so the citations are a UConn fan-history site and YouTube uploads titled 'The Shot.'",
+  "NYT articles were read through their archived copies on archive.org (nytimes.com blocks automated access); the citations point to the nytimes.com URLs.",
+  "The two Duke videos the site already lists for 1990-37 (FilDE3tl3z0 full game; 3fwQyoLHBNc Laettner's shot) are verified live but are not in this moment's videos because they show a different game."
+ ],
+ "sources": [
+  {
+   "url": "https://www.nytimes.com/1990/03/23/sports/basketball-east-regional-last-second-shot-puts-uconn-in-the-clear.html",
+   "what": "NYT, Malcolm Moran, March 23, 1990: game story with the final sequence, clock times, officials and quotes (read via archive.org copy)."
+  },
+  {
+   "url": "https://www.nytimes.com/1990/03/24/sports/college-basketball-east-regional-anatomy-of-a-miracle-how-the-huskies-won.html",
+   "what": "NYT, Malcolm Moran, March 24, 1990: 'Anatomy of a Miracle' on the CBS clock review, pass length, Gampel celebration, Calhoun's 1984 loss and quotes (archive.org copy)."
+  },
+  {
+   "url": "https://www.nytimes.com/1990/03/25/sports/college-basketball-uconn-eliminated-at-buzzer-in-overtime.html",
+   "what": "NYT, Malcolm Moran, March 25, 1990: Duke 79, UConn 78 (OT) regional final (archive.org copy)."
+  },
+  {
+   "url": "https://www.nytimes.com/1990/03/25/sports/sports-of-the-times-duke-passes-its-final-four-exam-again.html",
+   "what": "NYT, George Vecsey column, March 25, 1990: the 'Special' play, Hubie Brown on CBS, UConn's press averages (archive.org copy)."
+  },
+  {
+   "url": "https://scholar.lib.vt.edu/VA-news/ROA-Times/issues/1990/rt9003/900323/03231861.htm",
+   "what": "Roanoke Times, Bill Brill, March 23, 1990, p. C1: game story with full box score (Virginia Tech text archive)."
+  },
+  {
+   "url": "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2024%201990%2C%20International%20Herald%20Tribune%2C%20%2333304%2C%20France%20%28en%29/page/n16/mode/1up",
+   "what": "International Herald Tribune, March 24-25, 1990, p. 17 (archive.org scan): NYT News Service game story by Jason Diamos."
+  },
+  {
+   "url": "https://archive.org/details/InternationalHeraldTribune1990FranceEnglish/Mar%2026%201990%2C%20International%20Herald%20Tribune%2C%20%2333305%2C%20France%20%28en%29/page/n13/mode/1up",
+   "what": "International Herald Tribune, March 26, 1990, p. 14 (archive.org scan): Washington Post Service story on the Duke game, with Calhoun's quote."
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn Men's Basketball 2026-27 Record Book: all-time results (rank, attendance 19,502, TV), 1989-90 season header, Big East tournament results, NCAA all-region teams, Big East coach of the year, NBA draft list."
+  },
+  {
+   "url": "https://www.sports-reference.com/cbb/postseason/men/1990-ncaa.html",
+   "what": "Sports-Reference, 1990 NCAA tournament bracket: seeds and earlier-round results."
+  },
+  {
+   "url": "https://www.sports-reference.com/cbb/boxscores/1990-03-22-clemson.html",
+   "what": "Sports-Reference box score (the site's box-score source); matches the Roanoke Times box."
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=kk9DcjGB9cI",
+   "what": "CBS broadcast as uploaded by the NCAA (March Madness channel): announcers identified on air, CBS clock graphics (0:01.6, 4.0, 11.3) and YouTube transcript timestamps."
+  },
+  {
+   "url": "http://www.uconnhooplegends.com/menslegends/GeorgeTate.html",
+   "what": "UConn Hoop Legends (fan history site) profile of Tate George: refers to 'the shot' vs. Clemson."
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=LCiW200g1TI",
+   "what": "YouTube: '1990 Sweet Sixteen Tate George \"The Shot\" Radio Call' (GampelCrazies): nickname usage."
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=ViyKOwrCris",
+   "what": "YouTube: 'Scott Burrell: \"The Shot\"' (lsmauro1): nickname usage."
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=-4CxbjRXwhY",
+   "what": "YouTube: 'The Shot' (Michael C. Dreimiller), described as Burrell's pass to George to beat Clemson in 1990: nickname usage."
+  },
+  {
+   "url": "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/",
+   "what": "Spokesman-Review / Tacoma News Tribune, March 20, 1998: recalls the 1990 shot as a turning point for UConn's national standing."
+  },
+  {
+   "url": "https://gohuskies.com/sports/1999/6/21/208009920",
+   "what": "AP story on UConn 75, Washington 74 (1998), hosted by Washington Athletics: opens by recalling Burrell to George."
+  }
+ ],
+ "_verified": {
+  "checked": 124,
+  "ok": 121,
+  "edits": 5
+ }
+}

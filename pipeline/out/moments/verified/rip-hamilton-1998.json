@@ -1,0 +1,453 @@
+{
+ "slug": "rip-hamilton-1998",
+ "gameId": "1998-36",
+ "title": "Hamilton Beats Washington at the Horn",
+ "nickname": null,
+ "dek": "Washington's first lead came with 33.2 seconds left. After two UConn misses in the final seconds, Richard Hamilton got the ball back and hit a fadeaway at the buzzer.",
+ "date": "1998-03-19",
+ "tip": null,
+ "venue": "Greensboro Coliseum",
+ "city": "Greensboro, NC",
+ "attendance": {
+  "n": 23235,
+  "sources": [
+   "https://gohuskies.com/sports/1999/6/21/208009087",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/"
+  ]
+ },
+ "event": "NCAA East Regional semifinal (Sweet 16)",
+ "tv": {
+  "network": "CBS",
+  "announcers": [
+   "Sean McDonough (play-by-play)",
+   "Bill Raftery (analyst)",
+   "Andrea Joyce (reporter)"
+  ],
+  "sources": [
+   "https://www.youtube.com/watch?v=h0xmNCIlnMo",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "31-4",
+   "rank": "AP No. 6",
+   "seed": "No. 2 (East)"
+  },
+  "opp": {
+   "record": "20-9",
+   "rank": "unranked",
+   "seed": "No. 11 (East)"
+  },
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://www.sports-reference.com/cbb/postseason/men/1998-ncaa.html",
+   "https://www.youtube.com/watch?v=h0xmNCIlnMo",
+   "https://gohuskies.com/sports/1999/6/21/208009920"
+  ]
+ },
+ "setup": [
+  {
+   "text": "UConn had won the Big East's regular-season and tournament titles and 10 straight games. At 31-4 the Huskies were ranked sixth and seeded second in the East, led by Richard Hamilton, the Big East Player of the Year as a sophomore, and Khalid El-Amin, a freshman point guard.",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.sports-reference.com/cbb/postseason/men/1998-ncaa.html",
+    "https://www.youtube.com/watch?v=h0xmNCIlnMo"
+   ]
+  },
+  {
+   "text": "Washington was the region's surprise. The 11th seed, fourth in the Pac-10, had beaten sixth-seeded Xavier and 14th-seeded Richmond to reach the Sweet 16 for the first time since 1984, and it brought a five-game winning streak to Greensboro.",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920",
+    "https://www.sports-reference.com/cbb/postseason/men/1998-ncaa.html"
+   ]
+  },
+  {
+   "text": "The two Huskies had never met. UConn had reached a regional final in 1990 and 1995 and lost both times, and it had never been to a Final Four; North Carolina had already beaten Michigan State in the evening's first semifinal.",
+   "sources": [
+    "https://www.youtube.com/watch?v=h0xmNCIlnMo",
+    "https://archive.org/details/InternationalHeraldTribune1998FranceEnglish/Mar%2021%201998%2C%20International%20Herald%20Tribune%2C%20%2335785%2C%20France%20%28en%29/page/n24/mode/1up",
+    "https://gohuskies.com/sports/1999/6/21/208009920",
+    "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "UConn led 47-39 at halftime and 64-55 with 10:16 left after a three-point play by Souleymane Wane.",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009087",
+    "https://gohuskies.com/sports/1999/6/21/208009920"
+   ]
+  },
+  {
+   "text": "Washington answered with eight straight points while UConn missed five shots and turned it over three times, and it was 64-63 with 7:28 to play.",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920"
+   ]
+  },
+  {
+   "text": "Hamilton's 3-pointer with 5:54 left and two Jake Voskuhl free throws pushed the lead back to six, but UConn would not make another field goal until the final minute. A 5-0 Washington run made it 69-68 with 2:51 left.",
+   "sources": [
+    "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/",
+    "https://gohuskies.com/sports/1999/6/21/208009920"
+   ]
+  },
+  {
+   "text": "Hamilton scored 18 of his 22 points in the second half, and El-Amin had 19 on 7-of-20 shooting. For Washington, Donald Watts played all 40 minutes and scored 22, Todd MacCulloch had 18 and Deon Luton 17.",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920",
+    "https://gohuskies.com/sports/1999/6/21/208009087"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "2H",
+   "clock": "2:51",
+   "uconn": 69,
+   "opp": 68,
+   "text": "A 5-0 Washington run cuts UConn's lead to one.",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:59",
+   "uconn": 71,
+   "opp": 70,
+   "text": "Hamilton's two free throws make it 71-68, then Watts sets up Patrick Femerling for a layup.",
+   "sources": [
+    "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/",
+    "https://gohuskies.com/sports/1999/6/21/208009920",
+    "https://www.youtube.com/watch?v=h0xmNCIlnMo",
+    "https://www.youtube.com/watch?v=h0xmNCIlnMo"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:29",
+   "uconn": 71,
+   "opp": 71,
+   "text": "Todd MacCulloch makes one of two free throws, and the game is tied.",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920",
+    "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:59.3",
+   "uconn": 73,
+   "opp": 71,
+   "text": "Hamilton's rebound basket, UConn's first field goal since 5:54, puts the Huskies back in front.",
+   "sources": [
+    "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/",
+    "https://gohuskies.com/sports/1999/6/21/208009920"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:33.2",
+   "uconn": 73,
+   "opp": 74,
+   "text": "Donald Watts hits a 3-pointer from the left wing. Washington leads for the first time all night.",
+   "sources": [
+    "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/",
+    "https://archive.org/details/InternationalHeraldTribune1998FranceEnglish/Mar%2021%201998%2C%20International%20Herald%20Tribune%2C%20%2335785%2C%20France%20%28en%29/page/n24/mode/1up",
+    "https://gohuskies.com/sports/1999/6/21/208009920"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:29",
+   "uconn": 73,
+   "opp": 74,
+   "text": "UConn calls its last timeout.",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920",
+    "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/",
+    "https://www.youtube.com/watch?v=h0xmNCIlnMo"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:10",
+   "uconn": 73,
+   "opp": 74,
+   "text": "El-Amin dribbles near midcourt until about 10 seconds remain, then drives and passes to Jake Voskuhl, whose short shot rims out.",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920",
+    "https://archive.org/details/InternationalHeraldTribune1998FranceEnglish/Mar%2021%201998%2C%20International%20Herald%20Tribune%2C%20%2335785%2C%20France%20%28en%29/page/n24/mode/1up",
+    "https://www.youtube.com/watch?v=h0xmNCIlnMo"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:01.8",
+   "uconn": 73,
+   "opp": 74,
+   "text": "Hamilton rebounds and shoots, but it rolls in and out. The ball is tipped back (by Kevin Freeman, the New York Times reported) and Hamilton has it again. El-Amin sees 1.8 on the clock and tells him to shoot.",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920",
+    "https://archive.org/details/InternationalHeraldTribune1998FranceEnglish/Mar%2021%201998%2C%20International%20Herald%20Tribune%2C%20%2335785%2C%20France%20%28en%29/page/n24/mode/1up",
+    "https://www.youtube.com/watch?v=h0xmNCIlnMo"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:00",
+   "uconn": 75,
+   "opp": 74,
+   "text": "Hamilton fades away over 7-foot Patrick Femerling, and the shot drops just as the horn goes off. It is the first buzzer-beater of his life, and his teammates bury him in a pile on the floor.",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920",
+    "https://archive.org/details/InternationalHeraldTribune1998FranceEnglish/Mar%2021%201998%2C%20International%20Herald%20Tribune%2C%20%2335785%2C%20France%20%28en%29/page/n24/mode/1up",
+    "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "33.2",
+   "label": "seconds left when Washington took its first and only lead",
+   "sources": [
+    "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/",
+    "https://archive.org/details/InternationalHeraldTribune1998FranceEnglish/Mar%2021%201998%2C%20International%20Herald%20Tribune%2C%20%2335785%2C%20France%20%28en%29/page/n24/mode/1up"
+   ]
+  },
+  {
+   "value": "3rd",
+   "label": "UConn shot in the final eight seconds: Hamilton's winner",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920"
+   ]
+  },
+  {
+   "value": "1.8",
+   "label": "seconds on the clock when El-Amin told Hamilton to shoot",
+   "sources": [
+    "https://archive.org/details/InternationalHeraldTribune1998FranceEnglish/Mar%2021%201998%2C%20International%20Herald%20Tribune%2C%20%2335785%2C%20France%20%28en%29/page/n24/mode/1up"
+   ]
+  },
+  {
+   "value": "18",
+   "label": "of Hamilton's 22 points scored after halftime",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920"
+   ]
+  },
+  {
+   "value": "40",
+   "label": "minutes played by Washington's Donald Watts",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009087",
+    "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "I gathered myself, let the ball go and it went in.",
+   "who": "Richard Hamilton",
+   "role": "UConn sophomore",
+   "when": "postgame",
+   "source": "https://gohuskies.com/sports/1999/6/21/208009920"
+  },
+  {
+   "text": "I knew it was going in as soon as he shot it.",
+   "who": "Khalid El-Amin",
+   "role": "UConn freshman point guard",
+   "when": "postgame",
+   "source": "https://archive.org/details/InternationalHeraldTribune1998FranceEnglish/Mar%2021%201998%2C%20International%20Herald%20Tribune%2C%20%2335785%2C%20France%20%28en%29/page/n24/mode/1up"
+  },
+  {
+   "text": "In a season of buzzer-beaters, we add our name to the list.",
+   "who": "Jim Calhoun",
+   "role": "UConn coach",
+   "when": "postgame",
+   "source": "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/"
+  },
+  {
+   "text": "People won't remember the record, but they'll remember this team and this game.",
+   "who": "Bob Bender",
+   "role": "Washington coach",
+   "when": "postgame",
+   "source": "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "Washington's season ended at 20-10. Coach Bob Bender said he told his players they had put themselves in Husky history.",
+   "sources": [
+    "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/",
+    "https://gohuskies.com/sports/1999/6/21/208009920"
+   ]
+  },
+  {
+   "text": "Two nights later, in the same building, top-seeded and top-ranked North Carolina beat UConn 75-64 in the East Regional final, ending the Huskies' season at 32-5.",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.sports-reference.com/cbb/postseason/men/1998-ncaa.html"
+   ]
+  },
+  {
+   "text": "Hamilton and El-Amin were named to the East Regional all-tournament team.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "As the AP noted that night, it was the second time in the decade that a buzzer-beater had sent UConn to a regional final, eight years after Tate George's shot against Clemson.",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920"
+   ]
+  },
+  {
+   "text": "A year later UConn won its first national championship, and Hamilton was the Final Four's Most Outstanding Player. UConn's own media guide later described the 1997-98 team as having set the stage for that title run.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://archive.org/details/uconn-basketball-2010-11-media-guide-2010-09-22"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "h0xmNCIlnMo",
+   "title": "UConn vs. Washington: 1998 NCAA men's basketball Sweet 16 | FULL REPLAY",
+   "channel": "March Madness",
+   "kind": "full_game",
+   "start": 5030,
+   "why": "The NCAA's official full replay. The opening CBS graphic reads 'East Regional Semifinal, Greensboro Coliseum: #11 Washington Huskies (20-9) vs #2 Connecticut Huskies (31-4)'. UConn's last possession starts after the timeout at about 1:23:50 (start=5030); the CBS score graphic shows 74-73 with 10.8 left at 5058 s and the clock reaching 0.0 at about 5068.6 s."
+  },
+  {
+   "youtube": "gEDFV-UdivU",
+   "title": "Richard Hamilton's 1998 Sweet 16 buzzer beater for UConn",
+   "channel": "March Madness",
+   "kind": "final_play",
+   "start": null,
+   "why": "The NCAA's clip; the description covers the 1998 Sweet 16 finish against Washington, with Hamilton's fadeaway after offensive rebounds and tip-outs."
+  },
+  {
+   "youtube": "XhY4J_uZOQE",
+   "title": "1998 Uconn vs. Washington: Rip Hamilton Buzzer Beater",
+   "channel": "uncmann",
+   "kind": "final_play",
+   "start": null,
+   "why": "Description: Hamilton's fallaway buzzer-beater beats 11th-seeded Washington; Connecticut 75, Washington 74 (CBS footage)."
+  },
+  {
+   "youtube": "Lpip5LQdZsU",
+   "title": "1998 Connecticut vs. Washington: UConn escapes close call",
+   "channel": "bostonsports10774",
+   "kind": "final_play",
+   "start": null,
+   "why": "Description: Hamilton's fall-away shot beats No. 11 Washington 75-74 to send No. 2 UConn to the East Regional final in Greensboro."
+  },
+  {
+   "youtube": "hPuuLQKdL0c",
+   "title": "WTIC 1080 Top 10 UConn Games - #7: 1998 Sweet Sixteen UConn Washington Rip Hamilton Buzzer Beater",
+   "channel": "tcf15",
+   "kind": "radio",
+   "start": null,
+   "why": "Title names this game and Hamilton's buzzer-beater as #7 in WTIC 1080's top-10 UConn games radio series; already in the site's verified videos."
+  },
+  {
+   "youtube": "1rnlmRrGGuQ",
+   "title": "1998 UConn NCAA Tournament Highlights- vs. Indiana, vs. Washington",
+   "channel": "flipsharetcf",
+   "kind": "highlights",
+   "start": null,
+   "why": "Description: second round vs. Indiana and Sweet Sixteen vs. Washington; the Washington segment's start time was not determined."
+  }
+ ],
+ "photos": [],
+ "newspaper": [
+  {
+   "paper": "International Herald Tribune (Paris)",
+   "date": "1998-03-21",
+   "page_url": "https://archive.org/details/InternationalHeraldTribune1998FranceEnglish/Mar%2021%201998%2C%20International%20Herald%20Tribune%2C%20%2335785%2C%20France%20%28en%29/page/n24/mode/1up",
+   "iiif": "https://iiif.archive.org/image/iiif/3/InternationalHeraldTribune1998FranceEnglish%2FMar%2021%201998%2C%20International%20Herald%20Tribune%2C%20%252335785%2C%20France%20%28en%29_jp2.zip%2FMar%2021%201998%2C%20International%20Herald%20Tribune%2C%20%252335785%2C%20France%20%28en%29_jp2%2FMar%2021%201998%2C%20International%20Herald%20Tribune%2C%20%252335785%2C%20France%20%28en%29_0024.jp2/1150,630,470,1350/max/0/default.jpg",
+   "headline": "UConn Survives at the Buzzer",
+   "verified": "Read on the archive.org scan of the Saturday-Sunday March 21-22, 1998 edition, page 25 (scan leaf n24): New York Times story datelined Greensboro, with Watts's 3 at 33.2 seconds, the Freeman tip and the El-Amin and Hamilton quotes. The crop covers the first column of the story. The page photo shows a West Virginia-Utah game, not this one."
+  },
+  {
+   "paper": "The Spokesman-Review (Tacoma News Tribune story)",
+   "date": "1998-03-20",
+   "page_url": "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/",
+   "iiif": "",
+   "headline": "UW Falls At Buzzer Uconn Latest To Win On Heroic Shot",
+   "verified": "Spokesman-Review online archive: Rodney McKissic of the Tacoma News Tribune, with the closing sequence's clock times and a full box score that matches the site's box. Text only, no page image."
+  }
+ ],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "1998 season story wording",
+   "ours": "'the Huskies got three shots in the final 15 seconds, and Hamilton rebounded a Jake Voskuhl miss, then his own, before hitting the winner at the horn'",
+   "source_says": "AP: the winner was UConn's 'third shot in the final eight seconds'; El-Amin was still dribbling near midcourt with 10 seconds left. Hamilton rebounded Voskuhl's miss and missed; the ball was then tipped back to him ('tipped from the other side' per AP, by Kevin Freeman per NYT) rather than Hamilton rebounding his own miss outright.",
+   "sources": [
+    "https://gohuskies.com/sports/1999/6/21/208009920",
+    "https://archive.org/details/InternationalHeraldTribune1998FranceEnglish/Mar%2021%201998%2C%20International%20Herald%20Tribune%2C%20%2335785%2C%20France%20%28en%29/page/n24/mode/1up"
+   ]
+  }
+ ],
+ "unsure": [
+  "Timing of the winner: the Tacoma News Tribune (via the Spokesman-Review) says Hamilton's basket came 'with .8 seconds remaining.' AP and NYT say it fell through as the buzzer sounded, and CBS's commentators said Washington was 'a fraction of a second' away. On the CBS score graphic in the NCAA replay the clock runs to 0.0 without stopping (NCAA clocks stopped after made baskets in the final minute), which fits a basket at the horn. The narrative follows AP/NYT.",
+  "When El-Amin started his drive: AP says he dribbled until 10 seconds were left; the NYT says he penetrated 'with about 15 seconds left.' The CBS graphic reads 10.8 as he drives. The sequence uses AP's 10.",
+  "Who tipped the ball back to Hamilton: the NYT names Kevin Freeman; the AP says only that it was 'tipped from the other side.'",
+  "Shot description: NYT 'off-balance, eight-foot shot'; AP 'rebound jumper in the lane' and 'fadeaway jumper over 7-foot Patrick Femerling.'",
+  "Number of misses: AP counts the winner as UConn's third shot in the final eight seconds. UConn's 2010-11 media guide says UConn 'missed four shots in the final seconds.' The dek says two misses (AP).",
+  "Hamilton's two free throws before Femerling's layup come from the CBS broadcast's auto-transcript ('He made two'). The 71-68 score is consistent with AP (69-68 at 2:51), the Tacoma story (71-70 at 1:59) and the Tacoma note that UConn made no field goal from 5:54 until 0:59.3.",
+  "The official box score lists only two officials (Don Rutledge, Zelton Steed); a third official was not identified.",
+  "CBS mentioned Kevin Freeman lying on the floor after the celebration and said it would update his condition; not followed up.",
+  "Tip time not found. CBS said North Carolina-Michigan State was played earlier that evening.",
+  "No Wikimedia Commons photo of this game was found. The Daily Campus is not digitized for 1998 on archive.org (and UConn's CTDA covers only through spring 1996).",
+  "The Seattle Times archive (including a 2006 retrospective on this game) blocks AI agents, so it was not read."
+ ],
+ "sources": [
+  {
+   "url": "https://gohuskies.com/sports/1999/6/21/208009920",
+   "what": "AP game story (March 19, 1998), hosted on Washington Athletics' site: final sequence, clock times, quotes, seeds and records."
+  },
+  {
+   "url": "https://gohuskies.com/sports/1999/6/21/208009087",
+   "what": "Official box score on Washington Athletics' site: halftime 47-39, minutes, attendance 23,235, officials; matches the site's box."
+  },
+  {
+   "url": "https://www.spokesman.com/stories/1998/mar/20/uw-falls-at-buzzer-uconn-latest-to-win-on-heroic/",
+   "what": "Spokesman-Review, March 20, 1998: Tacoma News Tribune story by Rodney McKissic with clock times (5:54, 1:59, 1:29, 59.3, 33.2), quotes and full box score."
+  },
+  {
+   "url": "https://archive.org/details/InternationalHeraldTribune1998FranceEnglish/Mar%2021%201998%2C%20International%20Herald%20Tribune%2C%20%2335785%2C%20France%20%28en%29/page/n24/mode/1up",
+   "what": "International Herald Tribune, March 21-22, 1998, p. 25 (archive.org scan): New York Times story 'UConn Survives at the Buzzer,' with El-Amin's 1.8-second quote."
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn 2026-27 Record Book: all-time results (rank, attendance, CBS), 1997-98 and 1998-99 season headers, Big East tournament starters, NCAA all-region teams, 1999 Final Four MOP."
+  },
+  {
+   "url": "https://www.sports-reference.com/cbb/postseason/men/1998-ncaa.html",
+   "what": "Sports-Reference, 1998 NCAA tournament bracket: seeds and results (Washington over Xavier and Richmond; UNC 75, UConn 64)."
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=h0xmNCIlnMo",
+   "what": "CBS broadcast (NCAA's official full replay on YouTube): opening graphic with seeds and records, announcers on air, score/clock graphics in the final seconds, auto-transcript."
+  },
+  {
+   "url": "https://archive.org/details/uconn-basketball-2010-11-media-guide-2010-09-22",
+   "what": "UConn Basketball 2010-11 Media Guide (archive.org): Calhoun bio passage on the Washington game and the title run a year later."
+  }
+ ],
+ "_verified": {
+  "checked": 116,
+  "ok": 116,
+  "edits": 1
+ }
+}

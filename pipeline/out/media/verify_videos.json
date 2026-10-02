@@ -365,6 +365,22 @@
    "old": "WCNC: UConn beats Purdue to win back-to-back NCAA titles",
    "new": null,
    "reason": "Studio anchor over still photos, one of them from the Alabama semifinal; no footage of the title game (Moments fact-check, 2026-10-01)."
+  },
+  {
+   "id": "ViyKOwrCris",
+   "status": "FIX",
+   "field": "description",
+   "old": "Clip of Scott Burrell's full-court pass...",
+   "new": "Scott Burrell, years later in a gym, narrates his full-court pass to Tate George for \"The Shot\" (no game footage).",
+   "reason": "Fact-check: no game footage; it's a later interview."
+  },
+  {
+   "id": "ViyKOwrCris",
+   "status": "FIX",
+   "field": "kind",
+   "old": "moment",
+   "new": "interview",
+   "reason": "same"
   }
  ]
 }

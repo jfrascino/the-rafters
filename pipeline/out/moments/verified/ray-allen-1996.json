@@ -1,0 +1,495 @@
+{
+ "slug": "ray-allen-1996",
+ "gameId": "1996-32",
+ "title": "Ray Allen Caps a 12-0 Finish",
+ "nickname": {
+  "text": "Allen vs. Allen",
+  "sources": [
+   "https://www.foxsports.com/stories/college-basketball/20-years-ago-allen-vs-allen-gave-us-a-big-east-tourney-classic",
+   "https://dailycampus.com/2018/04/17/2018-4-17-big-east-classics-ray-allens-shot-wins-big-east-championship-in-allen-vs-allen/"
+  ]
+ },
+ "dek": "Down 74-63 with 4:46 left at Madison Square Garden, UConn scored the last 12 points, and Ray Allen, after 14 straight misses, won it with 13.6 seconds left.",
+ "date": "1996-03-09",
+ "tip": null,
+ "venue": "Madison Square Garden",
+ "city": "New York, NY",
+ "attendance": {
+  "n": 19544,
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html"
+  ]
+ },
+ "event": "Big East tournament final",
+ "tv": {
+  "network": "ESPN",
+  "announcers": [
+   "Brad Nessler (play-by-play)",
+   "Dick Vitale (analyst)"
+  ],
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://www.youtube.com/watch?v=5uef8OreJPE",
+   "https://www.youtube.com/watch?v=phwOVE8K_-Q",
+   "https://dailycampus.com/2018/04/17/2018-4-17-big-east-classics-ray-allens-shot-wins-big-east-championship-in-allen-vs-allen/"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "29-2",
+   "rank": "AP No. 3",
+   "seed": "No. 1 (Big East)"
+  },
+  "opp": {
+   "record": "26-6",
+   "rank": "AP No. 6",
+   "seed": "No. 2 (Big East)"
+  },
+  "sources": [
+   "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+   "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "setup": [
+  {
+   "text": "UConn came to Madison Square Garden 29-2, ranked third and seeded first. Its only Big East loss had come Feb. 19 at Georgetown, 77-65 in Landover, Md., the defeat that ended a 23-game winning streak. That night the Hoyas held Ray Allen to 13 points on 5-of-18 shooting and pressed the Huskies into a string of turnovers.",
+   "sources": [
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "Georgetown, ranked sixth and seeded second, had Allen Iverson, who scored 38 against Miami in the quarterfinals. It also had a freshman who had just taken over a game: with Iverson in foul trouble against Villanova in the semifinals, Victor Page scored 34, a tournament record for a freshman.",
+   "sources": [
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html",
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "UConn reached the final by beating Seton Hall 79-58 and Syracuse 85-67. Allen, held to 11 points on 4-of-17 shooting in the first game, scored 29 in the second.",
+   "sources": [
+    "https://www.nytimes.com/1996/03/09/sports/basketball-a-battle-of-the-big-east-s-best-it-s-uconn-vs-georgetown.html",
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "The first half ran at a sprint in front of a sellout crowd of 19,544. During one eight-minute stretch UConn scored on 12 of 14 possessions and still gained only six points. Georgetown closed the half with the last six points, on a Jerry Nichols tip-in, a Joseph Touomou layup and two Jerome Williams free throws, to lead 46-42.",
+   "sources": [
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "Iverson picked up his fourth foul with 12 minutes to go and scored only two points after halftime, but Page kept the Hoyas in front. His 3-pointer with 9:08 left made it 67-59.",
+   "sources": [
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://archive.org/details/InternationalHeraldTribune1996FranceEnglish/Mar%2011%201996%2C%20International%20Herald%20Tribune%2C%20%2335156%2C%20France%20%28en%29/page/n21/mode/1up"
+   ]
+  },
+  {
+   "text": "Allen, shadowed by Page and Boubacar Aw, went cold and missed 14 straight shots from the field. Georgetown's lead reached 74-63 when Jahidi White completed a three-point play with 4:46 left; Travis Knight, UConn's 7-foot center, fouled out on the play.",
+   "sources": [
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html",
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://www.sports-reference.com/cbb/schools/georgetown/men/1996.html"
+   ]
+  },
+  {
+   "text": "Two of UConn's less celebrated players led the answer: Kirk King, a starting forward, and Ricky Moore, a freshman guard.",
+   "sources": [
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "2H",
+   "clock": "4:46",
+   "uconn": 63,
+   "opp": 74,
+   "text": "Jahidi White's three-point play gives Georgetown an 11-point lead, and Knight fouls out on the play.",
+   "sources": [
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html",
+    "https://archive.org/details/InternationalHeraldTribune1996FranceEnglish/Mar%2011%201996%2C%20International%20Herald%20Tribune%2C%20%2335156%2C%20France%20%28en%29/page/n21/mode/1up"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "3:45",
+   "uconn": 67,
+   "opp": 74,
+   "text": "Moore sets up King for a layup, and at the 3:45 stoppage King makes two free throws. The lead is down to seven.",
+   "sources": [
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html",
+    "https://www.youtube.com/watch?v=5uef8OreJPE"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "3:08",
+   "uconn": 67,
+   "opp": 74,
+   "text": "A Georgetown shot hits only backboard as the shot clock runs out: violation.",
+   "sources": [
+    "https://www.youtube.com/watch?v=5uef8OreJPE"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": null,
+   "uconn": 69,
+   "opp": 74,
+   "text": "With a little under three minutes left, Allen misses a 3-pointer and King tips it in.",
+   "sources": [
+    "https://www.youtube.com/watch?v=5uef8OreJPE",
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:43",
+   "uconn": 71,
+   "opp": 74,
+   "text": "Doron Sheffer draws a foul from Jerome Williams and makes both free throws.",
+   "sources": [
+    "https://www.youtube.com/watch?v=5uef8OreJPE",
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:03",
+   "uconn": 73,
+   "opp": 74,
+   "text": "King puts back a Moore miss. UConn is within one.",
+   "sources": [
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://www.youtube.com/watch?v=5uef8OreJPE",
+    "https://archive.org/details/InternationalHeraldTribune1996FranceEnglish/Mar%2011%201996%2C%20International%20Herald%20Tribune%2C%20%2335156%2C%20France%20%28en%29/page/n21/mode/1up"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:45",
+   "uconn": 73,
+   "opp": 74,
+   "text": "Page misses the front end of a one-and-one, and Allen comes down with the rebound.",
+   "sources": [
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html",
+    "https://www.youtube.com/watch?v=5uef8OreJPE"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:38.1",
+   "uconn": 73,
+   "opp": 74,
+   "text": "Calhoun calls timeout to set up a final shot.",
+   "sources": [
+    "https://www.youtube.com/watch?v=5uef8OreJPE",
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:13.6",
+   "uconn": 75,
+   "opp": 74,
+   "text": "Moore works against Iverson near midcourt, then kicks the ball to Allen near the free-throw line. Allen goes up as if to pass, turns toward the basket in midair and lets go a flat, off-balance one-hander. It drops, his only field goal of the second half.",
+   "sources": [
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:00",
+   "uconn": 75,
+   "opp": 74,
+   "text": "Iverson's jumper from the top of the key misses, and Jerome Williams' putback rolls around the rim and off as time runs out.",
+   "sources": [
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://archive.org/details/InternationalHeraldTribune1996FranceEnglish/Mar%2011%201996%2C%20International%20Herald%20Tribune%2C%20%2335156%2C%20France%20%28en%29/page/n21/mode/1up"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "12-0",
+   "label": "UConn's closing run after trailing 74-63 with 4:46 left",
+   "sources": [
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html",
+    "https://archive.org/details/InternationalHeraldTribune1996FranceEnglish/Mar%2011%201996%2C%20International%20Herald%20Tribune%2C%20%2335156%2C%20France%20%28en%29/page/n21/mode/1up"
+   ]
+  },
+  {
+   "value": "14",
+   "label": "straight field-goal misses by Allen before the winner",
+   "sources": [
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://archive.org/details/InternationalHeraldTribune1996FranceEnglish/Mar%2011%201996%2C%20International%20Herald%20Tribune%2C%20%2335156%2C%20France%20%28en%29/page/n21/mode/1up"
+   ]
+  },
+  {
+   "value": "8",
+   "label": "of UConn's final 12 points scored by Kirk King",
+   "sources": [
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://archive.org/details/InternationalHeraldTribune1996FranceEnglish/Mar%2011%201996%2C%20International%20Herald%20Tribune%2C%20%2335156%2C%20France%20%28en%29/page/n21/mode/1up"
+   ]
+  },
+  {
+   "value": "1",
+   "label": "second-half field goal for Ray Allen: the game-winner",
+   "sources": [
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html"
+   ]
+  },
+  {
+   "value": "4",
+   "label": "straight Big East title games Georgetown had lost (last title: 1989)",
+   "sources": [
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "This is not for children. The boys are gone. The men are here now.",
+   "who": "John Thompson",
+   "role": "Georgetown coach",
+   "when": "before the final (reported March 10, 1996)",
+   "source": "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html"
+  },
+  {
+   "text": "The Georgetown game was a wake-up.",
+   "who": "Travis Knight",
+   "role": "UConn center, on the Feb. 19 loss",
+   "when": "before the final (reported March 10, 1996)",
+   "source": "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html"
+  },
+  {
+   "text": "I drove, jumped, faked a pass.",
+   "who": "Ray Allen",
+   "role": "UConn guard",
+   "when": "postgame",
+   "source": "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html"
+  },
+  {
+   "text": "I got a lucky roll.",
+   "who": "Ray Allen",
+   "role": "UConn guard",
+   "when": "postgame",
+   "source": "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "Victor Page, chosen in a media vote taken before the final ended, became the first freshman named the tournament's most valuable player.",
+   "sources": [
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html"
+   ]
+  },
+  {
+   "text": "At 30-2 and with the Big East's automatic bid, UConn was seeded No. 1 in the Southeast the next day and sent to Indianapolis to open against Colgate. Georgetown was seeded second in the East.",
+   "sources": [
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html",
+    "https://www.nytimes.com/1996/03/11/sports/ncaa-tournament-a-final-thought-uconn-and-umass-taking-high-road.html"
+   ]
+  },
+  {
+   "text": "UConn beat Colgate and Eastern Michigan before Mississippi State ended its season, 60-55, in the Southeast Regional semifinals in Lexington, Ky. The NCAA later vacated those three tournament games, and UConn's official record for the season stands at 30-2.",
+   "sources": [
+    "https://www.sports-reference.com/cbb/postseason/men/1996-ncaa.html",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "Georgetown reached the East Regional final, where UMass beat the Hoyas 86-62.",
+   "sources": [
+    "https://www.sports-reference.com/cbb/postseason/men/1996-ncaa.html"
+   ]
+  },
+  {
+   "text": "Allen was the Big East Player of the Year and an All-American. In the 1996 NBA draft, Iverson went first overall and Allen fifth.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.basketball-reference.com/draft/NBA_1996.html"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "Retrospectives remember the night as \"Allen vs. Allen,\" a meeting of two future Hall of Famers.",
+   "sources": [
+    "https://www.foxsports.com/stories/college-basketball/20-years-ago-allen-vs-allen-gave-us-a-big-east-tourney-classic",
+    "https://dailycampus.com/2018/04/17/2018-4-17-big-east-classics-ray-allens-shot-wins-big-east-championship-in-allen-vs-allen/"
+   ]
+  },
+  {
+   "text": "Ray Allen was inducted into the Naismith Memorial Basketball Hall of Fame in 2018.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "5uef8OreJPE",
+   "title": "03/09/1996 Big East Final: #6 Georgetown Hoyas vs. #3 Connecticut Huskies",
+   "channel": "thacozzman89",
+   "kind": "full_game",
+   "start": 4500,
+   "why": "Full ESPN broadcast; the description names the Big East final at Madison Square Garden on Saturday, March 9, 1996. Brad Nessler and Dick Vitale identify themselves on air. ESPN's score graphic shows 74-73 with 38.1 left at about 4470 s and 75-74 by about 4538 s; start=4500 is UConn's last possession."
+  },
+  {
+   "youtube": "UHlavl88BfU",
+   "title": "96' Big East Championship 1 UConn vs 1 Georgetown",
+   "channel": "Stephen PC Barnett",
+   "kind": "full_game",
+   "start": null,
+   "why": "Title names the 1996 Big East championship (UConn's only Big East final against Georgetown that season); already in the site's verified videos. No transcript was available to timestamp the winner."
+  },
+  {
+   "youtube": "mXkT4aeWsmA",
+   "title": "1996 Sportscenter UConn vs. Georgetown Highlights (Big East Championship)",
+   "channel": "For You Video",
+   "kind": "highlights",
+   "start": null,
+   "why": "SportsCenter highlights; title and description name the 1996 Big East championship (Ray Allen vs. Allen Iverson)."
+  },
+  {
+   "youtube": "phwOVE8K_-Q",
+   "title": "Georgetown vs Connecticut (March 9, 1996) \"Ray Allen Provides UConn With Big East Feast\"",
+   "channel": "SPORTS ODYSSEY",
+   "kind": "highlights",
+   "start": null,
+   "why": "Title gives the March 9, 1996 date; description credits the ESPN call by Brad Nessler and Dick Vitale."
+  }
+ ],
+ "photos": [],
+ "newspaper": [
+  {
+   "paper": "International Herald Tribune (Paris)",
+   "date": "1996-03-11",
+   "page_url": "https://archive.org/details/InternationalHeraldTribune1996FranceEnglish/Mar%2011%201996%2C%20International%20Herald%20Tribune%2C%20%2335156%2C%20France%20%28en%29/page/n21/mode/1up",
+   "iiif": "https://iiif.archive.org/image/iiif/3/InternationalHeraldTribune1996FranceEnglish%2FMar%2011%201996%2C%20International%20Herald%20Tribune%2C%20%252335156%2C%20France%20%28en%29_jp2.zip%2FMar%2011%201996%2C%20International%20Herald%20Tribune%2C%20%252335156%2C%20France%20%28en%29_jp2%2FMar%2011%201996%2C%20International%20Herald%20Tribune%2C%20%252335156%2C%20France%20%28en%29_0021.jp2/140,340,880,1000/max/0/default.jpg",
+   "headline": "UConn Fights Back To Win Big East Final / Allen Finds Range to Sink Hoyas",
+   "verified": "Read on the archive.org scan of the Monday March 11, 1996 edition, sports page (scan leaf n21): Associated Press story. The crop shows the headline, deck and lead. The large photo on the page is a Kentucky-Arkansas game, not this one."
+  }
+ ],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "Georgetown's AP rank (entering)",
+   "ours": "6",
+   "source_says": "The UConn 2026-27 Record Book (and older UConn media guides) list Georgetown at No. 4 for this game. The NYT, UPI and AP and the ESPN broadcast all call Georgetown No. 6 at game time. No. 4 may be a later poll's ranking (not verified). Our 6 matches the contemporaneous sources.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html",
+    "https://archive.org/details/InternationalHeraldTribune1996FranceEnglish/Mar%2011%201996%2C%20International%20Herald%20Tribune%2C%20%2335156%2C%20France%20%28en%29/page/n21/mode/1up"
+   ]
+  },
+  {
+   "field": "1996 season story wording",
+   "ours": "'Ray Allen's off-balance winner with 14 seconds to go'",
+   "source_says": "UPI and NYT: 13.6 seconds left; the AP (IHT) says 13 seconds. A rounding issue only.",
+   "sources": [
+    "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+    "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html",
+    "https://archive.org/details/InternationalHeraldTribune1996FranceEnglish/Mar%2011%201996%2C%20International%20Herald%20Tribune%2C%20%2335156%2C%20France%20%28en%29/page/n21/mode/1up"
+   ]
+  }
+ ],
+ "unsure": [
+  "No complete box score was found, so box is null. Places it should exist: the Hartford Courant (robots.txt blocks AI agents), AP (apnews.com blocks Claude-User), NYT print agate (TimesMachine), the Washington Post (blocks AI agents), Georgetown's The Hoya on DigitalGeorgetown (blocks AI agents and sits behind a Cloudflare Turnstile check) and UConn's Daily Campus in the Connecticut Digital Archive (also behind Turnstile). Sports-Reference has no box for this game, and archive.org full-text search found none. A human could transcribe one from the Courant or The Hoya.",
+  "Partial line scores I could source, not enough for a box: King 20 points (UPI, AP); Allen 17 on 5-of-20 (UPI, NYT); Moore 14, 12 in the second half (UPI); Knight 12 points, 7 rebounds (UPI); Page 20 (UPI); Iverson 13 on 4-of-15 (NYT). UConn's starters were King, Rudy Johnson, Knight, Allen and Sheffer (Record Book). An archive.org OCR snippet of an AP story in The Jerusalem Post adds Othella Harrington 13 (not read in full).",
+  "Which side Allen shot from: UPI says the pass came to the right of the free-throw line; NYT's Malcolm Moran says a jumper from the left side. The narrative says only 'near the free-throw line.'",
+  "King's free throws at 3:45: NYT (Litsky) says King 'sank a free throw' (one). ESPN's score graphic goes from 74-65 to 74-67 at the 3:45 stoppage, and the arithmetic (King scored 8 of the final 12 per UPI/AP) needs two. The narrative says two.",
+  "King's go-ahead-to-within-one basket: UPI says a putback of a Moore miss with 63 seconds left; AP (IHT) says 74-73 'with 1:05 left'; NYT says Moore 'fed King, who jammed the ball.' ESPN's graphic shows 74-71 at 1:05 and 74-73 at 1:03. The sequence uses 1:03 and UPI's description.",
+  "King's tip-in of Allen's missed 3 shows up on ESPN's graphic between 2:54 (74-67) and 2:51 (74-69), so that beat's clock is null. The broadcast auto-transcript's '2:20' reading is wrong.",
+  "Intermediate clock readings (3:45, 3:08, 1:43, 0:45, 0:38.1) come from ESPN's on-screen score graphic in the YouTube upload 5uef8OreJPE, checked frame by frame. Tenths are not legible in that low-resolution video, so Allen's 13.6 comes from UPI/NYT; the graphic shows about 13 seconds.",
+  "The 3:08 shot-clock violation shooter is named 'Williams' in the auto-transcript; the narrative leaves the shooter unnamed.",
+  "The ESPN sideline reporter is addressed as 'Lesley' in the auto-captions; surname not verified, so not listed.",
+  "Video X4wOus1Ju3M ('Ray Allen UConn vs Georgetown 1996', Mr. Martin Productions, 13:42, no description) is on the site's 1996-32 list, but I could not confirm it shows the March 9 final rather than the Feb. 19 game, so it is left out here.",
+  "'Allen vs. Allen' is a label from later retrospectives (FOX Sports 2016, Daily Campus 2018), not one found in 1996 coverage.",
+  "Tip time not found.",
+  "NYT articles were read through archived copies on archive.org (nytimes.com blocks automated access); the citations point to the nytimes.com URLs."
+ ],
+ "sources": [
+  {
+   "url": "https://www.upi.com/Archives/1996/03/09/Connecticut-75-Georgetown-74/1877826347600/",
+   "what": "UPI game story, March 9, 1996: clock times (4:46, 1:03, 0:45, 13.6), King's 8 of 12, Allen 0-for-14, final possession."
+  },
+  {
+   "url": "https://www.nytimes.com/1996/03/10/sports/college-basketball-ray-quixote-allen-tilts-at-hoop-and-uconn-wins.html",
+   "what": "NYT, Frank Litsky, March 10, 1996: game story with the first half, the run, rankings, attendance, Page's MVP and quotes from Allen, Knight and Thompson (archive.org copy)."
+  },
+  {
+   "url": "https://www.nytimes.com/1996/03/10/sports/on-college-basketball-allen-sinks-the-shot-that-matters.html",
+   "what": "NYT, Malcolm Moran column, March 10, 1996: context on Allen and the Feb. 19 loss (archive.org copy)."
+  },
+  {
+   "url": "https://www.nytimes.com/1996/03/09/sports/basketball-a-battle-of-the-big-east-s-best-it-s-uconn-vs-georgetown.html",
+   "what": "NYT, Frank Litsky, March 9, 1996: UConn 85, Syracuse 67 semifinal; Allen's 11 vs. Seton Hall and 29 vs. Syracuse (archive.org copy)."
+  },
+  {
+   "url": "https://www.nytimes.com/1996/03/11/sports/ncaa-tournament-a-final-thought-uconn-and-umass-taking-high-road.html",
+   "what": "NYT, Malcolm Moran, March 11, 1996: NCAA seeds for UConn (No. 1 Southeast vs. Colgate) and Georgetown (No. 2 East) (archive.org copy)."
+  },
+  {
+   "url": "https://archive.org/details/InternationalHeraldTribune1996FranceEnglish/Mar%2011%201996%2C%20International%20Herald%20Tribune%2C%20%2335156%2C%20France%20%28en%29/page/n21/mode/1up",
+   "what": "International Herald Tribune, March 11, 1996 (archive.org scan): AP game story."
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=5uef8OreJPE",
+   "what": "ESPN broadcast (YouTube upload): announcers, ESPN score/clock graphics during the run, auto-transcript."
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=phwOVE8K_-Q",
+   "what": "YouTube highlight clip dated March 9, 1996; description credits Brad Nessler and Dick Vitale (ESPN)."
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn 2026-27 Record Book: all-time results (rank, attendance 19,544, ESPN), Big East tournament seeds and starters, 1995-96 vacated note, honors, draft list, Hall of Fame."
+  },
+  {
+   "url": "https://www.sports-reference.com/cbb/postseason/men/1996-ncaa.html",
+   "what": "Sports-Reference, 1996 NCAA tournament bracket: UConn's and Georgetown's tournament results."
+  },
+  {
+   "url": "https://www.sports-reference.com/cbb/schools/georgetown/men/1996.html",
+   "what": "Sports-Reference, 1995-96 Georgetown roster: spelling of Boubacar Aw and other Hoyas."
+  },
+  {
+   "url": "https://www.basketball-reference.com/draft/NBA_1996.html",
+   "what": "Basketball-Reference, 1996 NBA draft: Iverson first overall, Ray Allen fifth."
+  },
+  {
+   "url": "https://www.foxsports.com/stories/college-basketball/20-years-ago-allen-vs-allen-gave-us-a-big-east-tourney-classic",
+   "what": "FOX Sports, Aaron Torres (2016, updated 2020): 20th-anniversary piece calling the game 'Allen vs. Allen.'"
+  },
+  {
+   "url": "https://dailycampus.com/2018/04/17/2018-4-17-big-east-classics-ray-allens-shot-wins-big-east-championship-in-allen-vs-allen/",
+   "what": "The Daily Campus, April 17, 2018: 'Big East Classics' piece calling the game 'Allen vs. Allen'; quotes Dick Vitale's call as ESPN color commentator."
+  }
+ ],
+ "_verified": {
+  "checked": 118,
+  "ok": 118,
+  "edits": 0
+ }
+}

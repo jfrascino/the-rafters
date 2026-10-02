@@ -1651,6 +1651,14 @@ for y in years:
     if mdiv:
         confname, confdiv = 'Big East', mdiv.group(1).strip()
     ap_final = si.get('rank_final') or meta.get('ap_final_meta')
+    # settled against the contemporaneous AP poll story: 1990 final poll Oklahoma, UNLV, Connecticut (IHT/AP, March 13, 1990;
+    # Washington Post "No. 3 Connecticut"; two record-book tables). Sports-Reference has 4.
+    AP_FINAL_FIX = {1990: 3}
+    if y in AP_FINAL_FIX:
+        ap_final = AP_FINAL_FIX[y]
+        for p_ in season_obj.get('polls') or []:
+            if p_.get('wk') == 'Final':
+                p_['rank'] = AP_FINAL_FIX[y]
     story = {'headline': ms.get('headline'), 'text': ms.get('story'), 'moments': ms.get('key_moments') or [], 'honors': ms.get('honors') or [], 'sources': ms.get('sources') or []}
     story = {k: v for k, v in story.items() if v}
     photos = (COMMONS_BY_SEASON.get(y, [])[:48] + SEASON_PHOTOS.get(y, []))[:90]
