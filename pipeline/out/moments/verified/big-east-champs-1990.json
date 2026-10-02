@@ -1,0 +1,929 @@
+{
+ "slug": "big-east-champs-1990",
+ "gameId": "1990-33",
+ "title": "UConn's First Big East Tournament Crown",
+ "nickname": null,
+ "dek": "Down 10-0 to top-seeded Syracuse, UConn rallied behind its pressing defense and 58 points from three guards to win 78-75 \u2014 its first Big East tournament title.",
+ "date": "1990-03-11",
+ "tip": {
+  "text": "2:30 p.m. ET (scheduled CBS start)",
+  "sources": [
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-10.pdf#page=25",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-10.pdf#page=14"
+  ]
+ },
+ "venue": "Madison Square Garden",
+ "city": "New York, NY",
+ "attendance": {
+  "n": 18212,
+  "sources": [
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=7",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://www.nytimes.com/1990/03/12/sports/sports-of-the-times-zing-went-the-strings-for-uconn.html",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=5"
+  ]
+ },
+ "event": "Big East tournament final",
+ "tv": {
+  "network": "CBS",
+  "announcers": [],
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-10.pdf#page=25",
+   "https://www.youtube.com/watch?v=z9wf0kO2FJU"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "27-5",
+   "rank": "AP No. 8",
+   "seed": "No. 2"
+  },
+  "opp": {
+   "record": "24-5",
+   "rank": "AP No. 4",
+   "seed": "No. 1"
+  },
+  "sources": [
+   "https://www.nytimes.com/1990/03/11/sports/college-basketball-uconn-and-syracuse-advance-to-final.html",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-10.pdf#page=23",
+   "https://www.nytimes.com/1990/03/12/sports/uconn-beats-syracuse-for-big-east-title.html",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-10.pdf#page=25"
+  ]
+ },
+ "setup": [
+  {
+   "text": "The Big East's coaches picked UConn eighth before the season, after leading scorer Cliff Robinson graduated. Instead the Huskies tied Syracuse for the regular-season title, and Jim Calhoun was voted the league's coach of the year.",
+   "sources": [
+    "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-13.pdf#page=4",
+    "https://www.nytimes.com/1990/03/09/sports/sports-people-college-basketball-uconn-coach-honored.html",
+    "https://www.youtube.com/watch?v=z9wf0kO2FJU&t=68s"
+   ]
+  },
+  {
+   "text": "Seeded second and ranked eighth in the country, UConn routed Seton Hall 76-58 and came from 9 points down in the second half to beat No. 5 Georgetown 65-60, reaching the final for the first time in the league's 11 years.",
+   "sources": [
+    "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.nytimes.com/1990/03/11/sports/college-basketball-uconn-and-syracuse-advance-to-final.html",
+    "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-133-story.html"
+   ]
+  },
+  {
+   "text": "Syracuse, the top seed and No. 4 in the country, was in its eighth Big East final. The teams had split during the season: UConn won 70-59 in Hartford, and Syracuse won 90-86 at home before 32,820.",
+   "sources": [
+    "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-133-story.html",
+    "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "UConn would be thin inside. Center Rod Sellers had twisted his injured left knee less than two minutes into the Georgetown game, which left Toraino Walker \u2014 a 6-foot-6 freshman who had played 65 minutes in the entire Big East regular season \u2014 to help handle Derrick Coleman, the conference's player of the year.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/11/sports/college-basketball-uconn-and-syracuse-advance-to-final.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=5",
+    "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-133-story.html",
+    "https://www.nytimes.com/1990/03/12/sports/uconn-beats-syracuse-for-big-east-title.html"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "Syracuse scored the first 10 points while UConn came up empty on nine trips down the floor, and Calhoun called time to tell his players they were too good to play this poorly. Smith's 5-foot jumper and free throw finally got UConn on the board.",
+   "sources": [
+    "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-133-story.html",
+    "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=6"
+   ]
+  },
+  {
+   "text": "About six minutes in, Coleman dunked, traded high-fives and made the free throw for a 17-5 lead, and Syracuse still led 25-14 with 10:23 left in the half.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/12/sports/that-merciless-defense-did-it.html",
+    "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-133-story.html"
+   ]
+  },
+  {
+   "text": "Then UConn's press took over. Syracuse turned the ball over 14 times in the first half and missed eight of 13 free throws, and from 17-5 down UConn went on a 37-16 run. Walker, playing through back spasms, scored 10 of his 11 points in the half: his basket tied it 29-29 with 5:49 left, his free throws gave UConn its first lead, and another basket made it 35-29 with 3:29 left.",
+   "sources": [
+    "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-133-story.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=6",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=5",
+    "https://www.nytimes.com/1990/03/12/sports/uconn-beats-syracuse-for-big-east-title.html"
+   ]
+  },
+  {
+   "text": "Tate George's two free throws with 36.2 seconds left made it 42-33, and UConn led 42-35 at halftime. A Smith 3-pointer to start the second half pushed the lead to 10.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=6",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=7"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "2H",
+   "clock": "14:42",
+   "uconn": 49,
+   "opp": 47,
+   "text": "Syracuse chips away at a 49-40 deficit; a basket by Tony Scott, who scores all 12 of his points after halftime, makes it 49-47.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=6",
+    "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": null,
+   "uconn": 60,
+   "opp": 57,
+   "text": "Stephen Thompson's bank shot ties it at 57 with about eight and a half minutes left. John Gwynn answers with a deep 3-pointer from the left wing, fouled by Thompson as he shoots.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=6",
+    "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "7:59",
+   "uconn": 60,
+   "opp": 60,
+   "text": "Coleman dunks to tie it again.",
+   "sources": [
+    "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-133-story.html",
+    "https://www.youtube.com/watch?v=z9wf0kO2FJU&t=5650s"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "7:39",
+   "uconn": 62,
+   "opp": 60,
+   "text": "Nadav Henefeld's floater in the lane puts UConn ahead for good.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=6"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "7:08",
+   "uconn": 65,
+   "opp": 61,
+   "text": "Gwynn drives on Dave Johnson and, fouled on his right side, flips a left-handed hook over his head, off the glass and in. The free throw makes it a four-point game.",
+   "sources": [
+    "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=6",
+    "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-133-story.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:01",
+   "uconn": 71,
+   "opp": 68,
+   "text": "A Scott 3-pointer has cut it to three. Smith's next basket is wiped out when Scott draws the offensive foul.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=6",
+    "https://www.nytimes.com/1990/03/12/sports/uconn-beats-syracuse-for-big-east-title.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:43.5",
+   "uconn": 72,
+   "opp": 68,
+   "text": "Scott is called for traveling, and Smith makes a free throw.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=6",
+    "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/",
+    "https://www.youtube.com/watch?v=z9wf0kO2FJU&t=6950s"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:29.6",
+   "uconn": 74,
+   "opp": 68,
+   "text": "George, the senior who told Calhoun he wanted the ball, makes two free throws.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=6",
+    "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-133-story.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:19.4",
+   "uconn": 74,
+   "opp": 70,
+   "text": "Syracuse gets within four, according to the CBS score graphic.",
+   "sources": [
+    "https://www.youtube.com/watch?v=z9wf0kO2FJU&t=7110s"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:00",
+   "uconn": 78,
+   "opp": 75,
+   "text": "George makes his last four free throws too \u2014 six straight in the final 30 seconds, 8 for 8 for the game \u2014 and raises a finger after the last one, with 7 seconds left. UConn wins 78-75, and fans flood the floor for seven minutes.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/12/sports/uconn-beats-syracuse-for-big-east-title.html",
+    "https://www.nytimes.com/1990/03/12/sports/that-merciless-defense-did-it.html",
+    "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/",
+    "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-133-story.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=7"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "18,212",
+   "label": "sellout crowd at Madison Square Garden",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=5",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=7",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "value": "10-0",
+   "label": "Syracuse's start before UConn scored",
+   "sources": [
+    "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-133-story.html",
+    "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=6"
+   ]
+  },
+  {
+   "value": "37-16",
+   "label": "UConn run that turned a 17-5 deficit into a 42-33 lead",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=6"
+   ]
+  },
+  {
+   "value": "8 for 8",
+   "label": "Tate George at the foul line, including six straight in the final 30 seconds",
+   "sources": [
+    "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/",
+    "https://www.nytimes.com/1990/03/12/sports/that-merciless-defense-did-it.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=6"
+   ]
+  },
+  {
+   "value": "16 in 12 min.",
+   "label": "John Gwynn off the bench, on 6-of-7 shooting",
+   "sources": [
+    "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/",
+    "https://www.nytimes.com/1990/03/12/sports/uconn-beats-syracuse-for-big-east-title.html"
+   ]
+  },
+  {
+   "value": "20",
+   "label": "Syracuse turnovers, 13 of them on UConn steals",
+   "sources": [
+    "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/",
+    "https://www.nytimes.com/1990/03/12/sports/uconn-beats-syracuse-for-big-east-title.html"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "We are too good . . . and have come too far to play this poorly.",
+   "who": "Jim Calhoun",
+   "role": "UConn coach",
+   "when": "postgame, recalling what he told the team at 10-0",
+   "source": "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/"
+  },
+  {
+   "text": "It was time for another team to go ahead and win it. It gets tiring seeing the same teams win it every year.",
+   "who": "John Gwynn",
+   "role": "UConn junior guard",
+   "when": "postgame",
+   "source": "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/"
+  },
+  {
+   "text": "We've come so far. At times those four-mile runs seemed ludicrous. It seems like it's paying off now.",
+   "who": "Tate George",
+   "role": "UConn senior guard",
+   "when": "postgame",
+   "source": "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/"
+  },
+  {
+   "text": "They can beat anybody. They got a whole lot better team than people think.",
+   "who": "Jim Boeheim",
+   "role": "Syracuse coach",
+   "when": "postgame",
+   "source": "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-133-story.html"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "About an hour and a half later, the NCAA made UConn the No. 1 seed in the East and sent it to the Hartford Civic Center to open against 16th-seeded Boston University.",
+   "sources": [
+    "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-133-story.html",
+    "https://www.nytimes.com/1990/03/12/sports/uconn-beats-syracuse-for-big-east-title.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=5"
+   ]
+  },
+  {
+   "text": "Connecticut went UConn-crazy. A Danbury radio station recorded a UConn fight song and sold it on cassette, scalpers in Hartford were asking $100 or more for the few remaining tournament tickets, and at Storrs, where three sanctioned bonfires had been held in recent days, nine students faced disciplinary charges over a post-game blaze that consumed a dorm couch and two chairs.",
+   "sources": [
+    "https://www.nytimes.com/1990/03/13/nyregion/uconn-basketball-the-giddiness-rises.html"
+   ]
+  },
+  {
+   "text": "In Hartford, UConn beat Boston University 76-52 and California 74-54. At East Rutherford, N.J., it beat Clemson 71-70 in the regional semifinal, then lost to Duke 79-78 in overtime in the regional final, finishing 31-6.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "site:games/1990 (1990-37 box score)"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "No team other than Georgetown, St. John's or Syracuse had won the Big East tournament before; Georgetown had six titles, and Syracuse and St. John's two each.",
+   "sources": [
+    "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/"
+   ]
+  },
+  {
+   "text": "It was the first of the eight Big East tournament championships listed in UConn's 2026-27 record book: 1990, 1996, 1998, 1999, 2002, 2004, 2011 and 2024.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "z9wf0kO2FJU",
+   "title": "1990 Big East Championship 1 Syracuse vs 2 UConn",
+   "channel": "Stephen PC Barnett",
+   "kind": "full_game",
+   "start": 5595,
+   "why": "oEmbed-verified; already on the site. Full CBS broadcast with commercials (2:07:01). Sampled frames: Big East bracket graphic at ~20 s and the preseason coaches' poll (UConn 8th) at ~68 s; Coleman's tying dunk at ~5615 s, followed at ~5650 s by the graphic 'Connecticut 60, Syracuse 60, 2nd half 7:59'; game clock 7:10 at ~5870 s just before Gwynn's 3-point play; clock 43.5 at ~6950 s; 'Connecticut 74, Syracuse 70, 19.4' at ~7110 s; George at the line near 0:07 at ~7435 s; clock 0:00 at ~7468 s. Start set at 5595 (just before the 60-60 tie). Timestamps are from frame sampling, accurate to about \u00b15 s."
+  },
+  {
+   "youtube": "VcFHH-x9E00",
+   "title": "UConn 1990 Big East Championship News 8",
+   "channel": "GampelCrazies",
+   "kind": "highlights",
+   "start": null,
+   "why": "oEmbed-verified; already on the site. 66-second WTNH Action News 8 piece (uploader: 'UConn wins 1990 Big East Championship'). Fact-checker sampled frames every 4 s: anchors at the News 8 desk, then game footage labeled 'Courtesy CBS' at Madison Square Garden (Syracuse in orange, UConn in blue), Calhoun on the sideline and UConn No. 32 celebrating."
+  }
+ ],
+ "photos": [],
+ "newspaper": [
+  {
+   "paper": "Manchester Herald (Manchester, Conn.)",
+   "date": "1990-03-12",
+   "page_url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=1",
+   "iiif": "",
+   "headline": "UConn top seed in East \u2014 front-page AP photo 'NET ONE FOR UCONN' of Jim Calhoun cutting down the net",
+   "verified": "Front page read from the Manchester Historical Society's PDF scan (PDF page 1 is a two-page spread). Not on archive.org."
+  },
+  {
+   "paper": "Manchester Herald (Manchester, Conn.)",
+   "date": "1990-03-12",
+   "page_url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=5",
+   "iiif": "",
+   "headline": "UConn wears Big East crown / Syracuse falls in title game (Jim Tierney); Walker emerges in a big way",
+   "verified": "Section 2, page 9, with AP photos of Cyrulik, Smith and assistant Howie Dickenman celebrating and of Gwynn's left-handed shot over Johnson and Coleman."
+  },
+  {
+   "paper": "Manchester Herald (Manchester, Conn.)",
+   "date": "1990-03-12",
+   "page_url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=7",
+   "iiif": "",
+   "headline": "Big East Tournament Championship game: UConn 78, Syracuse 75 (AP box score)",
+   "verified": "Scoreboard page 12; box score transcribed from a 600-dpi render (see box)."
+  },
+  {
+   "paper": "The New York Times",
+   "date": "1990-03-12",
+   "page_url": "https://www.nytimes.com/1990/03/12/sports/uconn-beats-syracuse-for-big-east-title.html",
+   "iiif": "",
+   "headline": "UConn Beats Syracuse For Big East Title (Malcolm Moran)",
+   "verified": "Archive text read via a Wayback Machine capture."
+  },
+  {
+   "paper": "The Washington Post",
+   "date": "1990-03-12",
+   "page_url": "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/",
+   "iiif": "",
+   "headline": "Big East Has Brand-New Boss: Connecticut, 78-75 (Steve Berkowitz)",
+   "verified": "Archive text read via a Wayback Machine capture."
+  }
+ ],
+ "box": {
+  "source": {
+   "paper": "Manchester Herald (Manchester, Conn.), Associated Press box score",
+   "date": "1990-03-12",
+   "page_url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=7",
+   "printed_page": "Scoreboard, p. 12 (PDF page 7 is a two-page spread)",
+   "method": "Transcribed from a 600-dpi render of the page image; OCR ignored where it garbled digits. Every player line, both team totals and the score were re-added and match."
+  },
+  "format": "Standard AP agate box: per-player FG-FGA, FT-FTA and points, plus team 3-point, rebound, assist and foul totals with leaders. No minutes, per-player rebounds or assists, steals, turnovers or blocks.",
+  "line": {
+   "periods": [
+    "1H",
+    "2H"
+   ],
+   "uconn": [
+    42,
+    36
+   ],
+   "opp": [
+    35,
+    40
+   ]
+  },
+  "att": 18212,
+  "teams": [
+   {
+    "name": "UConn",
+    "printed": "CONNECTICUT (78)",
+    "score": 78,
+    "line": [
+     42,
+     36
+    ],
+    "stats": {
+     "fgm": 27,
+     "fga": 57,
+     "tpm": 3,
+     "tpa": 8,
+     "ftm": 21,
+     "fta": 26,
+     "reb": 29,
+     "ast": 13,
+     "pf": 22,
+     "fouled_out": "None"
+    },
+    "leaders": {
+     "reb": "Walker 6",
+     "ast": "DePriest, George, Burrell 3"
+    },
+    "players": [
+     {
+      "name": "Scott Burrell",
+      "printed": "Burrell",
+      "starter": true,
+      "min": null,
+      "pts": 1,
+      "fgm": 0,
+      "fga": 4,
+      "tpm": 0,
+      "tpa": 1,
+      "ftm": 1,
+      "fta": 2,
+      "reb": null,
+      "ast": null,
+      "pid": "scott-burrell-1"
+     },
+     {
+      "name": "Nadav Henefeld",
+      "printed": "Henefeld",
+      "starter": true,
+      "min": null,
+      "pts": 4,
+      "fgm": 2,
+      "fga": 7,
+      "tpm": 0,
+      "tpa": 2,
+      "ftm": 0,
+      "fta": 0,
+      "reb": null,
+      "ast": null,
+      "pid": "nadav-henefeld-1"
+     },
+     {
+      "name": "Dan Cyrulik",
+      "printed": "Cyrulik",
+      "starter": true,
+      "min": null,
+      "pts": 0,
+      "fgm": 0,
+      "fga": 3,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 0,
+      "fta": 0,
+      "reb": null,
+      "ast": null,
+      "pid": "dan-cyrulik-1"
+     },
+     {
+      "name": "Tate George",
+      "printed": "George",
+      "starter": true,
+      "min": null,
+      "pts": 22,
+      "fgm": 7,
+      "fga": 11,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 8,
+      "fta": 8,
+      "reb": null,
+      "ast": null,
+      "pid": "tate-george-1"
+     },
+     {
+      "name": "Chris Smith",
+      "printed": "Smith",
+      "starter": true,
+      "min": null,
+      "pts": 20,
+      "fgm": 7,
+      "fga": 16,
+      "tpm": 2,
+      "tpa": 3,
+      "ftm": 4,
+      "fta": 5,
+      "reb": null,
+      "ast": null,
+      "pid": "chris-smith-1"
+     },
+     {
+      "name": "Rod Sellers",
+      "printed": "Sellers",
+      "starter": false,
+      "min": null,
+      "pts": 0,
+      "fgm": 0,
+      "fga": 0,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 0,
+      "fta": 0,
+      "reb": null,
+      "ast": null,
+      "pid": "rod-sellers-1",
+      "notes": "Played 2 minutes on an injured left knee (NYT; Manchester Herald)."
+     },
+     {
+      "name": "Toraino Walker",
+      "printed": "Walker",
+      "starter": false,
+      "min": null,
+      "pts": 11,
+      "fgm": 3,
+      "fga": 4,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 5,
+      "fta": 7,
+      "reb": null,
+      "ast": null,
+      "pid": "toraino-walker-1",
+      "notes": "24 minutes and 6 rebounds (Manchester Herald); 4 steals (NYT). The box lists him as UConn's rebound leader with 6."
+     },
+     {
+      "name": "John Gwynn",
+      "printed": "Gwynn",
+      "starter": false,
+      "min": null,
+      "pts": 16,
+      "fgm": 6,
+      "fga": 7,
+      "tpm": 1,
+      "tpa": 2,
+      "ftm": 3,
+      "fta": 4,
+      "reb": null,
+      "ast": null,
+      "pid": "john-gwynn-1",
+      "notes": "16 points in 12 minutes (NYT; Washington Post)."
+     },
+     {
+      "name": "Murray Williams",
+      "printed": "Williams",
+      "starter": false,
+      "min": null,
+      "pts": 0,
+      "fgm": 0,
+      "fga": 3,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 0,
+      "fta": 0,
+      "reb": null,
+      "ast": null,
+      "pid": "murray-williams-1"
+     },
+     {
+      "name": "Lyman DePriest",
+      "printed": "DePriest",
+      "starter": false,
+      "min": null,
+      "pts": 4,
+      "fgm": 2,
+      "fga": 2,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 0,
+      "fta": 0,
+      "reb": null,
+      "ast": null,
+      "pid": "lyman-depriest-1"
+     }
+    ]
+   },
+   {
+    "name": "Syracuse",
+    "printed": "SYRACUSE (75)",
+    "score": 75,
+    "line": [
+     35,
+     40
+    ],
+    "stats": {
+     "fgm": 29,
+     "fga": 51,
+     "tpm": 6,
+     "tpa": 14,
+     "ftm": 11,
+     "fta": 22,
+     "reb": 33,
+     "ast": 19,
+     "pf": 22,
+     "fouled_out": "None"
+    },
+    "leaders": {
+     "reb": "Coleman 10",
+     "ast": "Owens 8"
+    },
+    "players": [
+     {
+      "name": "Derrick Coleman",
+      "printed": "Coleman",
+      "starter": true,
+      "min": null,
+      "pts": 13,
+      "fgm": 4,
+      "fga": 5,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 5,
+      "fta": 6,
+      "reb": null,
+      "ast": null,
+      "notes": "Syracuse rebound leader with 10 (box)."
+     },
+     {
+      "name": "Billy Owens",
+      "printed": "Owens",
+      "starter": true,
+      "min": null,
+      "pts": 13,
+      "fgm": 5,
+      "fga": 11,
+      "tpm": 1,
+      "tpa": 2,
+      "ftm": 2,
+      "fta": 4,
+      "reb": null,
+      "ast": null,
+      "notes": "Syracuse assist leader with 8 (box)."
+     },
+     {
+      "name": "LeRon Ellis",
+      "printed": "Ellis",
+      "starter": true,
+      "min": null,
+      "pts": 2,
+      "fgm": 1,
+      "fga": 3,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 0,
+      "fta": 2,
+      "reb": null,
+      "ast": null
+     },
+     {
+      "name": "Michael Edwards",
+      "printed": "Edwards",
+      "starter": true,
+      "min": null,
+      "pts": 3,
+      "fgm": 1,
+      "fga": 4,
+      "tpm": 1,
+      "tpa": 4,
+      "ftm": 0,
+      "fta": 0,
+      "reb": null,
+      "ast": null
+     },
+     {
+      "name": "Stephen Thompson",
+      "printed": "Thompson",
+      "starter": true,
+      "min": null,
+      "pts": 21,
+      "fgm": 10,
+      "fga": 14,
+      "tpm": 0,
+      "tpa": 1,
+      "ftm": 1,
+      "fta": 3,
+      "reb": null,
+      "ast": null
+     },
+     {
+      "name": "Richie Manning",
+      "printed": "Manning",
+      "starter": false,
+      "min": null,
+      "pts": 2,
+      "fgm": 1,
+      "fga": 3,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 0,
+      "fta": 1,
+      "reb": null,
+      "ast": null
+     },
+     {
+      "name": "Dave Johnson",
+      "printed": "Johnson",
+      "starter": false,
+      "min": null,
+      "pts": 9,
+      "fgm": 3,
+      "fga": 5,
+      "tpm": 1,
+      "tpa": 2,
+      "ftm": 2,
+      "fta": 4,
+      "reb": null,
+      "ast": null
+     },
+     {
+      "name": "Mike Hopkins",
+      "printed": "Hopkins",
+      "starter": false,
+      "min": null,
+      "pts": 0,
+      "fgm": 0,
+      "fga": 0,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 0,
+      "fta": 0,
+      "reb": null,
+      "ast": null
+     },
+     {
+      "name": "Tony Scott",
+      "printed": "Scott",
+      "starter": false,
+      "min": null,
+      "pts": 12,
+      "fgm": 4,
+      "fga": 6,
+      "tpm": 3,
+      "tpa": 5,
+      "ftm": 1,
+      "fta": 2,
+      "reb": null,
+      "ast": null
+     }
+    ]
+   }
+  ],
+  "notes": [
+   "Printed exactly: 'Halftime\u2014Connecticut 42, Syracuse 35. 3-point goals\u2014Connecticut 3-8 (Smith 2-3, Gwynn 1-2, Burrell 0-1, Henefeld 0-2), Syracuse 6-14 (Scott 3-5, Owens 1-2, Johnson 1-2, Edwards 1-4, Thompson 0-1). Fouled out\u2014None. Rebounds\u2014Connecticut 29 (Walker 6), Syracuse 33 (Coleman 10). Assists\u2014Connecticut 13 (DePriest, George, Burrell 3), Syracuse 19 (Owens 8). Total fouls\u2014Connecticut 22, Syracuse 22. A\u201418,212.'",
+   "The box prints surnames only; first names are from the site roster (UConn) and orangehoops.org's 1989-90 Syracuse roster.",
+   "'starter' follows the AP convention of listing the five starters first. Cyrulik as a starter is corroborated by the LA Times ('starter Dan Cyrulik') and Syracuse's starters by orangehoops.org. UConn's record book instead lists Sellers as a starter (see conflicts).",
+   "Not in the box but reported: Syracuse committed 20 turnovers, 13 on UConn steals (Washington Post; NYT says Walker had 4 of UConn's 13 steals)."
+  ]
+ },
+ "conflicts": [
+  {
+   "field": "UConn starters, 1990 Big East final",
+   "ours": "UConn Record Book (the site's source), 'All-time Big East Tournament results and starters': Scott Burrell, Nadav Henefeld, Rod Sellers, Tate George, Chris Smith",
+   "source_says": "The AP box lists Cyrulik among the first five and Sellers as a reserve; the LA Times calls Cyrulik the 'starter' Coleman overpowered; the NYT (March 11) said Sellers was not expected to play, and he played 2 minutes",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=7",
+    "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-133-story.html",
+    "https://www.nytimes.com/1990/03/11/sports/college-basketball-uconn-and-syracuse-advance-to-final.html",
+    "https://www.nytimes.com/1990/03/12/sports/uconn-beats-syracuse-for-big-east-title.html"
+   ]
+  }
+ ],
+ "unsure": [
+  "CBS announcers not identified: the broadcast shows two announcers on camera (~80 s and ~5770 s) but I found no name graphic in sampled frames.",
+  "Smith's free throw at 0:43.5: the Washington Post says he made the front end of a one-and-one 'with 43.5 seconds left'; the Herald says Scott was called for traveling with 43.5 left and then Smith made one. The beat uses 0:43.5 for the travel and 72-68 after the free throw.",
+  "The NYT says Syracuse was within two with 4:25 left and that UConn began its free-throw parade 'with a 2-point lead' in the last 3:09; exact scores at those moments were not found, so they are not beats.",
+  "Who scored Syracuse's points from 68 to 75 in the final 30 seconds is not identified.",
+  "Clock for the 57-57 tie is approximate ('about 8 1/2 minutes' per the Washington Post); the 10-0 start and the 17-5 score are also approximate ('first four minutes', 'six minutes into' / 'with 14 minutes left').",
+  "The Herald's 'Walker emerges' sidebar says Walker played 24 minutes; the AP box has no minutes. NYT gives Gwynn 12 minutes and Sellers 2.",
+  "The NYT (March 13) quotes Oliver Macklin's sister saying he played 5.2 seconds; Macklin does not appear in the AP box. Not used.",
+  "The LA Times called this UConn's 'first tournament berth since 1978'; the record book shows UConn's previous NCAA appearance was in the 1978-79 season (March 1979). Not used.",
+  "The 74-70 beat at 0:19.4 comes only from a CBS on-screen graphic in the YouTube broadcast.",
+  "Other videos that may include this game but were not verified: 'A Dime Back Retrocast - UConn Men's Basketball vs. Syracuse (3/11/1990)' (7q8clie-tAo, HuskyGames, 1:29:58, no description), WFSB's 'UConn Huskies: The Dream Season' special (VJFwn8JEctY), 'Huskymania!' (RuNTFF2wRWw), WFSB's 'Flashback Report - UConn Dream Season (1990)' (tIYhr3yIavs, on the site's season page) and the '22 Threads' podcast episode on the 1990 tournament (iD4YAELjpA8)."
+ ],
+ "sources": [
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=7",
+   "what": "Manchester Herald, March 12, 1990, p. 12: AP box score (halftime 42-35; 3-pointers; rebounds; assists; fouls; A\u201418,212)"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=5",
+   "what": "Manchester Herald, March 12, 1990, Section 2 p. 9 (Jim Tierney): sold-out crowd of 18,212; Syracuse's sixth loss in eight finals; Smith MVP with 54 points in three games; George and Gwynn all-tournament; Walker sidebar (65 regular-season Big East minutes; 29-29 at 5:49; 31-29 first lead; 35-29 at 3:29; 24 minutes); Sellers' injury at 18:22 of the Georgetown game"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=6",
+   "what": "Manchester Herald, March 12, 1990, pp. 10-11: game story continuation (10-0; 17-5 'with 14 minutes left'; 37-16 run; 42-33 on George free throws at 0:36.2; Smith 3 to 45-35; 49-47 at 14:42; Thompson tie at 57; Gwynn 60-57; Henefeld 62-60 at 7:39; Gwynn 3-point play 65-61 at 7:08; Scott 3 to 71-68; offensive foul at 1:01; travel at 0:43.5; 74-68 at 0:29.6; George 8-for-8) and AP's Hal Bock on Smith's three-point play ending the 10-0 run"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-10.pdf#page=25",
+   "what": "Manchester Herald, March 10, 1990 (Jim Tierney): No. 2-seeded, eighth-ranked UConn; CBS to carry the championship game Sunday at 2:30 p.m."
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-10.pdf#page=14",
+   "what": "Manchester Herald, March 10, 1990, TV listings: Sunday 2:30 p.m., Channel 3, Big East championship game live from Madison Square Garden"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-10.pdf#page=23",
+   "what": "Manchester Herald, March 10, 1990: AP \u2014 fourth-ranked, top-seeded Syracuse (23-5) beat Pittsburgh in the quarterfinals"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-12.pdf#page=1",
+   "what": "Manchester Herald, March 12, 1990, front page: AP photo of Calhoun cutting down the net"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-03-13.pdf#page=4",
+   "what": "Manchester Herald, March 13, 1990, editorial: UConn rated eighth by the conference coaches before the season"
+  },
+  {
+   "url": "https://www.nytimes.com/1990/03/12/sports/uconn-beats-syracuse-for-big-east-title.html",
+   "what": "New York Times, March 12, 1990 (Malcolm Moran): fans flooded the court for seven minutes; George 6-for-6 in the final 29 seconds, 22nd point with 7 seconds left; Gwynn 16 in 12 minutes; Walker 11 points, 6 rebounds, 4 of 13 steals, back spasms; Sellers 2 minutes; Coleman 4-of-5; within 2 at 4:25; 11-of-14 FTs in last 3:09; offensive foul at 1:01; No. 1 seed, Hartford"
+  },
+  {
+   "url": "https://www.nytimes.com/1990/03/12/sports/that-merciless-defense-did-it.html",
+   "what": "New York Times, March 12, 1990, 'That Merciless Defense Did It': Coleman's dunk and free throw for 17-5 six minutes in; 20 Syracuse turnovers; Thompson 21; Syracuse 11-of-22 FTs; 60-60 with 8 minutes left; George's six free throws in the final 30 seconds"
+  },
+  {
+   "url": "https://www.nytimes.com/1990/03/12/sports/sports-of-the-times-zing-went-the-strings-for-uconn.html",
+   "what": "New York Times, March 12, 1990, Sports of the Times (Ira Berkow): crowd of 18,212; 10-0, 17-5, 25-14; Walker's free throws for a 31-29 lead; Gwynn's 3 broke a 57-57 tie; nets cut by players"
+  },
+  {
+   "url": "https://www.nytimes.com/1990/03/11/sports/college-basketball-uconn-and-syracuse-advance-to-final.html",
+   "what": "New York Times, March 11, 1990 (Malcolm Moran): semifinal 65-60 over Georgetown after a 9-point second-half deficit; UConn 27-5; Sellers hurt 1:38 into the game, not expected to play the final"
+  },
+  {
+   "url": "https://www.nytimes.com/1990/03/13/nyregion/uconn-basketball-the-giddiness-rises.html",
+   "what": "New York Times, March 13, 1990 (Kirk Johnson), 'UConn Basketball: The Giddiness Rises': ticket scalping, WRKI fight song, missing dorm couch and chairs"
+  },
+  {
+   "url": "https://www.nytimes.com/1990/03/09/sports/sports-people-college-basketball-uconn-coach-honored.html",
+   "what": "New York Times, March 9, 1990: Calhoun named Big East coach of the year; Cliff Robinson's departure"
+  },
+  {
+   "url": "https://www.washingtonpost.com/archive/sports/1990/03/12/big-east-has-brand-new-boss-connecticut-78-75/d0ebba0b-7c12-400f-9c3a-c2a8bd890b86/",
+   "what": "Washington Post, March 12, 1990 (Steve Berkowitz): first champion other than Syracuse, Georgetown or St. John's; picked eighth in the preseason coaches' poll; second-seeded and eighth-ranked; top-seeded, fourth-ranked Syracuse; 20 turnovers, 13 on steals; George 7-of-11 and 8-of-8; Gwynn 6-of-7, 16 in 12 minutes; tie at 57 about 8\u00bd minutes left; Gwynn's 3 and 3-point play to 65-61; 31-10 stretch; quotes"
+  },
+  {
+   "url": "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-133-story.html",
+   "what": "Los Angeles Times, March 12, 1990 (Gene Wojciechowski): nine empty trips during 10-0; 25-14 with 10:23 left; 14 first-half turnovers; Coleman dunk tied it 60-60 with 7:59 left; Gwynn's 3-point play with 7:08 left for 65-61; 11-of-14 FTs in the final three minutes, George the last six; Coleman the Big East player of the year; Cyrulik the starter; Syracuse's eighth final; NCAA No. 1 seed about 90 minutes later; Boeheim quote"
+  },
+  {
+   "url": "https://www.latimes.com/archives/la-xpm-1990-03-12-sp-124-story.html",
+   "what": "Los Angeles Times, March 12, 1990 (Thomas Bonk): UConn No. 1 seed in the East, to play Boston University at the Hartford Civic Center"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn 2026-27 Record Book: 1989-90 results (3/11 vs Syracuse, ranks 8 and 4, attendance 18,212, CBS, W 78-75; season series; NCAA results and sites), Big East tournament results and starters, list of Big East tournament titles"
+  },
+  {
+   "url": "http://www.orangehoops.org/GameResults/G1989-1990.htm",
+   "what": "orangehoops.org, Syracuse 1989-90 game results: final vs Connecticut L 75-78; starters Edwards, Thompson, Ellis, Coleman, Owens"
+  },
+  {
+   "url": "http://www.orangehoops.org/1989-1990.htm",
+   "what": "orangehoops.org, Syracuse 1989-90 roster (first names: Richie Manning, Mike Hopkins, Dave Johnson, Tony Scott, LeRon Ellis, Michael Edwards)"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=z9wf0kO2FJU",
+   "what": "CBS broadcast on YouTube: frames checked for the preseason-poll graphic, the 60-60 graphic at 7:59, the 0:43.5 clock and the 74-70 graphic at 0:19.4"
+  },
+  {
+   "url": "site:games/1990 (1990-37 box score)",
+   "what": "Site box score for the Duke regional final (overtime)"
+  }
+ ],
+ "_verified": {
+  "checked": 236,
+  "ok": 233,
+  "edits": 4
+ }
+}

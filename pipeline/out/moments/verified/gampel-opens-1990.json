@@ -1,0 +1,453 @@
+{
+ "slug": "gampel-opens-1990",
+ "gameId": "1990-20",
+ "title": "The Night Gampel Pavilion Opened",
+ "nickname": null,
+ "dek": "Before a sellout crowd of 8,241, UConn opened its new on-campus arena by beating No. 15 St. John's 72-58 and moving into a tie for first in the Big East.",
+ "date": "1990-01-27",
+ "tip": {
+  "text": "8:00 p.m. ET",
+  "sources": [
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-27.pdf#page=22"
+  ]
+ },
+ "venue": "Harry A. Gampel Pavilion",
+ "city": "Storrs, CT",
+ "attendance": {
+  "n": 8241,
+  "sources": [
+   "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html",
+   "https://www.latimes.com/archives/la-xpm-1990-01-28-sp-1504-story.html",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=6"
+  ]
+ },
+ "event": "Big East regular season",
+ "tv": {
+  "network": "Channel 8 (WTNH) television; WPOP 1410 AM radio",
+  "announcers": [],
+  "sources": [
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-27.pdf#page=22",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "16-3 (5-2 Big East)",
+   "rank": "AP No. 20",
+   "seed": ""
+  },
+  "opp": {
+   "record": "17-3 (6-1 Big East)",
+   "rank": "AP No. 15",
+   "seed": ""
+  },
+  "sources": [
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-27.pdf#page=22",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-27.pdf#page=24",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html"
+  ]
+ },
+ "setup": [
+  {
+   "text": "For 36 years, UConn's home on campus was the Field House, which opened in 1954. The Huskies won 282 of 367 games there, and they closed it on Wednesday night, Jan. 24, 1990, by beating Central Connecticut 99-77.",
+   "sources": [
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-27.pdf#page=22",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "Its replacement was the domed basketball arena of a new campus sports complex. The state provided $22 million, and Harry A. Gampel, a 1943 UConn graduate, gave $1 million \u2014 the largest private gift to the university at the time \u2014 and his name went on the building. Construction began in the summer of 1987, and the arena was finished three months early so UConn could fit five games into the season.",
+   "sources": [
+    "https://today.uconn.edu/2015/01/harry-a-gampel-pavilion-the-house-that-basketball-built/",
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html"
+   ]
+  },
+  {
+   "text": "UConn had not played a Big East game on campus since Feb. 11, 1986; its conference home games had gone to the Hartford Civic Center or the New Haven Coliseum. Back-to-back wins over Syracuse and Georgetown in Hartford had just lifted the Huskies into the AP poll at No. 20, and they brought a six-game winning streak into opening night.",
+   "sources": [
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=7",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "The opponent was No. 15 St. John's: 17-3, alone in first place in the Big East at 6-1, and a 93-62 winner over UConn on Jan. 2.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-27.pdf#page=22",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-27.pdf#page=24",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "Outside before tipoff, a student hunting for a ticket was offered one for $150 and walked away. Inside, Gov. William O'Neill tossed up a ceremonial jump ball and was roundly booed when he was introduced.",
+   "sources": [
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=7"
+   ]
+  },
+  {
+   "text": "The fans stayed on their feet until UConn scored its first points: Rod Sellers' layup, 2 minutes 11 seconds in, which tied it 2-2.",
+   "sources": [
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html"
+   ]
+  },
+  {
+   "text": "It was a grind. Calhoun said UConn couldn't press because St. John's Boo Harvey handled the ball so well, and Nadav Henefeld, Tate George and Sellers combined to shoot 3 for 22. Chris Smith kept the Huskies close with 15 first-half points, and Scott Burrell, in his second game back from arthroscopic knee surgery, scored 12 off the bench before halftime.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=6",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=7",
+    "https://vault.si.com/vault/1990/02/05/mush-you-huskies-in-the-beastly-big-east-connecticut-has-become-one-of-the-top-dogs"
+   ]
+  },
+  {
+   "text": "Smith's 3-pointer at the halftime buzzer made it 35-34. St. John's, which had shot 68.6 percent against UConn on Jan. 2, made only 8 of 30 shots after halftime; Malik Sealy still finished with 26 points and 13 rebounds, but Jayson Williams was held to 6 and Robert Werdann to 4.",
+   "sources": [
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=7"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "1H",
+   "clock": "17:49",
+   "uconn": 2,
+   "opp": 2,
+   "text": "Rod Sellers' layup, 2:11 into the game, is UConn's first basket in its new home and ties the score.",
+   "sources": [
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html"
+   ]
+  },
+  {
+   "period": "1H",
+   "clock": "0:00",
+   "uconn": 35,
+   "opp": 34,
+   "text": "Chris Smith's 3-pointer at the buzzer, capping a 15-point half for him, puts UConn ahead at halftime.",
+   "sources": [
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=7"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "7:53",
+   "uconn": 51,
+   "opp": 51,
+   "text": "Malik Sealy's jumper ties it. St. John's will not score again for more than five and a half minutes.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=7",
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": null,
+   "uconn": 53,
+   "opp": 51,
+   "text": "Dan Cyrulik, a 7-foot sophomore who came in averaging 5 points, gives UConn the lead with a turnaround jumper.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=7",
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": null,
+   "uconn": 55,
+   "opp": 51,
+   "text": "Henefeld, scoreless for the first 34 minutes, hits a fadeaway jumper from the baseline.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=7"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": null,
+   "uconn": 57,
+   "opp": 51,
+   "text": "With just over five minutes left, Henefeld's steal \u2014 his 91st of the season, an NCAA record for a freshman \u2014 turns into a John Gwynn layup.",
+   "sources": [
+    "https://vault.si.com/vault/1990/02/05/mush-you-huskies-in-the-beastly-big-east-connecticut-has-become-one-of-the-top-dogs",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=7",
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "4:30",
+   "uconn": 59,
+   "opp": 51,
+   "text": "The 6-foot Gwynn slips inside among the big men and tips in a Henefeld miss.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=7",
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:00",
+   "uconn": 72,
+   "opp": 58,
+   "text": "Final: UConn 72, St. John's 58. After the 10-0 run that broke the 51-51 tie, St. John's never challenged again. The win was UConn's seventh straight and sixth straight in the Big East, and it pulled the Huskies even with St. John's for first place.",
+   "sources": [
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=6",
+    "https://www.latimes.com/archives/la-xpm-1990-01-28-sp-1504-story.html"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "8,241",
+   "label": "sellout crowd for the first game in Gampel Pavilion",
+   "sources": [
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html",
+    "https://www.latimes.com/archives/la-xpm-1990-01-28-sp-1504-story.html",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "value": "282-85",
+   "label": "UConn's record in the Field House, 1954 to 1990 (.768)",
+   "sources": [
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html"
+   ]
+  },
+  {
+   "value": "45",
+   "label": "point turnaround from St. John's 93-62 win on Jan. 2 to UConn's 72-58 win",
+   "sources": [
+    "https://uconnhuskies.com/news/2015/1/22/Gampel_Pavilion_25_And_One_Magic_Moments",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "value": "91",
+   "label": "steals for freshman Nadav Henefeld after this game, breaking the NCAA freshman record of 90",
+   "sources": [
+    "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=7"
+   ]
+  },
+  {
+   "value": "38-10",
+   "label": "UConn's bench outscored St. John's bench",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=7"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "It has a funny sound to it, but I love it so far.",
+   "who": "John Gwynn",
+   "role": "UConn junior guard",
+   "when": "postgame, on UConn being in first place",
+   "source": "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html"
+  },
+  {
+   "text": "I think we'll keep this place for a while.",
+   "who": "Jim Calhoun",
+   "role": "UConn coach",
+   "when": "postgame, on the new arena",
+   "source": "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html"
+  },
+  {
+   "text": "The scoreboard said we were up one, but mentally we were down by six.",
+   "who": "Jim Calhoun",
+   "role": "UConn coach",
+   "when": "postgame, on the 35-34 halftime lead",
+   "source": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=7"
+  },
+  {
+   "text": "We won the game; nothing else is important.",
+   "who": "Nadav Henefeld",
+   "role": "UConn freshman forward",
+   "when": "postgame",
+   "source": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=7"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "The next AP poll put UConn at No. 13, the program's highest wire-service ranking up to that point.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-30.pdf#page=7",
+    "https://uconnhuskies.com/news/2015/1/22/Gampel_Pavilion_25_And_One_Magic_Moments"
+   ]
+  },
+  {
+   "text": "Four nights later, the UConn women played their first game in the building, beating Georgetown 76-54 before a program-record crowd of 3,151.",
+   "sources": [
+    "https://uconnhuskies.com/news/2015/1/22/Gampel_Pavilion_25_And_One_Magic_Moments"
+   ]
+  },
+  {
+   "text": "The men went 5-0 in Gampel that winter. One of those wins came on Feb. 19, when Henefeld's 3-pointer from the top of the key with two seconds left beat Providence 75-72 in overtime.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://uconnhuskies.com/news/2015/1/22/Gampel_Pavilion_25_And_One_Magic_Moments"
+   ]
+  },
+  {
+   "text": "UConn went on to share the Big East regular-season title, win the conference tournament and reach the Elite Eight, finishing 31-6.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "Gampel's capacity grew to 10,027 before the 1996-97 season and to 10,167 in 2002-03; by 2015 UConn described it as the largest on-campus basketball arena in New England.",
+   "sources": [
+    "https://today.uconn.edu/2015/01/harry-a-gampel-pavilion-the-house-that-basketball-built/"
+   ]
+  },
+  {
+   "text": "In February 2020, UConn marked the building's 30th anniversary at halftime of a game against Cincinnati by honoring the 1989-90 team, the first to play there.",
+   "sources": [
+    "https://www.youtube.com/watch?v=-84Xp9C58-4"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "L5pL2Egbbhk",
+   "title": "Scott Burrell Uconn 1990 1st game at Gampel",
+   "channel": "tweeduconn",
+   "kind": "highlights",
+   "start": null,
+   "why": "oEmbed-verified; already on the site. 23-second clip; uploader: 'Scott Burrell dunk during 1st game at Gampel Pavilion 1990'. Fact-checker sampled frames every 2 s: a packed student section, signs reading 'UCONN' and '#1 IN THE BIG EAST', and UConn in white against a team in red (St. John's colors) on a court with a BIG EAST floor logo. The identification as opening night rests on the uploader's title plus these consistent details."
+  }
+ ],
+ "photos": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Harry_A._Gampel_Pavilion_-_University_of_Connecticut_-_DSC09954.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Harry_A._Gampel_Pavilion_-_University_of_Connecticut_-_DSC09954.JPG",
+   "credit": "Daderot / Wikimedia Commons",
+   "license": "CC0 1.0",
+   "depicts": "Interior of Gampel Pavilion on June 28, 2013: the domed ceiling, the seating bowl and the court during a summer camp.",
+   "verified": "Not a photo of the 1990 game; it shows the venue. File metadata (date, author, CC0) checked on Commons and the image viewed."
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Hugh_S._Greer_Field_House%2C_University_of_Connecticut.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hugh_S._Greer_Field_House,_University_of_Connecticut.jpg",
+   "credit": "Greenstrat / Wikimedia Commons",
+   "license": "Public domain (released by author)",
+   "depicts": "Entrance of the Field House (later Hugh S. Greer Field House), UConn's on-campus home from 1954 to January 1990, photographed in August 2008.",
+   "verified": "Not a photo of the 1990 game; shows the predecessor building. Commons metadata checked and the image viewed (the 'FIELD HOUSE' lettering and a 'Hugh S. Greer Field House' plaque are visible)."
+  }
+ ],
+ "newspaper": [
+  {
+   "paper": "Manchester Herald (Manchester, Conn.)",
+   "date": "1990-01-27",
+   "page_url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-27.pdf#page=22",
+   "iiif": "",
+   "headline": "UConn opens Gampel Pavilion (game-day preview, with the 8 p.m. Channel 8 / WPOP listing)",
+   "verified": "Text read from the Manchester Historical Society's PDF scan (PDF page 22, a two-page spread). Not on archive.org."
+  },
+  {
+   "paper": "Manchester Herald (Manchester, Conn.)",
+   "date": "1990-01-29",
+   "page_url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=6",
+   "iiif": "",
+   "headline": "UConn treading in unprecedented territory (Len Auster) \u2014 with Patrick Flynn photos 'LOOSE BALL' and 'IT'S HOME' of the packed new arena",
+   "verified": "Section 2, page 11; text read from the PDF scan, continuation on the next PDF page. Not on archive.org."
+  },
+  {
+   "paper": "The New York Times",
+   "date": "1990-01-28",
+   "page_url": "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html",
+   "iiif": "",
+   "headline": "UConn Gains Tie At Top in Big East (Jack Curry)",
+   "verified": "Archive text read via a Wayback Machine capture."
+  }
+ ],
+ "box": null,
+ "conflicts": [],
+ "unsure": [
+  "Cost of the arena: the NYT and the Manchester Herald's columnist give $28.5 million; the Herald's game-day preview the same week says $26.1 million. No cost figure is used in the narrative.",
+  "Attendance: the official crowd was the 8,241 capacity, but the Manchester Herald reported opening-night attendance ran 119 over capacity because folding chairs were added for dignitaries on the lobby level.",
+  "Exact clock times for the 53-51, 55-51 and 57-51 baskets were not found (SI places the steal 'with just over five minutes to play'). The NYT credits the 10-0 run to Cyrulik (a jumper and a free throw) and Gwynn (a layup and a tip-in); the Herald adds Henefeld's jumper. The last two points of the run are not identified.",
+  "St. John's scoreless stretch after 51-51 is 5:42 in the NYT and 5 minutes 43 seconds in the Herald.",
+  "No box score found in the sources I could access (NYT, Manchester Herald, AP roundup).",
+  "TV announcers not identified; the Herald listing gives Channel 8 (WTNH) and WPOP 1410 AM, and the record book lists 'tv8'.",
+  "AP's roundup (LA Times) gives St. John's record after the game as 17-3; the NYT and Herald give 17-4 (it was 17-3 entering). The narrative uses only the entering record.",
+  "Wikipedia gives the arena's opening date as Jan. 21, 1990 (citing an old UConn page). Not verified and not used; the first game was Jan. 27.",
+  "Videos that may contain opening-night footage but were not verified: WFSB's 'UConn Huskies: The Dream Season' special (VJFwn8JEctY; uploader says it aired March 28, 1990), 'Huskymania!' (RuNTFF2wRWw) and '30 Years of Gampel Pavilion' (4ij7fvXTGW4)."
+ ],
+ "sources": [
+  {
+   "url": "https://www.nytimes.com/1990/01/28/sports/college-basketball-uconn-gains-tie-at-top-in-big-east.html",
+   "what": "New York Times, Jan. 28, 1990 (Jack Curry): 72-58 before 8,241; Smith 20; Sealy 26 and 13; Cyrulik 13 and 10; Gwynn 13; Henefeld's 91st steal (NCAA freshman record); 51-51 at 7:53 then 10-0 run; St. John's scoreless 5:42; Sellers' first basket 2:11 in; Smith's buzzer jumper for 35-34; $150 ticket anecdote; Calhoun and Gwynn quotes; first on-campus Big East game since Feb. 11, 1986; Field House 282-367 since 1954; closed with 99-77 win; cost, early completion, Gampel's $1 million gift"
+  },
+  {
+   "url": "https://vault.si.com/vault/1990/02/05/mush-you-huskies-in-the-beastly-big-east-connecticut-has-become-one-of-the-top-dogs",
+   "what": "Sports Illustrated, Feb. 5, 1990 (Alexander Wolff), 'Mush, You Huskies' (read via a Wayback Machine capture): opening of Gampel; 8,241 seats; Henefeld steal with just over five minutes left leading to a Gwynn layup and 57-51; Cyrulik, Burrell and Gwynn in double figures off the bench"
+  },
+  {
+   "url": "https://www.latimes.com/archives/la-xpm-1990-01-28-sp-1504-story.html",
+   "what": "AP roundup in the Los Angeles Times, Jan. 28, 1990: 'first game ever at Gampel Pavilion,' sellout of 8,241; Cyrulik and Gwynn 24 second-half points; tie for first"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-27.pdf#page=22",
+   "what": "Manchester Herald, Jan. 27, 1990: preview (No. 20 UConn vs. No. 15 St. John's; 8 p.m.; Channel 8, WPOP; Field House 36-year stay ended with 99-77 win; UConn 5-2, 16-3) and sports-on-TV/radio listing"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-27.pdf#page=24",
+   "what": "Manchester Herald, Jan. 27, 1990: AP photo caption (UConn 16-3, 5-2; St. John's 6-1, 17-3)"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=6",
+   "what": "Manchester Herald, Jan. 29, 1990, Section 2 p. 11 (Len Auster): student-led sellout of 8,241; Gwynn 11 of his 13 after halftime; Cyrulik's 13 all in the second half; Henefeld/George/Sellers 3-for-22; Calhoun on Harvey"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-29.pdf#page=7",
+   "what": "Manchester Herald, Jan. 29, 1990, continuation: Smith 15 at half; Burrell 12 first-half points in second game back from knee surgery; 51-all at 7:53; Cyrulik, Henefeld, Gwynn sequence to 59-51 at 4:30; St. John's 8-for-30 after halftime; bench 38-10; Gov. O'Neill's jump ball; attendance note; Calhoun and Henefeld quotes; UConn 13-5 in Big East games at the Field House"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1990-01-30.pdf#page=7",
+   "what": "Manchester Herald, Jan. 30, 1990: photo caption \u2014 No. 13 in AP, UConn's highest wire-service ranking ever"
+  },
+  {
+   "url": "https://today.uconn.edu/2015/01/harry-a-gampel-pavilion-the-house-that-basketball-built/",
+   "what": "UConn Today, Jan. 26, 2015, 'Harry A. Gampel Pavilion: The House that Basketball Built': state's $22 million; Gampel's $1 million gift; construction 1987-1990; domed arena; capacities 8,241, 10,027, 10,167"
+  },
+  {
+   "url": "https://uconnhuskies.com/news/2015/1/22/Gampel_Pavilion_25_And_One_Magic_Moments",
+   "what": "UConn Athletics, Jan. 22, 2015 (compiled by Tim Tolokan), 'Gampel Pavilion: 25 (And One) Magic Moments': opening night reversed the Jan. 2 loss by 45 points; women's first game Jan. 31 before 3,151; Henefeld's winner vs. Providence Feb. 19; No. 13 ranking"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn 2026-27 Record Book, 1989-90 results: 1/24 Central Conn. (FH) 99-77; 1/27 St. John's (GP) W 72-58, ranks 20 vs 15, attendance 8,241, tv8; Gampel games all wins; 31-6 season"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=-84Xp9C58-4",
+   "what": "UConn Huskies YouTube video description (Feb. 2020): 30th-anniversary honoring of the 1989-90 team at halftime vs. Cincinnati"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=NTbNRCSZdLs",
+   "what": "WPOP radio recording of the last Field House game (uploader notes the final as 99-77)"
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:Harry_A._Gampel_Pavilion_-_University_of_Connecticut_-_DSC09954.JPG",
+   "what": "Wikimedia Commons: Gampel Pavilion interior, 2013, CC0"
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:Hugh_S._Greer_Field_House,_University_of_Connecticut.jpg",
+   "what": "Wikimedia Commons: Field House entrance, 2008, public domain"
+  }
+ ],
+ "_verified": {
+  "checked": 112,
+  "ok": 111,
+  "edits": 3
+ }
+}

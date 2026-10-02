@@ -1,0 +1,501 @@
+{
+ "slug": "roof-collapse-1978",
+ "gameId": "1978-14",
+ "title": "The Last Game Before the Roof Fell",
+ "nickname": null,
+ "dek": "UConn upset UMass 56-49 on a snowy Tuesday night in Hartford; about six hours later, 1,400 tons of roof crashed onto the Civic Center's 10,000 empty seats.",
+ "date": "1978-01-17",
+ "tip": null,
+ "venue": "Hartford Civic Center",
+ "city": "Hartford, CT",
+ "attendance": {
+  "n": 4746,
+  "sources": [
+   "https://connecticuthistory.org/almost-a-tragedy-the-collapse-of-the-hartford-civic-center/"
+  ]
+ },
+ "event": "Regular season (non-conference)",
+ "tv": null,
+ "entering": {
+  "uconn": {
+   "record": "7-6",
+   "rank": "unranked",
+   "seed": ""
+  },
+  "opp": {
+   "record": "8-2",
+   "rank": "",
+   "seed": ""
+  },
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-17.pdf#page=5",
+   "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=11",
+   "site:seasons/1978"
+  ]
+ },
+ "setup": [
+  {
+   "text": "Dom Perno's first UConn team was 7-6 when Massachusetts came to the Hartford Civic Center on Tuesday night, Jan. 17, 1978. UMass was 8-2 and third in UPI's poll of New England Division I coaches; UConn was tied for seventh, with a single point.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-19.pdf#page=8",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-17.pdf#page=5"
+   ]
+  },
+  {
+   "text": "It was an old rivalry. The schools first met in 1907, and UConn led the series 47-34 going into the season, but UMass had taken the winter's first meeting, 74-64 in Amherst on Dec. 14.",
+   "sources": [
+    "https://archive.org/details/massachuse19771978univ/page/n907/mode/1up",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "UConn was banged up. Captain Joe Whelton, the leading scorer at 16.3 points a game, sat out with an injured shooting hand, and senior Dennis Wolff took over running the offense. One publication listed the Huskies as 7\u00bd-point underdogs.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-21.pdf#page=4",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=11",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-19.pdf#page=8"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "Perno's plan was to slow the game down, and it worked: UConn shut down the Minutemen's running game and dictated the tempo.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=11",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-19.pdf#page=8"
+   ]
+  },
+  {
+   "text": "The surprise star was Al Lewis, a slender 6-foot-11 sophomore center who averaged under 7 points a game. He scored a game-high 18, pulled down eight rebounds and tried two dunks, making both.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-21.pdf#page=4",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=11",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-19.pdf#page=8"
+   ]
+  },
+  {
+   "text": "The bench delivered, too: seldom-used senior Mike Armstrong scored eight points and played a steady floor game, and Wolff added 11 points and four assists. Alex Eldridge led UMass with 15; Mark Haymore had 12.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=11"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "2H",
+   "clock": "8:35",
+   "uconn": 42,
+   "opp": 38,
+   "text": "UConn nurses a four-point lead with 8:35 to play.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=11"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": null,
+   "uconn": 49,
+   "opp": 38,
+   "text": "Seven straight UConn points, six of them by Lewis, stretch the margin to 11.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=11"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": null,
+   "uconn": null,
+   "opp": null,
+   "text": "UMass claws back within six, but baskets by Lewis and Jim Abromaitis put the game away.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=11"
+   ]
+  },
+  {
+   "period": "Final",
+   "clock": "0:00",
+   "uconn": 56,
+   "opp": 49,
+   "text": "Final: UConn 56, UMass 49, the Minutemen's third straight loss. About 5,000 fans file out of the coliseum; downtown, snow has been falling since before 8 that morning and will keep falling until midnight.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=11",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=1",
+    "https://www.nytimes.com/1978/01/19/archives/coliseum-roof-collapses-at-hartford-civic-center-coliseum-roof.html",
+    "https://archive.org/details/DTIC_ADA069323"
+   ]
+  },
+  {
+   "period": "Jan. 18",
+   "clock": "2:00 a.m.",
+   "uconn": null,
+   "opp": null,
+   "text": "With an estimated 8.8 inches of snow on the roof, the storm turns to rain. By 4 a.m., heavy rain is falling.",
+   "sources": [
+    "https://www.nytimes.com/1978/01/19/archives/coliseum-roof-collapses-at-hartford-civic-center-coliseum-roof.html",
+    "https://archive.org/details/DTIC_ADA069323"
+   ]
+  },
+  {
+   "period": "Jan. 18",
+   "clock": "4:18 a.m.",
+   "uconn": null,
+   "opp": null,
+   "text": "The 2\u00bd-acre roof gives way. The whole span, some 1,400 tons of steel and lightweight gypsum concrete, crashes down onto 10,000 empty seats. No one is hurt. (A federal report timed it at 4:18; the Times reported 4:15, and UPI later said about 4:19.)",
+   "sources": [
+    "https://archive.org/details/DTIC_ADA069323",
+    "https://www.nytimes.com/1978/01/19/archives/coliseum-roof-collapses-at-hartford-civic-center-coliseum-roof.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=1",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-06-16.pdf#page=3"
+   ]
+  },
+  {
+   "period": "Jan. 18",
+   "clock": null,
+   "uconn": null,
+   "opp": null,
+   "text": "Before daybreak, Gov. Ella Grasso is at the scene. Earth movers arrive to clear rubble piled two to three feet high in places.",
+   "sources": [
+    "https://www.nytimes.com/1978/01/19/archives/coliseum-roof-collapses-at-hartford-civic-center-coliseum-roof.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=1"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "1,400 tons",
+   "label": "of steel and gypsum concrete that fell onto the coliseum's 10,000 empty seats",
+   "sources": [
+    "https://www.nytimes.com/1978/01/19/archives/coliseum-roof-collapses-at-hartford-civic-center-coliseum-roof.html"
+   ]
+  },
+  {
+   "value": "~6 hours",
+   "label": "between the crowd leaving and the roof coming down",
+   "sources": [
+    "https://www.nytimes.com/1978/01/19/archives/coliseum-roof-collapses-at-hartford-civic-center-coliseum-roof.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=1"
+   ]
+  },
+  {
+   "value": "15\u201318 psf",
+   "label": "estimated snow, ice and rain load when the roof failed \u2014 about half the 30 psf live load it was built to carry",
+   "sources": [
+    "https://archive.org/details/DTIC_ADA069323",
+    "https://www.nytimes.com/1978/01/20/archives/hartford-cavein-still-a-mystery-cavein-of-roof-at-hartford-coliseum.html"
+   ]
+  },
+  {
+   "value": "360 \u00d7 300 ft",
+   "label": "space-frame roof, held 85 feet above the floor on four supports",
+   "sources": [
+    "https://www.nytimes.com/1978/01/19/archives/coliseum-roof-collapses-at-hartford-civic-center-coliseum-roof.html",
+    "https://archive.org/details/DTIC_ADA069323",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=1"
+   ]
+  },
+  {
+   "value": "107",
+   "label": "\"home\" games the Whalers played in Springfield before the rebuilt coliseum reopened",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1980-02-06.pdf#page=6",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1980-02-07.pdf#page=1"
+   ]
+  },
+  {
+   "value": "14,581",
+   "label": "crowd when UConn returned to the rebuilt building on Feb. 9, 1980 \u2014 then the largest ever for a college game in New England",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1980-02-11.pdf#page=7",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "I can't begin to describe the absolute horror and just to think people were here a few hours ago",
+   "who": "Ella T. Grasso",
+   "role": "Governor of Connecticut",
+   "when": "at the scene, Jan. 18, 1978 (UPI)",
+   "source": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=1"
+  },
+  {
+   "text": "The initial shock is similar to a town that has had a heart attack.",
+   "who": "George Athanson",
+   "role": "Mayor of Hartford",
+   "when": "Jan. 18, 1978",
+   "source": "https://www.nytimes.com/1978/01/19/archives/coliseum-roof-collapses-at-hartford-civic-center-coliseum-roof.html"
+  },
+  {
+   "text": "The lights and the scoreboard and anything else hanging on the ceiling are now on the ice",
+   "who": "Charlie Miller",
+   "role": "Coliseum operations supervisor",
+   "when": "Jan. 18, 1978 (UPI)",
+   "source": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=1"
+  },
+  {
+   "text": "It will be bigger and better, and it will have a different kind of roof.",
+   "who": "James B. Daken",
+   "role": "Hartford city manager",
+   "when": "Jan. 18, 1978, on rebuilding",
+   "source": "https://www.nytimes.com/1978/01/19/archives/coliseum-roof-collapses-at-hartford-civic-center-coliseum-roof.html"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "Every coliseum event through March was canceled, and the Whalers, the building's main tenant, moved their remaining home games 25 miles north to the Springfield Civic Center.",
+   "sources": [
+    "https://www.nytimes.com/1978/01/19/archives/coliseum-roof-collapses-at-hartford-civic-center-coliseum-roof.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-19.pdf#page=8"
+   ]
+  },
+  {
+   "text": "UConn's next home game, four nights later against nationally ranked Providence, was moved to the New Haven Coliseum so the more than 8,000 fans holding Hartford tickets could use them. Fewer than 5,000 came, and the Friars won 57-47.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-19.pdf#page=8",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-21.pdf#page=4",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-23.pdf#page=5",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "The Huskies played the rest of their home schedule on campus in Storrs. They won only three of their last 12 games and finished 11-15.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-26.pdf#page=8",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-02-10.pdf#page=7",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "On June 15, 1978, the city's consultant, Lev Zetlin Associates, reported that the roof fell because the 1,400-ton space frame was inadequately braced and the weight on the roof had been underestimated by about 20 percent. Distortion in some of the roof's top members, the report said, should have been a red flag to inspectors.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-06-16.pdf#page=3",
+    "https://archive.org/details/DTIC_ADA069323"
+   ]
+  },
+  {
+   "text": "Rebuilt for $31.5 million, the coliseum reopened on Feb. 6, 1980, with a Whalers game against the Los Angeles Kings before 14,448. Three nights later UConn played its first game in the new building and lost to Rhode Island, 68-65.",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1980-02-06.pdf#page=6",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1980-02-07.pdf#page=1",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1980-02-08.pdf#page=6",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1980-02-11.pdf#page=7",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "The warning signs predated the storm: when the coliseum was finished in January 1975, the city asked its architect to look at a slight pitch that had developed in the roof, and was told there was nothing wrong.",
+   "sources": [
+    "https://www.nytimes.com/1978/01/19/archives/coliseum-roof-collapses-at-hartford-civic-center-coliseum-roof.html",
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-06-16.pdf#page=3"
+   ]
+  },
+  {
+   "text": "An Army Corps of Engineers cold-regions laboratory, working for the National Bureau of Standards, later estimated the roof was carrying 15 to 18 pounds per square foot when it failed \u2014 the heaviest load since it was built, yet only about half the 30 pounds per square foot it was designed to hold.",
+   "sources": [
+    "https://archive.org/details/DTIC_ADA069323",
+    "https://www.nytimes.com/1978/01/20/archives/hartford-cavein-still-a-mystery-cavein-of-roof-at-hartford-coliseum.html"
+   ]
+  },
+  {
+   "text": "Twelve years after the collapse, the rebuilt Civic Center was where UConn opened the 1990 NCAA tournament as the No. 1 seed in the East.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+    "https://www.nytimes.com/1990/03/12/sports/uconn-beats-syracuse-for-big-east-title.html"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "4ax6eUnpa68",
+   "title": "Hartford Civic Center roof collapse (1978)",
+   "channel": "SquirrelBait",
+   "kind": "documentary",
+   "start": null,
+   "why": "oEmbed-verified (SquirrelBait, 3:28; uploader description: 'Hist. Channel \"Engineering Disasters\"'). Fact-checker sampled frames every 13 s: a 'HARTFORD CIVIC CENTER 1978' title card over falling snow, footage of the collapsed space frame and rubble, the rebuilt building's exterior, engineer interviews and a 'Top chord east-west direction' buckling diagram. It is about the collapse, not the basketball game."
+  }
+ ],
+ "photos": [],
+ "newspaper": [
+  {
+   "paper": "Manchester Evening Herald (Manchester, Conn.)",
+   "date": "1978-01-18",
+   "page_url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=1",
+   "iiif": "",
+   "headline": "Civic Center roof falls (UPI, by Michael Clancy) \u2014 with a UPI photo of cleanup crews at the collapsed coliseum",
+   "verified": "Front page of the afternoon edition published hours after the collapse; text read from the Manchester Historical Society's PDF scan. Not on archive.org, so no IIIF crop."
+  },
+  {
+   "paper": "Manchester Evening Herald (Manchester, Conn.)",
+   "date": "1978-01-18",
+   "page_url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=11",
+   "iiif": "",
+   "headline": "UConns surprise UMass / Al Lewis sparkles in upset (UPI)",
+   "verified": "Sports page with the UPI game story (PDF page 11 is a two-page spread). Not on archive.org."
+  },
+  {
+   "paper": "The New York Times",
+   "date": "1978-01-19",
+   "page_url": "https://www.nytimes.com/1978/01/19/archives/coliseum-roof-collapses-at-hartford-civic-center-coliseum-roof.html",
+   "iiif": "",
+   "headline": "Coliseum Roof Collapses At Hartford Civic Center",
+   "verified": "Archive text (Page A1, by Lawrence Fellows) read via a Wayback Machine capture of the archive page."
+  },
+  {
+   "paper": "Massachusetts Daily Collegian (UMass student paper)",
+   "date": "1978-01-31",
+   "page_url": "https://archive.org/details/massachuse19771978univ/page/n929/mode/1up",
+   "iiif": "https://iiif.archive.org/image/iiif/3/massachuse19771978univ%2Fmassachuse19771978univ_jp2.tar%2Fmassachuse19771978univ_jp2%2Fmassachuse19771978univ_0929.jp2/550,700,2100,2300/max/0/default.jpg",
+   "headline": "January proves stormy for men's basketball (by Rich Eckel), page 38",
+   "verified": "archive.org leaf 929 of the 1977-78 microfilm; header reads 'TUESDAY, JANUARY 31, 1978'. The first paragraph says the Civic Center roof collapsed just hours after UMass lost to UConn there. IIIF crop checked visually."
+  },
+  {
+   "paper": "Manchester Evening Herald (Manchester, Conn.)",
+   "date": "1980-02-11",
+   "page_url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1980-02-11.pdf#page=7",
+   "iiif": "",
+   "headline": "Rhody Surprises UConn (by Len Auster) \u2014 UConn's first game in the rebuilt Civic Center",
+   "verified": "Text read from the Manchester Historical Society PDF scan (PDF page 7, a spread). Not on archive.org."
+  }
+ ],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "Game 1978-16 (Boston University, Jan. 25, 1978) \u2014 score",
+   "ours": "UConn 80, BU 63 (matches the record book)",
+   "source_says": "The Manchester Evening Herald's game story printed 80-62",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-26.pdf#page=8",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "field": "1977-78 roster (site:seasons/1978)",
+   "ours": "No Mike Armstrong on the roster",
+   "source_says": "UPI credits 'seldom used senior Mike Armstrong' with 8 points in this game; the record book's uniform-number list has Mike Armstrong wearing No. 22 in 1977-78",
+   "sources": [
+    "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=11",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "unsure": [
+  "Exact attendance: 4,746 comes from connecticuthistory.org (Connecticut Historical Society). Contemporary reports said 'nearly 5,000' (NYT) and '5,000' (UPI); I did not find a 1978 primary source printing the exact figure.",
+  "Time of collapse varies by source: 4:15 a.m. (NYT, Jan. 19, 1978), 0418 (Army CRREL report, 1979), about 4:19 (UPI, June 1978), about 4:20 (garage workers quoted by UPI, Jan. 18). The sequence uses 4:18 and notes the others.",
+  "Tip time not found. The NYT and UPI place the crowd's exit about six hours before the collapse.",
+  "No complete box score found: the Manchester Evening Herald printed only the UPI story; the Hartford Courant's 1978 coverage was not accessible.",
+  "Clock and score when UMass closed within six are not reported; the 49-38 score in the sequence is UPI's 42-38 lead plus its 'seven straight points'.",
+  "Whether Al Lewis's eight rebounds led the game is not stated (the Herald says his 18 points did).",
+  "UMass's national ranking entering the game was not checked; it was third in UPI's New England coaches' poll.",
+  "Photo candidates excluded under the photo rule: the Herald's front-page UPI photo (scan hosted by the Manchester Historical Society, not archive.org) and Figure 4 of the CRREL report on archive.org (a U.S. Army photograph of a corner of the collapsed roof \u2014 public-domain government work, but not a newspaper scan).",
+  "Video not included because its contents could not be verified without viewing: 'Collapse of Hartford Civic Center' (yTCqwvX2f7g, channel 'Face the State', uploaded Jan. 17, 2018, no description).",
+  "Later secondary sources disagree on the reopening (a 2008 state newsletter says Jan. 17, 1980; the arena's own website names Pittsburgh as the opening opponent). Contemporary UPI reports say Feb. 6, 1980, against the Los Angeles Kings; those are used.",
+  "Wikipedia's 1977-78 team article says UConn played the rest of the season 'solely in Storrs'; contemporaneous reports and the record book show the Jan. 21 Providence game was played in New Haven. Not used."
+ ],
+ "sources": [
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=11",
+   "what": "Manchester Evening Herald, Jan. 18, 1978, sports: UPI game story (Lewis 18 points; Whelton out; 42-38 with 8:35 left; seven straight points; Armstrong 8; Wolff 11 and 4 assists; Eldridge 15, Haymore 12; UMass 8-3 after third straight loss)"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-18.pdf#page=1",
+   "what": "Manchester Evening Herald, Jan. 18, 1978, front page: UPI collapse story by Michael Clancy (5,000 fans six hours earlier; Grasso and Miller quotes; rubble two to three feet high; workers heard it about 4:20 a.m.)"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-17.pdf#page=5",
+   "what": "Manchester Evening Herald, Jan. 17, 1978: UPI New England Division I coaches' poll (UMass third at 8-2; UConn tied for seventh with one point)"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-19.pdf#page=8",
+   "what": "Manchester Evening Herald, Jan. 19, 1978: Len Auster column (7\u00bd-point underdogs, Perno's first season, tempo, Lewis's two dunks, Whelton the captain) and Earl Yost pieces on the Whalers' move to Springfield and the Providence game's shift to New Haven"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-21.pdf#page=4",
+   "what": "Manchester Evening Herald, Jan. 21, 1978: UConn-Providence preview (game moved to New Haven Coliseum; AD John Toner; 8,000 tickets; Whelton 16.3 ppg, injured shooting hand; Lewis 6.9 ppg, 18 points and 8 rebounds vs UMass; Providence 12th in AP)"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-23.pdf#page=5",
+   "what": "Manchester Evening Herald, Jan. 23, 1978: fewer than 5,000 at New Haven; UConn lost 57-47"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-01-26.pdf#page=8",
+   "what": "Manchester Evening Herald, Jan. 26, 1978: UConn beat BU at Storrs before 4,272"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-02-10.pdf#page=7",
+   "what": "Manchester Evening Herald, Feb. 10, 1978: UConn-Rhode Island at Storrs sold out; remaining home games vs Vermont, Boston College, Manhattan"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1978-06-16.pdf#page=3",
+   "what": "Manchester Evening Herald, June 16, 1978: UPI on Lev Zetlin Associates' final report (inadequate bracing; weight underestimated ~20%; 'red flag'; collapse about 4:19 a.m.)"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1980-02-06.pdf#page=6",
+   "what": "Manchester Evening Herald, Feb. 6, 1980: UPI \u2014 coliseum rebuilt for $31.5 million to reopen that night with Whalers vs. Los Angeles Kings; Whalers' 107 'home' games away"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1980-02-07.pdf#page=1",
+   "what": "Manchester Evening Herald, Feb. 7, 1980: UPI 'Arena Is Star Again' on the reopening"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1980-02-08.pdf#page=6",
+   "what": "Manchester Evening Herald, Feb. 8, 1980: Earl Yost \u2014 14,448 at the reopening"
+  },
+  {
+   "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1980-02-11.pdf#page=7",
+   "what": "Manchester Evening Herald, Feb. 11, 1980: Len Auster \u2014 Rhode Island 68, UConn 65 at the Civic Center before 14,581, then the largest crowd for a college game in New England"
+  },
+  {
+   "url": "https://www.nytimes.com/1978/01/19/archives/coliseum-roof-collapses-at-hartford-civic-center-coliseum-roof.html",
+   "what": "New York Times, Jan. 19, 1978, p. A1 (Lawrence Fellows): collapse at 4:15 a.m.; nearly 5,000 at the game six hours earlier; 1,400 tons onto 10,000 seats; 360 x 300 ft roof 85 ft up; events canceled through March; Whalers to Springfield; Grasso at scene before daybreak; Athanson and Daken quotes; 1975 roof-pitch inquiry"
+  },
+  {
+   "url": "https://www.nytimes.com/1978/01/20/archives/hartford-cavein-still-a-mystery-cavein-of-roof-at-hartford-coliseum.html",
+   "what": "New York Times, Jan. 20, 1978, p. A1 (Paul Goldberger): roof designed for a 30 psf live load; 4,455 steel pieces; $1.4 million roof"
+  },
+  {
+   "url": "https://www.nytimes.com/1978/01/22/archives/providence-57-uconn-47.html",
+   "what": "New York Times, Jan. 22, 1978 archive headline 'Providence 57, UConn 47' (headline only)"
+  },
+  {
+   "url": "https://archive.org/details/DTIC_ADA069323",
+   "what": "U.S. Army CRREL Special Report 79-9 (April 1979), for the National Bureau of Standards: 2\u00bd-acre roof collapsed at 0418 on Jan. 18, 1978; space frame supported at four points; 30 psf design live load; snow downtown from before 0800 to midnight Jan. 17; ~8.8 in. on the roof at midnight; rain after 0200, heavy at 0400; load at failure 15-18 psf, the heaviest since 1974"
+  },
+  {
+   "url": "https://archive.org/details/massachuse19771978univ/page/n907/mode/1up",
+   "what": "Massachusetts Daily Collegian, Dec. 14, 1977, p. 36 (archive.org leaf 907): series history \u2014 first game 1907, UConn led 47-34"
+  },
+  {
+   "url": "https://archive.org/details/massachuse19771978univ/page/n929/mode/1up",
+   "what": "Massachusetts Daily Collegian, Jan. 31, 1978, p. 38 (archive.org leaf 929): roof collapsed hours after UMass's loss to UConn"
+  },
+  {
+   "url": "https://connecticuthistory.org/almost-a-tragedy-the-collapse-of-the-hartford-civic-center/",
+   "what": "connecticuthistory.org, 'Almost a Tragedy' (Connecticut Historical Society): attendance 4,746"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn 2026-27 Record Book: 1977-78 results (Perno; 1/17 Massachusetts at HCC W 56-49; 1/21 Providence at New Haven Coliseum L 47-57; 11-15), 1979-80 results (2/9 Rhode Island at HCC), 1989-90 NCAA games in Hartford, uniform-number list (Mike Armstrong No. 22, 1977-78)"
+  },
+  {
+   "url": "https://web.archive.org/web/20160304111454/http://www.uconnhuskies.com/sports/m-baskbl/archive/conn-m-baskbl-sched-1977.html",
+   "what": "Archived uconnhuskies.com 1977-78 schedule (Providence at New Haven, L 57-47). Note: this page mislabels some sites, e.g. lists the UMass game as Storrs."
+  },
+  {
+   "url": "https://www.nytimes.com/1990/03/12/sports/uconn-beats-syracuse-for-big-east-title.html",
+   "what": "New York Times, March 12, 1990: UConn placed at the Hartford Civic Center as the East's No. 1 seed"
+  },
+  {
+   "url": "site:seasons/1978",
+   "what": "Site data: 1977-78 schedule and polls (UConn unranked all season)"
+  }
+ ],
+ "_verified": {
+  "checked": 104,
+  "ok": 100,
+  "edits": 5
+ }
+}
