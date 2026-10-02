@@ -1656,7 +1656,7 @@ for y in years:
     AP_FINAL_FIX = {1990: 3}
     if y in AP_FINAL_FIX:
         ap_final = AP_FINAL_FIX[y]
-        for p_ in season_obj.get('polls') or []:
+        for p_ in polls or []:
             if p_.get('wk') == 'Final':
                 p_['rank'] = AP_FINAL_FIX[y]
     story = {'headline': ms.get('headline'), 'text': ms.get('story'), 'moments': ms.get('key_moments') or [], 'honors': ms.get('honors') or [], 'sources': ms.get('sources') or []}
