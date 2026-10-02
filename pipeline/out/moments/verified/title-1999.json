@@ -1,0 +1,724 @@
+{
+ "slug": "title-1999",
+ "gameId": "1999-36",
+ "title": "UConn Stuns Duke for First National Title",
+ "nickname": {
+  "text": "We Shocked the World",
+  "sources": [
+   "https://www.courant.com/1999/03/30/now-do-you-believe-this-team-always-did/",
+   "https://www.thescore.com/ncaab/news/1968877",
+   "https://www.courant.com/2004/04/06/for-uconn-mission-improbable/",
+   "https://www.youtube.com/watch?v=2NuwFskRLa4",
+   "https://www.youtube.com/watch?v=b67234JtEp8"
+  ]
+ },
+ "dek": "Nine-and-a-half-point underdogs, UConn snapped Duke's 32-game winning streak, 77-74, as Ricky Moore's defense forced Trajan Langdon into a travel with 5.4 seconds left.",
+ "date": "1999-03-29",
+ "tip": {
+  "text": "9:18 p.m. ET (listed start; the Courant put the final buzzer at 11:27 p.m.)",
+  "sources": [
+   "http://www.espn.go.com/ncb/1999/990329/recap/cbpdau.html",
+   "https://www.courant.com/1999/03/30/now-do-you-believe-this-team-always-did/",
+   "https://www.courant.com/1999/03/30/king-conn/"
+  ]
+ },
+ "venue": "Tropicana Field",
+ "city": "St. Petersburg, FL",
+ "attendance": {
+  "n": 41340,
+  "sources": [
+   "http://espn.go.com/ncb/1999/990329/boxscore/cbpdau.html",
+   "https://www.cbsnews.com/news/uconn-grabs-ncaa-title-29-03-1999/",
+   "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+   "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/",
+   "https://www.courant.com/1999/03/30/king-conn/",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "http://fs.ncaa.org/Docs/stats/m_final4/2023/AttendSites.pdf"
+  ]
+ },
+ "event": "NCAA tournament national championship game",
+ "tv": {
+  "network": "CBS",
+  "announcers": [
+   "Jim Nantz (play-by-play)",
+   "Billy Packer (analyst)",
+   "Bonnie Bernstein (reporter)"
+  ],
+  "sources": [
+   "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-cbs-posts-a-victory-too.html",
+   "https://www.courant.com/1999/03/30/cbs-ignores-hype-makes-right-calls/"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "33-2",
+   "rank": "AP #3",
+   "seed": "1 (West)"
+  },
+  "opp": {
+   "record": "37-1",
+   "rank": "AP #1",
+   "seed": "1 (East)"
+  },
+  "sources": [
+   "https://www.thescore.com/ncaab/news/1968877",
+   "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/uconnhuskies.com/documents/2018/6/26/UConn_Final_Four_Notes.pdf",
+   "https://www.cbsnews.com/news/uconn-grabs-ncaa-title-29-03-1999/"
+  ]
+ },
+ "setup": [
+  {
+   "text": "Duke arrived in St. Petersburg as the sport's juggernaut: 37-1, unbeaten through the Atlantic Coast Conference, winners of 32 straight and the nation's highest-scoring team, led by national player of the year Elton Brand and senior sharpshooter Trajan Langdon.",
+   "sources": [
+    "https://www.thescore.com/ncaab/news/1968877",
+    "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/",
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-langdon-s-journey-is-a-step-too-long.html"
+   ]
+  },
+  {
+   "text": "Connecticut was 33-2 and had spent 10 weeks at No. 1. Its only losses came to Syracuse, with Richard Hamilton and Jake Voskuhl out injured, and to Miami. Hamilton, an All-American, had passed up the NBA the previous spring to chase a title.",
+   "sources": [
+    "https://www.thescore.com/ncaab/news/1968877",
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "https://www.courant.com/1999/03/30/now-do-you-believe-this-team-always-did/",
+    "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/"
+   ]
+  },
+  {
+   "text": "Still, the Huskies were 9\u00bd-point underdogs, a spread the Courant called the highest in eight years. Jim Calhoun was coaching in his first Final Four after three regional-final losses at UConn, including the 1990 East final, decided by Christian Laettner's overtime buzzer-beater for Duke.",
+   "sources": [
+    "https://www.cbsnews.com/news/uconn-grabs-ncaa-title-29-03-1999/",
+    "https://www.courant.com/1999/03/31/a-new-title-for-uconn-mens-team-champions/",
+    "https://www.thescore.com/ncaab/news/1968877",
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "https://www.courant.com/1999/03/30/say-it-loud-calhouns-a-winner/"
+   ]
+  },
+  {
+   "text": "Duke and UConn were the only teams to hold the No. 1 ranking that season, and they met with a combined 70-3 record. The UConn players had said they would rather face Duke than Michigan State, and before the game Khalid El-Amin told CBS's Bonnie Bernstein the Huskies planned to shock the world.",
+   "sources": [
+    "https://www.cbsnews.com/news/uconn-grabs-ncaa-title-29-03-1999/",
+    "https://www.courant.com/1999/03/30/cbs-ignores-hype-makes-right-calls/",
+    "https://www.youtube.com/watch?v=F1l2qJMtmhA"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "Duke struck first, building a 9-2 lead a little more than three minutes in. Then Ricky Moore, UConn's senior defensive specialist, went on the attack, scoring nine points in a 15-4 run that put the Huskies up 17-13. He had all 13 of his points by halftime.",
+   "sources": [
+    "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm",
+    "https://www.cbsnews.com/news/uconn-grabs-ncaa-title-29-03-1999/",
+    "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-uconn-proves-it-can-and-how.html",
+    "https://www.courant.com/1999/03/30/moore-returns-to-scoring-roots/"
+   ]
+  },
+  {
+   "text": "The first half brought seven ties and six lead changes. UConn led 36-32 with 1:28 left before Langdon answered with two 3-pointers over Moore, the second with 24.1 seconds left and a foul for a four-point play. Duke went to the locker room ahead 39-37.",
+   "sources": [
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-langdon-s-journey-is-a-step-too-long.html"
+   ]
+  },
+  {
+   "text": "Langdon's jumper and another 3 helped Duke edge ahead 48-43 early in the second half. Hamilton answered with nine points in six minutes, and his 18-footer off a screen made it 65-59, UConn's largest lead, with just under nine minutes to play.",
+   "sources": [
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/",
+    "https://www.courant.com/1999/03/30/king-conn/",
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+    "https://www.courant.com/1999/03/30/the-national-championship-play-by-play/"
+   ]
+  },
+  {
+   "text": "Then Elton Brand took over, blocking shots and finishing a fast break, while UConn went more than four minutes without a field goal. Chris Carrawell's jumper tied it at 66, and El-Amin ended the drought with a short jumper for a 68-66 lead.",
+   "sources": [
+    "https://www.courant.com/1999/03/30/king-conn/",
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+    "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm",
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "2H",
+   "clock": "4:07",
+   "uconn": 68,
+   "opp": 68,
+   "text": "Trajan Langdon makes two free throws to tie it at 68. It is the 14th and last tie of the night.",
+   "sources": [
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+    "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/",
+    "https://www.courant.com/1999/03/30/king-conn/",
+    "https://www.courant.com/1999/03/30/the-national-championship-play-by-play/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "3:50",
+   "uconn": 70,
+   "opp": 68,
+   "text": "Richard Hamilton answers with two free throws. UConn will not trail again.",
+   "sources": [
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+    "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/",
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "https://www.courant.com/1999/03/30/the-national-championship-play-by-play/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "3:26",
+   "uconn": 73,
+   "opp": 68,
+   "text": "UConn goes back to its press, and Duke turns the ball over before setting up. Hamilton buries a 23-foot 3-pointer from the left wing.",
+   "sources": [
+    "https://www.courant.com/1999/03/30/the-national-championship-play-by-play/",
+    "https://www.courant.com/1999/03/30/king-conn/",
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-uconn-proves-it-can-and-how.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:44",
+   "uconn": 73,
+   "opp": 72,
+   "text": "After a Carrawell free throw and a UConn turnover, Shane Battier grabs an offensive rebound and kicks it out to Langdon, whose long 3 pulls Duke within a point.",
+   "sources": [
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/",
+    "https://www.youtube.com/watch?v=D4eleuM7Flg&t=4564"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:05",
+   "uconn": 75,
+   "opp": 72,
+   "text": "Khalid El-Amin drives past Brand on a switch and floats a shot over Battier.",
+   "sources": [
+    "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/",
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:54",
+   "uconn": 75,
+   "opp": 74,
+   "text": "Moore fouls William Avery, who makes both free throws. They are Duke's last points.",
+   "sources": [
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+    "https://www.courant.com/1999/03/30/king-conn/",
+    "https://www.courant.com/1999/03/30/the-national-championship-play-by-play/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:19",
+   "uconn": 75,
+   "opp": 74,
+   "text": "El-Amin's running shot in the lane misses. Chris Carrawell rebounds, and Mike Krzyzewski chooses not to call timeout, putting the ball in Langdon's hands.",
+   "sources": [
+    "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm",
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+    "https://www.courant.com/1999/03/30/the-national-championship-play-by-play/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:05.4",
+   "uconn": 75,
+   "opp": 74,
+   "text": "Langdon takes Moore on the right wing, dribbles between his legs, spins into the lane and is called for traveling.",
+   "sources": [
+    "https://wc.arizona.edu/papers/92/123/12_2_m.html",
+    "https://www.courant.com/1999/03/30/king-conn/",
+    "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-langdon-s-journey-is-a-step-too-long.html",
+    "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm",
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:05.2",
+   "uconn": 77,
+   "opp": 74,
+   "text": "Duke fouls El-Amin on the inbounds pass, and he makes both free throws.",
+   "sources": [
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm",
+    "https://www.courant.com/1999/03/30/king-conn/",
+    "https://www.cbsnews.com/news/uconn-grabs-ncaa-title-29-03-1999/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:00",
+   "uconn": 77,
+   "opp": 74,
+   "text": "Again without a timeout, Langdon pushes upcourt into El-Amin and Rashamel Jones, falls and loses the ball as time runs out. Jones scoops it up. UConn is national champion.",
+   "sources": [
+    "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm",
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+    "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-langdon-s-journey-is-a-step-too-long.html",
+    "https://www.courant.com/1999/03/30/king-conn/"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "9\u00bd",
+   "label": "points Duke was favored by, the highest spread in eight years, per the Courant",
+   "sources": [
+    "https://www.cbsnews.com/news/uconn-grabs-ncaa-title-29-03-1999/",
+    "https://www.courant.com/1999/03/31/a-new-title-for-uconn-mens-team-champions/"
+   ]
+  },
+  {
+   "value": "32",
+   "label": "straight Duke wins, ended",
+   "sources": [
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+    "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm"
+   ]
+  },
+  {
+   "value": "14",
+   "label": "ties in the game",
+   "sources": [
+    "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/",
+    "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm"
+   ]
+  },
+  {
+   "value": "1",
+   "label": "Duke field goal in the last four minutes: Langdon's 3 with 1:44 left",
+   "sources": [
+    "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/"
+   ]
+  },
+  {
+   "value": "10-0",
+   "label": "UConn's record that season when trailing at halftime, this game included",
+   "sources": [
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "http://www.espn.go.com/ncb/1999/990329/recap/cbpdau.html"
+   ]
+  },
+  {
+   "value": "13",
+   "label": "NCAA tournament trips it took Jim Calhoun to win his first national title",
+   "sources": [
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/uconnhuskies.com/documents/2018/6/26/UConn_Final_Four_Notes.pdf"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "We shocked the world!",
+   "who": "Khalid El-Amin",
+   "role": "UConn sophomore point guard",
+   "when": "at the final buzzer, shouted at the national TV audience",
+   "source": "https://www.courant.com/1999/03/30/now-do-you-believe-this-team-always-did/"
+  },
+  {
+   "text": "On that last play, I knew he was going to come at me. But I knew my will to win was going to take over and it did.",
+   "who": "Ricky Moore",
+   "role": "UConn senior guard",
+   "when": "postgame, on the final Duke possession",
+   "source": "https://www.courant.com/1999/03/30/moore-returns-to-scoring-roots/"
+  },
+  {
+   "text": "I'll win or lose with Trajan Langdon. I'll walk down any road with Trajan Langdon.",
+   "who": "Mike Krzyzewski",
+   "role": "Duke coach",
+   "when": "postgame, on not calling timeout",
+   "source": "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-langdon-s-journey-is-a-step-too-long.html"
+  },
+  {
+   "text": "I just wanted to make a move. I wasn't thinking about the clock. I might have traveled, I might not have. That's the way the game goes.",
+   "who": "Trajan Langdon",
+   "role": "Duke senior guard",
+   "when": "postgame, on the travel",
+   "source": "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-langdon-s-journey-is-a-step-too-long.html"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "Hamilton, who scored 27, was named the Final Four's Most Outstanding Player, and Moore made the all-tournament team. UConn fans chanted for Hamilton to stay one more year; instead he was the seventh pick in the 1999 NBA draft, by Washington.",
+   "sources": [
+    "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm",
+    "https://www.courant.com/1999/03/30/moore-returns-to-scoring-roots/",
+    "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-uconn-proves-it-can-and-how.html",
+    "https://www.nytimes.com/1999/03/31/sports/ncaa-tournament-men-s-championship-the-huskies-receive-blue-carpet-treatment.html",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "In Storrs, students who watched at Gampel Pavilion streamed to a university-sanctioned bonfire. Early Tuesday, after bottles were thrown at police and firefighters at a later bonfire, 15 people were arrested; officials said at least 11 were not UConn students.",
+   "sources": [
+    "https://www.courant.com/1999/03/30/students-celebrate-with-restraint/",
+    "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-students-pull-an-all-nighter.html",
+    "https://www.courant.com/1999/03/31/at-1-campus-party-celebration-ends-in-15-arrests/"
+   ]
+  },
+  {
+   "text": "The next day about 7,000 fans met the team's charter at Bradley International Airport, an estimated 50,000 lined the 35-mile route to Storrs, and more than 12,000 packed Gampel for a rally while 3,000 more were turned away.",
+   "sources": [
+    "https://www.nytimes.com/1999/03/31/sports/ncaa-tournament-men-s-championship-the-huskies-receive-blue-carpet-treatment.html"
+   ]
+  },
+  {
+   "text": "On April 17 a victory parade through downtown Hartford drew at least 175,000 people, by a Hartford police estimate; state Capitol police put the crowd at 250,000 to 270,000.",
+   "sources": [
+    "https://www.courant.com/1999/04/18/uconns-joy-ride/"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "Looking back in 2020, the Associated Press called the win the one that vaulted UConn into college basketball's top tier, with three more titles in the next 15 seasons.",
+   "sources": [
+    "https://www.thescore.com/ncaab/news/1968877"
+   ]
+  },
+  {
+   "text": "It was the first of the six national championships listed in UConn's record book: 1999, 2004, 2011, 2014, 2023 and 2024.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "text": "El-Amin's line outlived the night. When UConn won again in 2004, the Courant's columnist was still quoting him, and in a WTIC radio countdown of its top 10 UConn games this one ranked No. 1.",
+   "sources": [
+    "https://www.courant.com/2004/04/06/for-uconn-mission-improbable/",
+    "https://www.youtube.com/watch?v=9mp_-l49QvM"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "D4eleuM7Flg",
+   "title": "UConn vs. Duke: 1999 National Championship | FULL GAME",
+   "channel": "March Madness",
+   "kind": "full_game",
+   "start": 4785,
+   "why": "Official NCAA March Madness channel full CBS broadcast of this game; already in site videos[]. Auto-captions place Langdon's 73-72 3-pointer at ~1:16:05, El-Amin's floater at ~1:17:22 and the final Duke possession and travel at ~1:19:45-1:20:05 (start set there)."
+  },
+  {
+   "youtube": "M0h2xH-1yZQ",
+   "title": "The Greatest Natty Upset Ever! 1999 Duke Uconn National Championship Game Full Highlights",
+   "channel": "College Basketball Classics",
+   "kind": "highlights",
+   "start": 729,
+   "why": "Condensed highlights of this game (description links the 1999-03-29 Sports-Reference box score); already in site videos[]. Auto-captions: Langdon's travel at ~12:14-12:20, El-Amin's 'we shocked the world' moment at ~13:16."
+  },
+  {
+   "youtube": "_LlXAbupU8o",
+   "title": "1999 NCAA Basketball Championship Highlights | Connecticut Huskies",
+   "channel": "TG Classic Sports",
+   "kind": "highlights",
+   "start": 1954,
+   "why": "52-minute 1999 tournament highlight film already in site videos[]; auto-captions show the Duke-UConn final segment beginning ~0:32:34, with the final play at ~0:50:12."
+  },
+  {
+   "youtube": "2NuwFskRLa4",
+   "title": "1999 National Championship Final Play \"Shock the World\"",
+   "channel": "GampelCrazies",
+   "kind": "final_play",
+   "start": null,
+   "why": "44-second clip; uploader description: 'the last play of the 1999 National Championship Between Duke and UConn.' No captions available to cross-check."
+  },
+  {
+   "youtube": "9mp_-l49QvM",
+   "title": "WTIC 1080 Top 10 UConn Games - #1: 1999 NCAA Championship UConn Duke",
+   "channel": "tcf15",
+   "kind": "radio",
+   "start": null,
+   "why": "WTIC 1080 countdown segment ranking this game No. 1 among UConn games; auto-captions contain the UConn radio calls of this game (Moore's first-half scoring, the Duke rally)."
+  },
+  {
+   "youtube": "TjUs4GFxaDU",
+   "title": "WFSB: March Magic Coverage - UConn National Champions [3-29-1999] Part 1 of 2",
+   "channel": "Archival WFSB-TV3",
+   "kind": "documentary",
+   "start": null,
+   "why": "WFSB-TV3 Hartford live news special on title night (part 1 of 2); opens with CBS's final play and Jim Nantz's call, then live reports from St. Petersburg and the Gampel Pavilion celebration."
+  },
+  {
+   "youtube": "F1l2qJMtmhA",
+   "title": "1999 National Championship \"We Plan to Shock the World\"",
+   "channel": "GampelCrazies",
+   "kind": "interview",
+   "start": null,
+   "why": "CBS pregame segment from this game: Bonnie Bernstein interviews Jim Calhoun and Khalid El-Amin, who says (auto-captions) 'we plan to shock the world today'."
+  },
+  {
+   "youtube": "vo7z7CgBh28",
+   "title": "1999 National Championship - Jim Calhoun Postgame Press Conference",
+   "channel": "tcf15",
+   "kind": "interview",
+   "start": null,
+   "why": "Jim Calhoun's postgame press conference after this game; already in site videos[] (title verified via oEmbed; content not reviewed)."
+  }
+ ],
+ "photos": [],
+ "newspaper": [],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "sequence 3:26 (Hamilton 3-pointer, 73-68)",
+   "ours": "draft: 3:26 (Courant printed play-by-play and Courant game story)",
+   "source_says": "NYT: 3:38; Baltimore Sun: 3:39; UPI: 20 seconds after the 3:50 free throws (about 3:30); WaPo: 'with 3 1/2 minutes left'. On the CBS broadcast Nantz says 'three and a half remaining' just before the shot (D4eleuM7Flg ~1:12:43), which fits 3:26 better than 3:38/3:39.",
+   "sources": [
+    "https://www.courant.com/1999/03/30/the-national-championship-play-by-play/",
+    "https://www.courant.com/1999/03/30/king-conn/",
+    "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-uconn-proves-it-can-and-how.html",
+    "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/",
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+    "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm",
+    "https://www.youtube.com/watch?v=D4eleuM7Flg&t=4363"
+   ]
+  },
+  {
+   "field": "sequence 1:44 (Langdon 3-pointer, 73-72)",
+   "ours": "draft: 1:44 (UPI, St. Petersburg Times, Baltimore Sun)",
+   "source_says": "NYT: 1:40; Courant game story: 1:41; Courant printed play-by-play: 1:33 (with a Battier missed 3 at 1:41); WaPo: 1:30. CBS broadcast: '1:10 to go, eight on the shot clock' on UConn's next possession, which rules out 1:33 but cannot separate 1:40 from 1:44.",
+   "sources": [
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/",
+    "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-langdon-s-journey-is-a-step-too-long.html",
+    "https://www.courant.com/1999/03/30/king-conn/",
+    "https://www.courant.com/1999/03/30/the-national-championship-play-by-play/",
+    "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm",
+    "https://www.youtube.com/watch?v=D4eleuM7Flg&t=4632"
+   ]
+  },
+  {
+   "field": "sequence 1:05 (El-Amin floater, 75-72)",
+   "ours": "draft: 1:05 (UPI, Baltimore Sun; AP retrospective: 'with 65 seconds left')",
+   "source_says": "Courant printed play-by-play: 1:04.",
+   "sources": [
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+    "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/",
+    "https://www.thescore.com/ncaab/news/1968877",
+    "https://www.courant.com/1999/03/30/the-national-championship-play-by-play/"
+   ]
+  },
+  {
+   "field": "sequence 0:19 (El-Amin miss)",
+   "ours": "draft: 0:19 (WaPo; Courant play-by-play; St. Petersburg Times 'about 19 seconds')",
+   "source_says": "UPI: 24 seconds; Courant game story: Duke 'took possession with 25 seconds remaining'; ESPN.com/Scripps Howard recap: isolation 'with ... 15 seconds left'.",
+   "sources": [
+    "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm",
+    "https://www.courant.com/1999/03/30/the-national-championship-play-by-play/",
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+    "https://www.courant.com/1999/03/30/king-conn/",
+    "http://www.espn.go.com/ncb/1999/990329/recap/cbpdau.html"
+   ]
+  },
+  {
+   "field": "El-Amin's final shot",
+   "ours": "draft: says only that it missed",
+   "source_says": "AP: an airball; Courant: 'an air ball that might have been blocked'; Baltimore Sun: 'Brand blocked El-Amin'.",
+   "sources": [
+    "https://wc.arizona.edu/papers/92/123/12_2_m.html",
+    "https://www.courant.com/1999/03/30/king-conn/",
+    "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/"
+   ]
+  },
+  {
+   "field": "Duke turnover before Hamilton's 3",
+   "ours": "draft: 'Duke turns the ball over' (no player named)",
+   "source_says": "WaPo: William Avery turnover; Baltimore Sun: charging foul by Chris Carrawell.",
+   "sources": [
+    "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm",
+    "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/"
+   ]
+  },
+  {
+   "field": "travel clock / last tie",
+   "ours": "draft: travel 5.4, last tie 4:07",
+   "source_says": "ESPN.com/Scripps Howard recap says travel 'with 5.6 seconds left' and last tie 'with 4:08 remaining'; every other source has 5.4 and 4:07.",
+   "sources": [
+    "http://www.espn.go.com/ncb/1999/990329/recap/cbpdau.html"
+   ]
+  },
+  {
+   "field": "box: El-Amin points; Moore field goals",
+   "ours": "site box: El-Amin 12 points; Moore 6-10 FG",
+   "source_says": "CBS/AP story says El-Amin had 13 points; St. Petersburg Times says Moore made 6 of 8. ESPN's 1999 box and WaPo agree with the site (12; 6-10).",
+   "sources": [
+    "https://www.cbsnews.com/news/uconn-grabs-ncaa-title-29-03-1999/",
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "http://espn.go.com/ncb/1999/990329/boxscore/cbpdau.html",
+    "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm"
+   ]
+  },
+  {
+   "field": "box: rebounds",
+   "ours": "site box: UConn 38, Duke 27",
+   "source_says": "WaPo and ESPN recap: UConn outrebounded Duke 41-31. Not a true conflict: ESPN's box lists 3 UConn and 4 Duke team rebounds on top of the player totals.",
+   "sources": [
+    "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm",
+    "http://espn.go.com/ncb/1999/990329/boxscore/cbpdau.html"
+   ]
+  }
+ ],
+ "unsure": [
+  "No official NCAA play-by-play was found online; clock times rest on newspaper accounts and the Courant's printed play-by-play, which disagree by a few seconds in places (see conflicts).",
+  "Tip time is the listed start (ESPN.com recap header; the UConn notes and NYT list 9:18 p.m. ET as the standard title-game start; the Courant column's 9:18 p.m. is when Christian Laettner took his seat, not the tip), not a confirmed clock reading of the opening tip.",
+  "El-Amin's exact pregame words: the Courant quotes 'We're going to shock the world'; the CBS clip's auto-captions read 'we plan to shock the world today'. Paraphrased, not quoted, in setup.",
+  "Students watching at Gampel: the Courant said more than 3,000, the NYT about 1,000. No number used.",
+  "UConn Daily Campus scans on archive.org end in 1987; no 1999 issue found. No Wikimedia Commons photo of this game found.",
+  "2NuwFskRLa4 (final play) has no captions; its content is taken from the uploader's description only."
+ ],
+ "sources": [
+  {
+   "url": "https://www.upi.com/Archives/1999/03/29/Connecticut-77-Duke-74/9033922683600/",
+   "what": "UPI game story (Scott Coffman): clocks 13:50, 8:57, 4:18, 4:07, 3:50, 1:44, 1:05, 0:54, 0:24; first-half ties/lead changes"
+  },
+  {
+   "url": "https://www.washingtonpost.com/wp-srv/sports/colbask/longterm/1999/men/articles/uconnduke30.htm",
+   "what": "Washington Post game story (C. Jemal Horton), March 30, 1999; read via Wayback snapshot 20250329082659. 9-2 start, 15-4 run, 0:19 miss, 5.4/5.2, Krzyzewski on no timeout"
+  },
+  {
+   "url": "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+   "what": "St. Petersburg Times (Brian Landman): 41,340; 10 weeks at No. 1; 1:44; Langdon/Moore/Krzyzewski quotes; 10-0 when trailing at half; Calhoun's 13 NCAA trips"
+  },
+  {
+   "url": "https://www.baltimoresun.com/1999/03/30/duke-u-turn-its-ucon-huskies-hamilton-shoot-down-no-1-for-championship-77-74-devils-32-game-run-ends-great-perimeter-play-collapsing-on-brand-in-stretch-spark-upset/",
+   "what": "Baltimore Sun game story: No. 3 vs top-ranked; 14 ties; 4:07, 3:50, 3:39, 1:44, 1:05; Battier kick-out; Duke's lone late field goal"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/uconn-grabs-ncaa-title-29-03-1999/",
+   "what": "CBS News/AP story: 41,340; 9\u00bd-point underdog; only teams to hold No. 1; combined 70-3; players preferred Duke to Michigan State"
+  },
+  {
+   "url": "https://wc.arizona.edu/papers/92/123/12_2_m.html",
+   "what": "AP story via Arizona Daily Wildcat: Langdon's between-the-legs spin and travel, 5.4"
+  },
+  {
+   "url": "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-uconn-proves-it-can-and-how.html",
+   "what": "NYT (Jack Curry), read via Wayback: Hamilton's 23-foot 3 (3:38), Moore's 13 first-half points, 'One more year' chants"
+  },
+  {
+   "url": "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-langdon-s-journey-is-a-step-too-long.html",
+   "what": "NYT Langdon story, read via Wayback: four-point play with 24.1 left, 3 with 1:40, Krzyzewski quote"
+  },
+  {
+   "url": "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-cbs-posts-a-victory-too.html",
+   "what": "NYT (Richard Sandomir): CBS telecast with Jim Nantz and Billy Packer"
+  },
+  {
+   "url": "https://www.nytimes.com/1999/03/30/sports/ncaa-tournament-men-s-championship-students-pull-an-all-nighter.html",
+   "what": "NYT: UConn campus bonfire outside Gampel"
+  },
+  {
+   "url": "https://www.nytimes.com/1999/03/31/sports/ncaa-tournament-men-s-championship-the-huskies-receive-blue-carpet-treatment.html",
+   "what": "NYT (Ron Dicker): homecoming at Bradley (7,000), 50,000 on the route, 12,000+ at Gampel, 3,000 turned away"
+  },
+  {
+   "url": "https://www.courant.com/1999/03/30/king-conn/",
+   "what": "Hartford Courant main game story (no byline in archive), read via Wayback: final buzzer 11:27 p.m.; 65-59 at 8:57; press/turnover; 3:26; 0:54; right-wing drive; Jones picks up ball"
+  },
+  {
+   "url": "https://www.courant.com/1999/03/30/the-national-championship-play-by-play/",
+   "what": "Hartford Courant printed play-by-play, March 30, 1999, read via Wayback (times for both halves)"
+  },
+  {
+   "url": "https://www.courant.com/1999/03/30/now-do-you-believe-this-team-always-did/",
+   "what": "Courant column: El-Amin's 'We shocked the world!'; Laettner seated at 9:18 p.m.; no team with two or fewer losses an underdog since 1970"
+  },
+  {
+   "url": "https://www.courant.com/1999/03/30/cbs-ignores-hype-makes-right-calls/",
+   "what": "Courant TV column: Nantz and Packer; El-Amin told Bonnie Bernstein UConn would shock the world"
+  },
+  {
+   "url": "https://www.courant.com/1999/03/30/moore-returns-to-scoring-roots/",
+   "what": "Courant: Moore 13 first-half points; named to all-tournament team"
+  },
+  {
+   "url": "https://www.courant.com/1999/03/30/say-it-loud-calhouns-a-winner/",
+   "what": "Courant: Calhoun's first Final Four"
+  },
+  {
+   "url": "https://www.courant.com/1999/03/30/students-celebrate-with-restraint/",
+   "what": "Courant: students at Gampel, university bonfire"
+  },
+  {
+   "url": "https://www.courant.com/1999/03/31/a-new-title-for-uconn-mens-team-champions/",
+   "what": "Courant column, March 31, 1999: Duke favored by 9 1/2, highest spread in eight years"
+  },
+  {
+   "url": "https://www.courant.com/1999/03/31/at-1-campus-party-celebration-ends-in-15-arrests/",
+   "what": "Courant: 15 arrests on campus early Tuesday; at least 11 non-students"
+  },
+  {
+   "url": "https://www.courant.com/1999/04/18/uconns-joy-ride/",
+   "what": "Courant, April 18, 1999: Saturday parade, police estimates 175,000 and 250,000-270,000"
+  },
+  {
+   "url": "http://www.espn.go.com/ncb/1999/990329/recap/cbpdau.html",
+   "what": "ESPN.com 1999 recap (Scripps Howard), read via Wayback 19990819111843: listed time 9:18pm ET"
+  },
+  {
+   "url": "http://espn.go.com/ncb/1999/990329/boxscore/cbpdau.html",
+   "what": "ESPN.com 1999 box score, read via Wayback 19990507232032: A 41,340; officials; team rebounds"
+  },
+  {
+   "url": "https://www.thescore.com/ncaab/news/1968877",
+   "what": "AP 'Top title games' retrospective (2020): 37-1 vs 33-2; 65 seconds; program-changer"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn record book 2026-27: rank 3 vs 1, 41,340, titles list, Hamilton No. 7 pick"
+  },
+  {
+   "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/uconnhuskies.com/documents/2018/6/26/UConn_Final_Four_Notes.pdf",
+   "what": "UConn 2004 Final Four notes: 1999 No. 1 seed in West; 10 weeks at No. 1 in 1998-99"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/06/for-uconn-mission-improbable/",
+   "what": "Courant column, April 6, 2004, invoking El-Amin's 1999 line"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=D4eleuM7Flg",
+   "what": "CBS broadcast (official upload): auto-captions used for timing cross-checks"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=F1l2qJMtmhA",
+   "what": "CBS pregame clip: El-Amin tells Bonnie Bernstein UConn plans to 'shock the world'"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=9mp_-l49QvM",
+   "what": "WTIC 1080 countdown: this game ranked No. 1 among its top 10 UConn games"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=2NuwFskRLa4",
+   "what": "Fan upload titled 'Shock the World' (usage of the nickname)"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=b67234JtEp8",
+   "what": "Locked On UConn tribute episode titled 'We Shocked the World' (usage of the nickname)"
+  }
+ ],
+ "_verified": {
+  "checked": 118,
+  "ok": 113,
+  "edits": 8
+ }
+}

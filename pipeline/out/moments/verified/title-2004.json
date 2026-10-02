@@ -1,0 +1,597 @@
+{
+ "slug": "title-2004",
+ "gameId": "2004-39",
+ "title": "UConn Overwhelms Georgia Tech for Second Title",
+ "nickname": null,
+ "dek": "Emeka Okafor's 24 points and 15 rebounds powered UConn past Georgia Tech, 82-73, for its second national title in six seasons, a night before the UConn women won theirs.",
+ "date": "2004-04-05",
+ "tip": {
+  "text": "9:18 p.m. ET (scheduled)",
+  "sources": [
+   "https://www.nytimes.com/2004/04/05/sports/ncaa-men-s-final-4-ncaa-final-matchup.html",
+   "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/uconnhuskies.com/documents/2018/6/26/UConn_Final_Four_Notes.pdf"
+  ]
+ },
+ "venue": "Alamodome",
+ "city": "San Antonio, TX",
+ "attendance": {
+  "n": 44468,
+  "sources": [
+   "https://www.courant.com/2004/04/06/ncaa-championship-uconn-82-georgia-tech-73-2/",
+   "https://www.courant.com/2004/04/06/1-crown-1-to-go/",
+   "http://www.usatoday.com/sports/scores104/104096/20040405NCAABUCONN-----0.htm",
+   "http://sports.espn.go.com/ncb/boxscore?gameId=244000063",
+   "http://fs.ncaa.org/Docs/stats/m_final4/2023/AttendSites.pdf"
+  ]
+ },
+ "event": "NCAA tournament national championship game",
+ "tv": {
+  "network": "CBS",
+  "announcers": [
+   "Jim Nantz",
+   "Billy Packer",
+   "Bonnie Bernstein (reporter)"
+  ],
+  "sources": [
+   "https://www.youtube.com/watch?v=Jk1sv3stnUc&t=1021",
+   "https://www.youtube.com/watch?v=Jk1sv3stnUc&t=524"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "32-6",
+   "rank": "AP #7",
+   "seed": "2 (Phoenix)"
+  },
+  "opp": {
+   "record": "28-9",
+   "rank": "AP #14",
+   "seed": "3"
+  },
+  "sources": [
+   "https://www.nytimes.com/2004/04/05/sports/ncaa-men-s-final-4-a-final-with-familiarity-and-a-few-wrinkles.html",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/uconnhuskies.com/documents/2018/6/26/UConn_Final_Four_Notes.pdf",
+   "https://www.nytimes.com/2004/04/03/sports/ncaa-men-s-final-4-final-four-matchups.html",
+   "http://www.usatoday.com/sports/scores104/104096/20040405NCAABUCONN-----0.htm"
+  ]
+ },
+ "setup": [
+  {
+   "text": "Four months earlier, Georgia Tech had knocked top-ranked UConn from No. 1 with a 77-61 win in the Preseason NIT semifinals at Madison Square Garden. That night Okafor was fighting back spasms, Charlie Villanueva had not yet been cleared to play, and Will Bynum was not yet eligible for the Yellow Jackets.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/05/sports/ncaa-men-s-final-4-a-final-with-familiarity-and-a-few-wrinkles.html",
+    "http://sports.espn.go.com/ncb/recap?gameId=244000063"
+   ]
+  },
+  {
+   "text": "Picked to finish seventh in the ACC, Georgia Tech reached its first title game by winning four of its five tournament games by 5 points or fewer; the other was an overtime win over Kansas in the regional final. Bynum's driving layup with 1.5 seconds left beat Oklahoma State in the semifinals.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/recap?gameId=244000063",
+    "https://www.nytimes.com/2004/04/05/sports/ncaa-men-s-final-4-a-final-with-familiarity-and-a-few-wrinkles.html",
+    "https://www.nytimes.com/2004/04/06/sports/ncaa-men-s-championship-game-for-uconn-a-title-well-in-hand.html"
+   ]
+  },
+  {
+   "text": "UConn (32-6) had survived its own scare, erasing an eight-point deficit in the final three minutes against Duke. On the morning of the final, Jim Calhoun learned he had not been elected to the Basketball Hall of Fame; he missed by one vote.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/06/sports/ncaa-men-s-championship-game-for-uconn-a-title-well-in-hand.html",
+    "https://www.nytimes.com/2004/04/05/sports/ncaa-men-s-final-4-a-final-with-familiarity-and-a-few-wrinkles.html",
+    "https://www.nytimes.com/2004/04/06/sports/sports-of-the-times-calhoun-shows-he-deserves-seat-with-elite.html",
+    "http://sports.espn.go.com/ncb/recap?gameId=244000063"
+   ]
+  },
+  {
+   "text": "Two Georgia Tech regulars, B.J. Elder and Isma'il Muhammad, were playing hurt; Elder had scored 2 points since spraining an ankle. The New York Times' William C. Rhoden called UConn the overwhelming favorite.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/06/sports/sports-of-the-times-calhoun-shows-he-deserves-seat-with-elite.html",
+    "https://www.nytimes.com/2004/04/05/sports/ncaa-men-s-final-4-ncaa-final-matchup.html"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "Josh Boone's free throw and Rashad Anderson's 3-pointer opened the scoring for UConn. B.J. Elder's 3 pulled Georgia Tech within 9-7, and Luke Schenscher's layup made it 11-9.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000063"
+   ]
+  },
+  {
+   "text": "The marquee matchup inside belonged to Okafor, who used his strength against the 7-foot-1 Schenscher. He had 10 points and 7 rebounds by halftime, and Schenscher picked up his second foul reaching over him with about six minutes left in the half.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/06/sports/ncaa-the-final-4-game-pivots-as-okafor-dominates-schenscher.html",
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000063"
+   ]
+  },
+  {
+   "text": "Georgia Tech missed 24 of its 34 first-half shots, and UConn turned all six of the Yellow Jackets' first-half turnovers into 12 points.",
+   "sources": [
+    "https://www.courant.com/2004/04/06/2conn/",
+    "http://www.usatoday.com/sports/scores104/104096/20040405NCAABUCONN-----0.htm"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "1H",
+   "clock": "13:41",
+   "uconn": 11,
+   "opp": 12,
+   "text": "Clarence Moore's layup puts Georgia Tech ahead 12-11. It will be the Yellow Jackets' only lead.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000063",
+    "https://www.youtube.com/watch?v=Jk1sv3stnUc&t=762",
+    "http://sports.espn.go.com/ncb/recap?gameId=244000063"
+   ]
+  },
+  {
+   "period": "1H",
+   "clock": "12:47",
+   "uconn": 13,
+   "opp": 12,
+   "text": "Okafor's jumper puts UConn back in front, for good.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000063"
+   ]
+  },
+  {
+   "period": "1H",
+   "clock": "11:58",
+   "uconn": 16,
+   "opp": 12,
+   "text": "Schenscher is called for fouling Ben Gordon on a 3-point attempt, a call that angers Georgia Tech coach Paul Hewitt. Gordon makes all three free throws.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000063",
+    "https://www.nytimes.com/2004/04/06/sports/ncaa-the-final-4-game-pivots-as-okafor-dominates-schenscher.html"
+   ]
+  },
+  {
+   "period": "1H",
+   "clock": "11:45",
+   "uconn": 18,
+   "opp": 12,
+   "text": "Josh Boone scores on a layup.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000063"
+   ]
+  },
+  {
+   "period": "1H",
+   "clock": "11:23",
+   "uconn": 21,
+   "opp": 12,
+   "text": "Gordon's pull-up 3-pointer caps a 10-0 run.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000063",
+    "http://www.usatoday.com/sports/scores104/104096/20040405NCAABUCONN-----0.htm",
+    "https://www.youtube.com/watch?v=Jk1sv3stnUc&t=990"
+   ]
+  },
+  {
+   "period": "1H",
+   "clock": "9:56",
+   "uconn": 24,
+   "opp": 16,
+   "text": "Gordon hits another 3, his third. He has 12 points barely 10 minutes in.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000063",
+    "http://www.usatoday.com/sports/scores104/104096/20040405NCAABUCONN-----0.htm",
+    "http://sports.espn.go.com/ncb/recap?gameId=244000063"
+   ]
+  },
+  {
+   "period": "1H",
+   "clock": "3:53",
+   "uconn": 36,
+   "opp": 26,
+   "text": "Will Bynum's 3 pulls Georgia Tech within 10. The Yellow Jackets will not score again in the half.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000063"
+   ]
+  },
+  {
+   "period": "1H",
+   "clock": "0:01",
+   "uconn": 41,
+   "opp": 26,
+   "text": "Bynum misses two free throws. Okafor grabs the rebound and fires it ahead to Anderson, whose pull-up from the top of the key beats the horn. After a replay review, it counts as a 2.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000063",
+    "https://www.courant.com/2004/04/06/halftime-buzzer-beater-is-big/",
+    "http://sports.espn.go.com/ncb/recap?gameId=244000063",
+    "https://www.youtube.com/watch?v=Jk1sv3stnUc&t=2466"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "14:16",
+   "uconn": 56,
+   "opp": 31,
+   "text": "Taliek Brown grabs a defensive rebound and pushes ahead to Okafor. Okafor misses, and Boone follows for a 25-point lead.",
+   "sources": [
+    "https://www.courant.com/2004/04/06/browns-clean-getaway/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "13:32",
+   "uconn": 58,
+   "opp": 33,
+   "text": "Okafor nudges Schenscher aside for an offensive rebound and scores on a short hook over him.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/06/sports/ncaa-the-final-4-game-pivots-as-okafor-dominates-schenscher.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:00",
+   "uconn": 82,
+   "opp": 73,
+   "text": "Georgia Tech hits four 3-pointers in the last 44 seconds and gets within seven, but the horn sounds on an 82-73 UConn win.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/06/sports/ncaa-men-s-championship-game-for-uconn-a-title-well-in-hand.html",
+    "http://sports.espn.go.com/ncb/recap?gameId=244000063",
+    "https://www.courant.com/2004/04/06/2conn/"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "15",
+   "label": "UConn's halftime lead, the largest in a title game since 1967, per the Courant",
+   "sources": [
+    "https://www.courant.com/2004/04/06/2conn/"
+   ]
+  },
+  {
+   "value": "25",
+   "label": "UConn's largest lead",
+   "sources": [
+    "https://www.nytimes.com/2004/04/06/sports/ncaa-men-s-championship-game-for-uconn-a-title-well-in-hand.html",
+    "https://www.courant.com/2004/04/06/2conn/",
+    "https://www.courant.com/2004/04/06/browns-clean-getaway/"
+   ]
+  },
+  {
+   "value": "1",
+   "label": "vote by which Jim Calhoun missed Hall of Fame election that morning",
+   "sources": [
+    "https://www.nytimes.com/2004/04/06/sports/ncaa-men-s-championship-game-for-uconn-a-title-well-in-hand.html",
+    "http://sports.espn.go.com/ncb/recap?gameId=244000063"
+   ]
+  },
+  {
+   "value": "4-0",
+   "label": "Calhoun's record in his first two Final Fours, matching Branch McCracken, Phil Woolpert and Ed Jucker",
+   "sources": [
+    "https://www.courant.com/2004/04/06/coaches-to-go-4-0-in-first-2-final-fours/"
+   ]
+  },
+  {
+   "value": "1996",
+   "label": "the last time before this that the preseason No. 1 team won the title (Kentucky)",
+   "sources": [
+    "http://sports.espn.go.com/ncb/recap?gameId=244000063"
+   ]
+  },
+  {
+   "value": "1st",
+   "label": "school to win the men's and women's Division I titles in the same season (the women won the next night)",
+   "sources": [
+    "https://www.courant.com/2004/04/07/ncaa-championship-uconn-70-tennessee-61/",
+    "https://www.courant.com/2004/04/10/uconn-parade-set-for-april-18/"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "After we are long dead and gone, we're still going to have this championship banner. We immortalized ourselves.",
+   "who": "Ben Gordon",
+   "role": "UConn junior guard",
+   "when": "postgame",
+   "source": "https://www.courant.com/2004/04/06/for-uconn-mission-improbable/"
+  },
+  {
+   "text": "Just proves we are as good as everybody originally said we were.",
+   "who": "Emeka Okafor",
+   "role": "UConn junior center, Final Four Most Outstanding Player",
+   "when": "postgame",
+   "source": "https://www.nytimes.com/2004/04/06/sports/ncaa-the-final-4-game-pivots-as-okafor-dominates-schenscher.html"
+  },
+  {
+   "text": "Going wire-to-wire is one of the hardest things you can do, and it wasn't just the beginning of the year for us.",
+   "who": "Jim Calhoun",
+   "role": "UConn coach",
+   "when": "postgame",
+   "source": "http://sports.espn.go.com/ncb/recap?gameId=244000063"
+  },
+  {
+   "text": "I silenced everybody.",
+   "who": "Taliek Brown",
+   "role": "UConn senior point guard",
+   "when": "postgame, after the nets came down",
+   "source": "https://www.nytimes.com/2004/04/06/sports/ncaa-men-s-final-4-critics-of-brown-have-little-to-say-now.html"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "Okafor was named the Final Four's Most Outstanding Player, and Gordon and Anderson joined him on the all-tournament team. The win was Calhoun's 680th, and it made him one of three active coaches with more than one national title, with Mike Krzyzewski and Bob Knight.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/06/sports/ncaa-men-s-championship-game-for-uconn-a-title-well-in-hand.html",
+    "http://www.usatoday.com/sports/scores104/104096/20040405NCAABUCONN-----0.htm",
+    "http://sports.espn.go.com/ncb/recap?gameId=244000063"
+   ]
+  },
+  {
+   "text": "Former Huskies including Ray Allen, Richard Hamilton and Kevin Freeman celebrated on the Alamodome floor. Back home, police arrested 35 people as celebrations near campus spilled into fires and two overturned cars off campus.",
+   "sources": [
+    "https://www.courant.com/2004/04/06/call-it-reunion-arena/",
+    "https://www.courant.com/2004/04/07/at-uconn-35-arrested/"
+   ]
+  },
+  {
+   "text": "The next night in New Orleans, the UConn women beat Tennessee 70-61, making UConn the first Division I school to win both basketball titles in the same season. A joint parade in Hartford on April 18 drew an estimated 250,000 to 300,000 people, which police called the city's biggest public event since the veterans parades after World War II.",
+   "sources": [
+    "https://www.courant.com/2004/04/07/ncaa-championship-uconn-70-tennessee-61/",
+    "https://www.courant.com/2004/04/10/uconn-parade-set-for-april-18/",
+    "https://www.courant.com/2004/04/19/the-crowd-number/"
+   ]
+  },
+  {
+   "text": "On May 19, President George W. Bush honored the team at an East Room ceremony for four NCAA champions. Okafor, who earned his degree in three years, and Gordon went No. 2 and No. 3 in the 2004 NBA draft.",
+   "sources": [
+    "https://georgewbush-whitehouse.archives.gov/news/releases/2004/05/images/20040519-10_d051904-3-792v.html",
+    "http://sports.espn.go.com/ncb/recap?gameId=244000063",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "UConn became the first preseason No. 1 to win the title since Kentucky in 1996, and joined Duke and Kentucky as the only programs with more than one title since the field expanded to 64 teams in 1985.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/recap?gameId=244000063",
+    "http://www.usatoday.com/sports/scores104/104096/20040405NCAABUCONN-----0.htm"
+   ]
+  },
+  {
+   "text": "It was the second of the six national championships listed in UConn's record book.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "Jk1sv3stnUc",
+   "title": "UConn vs. Georgia Tech: 2004 NCAA men's basketball national championship | FULL REPLAY",
+   "channel": "March Madness",
+   "kind": "full_game",
+   "start": 755,
+   "why": "Official NCAA March Madness channel full CBS broadcast; already in site videos[]. Auto-captions: 'Georgia Tech with its first lead' at ~0:12:42 (start), '10 unanswered' at ~0:16:30, Anderson's halftime shot ~0:41:06 with the review ruling it a 2 at ~0:41:21-0:41:53. On-air credit 'Jim Nantz, Billy Packer, Bonnie Bernstein' at ~0:17:01."
+  },
+  {
+   "youtube": "Ilmt9HifLv8",
+   "title": "2004 NCAA Mens Basketball National Championship game UCONN vs Georgia Tech",
+   "channel": "ChainGangSoulja266",
+   "kind": "highlights",
+   "start": null,
+   "why": "Highlights of this game; already in site videos[]. Auto-captions: halftime shot 'count it as a two... 41-26' at ~3:57; final horn ~7:26."
+  },
+  {
+   "youtube": "ViS072wU984",
+   "title": "2004 NCAA Tournament - National Championship - UConn vs. Georgia Tech",
+   "channel": "flipsharetcf",
+   "kind": "highlights",
+   "start": null,
+   "why": "21-minute condensed CBS broadcast of this game: opens with Calhoun's pregame locker-room talk and ends with his postgame thanks to San Antonio (auto-captions)."
+  },
+  {
+   "youtube": "ip8UqpaulXs",
+   "title": "2004 UConn Wins National Championship",
+   "channel": "GampelCrazies",
+   "kind": "final_play",
+   "start": null,
+   "why": "Last ~6 minutes of the CBS broadcast of this game: Georgia Tech's late 3-pointers ('Elder's three brings it to seven... 11 seconds') and the final horn (auto-captions)."
+  }
+ ],
+ "photos": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/President_George_W._Bush_stands_with_Emeka_Okafor_of_the_University_of_Connecticut%27s_men_basketball_team.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:President_George_W._Bush_stands_with_Emeka_Okafor_of_the_University_of_Connecticut%27s_men_basketball_team.jpg",
+   "credit": "The Bush White House (White House photo), via Wikimedia Commons",
+   "license": "Public domain",
+   "depicts": "Aftermath, not game action: President George W. Bush stands with Emeka Okafor during the May 19, 2004 East Room ceremony congratulating four NCAA champions.",
+   "verified": "Commons file description and its cited source page on georgewbush-whitehouse.archives.gov (checked) carry the same caption and date. Not visually inspected."
+  }
+ ],
+ "newspaper": [],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "attendance",
+   "ours": "site: none (att null)",
+   "source_says": "Contemporaneous sources: 44,468 (Courant box and story; Ticker box via USA Today; ESPN box). UConn's record book lists 44,147 in its 2003-04 season log and 44,417 (the semifinal figure) in its largest-crowds list. Draft uses 44,468. Settled: 44,468 is correct. It is the figure in the NCAA's official attendance history and in every contemporaneous box (ESPN box via Wayback 2005, Ticker, Courant). The record book's 44,147 (season log) and 44,417 (largest-crowds list) are errors: the book repeats one figure for both Final Four games in each list. 44,417 is the semifinal crowd, and 44,147 looks like a transposition of it.",
+   "sources": [
+    "https://www.courant.com/2004/04/06/ncaa-championship-uconn-82-georgia-tech-73-2/",
+    "https://www.courant.com/2004/04/06/1-crown-1-to-go/",
+    "http://www.usatoday.com/sports/scores104/104096/20040405NCAABUCONN-----0.htm",
+    "http://sports.espn.go.com/ncb/boxscore?gameId=244000063",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "field": "Anderson's halftime shot",
+   "ours": "draft: 2-pointer (41-26)",
+   "source_says": "Ticker (USA Today) calls it a 3-pointer at the buzzer. ESPN play-by-play lists a 2-point jumper, the CBS broadcast shows officials reviewing and counting it as a 2, and the score went from 39-26 to 41-26.",
+   "sources": [
+    "http://www.usatoday.com/sports/scores104/104096/20040405NCAABUCONN-----0.htm",
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000063",
+    "https://www.youtube.com/watch?v=Jk1sv3stnUc&t=2481"
+   ]
+  },
+  {
+   "field": "sequence 11:23 (Gordon 3, 21-12)",
+   "ours": "draft: 11:23 (ESPN play-by-play)",
+   "source_says": "Ticker (USA Today): 'for a 21-12 advantage with 11:18 left before halftime.'",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000063",
+    "http://www.usatoday.com/sports/scores104/104096/20040405NCAABUCONN-----0.htm"
+   ]
+  },
+  {
+   "field": "Okafor's foul on Bynum before halftime",
+   "ours": "draft gives no clock for the foul (ESPN play-by-play: 0:06)",
+   "source_says": "Courant and the CBS broadcast: 5 seconds left.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000063",
+    "https://www.courant.com/2004/04/06/halftime-buzzer-beater-is-big/"
+   ]
+  },
+  {
+   "field": "Schenscher's second foul",
+   "ours": "draft: 'about six minutes left in the half'",
+   "source_says": "NYT: 5:57 left; ESPN play-by-play lists a Schenscher foul at 5:49.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/06/sports/ncaa-the-final-4-game-pivots-as-okafor-dominates-schenscher.html",
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000063"
+   ]
+  },
+  {
+   "field": "tip time",
+   "ours": "draft: 9:18 p.m. ET scheduled (NYT matchup box; UConn notes)",
+   "source_says": "ESPN's game page lists 9:21 PM ET.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/05/sports/ncaa-men-s-final-4-ncaa-final-matchup.html",
+    "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/uconnhuskies.com/documents/2018/6/26/UConn_Final_Four_Notes.pdf",
+    "http://espn.go.com/ncb/playbyplay?gameId=244000063"
+   ]
+  }
+ ],
+ "unsure": [
+  "The archived ESPN play-by-play for this game covers only the first half; second-half beats (14:16, 13:32) come from the Courant and the NYT.",
+  "Exact clocks and order of Georgia Tech's four late 3-pointers not determined (NYT: 'in the final 44 seconds'; AP: cut the deficit to seven in the final seconds); the CBS call says '75-64, final 42 seconds' before the flurry. Not used as separate beats.",
+  "TV announcers come from CBS's on-air credit in the full broadcast (auto-captions at ~0:17:01); no written source found.",
+  "No contemporaneous point spread found (Wikipedia lists UConn -6.5; not used).",
+  "UConn Daily Campus scans on archive.org end in 1987; the only Commons photo found is the White House visit (aftermath)."
+ ],
+ "sources": [
+  {
+   "url": "http://sports.espn.go.com/ncb/playbyplay?gameId=244000063",
+   "what": "ESPN play-by-play, first half only, read via Wayback snapshot 20050911183435: backbone for first-half sequence clocks"
+  },
+  {
+   "url": "http://sports.espn.go.com/ncb/recap?gameId=244000063",
+   "what": "AP game story on ESPN.com (read via Wayback 20041207221911): Hall of Fame by one vote, first preseason No. 1 champion since 1996 Kentucky, active coaches with multiple titles, Tech picked seventh, rally to seven, halftime buzzer shot, Okafor's degree in three years, Calhoun quote"
+  },
+  {
+   "url": "http://sports.espn.go.com/ncb/boxscore?gameId=244000063",
+   "what": "ESPN box score (read via Wayback 20041209012547): attendance 44,468"
+  },
+  {
+   "url": "http://espn.go.com/ncb/playbyplay?gameId=244000063",
+   "what": "ESPN game page (read via Wayback 20140821000121): 9:21 PM ET listing, final records"
+  },
+  {
+   "url": "https://www.nytimes.com/2004/04/06/sports/ncaa-men-s-championship-game-for-uconn-a-title-well-in-hand.html",
+   "what": "NYT game story (Joe Drape), read via Wayback: Hall of Fame by one vote, 41-26, led by 25, four 3s in final 44 seconds, 680th win, MOP"
+  },
+  {
+   "url": "https://www.nytimes.com/2004/04/06/sports/ncaa-the-final-4-game-pivots-as-okafor-dominates-schenscher.html",
+   "what": "NYT (Joe LaPointe): Okafor vs Schenscher; 12:00 three-shot foul; 5:57 second foul; 10 and 7 at half; 13:32 hook for 58-33; 74-61 hook; Okafor quote"
+  },
+  {
+   "url": "https://www.nytimes.com/2004/04/06/sports/sports-of-the-times-calhoun-shows-he-deserves-seat-with-elite.html",
+   "what": "NYT column (William C. Rhoden): Hall of Fame vote, UConn the overwhelming favorite, Elder and Muhammad injured"
+  },
+  {
+   "url": "https://www.nytimes.com/2004/04/06/sports/ncaa-men-s-final-4-critics-of-brown-have-little-to-say-now.html",
+   "what": "NYT (Bill Finley): Taliek Brown 'I silenced everybody'"
+  },
+  {
+   "url": "https://www.nytimes.com/2004/04/05/sports/ncaa-men-s-final-4-ncaa-final-matchup.html",
+   "what": "NYT matchup box: 'Tonight, 9:18 p.m.'; Elder 2 points since ankle sprain; November meeting details"
+  },
+  {
+   "url": "https://www.nytimes.com/2004/04/05/sports/ncaa-men-s-final-4-a-final-with-familiarity-and-a-few-wrinkles.html",
+   "what": "NYT preview (Joe Drape): UConn 32-6 vs Georgia Tech 28-9; Preseason NIT conditions; Tech's close tournament wins and OT regional final; Bynum's layup with 1.5 seconds"
+  },
+  {
+   "url": "http://www.usatoday.com/sports/scores104/104096/20040405NCAABUCONN-----0.htm",
+   "what": "Ticker story and box via USA Today (Wayback 20040702124300): A 44,468; 10-0 burst to 21-12; Gordon's 12 in first 10:03; all-tournament; multiple titles since 1985"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/06/ncaa-championship-uconn-82-georgia-tech-73-2/",
+   "what": "Courant box score: officials; A 44,468"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/06/2conn/",
+   "what": "Courant game story: 41-26 largest halftime lead in a title game since 1967; 25-point lead at 60-35; Tech missed 24 of 34 in first half"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/06/1-crown-1-to-go/",
+   "what": "Courant story: 44,468; first-ever double in reach"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/06/halftime-buzzer-beater-is-big/",
+   "what": "Courant: halftime sequence (Bynum misses, Okafor outlet, Anderson's shot from top of the key)"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/06/browns-clean-getaway/",
+   "what": "Courant: Brown-to-Okafor-to-Boone sequence for 56-31 with 14:16 left"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/06/for-uconn-mission-improbable/",
+   "what": "Courant column (Jeff Jacobs): Gordon's 'immortalized' quote"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/06/coaches-to-go-4-0-in-first-2-final-fours/",
+   "what": "Courant list: coaches 4-0 in their first two Final Fours"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/06/call-it-reunion-arena/",
+   "what": "Courant: former Huskies on the floor"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/07/at-uconn-35-arrested/",
+   "what": "Courant, April 7, 2004: 35 arrested Monday night"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/07/ncaa-championship-uconn-70-tennessee-61/",
+   "what": "Courant, April 7, 2004: UConn women 70, Tennessee 61; only Division I program with both titles in one season"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/10/uconn-parade-set-for-april-18/",
+   "what": "Courant, April 10, 2004: joint parade April 18"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/19/the-crowd-number/",
+   "what": "Courant, April 19, 2004: Hartford police crowd estimate 250,000-300,000; biggest since post-WWII veterans parades"
+  },
+  {
+   "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2004/05/images/20040519-10_d051904-3-792v.html",
+   "what": "White House archive photo page: May 19, 2004 East Room ceremony"
+  },
+  {
+   "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/uconnhuskies.com/documents/2018/6/26/UConn_Final_Four_Notes.pdf",
+   "what": "UConn 2004 Final Four notes: title game scheduled 9:18 eastern; No. 2 seed Phoenix"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn record book: ranks 7 vs 14; attendance figures; Okafor No. 2 and Gordon No. 3 picks; titles list"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=Jk1sv3stnUc",
+   "what": "CBS broadcast (official upload): on-air credits, halftime review, timing cross-checks via auto-captions"
+  },
+  {
+   "url": "https://www.nytimes.com/2004/04/03/sports/ncaa-men-s-final-4-final-four-matchups.html",
+   "what": "NYT Final Four matchup box: 'No. 3 Georgia Tech'"
+  }
+ ],
+ "_verified": {
+  "checked": 112,
+  "ok": 112,
+  "edits": 3
+ }
+}

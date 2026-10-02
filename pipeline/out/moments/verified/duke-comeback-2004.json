@@ -1,0 +1,624 @@
+{
+ "slug": "duke-comeback-2004",
+ "gameId": "2004-38",
+ "title": "UConn's 12-0 Finish Stuns Duke",
+ "nickname": null,
+ "dek": "Down 75-67 with 3:28 left, UConn rallied with a 12-0 run behind Emeka Okafor, who sat most of the first half with two fouls, then scored 18.",
+ "date": "2004-04-03",
+ "tip": {
+  "text": "8:47 p.m. ET (scheduled; second national semifinal, after Georgia Tech-Oklahoma State)",
+  "sources": [
+   "https://www.nytimes.com/2004/04/03/sports/ncaa-men-s-final-4-final-four-matchups.html",
+   "http://espn.go.com/ncb/playbyplay?gameId=244000062",
+   "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/uconnhuskies.com/documents/2018/6/26/UConn_Final_Four_Notes.pdf",
+   "https://www.nytimes.com/2004/04/03/sports/ncaa-men-s-final-4-final-four-matchups.html"
+  ]
+ },
+ "venue": "Alamodome",
+ "city": "San Antonio, TX",
+ "attendance": {
+  "n": 44417,
+  "sources": [
+   "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html",
+   "http://www.usatoday.com/sports/scores104/104094/20040403NCAABDUKE------0.htm",
+   "http://sports.espn.go.com/ncb/boxscore?gameId=244000062"
+  ]
+ },
+ "event": "NCAA tournament national semifinal (Final Four)",
+ "tv": {
+  "network": "CBS",
+  "announcers": [
+   "Jim Nantz",
+   "Billy Packer",
+   "Bonnie Bernstein (reporter)"
+  ],
+  "sources": [
+   "https://www.youtube.com/watch?v=eNSl_qrYiOc&t=1444"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "31-6",
+   "rank": "AP #7",
+   "seed": "2 (Phoenix)"
+  },
+  "opp": {
+   "record": "31-5",
+   "rank": "AP #6",
+   "seed": "1 (Atlanta)"
+  },
+  "sources": [
+   "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/uconnhuskies.com/documents/2018/6/26/UConn_Final_Four_Notes.pdf",
+   "https://www.nytimes.com/2004/04/03/sports/college-basketball-rare-shot-at-an-upset-for-top-seeded-duke.html",
+   "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "http://espn.go.com/dickvitale/vcolumn040403FinalFour-recaps.html"
+  ]
+ },
+ "setup": [
+  {
+   "text": "UConn, the preseason No. 1, had lived up to the billing in March, winning four NCAA tournament games by an average of about 17 points. Ben Gordon had scored a Big East tournament-record 81 points and was named the Phoenix Regional's most outstanding performer.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/03/sports/college-basketball-rare-shot-at-an-upset-for-top-seeded-duke.html",
+    "https://goduke.com/news/2004/4/3/147596",
+    "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/uconnhuskies.com/documents/2018/6/26/UConn_Final_Four_Notes.pdf"
+   ]
+  },
+  {
+   "text": "Duke, 31-5 and the top seed out of the Atlanta Regional, had won its four tournament games by an average of 19 points, and Mike Krzyzewski needed one more NCAA tournament win to tie Dean Smith's record of 65. For once, the Blue Devils were cast as the underdog.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/03/sports/college-basketball-rare-shot-at-an-upset-for-top-seeded-duke.html",
+    "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html"
+   ]
+  },
+  {
+   "text": "It was the programs' first NCAA tournament meeting since UConn's upset in the 1999 title game. UConn's All-American center, Emeka Okafor, had been limited by back spasms and a pinched nerve, and had also dealt with shoulder trouble in the postseason.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/03/sports/college-basketball-rare-shot-at-an-upset-for-top-seeded-duke.html",
+    "https://www.nytimes.com/2004/04/03/sports/ncaa-men-s-final-4-final-four-matchups.html",
+    "https://www.nytimes.com/2004/04/04/sports/sports-of-the-times-the-return-of-okafor-spells-doom-for-duke.html"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "UConn jumped out 15-4, the last five points on a Charlie Villanueva 3-pointer and layup. But Okafor was called for two fouls in the first 3 minutes 55 seconds, and under Jim Calhoun's decades-old two-foul rule he sat the rest of the half, 16:05 on the bench.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.nbcnews.com/id/wbna4661164",
+    "https://www.courant.com/2004/04/04/calhoun-saves-his-best-for-last/"
+   ]
+  },
+  {
+   "text": "Duke answered with a 15-1 run, scoring inside again and again; Shavlik Randolph made all four of his first-half shots. The Blue Devils led by 10 late in the half and 41-34 at the break, then pushed it to 45-34 early in the second half.",
+   "sources": [
+    "https://www.nbcnews.com/id/wbna4661164",
+    "https://www.courant.com/2004/04/04/calhoun-saves-his-best-for-last/",
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/uconn-has-the-market-on-second-half-rallies/"
+   ]
+  },
+  {
+   "text": "Okafor picked up a third foul early in the second half and sat again, then returned with 14:23 left. With about nine minutes to go he soared to block a Luol Deng drive and hit a short jumper at the other end to make it 59-58.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/04/sports/sports-of-the-times-the-return-of-okafor-spells-doom-for-duke.html",
+    "https://goduke.com/news/2004/4/3/147596",
+    "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html"
+   ]
+  },
+  {
+   "text": "Fouls piled up, 44 in all, and Duke's big men paid: Shelden Williams fouled out with 5:04 left. Daniel Ewing's 3-pointer still pushed Duke ahead 73-64, and Rashad Anderson answered with a 3 of his own.",
+   "sources": [
+    "https://www.courant.com/2004/04/04/calhoun-saves-his-best-for-last/",
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://goduke.com/news/2004/4/3/147596"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "2H",
+   "clock": "3:28",
+   "uconn": 67,
+   "opp": 75,
+   "text": "Ben Gordon is called for his fourth foul, and Chris Duhon makes both free throws. Duke leads by eight and will not score again until the final second.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/the-final-comeback/",
+    "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html",
+    "http://www.usatoday.com/sports/scores104/104094/20040403NCAABDUKE------0.htm",
+    "https://www.youtube.com/watch?v=eNSl_qrYiOc&t=4839"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "3:15",
+   "uconn": 67,
+   "opp": 75,
+   "text": "Shavlik Randolph fouls out, the second Duke big man gone. Okafor misses the free throw.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/the-final-comeback/",
+    "https://www.courant.com/2004/04/04/calhoun-saves-his-best-for-last/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "2:40",
+   "uconn": 70,
+   "opp": 75,
+   "text": "Luol Deng misses a 3, Taliek Brown boxes out for the rebound, and Rashad Anderson hits a 3 from the corner. The 12-0 run has begun.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/the-final-comeback/",
+    "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html",
+    "http://espn.go.com/dickvitale/vcolumn040403FinalFour-recaps.html",
+    "https://www.youtube.com/watch?v=eNSl_qrYiOc&t=5031"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "2:07",
+   "uconn": 72,
+   "opp": 75,
+   "text": "Daniel Ewing misses a jumper, Gordon rebounds and is fouled by Duhon, and Gordon makes both free throws.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/the-final-comeback/",
+    "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:35",
+   "uconn": 72,
+   "opp": 75,
+   "text": "Okafor forces Duhon to alter a drive and Josh Boone comes up with the loose ball. UConn calls its last timeout.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html",
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.youtube.com/watch?v=eNSl_qrYiOc&t=5147"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "1:18",
+   "uconn": 74,
+   "opp": 75,
+   "text": "Gordon dumps the ball inside to Okafor, whose turnaround jumper over Nick Horvath makes it a one-point game.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/the-final-comeback/",
+    "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html",
+    "https://www.courant.com/2004/04/04/calhoun-saves-his-best-for-last/",
+    "https://www.youtube.com/watch?v=eNSl_qrYiOc&t=5220"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:46",
+   "uconn": 74,
+   "opp": 75,
+   "text": "Deng misses a 3-pointer and UConn gets the ball back.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/the-final-comeback/"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:25",
+   "uconn": 76,
+   "opp": 75,
+   "text": "Okafor's shot rattles out; the rebound is tipped around, and Okafor wrests it away and puts it back in. UConn leads for the first time since midway through the first half.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/the-final-comeback/",
+    "https://goduke.com/news/2004/4/3/147596",
+    "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html",
+    "https://www.courant.com/2004/04/04/calhoun-saves-his-best-for-last/",
+    "https://www.youtube.com/watch?v=eNSl_qrYiOc&t=5285"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:12",
+   "uconn": 78,
+   "opp": 75,
+   "text": "Out of Krzyzewski's last timeout, J.J. Redick drives and is stripped by Okafor and Anderson. Anderson is fouled by Horvath as he comes up with the loose ball, and makes both free throws.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "http://www.usatoday.com/sports/scores104/104094/20040403NCAABDUKE------0.htm",
+    "https://www.courant.com/2004/04/04/the-final-comeback/",
+    "https://goduke.com/news/2004/4/3/147596",
+    "http://www.usatoday.com/sports/scores104/104094/20040403NCAABDUKE------0.htm"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:06",
+   "uconn": 78,
+   "opp": 75,
+   "text": "Needing a 3, Duke goes back to Redick. His tying try falls short, and Okafor rebounds.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/the-final-comeback/",
+    "https://goduke.com/news/2004/4/3/147596",
+    "http://www.usatoday.com/sports/scores104/104094/20040403NCAABDUKE------0.htm"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:03",
+   "uconn": 79,
+   "opp": 75,
+   "text": "Horvath fouls out, Duke's third big man to go, and Okafor makes one of two free throws.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/the-final-comeback/",
+    "http://espn.go.com/dickvitale/vcolumn040403FinalFour-recaps.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:01",
+   "uconn": 79,
+   "opp": 78,
+   "text": "Duhon banks in a long 3 at the buzzer. It only trims the final margin to one.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/the-final-comeback/",
+    "https://goduke.com/news/2004/4/3/147596",
+    "http://espn.go.com/dickvitale/vcolumn040403FinalFour-recaps.html"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "12-0",
+   "label": "UConn's closing run after trailing 75-67 with 3:28 left",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/the-final-comeback/",
+    "https://goduke.com/news/2004/4/3/147596"
+   ]
+  },
+  {
+   "value": "16:05",
+   "label": "first-half time Okafor spent on the bench after two fouls in the first 3:55",
+   "sources": [
+    "https://www.courant.com/2004/04/04/calhoun-saves-his-best-for-last/",
+    "https://www.nytimes.com/2004/04/04/sports/sports-of-the-times-the-return-of-okafor-spells-doom-for-duke.html",
+    "https://www.nbcnews.com/id/wbna4661164"
+   ]
+  },
+  {
+   "value": "18",
+   "label": "Okafor's points, every one after halftime",
+   "sources": [
+    "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html",
+    "http://espn.go.com/dickvitale/vcolumn040403FinalFour-recaps.html",
+    "http://sports.espn.go.com/ncb/recap?gameId=244000062"
+   ]
+  },
+  {
+   "value": "3",
+   "label": "Duke centers who fouled out: Shelden Williams, Shavlik Randolph, Nick Horvath",
+   "sources": [
+    "https://goduke.com/news/2004/4/3/147596",
+    "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html"
+   ]
+  },
+  {
+   "value": "6",
+   "label": "straight Duke possessions without a point during the comeback",
+   "sources": [
+    "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html",
+    "http://www.usatoday.com/sports/scores104/104094/20040403NCAABDUKE------0.htm"
+   ]
+  },
+  {
+   "value": "79-78",
+   "label": "the score of Duke's 1990 overtime regional-final win over UConn, now reversed",
+   "sources": [
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "I grabbed it, spun, saw the rim, thought it would be a good idea to put it in, and that's what I did.",
+   "who": "Emeka Okafor",
+   "role": "UConn junior center",
+   "when": "postgame, on his go-ahead basket",
+   "source": "https://goduke.com/news/2004/4/3/147596"
+  },
+  {
+   "text": "I told him, 'I might put you back in.' Blatant lie.",
+   "who": "Jim Calhoun",
+   "role": "UConn coach",
+   "when": "postgame, on keeping Okafor benched in the first half",
+   "source": "https://www.courant.com/2004/04/04/calhoun-saves-his-best-for-last/"
+  },
+  {
+   "text": "I love my team and I'm sorry it was such a crushing defeat.",
+   "who": "Mike Krzyzewski",
+   "role": "Duke coach",
+   "when": "postgame",
+   "source": "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html"
+  },
+  {
+   "text": "I would be lying if I said I didn't think about losing the game.",
+   "who": "Rashad Anderson",
+   "role": "UConn guard",
+   "when": "postgame",
+   "source": "http://www.usatoday.com/sports/scores104/104094/20040403NCAABDUKE------0.htm"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "UConn advanced to Monday's final against Georgia Tech, a 67-65 winner over Oklahoma State on Will Bynum's driving layup with 1.5 seconds left, and the team that had beaten the Huskies 77-61 in November.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html",
+    "https://www.nytimes.com/2004/04/05/sports/ncaa-men-s-final-4-a-final-with-familiarity-and-a-few-wrinkles.html"
+   ]
+  },
+  {
+   "text": "Krzyzewski's wait for the NCAA tournament win that would tie Dean Smith's record carried into the next season.",
+   "sources": [
+    "https://goduke.com/news/2004/4/3/147596"
+   ]
+  },
+  {
+   "text": "Two nights later UConn beat Georgia Tech 82-73 for its second national championship.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/06/sports/ncaa-men-s-championship-game-for-uconn-a-title-well-in-hand.html"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "UConn had now won both of the programs' Final Four meetings, the 1999 final and this semifinal, after Duke won their first three NCAA tournament matchups, including the 1990 East Regional final, 79-78 in overtime.",
+   "sources": [
+    "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/uconnhuskies.com/documents/2018/6/26/UConn_Final_Four_Notes.pdf",
+    "https://www.nytimes.com/2004/04/03/sports/college-basketball-rare-shot-at-an-upset-for-top-seeded-duke.html",
+    "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/"
+   ]
+  },
+  {
+   "text": "In a WTIC radio countdown of its top 10 UConn games, this one ranked No. 10.",
+   "sources": [
+    "https://www.youtube.com/watch?v=5sBhPUKO2Qc"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "eNSl_qrYiOc",
+   "title": "UConn vs. Duke: 2004 NCAA men\u2019s basketball Final Four | FULL REPLAY",
+   "channel": "March Madness",
+   "kind": "full_game",
+   "start": 4840,
+   "why": "Official NCAA March Madness channel full CBS broadcast; already in site videos[]. Auto-captions: Gordon's fourth foul and 'Duke 75-67' at ~1:20:40-1:21:16 (start), Anderson's corner 3 ~1:23:56, Okafor's go-ahead put-back ~1:28:09-1:28:30, Duhon's buzzer 3 ~1:32:28. On-air credit 'Jim Nantz with Billy Packer and Bonnie Bernstein' at ~0:24:04."
+  },
+  {
+   "youtube": "MkALLUrgmu4",
+   "title": "2004 Final Four UCONN vs Duke",
+   "channel": "ChainGangSoulja266",
+   "kind": "highlights",
+   "start": 380,
+   "why": "Highlights of this game; already in site videos[]. Auto-captions: Anderson's 3 at ~6:28, Okafor's go-ahead put-back at ~7:28."
+  },
+  {
+   "youtube": "HV7pt4f32Bc",
+   "title": "UConn Legendary Comeback Over Duke in Final Four 2004 March Madness!",
+   "channel": "College Basketball Classics",
+   "kind": "highlights",
+   "start": 540,
+   "why": "Highlights of this game (description cites the 2004-04-03 Sports-Reference box). Auto-captions: Anderson's 3 at ~9:03-9:13, comeback finish ~10:56."
+  },
+  {
+   "youtube": "jdwOYav2zVE",
+   "title": "2004 NCAA Tournament - Final Four - UConn vs. Duke",
+   "channel": "flipsharetcf",
+   "kind": "highlights",
+   "start": null,
+   "why": "21-minute condensed CBS broadcast of this semifinal: opens with the officials' introduction for 'this second semifinal' and ends with postgame interviews of Calhoun and Okafor (auto-captions)."
+  },
+  {
+   "youtube": "edylGVZXIQc",
+   "title": "2004 UConn-Duke semi-final (last 3:15)",
+   "channel": "RIPMMD",
+   "kind": "final_play",
+   "start": null,
+   "why": "Uploader: 'down by 8, UConn scores 12 in a row in the last 3:15 to beat Duke'; auto-captions show the CBS broadcast from Randolph's foul-out through the finish."
+  },
+  {
+   "youtube": "5sBhPUKO2Qc",
+   "title": "WTIC 1080 Top 10 UConn Games - #10: 2004 Final Four UConn vs. Duke",
+   "channel": "tcf15",
+   "kind": "radio",
+   "start": null,
+   "why": "WTIC 1080 countdown segment (#10: 2004 Final Four UConn vs. Duke) with the UConn radio calls of this game (auto-captions: Okafor within a point with 1:18, Anderson's free throws, Okafor's free throw)."
+  }
+ ],
+ "photos": [],
+ "newspaper": [],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "attendance",
+   "ours": "site: none (att null)",
+   "source_says": "Contemporaneous sources: 44,417 (NYT; Ticker box via USA Today; ESPN box). UConn's record book season log lists 44,147 (its largest-crowds list says 44,417). Draft uses 44,417. Settled: 44,417 is correct. ESPN's archived 2004 box (Wayback 20050103) and the Ticker box both print 'Attendance: 44,417', and the NYT says '44,417 fans'. The record book's 44,147 is a transposition, and the book prints the same figure for both Final Four games in each of its lists (44,147 twice in the season log, 44,417 twice in the largest-crowds list), so it can't be trusted for either game. The NCAA's attendance history lists 44,468 for the final, not the semifinal.",
+   "sources": [
+    "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html",
+    "http://www.usatoday.com/sports/scores104/104094/20040403NCAABDUKE------0.htm",
+    "http://sports.espn.go.com/ncb/boxscore?gameId=244000062",
+    "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf"
+   ]
+  },
+  {
+   "field": "sequence 0:25 (Okafor go-ahead)",
+   "ours": "draft: 0:25 (ESPN play-by-play; Courant)",
+   "source_says": "NYT: 25.6 seconds; AP: 26 seconds; Michael Wilbon (Washington Post): 22 seconds.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/the-final-comeback/",
+    "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html",
+    "https://goduke.com/news/2004/4/3/147596",
+    "https://www.nbcnews.com/id/wbna4661164"
+   ]
+  },
+  {
+   "field": "sequence 0:12 (Anderson free throws)",
+   "ours": "draft: 0:12 (ESPN play-by-play; Courant)",
+   "source_says": "Ticker (USA Today): 'with 11 seconds to go'; the CBS broadcast also says 11 seconds.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/the-final-comeback/",
+    "http://www.usatoday.com/sports/scores104/104094/20040403NCAABDUKE------0.htm"
+   ]
+  },
+  {
+   "field": "sequence 0:06 (Redick's missed 3)",
+   "ours": "draft: 0:06 (ESPN play-by-play; Courant)",
+   "source_says": "Ticker (USA Today): the 3-pointer 'was short with three seconds left' (0:03 is when Horvath fouled Okafor on the rebound).",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/the-final-comeback/",
+    "http://www.usatoday.com/sports/scores104/104094/20040403NCAABDUKE------0.htm"
+   ]
+  },
+  {
+   "field": "Ewing 3-pointer for 73-64",
+   "ours": "draft gives no clock",
+   "source_says": "ESPN play-by-play: 4:43; AP: 'a 3-pointer with 4:36 left'.",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://goduke.com/news/2004/4/3/147596"
+   ]
+  },
+  {
+   "field": "Shelden Williams' fouls",
+   "ours": "draft: fouled out with 5:04 left",
+   "source_says": "Wikipedia (lead only, not used) says his fifth foul came with 3:04 to play; ESPN play-by-play and the Courant show 3:04 of the first half was his third foul and 5:04 of the second half his fifth (Wilbon: 'with five minutes to go').",
+   "sources": [
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.courant.com/2004/04/04/calhoun-saves-his-best-for-last/",
+    "https://www.nbcnews.com/id/wbna4661164"
+   ]
+  },
+  {
+   "field": "go-ahead rebound",
+   "ours": "draft: rebound 'tipped around' before Okafor wrests it away",
+   "source_says": "AP: Okafor grabbed the rebound 'out of Luol Deng's hands'; CBS broadcast: 'tipped around by Boone, back to Okafor'; Courant: Boone tipped it to keep it alive and Okafor stripped Deng; ESPN play-by-play: Okafor offensive rebound.",
+   "sources": [
+    "https://goduke.com/news/2004/4/3/147596",
+    "https://www.courant.com/2004/04/04/calhoun-saves-his-best-for-last/",
+    "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+    "https://www.youtube.com/watch?v=eNSl_qrYiOc&t=5285"
+   ]
+  }
+ ],
+ "unsure": [
+  "TV announcers come from CBS's on-air credit in the full broadcast (auto-captions at ~0:24:04); no written source found.",
+  "Tip time is the scheduled 8:47 p.m. ET (NYT matchup box, ESPN listing); the actual tip followed the first semifinal, which ended on a last-second shot.",
+  "No point spread found; the NYT described Duke as being 'in the rare role of the underdog' and Duke players called UConn the favorite.",
+  "UConn Daily Campus scans on archive.org end in 1987; no Wikimedia Commons photo of this game found."
+ ],
+ "sources": [
+  {
+   "url": "http://sports.espn.go.com/ncb/playbyplay?gameId=244000062",
+   "what": "ESPN play-by-play for this game, read via Wayback snapshot 20121111125635: backbone for sequence clocks and scores"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/04/the-final-comeback/",
+   "what": "Hartford Courant 'The Final Comeback' box, April 4, 2004 (read via Wayback): 3:28, 3:15, 2:51, 2:40, 2:13, 2:07, 1:18, 0:46, 0:25, 0:12, 0:06, 0:03, 0:01"
+  },
+  {
+   "url": "https://goduke.com/news/2004/4/3/147596",
+   "what": "AP game story as posted by Duke Sports Information: 12 straight, 26 seconds, three Duke centers fouled out, Okafor and Calhoun quotes"
+  },
+  {
+   "url": "http://sports.espn.go.com/ncb/recap?gameId=244000062",
+   "what": "Same AP story on ESPN.com (read via Wayback 20041207221351); header 'Okafor: All 18 points after halftime'"
+  },
+  {
+   "url": "http://sports.espn.go.com/ncb/boxscore?gameId=244000062",
+   "what": "ESPN box score (read via Wayback 20050103160348): attendance 44,417"
+  },
+  {
+   "url": "http://espn.go.com/ncb/playbyplay?gameId=244000062",
+   "what": "ESPN game page (read via Wayback 20140821000620): 8:47 PM ET listing; records after game 32-6 and 31-6"
+  },
+  {
+   "url": "https://www.nytimes.com/2004/04/04/sports/ncaa-men-s-final-4-okafor-floors-duke-and-lifts-uconn-to-the-final.html",
+   "what": "NYT game story (Joe Drape), read via Wayback: 3:28, 2:07, 1:18, 25.6; 44,417; six consecutive stops; Krzyzewski quote"
+  },
+  {
+   "url": "https://www.nytimes.com/2004/04/04/sports/sports-of-the-times-the-return-of-okafor-spells-doom-for-duke.html",
+   "what": "NYT column (William C. Rhoden): Okafor's foul timeline (16:05, 16:06, 14:23), Deng block"
+  },
+  {
+   "url": "https://www.nytimes.com/2004/04/03/sports/college-basketball-rare-shot-at-an-upset-for-top-seeded-duke.html",
+   "what": "NYT preview (Bill Finley): Duke 31-5, UConn 31-6, Duke No. 1 seed, Atlanta regional, 19-point average, Krzyzewski one win from Dean Smith's 65, first NCAA meeting since 1999, underdog Duke"
+  },
+  {
+   "url": "https://www.nytimes.com/2004/04/03/sports/ncaa-men-s-final-4-final-four-matchups.html",
+   "what": "NYT matchup box: 8:47 p.m. tip; Okafor's back spasms and pinched nerve"
+  },
+  {
+   "url": "https://www.nytimes.com/2004/04/05/sports/ncaa-men-s-final-4-a-final-with-familiarity-and-a-few-wrinkles.html",
+   "what": "NYT title-game preview: Bynum's layup with 1.5 seconds; November 26 77-61 loss"
+  },
+  {
+   "url": "http://www.usatoday.com/sports/scores104/104094/20040403NCAABDUKE------0.htm",
+   "what": "Ticker game story and box via USA Today (Wayback 20040701232628): 3:28, 2:40, 0:11, Calhoun's six stops, Anderson quote; A 44,417"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/04/calhoun-saves-his-best-for-last/",
+   "what": "Courant column (Jeff Jacobs): fouls at 3:09 and 3:55, 16:05 on the bench, two-foul rule, 44 fouls, Williams out 5:04, Randolph 3:15, Calhoun 'blatant lie' quote"
+  },
+  {
+   "url": "https://www.courant.com/2004/04/04/uconn-has-the-market-on-second-half-rallies/",
+   "what": "Courant: UConn trailed 45-34 with 17:46 left"
+  },
+  {
+   "url": "https://www.nbcnews.com/id/wbna4661164",
+   "what": "Michael Wilbon (Washington Post) column via NBC News: 15-4 start, two fouls in 3:55, 15-1 Duke run, Randolph 4-for-4"
+  },
+  {
+   "url": "http://espn.go.com/dickvitale/vcolumn040403FinalFour-recaps.html",
+   "what": "Dick Vitale column: Anderson's 3 at 2:40 began the 12-0 run; Horvath's fifth foul with three seconds; Duke No. 1 seed in Atlanta"
+  },
+  {
+   "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/uconnhuskies.com/documents/2018/6/26/UConn_Final_Four_Notes.pdf",
+   "what": "UConn 2004 Final Four media notes: 31-6 vs 31-5; No. 2 seed Phoenix; Gordon 81 points and regional MOP; series history; semifinal 2 tips 40 minutes after 6:07 p.m. opener"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2026/8/13/RECORD_BOOK_26-27_V2_.pdf",
+   "what": "UConn record book: ranks 7 vs 6; attendance figures; 1990 79-78 loss"
+  },
+  {
+   "url": "https://www.tampabay.com/archive/1999/03/30/uconn-77-duke-74-yes-uconn/",
+   "what": "St. Petersburg Times, 1999: Laettner's 1990 East final buzzer-beater, 79-78 in overtime"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=eNSl_qrYiOc",
+   "what": "CBS broadcast (official upload): on-air credits and timing cross-checks via auto-captions"
+  },
+  {
+   "url": "https://www.nytimes.com/2004/04/06/sports/ncaa-men-s-championship-game-for-uconn-a-title-well-in-hand.html",
+   "what": "NYT title-game story: UConn beat Georgia Tech 82-73 two nights later"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=5sBhPUKO2Qc",
+   "what": "WTIC 1080 countdown: this game ranked No. 10 among its top 10 UConn games"
+  }
+ ],
+ "_verified": {
+  "checked": 121,
+  "ok": 121,
+  "edits": 9
+ }
+}
