@@ -357,6 +357,14 @@
    "old": "WPOP radio broadcast of UConn's 99\u201367 win over Central Connecticut on Jan. 24, 1990 \u2014 the final men's game at the Hugh S. Greer Field House before Gampel Pavilion opened.",
    "new": "WPOP radio broadcast of UConn's 99\u201377 win over Central Connecticut on Jan. 24, 1990 \u2014 the final men's game at the Field House (renamed for Hugh Greer in 1991) before Gampel Pavilion opened.",
    "reason": "The score was 99-77 (record book, site), and the building wasn't named for Greer until 1991."
+  },
+  {
+   "id": "J57eEzjJtw8",
+   "status": "REMOVE",
+   "field": "video",
+   "old": "WCNC: UConn beats Purdue to win back-to-back NCAA titles",
+   "new": null,
+   "reason": "Studio anchor over still photos, one of them from the Alabama semifinal; no footage of the title game (Moments fact-check, 2026-10-01)."
   }
  ]
 }
