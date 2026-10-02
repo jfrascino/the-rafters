@@ -1,0 +1,690 @@
+{
+ "slug": "six-overtimes-2009",
+ "gameId": "2009-31",
+ "title": "Six Overtimes at the Garden",
+ "nickname": {
+  "text": "The Six-Overtime Game",
+  "sources": [
+   "https://www.youtube.com/watch?v=NmNK8yKDYRk",
+   "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic"
+  ]
+ },
+ "dek": "A waved-off buzzer-beater, five overtimes in which UConn took the lead and Syracuse answered, and a 127-117 Orange win that ended at 1:22 a.m.",
+ "date": "2009-03-12",
+ "tip": {
+  "text": "9:36 p.m. ET (the official box score lists a 9:30 p.m. start)",
+  "sources": [
+   "https://cuse.com/news/2009/3/13/UConnstory3.12.09",
+   "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2008-2009/game31.html"
+  ]
+ },
+ "venue": "Madison Square Garden",
+ "city": "New York, NY",
+ "attendance": {
+  "n": 19375,
+  "sources": [
+   "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2008-2009/game31.html",
+   "https://cuse.com/sports/2009/3/13/Connbox3.12.09.aspx",
+   "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+  ]
+ },
+ "event": "Big East tournament quarterfinal",
+ "tv": {
+  "network": "ESPN",
+  "announcers": [
+   "Sean McDonough",
+   "Bill Raftery",
+   "Jay Bilas"
+  ],
+  "sources": [
+   "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic",
+   "https://www.youtube.com/watch?v=_67y9y4qsUs"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "27-3",
+   "rank": "AP No. 3",
+   "seed": "No. 3 (Big East)"
+  },
+  "opp": {
+   "record": "24-8",
+   "rank": "AP No. 18",
+   "seed": "No. 6 (Big East)"
+  },
+  "sources": [
+   "https://cuse.com/news/2009/3/12/SHU3.11.09",
+   "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+  ]
+ },
+ "setup": [
+  {
+   "text": "It was the fourth and last quarterfinal of a Thursday at Madison Square Garden. Third-seeded UConn, 27-3 and No. 3 in the AP poll, was playing its first game of the tournament after a double bye. Sixth-seeded Syracuse, 24-8 and No. 18, had beaten Seton Hall 89-74 the night before.",
+   "sources": [
+    "https://cuse.com/news/2009/3/12/SHU3.11.09",
+    "https://cuse.com/news/2009/3/13/MBB_0313095304",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2008-2009/game31.html",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+    "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic"
+   ]
+  },
+  {
+   "text": "UConn had spent much of February at No. 1 in the AP poll, but it was without guard Jerome Dyson. He tore the lateral meniscus in his right knee during a 63-49 home win over Syracuse on Feb. 11 and missed the season's last 12 games. Jim Calhoun moved Kemba Walker into the starting lineup in his place.",
+   "sources": [
+    "https://web.archive.org/web/20090410102925/http://espn.go.com/ncb/recap?gameId=290470041",
+    "https://web.archive.org/web/20090410102924/http://espn.go.com/ncb/recap?gameId=290420041",
+    "https://uconnhuskies.com/sports/mens-basketball/roster/jerome-dyson/1862",
+    "https://web.archive.org/web/20090330080816/http://www.uconnhuskies.com/sports/m-baskbl/stats/2008-2009/teamstat.html",
+    "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic"
+   ]
+  },
+  {
+   "text": "The Huskies also had a Garden problem: they had lost their first Big East tournament game three years running. Senior Jeff Adrien later recalled that his class had never won a tournament game at the Garden.",
+   "sources": [
+    "https://web.archive.org/web/20090410093150/http://espn.go.com/ncb/recap?gameId=294000001",
+    "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "Syracuse's Eric Devendorf had 10 points by halftime and the Orange led 18-13 early, but UConn shot 15 of 29 in the first half and took a 37-34 lead into the break.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2008-2009/game31.html",
+    "site:plays/2009-31"
+   ]
+  },
+  {
+   "text": "Syracuse took over late. Arinze Onuaku's layup made it 64-57 with 3:56 left, and UConn answered with seven straight points, tying it on a Stanley Robinson follow layup with 2:25 to go. The Orange then made seven of eight free throws in the last two minutes; Kristof Ongenaet's with 27 seconds left made it 71-69, Syracuse's last lead until the sixth overtime.",
+   "sources": [
+    "site:plays/2009-31",
+    "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+   ]
+  },
+  {
+   "text": "The overtimes fell into a pattern: UConn took the lead in each of the first five, and Syracuse came back every time. Fouls emptied both benches. Syracuse lost Ongenaet, Onuaku and Rick Jackson by early in the fourth overtime and put 6-foot-7 freshman Kris Joseph, who had not played in regulation, at center, a position he had not played in college. Walk-on Justin Thomas replaced Devendorf when he fouled out in the fifth. UConn lost Robinson in the third overtime, Hasheem Thabeet in the fourth, Gavin Edwards in the fifth and A.J. Price in the sixth.",
+   "sources": [
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+    "https://cuse.com/news/2009/3/13/UConnstory3.12.09",
+    "https://web.archive.org/web/20170301072757/http://dailyorange.com/2009/03/six-in-the-city-syracuse-outlasts-uconn-in-6-overtime-thriller-at-madison-square-garden/",
+    "site:plays/2009-31"
+   ]
+  },
+  {
+   "text": "As Thursday turned into Friday, the Garden's game-operations crew played 'After Midnight,' 'All Night Long' and 'In the Midnight Hour,' and the scoreboard simply read period eight. Most of the sellout crowd of 19,375 was still there for the sixth overtime.",
+   "sources": [
+    "https://web.archive.org/web/20170301072757/http://dailyorange.com/2009/03/six-in-the-city-syracuse-outlasts-uconn-in-6-overtime-thriller-at-madison-square-garden/",
+    "https://cuse.com/news/2009/3/13/UConnstory3.12.09",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "2H",
+   "clock": "0:01.1",
+   "uconn": 71,
+   "opp": 71,
+   "text": "Craig Austrie's jumper misses. Kemba Walker, one of the smallest players on the floor, grabs the loose ball and lays it in. Tie game, 1.1 seconds left.",
+   "sources": [
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+    "https://cuse.com/news/2009/3/13/UConnstory3.12.09",
+    "https://web.archive.org/web/20170301072757/http://dailyorange.com/2009/03/six-in-the-city-syracuse-outlasts-uconn-in-6-overtime-thriller-at-madison-square-garden/",
+    "site:plays/2009-31"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:00",
+   "uconn": 71,
+   "opp": 71,
+   "text": "After a Syracuse timeout, Paul Harris runs the baseline and throws long. Gavin Edwards gets a hand on it and deflects it right to Eric Devendorf, who fires from about 28 feet as the backboard's red end-of-game lights come on. It drops. Devendorf leaps onto a courtside table and Syracuse celebrates, but officials John Cahill and Bob Donato study replay after replay for about five minutes and rule the ball was still on his fingertips at 0.0. Overtime.",
+   "sources": [
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+    "https://web.archive.org/web/20170301072757/http://dailyorange.com/2009/03/six-in-the-city-syracuse-outlasts-uconn-in-6-overtime-thriller-at-madison-square-garden/",
+    "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic",
+    "https://cuse.com/news/2009/3/13/UConnstory3.12.09"
+   ]
+  },
+  {
+   "period": "OT1",
+   "clock": "0:04",
+   "uconn": 81,
+   "opp": 81,
+   "text": "UConn led 80-76 late in the first overtime. Andy Rautins hits a 3, Stanley Robinson makes a free throw, and Jonny Flynn goes the length of the floor and dishes to Rick Jackson for a tying dunk. Walker's 3 at the horn is short.",
+   "sources": [
+    "https://cuse.com/news/2009/3/13/UConnstory3.12.09",
+    "https://web.archive.org/web/20170301072757/http://dailyorange.com/2009/03/six-in-the-city-syracuse-outlasts-uconn-in-6-overtime-thriller-at-madison-square-garden/",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+   ]
+  },
+  {
+   "period": "OT2",
+   "clock": "0:00",
+   "uconn": 87,
+   "opp": 87,
+   "text": "Tied at 87 at the end of the second overtime, Walker lets fly from just inside midcourt. It hits the back of the rim and bounces away.",
+   "sources": [
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+    "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic"
+   ]
+  },
+  {
+   "period": "OT3",
+   "clock": "0:21",
+   "uconn": 98,
+   "opp": 95,
+   "text": "UConn scored the first six points of the third overtime and still leads 98-95 after A.J. Price makes one of two free throws.",
+   "sources": [
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+    "site:plays/2009-31"
+   ]
+  },
+  {
+   "period": "OT3",
+   "clock": "0:11",
+   "uconn": 98,
+   "opp": 98,
+   "text": "Rautins comes around a Jackson screen, takes Flynn's pass on the wing and buries an off-balance 3. Price misses a 3 at the other end and Jeff Adrien can't convert the rebound: a fourth overtime, making it the longest game in Big East tournament history.",
+   "sources": [
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+    "https://web.archive.org/web/20170301072757/http://dailyorange.com/2009/03/six-in-the-city-syracuse-outlasts-uconn-in-6-overtime-thriller-at-madison-square-garden/"
+   ]
+  },
+  {
+   "period": "OT4",
+   "clock": "0:00",
+   "uconn": 104,
+   "opp": 104,
+   "text": "Price misses a drive in the final seconds. Paul Harris gets two chances at the rim at the other end and can't finish either. Still tied.",
+   "sources": [
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+    "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic"
+   ]
+  },
+  {
+   "period": "OT5",
+   "clock": "0:42",
+   "uconn": 110,
+   "opp": 108,
+   "text": "With Robinson and Thabeet already fouled out, UConn goes ahead on a jumper by reserve Scottie Haralson, his first field goal of the night.",
+   "sources": [
+    "https://cuse.com/news/2009/3/13/UConnstory3.12.09",
+    "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic",
+    "site:plays/2009-31"
+   ]
+  },
+  {
+   "period": "OT5",
+   "clock": "0:20",
+   "uconn": 110,
+   "opp": 110,
+   "text": "Flynn splits a ball screen, draws a foul from Haralson and makes both free throws.",
+   "sources": [
+    "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic",
+    "https://cuse.com/news/2009/3/13/UConnstory3.12.09",
+    "site:plays/2009-31"
+   ]
+  },
+  {
+   "period": "OT5",
+   "clock": "0:00",
+   "uconn": 110,
+   "opp": 110,
+   "text": "Price's long 3 bounces off the rim to Adrien, whose jumper at the horn is short. A sixth overtime.",
+   "sources": [
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+    "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic"
+   ]
+  },
+  {
+   "period": "OT6",
+   "clock": "4:50",
+   "uconn": 110,
+   "opp": 113,
+   "text": "Syracuse wins the tip and runs a set play: Rautins comes off a screen and hits a 3 about 10 seconds in. It is the Orange's first lead since regulation.",
+   "sources": [
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+    "https://cuse.com/news/2009/3/13/UConnstory3.12.09"
+   ]
+  },
+  {
+   "period": "OT6",
+   "clock": "0:00",
+   "uconn": 117,
+   "opp": 127,
+   "text": "Paul Harris scores 10 of Syracuse's 17 points in the period, and once Syracuse goes up 118-110, UConn gets no closer than six. The horn sounds at 1:22 a.m. Friday: Syracuse 127, UConn 117.",
+   "sources": [
+    "site:plays/2009-31",
+    "https://cuse.com/news/2009/3/13/UConnstory3.12.09",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "6",
+   "label": "overtimes, tied for the second-longest game in Division I history, one short of Cincinnati-Bradley's seven in 1981",
+   "sources": [
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+    "https://cuse.com/news/2009/3/13/UConnstory3.12.09"
+   ]
+  },
+  {
+   "value": "1:22 a.m.",
+   "label": "final horn, 3 hours and 46 minutes after the 9:36 p.m. tip",
+   "sources": [
+    "https://cuse.com/news/2009/3/13/UConnstory3.12.09",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+   ]
+  },
+  {
+   "value": "244",
+   "label": "combined points, a Big East tournament record; 102 came in the overtimes",
+   "sources": [
+    "https://cuse.com/news/2009/3/13/UConnstory3.12.09",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+   ]
+  },
+  {
+   "value": "67",
+   "label": "minutes played by Syracuse's Jonny Flynn, a school record, out of a possible 70",
+   "sources": [
+    "https://cuse.com/news/2009/3/13/MBB_0313095304",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+   ]
+  },
+  {
+   "value": "8",
+   "label": "players fouled out, four on each team",
+   "sources": [
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "We lost the game because we turned the ball over 27 times and couldn't make a foul shot.",
+   "who": "Jim Calhoun",
+   "role": "UConn head coach",
+   "when": "postgame",
+   "source": "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+  },
+  {
+   "text": "It would have been a lot better if they just counted Eric's shot and we could have gone home 2 hours ago.",
+   "who": "Jim Boeheim",
+   "role": "Syracuse head coach",
+   "when": "postgame",
+   "source": "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+  },
+  {
+   "text": "I could just see that the ball was still touching the fingertips of Devendorf as the 0.00 showed up on the clock.",
+   "who": "John Cahill",
+   "role": "referee (crew chief)",
+   "when": "years later (2014)",
+   "source": "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic"
+  },
+  {
+   "text": "I was real relieved when they waved it off. ... I thought I was going to be a dead man on campus.",
+   "who": "Gavin Edwards",
+   "role": "UConn forward who deflected the inbound pass",
+   "when": "years later (2014)",
+   "source": "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "Syracuse played again that Friday night and beat West Virginia 74-69 in overtime, then lost the final to Louisville 76-66 on Saturday. Flynn won the Gavitt Trophy as the tournament's most outstanding player.",
+   "sources": [
+    "https://cuse.com/news/2009/3/14/MBB_0314092342",
+    "https://cuse.com/news/2009/3/15/LOUISgame3.14.09"
+   ]
+  },
+  {
+   "text": "UConn went into the NCAA tournament as a No. 1 seed. Its 103-47 rout of Chattanooga in Philadelphia was its first postseason win in three years; the six-overtime loss had been its fifth straight postseason defeat.",
+   "sources": [
+    "https://web.archive.org/web/20090410093150/http://espn.go.com/ncb/recap?gameId=294000001"
+   ]
+  },
+  {
+   "text": "The Huskies won four NCAA games to reach the Final Four in Detroit, where Michigan State beat them 82-73 on April 4.",
+   "sources": [
+    "https://web.archive.org/web/20090413191118/http://espn.go.com/ncb/recap?gameId=294000031",
+    "https://web.archive.org/web/20090330080816/http://www.uconnhuskies.com/sports/m-baskbl/stats/2008-2009/teamstat.html"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "It was the longest game in Big East history and, at six overtimes, tied for the second-longest in NCAA history, behind Cincinnati's seven-overtime win over Bradley in 1981, played before the shot clock.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2008-2009/game31.html",
+    "https://cuse.com/sports/2009/3/13/Connbox3.12.09.aspx",
+    "https://cuse.com/news/2009/3/13/UConnstory3.12.09",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+    "https://cuse.com/news/2009/3/13/MBB_0313095304"
+   ]
+  },
+  {
+   "text": "Two years later Kemba Walker, whose putback forced the first overtime, scored 130 points in the 2011 Big East tournament, breaking the single-tournament record of 84 that Syracuse's Eric Devendorf had set in 2009.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf",
+    "https://web.archive.org/web/20111231015721/http://espn.go.com/ncb/recap?gameId=310700183"
+   ]
+  },
+  {
+   "text": "When UConn and Syracuse went to overtime again in the 2011 semifinal, Walker said he thought about six right away. Many fans at the Garden that night wore T-shirts commemorating the 127-117 marathon.",
+   "sources": [
+    "https://web.archive.org/web/20111231015721/http://espn.go.com/ncb/recap?gameId=310700183"
+   ]
+  },
+  {
+   "text": "Jim Boeheim later called it the best game he had ever been part of.",
+   "sources": [
+    "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "GvNLnD7mK9Y",
+   "title": "NCAA 2009 Syracuse-Connecticut",
+   "channel": "coachgaizkaeibar",
+   "kind": "full_game",
+   "start": 3040,
+   "why": "Already in the site's videos[] for this game. 2:19:48 ESPN broadcast; YouTube storyboard frames show the 2009 Big East Championship court at MSG, the score bug at 1.1 seconds, Syracuse celebrating and Devendorf in orange amid photographers at about 50:40-51:30 (the waved-off shot), replay frames after it, and at the end a Big East bracket graphic sending Syracuse on to West Virginia. start = just before the final regulation inbound."
+  },
+  {
+   "youtube": "OpDN4bKvyOo",
+   "title": "Syracuse / UConn - Devendorf's 3 at Buzzer (Big East Tourney)",
+   "channel": "rootzoo",
+   "kind": "highlights",
+   "start": null,
+   "why": "38-second clip of the waved-off end-of-regulation shot; uploaded at 12:43 a.m. ET on March 13, 2009, while the game was still being played (description: 'Was Syracuse robbed?')."
+  },
+  {
+   "youtube": "9SqpGFYk3jM",
+   "title": "End of overtime #3 in the 2009 Syracuse-UConn Big East game",
+   "channel": "rootzoo",
+   "kind": "highlights",
+   "start": null,
+   "why": "Already in the site's videos[]. Description: Rautins' 3 sends it to a fourth overtime; uploaded the night of the game."
+  },
+  {
+   "youtube": "YBZs56fbQjI",
+   "title": "Syracuse Beats No. 3 Connecticut in 6 OTs",
+   "channel": "Associated Press",
+   "kind": "highlights",
+   "start": null,
+   "why": "AP's video report on this game, posted March 13, 2009 (description: No. 18 Syracuse beat No. 3 Connecticut, 127-117, in six overtimes)."
+  },
+  {
+   "youtube": "3koPRFXzi3o",
+   "title": "Syracuse's 6OT Win over Connecticut 2009 (Sportscenter Highlights)",
+   "channel": "across32",
+   "kind": "highlights",
+   "start": null,
+   "why": "Already in the site's videos[]. SportsCenter highlights of this game, uploaded March 14, 2009."
+  },
+  {
+   "youtube": "3J7rtEgtcyY",
+   "title": "2009 Syracuse v.s UCONN(Big East Tournament)",
+   "channel": "PittsburghPanthers23",
+   "kind": "highlights",
+   "start": null,
+   "why": "Already in the site's videos[]. Uploaded March 13, 2009; description: 'It took 6 oT's for Syracuse to win in the tournament.'"
+  },
+  {
+   "youtube": "fJdXE249xVA",
+   "title": "Re-live Syracuse and UConn's epic 6-OT game in 2009 | ESPN",
+   "channel": "ESPN",
+   "kind": "highlights",
+   "start": null,
+   "why": "ESPN's own 56-second look back at this game (2017)."
+  },
+  {
+   "youtube": "NmNK8yKDYRk",
+   "title": "The Six-Overtime Game (2009) | Great Moments in Syracuse University Sports",
+   "channel": "Syracuse University",
+   "kind": "documentary",
+   "start": null,
+   "why": "Syracuse University's 'Great Moments' segment on this game (2014)."
+  },
+  {
+   "youtube": "-DCU-Xj3cP4",
+   "title": "Syracuse-Connecticut 6 OT game: Inside a college basketball classic",
+   "channel": "Syracuse Orange sports on syracuse.com",
+   "kind": "documentary",
+   "start": null,
+   "why": "syracuse.com's 2019 retrospective on this game."
+  },
+  {
+   "youtube": "_67y9y4qsUs",
+   "title": "Sean McDonough & Eric Devendorf: 6OT Syracuse/UCONN Game is GREATEST College Basketball Game EVER",
+   "channel": "The Field Of 68: After Dark",
+   "kind": "documentary",
+   "start": null,
+   "why": "ESPN play-by-play man Sean McDonough, who called the game, and Eric Devendorf trade memories of it (2023)."
+  }
+ ],
+ "photos": [],
+ "newspaper": [],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "attendance",
+   "ours": "null (site has no attendance for 2009-31)",
+   "source_says": "19,375, a sellout",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2008-2009/game31.html",
+    "https://cuse.com/sports/2009/3/13/Connbox3.12.09.aspx",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+   ]
+  },
+  {
+   "field": "tv",
+   "ours": "null (site has no TV for 2009-31)",
+   "source_says": "ESPN, with Sean McDonough, Bill Raftery and Jay Bilas",
+   "sources": [
+    "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic"
+   ]
+  },
+  {
+   "field": "sequence 2H: time left after Walker's tying putback",
+   "ours": "site play-by-play logs the layup at 0:04 and a Syracuse timeout at 0:02",
+   "source_says": "1.1 seconds left (AP, Syracuse athletics, Daily Orange). No official play-by-play exists online for this game (UConn's game31.html is box-only); draft uses 1.1 seconds.",
+   "sources": [
+    "site:plays/2009-31",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+    "https://cuse.com/news/2009/3/13/UConnstory3.12.09",
+    "https://web.archive.org/web/20170301072757/http://dailyorange.com/2009/03/six-in-the-city-syracuse-outlasts-uconn-in-6-overtime-thriller-at-madison-square-garden/",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2008-2009/game31.html"
+   ]
+  },
+  {
+   "field": "sequence OT1: Rick Jackson's tying dunk",
+   "ours": "0:08",
+   "source_says": "'with four seconds left' (Syracuse athletics, Daily Orange); the 2014 Fox oral history says five seconds. Draft uses 0:04. Walker's last shot, logged at 0:05, came 'at the buzzer' per AP.",
+   "sources": [
+    "site:plays/2009-31",
+    "https://cuse.com/news/2009/3/13/UConnstory3.12.09",
+    "https://web.archive.org/web/20170301072757/http://dailyorange.com/2009/03/six-in-the-city-syracuse-outlasts-uconn-in-6-overtime-thriller-at-madison-square-garden/",
+    "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+   ]
+  },
+  {
+   "field": "sequence OT2: UConn's last shot",
+   "ours": "Walker missed 3-pointer logged at 0:07",
+   "source_says": "Walker's shot came from just inside midcourt at the end of the second overtime (AP; Fox oral history).",
+   "sources": [
+    "site:plays/2009-31",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+    "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic"
+   ]
+  },
+  {
+   "field": "sequence OT3: Rautins' tying 3",
+   "ours": "0:19 (Price's missed 3 logged at 0:11)",
+   "source_says": "'with 11 seconds left' (AP; Daily Orange: 11 seconds remaining). Draft uses 0:11.",
+   "sources": [
+    "site:plays/2009-31",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+    "https://web.archive.org/web/20170301072757/http://dailyorange.com/2009/03/six-in-the-city-syracuse-outlasts-uconn-in-6-overtime-thriller-at-madison-square-garden/"
+   ]
+  },
+  {
+   "field": "OT3: Jeff Adrien's follow basket for 97-91",
+   "ours": "tip shot at 1:58",
+   "source_says": "AP: 'follow dunk with 2:08 left' (not used in draft)",
+   "sources": [
+    "site:plays/2009-31",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+   ]
+  },
+  {
+   "field": "OT4: Price's last miss",
+   "ours": "missed jumper at 0:20",
+   "source_says": "AP: 'Price missed a drive with 10 seconds left'",
+   "sources": [
+    "site:plays/2009-31",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+   ]
+  },
+  {
+   "field": "OT5: Price's long 3",
+   "ours": "missed 3 at 0:10",
+   "source_says": "AP: 'with 6 seconds left'",
+   "sources": [
+    "site:plays/2009-31",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+   ]
+  },
+  {
+   "field": "sequence OT6: Rautins' opening 3",
+   "ours": "4:56",
+   "source_says": "AP: '10 seconds into the sixth overtime' (4:50). Draft uses 4:50.",
+   "sources": [
+    "site:plays/2009-31",
+    "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041"
+   ]
+  },
+  {
+   "field": "box score minutes",
+   "ours": "Onuaku 37, Robinson 47, Price 61, Austrie 46",
+   "source_says": "Official box (UConn and Syracuse): Onuaku 39, Robinson 48, Price 62, Austrie 45. All other box figures match.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2008-2009/game31.html",
+    "https://cuse.com/sports/2009/3/13/Connbox3.12.09.aspx"
+   ]
+  },
+  {
+   "field": "Flynn assists / Rautins minutes",
+   "ours": "Flynn 11 assists, Rautins 50 minutes (match the official box)",
+   "source_says": "Daily Orange: Flynn 'seven assists', Rautins '49 minutes'",
+   "sources": [
+    "https://web.archive.org/web/20170301072757/http://dailyorange.com/2009/03/six-in-the-city-syracuse-outlasts-uconn-in-6-overtime-thriller-at-madison-square-garden/",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2008-2009/game31.html"
+   ]
+  }
+ ],
+ "unsure": [
+  "No official play-by-play for this game was found: UConn's official 2008-09 file (uconn_ftp .../2008-2009/game31.html) and Syracuse's box page carry box scores only. Where the site's ESPN play-by-play clock disagrees with the AP story, Syracuse athletics and the Daily Orange, the sequence uses the published contemporaneous times (see conflicts).",
+  "AP says Devendorf jumped onto the 'courtside press table'; the Daily Orange and the Fox oral history say the scorer's table. Draft says 'a courtside table.'",
+  "Distance of Rautins' tying 3 in the third overtime: the Daily Orange says both 'about 22 feet out on the wing' and 'well beyond the NBA arc'; Leo Rautins later called it 'like a 25-footer.' No distance used.",
+  "AP says Paul Harris 'had two shots blocked' at the end of the fourth overtime; the site play-by-play logs one block (Gavin Edwards) and the Fox oral history says Harris had two chances at the rim and couldn't finish. Draft uses the latter.",
+  "Previous Big East tournament combined-points record: 189 per Syracuse's 2009 recap (Villanova 96, Pittsburgh 93 in 1998) vs. 194 per the 2014 Fox oral history. Not used.",
+  "Devendorf recalled (Fox, 2014) fouling out in the fourth overtime; the site play-by-play and Syracuse's recap put his fifth foul in the fifth. Draft follows the play-by-play.",
+  "Claims about Onuaku's free-throw percentage that season (Fox: 30 percent; orangehoops.org: 16 percent in Big East play) were not verified and are not used.",
+  "No Wikimedia Commons photo of this game was found, and archive.org's Daily Campus scans end in 1987, so photos and newspaper are empty.",
+  "Two more full-game uploads exist (vrqFggZjDZA, NewJoel, 3:03:22; p9RgGPrCDyw, iDoItBIGson, 3:05:01) and a clip billed as Bill Raftery's reaction to the waved-off shot (Gzs_OWgAZi8). Not viewed and not added."
+ ],
+ "sources": [
+  {
+   "url": "site:plays/2009-31",
+   "what": "Site play-by-play (ESPN data): scores and play order; clock times used only where they agree with contemporaneous accounts"
+  },
+  {
+   "url": "https://web.archive.org/web/20090314174328/http://espn.go.com/ncb/recap?gameId=290710041",
+   "what": "AP game story on ESPN.com (archived March 14, 2009): rankings, 1.1 seconds, Edwards deflection, 28-foot shot, Cahill/Donato review, overtime-by-overtime endings, 1:22 a.m., 3:46, 244/102 points, eight foul-outs, Calhoun/Boeheim/Flynn quotes, 19,375 sellout"
+  },
+  {
+   "url": "https://cuse.com/news/2009/3/13/UConnstory3.12.09",
+   "what": "Syracuse athletics recap: 9:36 p.m. start and 1:22 a.m. finish, 1.1 seconds, overtime-by-overtime summary, Kris Joseph at center, Justin Thomas, Haralson's first field goal, records"
+  },
+  {
+   "url": "https://cuse.com/sports/2009/3/13/Connbox3.12.09.aspx",
+   "what": "Syracuse athletics official box: officials, attendance 19,375, 'Quarterfinal Game 4', longest game in Big East history, tied for second longest in NCAA history"
+  },
+  {
+   "url": "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2008-2009/game31.html",
+   "what": "UConn official box score (StatCrew; box only, no play-by-play): 9:30 p.m. listed start, first-half box (Devendorf 10, UConn 15-29), attendance, longest Big East game"
+  },
+  {
+   "url": "https://cuse.com/news/2009/3/12/SHU3.11.09",
+   "what": "Syracuse recap of March 11, 2009 win over Seton Hall, 89-74: Syracuse 24-8 and seeded sixth; 'third-seeded Connecticut (27-3)' next"
+  },
+  {
+   "url": "https://cuse.com/news/2009/3/13/MBB_0313095304",
+   "what": "Syracuse semifinal preview, March 13, 2009: 'Thursday's last quarterfinal', Flynn's school-record 67 minutes"
+  },
+  {
+   "url": "https://cuse.com/news/2009/3/14/MBB_0314092342",
+   "what": "Syracuse recap: 74-69 overtime win over West Virginia in the semifinal"
+  },
+  {
+   "url": "https://cuse.com/news/2009/3/15/LOUISgame3.14.09",
+   "what": "Syracuse recap: Louisville 76, Syracuse 66 in the final; Flynn wins the Gavitt Trophy"
+  },
+  {
+   "url": "https://web.archive.org/web/20170301072757/http://dailyorange.com/2009/03/six-in-the-city-syracuse-outlasts-uconn-in-6-overtime-thriller-at-madison-square-garden/",
+   "what": "Daily Orange (Syracuse student paper), March 2009, archived: songs played after midnight, 'period eight', five-minute review, fingertip replay, Rautins off a Jackson screen, 11 seconds, Joseph at center, 17-7 sixth overtime"
+  },
+  {
+   "url": "https://web.archive.org/web/20230121030106/https://www.foxsports.com/stories/college-basketball/the-endless-game-oral-history-of-the-syracuse-connecticut-6-ot-epic",
+   "what": "Aaron Torres, 'The Endless Game: Oral history of the Syracuse-Connecticut 6-OT epic,' FOX Sports, 2014 (archived): Cahill and Edwards quotes, Raftery naming the ESPN crew, Haralson and Flynn in the fifth overtime, 64-57 with four minutes left, seven of eight free throws, Walker into the lineup after Dyson's injury, Boeheim's 'best game'"
+  },
+  {
+   "url": "https://web.archive.org/web/20090410102925/http://espn.go.com/ncb/recap?gameId=290470041",
+   "what": "AP, Feb. 16, 2009: No. 4 Pittsburgh beats No. 1 Connecticut; UConn had started its third week at No. 1"
+  },
+  {
+   "url": "https://web.archive.org/web/20090410102924/http://espn.go.com/ncb/recap?gameId=290420041",
+   "what": "AP, Feb. 11, 2009: UConn 63, Syracuse 49; Dyson hurt his knee early and didn't return"
+  },
+  {
+   "url": "https://uconnhuskies.com/sports/mens-basketball/roster/jerome-dyson/1862",
+   "what": "UConn official bio of Jerome Dyson: torn lateral meniscus, right knee, in the Feb. 11 win over Syracuse; missed the final 12 games"
+  },
+  {
+   "url": "https://web.archive.org/web/20090410093150/http://espn.go.com/ncb/recap?gameId=294000001",
+   "what": "AP, March 19, 2009: top-seeded UConn 103, Chattanooga 47; first postseason win in three years; three straight first-game Big East tournament exits; six-overtime game was the fifth straight postseason loss"
+  },
+  {
+   "url": "https://web.archive.org/web/20090413191118/http://espn.go.com/ncb/recap?gameId=294000031",
+   "what": "AP, April 4, 2009: Michigan State 82, Connecticut 73 in the Final Four in Detroit"
+  },
+  {
+   "url": "https://web.archive.org/web/20090330080816/http://www.uconnhuskies.com/sports/m-baskbl/stats/2008-2009/teamstat.html",
+   "what": "UConn official 2008-09 results page (archived): Connecticut 63, Syracuse 49 at Gampel Pavilion on 2/11/09; NCAA wins over Chattanooga, Texas A&M, Purdue and Missouri"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf",
+   "what": "UConn 2011 NCAA championship media notes: Walker's 130 Big East tournament points broke the record of 84 set by Eric Devendorf in 2009"
+  },
+  {
+   "url": "https://web.archive.org/web/20111231015721/http://espn.go.com/ncb/recap?gameId=310700183",
+   "what": "AP, March 11, 2011: UConn-Syracuse semifinal went to overtime; Walker 'thought about six'; fans wearing T-shirts of the 2009 game; Devendorf's 84-point record"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=NmNK8yKDYRk",
+   "what": "Syracuse University video titled 'The Six-Overtime Game (2009)' (nickname usage)"
+  }
+ ],
+ "_verified": {
+  "checked": 158,
+  "ok": 155,
+  "edits": 5
+ }
+}

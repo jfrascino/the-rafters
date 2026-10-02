@@ -1,0 +1,513 @@
+{
+ "slug": "title-2011",
+ "gameId": "2011-41",
+ "title": "UConn Smothers Butler for Title No. 3",
+ "nickname": null,
+ "dek": "Butler shot 12 for 64, the worst in title-game history, as UConn ground out a 53-41 win and a third national championship to end an 11-game postseason run.",
+ "date": "2011-04-04",
+ "tip": {
+  "text": "9:23 p.m. ET (8:23 p.m. local)",
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf",
+   "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html"
+  ]
+ },
+ "venue": "Reliant Stadium",
+ "city": "Houston, TX",
+ "attendance": {
+  "n": 70376,
+  "sources": [
+   "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html"
+  ]
+ },
+ "event": "NCAA championship game",
+ "tv": {
+  "network": "CBS",
+  "announcers": [
+   "Jim Nantz",
+   "Clark Kellogg",
+   "Steve Kerr"
+  ],
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf",
+   "https://www.sportsmediawatch.com/2011/01/most-of-tnt-nba-crew-to-handle-ncaa/",
+   "https://web.archive.org/web/20131217095737/http://www.nytimes.com/2011/04/06/sports/ncaabasketball/06hoops.html"
+  ]
+ },
+ "entering": {
+  "uconn": {
+   "record": "31-9",
+   "rank": "AP No. 9 (final poll)",
+   "seed": "No. 3 (West)"
+  },
+  "opp": {
+   "record": "28-9",
+   "rank": "unranked (final AP poll)",
+   "seed": "No. 8 (Southeast)"
+  },
+  "sources": [
+   "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf",
+   "https://web.archive.org/web/20111225010818/http://espn.go.com/ncb/recap?gameId=310922086",
+   "https://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2011/types/3/weeks/1/rankings/1"
+  ]
+ },
+ "setup": [
+  {
+   "text": "UConn's season began with modest expectations. A year earlier the Huskies had lost in the second round of the NIT, and they were picked to finish 10th in the Big East. They started 10-0, winning the Maui Invitational, then went 9-9 in the league and lost four of their last five regular-season games.",
+   "sources": [
+    "https://web.archive.org/web/20110410003007/http://www.nytimes.com/2011/04/05/sports/ncaabasketball/05ncaa.html",
+    "https://www.si.com/more-sports/2011/03/10/kemba-walkerbuzzerbeater",
+    "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf",
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+   ]
+  },
+  {
+   "text": "Then they stopped losing: five wins in five days to take the Big East tournament, four more in the West Region as a No. 3 seed against Bucknell, Cincinnati, San Diego State and Arizona, and a 56-55 national semifinal win over Kentucky. Kemba Walker, a consensus first-team All-American, came in averaging 23.7 points.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf",
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+   ]
+  },
+  {
+   "text": "Butler, the No. 8 seed out of the Southeast, was in its second straight title game, the lowest-seeded finalist since Villanova in 1985. A year earlier Gordon Hayward's half-court heave had barely missed in a 61-59 loss to Duke; Hayward had since left for the NBA, and the Bulldogs had won 14 in a row.",
+   "sources": [
+    "https://web.archive.org/web/20111225010818/http://espn.go.com/ncb/recap?gameId=310922086",
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+   ]
+  },
+  {
+   "text": "Jim Calhoun, 68, was one win from joining John Wooden, Adolph Rupp, Mike Krzyzewski and Bob Knight as the only coaches with three national titles or more. UConn and Butler had never played each other.",
+   "sources": [
+    "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf",
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+   ]
+  }
+ ],
+ "game": [
+  {
+   "text": "The first half was a grind. Walker missed his first five shots. UConn led 13-8 after his three-point play with 12:34 left, then scored six points the rest of the half and went 0 for 5 from 3-point range. Shelvin Mack's 3 with a second left sent Butler to the locker room up 22-19.",
+   "sources": [
+    "https://web.archive.org/web/20110410003007/http://www.nytimes.com/2011/04/05/sports/ncaabasketball/05ncaa.html",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html",
+    "site:plays/2011-41"
+   ]
+  },
+  {
+   "text": "Calhoun said his halftime adjustment came down to outwilling and outworking Butler. UConn kept pounding the ball inside and finished with a 26-2 edge in points in the paint.",
+   "sources": [
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html"
+   ]
+  },
+  {
+   "text": "Butler opened the second half 2 for 25 from the field. For more than 13 minutes it made one field goal, and a 25-19 lead became a 41-28 deficit. The Bulldogs missed their first 21 shots in the paint and made three two-point baskets all night.",
+   "sources": [
+    "https://web.archive.org/web/20110410003007/http://www.nytimes.com/2011/04/05/sports/ncaabasketball/05ncaa.html",
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html"
+   ]
+  },
+  {
+   "text": "Freshman Jeremy Lamb scored all 12 of his points after halftime. Alex Oriakhi had 11 points, 11 rebounds and four blocks, Roscoe Smith blocked four more, and Butler's stars, Matt Howard and Mack, combined to shoot 5 for 28.",
+   "sources": [
+    "https://web.archive.org/web/20110410003007/http://www.nytimes.com/2011/04/05/sports/ncaabasketball/05ncaa.html",
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html"
+   ]
+  }
+ ],
+ "sequence": [
+  {
+   "period": "1H",
+   "clock": "0:01",
+   "uconn": 19,
+   "opp": 22,
+   "text": "Shelvin Mack hits a 3 with a second left in the half. Butler leads 22-19.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html",
+    "site:plays/2011-41",
+    "https://web.archive.org/web/20110410003007/http://www.nytimes.com/2011/04/05/sports/ncaabasketball/05ncaa.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "19:40",
+   "uconn": 19,
+   "opp": 25,
+   "text": "Chase Stigall rebounds his own miss and hits a 3 twenty seconds into the second half. Butler leads by six, its biggest lead of the night.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html",
+    "site:plays/2011-41"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "17:47",
+   "uconn": 26,
+   "opp": 25,
+   "text": "Jeremy Lamb buries a 3 off Tyler Olander's pass. UConn leads and never trails again.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "13:40",
+   "uconn": 31,
+   "opp": 26,
+   "text": "Lamb picks off Mack and runs out for a dunk. Butler calls timeout.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html",
+    "https://web.archive.org/web/20110410003007/http://www.nytimes.com/2011/04/05/sports/ncaabasketball/05ncaa.html"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "12:35",
+   "uconn": 33,
+   "opp": 28,
+   "text": "Shawn Vanzant's jumper, from Stigall, is Butler's only field goal between 19:40 and 6:13.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html",
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "10:16",
+   "uconn": 39,
+   "opp": 28,
+   "text": "Walker's twisting, scooping layup off Lamb's pass makes it an 11-point game. Butler calls another timeout.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html",
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "6:13",
+   "uconn": 41,
+   "opp": 30,
+   "text": "Andrew Smith's putback is Butler's first basket in the paint all night, after 21 misses there.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html",
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "5:49",
+   "uconn": 44,
+   "opp": 30,
+   "text": "Alex Oriakhi dunks Shabazz Napier's pass and makes the free throw. UConn leads by 14, its largest margin.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html",
+    "site:plays/2011-41"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:30",
+   "uconn": 53,
+   "opp": 41,
+   "text": "Walker makes two free throws, the game's last points.",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html",
+    "site:plays/2011-41"
+   ]
+  },
+  {
+   "period": "2H",
+   "clock": "0:00",
+   "uconn": 53,
+   "opp": 41,
+   "text": "Before the clock even runs out, Calhoun is pumping his fists and hugging an assistant while the Huskies head for the sideline and the confetti.",
+   "sources": [
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041",
+    "site:plays/2011-41"
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "18.8%",
+   "label": "Butler's shooting (12 of 64), the worst ever in a national title game",
+   "sources": [
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041",
+    "https://web.archive.org/web/20131217095737/http://www.nytimes.com/2011/04/06/sports/ncaabasketball/06hoops.html",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html"
+   ]
+  },
+  {
+   "value": "3 of 31",
+   "label": "Butler inside the arc; its three two-point field goals were the fewest in a title game",
+   "sources": [
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041",
+    "https://web.archive.org/web/20110410003007/http://www.nytimes.com/2011/04/05/sports/ncaabasketball/05ncaa.html",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html"
+   ]
+  },
+  {
+   "value": "41",
+   "label": "Butler points, the fewest by a title-game team since 1949",
+   "sources": [
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041",
+    "https://web.archive.org/web/20110410003007/http://www.nytimes.com/2011/04/05/sports/ncaabasketball/05ncaa.html"
+   ]
+  },
+  {
+   "value": "26-2",
+   "label": "UConn's advantage in points in the paint",
+   "sources": [
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html"
+   ]
+  },
+  {
+   "value": "68",
+   "label": "Jim Calhoun's age, making him the oldest coach to win a national title",
+   "sources": [
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041",
+    "https://web.archive.org/web/20110410003007/http://www.nytimes.com/2011/04/05/sports/ncaabasketball/05ncaa.html"
+   ]
+  },
+  {
+   "value": "11",
+   "label": "straight wins to end the season: five in five days at the Big East tournament, six in the NCAA tournament",
+   "sources": [
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041",
+    "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf"
+   ]
+  }
+ ],
+ "quotes": [
+  {
+   "text": "You see the tears on my face. I have so much joy in me, it's unreal. It's surreal. I'm so happy right now.",
+   "who": "Kemba Walker",
+   "role": "UConn guard, Final Four Most Outstanding Player",
+   "when": "postgame",
+   "source": "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+  },
+  {
+   "text": "...from a purist standpoint, if you really like defense, take a clip of this game.",
+   "who": "Jim Calhoun",
+   "role": "UConn head coach",
+   "when": "postgame",
+   "source": "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+  },
+  {
+   "text": "Without question, 41 points and 12 of 64 is not good enough to win any game, let alone the national championship.",
+   "who": "Brad Stevens",
+   "role": "Butler head coach",
+   "when": "postgame",
+   "source": "https://web.archive.org/web/20110820044243/http://www.uconnhuskies.com/sports/m-baskbl/recaps/040411aaa.html"
+  },
+  {
+   "text": "From last season and the loss to Virginia Tech, Coach, he gave me the keys. And from that point on, I just drove.",
+   "who": "Kemba Walker",
+   "role": "UConn guard",
+   "when": "postgame",
+   "source": "https://web.archive.org/web/20110410003007/http://www.nytimes.com/2011/04/05/sports/ncaabasketball/05ncaa.html"
+  }
+ ],
+ "aftermath": [
+  {
+   "text": "Walker, who finished with 16 points and nine rebounds, was named the Final Four's Most Outstanding Player.",
+   "sources": [
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html"
+   ]
+  },
+  {
+   "text": "Counting three wins at the Maui Invitational, UConn went 14-0 in tournament games and finished 32-9.",
+   "sources": [
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+   ]
+  },
+  {
+   "text": "Butler became the fourth team to lose back-to-back national championship games.",
+   "sources": [
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+   ]
+  },
+  {
+   "text": "Calhoun still had a three-game suspension to serve at the start of the next Big East season, part of NCAA sanctions over recruiting violations.",
+   "sources": [
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041",
+    "https://web.archive.org/web/20110410003007/http://www.nytimes.com/2011/04/05/sports/ncaabasketball/05ncaa.html"
+   ]
+  }
+ ],
+ "legacy": [
+  {
+   "text": "Butler's 18.8 percent broke a title-game record that had stood since 1941, and its 41 points were 10 fewer than any finalist had scored in the shot-clock era.",
+   "sources": [
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+   ]
+  },
+  {
+   "text": "At 68, Calhoun became the oldest coach to win the national championship and the fifth to win at least three. He said his father had taught him that you are known by the company you keep.",
+   "sources": [
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+   ]
+  },
+  {
+   "text": "It was UConn's third national championship, after 1999 and 2004, won in the program's fourth trip to the Final Four.",
+   "sources": [
+    "https://web.archive.org/web/20110820044243/http://www.uconnhuskies.com/sports/m-baskbl/recaps/040411aaa.html",
+    "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "youtube": "HDEaoS-rTdw",
+   "title": "UConn vs. Butler: 2011 NCAA men's national championship | FULL REPLAY",
+   "channel": "March Madness",
+   "kind": "full_game",
+   "start": 4230,
+   "why": "Already in the site's videos[]. Official NCAA March Madness channel full replay of this game. YouTube storyboard frames show Walker at the line with 30.0 seconds left at about 1:10:30, the bug 'Butler 41, UConn 53, Nat'l Champ, 2nd' with 22.0 seconds left at about 1:11:00, and the 'Final' graphic with confetti at about 1:11:40. start = the last 30 seconds (Walker's final free throws)."
+  },
+  {
+   "youtube": "Q9ylMSFmWQo",
+   "title": "UConn Wins Third National Title",
+   "channel": "Associated Press",
+   "kind": "highlights",
+   "start": null,
+   "why": "AP video report on this game, posted the night of April 4, 2011 (description: 53-41 victory over Butler, third title)."
+  },
+  {
+   "youtube": "PUbTkNrjgZM",
+   "title": "Uconn - Butler. Last 30 sec of championship game 2011",
+   "channel": "Yuval Klein",
+   "kind": "final_play",
+   "start": null,
+   "why": "The final 30 seconds of this game, uploaded April 5, 2011."
+  },
+  {
+   "youtube": "VmTWEDngH8A",
+   "title": "Kemba Walker: 2011 March Madness highlights for UConn",
+   "channel": "March Madness",
+   "kind": "highlights",
+   "start": 910,
+   "why": "Official NCAA channel highlights of Walker's 2011 NCAA tournament. Storyboard frames show the Kentucky semifinal's final score at about 15:00, then a Final Four bracket graphic and the Butler title game from about 15:10 to the end."
+  },
+  {
+   "youtube": "ZFnG_nHkKvU",
+   "title": "UConn vs Butler 2011 National Championship Game Intro",
+   "channel": "Rick R",
+   "kind": "highlights",
+   "start": null,
+   "why": "Already in the site's videos[]. Pregame introductions and starting lineups for this game (uploader description, which also mentions UConn cutting down the nets)."
+  }
+ ],
+ "photos": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/2011_NCAA_Basketball_Championship_Game_tip_off.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2011_NCAA_Basketball_Championship_Game_tip_off.jpg",
+   "credit": "texan photography (Flickr), via Wikimedia Commons",
+   "license": "CC BY-SA 2.0",
+   "depicts": "The opening tip: UConn's Alex Oriakhi (No. 34, white) and Butler's Andrew Smith (No. 44, dark) leap for the ball over the NCAA logo at center court, with an official at left and Butler's bench behind them. The Commons description says Brad Stevens watches in the background.",
+   "verified": "Commons description ('Butler's Andrew Smith and Connecticut's Alex Oriakhi battle for the opening tip at the 2011 NCAA Championship game on April 4, 2011') and EXIF date 2011-04-04; the image shows UConn No. 34 and Butler No. 44 at an NCAA-branded court, and the two schools met only this once (UConn's notes: they had never played). Oriakhi wore No. 34 and Smith No. 44 per the official box."
+  }
+ ],
+ "newspaper": [],
+ "box": null,
+ "conflicts": [
+  {
+   "field": "play-by-play clock times",
+   "ours": "site play-by-play (ESPN): Olander's opening layup 19:52; Lamb 3 17:49; Lamb dunk 13:35; Vanzant jumper 12:32; Walker layup 10:15; Vanzant 3 4:39; Mack 3s 2:07 and 1:43 (19 of 53 scoring plays differ by 1-5 seconds)",
+   "source_says": "UConn's official play-by-play: 19:49; 17:47; 13:40; 12:35; 10:16; 4:37; 2:05 and 1:41. The sequence uses the official times. AP's '10:15' for Walker's layup matches ESPN.",
+   "sources": [
+    "site:plays/2011-41",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html",
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+   ]
+  },
+  {
+   "field": "Andrew Smith's first-half basket",
+   "ours": "site play-by-play: 'Andrew Smith made Layup' at 10:18 of the first half",
+   "source_says": "Official play-by-play: 'GOOD! JUMPER by SMITH, Andrew' at 10:20; the official box credits Butler with 2 points in the paint for the whole game (Smith's 6:13 putback), consistent with ESPN Stats & Info's note that Butler missed its first 21 shots in the paint.",
+   "sources": [
+    "site:plays/2011-41",
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html",
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+   ]
+  },
+  {
+   "field": "length of Butler's second-half drought",
+   "ours": "official and site play-by-play: Stigall's 3 at 19:40 to Smith's layup at 6:13 = 13:27, with one field goal (12:35) in between",
+   "source_says": "AP: '13 minutes, 26 seconds in the second half making only one field goal.' Draft says 'more than 13 minutes.'",
+   "sources": [
+    "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html",
+    "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041"
+   ]
+  }
+ ],
+ "unsure": [
+  "UConn's 10 blocks: Wikipedia calls it a title-game record, while ESPN Stats & Info (on the AP recap page) said it tied the record. Not used as a record.",
+  "The NYT game story (April 5, 2011) contains errors: it calls Monday's game 'Wednesday night', gives Butler's 2010 final as 71-69 (AP: 61-59) and gives 6 of 37 as 15.2 percent (it is 16.2). Only NYT facts that check out against the official box and play-by-play are used.",
+  "UConn's archived recap page carries bullet notes that are wrong for this game ('was defeated for the first time in those games', '10-game winning streak ended'); not used.",
+  "Commons file 'UConn's Joe D'Ambrosio at 2011 Final Four.jpg' (CC BY-SA 3.0, Cheryl Rice) shows UConn's radio voice courtside at Reliant Stadium; its EXIF time (2011-04-05 00:24, camera clock) suggests the title-game night, but the moment can't be confirmed. Not added.",
+  "Commons file 'UConn2011Trophies.jpg' (CC0) shows the 2011 Big East and NCAA championship trophies, photographed April 14, 2011. Not a game photo; not added.",
+  "The site's videos[] for this game include moyIYzV24XI, CBS's 'One Shining Moment' montage of the whole 2011 tournament, not specific to this game. Not included; consider dropping it from this moment.",
+  "UConn's pregame notes said playing a 41st game would set a 'modern day record'; not independently verified, not used.",
+  "Tracy Wolfson was announced in January 2011 as part of CBS's Final Four team; not confirmed for this broadcast, so omitted from announcers.",
+  "Butler's 'unranked' entering status comes from ESPN's archive of the final 2010-11 AP poll (Butler not among the 25)."
+ ],
+ "sources": [
+  {
+   "url": "http://uconn_ftp.sidearmsports.com/custompages/sports/m-baskbl/stats/2010-2011/mbb41.html",
+   "what": "UConn official box score and play-by-play (StatCrew): 8:23 p.m. local tip, attendance 70,376, officials, 12-64 and 9-33 Butler shooting, 26-2 paint points, largest leads, every second-half time and score"
+  },
+  {
+   "url": "site:plays/2011-41",
+   "what": "Site play-by-play (ESPN data); clock times differ slightly from the official (see conflicts)"
+  },
+  {
+   "url": "https://web.archive.org/web/20111027182351/http://espn.go.com/ncb/recap?gameId=310940041",
+   "what": "AP game story on ESPN.com with ESPN Stats & Info notes (archived): 18.8 percent, record since 1941, 3 two-point field goals, 41 points fewest since 1949, 26-2 in the paint, 13:26 drought, 25-19 to 41-28, Walker MOP, Calhoun 68 and fifth with three titles, 14-0 in tournaments, 11th straight win, Butler's consecutive title-game losses, quotes"
+  },
+  {
+   "url": "https://web.archive.org/web/20110820044243/http://www.uconnhuskies.com/sports/m-baskbl/recaps/040411aaa.html",
+   "what": "AP game story as posted on UConn's site (archived), includes Brad Stevens' '41 points and 12 of 64' quote; third title after 1999 and 2004"
+  },
+  {
+   "url": "https://web.archive.org/web/20110410003007/http://www.nytimes.com/2011/04/05/sports/ncaabasketball/05ncaa.html",
+   "what": "New York Times game story, April 5, 2011 (archived): NIT and 10th-place preseason pick, 11-game postseason run, Butler 3 for 31 on twos, 2 for 25 to open the half, Lamb's 12 second-half points, 13-8 then six points, Walker's 'keys' quote, Calhoun's suspension"
+  },
+  {
+   "url": "https://web.archive.org/web/20131217095737/http://www.nytimes.com/2011/04/06/sports/ncaabasketball/06hoops.html",
+   "what": "New York Times, April 6, 2011, 'Connecticut and Butler Saved Worst for Last' (archived): 18.8 percent worst in any title game, 94 combined points lowest since 1949, Nantz and Kellogg on the call"
+  },
+  {
+   "url": "https://web.archive.org/web/20111225010818/http://espn.go.com/ncb/recap?gameId=310922086",
+   "what": "AP, April 2, 2011: eighth-seeded Butler (28-9) beat VCU; lowest-seeded finalist since Villanova in 1985; Hayward's heave and 61-59 loss to Duke; 14 straight wins; Mack MOP of the Southeast Regional"
+  },
+  {
+   "url": "https://uconnhuskies.com/documents/download/2011/4/3/_conn_m_baskbl__2011champnotesncaa.pdf",
+   "what": "UConn 2011 NCAA championship media notes: CBS crew (Nantz, Kellogg, Kerr), 9:23 ET tip, 31-9, No. 3 West seed, AP No. 9, path through the Big East and NCAA tournaments, Calhoun's chance to join Wooden/Rupp/Krzyzewski/Knight, first meeting with Butler, fourth Final Four"
+  },
+  {
+   "url": "https://www.sportsmediawatch.com/2011/01/most-of-tnt-nba-crew-to-handle-ncaa/",
+   "what": "Sports Media Watch, Jan. 2011: Steve Kerr to call the Final Four with Jim Nantz and Clark Kellogg"
+  },
+  {
+   "url": "https://www.si.com/more-sports/2011/03/10/kemba-walkerbuzzerbeater",
+   "what": "SI.com, March 10, 2011: UConn started 10-0 and lost four of its last five regular-season games"
+  },
+  {
+   "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2011/types/3/weeks/1/rankings/1",
+   "what": "ESPN archive of the final 2010-11 AP poll: UConn No. 9, Butler unranked"
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:2011_NCAA_Basketball_Championship_Game_tip_off.jpg",
+   "what": "Wikimedia Commons: tip-off photo, CC BY-SA 2.0"
+  }
+ ],
+ "_verified": {
+  "checked": 164,
+  "ok": 163,
+  "edits": 2
+ }
+}
