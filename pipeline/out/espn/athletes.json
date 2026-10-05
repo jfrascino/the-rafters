@@ -3573,10 +3573,10 @@
   "position": "F",
   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895753.png",
   "height": "6' 7\"",
-  "weight": "205 lbs",
+  "weight": "210 lbs",
   "hometown": "Bristow, VA",
   "classBySeason": {
-   "2027": "Junior"
+   "2027": "Senior"
   },
   "seasons": [
    2024,
@@ -3599,15 +3599,12 @@
   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4685647.png",
   "height": "6' 7\"",
   "weight": "225 lbs",
-  "hometown": "Seattle, WA",
-  "classBySeason": {
-   "2027": "Junior"
-  },
+  "hometown": null,
+  "classBySeason": {},
   "seasons": [
    2024,
    2025,
-   2026,
-   2027
+   2026
   ],
   "games": 104,
   "firstGame": "401584359",
@@ -3623,10 +3620,10 @@
   "position": "G",
   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895737.png",
   "height": "6' 4\"",
-  "weight": "200 lbs",
+  "weight": "190 lbs",
   "hometown": "Leesburg, VA",
   "classBySeason": {
-   "2027": "Junior"
+   "2027": "Senior"
   },
   "seasons": [
    2024,
@@ -3813,13 +3810,10 @@
   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5241657.png",
   "height": "6' 1\"",
   "weight": "190 lbs",
-  "hometown": "Glenwood, IL",
-  "classBySeason": {
-   "2027": "Senior"
-  },
+  "hometown": null,
+  "classBySeason": {},
   "seasons": [
-   2026,
-   2027
+   2026
   ],
   "games": 18,
   "firstGame": "401812785",
@@ -3835,10 +3829,10 @@
   "position": "G",
   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5196916.png",
   "height": "6' 6\"",
-  "weight": "196 lbs",
+  "weight": "198 lbs",
   "hometown": "Greenfield, IN",
   "classBySeason": {
-   "2027": "Freshman"
+   "2027": "Sophomore"
   },
   "seasons": [
    2026,
@@ -3877,13 +3871,10 @@
   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4703011.png",
   "height": "6' 8\"",
   "weight": "212 lbs",
-  "hometown": "Berlin, Germany",
-  "classBySeason": {
-   "2027": "Senior"
-  },
+  "hometown": null,
+  "classBySeason": {},
   "seasons": [
-   2026,
-   2027
+   2026
   ],
   "games": 17,
   "firstGame": "401812785",
@@ -3900,13 +3891,10 @@
   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5152763.png",
   "height": "7' 1\"",
   "weight": "260 lbs",
-  "hometown": "Hannover, Germany",
-  "classBySeason": {
-   "2027": "Freshman"
-  },
+  "hometown": null,
+  "classBySeason": {},
   "seasons": [
-   2026,
-   2027
+   2026
   ],
   "games": 40,
   "firstGame": "401812785",
@@ -3941,11 +3929,11 @@
   ],
   "position": "F",
   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5142624.png",
-  "height": "6' 5\"",
-  "weight": "195 lbs",
+  "height": "6' 6\"",
+  "weight": "203 lbs",
   "hometown": "Bristow, VA",
   "classBySeason": {
-   "2027": "Freshman"
+   "2027": "Sophomore"
   },
   "seasons": [
    2026,
@@ -3966,13 +3954,10 @@
   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4683861.png",
   "height": "6' 1\"",
   "weight": "180 lbs",
-  "hometown": "Bronx, NY",
-  "classBySeason": {
-   "2027": "Senior"
-  },
+  "hometown": null,
+  "classBySeason": {},
   "seasons": [
-   2026,
-   2027
+   2026
   ],
   "games": 40,
   "firstGame": "401812785",
@@ -4025,13 +4010,10 @@
   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5312036.png",
   "height": "7' 1\"",
   "weight": "225 lbs",
-  "hometown": "Istanbul, Türkiye",
-  "classBySeason": {
-   "2027": "Freshman"
-  },
+  "hometown": null,
+  "classBySeason": {},
   "seasons": [
-   2026,
-   2027
+   2026
   ],
   "games": 4,
   "firstGame": "401812786",
@@ -4062,15 +4044,16 @@
   "name": "Silas Demary Jr.",
   "short": "S. Demary Jr.",
   "jerseys": [
-   "2"
+   "2",
+   "5"
   ],
   "position": "G",
   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5054083.png",
   "height": "6' 4\"",
-  "weight": "195 lbs",
+  "weight": "191 lbs",
   "hometown": "Raleigh, NC",
   "classBySeason": {
-   "2027": "Junior"
+   "2027": "Senior"
   },
   "seasons": [
    2026,
@@ -4082,7 +4065,7 @@
  },
  "5307570": {
   "id": "5307570",
-  "name": "Uros Paunovic",
+  "name": "Uroš Paunovic",
   "short": "U. Paunovic",
   "jerseys": [
    "77"
@@ -4091,16 +4074,233 @@
   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5307570.png",
   "height": "6' 3\"",
   "weight": "190 lbs",
-  "hometown": "Belgrade, Serbia",
-  "classBySeason": {
-   "2027": "Junior"
-  },
+  "hometown": null,
+  "classBySeason": {},
   "seasons": [
-   2026,
-   2027
+   2026
   ],
   "games": 14,
   "firstGame": "401812786",
   "lastGame": "401856559"
+ },
+ "5292585": {
+  "id": "5292585",
+  "name": "Colben Landrew",
+  "short": "C. Landrew",
+  "jerseys": [
+   "3"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 6\"",
+  "weight": "236 lbs",
+  "hometown": "Mccomb, MS",
+  "classBySeason": {
+   "2027": "Freshman"
+  },
+  "seasons": [
+   2027
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "5455875": {
+  "id": "5455875",
+  "name": "Egor Amosov",
+  "short": "E. Amosov",
+  "jerseys": [
+   "17"
+  ],
+  "position": "F",
+  "headshot": null,
+  "height": "6' 8\"",
+  "weight": "236 lbs",
+  "hometown": "Samara, Russia",
+  "classBySeason": {
+   "2027": "Freshman"
+  },
+  "seasons": [
+   2027
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "5311500": {
+  "id": "5311500",
+  "name": "Elmir Dzafic",
+  "short": "E. Dzafic",
+  "jerseys": [
+   "29"
+  ],
+  "position": "C",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5311500.png",
+  "height": "7' 0\"",
+  "weight": "276 lbs",
+  "hometown": "Tinja, Bosnia & Herzegovina",
+  "classBySeason": {
+   "2027": "Sophomore"
+  },
+  "seasons": [
+   2027
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "4896885": {
+  "id": "4896885",
+  "name": "Isaiah Shaw",
+  "short": "I. Shaw",
+  "jerseys": [
+   "33"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4896885.png",
+  "height": "6' 8\"",
+  "weight": "207 lbs",
+  "hometown": "Phoenix, AZ",
+  "classBySeason": {
+   "2027": "Senior"
+  },
+  "seasons": [
+   2027
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "5060718": {
+  "id": "5060718",
+  "name": "Jaye Nash",
+  "short": "J. Nash",
+  "jerseys": [
+   "7"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5060718.png",
+  "height": "6' 2\"",
+  "weight": "193 lbs",
+  "hometown": "Memphis, TN",
+  "classBySeason": {
+   "2027": "Junior"
+  },
+  "seasons": [
+   2027
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "5210821": {
+  "id": "5210821",
+  "name": "Junior County",
+  "short": "J. County",
+  "jerseys": [
+   "0"
+  ],
+  "position": "G",
+  "headshot": null,
+  "height": "6' 5\"",
+  "weight": "205 lbs",
+  "hometown": "Highland, UT",
+  "classBySeason": {
+   "2027": "Freshman"
+  },
+  "seasons": [
+   2027
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "5292602": {
+  "id": "5292602",
+  "name": "Na'jai Hines",
+  "short": "N. Hines",
+  "jerseys": [
+   "9"
+  ],
+  "position": "C",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5292602.png",
+  "height": "6' 11\"",
+  "weight": "278 lbs",
+  "hometown": "Plainfield, NJ",
+  "classBySeason": {
+   "2027": "Sophomore"
+  },
+  "seasons": [
+   2027
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "5144124": {
+  "id": "5144124",
+  "name": "Nik Khamenia",
+  "short": "N. Khamenia",
+  "jerseys": [
+   "4"
+  ],
+  "position": "F",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5144124.png",
+  "height": "6' 8\"",
+  "weight": "225 lbs",
+  "hometown": "Tarzana, CA",
+  "classBySeason": {
+   "2027": "Sophomore"
+  },
+  "seasons": [
+   2027
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "5175080": {
+  "id": "5175080",
+  "name": "Nils Machowski",
+  "short": "N. Machowski",
+  "jerseys": [
+   "21"
+  ],
+  "position": "G",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175080.png",
+  "height": "6' 4\"",
+  "weight": "190 lbs",
+  "hometown": "Berlin, Germany",
+  "classBySeason": {
+   "2027": "Senior"
+  },
+  "seasons": [
+   2027
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
+ },
+ "5312293": {
+  "id": "5312293",
+  "name": "Oskar Giltay",
+  "short": "O. Giltay",
+  "jerseys": [
+   "18"
+  ],
+  "position": "C",
+  "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5312293.png",
+  "height": "6' 11\"",
+  "weight": "240 lbs",
+  "hometown": "Bilzen, Belgium",
+  "classBySeason": {
+   "2027": "Sophomore"
+  },
+  "seasons": [
+   2027
+  ],
+  "games": 0,
+  "firstGame": null,
+  "lastGame": null
  }
 }

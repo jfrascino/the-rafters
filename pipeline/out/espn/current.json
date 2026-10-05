@@ -519,7 +519,12 @@
    "rank": null,
    "color": "c12535"
   },
-  "venue": null,
+  "venue": {
+   "id": null,
+   "name": "PeoplesBank Arena",
+   "city": "Hartford",
+   "state": "CT"
+  },
   "tv": [],
   "odds": null
  },
@@ -531,21 +536,19 @@
  ],
  "roster": [
   {
-   "id": "4683861",
-   "name": "Malachi Smith",
+   "id": "5210821",
+   "name": "Junior County",
    "jersey": "0",
    "pos": "G",
    "posName": "Guard",
-   "class": "Senior",
-   "height": "6' 1\"",
-   "weight": "180 lbs",
-   "hometown": "Bronx, NY",
-   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4683861.png",
+   "class": "Freshman",
+   "height": "6' 5\"",
+   "weight": "205 lbs",
+   "hometown": "Highland, UT",
+   "headshot": null,
    "status": "active",
    "injuries": null,
-   "priorSeasons": [
-    2026
-   ]
+   "priorSeasons": []
   },
   {
    "id": "4895737",
@@ -553,9 +556,9 @@
    "jersey": "1",
    "pos": "G",
    "posName": "Guard",
-   "class": "Junior",
+   "class": "Senior",
    "height": "6' 4\"",
-   "weight": "200 lbs",
+   "weight": "190 lbs",
    "hometown": "Leesburg, VA",
    "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895737.png",
    "status": "active",
@@ -567,14 +570,44 @@
    ]
   },
   {
+   "id": "5292585",
+   "name": "Colben Landrew",
+   "jersey": "3",
+   "pos": "F",
+   "posName": "Forward",
+   "class": "Freshman",
+   "height": "6' 6\"",
+   "weight": "236 lbs",
+   "hometown": "Mccomb, MS",
+   "headshot": null,
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": []
+  },
+  {
+   "id": "5144124",
+   "name": "Nik Khamenia",
+   "jersey": "4",
+   "pos": "F",
+   "posName": "Forward",
+   "class": "Sophomore",
+   "height": "6' 8\"",
+   "weight": "225 lbs",
+   "hometown": "Tarzana, CA",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5144124.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": []
+  },
+  {
    "id": "5054083",
    "name": "Silas Demary Jr.",
-   "jersey": "2",
+   "jersey": "5",
    "pos": "G",
    "posName": "Guard",
-   "class": "Junior",
+   "class": "Senior",
    "height": "6' 4\"",
-   "weight": "195 lbs",
+   "weight": "191 lbs",
    "hometown": "Raleigh, NC",
    "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5054083.png",
    "status": "active",
@@ -584,91 +617,34 @@
    ]
   },
   {
-   "id": "4685647",
-   "name": "Jaylin Stewart",
-   "jersey": "3",
-   "pos": "F",
-   "posName": "Forward",
-   "class": "Junior",
-   "height": "6' 7\"",
-   "weight": "225 lbs",
-   "hometown": "Seattle, WA",
-   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4685647.png",
-   "status": "active",
-   "injuries": null,
-   "priorSeasons": [
-    2024,
-    2025,
-    2026
-   ]
-  },
-  {
-   "id": "4703011",
-   "name": "Dwayne Koroma",
-   "jersey": "4",
-   "pos": "F",
-   "posName": "Forward",
-   "class": "Senior",
-   "height": "6' 8\"",
-   "weight": "212 lbs",
-   "hometown": "Berlin, Germany",
-   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4703011.png",
-   "status": "active",
-   "injuries": null,
-   "priorSeasons": [
-    2026
-   ]
-  },
-  {
-   "id": "5241657",
-   "name": "Alec Millender",
-   "jersey": "9",
+   "id": "5060718",
+   "name": "Jaye Nash",
+   "jersey": "7",
    "pos": "G",
    "posName": "Guard",
-   "class": "Senior",
-   "height": "6' 1\"",
-   "weight": "190 lbs",
-   "hometown": "Glenwood, IL",
-   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5241657.png",
+   "class": "Junior",
+   "height": "6' 2\"",
+   "weight": "193 lbs",
+   "hometown": "Memphis, TN",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5060718.png",
    "status": "active",
    "injuries": null,
-   "priorSeasons": [
-    2026
-   ]
+   "priorSeasons": []
   },
   {
-   "id": "5312036",
-   "name": "Rrezon Elezaj",
-   "jersey": "10",
+   "id": "5292602",
+   "name": "Na'jai Hines",
+   "jersey": "9",
    "pos": "C",
    "posName": "Center",
-   "class": "Freshman",
-   "height": "7' 1\"",
-   "weight": "225 lbs",
-   "hometown": "Istanbul, Türkiye",
-   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5312036.png",
+   "class": "Sophomore",
+   "height": "6' 11\"",
+   "weight": "278 lbs",
+   "hometown": "Plainfield, NJ",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5292602.png",
    "status": "active",
    "injuries": null,
-   "priorSeasons": [
-    2026
-   ]
-  },
-  {
-   "id": "5152763",
-   "name": "Eric Reibe",
-   "jersey": "12",
-   "pos": "C",
-   "posName": "Center",
-   "class": "Freshman",
-   "height": "7' 1\"",
-   "weight": "260 lbs",
-   "hometown": "Hannover, Germany",
-   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5152763.png",
-   "status": "active",
-   "injuries": null,
-   "priorSeasons": [
-    2026
-   ]
+   "priorSeasons": []
   },
   {
    "id": "5142624",
@@ -676,9 +652,9 @@
    "jersey": "13",
    "pos": "F",
    "posName": "Forward",
-   "class": "Freshman",
-   "height": "6' 5\"",
-   "weight": "195 lbs",
+   "class": "Sophomore",
+   "height": "6' 6\"",
+   "weight": "203 lbs",
    "hometown": "Bristow, VA",
    "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5142624.png",
    "status": "active",
@@ -688,14 +664,59 @@
    ]
   },
   {
+   "id": "5455875",
+   "name": "Egor Amosov",
+   "jersey": "17",
+   "pos": "F",
+   "posName": "Forward",
+   "class": "Freshman",
+   "height": "6' 8\"",
+   "weight": "236 lbs",
+   "hometown": "Samara, Russia",
+   "headshot": null,
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": []
+  },
+  {
+   "id": "5312293",
+   "name": "Oskar Giltay",
+   "jersey": "18",
+   "pos": "C",
+   "posName": "Center",
+   "class": "Sophomore",
+   "height": "6' 11\"",
+   "weight": "240 lbs",
+   "hometown": "Bilzen, Belgium",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5312293.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": []
+  },
+  {
+   "id": "5175080",
+   "name": "Nils Machowski",
+   "jersey": "21",
+   "pos": "G",
+   "posName": "Guard",
+   "class": "Senior",
+   "height": "6' 4\"",
+   "weight": "190 lbs",
+   "hometown": "Berlin, Germany",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175080.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": []
+  },
+  {
    "id": "4895753",
    "name": "Jayden Ross",
    "jersey": "23",
    "pos": "F",
    "posName": "Forward",
-   "class": "Junior",
+   "class": "Senior",
    "height": "6' 7\"",
-   "weight": "205 lbs",
+   "weight": "210 lbs",
    "hometown": "Bristow, VA",
    "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4895753.png",
    "status": "active",
@@ -712,9 +733,9 @@
    "jersey": "24",
    "pos": "G",
    "posName": "Guard",
-   "class": "Freshman",
+   "class": "Sophomore",
    "height": "6' 6\"",
-   "weight": "196 lbs",
+   "weight": "198 lbs",
    "hometown": "Greenfield, IN",
    "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5196916.png",
    "status": "active",
@@ -724,21 +745,34 @@
    ]
   },
   {
-   "id": "5307570",
-   "name": "Uros Paunovic",
-   "jersey": "77",
-   "pos": "G",
-   "posName": "Guard",
-   "class": "Junior",
-   "height": "6' 3\"",
-   "weight": "190 lbs",
-   "hometown": "Belgrade, Serbia",
-   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5307570.png",
+   "id": "5311500",
+   "name": "Elmir Dzafic",
+   "jersey": "29",
+   "pos": "C",
+   "posName": "Center",
+   "class": "Sophomore",
+   "height": "7' 0\"",
+   "weight": "276 lbs",
+   "hometown": "Tinja, Bosnia & Herzegovina",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5311500.png",
    "status": "active",
    "injuries": null,
-   "priorSeasons": [
-    2026
-   ]
+   "priorSeasons": []
+  },
+  {
+   "id": "4896885",
+   "name": "Isaiah Shaw",
+   "jersey": "33",
+   "pos": "F",
+   "posName": "Forward",
+   "class": "Senior",
+   "height": "6' 8\"",
+   "weight": "207 lbs",
+   "hometown": "Phoenix, AZ",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4896885.png",
+   "status": "active",
+   "injuries": null,
+   "priorSeasons": []
   }
  ]
 }
