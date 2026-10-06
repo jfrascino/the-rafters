@@ -505,8 +505,8 @@
  },
  "next": {
   "id": "401911390",
-  "date": "2026-11-02T05:00Z",
-  "timeTBD": true,
+  "date": "2026-11-03T02:00Z",
+  "timeTBD": false,
   "status": "scheduled",
   "homeAway": "home",
   "neutral": false,
@@ -520,7 +520,7 @@
    "color": "c12535"
   },
   "venue": {
-   "id": null,
+   "id": "64",
    "name": "PeoplesBank Arena",
    "city": "Hartford",
    "state": "CT"
