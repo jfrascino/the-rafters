@@ -525,7 +525,9 @@
    "city": "Hartford",
    "state": "CT"
   },
-  "tv": [],
+  "tv": [
+   "Peacock"
+  ],
   "odds": null
  },
  "coach": [

@@ -31,7 +31,7 @@
     "city": "Hartford",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "Peacock",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -39,7 +39,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $28",
+    "summary": "Tickets as low as $29",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-11-2-2026--sports-ncaa-basketball/production/7581909?wsUser=717"
    },
    "has": {
@@ -79,7 +79,7 @@
     "city": "Boston",
     "state": "MA"
    },
-   "broadcast": null,
+   "broadcast": "TNT",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -127,7 +127,7 @@
     "city": "Storrs",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "truTV",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -175,7 +175,7 @@
     "city": "Hartford",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "TNT",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -231,7 +231,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $169",
+    "summary": "Tickets as low as $170",
     "url": "https://www.vividseats.com/arizona-wildcats-mens-basketball-tickets-mckale-center-11-18-2026--sports-ncaa-basketball/production/7155321?wsUser=717"
    },
    "has": {
@@ -319,7 +319,7 @@
     "city": "Storrs",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "FS1",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -415,7 +415,7 @@
     "city": "Storrs",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "truTV",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -463,7 +463,7 @@
     "city": "Storrs",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "Fox",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -471,7 +471,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $334",
+    "summary": "Tickets as low as $232",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-peoplesbank-arena-12-12-2026--sports-ncaa-basketball/production/7158457?wsUser=717"
    },
    "has": {
@@ -511,7 +511,7 @@
     "city": "Hartford",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "truTV",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -607,7 +607,7 @@
     "city": "Hartford",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "Peacock",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -655,7 +655,7 @@
     "city": "Indianapolis",
     "state": "IN"
    },
-   "broadcast": null,
+   "broadcast": "FS1",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -703,7 +703,7 @@
     "city": "Omaha",
     "state": "NE"
    },
-   "broadcast": null,
+   "broadcast": "NBC",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -751,7 +751,7 @@
     "city": "Storrs",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "FS1",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -799,7 +799,7 @@
     "city": "Newark",
     "state": "NJ"
    },
-   "broadcast": null,
+   "broadcast": "Peacock",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -847,7 +847,7 @@
     "city": "Storrs",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "TNT",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -943,7 +943,7 @@
     "city": "Providence",
     "state": "RI"
    },
-   "broadcast": null,
+   "broadcast": "Peacock",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -991,7 +991,7 @@
     "city": "Hartford",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "TNT",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -1039,7 +1039,7 @@
     "city": "Washington",
     "state": "DC"
    },
-   "broadcast": null,
+   "broadcast": "FS1",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -1087,7 +1087,7 @@
     "city": "New York",
     "state": "NY"
    },
-   "broadcast": null,
+   "broadcast": "Fox",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -1135,7 +1135,7 @@
     "city": "Hartford",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "Peacock",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -1183,7 +1183,7 @@
     "city": "Hartford",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "Fox",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -1231,7 +1231,7 @@
     "city": "Chicago",
     "state": "IL"
    },
-   "broadcast": null,
+   "broadcast": "FS1",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -1279,7 +1279,7 @@
     "city": "Villanova",
     "state": "PA"
    },
-   "broadcast": null,
+   "broadcast": "Fox",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -1327,7 +1327,7 @@
     "city": "Storrs",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "Peacock",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -1375,7 +1375,7 @@
     "city": "Milwaukee",
     "state": "WI"
    },
-   "broadcast": null,
+   "broadcast": "Fox",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -1423,7 +1423,7 @@
     "city": "Storrs",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "Fox",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -1471,7 +1471,7 @@
     "city": "Hartford",
     "state": "CT"
    },
-   "broadcast": null,
+   "broadcast": "TNT",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -1519,7 +1519,7 @@
     "city": "Cincinnati",
     "state": "OH"
    },
-   "broadcast": null,
+   "broadcast": "TNT",
    "score": null,
    "oppScore": null,
    "result": null,
