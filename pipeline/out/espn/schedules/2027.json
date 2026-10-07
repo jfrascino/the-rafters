@@ -39,7 +39,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $28",
+    "summary": "Tickets as low as $26",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-11-2-2026--sports-ncaa-basketball/production/7581909?wsUser=717"
    },
    "has": {
@@ -59,7 +59,7 @@
    "seasonType": 2,
    "status": "scheduled",
    "statusDetail": "Fri, November 6th at 8:00 PM EST",
-   "homeAway": "home",
+   "homeAway": "away",
    "neutral": true,
    "conferenceGame": false,
    "note": "Hall of Fame Series - Boston",
@@ -183,7 +183,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $89",
+    "summary": "Tickets as low as $85",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-11-13-2026--sports-ncaa-basketball/production/7581913?wsUser=717"
    },
    "has": {
@@ -367,7 +367,7 @@
     "city": "Chicago",
     "state": "IL"
    },
-   "broadcast": null,
+   "broadcast": "Fox",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -375,7 +375,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $95",
+    "summary": "Tickets as low as $87",
     "url": "https://www.vividseats.com/illinois-fighting-illini-mens-basketball-tickets-united-center-12-14-2026--sports-ncaa-basketball/production/6999257?wsUser=717"
    },
    "has": {
@@ -471,7 +471,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $232",
+    "summary": "Tickets as low as $289",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-peoplesbank-arena-12-12-2026--sports-ncaa-basketball/production/7158457?wsUser=717"
    },
    "has": {
@@ -1479,7 +1479,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $201",
+    "summary": "Tickets as low as $208",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-3-2-2027--sports-ncaa-basketball/production/7581939?wsUser=717"
    },
    "has": {
