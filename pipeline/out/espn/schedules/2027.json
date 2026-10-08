@@ -87,7 +87,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $95",
+    "summary": "Tickets as low as $96",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-td-garden-11-6-2026--sports-ncaa-basketball/production/7006417?wsUser=717"
    },
    "has": {
@@ -663,7 +663,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $80",
+    "summary": "Tickets as low as $72",
     "url": "https://www.vividseats.com/butler-bulldogs-mens-basketball-tickets-hinkle-fieldhouse-12-31-2026--sports-ncaa-basketball/production/7555434?wsUser=717"
    },
    "has": {
@@ -807,7 +807,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $111",
+    "summary": "Tickets as low as $119",
     "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-1-9-2027--sports-ncaa-basketball/production/7555400?wsUser=717"
    },
    "has": {
@@ -1095,7 +1095,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $220",
+    "summary": "Tickets as low as $218",
     "url": "https://www.vividseats.com/st-johns-red-storm-mens-basketball-tickets-madison-square-garden-1-29-2027--sports-ncaa-basketball/production/7546351?wsUser=717"
    },
    "has": {
@@ -1275,8 +1275,8 @@
    "uconnRank": null,
    "uconnSeed": null,
    "venue": {
-    "name": "Finneran Pavilion",
-    "city": "Villanova",
+    "name": "Xfinity Mobile Arena",
+    "city": "Philadelphia",
     "state": "PA"
    },
    "broadcast": "Fox",
