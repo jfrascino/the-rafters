@@ -342,11 +342,11 @@
   },
   {
    "id": "401913532",
-   "date": "2026-12-04T05:00Z",
-   "timeTBD": true,
+   "date": "2026-12-05T00:00Z",
+   "timeTBD": false,
    "seasonType": 2,
    "status": "scheduled",
-   "statusDetail": "12/4 - TBD",
+   "statusDetail": "Fri, December 4th at 7:00 PM EST",
    "homeAway": "away",
    "neutral": true,
    "conferenceGame": false,
@@ -759,7 +759,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $96",
+    "summary": "Tickets as low as $64",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-1-6-2027--sports-ncaa-basketball/production/7581923?wsUser=717"
    },
    "has": {
@@ -855,7 +855,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $112",
+    "summary": "Tickets as low as $100",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-1-12-2027--sports-ncaa-basketball/production/7581925?wsUser=717"
    },
    "has": {
@@ -903,7 +903,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $144",
+    "summary": "Tickets as low as $134",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-1-16-2027--sports-ncaa-basketball/production/7581927?wsUser=717"
    },
    "has": {
