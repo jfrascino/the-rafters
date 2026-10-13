@@ -87,7 +87,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $96",
+    "summary": "Tickets as low as $95",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-td-garden-11-6-2026--sports-ncaa-basketball/production/7006417?wsUser=717"
    },
    "has": {
@@ -228,10 +228,10 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $112",
+    "summary": "Tickets as low as $110",
     "url": "https://www.vividseats.com/arizona-wildcats-mens-basketball-tickets-mckale-center-11-18-2026--sports-ncaa-basketball/production/7155321?wsUser=717"
    },
    "has": {
@@ -324,7 +324,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $31",
@@ -807,7 +807,7 @@
    "record": null,
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $119",
+    "summary": "Tickets as low as $130",
     "url": "https://www.vividseats.com/seton-hall-pirates-mens-basketball-tickets-prudential-center-1-9-2027--sports-ncaa-basketball/production/7555400?wsUser=717"
    },
    "has": {
