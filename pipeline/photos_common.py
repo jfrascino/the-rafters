@@ -29,10 +29,10 @@ TEAM_OUT = os.path.join(OUT, "team_photos.json")
 CAND_DIR = os.path.join(CACHE, "candidates")  # per-source candidate files
 os.makedirs(CAND_DIR, exist_ok=True)
 
-REFERER = "https://jfrascino.github.io/"
+REFERER = "https://storrs-lore.pages.dev/"
 UA_BROWSER = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
-UA_API = "UConnHoopsFanApp/1.0 (personal non-commercial fan research project; github.com/jfrascino) python-urllib"
+UA_API = "UConnHoopsFanApp/1.0 (personal non-commercial fan research project; storrs-lore.pages.dev) python-urllib"
 
 SLOW_HOSTS = ("sports-reference.com", "basketball-reference.com")
 _LAST = {}

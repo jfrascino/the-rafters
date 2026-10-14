@@ -422,7 +422,7 @@ def build_one(m, core):
     return out
 
 
-SITE_URL = 'https://jfrascino.github.io/the-rafters/'   # change with the custom domain
+SITE_URL = 'https://storrs-lore.pages.dev/'   # Cloudflare Pages since 2026-10-14
 STUB = os.path.join(ROOT, 'site', 'm')
 
 

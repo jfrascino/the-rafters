@@ -153,7 +153,7 @@ def main():
     save_probes()
     doc = {"generated": time.strftime("%Y-%m-%d %H:%M"),
            "note": "Real photographs only; each image's source page names the player. Hotlink-checked with "
-                   "Referer https://jfrascino.github.io/. Lists are best-first (UConn-era > NBA headshot > other).",
+                   "Referer https://storrs-lore.pages.dev/. Lists are best-first (UConn-era > NBA headshot > other).",
            "players": out_players, "still_missing": missing}
     tmp = PLAYER_OUT + ".tmp"
     json.dump(doc, open(tmp, "w"), indent=1, ensure_ascii=False)

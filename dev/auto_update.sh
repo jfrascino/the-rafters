@@ -44,6 +44,7 @@ git fetch -q origin main && [ "$(git rev-list --count HEAD..origin/main)" != 0 ]
 if ! git push -q origin main; then echo "$(stamp) push failed"; notify "Update failed" "Couldn't push to GitHub (network or login)."; exit 1; fi
 git branch -D pages-tmp -q 2>/dev/null || true
 git subtree split --prefix site -b pages-tmp -q >/dev/null && git push -qf origin pages-tmp:gh-pages
+if ! $PY $HOME/.local/bin/cf-pages-deploy site storrs-lore >/dev/null; then echo "$(stamp) Cloudflare publish failed"; notify "Update failed" "Couldn't publish to Cloudflare (network or wrangler login)."; exit 1; fi
 echo "$(stamp) published"
 if [ "$BEFORE" != "$AFTER" ] && [ "$AFTER" != "null" ]; then
   MSG=$($PY -c "import json;g=json.loads('''$AFTER''');print(f\"UConn {g['pts']}, {g['opp']['name']} {g['opp_pts']} ({g['res']}). Box score and stats are live.\")" 2>/dev/null)

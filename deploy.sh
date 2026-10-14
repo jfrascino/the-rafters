@@ -1,5 +1,6 @@
 #!/bin/bash
-# Commit current data + app, push main, and publish site/ to the gh-pages branch (GitHub Pages).
+# Commit current data + app, push main (private backup), and publish site/ to Cloudflare Pages
+# (https://storrs-lore.pages.dev/). The gh-pages branch push is a leftover from GitHub Pages and harmless.
 set -e
 cd "$(dirname "$0")"
 source dev/lock.sh; lock   # never deploy while the photo watcher is publishing
@@ -12,4 +13,4 @@ git push -q origin main
 git branch -D pages-tmp -q 2>/dev/null || true
 git subtree split --prefix site -b pages-tmp -q
 git push -qf origin pages-tmp:gh-pages
-echo "Deployed: https://jfrascino.github.io/the-rafters/"
+/opt/homebrew/bin/python3 $HOME/.local/bin/cf-pages-deploy site storrs-lore

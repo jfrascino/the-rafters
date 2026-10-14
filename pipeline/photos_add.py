@@ -5,7 +5,7 @@ Usage:
   python3 photos_add.py --file manual_a --id chris-smith-1 --url URL --kind nba-headshot \
       --source PAGE_URL --credit "..." --license "..." --caption "..." [--cutout]
 
-The URL is probed with Referer https://jfrascino.github.io/ ; it is only saved if it returns 200 with an
+The URL is probed with Referer https://storrs-lore.pages.dev/ ; it is only saved if it returns 200 with an
 image content-type and parseable dimensions. Prints the result as JSON.
 List a file:   python3 photos_add.py --file manual_a --list
 Remove entry:  python3 photos_add.py --file manual_a --id X --url URL --remove

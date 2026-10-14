@@ -1,5 +1,5 @@
 #!/bin/bash
-# Publish Jason's photo drops: rebuild data, commit ONLY data + images (never in-progress code), push, update GitHub Pages.
+# Publish Jason's photo drops: rebuild data, commit ONLY data + images (never in-progress code), push, publish to Cloudflare Pages.
 cd "$(dirname "$0")/.."
 source dev/lock.sh; lock
 G="git -c user.name=jfrascino -c user.email=47570206+jfrascino@users.noreply.github.com"
@@ -14,6 +14,9 @@ git fetch -q origin main && [ "$(git rev-list --count HEAD..origin/main)" != 0 ]
 git push -q origin main
 git branch -D pages-tmp -q 2>/dev/null || true
 git subtree split --prefix site -b pages-tmp -q >/dev/null && git push -qf origin pages-tmp:gh-pages
+if ! /opt/homebrew/bin/python3 $HOME/.local/bin/cf-pages-deploy site storrs-lore >/dev/null; then
+  osascript -e 'display notification "Couldn'"'"'t publish to Cloudflare. Ask Kai." with title "Storrs Lore"' 2>/dev/null; exit 1
+fi
 echo "$(date '+%H:%M:%S') published: ${NEW:-(no renamed files)}${BAD:+ | NOT MATCHED: $BAD}"
 MSG="Live in about a minute: ${NEW:-updated photos}"
 [ -n "$BAD" ] && MSG="$MSG. No player named: $BAD (rename the file)"
