@@ -36,7 +36,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $21",
@@ -84,7 +84,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $95",
@@ -132,10 +132,10 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $41",
+    "summary": "Tickets as low as $36",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-11-9-2026--sports-ncaa-basketball/production/7581911?wsUser=717"
    },
    "has": {
@@ -180,10 +180,10 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $74",
+    "summary": "Tickets as low as $66",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-11-13-2026--sports-ncaa-basketball/production/7581913?wsUser=717"
    },
    "has": {
@@ -198,11 +198,11 @@
   },
   {
    "id": "401909742",
-   "date": "2026-11-18T05:00Z",
-   "timeTBD": true,
+   "date": "2026-11-19T02:00Z",
+   "timeTBD": false,
    "seasonType": 2,
    "status": "scheduled",
-   "statusDetail": "11/18 - TBD",
+   "statusDetail": "Wed, November 18th at 9:00 PM EST",
    "homeAway": "away",
    "neutral": false,
    "conferenceGame": false,
@@ -223,7 +223,7 @@
     "city": "Tucson",
     "state": "AZ"
    },
-   "broadcast": null,
+   "broadcast": "FS1",
    "score": null,
    "oppScore": null,
    "result": null,
@@ -276,7 +276,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $83",
@@ -372,7 +372,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $97",
@@ -420,7 +420,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $43",
@@ -468,10 +468,10 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $277",
+    "summary": "Tickets as low as $271",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-peoplesbank-arena-12-12-2026--sports-ncaa-basketball/production/7158457?wsUser=717"
    },
    "has": {
@@ -516,7 +516,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $34",
@@ -564,7 +564,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $252",
@@ -612,7 +612,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $97",
@@ -660,7 +660,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $48",
@@ -708,7 +708,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $48",
@@ -756,7 +756,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $90",
@@ -804,7 +804,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $130",
@@ -852,7 +852,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $100",
@@ -900,7 +900,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $130",
@@ -948,7 +948,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $142",
@@ -996,7 +996,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $123",
@@ -1044,7 +1044,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $56",
@@ -1092,7 +1092,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $154",
@@ -1140,7 +1140,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $87",
@@ -1188,7 +1188,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $78",
@@ -1236,7 +1236,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $25",
@@ -1284,7 +1284,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $145",
@@ -1332,7 +1332,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $77",
@@ -1380,7 +1380,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $84",
@@ -1428,7 +1428,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $129",
@@ -1476,10 +1476,10 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $149",
+    "summary": "Tickets as low as $165",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-3-2-2027--sports-ncaa-basketball/production/7581939?wsUser=717"
    },
    "has": {
@@ -1524,7 +1524,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": null,
+   "record": "0-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $122",
