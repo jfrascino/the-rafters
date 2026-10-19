@@ -16,5 +16,23 @@
     "record": "34-6"
    }
   ]
+ },
+ "2027": {
+  "ap": [
+   {
+    "date": "2026-10-19",
+    "rank": 4,
+    "votes": null,
+    "record": "0-0"
+   }
+  ],
+  "coaches": [
+   {
+    "date": "2026-10-19",
+    "rank": 5,
+    "votes": null,
+    "record": "0-0"
+   }
+  ]
  }
 }
