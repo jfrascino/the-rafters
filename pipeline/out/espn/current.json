@@ -528,7 +528,15 @@
   "tv": [
    "Peacock"
   ],
-  "odds": null
+  "odds": {
+   "provider": "DraftKings",
+   "details": "CONN -38.5",
+   "spread": -38.5,
+   "overUnder": 147.5,
+   "favorite": "home",
+   "homeML": null,
+   "awayML": null
+  }
  },
  "coach": [
   {
