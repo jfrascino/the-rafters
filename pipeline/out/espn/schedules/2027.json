@@ -10,7 +10,7 @@
    "timeTBD": false,
    "seasonType": 2,
    "status": "in",
-   "statusDetail": "7:42 - 1st Half",
+   "statusDetail": "0:28 - 1st Half",
    "homeAway": "home",
    "neutral": false,
    "conferenceGame": false,
@@ -32,8 +32,8 @@
     "state": "CT"
    },
    "broadcast": "Peacock",
-   "score": 26,
-   "oppScore": 8,
+   "score": 43,
+   "oppScore": 23,
    "result": null,
    "ot": null,
    "record": "0-0",
@@ -1524,7 +1524,7 @@
    "record": "0-0",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $83",
+    "summary": "Tickets as low as $82",
     "url": "https://www.vividseats.com/xavier-musketeers-mens-basketball-tickets-cintas-center-3-6-2027--sports-ncaa-basketball/production/7555745?wsUser=717"
    },
    "has": {

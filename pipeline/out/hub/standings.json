@@ -52,6 +52,18 @@
    "streak": "W1"
   },
   {
+   "id": "2550",
+   "name": "Seton Hall",
+   "full": "Seton Hall Pirates",
+   "abbr": "HALL",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
+   "conf": "0-0",
+   "overall": "1-0",
+   "seed": "5",
+   "gb": "-",
+   "streak": "W1"
+  },
+  {
    "id": "2599",
    "name": "St. John's",
    "full": "St. John's Red Storm",
@@ -59,7 +71,7 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
    "conf": "0-0",
    "overall": "1-0",
-   "seed": "5",
+   "seed": "6",
    "gb": "-",
    "streak": "W1"
   },
@@ -71,7 +83,7 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png",
    "conf": "0-0",
    "overall": "1-0",
-   "seed": "6",
+   "seed": "7",
    "gb": "-",
    "streak": "W1"
   },
@@ -83,7 +95,7 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
    "conf": "0-0",
    "overall": "0-0",
-   "seed": "7",
+   "seed": "8",
    "gb": "-",
    "streak": "-"
   },
@@ -95,7 +107,7 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
    "conf": "0-0",
    "overall": "0-1",
-   "seed": "8",
+   "seed": "9",
    "gb": "-",
    "streak": "L1"
   },
@@ -105,18 +117,6 @@
    "full": "DePaul Blue Demons",
    "abbr": "DEP",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/305.png",
-   "conf": "0-0",
-   "overall": "0-0",
-   "seed": "9",
-   "gb": "-",
-   "streak": "-"
-  },
-  {
-   "id": "2550",
-   "name": "Seton Hall",
-   "full": "Seton Hall Pirates",
-   "abbr": "HALL",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
    "conf": "0-0",
    "overall": "0-0",
    "seed": "10",
@@ -136,5 +136,5 @@
    "streak": "-"
   }
  ],
- "fetched": "2026-11-03T02:32:09+00:00"
+ "fetched": "2026-11-03T02:53:06+00:00"
 }
