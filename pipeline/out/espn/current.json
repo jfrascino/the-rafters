@@ -528,7 +528,15 @@
   "tv": [
    "TNT"
   ],
-  "odds": null
+  "odds": {
+   "provider": "DraftKings",
+   "details": "CONN -5.5",
+   "spread": 5.5,
+   "overUnder": 146.5,
+   "favorite": "away",
+   "homeML": 190,
+   "awayML": -230
+  }
  },
  "coach": [
   {
