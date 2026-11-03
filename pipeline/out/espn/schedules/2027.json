@@ -37,7 +37,7 @@
    "result": "W",
    "ot": 0,
    "record": "1-0",
-   "attendance": null,
+   "attendance": 15495,
    "tickets": null,
    "has": {
     "box": true,
@@ -45,7 +45,7 @@
     "plays": true,
     "wp": true,
     "shots": true,
-    "article": false,
+    "article": true,
     "videos": 0
    }
   },
@@ -225,7 +225,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $97",
@@ -417,7 +417,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $22",
@@ -513,7 +513,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $14",
@@ -609,7 +609,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $64",
@@ -801,7 +801,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $108",
@@ -849,7 +849,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $66",
@@ -897,7 +897,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $91",
@@ -945,7 +945,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $119",
@@ -1041,7 +1041,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $50",
@@ -1233,7 +1233,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $24",
@@ -1329,7 +1329,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $65",
@@ -1425,7 +1425,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $129",
@@ -1521,7 +1521,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $82",
