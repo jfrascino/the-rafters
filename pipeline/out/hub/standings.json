@@ -28,6 +28,30 @@
    "streak": "W1"
   },
   {
+   "id": "269",
+   "name": "Marquette",
+   "full": "Marquette Golden Eagles",
+   "abbr": "MARQ",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
+   "conf": "0-0",
+   "overall": "1-0",
+   "seed": "3",
+   "gb": "-",
+   "streak": "W1"
+  },
+  {
+   "id": "2507",
+   "name": "Providence",
+   "full": "Providence Friars",
+   "abbr": "PROV",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
+   "conf": "0-0",
+   "overall": "1-0",
+   "seed": "4",
+   "gb": "-",
+   "streak": "W1"
+  },
+  {
    "id": "2599",
    "name": "St. John's",
    "full": "St. John's Red Storm",
@@ -35,7 +59,19 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
    "conf": "0-0",
    "overall": "1-0",
-   "seed": "3",
+   "seed": "5",
+   "gb": "-",
+   "streak": "W1"
+  },
+  {
+   "id": "2752",
+   "name": "Xavier",
+   "full": "Xavier Musketeers",
+   "abbr": "XAV",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png",
+   "conf": "0-0",
+   "overall": "1-0",
+   "seed": "6",
    "gb": "-",
    "streak": "W1"
   },
@@ -47,7 +83,7 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
    "conf": "0-0",
    "overall": "0-0",
-   "seed": "4",
+   "seed": "7",
    "gb": "-",
    "streak": "-"
   },
@@ -59,7 +95,7 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
    "conf": "0-0",
    "overall": "0-1",
-   "seed": "5",
+   "seed": "8",
    "gb": "-",
    "streak": "L1"
   },
@@ -71,31 +107,7 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/305.png",
    "conf": "0-0",
    "overall": "0-0",
-   "seed": "6",
-   "gb": "-",
-   "streak": "-"
-  },
-  {
-   "id": "269",
-   "name": "Marquette",
-   "full": "Marquette Golden Eagles",
-   "abbr": "MARQ",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
-   "conf": "0-0",
-   "overall": "0-0",
-   "seed": "7",
-   "gb": "-",
-   "streak": "-"
-  },
-  {
-   "id": "2507",
-   "name": "Providence",
-   "full": "Providence Friars",
-   "abbr": "PROV",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
-   "conf": "0-0",
-   "overall": "0-0",
-   "seed": "8",
+   "seed": "9",
    "gb": "-",
    "streak": "-"
   },
@@ -107,7 +119,7 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
    "conf": "0-0",
    "overall": "0-0",
-   "seed": "9",
+   "seed": "10",
    "gb": "-",
    "streak": "-"
   },
@@ -119,22 +131,10 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
    "conf": "0-0",
    "overall": "0-0",
-   "seed": "10",
-   "gb": "-",
-   "streak": "-"
-  },
-  {
-   "id": "2752",
-   "name": "Xavier",
-   "full": "Xavier Musketeers",
-   "abbr": "XAV",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png",
-   "conf": "0-0",
-   "overall": "0-0",
    "seed": "11",
    "gb": "-",
    "streak": "-"
   }
  ],
- "fetched": "2026-11-03T02:11:07+00:00"
+ "fetched": "2026-11-03T02:32:09+00:00"
 }
