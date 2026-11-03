@@ -9,8 +9,8 @@
    "date": "2026-11-03T02:00Z",
    "timeTBD": false,
    "seasonType": 2,
-   "status": "scheduled",
-   "statusDetail": "Mon, November 2nd at 9:00 PM EST",
+   "status": "in",
+   "statusDetail": "16:00 - 1st Half",
    "homeAway": "home",
    "neutral": false,
    "conferenceGame": false,
@@ -32,23 +32,20 @@
     "state": "CT"
    },
    "broadcast": "Peacock",
-   "score": null,
-   "oppScore": null,
+   "score": 8,
+   "oppScore": 2,
    "result": null,
    "ot": null,
    "record": "0-0",
    "attendance": null,
-   "tickets": {
-    "summary": "Tickets as low as $6",
-    "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-11-2-2026--sports-ncaa-basketball/production/7581909?wsUser=717"
-   },
+   "tickets": null,
    "has": {
-    "box": false,
-    "lineup": false,
-    "plays": false,
-    "wp": false,
-    "shots": false,
-    "article": true,
+    "box": true,
+    "lineup": true,
+    "plays": true,
+    "wp": true,
+    "shots": true,
+    "article": false,
     "videos": 0
    }
   },
@@ -87,7 +84,7 @@
    "record": "0-0",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $126",
+    "summary": "Tickets as low as $130",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-td-garden-11-6-2026--sports-ncaa-basketball/production/7006417?wsUser=717"
    },
    "has": {
@@ -1095,7 +1092,7 @@
    "record": "0-0",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $174",
+    "summary": "Tickets as low as $172",
     "url": "https://www.vividseats.com/st-johns-red-storm-mens-basketball-tickets-madison-square-garden-1-29-2027--sports-ncaa-basketball/production/7546351?wsUser=717"
    },
    "has": {
