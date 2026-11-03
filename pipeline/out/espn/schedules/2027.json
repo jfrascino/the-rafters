@@ -1,7 +1,7 @@
 {
  "season": 2027,
  "label": "2026-27",
- "wins": 0,
+ "wins": 1,
  "losses": 0,
  "games": [
   {
@@ -9,8 +9,8 @@
    "date": "2026-11-03T02:00Z",
    "timeTBD": false,
    "seasonType": 2,
-   "status": "in",
-   "statusDetail": "3:58 - 2nd Half",
+   "status": "final",
+   "statusDetail": "Final",
    "homeAway": "home",
    "neutral": false,
    "conferenceGame": false,
@@ -32,11 +32,11 @@
     "state": "CT"
    },
    "broadcast": "Peacock",
-   "score": 77,
-   "oppScore": 41,
-   "result": null,
-   "ot": null,
-   "record": "0-0",
+   "score": 86,
+   "oppScore": 46,
+   "result": "W",
+   "ot": 0,
+   "record": "1-0",
    "attendance": null,
    "tickets": null,
    "has": {
@@ -81,7 +81,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $130",
@@ -129,7 +129,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $11",
@@ -177,7 +177,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "0-0",
+   "record": "1-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $58",

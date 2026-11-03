@@ -3584,9 +3584,9 @@
    2026,
    2027
   ],
-  "games": 94,
+  "games": 95,
   "firstGame": "401584359",
-  "lastGame": "401856600"
+  "lastGame": "401911390"
  },
  "4685647": {
   "id": "4685647",
@@ -3838,9 +3838,9 @@
    2026,
    2027
   ],
-  "games": 33,
+  "games": 34,
   "firstGame": "401811096",
-  "lastGame": "401856600"
+  "lastGame": "401911390"
  },
  "71518": {
   "id": "71518",
@@ -3939,9 +3939,9 @@
    2026,
    2027
   ],
-  "games": 0,
-  "firstGame": null,
-  "lastGame": null
+  "games": 1,
+  "firstGame": "401911390",
+  "lastGame": "401911390"
  },
  "4683861": {
   "id": "4683861",
@@ -4059,9 +4059,9 @@
    2026,
    2027
   ],
-  "games": 39,
+  "games": 40,
   "firstGame": "401812785",
-  "lastGame": "401856600"
+  "lastGame": "401911390"
  },
  "5307570": {
   "id": "5307570",
@@ -4101,9 +4101,9 @@
   "seasons": [
    2027
   ],
-  "games": 0,
-  "firstGame": null,
-  "lastGame": null
+  "games": 1,
+  "firstGame": "401911390",
+  "lastGame": "401911390"
  },
  "5455875": {
   "id": "5455875",
@@ -4123,9 +4123,9 @@
   "seasons": [
    2027
   ],
-  "games": 0,
-  "firstGame": null,
-  "lastGame": null
+  "games": 1,
+  "firstGame": "401911390",
+  "lastGame": "401911390"
  },
  "5311500": {
   "id": "5311500",
@@ -4145,9 +4145,9 @@
   "seasons": [
    2027
   ],
-  "games": 0,
-  "firstGame": null,
-  "lastGame": null
+  "games": 1,
+  "firstGame": "401911390",
+  "lastGame": "401911390"
  },
  "4896885": {
   "id": "4896885",
@@ -4167,9 +4167,9 @@
   "seasons": [
    2027
   ],
-  "games": 0,
-  "firstGame": null,
-  "lastGame": null
+  "games": 1,
+  "firstGame": "401911390",
+  "lastGame": "401911390"
  },
  "5060718": {
   "id": "5060718",
@@ -4189,9 +4189,9 @@
   "seasons": [
    2027
   ],
-  "games": 0,
-  "firstGame": null,
-  "lastGame": null
+  "games": 1,
+  "firstGame": "401911390",
+  "lastGame": "401911390"
  },
  "5210821": {
   "id": "5210821",
@@ -4211,9 +4211,9 @@
   "seasons": [
    2027
   ],
-  "games": 0,
-  "firstGame": null,
-  "lastGame": null
+  "games": 1,
+  "firstGame": "401911390",
+  "lastGame": "401911390"
  },
  "5292602": {
   "id": "5292602",
@@ -4233,9 +4233,9 @@
   "seasons": [
    2027
   ],
-  "games": 0,
-  "firstGame": null,
-  "lastGame": null
+  "games": 1,
+  "firstGame": "401911390",
+  "lastGame": "401911390"
  },
  "5144124": {
   "id": "5144124",
@@ -4255,9 +4255,9 @@
   "seasons": [
    2027
   ],
-  "games": 0,
-  "firstGame": null,
-  "lastGame": null
+  "games": 1,
+  "firstGame": "401911390",
+  "lastGame": "401911390"
  },
  "5175080": {
   "id": "5175080",
@@ -4277,9 +4277,9 @@
   "seasons": [
    2027
   ],
-  "games": 0,
-  "firstGame": null,
-  "lastGame": null
+  "games": 1,
+  "firstGame": "401911390",
+  "lastGame": "401911390"
  },
  "5312293": {
   "id": "5312293",
@@ -4299,8 +4299,8 @@
   "seasons": [
    2027
   ],
-  "games": 0,
-  "firstGame": null,
-  "lastGame": null
+  "games": 1,
+  "firstGame": "401911390",
+  "lastGame": "401911390"
  }
 }
