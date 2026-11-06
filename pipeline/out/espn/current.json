@@ -530,12 +530,12 @@
   ],
   "odds": {
    "provider": "DraftKings",
-   "details": "CONN -6.5",
-   "spread": 6.5,
-   "overUnder": 145.5,
+   "details": "CONN -7.5",
+   "spread": 7.5,
+   "overUnder": 144.5,
    "favorite": "away",
-   "homeML": 235,
-   "awayML": -290
+   "homeML": 245,
+   "awayML": -305
   }
  },
  "coach": [
