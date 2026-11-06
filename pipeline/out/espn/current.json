@@ -532,10 +532,10 @@
    "provider": "DraftKings",
    "details": "CONN -7.5",
    "spread": 7.5,
-   "overUnder": 144.5,
+   "overUnder": 141.5,
    "favorite": "away",
-   "homeML": 245,
-   "awayML": -305
+   "homeML": 260,
+   "awayML": -325
   }
  },
  "coach": [
