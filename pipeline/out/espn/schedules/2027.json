@@ -1,7 +1,7 @@
 {
  "season": 2027,
  "label": "2026-27",
- "wins": 1,
+ "wins": 2,
  "losses": 0,
  "games": [
   {
@@ -54,8 +54,8 @@
    "date": "2026-11-07T01:00Z",
    "timeTBD": false,
    "seasonType": 2,
-   "status": "in",
-   "statusDetail": "3:16 - 2nd Half",
+   "status": "final",
+   "statusDetail": "Final",
    "homeAway": "away",
    "neutral": true,
    "conferenceGame": false,
@@ -77,11 +77,11 @@
     "state": "MA"
    },
    "broadcast": "TNT",
-   "score": 78,
-   "oppScore": 66,
-   "result": null,
-   "ot": null,
-   "record": "1-0",
+   "score": 85,
+   "oppScore": 77,
+   "result": "W",
+   "ot": 0,
+   "record": "2-0",
    "attendance": null,
    "tickets": null,
    "has": {
@@ -126,7 +126,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "1-0",
+   "record": "2-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $7",
@@ -273,7 +273,7 @@
    "record": "1-0",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $83",
+    "summary": "Tickets as low as $80",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-t-mobile-arena-11-25-2026--sports-ncaa-basketball/production/6968793?wsUser=717"
    },
    "has": {
