@@ -54,8 +54,8 @@
    "date": "2026-11-07T01:00Z",
    "timeTBD": false,
    "seasonType": 2,
-   "status": "scheduled",
-   "statusDetail": "Fri, November 6th at 8:00 PM EST",
+   "status": "in",
+   "statusDetail": "15:32 - 1st Half",
    "homeAway": "away",
    "neutral": true,
    "conferenceGame": false,
@@ -77,23 +77,20 @@
     "state": "MA"
    },
    "broadcast": "TNT",
-   "score": null,
-   "oppScore": null,
+   "score": 10,
+   "oppScore": 7,
    "result": null,
    "ot": null,
    "record": "1-0",
    "attendance": null,
-   "tickets": {
-    "summary": "Tickets as low as $106",
-    "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-td-garden-11-6-2026--sports-ncaa-basketball/production/7006417?wsUser=717"
-   },
+   "tickets": null,
    "has": {
-    "box": false,
-    "lineup": false,
-    "plays": false,
-    "wp": false,
-    "shots": false,
-    "article": true,
+    "box": true,
+    "lineup": true,
+    "plays": true,
+    "wp": true,
+    "shots": true,
+    "article": false,
     "videos": 0
    }
   },
