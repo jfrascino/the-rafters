@@ -58,7 +58,7 @@
    "statusDetail": "Final",
    "homeAway": "away",
    "neutral": true,
-   "conferenceGame": false,
+   "conferenceGame": true,
    "note": "Hall of Fame Series - Boston",
    "opp": {
     "id": "130",
@@ -103,7 +103,7 @@
    "statusDetail": "Mon, November 9th at 7:00 PM EST",
    "homeAway": "home",
    "neutral": false,
-   "conferenceGame": false,
+   "conferenceGame": true,
    "note": null,
    "opp": {
     "id": "2681",
@@ -151,7 +151,7 @@
    "statusDetail": "Fri, November 13th at 7:30 PM EST",
    "homeAway": "home",
    "neutral": false,
-   "conferenceGame": false,
+   "conferenceGame": true,
    "note": null,
    "opp": {
     "id": "194",
@@ -177,7 +177,7 @@
    "record": "2-0",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $61",
+    "summary": "Tickets as low as $63",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-11-13-2026--sports-ncaa-basketball/production/7581913?wsUser=717"
    },
    "has": {
@@ -199,7 +199,7 @@
    "statusDetail": "Wed, November 18th at 9:00 PM EST",
    "homeAway": "away",
    "neutral": false,
-   "conferenceGame": false,
+   "conferenceGame": true,
    "note": null,
    "opp": {
     "id": "12",
@@ -225,7 +225,7 @@
    "record": "2-0",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $92",
+    "summary": "Tickets as low as $96",
     "url": "https://www.vividseats.com/arizona-wildcats-mens-basketball-tickets-mckale-center-11-18-2026--sports-ncaa-basketball/production/7155321?wsUser=717"
    },
    "has": {
@@ -247,7 +247,7 @@
    "statusDetail": "Wed, November 25th at 7:00 PM EST",
    "homeAway": "away",
    "neutral": true,
-   "conferenceGame": false,
+   "conferenceGame": true,
    "note": null,
    "opp": {
     "id": "150",
@@ -295,7 +295,7 @@
    "statusDetail": "Mon, November 30th at 6:30 PM EST",
    "homeAway": "home",
    "neutral": false,
-   "conferenceGame": false,
+   "conferenceGame": true,
    "note": null,
    "opp": {
     "id": "2520",
@@ -343,7 +343,7 @@
    "statusDetail": "Fri, December 4th at 7:00 PM EST",
    "homeAway": "away",
    "neutral": true,
-   "conferenceGame": false,
+   "conferenceGame": true,
    "note": "Bad Boy Mowers Series",
    "opp": {
     "id": "356",
@@ -391,7 +391,7 @@
    "statusDetail": "Tue, December 8th at 7:00 PM EST",
    "homeAway": "home",
    "neutral": false,
-   "conferenceGame": false,
+   "conferenceGame": true,
    "note": null,
    "opp": {
     "id": "2400",
