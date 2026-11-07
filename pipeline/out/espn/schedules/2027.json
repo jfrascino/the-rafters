@@ -55,7 +55,7 @@
    "timeTBD": false,
    "seasonType": 2,
    "status": "in",
-   "statusDetail": "3:45 - 1st Half",
+   "statusDetail": "Halftime",
    "homeAway": "away",
    "neutral": true,
    "conferenceGame": false,
@@ -77,7 +77,7 @@
     "state": "MA"
    },
    "broadcast": "TNT",
-   "score": 34,
+   "score": 43,
    "oppScore": 30,
    "result": null,
    "ot": null,
