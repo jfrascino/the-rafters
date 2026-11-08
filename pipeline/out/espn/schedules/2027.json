@@ -138,7 +138,7 @@
     "plays": false,
     "wp": false,
     "shots": false,
-    "article": false,
+    "article": true,
     "videos": 0
    }
   },
