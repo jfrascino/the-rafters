@@ -1,4 +1,4 @@
-import { esc, load, tryLoad, logo, headshot, fmtDate, n1, n0, pct, statTable, bindTips, tip, FINISH, finishPill } from '../ui.js';
+import { esc, isInProgress, load, tryLoad, logo, headshot, fmtDate, n1, n0, pct, statTable, bindTips, tip, FINISH, finishPill } from '../ui.js';
 import { scatter, onResize } from '../charts.js';
 
 export default async function numbers(main, args, core) {
@@ -25,13 +25,13 @@ export default async function numbers(main, args, core) {
       </div>`;
     },
     () => {
-      const rows = core.seasons.map((s) => ({ ...s, pctv: s.w / (s.w + s.l), marg: s.ppg && s.oppg ? s.ppg - s.oppg : null, fr: FINISH[s.finish]?.rank || 0 }));
+      const rows = core.seasons.map((s) => ({ ...s, inProgress: isInProgress(core, s), pctv: s.w / (s.w + s.l), marg: s.ppg && s.oppg ? s.ppg - s.oppg : null, fr: FINISH[s.finish]?.rank || 0 }));
       const t = statTable([
-        { k: 'y', label: 'Season', l: true, html: (r) => `<a href="#/season/${r.y}">${esc(r.label)}</a>` }, { k: 'coach', label: 'Coach', l: true },
+        { k: 'y', label: 'Season', l: true, html: (r) => `<a href="#/season/${r.y}">${esc(r.label)}</a>${r.inProgress ? ' <span class="muted" style="font-size:12px">in progress</span>' : ''}` }, { k: 'coach', label: 'Coach', l: true },
         { k: 'w', label: 'W', heat: 1 }, { k: 'l', label: 'L' }, { k: 'pctv', label: 'Win%', fmt: (v) => (v * 100).toFixed(1) }, { k: 'cw', label: 'Conf', html: (r) => (r.cw != null ? `${r.cw}–${r.cl}` : '–'), get: (r) => r.cw },
         { k: 'ppg', label: 'PPG', fmt: n1 }, { k: 'oppg', label: 'OPP', fmt: n1 }, { k: 'marg', label: 'Margin', fmt: (v) => (v == null ? '–' : (v > 0 ? '+' : '') + v.toFixed(1)), heat: 1 },
         { k: 'srs', label: 'SRS', fmt: n1, title: 'Simple Rating System' }, { k: 'sos', label: 'SOS', fmt: n1, title: 'Strength of schedule' }, { k: 'ortg', label: 'ORtg', fmt: n1 }, { k: 'drtg', label: 'DRtg', fmt: n1 }, { k: 'pace', label: 'Pace', fmt: n1 },
-        { k: 'apPre', label: 'AP Pre' }, { k: 'apFinal', label: 'AP Final' }, { k: 'seed', label: 'Seed' }, { k: 'fr', label: 'Finish', l: true, html: (r) => finishPill(r.finish) },
+        { k: 'apPre', label: 'AP Pre' }, { k: 'apFinal', label: 'AP Final', html: (r) => (r.inProgress ? '–' : esc(r.apFinal ?? '')) }, { k: 'seed', label: 'Seed' }, { k: 'fr', label: 'Finish', l: true, html: (r) => (r.inProgress && (!r.finish || r.finish === 'none') ? '<span class="pill ice">In progress</span>' : finishPill(r.finish)) },
       ], rows.reverse(), { sort: 'y' });
       pane.innerHTML = t.html; t.bind(pane);
     },

@@ -1,4 +1,4 @@
-import { esc, load, tryLoad, logo, UCONN, fmtDate, fmtTime, fmtDay, n1, statTable, bindTips, tip, videoCard, bindVideos, headshot, openMp4 } from '../ui.js';
+import { esc, isInProgress, load, tryLoad, logo, UCONN, fmtDate, fmtTime, fmtDay, n1, statTable, bindTips, tip, videoCard, bindVideos, headshot, openMp4 } from '../ui.js';
 import { winProb, flow, shotChart, onResize } from '../charts.js';
 import { watch, nearTip } from '../live.js';
 
@@ -6,10 +6,12 @@ export default async function game(main, args, core) {
   const id = args[0] || '';
   const y = +id.split('-')[0];
   const [season, bundle] = await Promise.all([load(`seasons/${y}.json`), tryLoad(`games/${y}.json`)]);
+  const sumRow = core.seasons?.find((x) => x.y === y);
   const gi = season.games.findIndex((g) => g.id === id);
   const g = season.games[gi];
   if (!g) throw new Error(`No game ${id}`);
-  const d = bundle?.[id] || null;
+  // an unfinished game never shows a box score, even if a partial one was published mid-game: it gets the pregame/live view
+  const d = g.res ? (bundle?.[id] || null) : null;
   const prev = season.games[gi - 1], next = season.games[gi + 1];
   const U = d?.teams?.[0] || { ...UCONN, score: g.pts };
   const O = d?.teams?.[1] || { ...g.opp, score: g.opp_pts };
@@ -39,7 +41,9 @@ export default async function game(main, args, core) {
   </div></section>
   <div id="gbody"></div>`;
 
-  const moments = (season.story?.moments || []).filter((m) => m.date && m.date.slice(0, 10) === g.date.slice(0, 10));
+  // Key moments were written before the season: in an in-progress season they read as previews, so skip the box
+  const inProg = !!(isInProgress(core, sumRow) || season.inProgress || (y === core.current?.season && season.games.some((x) => !x.res)));
+  const moments = inProg ? [] : (season.story?.moments || []).filter((m) => m.date && m.date.slice(0, 10) === g.date.slice(0, 10));
   if (moments.length) main.querySelector('#gbody').insertAdjacentHTML('beforebegin', `<section class="section" style="padding-bottom:0"><div class="wrap grid" style="gap:14px">${moments.map((m) => `
     <div class="panel otd" style="border-color:rgba(227,189,110,.4);background:linear-gradient(170deg,#2a2210,#10172b 70%)"><span class="eyebrow gold">The moment</span><h2 class="h2" style="font-size:clamp(26px,3vw,40px)">${esc(m.title)}</h2>${m.text ? `<p class="lede" style="font-size:17px">${esc(m.text)}</p>` : ''}</div>`).join('')}</div></section>`);
   const body = main.querySelector('#gbody');
@@ -213,14 +217,19 @@ function topPerformers(U, O) {
 function boxTable(t, isU) {
   const ps = (t.players || []).filter((p) => !p.dnp);
   const who = { k: 'name', label: 'Player', l: true, html: (r) => r.pid && isU ? `<a class="who" href="#/player/${esc(r.pid)}">${headshot(r)}<span>${esc(r.name)}${r.starter ? '' : ''}</span></a>` : `<span class="who">${esc(r.name)}${r.pos ? ` <span class="muted">${esc(r.pos)}</span>` : ''}</span>` };
-  const sh = (m, a) => ({ k: m, label: m === 'fgm' ? 'FG' : m === 'tpm' ? '3PT' : 'FT', html: (r) => (r[a] != null ? `${r[m] ?? 0}-${r[a]}` : '–'), get: (r) => r[m] });
+  const sh = (m, a) => ({ k: m, label: m === 'fgm' ? 'FG' : m === 'tpm' ? '3PT' : 'FT', html: (r) => (r[a] != null ? `${r[m] ?? 0}-${r[a]}` : r.teamRow ? '' : '–'), get: (r) => r[m] });
   const tot = {};
   ['min', 'pts', 'fgm', 'fga', 'tpm', 'tpa', 'ftm', 'fta', 'oreb', 'reb', 'ast', 'stl', 'blk', 'to', 'pf'].forEach((k) => { tot[k] = ps.some((p) => p[k] != null) ? ps.reduce((a, p) => a + (+p[k] || 0), 0) : null; });   // a stat nobody has (no 3-point line before 1986-87) stays blank
   tot.name = 'Team'; tot.min = tot.min ? Math.round(tot.min) : '';
   const cols = [who, { k: 'st', label: 'GS', get: (r) => (r.starter ? '•' : ''), html: (r) => (r.starter ? '<span style="color:var(--gold)">●</span>' : '') }, { k: 'min', label: 'MIN' }, { k: 'pts', label: 'PTS', heat: 1 },
     sh('fgm', 'fga'), sh('tpm', 'tpa'), sh('ftm', 'fta'), { k: 'oreb', label: 'OREB' }, { k: 'reb', label: 'REB', heat: 1 }, { k: 'ast', label: 'AST', heat: 1 },
     { k: 'stl', label: 'STL' }, { k: 'blk', label: 'BLK' }, { k: 'to', label: 'TO' }, { k: 'pf', label: 'PF' }];
-  return statTable(cols, ps, { total: { ...tot, name: 'Totals' }, ...(t.boxSource === 'newspaper' ? { hideEmpty: true, hiddenLabel: 'Not in this box score' } : {}) });
+  // Team rebounds / turnovers aren't credited to a player: when the team line is higher than the player sums, show the difference as a Team row
+  const tr = (k) => { const v = t.stats?.[k] == null ? NaN : +t.stats[k]; return Number.isFinite(v) && tot[k] != null && v > tot[k] ? v - tot[k] : null; };
+  const teamRow = { name: 'Team', teamRow: true, reb: tr('reb'), to: tr('to') };
+  const hasTeam = teamRow.reb != null || teamRow.to != null;
+  if (hasTeam) { ['reb', 'to'].forEach((k) => { if (teamRow[k] != null) tot[k] += teamRow[k]; }); }
+  return statTable(cols, ps, { total: hasTeam ? [teamRow, { ...tot, name: 'Totals' }] : { ...tot, name: 'Totals' }, ...(t.boxSource === 'newspaper' ? { hideEmpty: true, hiddenLabel: 'Not in this box score' } : {}) });
 }
 
 function compareRows(U, O) {

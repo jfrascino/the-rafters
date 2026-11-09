@@ -5,11 +5,14 @@ import { playerCard } from './season.js';
 export default async function player(main, args, core) {
   const p = await load(`players/${args[0]}.json`);
   const uc = p.seasons.filter((s) => s.uconn !== false);
-  const last = uc.at(-1) || {};
+  const last = uc.filter((s) => !s.out).at(-1) || uc.at(-1) || {};   // a redshirt year isn't the player's latest line
+  // a season he sat out (medical redshirt) isn't part of his span: "2023–26", not "2023–27"
+  const playedUc = uc.filter((s) => !s.out && s.g !== 0);
+  const span = uc.some((s) => s.out) && playedUc.length ? `${playedUc[0].y - 1}–${String(playedUc.at(-1).y).slice(2)}` : p.span;
   const champYears = uc.filter((s) => s.finish === 'champ').map((s) => s.y);
   const c = p.career || {};
   const logs = p.gamelog || [];
-  const card = { ...last, years: uc.map((s) => s.y), name: p.name, pid: p.id, photo: p.photo, photoWide: p.photoWide, photoPos: p.photoPos, photoStudio: p.photoStudio, num: p.num ?? last.num, pos: p.pos, cls: p.span, ht: p.ht, home: p.home, hs: p.hs, wt: p.wt,
+  const card = { ...last, years: uc.map((s) => s.y), name: p.name, pid: p.id, photo: p.photo, photoWide: p.photoWide, photoPos: p.photoPos, photoStudio: p.photoStudio, num: p.num ?? last.num, pos: p.pos, cls: span, ht: p.ht, home: p.home, hs: p.hs, wt: p.wt,
     pg: { g: c.g, mp: c.mp_pg, pts: c.pts_pg, trb: c.trb_pg, ast: c.ast_pg, stl: c.stl_pg, blk: c.blk_pg, fg_pct: c.fg_pct, fg3_pct: c.fg3_pct, ft_pct: c.ft_pct } };
   const best = [...logs].filter((g) => g.pts != null).sort((a, b) => b.pts - a.pts || b.reb - a.reb).slice(0, 10);
   const tourney = logs.filter((g) => g.type === 'NCAA');
@@ -21,7 +24,7 @@ export default async function player(main, args, core) {
       <div style="display:grid;gap:8px">${playerCard(card, champYears.length > 0, null, { self: true })}
         ${p.photoCredit && (p.photoCredit.credit || p.photoCredit.license) ? `<p class="note">Photo: ${esc(p.photoCredit.credit || '')}${p.photoCredit.license ? ` · ${esc(p.photoCredit.license)}` : ''}${p.photoCredit.source ? ` · <a href="${esc(p.photoCredit.source)}" target="_blank" rel="noopener" style="text-decoration:underline">source</a>` : ''}</p>` : ''}</div>
       <div class="p-info">
-        <span class="eyebrow ${champYears.length ? 'gold' : ''}">${esc(p.span)} · ${esc(p.pos || '')}${champYears.length ? ` · ${champYears.length > 1 ? champYears.length + '× ' : ''}national champion` : ''}</span>
+        <span class="eyebrow ${champYears.length ? 'gold' : ''}">${esc(span)} · ${esc(p.pos || '')}${champYears.length ? ` · ${champYears.length > 1 ? champYears.length + '× ' : ''}national champion` : ''}</span>
         <h1 class="h-display" style="font-size:clamp(46px,7.5vw,112px)">${esc(p.name)}</h1>
         <div class="p-bio">${[['HT', p.ht], ['WT', p.wt ? p.wt + ' lb' : ''], ['Home', p.home], ['HS', p.hs], ['Born', p.born]].filter(([, v]) => v).map(([k, v]) => `<span><b>${k}</b>${esc(v)}</span>`).join('')}</div>
         ${p.honors?.length ? `<div class="honor-list">${p.honors.map((h) => `<span class="pill ${/champion|all-america|\bAA\b|POY|MOP|player of the year|most outstanding/i.test(h) ? 'ff' : ''}">${esc(h)}</span>`).join('')}</div>` : ''}
@@ -89,7 +92,7 @@ export default async function player(main, args, core) {
 
   const arcEl = main.querySelector('#arc');
   if (arcEl) {
-    const rows = uc.map((s) => ({ tag: `'${String(s.y).slice(2)}`, pts: s.pts, trb: s.trb, ast: s.ast, champ: s.finish === 'champ' }));
+    const rows = uc.filter((s) => !s.out).map((s) => ({ tag: `'${String(s.y).slice(2)}`, pts: s.pts, trb: s.trb, ast: s.ast, champ: s.finish === 'champ' }));
     const d = () => arc(arcEl, rows, [{ k: 'pts', label: 'POINTS' }, { k: 'trb', label: 'REBOUNDS' }, { k: 'ast', label: 'ASSISTS' }]);
     d(); offs.push(onResize(arcEl, d));
   }
@@ -101,7 +104,7 @@ export default async function player(main, args, core) {
     { k: 'pts', label: 'PTS', fmt: n1, heat: 1 }, { k: 'trb', label: 'REB', fmt: n1, heat: 1 }, { k: 'ast', label: 'AST', fmt: n1, heat: 1 },
     { k: 'stl', label: 'STL', fmt: n1 }, { k: 'blk', label: 'BLK', fmt: n1 }, { k: 'fg_pct', label: 'FG%', fmt: pct }, { k: 'fg3_pct', label: '3P%', fmt: pct }, { k: 'ft_pct', label: 'FT%', fmt: pct },
     { k: 'per', label: 'PER', fmt: n1, get: (r) => r.adv?.per }, { k: 'ws', label: 'WS', fmt: n1, get: (r) => r.adv?.ws },
-  ], p.seasons, { total: { label: 'UConn career', school: '', g: c.g, gs: c.gs, mp: c.mp_pg, pts: c.pts_pg, trb: c.trb_pg, ast: c.ast_pg, stl: c.stl_pg, blk: c.blk_pg, fg_pct: c.fg_pct, fg3_pct: c.fg3_pct, ft_pct: c.ft_pct, adv: { ws: c.ws } } });
+  ], p.seasons.map((s) => (s.out ? { ...s, rowNote: `${String(s.out.note || 'Out for the season').replace(/\s*\(.*?\)\s*/g, ' ').trim()} · did not play` } : s)), { noteAfter: 3, total: { label: 'UConn career', school: '', g: c.g, gs: c.gs, mp: c.mp_pg, pts: c.pts_pg, trb: c.trb_pg, ast: c.ast_pg, stl: c.stl_pg, blk: c.blk_pg, fg_pct: c.fg_pct, fg3_pct: c.fg3_pct, ft_pct: c.ft_pct, adv: { ws: c.ws } } });
   const stEl = main.querySelector('#seasTbl'); stEl.innerHTML = st.html + partialNote(c.partial, core.seasons); st.bind(stEl);
 
   const logCols = [
