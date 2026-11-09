@@ -531,8 +531,8 @@
   ],
   "odds": {
    "provider": "DraftKings",
-   "details": "CONN -38.5",
-   "spread": -38.5,
+   "details": "CONN -37.5",
+   "spread": -37.5,
    "overUnder": 140.5,
    "favorite": "home",
    "homeML": null,
