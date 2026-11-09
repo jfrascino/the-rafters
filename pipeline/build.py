@@ -951,6 +951,35 @@ STATMAP = {'Field Goal %': 'fg_pct', 'Three Point %': 'tp_pct', 'Free Throw %': 
            'Steals': 'stl', 'Blocks': 'blk', 'Total Turnovers': 'to', 'Points in Paint': 'paint', 'Fast Break Points': 'fast', 'Points Off Turnovers': 'pot', 'Largest Lead': 'lead', 'Fouls': 'pf'}
 
 
+OFFICIAL_NAMES = {norm(r['name']): r['name'] for r in ((jload(os.path.join(M, 'verify_current.json'), {}) or {}).get('official_roster') or []) if r.get('name')}
+
+
+def clean_story(txt):
+    """AP game stories: drop the footer after a dashes-only line (correction note, "Sign up for Top 25 poll alerts") and tidy the doubled dateline
+    ("BOSTON -- — " -> "BOSTON — "). Dashes also separate real sections in some older stories, so only a short tail that reads like a footer is cut."""
+    if not txt:
+        return txt
+    # Work back from the end, one dashes-delimited section at a time: drop paragraphs that are AP boilerplate or
+    # correction notes; stop at the first section that still has real text ("Up next" often sits between dashes).
+    foot = re.compile(r'(?i)sign up|apnews\.com|\bap\.org|twitter\.com/ap|previous version of this story|story has been corrected|'
+                      r'more ap college|for more ap|poll alerts|ap march madness coverage|follow ap')
+    segs = re.split(r'(?m)^[ \t\r]*-{3,}[ \t\r]*$', txt)
+    if len(segs) > 1:
+        cut = False
+        while len(segs) > 1:
+            paras = re.split(r'\n\s*\n', segs[-1])
+            keep = [p for p in paras if not (foot.search(p) and len(re.sub(r'<[^>]+>', '', p).strip()) < 400)]
+            if any(p.strip() for p in keep):
+                if len(keep) != len(paras):
+                    segs[-1], cut = '\n\n'.join(keep), True
+                break
+            segs.pop()
+            cut = True
+        if cut:   # a story with no footer keeps its dashes exactly as published
+            txt = '\n\n'.join(s.strip() for s in segs if s.strip())
+    return re.sub(r'^([A-Z][A-Za-z.,\' -]{2,40}?)\s+--\s+—\s+', r'\1 — ', txt)
+
+
 def espn_team_block(t, y, is_uc, sr_row=None):
     stats = {}
     for k, v in (t.get('stats') or {}).items():
@@ -963,6 +992,8 @@ def espn_team_block(t, y, is_uc, sr_row=None):
         q = {k: p.get(k) for k in ('name', 'pos', 'starter', 'dnp', 'min', 'pts', 'fgm', 'fga', 'tpm', 'tpa', 'ftm', 'fta', 'oreb', 'dreb', 'reb', 'ast', 'stl', 'blk', 'to', 'pf')}
         q['num'] = p.get('jersey')
         if is_uc:
+            if y == max(espn_sched):   # the season's box scores spell names the way UConn's official roster does ("Džafic", not ESPN's "Dzafic")
+                q['name'] = OFFICIAL_NAMES.get(norm(q.get('name')), q.get('name'))
             pid = pid_for_espn(str(p.get('id')), p.get('name'), y)
             q['pid'] = pid
             q['photo'] = photo_for.get(pid) or p.get('headshot')
@@ -1109,7 +1140,8 @@ def finish_for(games):
         r = last.get('r', len(ncaa) - 1)
         if r == 5:
             return 'champ' if last['res'] == 'W' else 'runner'
-        return ['r64', 'r32', 'sweet16', 'elite8', 'final4'][r] if last['res'] == 'L' else ['r64', 'r32', 'sweet16', 'elite8', 'final4'][r]
+        # a loss ends the run in round r; a win (mid-tournament) means the team has reached the next round
+        return ['r64', 'r32', 'sweet16', 'elite8', 'final4', 'runner'][r if last['res'] == 'L' else r + 1]
     if any(g['type'] == 'NIT' for g in games):
         return 'nit'
     return 'none'
@@ -1117,6 +1149,7 @@ def finish_for(games):
 
 PLAYER_SEASONS = collections.defaultdict(list)   # pid → [season rows]
 SEASON_PHOTOS = collections.defaultdict(list)    # year → ESPN game-story photos (credited, hotlinked)
+OUT_FOR = jload(os.path.join(HERE, 'out_for_season.json'), {}) or {}   # {year: {pid: {note, source}}} players out for the whole season
 EXHIBITIONS = {}                                   # year → exhibition games (never counted in records)
 SEEN_PHOTOS = set()
 PLAYER_GAMES = collections.defaultdict(list)     # pid → [game log rows]
@@ -1147,7 +1180,7 @@ def espn_only_games(y):
         final = (e.get('status') or e0.get('status')) == 'final'
         g = {'g': i + 1, 'date': et_date(e0['date']), 'iso': e0['date'], 'type': typ, 'ha': ha, 'opp': opp_t, 'opp_rank': (o or {}).get('rank') if o and (o.get('rank') or 99) < 99 else (e0.get('opponent') or {}).get('rank'),
              'arena': (e.get('venue') or {}).get('name') or (e0.get('venue') or {}).get('name') if isinstance(e0.get('venue'), dict) else e0.get('venue'), 'round': note or None, 'espn': e or None,
-             'tv': ', '.join(e.get('broadcasts') or []) or e0.get('broadcast') or None, 'timeTBD': e0.get('timeTBD') or e.get('timeTBD'), 'eid': str(e0['id'])}
+             'tv': ', '.join(e.get('broadcasts') or []) or e0.get('broadcast') or None, 'timeTBD': e0.get('timeTBD') or e.get('timeTBD'), 'eid': str(e0['id']), 'conf': bool(e0.get('conferenceGame'))}
         if final and u and o:
             g.update({'res': 'W' if num(u['score']) > num(o['score']) else 'L', 'pts': num(u['score']), 'opp_pts': num(o['score']), 'ot': (f"{e.get('ot')}OT" if (e.get('ot') or 0) > 1 else 'OT') if e.get('ot') else None})
         out.append(g)
@@ -1172,7 +1205,9 @@ def espn_only_games(y):
         if o_.get('event') and not g.get('round'):
             g['round'] = o_['event']
     EXHIBITIONS[y] = [{'date': o['date'], 'iso': o.get('utc'), 'opp': o.get('opponent'), 'ha': o.get('site'), 'arena': ', '.join(x for x in [o.get('venue'), o.get('city')] if x),
-                       'tv': o.get('tv'), 'event': o.get('event'), 'time': o.get('local_time')} for o in offs if o.get('exhibition')]
+                       'tv': o.get('tv'), 'event': o.get('event'), 'time': o.get('local_time'),
+                       **({'res': o['result']['res'], 'pts': o['result']['pts'], 'opp_pts': o['result']['opp_pts'], 'box': o['result'].get('box')}
+                          if (o.get('result') or {}).get('res') else {})} for o in offs if o.get('exhibition')]
     w = 0
     l = 0
     for g in out:
@@ -1252,7 +1287,8 @@ for y in years:
             row['eid'] = g['eid']
         # ── detail
         det = None
-        if e and e.get('teams') and any(pl.get('pts') is not None for t in e['teams'] for pl in (t.get('players') or [])):
+        if e and e.get('teams') and any(pl.get('pts') is not None for t in e['teams'] for pl in (t.get('players') or [])) \
+                and not (y == current_season and not g.get('res')):   # ESPN's partial mid-game box stays out until the game is final
             u, o = uc_opp(e)
             uc_home = (u or {}).get('homeAway') == 'home'
             U = espn_team_block(u, y, True)
@@ -1274,7 +1310,7 @@ for y in years:
                    'odds': e.get('odds'), 'espnId': e.get('id')}
             if e.get('article') and e['article'].get('story'):
                 a = e['article']
-                det['article'] = {'headline': a.get('headline'), 'story': a.get('story'), 'byline': a.get('source'),
+                det['article'] = {'headline': a.get('headline'), 'story': clean_story(a.get('story')), 'byline': a.get('source'),
                                   'images': [im for im in (a.get('images') or []) if im.get('url')][:3]}
             det['videos'] = espn_videos(e)
             for im in (e.get('article') or {}).get('images') or []:
@@ -1323,6 +1359,8 @@ for y in years:
         if det:
             det['teams'][0]['rank'] = det['teams'][0].get('rank')
             det['teams'][1]['rank'] = det['teams'][1].get('rank') or g.get('opp_rank')
+            if isinstance(g.get('tv'), str) and g['tv']:
+                det['tv'] = g['tv']   # the official schedule's TV string (ESPN's box lists only part of it)
             vids = vids_for_game(y, g['date'], g['opp']['name'])
             det['videos'] = vids + det.get('videos', [])
             details[gid] = det
@@ -1575,13 +1613,15 @@ for y in years:
                 item['pg'] = {k: (round(v, 3) if isinstance(v, float) else v) for k, v in item['pg'].items()}
                 item['tot'] = {'g': n, 'mp': A['min'], 'pts': A['pts'], 'fg': A['fgm'], 'fga': A['fga'], 'fg3': A['tpm'], 'fg3a': A['tpa'], 'ft': A['ftm'], 'fta': A['fta'], 'orb': A['oreb'],
                                'trb': A['reb'], 'ast': A['ast'], 'stl': A['stl'], 'blk': A['blk'], 'tov': A['to'], 'pf': A['pf']}
+            if (OUT_FOR.get(str(y)) or {}).get(pid):
+                item['out'] = {'note': OUT_FOR[str(y)][pid]['note'], 'source': OUT_FOR[str(y)][pid].get('source')}
             roster.append({k: v for k, v in item.items() if v not in (None, '')})
         if OFFICIAL_STATS.cume.get(y):   # the season in progress: UConn's official stat page settles ESPN's box-score sums
-            OFFICIAL_STATS.apply(y, roster, None)
+            OFFICIAL_STATS.apply(y, roster, None, games_played=sum(1 for g_ in games_out if g_.get('res')))
 
     for r in roster:
         if r.get('pg') or not s:
-            PLAYER_SEASONS[r['pid']].append({'y': y, **r})
+            PLAYER_SEASONS[r['pid']].append({'y': y, **r, **({'out': {'note': r['out']['note']}} if r.get('out') else {})})
 
     # ── team stats
     team = {}
@@ -1620,6 +1660,39 @@ for y in years:
                         OFFICIAL_STATS.report.setdefault('team_fixed', []).append({'y': y, 'stat': k_, 'was': team['pg'][k_], 'now': v_})
                     team['pg'][k_] = v_
 
+    elif not s:
+        # a season without Sports-Reference team data (the one in progress): sum the box scores, once every played game has one
+        gp_ = [g_ for g_ in games_out if g_.get('res')]
+        if gp_ and all(g_['id'] in details for g_ in gp_):
+            def side_(i):
+                sums_, ok_ = collections.Counter(), set(('pts', 'fg', 'fga', 'fg3', 'fg3a', 'ft', 'fta', 'trb', 'orb', 'ast', 'stl', 'blk', 'tov', 'pf'))
+                for g_ in gp_:
+                    tb_ = details[g_['id']]['teams'][i]
+                    st_ = tb_.get('stats') or {}
+                    ps_ = [q for q in tb_.get('players') or [] if not q.get('dnp')]
+                    sums_['pts'] += tb_.get('score') or 0
+                    for k_, f_ in (('fg', 'fgm'), ('fga', 'fga'), ('fg3', 'tpm'), ('fg3a', 'tpa'), ('ft', 'ftm'), ('fta', 'fta')):
+                        if any(q.get(f_) is None for q in ps_):
+                            ok_.discard(k_)
+                        sums_[k_] += sum(q.get(f_) or 0 for q in ps_)
+                    # team rebounds and turnovers include the team's own (not credited to a player), so the team stat line settles them
+                    for k_, f_, pk_ in (('trb', 'reb', 'reb'), ('orb', 'oreb', 'oreb'), ('ast', 'ast', 'ast'), ('stl', 'stl', 'stl'), ('blk', 'blk', 'blk'), ('tov', 'to', 'to'), ('pf', 'pf', 'pf')):
+                        if st_.get(f_) is not None:
+                            sums_[k_] += st_[f_]
+                        elif ps_ and all(q.get(pk_) is not None for q in ps_):
+                            sums_[k_] += sum(q[pk_] for q in ps_)
+                        else:
+                            ok_.discard(k_)
+                n_ = len(gp_)
+                out_ = {'pts': sums_['pts'] / n_, 'fg_pct': sums_['fg'] / sums_['fga'] if sums_['fga'] else None, 'fg3_pct': sums_['fg3'] / sums_['fg3a'] if sums_['fg3a'] else None,
+                        'fg3': sums_['fg3'] / n_, 'ft_pct': sums_['ft'] / sums_['fta'] if sums_['fta'] else None, 'ft': sums_['ft'] / n_}
+                for k_ in ('trb', 'orb', 'ast', 'stl', 'blk', 'tov', 'pf'):
+                    out_[k_] = sums_[k_] / n_
+                dep_ = {'fg_pct': 'fg', 'fg3_pct': 'fg3', 'fg3': 'fg3', 'ft_pct': 'ft', 'ft': 'ft'}
+                return {k_: (round(v_, 3) if k_.endswith('pct') else round(v_, 1)) for k_, v_ in out_.items()
+                        if v_ is not None and dep_.get(k_, k_) in ok_}
+            team = {'pg': side_(0), 'opp': side_(1)}
+
     # ── polls
     polls = []
     for p in (s or {}).get('polls', []) or []:
@@ -1646,6 +1719,10 @@ for y in years:
     ms = media_by_year.get(y, {})
     rec_cw = meta.get('conf_wins')
     rec_cl = meta.get('conf_losses')
+    if rec_cw is None and not s:   # no Sports-Reference meta: count ESPN's conference-game flag over regular-season games played
+        cg_ = [g_ for g_ in raw_games if g_.get('conf') and g_.get('res') and g_['type'] == 'REG']
+        if cg_:
+            rec_cw, rec_cl = sum(g_['res'] == 'W' for g_ in cg_), sum(g_['res'] == 'L' for g_ in cg_)
     confname = meta.get('conference') or (si.get('conf_abbr'))
     if not s and y == current_season:
         confname = 'Big East'
@@ -1695,6 +1772,13 @@ for y in years:
             season_obj['ortg'] = round(100 * tt['pts'] / p, 1)
             season_obj['drtg'] = round(100 * ot['opp_pts'] / p, 1)
             season_obj['effEst'] = True
+    if not s and y == current_season:
+        # the season in progress: the preseason AP rank from the poll history, and the in-progress flag (a game remains, or before April 10)
+        pre_ = next((r_ for r_ in ((jload(os.path.join(OUT, 'hub', 'polls_history.json'), {}) or {}).get(str(y)) or {}).get('ap', []) if r_.get('date', '9') < f'{y - 1}-11-01'), None)
+        if season_obj['apPre'] is None and pre_ and pre_.get('rank'):
+            season_obj['apPre'] = pre_['rank']
+        if any(not g_.get('res') for g_ in games_out) or datetime.date.today() < datetime.date(y, 4, 10):
+            season_obj['inProgress'] = True
     if not s and played:
         season_obj['ppg'] = round(sum(g['pts'] for g in played) / len(played), 1)
         season_obj['oppg'] = round(sum(g['opp_pts'] for g in played) / len(played), 1)
@@ -1713,7 +1797,7 @@ for y in years:
         'apPre': season_obj['apPre'], 'apHigh': season_obj['apHigh'], 'apFinal': ap_final, 'srs': season_obj['srs'], 'sos': season_obj['sos'], 'ortg': season_obj['ortg'], 'drtg': season_obj['drtg'],
         'effEst': season_obj.get('effEst'), 'pace': season_obj['pace'], 'ppg': season_obj['ppg'], 'oppg': season_obj['oppg'], 'headline': story.get('headline'), 'ncaaW': ncaaW, 'ncaaL': ncaaL, 'leaders': lead,
         'spark': [g['pts'] - g['opp_pts'] for g in played], 'mop': (legends.get('mop') or {}).get(str(y)) or MOP.get(y) if finish == 'champ' else None,
-        'future': not played, 'officialRec': vac['official'] if vac else None,
+        'future': not played, 'inProgress': season_obj.get('inProgress'), 'officialRec': vac['official'] if vac else None,
     }.items() if v is not None and v != {}})
     if ncaa_games:
         MARCH.append({'y': y, 'seed': seed, 'region': region, 'coach': coach, 'rec': f'{w}–{l}', 'games': [
@@ -1735,7 +1819,8 @@ for pid, rows in PLAYER_SEASONS.items():
         p = r.get('pg') or {}
         uc_rows.append({'y': r['y'], 'label': label(r['y']), 'school': 'UConn', 'uconn': True, 'cls': r.get('cls'), 'num': r.get('num'), 'g': p.get('g'), 'gs': p.get('gs'), 'mp': p.get('mp'),
                         'pts': p.get('pts'), 'trb': p.get('trb'), 'ast': p.get('ast'), 'stl': p.get('stl'), 'blk': p.get('blk'), 'fg_pct': p.get('fg_pct'), 'fg3_pct': p.get('fg3_pct'),
-                        'ft_pct': p.get('ft_pct'), 'adv': r.get('adv'), 'finish': season_finish.get(r['y']), 'tot': r.get('tot')})
+                        'ft_pct': p.get('ft_pct'), 'adv': r.get('adv'), 'finish': season_finish.get(r['y']), 'tot': r.get('tot'),
+                        **({'out': r['out']} if r.get('out') else {})})
     # other schools from the SR player page (transfers in/out)
     other = []
     for tr in ((srp.get('tables') or {}).get('players_per_game') or {}).get('rows', []) or []:
@@ -1792,7 +1877,7 @@ for pid, rows in PLAYER_SEASONS.items():
     career = {k: (round(v, 3) if isinstance(v, float) else v) for k, v in career.items() if v is not None}
     for r in all_rows:
         r.pop('tot', None)
-    yrs = [r['y'] for r in uc_rows]
+    yrs = [r['y'] for r in uc_rows if not r.get('out')] or [r['y'] for r in uc_rows]   # a season out entirely (medical redshirt) isn't part of the span
     span = f"{yrs[0] - 1}–{str(yrs[-1])[2:]}" if len(yrs) > 1 else label(yrs[0])
     bio = srp.get('bio') or {}
     bl = srp.get('bling') or []
@@ -1846,10 +1931,12 @@ def rank_map(key):
 
 RANKS = {k: rank_map(k) for k in ('pts', 'trb', 'ast', 'blk', 'stl')}
 core_players = []
+PLAYER_FILES = set()
 for player, uc_rows in PLAYERS:
     part = player['career'].get('partial') or {}   # a partial total is only a floor, so it gets no rank of its own
     player['ranks'] = {k: RANKS[k].get(player['id']) for k in RANKS if RANKS[k].get(player['id']) and k not in part}
     jdump(os.path.join(SITE, 'players', f"{player['id']}.json"), {k: v for k, v in player.items() if v not in (None, [], '')})
+    PLAYER_FILES.add(f"{player['id']}.json")
     c = player['career']
     first, last_n = player['name'].split(' ', 1) if ' ' in player['name'] else ('', player['name'])
     core_players.append({k: v for k, v in {
@@ -1861,6 +1948,12 @@ for player, uc_rows in PLAYERS:
         'fg_pct': c.get('fg_pct'), 'fg3_pct': c.get('fg3_pct'), 'ft_pct': c.get('ft_pct'),
         'champ': any(r.get('finish') == 'champ' for r in uc_rows), 'draft': player['draft'], 'honors': [h for h in player['honors'] if re.search(r'\bAA\b|All-America|POY|MOP', h)],
     }.items() if v not in (None, [], '')})
+
+# player files this build didn't write are orphans (renamed or merged ids): remove them
+_orph = [f for f in os.listdir(os.path.join(SITE, 'players')) if f.endswith('.json') and f not in PLAYER_FILES]
+for f in _orph:
+    os.remove(os.path.join(SITE, 'players', f))
+print(f'orphan player files removed: {len(_orph)}' + (f' ({", ".join(sorted(_orph)[:15])})' if _orph else ''))
 
 # ───────────────────────── Leaders ─────────────────────────
 def board(rows, key, n=10, sub=None, minv=None):
@@ -1912,6 +2005,8 @@ for g in GAMES_INDEX:
 
 # UConn's official all-time series record vs each opponent (record book series pages, through last season)
 SERIES = (jload(os.path.join(OUT, 'official', 'series_records.json'), {}) or {}).get('series') or {}
+_sm = re.search(r'through (\d{4})-(\d{2})', (jload(os.path.join(OUT, 'official', 'series_records.json'), {}) or {}).get('_source') or '')
+SERIES_THROUGH = int(_sm.group(1)[:2] + _sm.group(2)) if _sm else 2026   # 2025-26 -> 2026 (a season's key year is its ending year)
 SERIES_N = {re.sub(r'[^a-z]', '', norm(k)): v for k, v in SERIES.items()}
 SERIES_ALIAS = {'TCU': 'Texas Christian', 'VCU': 'Virginia Commonwealth', 'LSU': 'Louisiana State', 'UCLA': 'Cal - Los Angeles (UCLA)', 'NC State': 'North Carolina State',
                 'Miami': 'Miami (Fla.)', 'BYU': 'Brigham Young', 'UCF': 'Central Florida', 'UMBC': 'Maryland-Balt. County', 'SMU': 'Southern Methodist',
@@ -1924,6 +2019,10 @@ for o in OPP.values():
     rec_ = SERIES_N.get(re.sub(r'[^a-z]', '', norm(SERIES_ALIAS.get(o['name'], o['name']))))
     if rec_:
         o['allW'], o['allL'] = rec_['w'], rec_['l']
+        # the record book runs through SERIES_THROUGH (the season's ending year): add this site's games from later seasons
+        late_ = [g for g in GAMES_INDEX if g['opp']['key'] == o['key'] and g['y'] > SERIES_THROUGH]
+        o['allW'] += sum(g['res'] == 'W' for g in late_)
+        o['allL'] += sum(g['res'] == 'L' for g in late_)
 
 # ───────────────────────── Eras, banners, current ─────────────────────────
 coach_media = {}
@@ -2004,17 +2103,22 @@ if H_PH.get(str(current_season)):
 u_ = next((r for r in H_NET.get('rows') or [] if r.get('School') in ('UConn', 'Connecticut')), None)
 if u_:
     HUB['net'] = {'rank': int(u_['Rank']), 'record': u_.get('Record'), 'prev': u_.get('Prev'), 'quads': [u_.get(f'Quad {i}') for i in (1, 2, 3, 4)],
-                  'through': H_NET.get('through'), 'final': not played_now}   # until UConn plays, ncaa.com still shows last season's final NET
+                  'through': H_NET.get('through'),
+                  # ncaa.com keeps last season's final NET until early-season games count: it is current only when the row covers more
+                  # games than UConn has played this season (otherwise it is the old final)
+                  'final': (int(m_.group(1)) + int(m_.group(2)) > len(played_now)) if (m_ := re.match(r'(\d+)-(\d+)', u_.get('Record') or '')) else not played_now}
 if H_BR:
-    HUB['bracket'] = {**{k: H_BR.get(k) for k in ('seed', 'avg', 'brackets', 'updated')}, 'final': (H_BR.get('updated') or '') < f'{current_season - 1}-11-01'}
+    HUB['bracket'] = {**{k: H_BR.get(k) for k in ('seed', 'avg', 'brackets', 'updated')}, 'season': H_BR.get('season'), 'preseason': bool(H_BR.get('preseason')),
+                      'final': (H_BR['season'] != current_season) if H_BR.get('season') else (H_BR.get('updated') or '') < f'{current_season - 1}-11-01'}
 # next opponent: their season (ESPN), our history with them (every meeting on the site)
 if CURRENT.get('next'):
     o_ = CURRENT['next']['opp']
     meet_ = [g for g in GAMES_INDEX if g['opp'].get('key') == o_.get('key') and g.get('res')]
+    NO_OK = (H_NO.get('eid') == CURRENT['next'].get('eid')) if H_NO.get('eid') else (H_NO.get('game') == CURRENT['next']['id'])
     HUB['preview'] = {'opp': o_, 'game': CURRENT['next']['id'],
-                      'record': H_NO.get('record') if H_NO.get('game') == CURRENT['next']['id'] else None,
-                      'standing': H_NO.get('standing') if H_NO.get('game') == CURRENT['next']['id'] else None,
-                      'leaders': (H_NO.get('leaders') or []) if H_NO.get('game') == CURRENT['next']['id'] else [],
+                      'record': H_NO.get('record') if NO_OK else None,
+                      'standing': H_NO.get('standing') if NO_OK else None,
+                      'leaders': (H_NO.get('leaders') or []) if NO_OK else [],
                       'series': {'w': sum(g['res'] == 'W' for g in meet_), 'l': sum(g['res'] == 'L' for g in meet_), 'first': meet_[0]['date'][:4] if meet_ else None,
                                  **({'allW': OPP[o_['key']]['allW'], 'allL': OPP[o_['key']]['allL']} if o_.get('key') in OPP and 'allW' in OPP[o_['key']] else {})},
                       'last': {k: meet_[-1].get(k) for k in ('id', 'date', 'res', 'pts', 'opp_pts', 'ha', 'ot')} if meet_ else None}
@@ -2034,8 +2138,9 @@ if _rbt:   # the record book's all-time total runs through last season
 THRESH = {'pts': ('points', (1000, 1500, 2000)), 'trb': ('rebounds', (500, 750, 1000)), 'ast': ('assists', (300, 400, 500, 600)), 'blk': ('blocks', (100, 150, 200, 300)),
           'stl': ('steals', (100, 150, 200)), 'fg3': ('3-pointers', (100, 150, 200, 250))}
 cur_ids_ = {r['pid'] for r in json.load(open(os.path.join(SITE, 'seasons', f'{current_season}.json'))).get('roster') or []}
+OUT_NOW_ = OUT_FOR.get(str(current_season)) or {}   # out for the season: no milestone watch
 for player_, uc_ in PLAYERS:
-    if player_['id'] not in cur_ids_:
+    if player_['id'] not in cur_ids_ or player_['id'] in OUT_NOW_:
         continue
     c_ = player_['career']
     gp_ = c_.get('g') or 0
@@ -2052,7 +2157,7 @@ _rbtxt = open(os.path.join(HERE, 'cache.nosync', 'official', 'recordbook_pypdf.t
 CLUB = [(m.group(1).strip().title(), int(m.group(2).replace(',', ''))) for m in re.finditer(r"^\s*\d+\.\)\s+([A-Z][A-Za-z.'’ \-]+?)\s+\(\d years?,[^)]*\),?\s+([\d,]+)\s+p", _rbtxt, re.M)]
 CLUB = [(re.sub(r'\bMc([a-z])', lambda m_: 'Mc' + m_.group(1).upper(), n_), v_) for n_, v_ in CLUB]
 for player_, uc_ in PLAYERS:
-    if player_['id'] not in cur_ids_ or (player_['career'].get('pts') or 0) < 900 or not CLUB:
+    if player_['id'] not in cur_ids_ or player_['id'] in OUT_NOW_ or (player_['career'].get('pts') or 0) < 900 or not CLUB:
         continue
     me_, pts_ = norm(player_['name']), player_['career']['pts']
     others_ = [(n_, v_) for n_, v_ in CLUB if norm(n_) != me_]
@@ -2088,7 +2193,7 @@ if played_now:
         for p in ups_:
             prev_hi_ = max([e.get('pts') or 0 for e in PLAYER_GAMES.get(p.get('pid'), []) if e['y'] == current_season and e['id'] != lg_['id']] or [0])
             tops_.append({'name': p['name'], 'pid': p.get('pid'), 'line': f"{p.get('pts')} pts, {p.get('reb')} reb, {p.get('ast')} ast",
-                          'seasonHigh': bool(p.get('pts')) and p.get('pts') > prev_hi_ and len([e for e in PLAYER_GAMES.get(p.get('pid'), []) if e['y'] == current_season]) > 1})
+                          'seasonHigh': bool(p.get('pts')) and p.get('pts') > prev_hi_ and len([e for e in PLAYER_GAMES.get(p.get('pid'), []) if e['y'] == current_season]) >= 5})   # "season high" means little in the first games
         HUB['recap'] = {'id': lg_['id'], 'date': lg_['date'], 'opp': lg_['opp'], 'res': lg_['res'], 'pts': lg_['pts'], 'opp_pts': lg_['opp_pts'], 'ot': lg_.get('ot'),
                         'record': lg_.get('rec'), 'tops': tops_}
 

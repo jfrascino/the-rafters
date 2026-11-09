@@ -145,9 +145,14 @@ class Official:
     def covered(self, y):
         return bool(self.cume.get(y)) or bool(self.rb.get(y))
 
-    def apply(self, y, roster, box=None):
+    def apply(self, y, roster, box=None, games_played=None):
         """settle every stat of every player in one season's roster (mutates tot/pg in place).
         box: per-player sums of this season's box scores, when every game has one (an independent tie-breaker)"""
+        # the season in progress: UConn's stat sheet lags a final by ~20 minutes; mixing a sheet one game behind into box-score data would be wrong
+        sheet_g = ((self.cume.get(y) or {}).get('total') or {}).get('g')
+        if games_played is not None and sheet_g is not None and sheet_g != games_played:
+            self.report.setdefault('lagging_sheet', []).append({'y': y, 'sheet_games': sheet_g, 'games_played': games_played})
+            return
         lines = collections.defaultdict(dict)
         for src, recs in (('cume', (self.cume.get(y) or {}).get('players') or []), ('rb', self.rb.get(y) or [])):
             for rec in recs:

@@ -22,7 +22,8 @@ export const tryLoad = (p) => load(p).catch(() => null);
 // Numbers
 export const n1 = (v) => (v == null || isNaN(v) ? '–' : (+v).toFixed(1));
 export const n0 = (v) => (v == null || isNaN(v) ? '–' : Math.round(+v).toLocaleString());
-export const pct = (v) => (v == null || isNaN(v) ? '–' : (v >= 1 && v <= 100 ? (+v).toFixed(1) : (v * 100).toFixed(1)));
+// stored percentages are always fractions (1.0 = 100%), so scale unconditionally
+export const pct = (v) => (v == null || isNaN(v) ? '–' : ((+v) * 100).toFixed(1));
 export const pct3 = (v) => (v == null || isNaN(v) ? '–' : (+v).toFixed(3).replace(/^0/, ''));
 export const sign = (v) => (v > 0 ? `+${v}` : `${v}`);
 export const plural = (n, word, many = word + 's') => `${n} ${n === 1 ? word : many}`;
@@ -43,6 +44,8 @@ export function fmtTime(d) {
   const et = x.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' });
   return et === '12:00 AM' ? 'TBA' : `${et} ET`;
 }
+// The current season is in progress while the data says so, or (data not yet carrying the flag) while a next game remains
+export const isInProgress = (core, row) => row?.inProgress ?? (!!row && row.y === core?.current?.season && !!core?.current?.next);
 export const seasonLabel = (y) => `${y - 1}–${String(y).slice(2)}`;
 
 // Finish ladder (deepest postseason result)
@@ -170,11 +173,11 @@ export function statTable(cols, rows, opts = {}) {
   const val = (c, r) => (c.get ? c.get(r) : r[c.k]);
   const cell = (c, r) => {
     const v = val(c, r);
-    const txt = c.html ? c.html(r) : c.fmt ? c.fmt(v, r) : esc(v ?? '–');
+    const txt = c.html ? c.html(r) : c.fmt ? c.fmt(v, r) : esc(v ?? (r.teamRow ? '' : '–'));
     const heat = c.heat && v != null ? ` class="heat${c.l ? ' l' : ''}" style="--h:${(0.28 * (+v / maxes[c.k])).toFixed(3)}"` : c.l ? ' class="l"' : '';
     return `<td${heat}>${txt}</td>`;
   };
-  const body = (rs) => rs.map((r) => `<tr${opts.rowAttr ? opts.rowAttr(r) : ''}>${cols.map((c) => cell(c, r)).join('')}</tr>`).join('');
+  const body = (rs) => rs.map((r) => `<tr${opts.rowAttr ? opts.rowAttr(r) : ''}>${r.rowNote && opts.noteAfter ? cols.slice(0, opts.noteAfter).map((c) => cell(c, r)).join('') + `<td class="l" colspan="${cols.length - opts.noteAfter}"><span class="muted">${esc(r.rowNote)}</span></td>` : cols.map((c) => cell(c, r)).join('')}</tr>`).join('');
   // columns with no value for any row are stats that weren't recorded that season: drop them and say so
   const hidden = [];
   if (opts.hideEmpty) {
@@ -195,7 +198,7 @@ export function statTable(cols, rows, opts = {}) {
   ].filter(Boolean);
   const note = noteParts.length ? `<p class="note stat-note">${noteParts.join(' ')}</p>` : '';
   const html = `<div class="tbl-wrap"><table class="stats" id="${id}"><thead><tr>${cols.map((c, i) => `<th data-i="${i}" class="${c.l ? 'l' : ''}${opts.sort === c.k ? ' sorted' : ''}" ${c.title ? `title="${esc(c.title)}"` : ''}>${esc(c.label)}</th>`).join('')}</tr></thead>
-    <tbody>${body(rows)}</tbody>${opts.total ? `<tfoot><tr class="tot">${cols.map((c) => cell(c, opts.total)).join('')}</tr></tfoot>` : ''}</table></div>${note}`;
+    <tbody>${body(rows)}</tbody>${opts.total ? `<tfoot>${[].concat(opts.total).map((tr) => `<tr class="tot">${cols.map((c) => cell(c, tr)).join('')}</tr>`).join('')}</tfoot>` : ''}</table></div>${note}`;
   const bind = (root) => {
     const t = root.querySelector('#' + id); if (!t) return;
     let cur = opts.sort, desc = opts.desc !== false;

@@ -1,4 +1,4 @@
-import { esc, FINISH, finishPill, tryLoad, seasonLabel } from '../ui.js';
+import { esc, isInProgress, FINISH, finishPill, tryLoad, seasonLabel } from '../ui.js';
 import { sparkPath } from '../charts.js';
 
 export default async function seasons(main, args, core) {
@@ -12,7 +12,7 @@ export default async function seasons(main, args, core) {
       <div class="era-block">
         <div class="era-title"><h2 class="h2">${esc(e.name)}</h2><span class="muted">${e.from - 1}–${e.to === 9999 ? 'now' : e.to} · ${e.w}–${e.l}${e.titles?.length ? ` · ${e.titles.length} title${e.titles.length > 1 ? 's' : ''}` : ''}</span></div>
         ${e.recordNote ? `<p class="note stat-note" style="margin:-6px 0 16px">${e.w}–${e.l} is his official record; the team went ${e.courtW}–${e.courtL} on the court. ${esc(e.recordNote)}</p>` : ''}
-        <div class="covers">${list.map(cover).join('')}</div>
+        <div class="covers">${list.map((s) => cover(s, core)).join('')}</div>
       </div>`).join('')}</div>
   </div></section>`;
   const test = {
@@ -54,13 +54,15 @@ function earlyYears(H) {
   </div></section>`;
 }
 
-function cover(s) {
+function cover(s, core) {
   const champ = s.finish === 'champ';
+  const inProg = isInProgress(core, s);
+  const apLive = inProg && core.hub?.season === s.y && !core.hub?.polls?.ap?.final ? core.hub?.polls?.ap?.rank : null;   // the current poll, not last year's
   return `<a class="cover${champ ? ' champ' : ''}" href="#/season/${s.y}" data-y="${s.y}">
     <span class="yr">${s.y - 1}<small>–${String(s.y).slice(2)}</small></span>
     <div style="display:grid;gap:6px;align-content:start"><span class="rec">${s.future ? 'Upcoming' : `${s.w}–${s.l}`}${s.cw != null ? ` <span class="muted" style="font-size:14px">(${s.cw}–${s.cl} ${esc(s.confShort || '')})</span>` : ''}</span>
     ${s.headline ? `<span class="muted" style="font-size:13px;line-height:1.3">${esc(s.headline)}</span>` : ''}</div>
-    <div class="meta">${s.future ? '<span class="pill live">Coming soon</span>' : finishPill(s.finish)}${s.seed ? `<span class="pill">No. ${s.seed} seed</span>` : ''}${s.apFinal ? `<span class="pill">AP ${s.apFinal}</span>` : ''}${s.officialRec ? `<span class="pill red" title="Official NCAA record ${esc(s.officialRec)}">Vacated</span>` : ''}</div>
+    <div class="meta">${s.future ? '<span class="pill live">Coming soon</span>' : (inProg && (!s.finish || s.finish === 'none') ? '<span class="pill ice">In progress</span>' : finishPill(s.finish))}${s.seed ? `<span class="pill">No. ${s.seed} seed</span>` : ''}${apLive ? `<span class="pill">AP ${apLive}</span>` : !inProg && s.apFinal ? `<span class="pill">AP ${s.apFinal}</span>` : ''}${s.officialRec ? `<span class="pill red" title="Official NCAA record ${esc(s.officialRec)}">Vacated</span>` : ''}</div>
     <svg class="spark" viewBox="0 0 200 34" preserveAspectRatio="none" aria-hidden="true">${sparkPath(s.spark)}</svg>
   </a>`;
 }

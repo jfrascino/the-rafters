@@ -46,9 +46,9 @@ function building(b) {
         <span class="ven-bar"><i style="width:${pct}%"></i></span>
         <span class="note">${pct}% · ${main.misprint ? `${main.w + main.l} games` : `${main.games} games`}${main.what ? ` (${esc(main.what)})` : ''}</span>
         ${o.lines.slice(1).map((l) => `<span class="note">${l.w}–${l.l} in ${l.games} games${l.what ? ` (${esc(l.what)})` : ''}</span>`).join('')}
-        ${main.misprint ? `<span class="note ven-flag">The record book prints ${main.games} games here, but ${main.w} + ${main.l} = ${main.w + main.l}${o.lines[1] ? `, which also squares with its overall line (${o.lines[1].games} games, ${o.lines[1].w}–${o.lines[1].l})` : ''}.</span>` : ''}
+        ${main.misprint ? ((bk, ob) => `<span class="note ven-flag">The record book prints ${bk.games} games here, but ${bk.w} + ${bk.l} = ${bk.w + bk.l}${ob ? `, which also squares with its overall line (${ob.games} games, ${ob.w}–${ob.l})` : ''}.</span>`)(main.book || main, o.lines[1] && (o.lines[1].book || o.lines[1])) : ''}
         ${(o.streaks || []).map((st) => streakLine(st, s)).join('')}
-        <span class="note">Source: UConn record book</span>
+        <span class="note">Source: UConn record book${o.added ? `, through ${+o.added.since - 2}–${String(+o.added.since - 1).slice(2)}; later games are added from this site's results` : ''}</span>
       </div>` : ''}
     </div>
     ${s ? `<div class="ven-since">

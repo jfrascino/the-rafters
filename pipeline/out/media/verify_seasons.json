@@ -431,6 +431,24 @@
    "new": "before 29,294 fans in the Carrier Dome",
    "reason": "Syracuse's official box score and the wire box both print 29,294; the Daily Campus figures were misprints.",
    "source": "https://cuse.com/documents/2011/4/11/Connecticut2.18.84.pdf"
+  },
+  {
+   "year": 2027,
+   "field": "key_moments[1].date",
+   "status": "FIX",
+   "old": "2026-04-19",
+   "new": "2026-04-18",
+   "reason": "Same correction as the story: Mullins announced his return on Instagram on Saturday, April 18, 2026 (his 20th birthday). The key-moment date had kept April 19.",
+   "source": "https://www.wfsb.com/2026/04/18/braylon-mullins-announces-decision-about-uconn-return/"
+  },
+  {
+   "year": 2027,
+   "field": "story",
+   "status": "FIX",
+   "old": "Elmir D\u017eafi\u0107",
+   "new": "Elmir D\u017eafic",
+   "reason": "Match UConn's official roster spelling (D\u017eafic), which the roster cards and stats use.",
+   "source": "https://uconnhuskies.com/sports/mens-basketball/roster"
   }
  ]
 }

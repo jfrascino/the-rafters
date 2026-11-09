@@ -6,7 +6,7 @@
   since      everything Storrs Lore can count itself: the true building of every game from 1986-87 on
              (out/official/venues.json "game_venue_era", from the record book's site codes) joined to the site's games
 Where the record book and our own count cover the same span (Gampel, Bridgeport), they must agree; a mismatch prints."""
-import collections, glob, json, os
+import collections, glob, json, os, re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.join(HERE, '..', 'site', 'data')
@@ -22,6 +22,9 @@ BLURB = {
     'new_haven_coliseum': 'Opened October 4, 1972 (formally the New Haven Veterans Memorial Coliseum). UConn played part-time home games here from 1978 to 1987. The city closed it on September 1, 2002, and it was imploded on January 20, 2007.',
     'bridgeport_arena': 'Opened October 10, 2001, as the Arena at Harbor Yard; Webster Bank Arena from January 6, 2011; Total Mortgage Arena since March 7, 2022. Both UConn games here came in the Webster Bank Arena years.',
 }
+BOOK_THROUGH = 2026   # the record book runs through 2025-26 (key year 2026): later games are added to its building lines
+# games after the researched coverage that the era file leaves without a building: map home games by their arena string
+ARENA_KEY = [(re.compile(r'PeoplesBank|XL Center|Civic Center', re.I), 'hartford_arena'), (re.compile(r'Gampel', re.I), 'gampel')]
 FULL = {'gampel'}   # buildings whose every UConn game is in the game-by-game data (so our streaks are complete)
 
 
@@ -52,6 +55,21 @@ def main():
         g = games.get(gid)
         if g and e.get('building_key'):
             by[e['building_key']].append({**g, 'era_name': e.get('era_name'), 'att': (det.get(gid) or {}).get('att') or g.get('att')})
+    # home games the era file could not place (this season's announced home sites): the arena string decides
+    for gid, g in games.items():
+        if g['y'] > BOOK_THROUGH and g['ha'] == 'H' and not (era.get(gid) or {}).get('building_key'):
+            k = next((key for rx, key in ARENA_KEY if rx.search(g.get('arena') or '')), None)
+            if k:
+                by[k].append({**g, 'era_name': g.get('arena'), 'att': (det.get(gid) or {}).get('att') or g.get('att')})
+    # exhibitions after the record book (it counts them in each building's "overall" line)
+    exh = collections.defaultdict(lambda: [0, 0])
+    for f in glob.glob(os.path.join(SITE, 'seasons', '*.json')):
+        s = jload(f, {})
+        if s.get('y', 0) > BOOK_THROUGH:
+            for x in s.get('exhibitions') or []:
+                k = next((key for rx, key in ARENA_KEY if rx.search(x.get('arena') or '')), None)
+                if k and x.get('res') and x.get('ha') in ('H', 'N'):
+                    exh[k][0 if x['res'] == 'W' else 1] += 1
     out = []
     for key in HOME + sorted(k for k in by if k not in HOME and any(g['ha'] == 'H' for g in by[k])):
         b = bld.get(key) or {}
@@ -76,13 +94,25 @@ def main():
         crowds = sorted((g for g in gs if g.get('att')), key=lambda g: -g['att'])[:5]
         wins = sorted((g for g in gs if g['res'] == 'W'), key=lambda g: -(g['pts'] - g['opp_pts']))[:3]
         off = (R.get('buildings') or {}).get(key)
+        if off:
+            off = json.loads(json.dumps(off))   # the record book's lines run through 2025-26: add the games played since
+            late = [g for g in gs if g['y'] > BOOK_THROUGH]
+            lw, ll = sum(g['res'] == 'W' for g in late), sum(g['res'] == 'L' for g in late)
+            for ln in off['lines']:
+                ln['book'] = {k: ln[k] for k in ('games', 'w', 'l')}   # as printed, for the misprint note
+                x_ = exh[key] if 'exhibition' in (ln.get('what') or '') else (0, 0)
+                ln['games'] += len(late) + sum(x_)
+                ln['w'] += lw + x_[0]
+                ln['l'] += ll + x_[1]
+            if late or exh[key] != [0, 0]:
+                off['added'] = {'g': len(late), 'w': lw, 'l': ll, 'exh': sum(exh[key]), 'since': f'{BOOK_THROUGH + 1}'}
         if key not in FULL and key != 'bridgeport_arena' and best and bs and bs[0] is gs[0]:
             best, bs = 0, None   # the streak may have started before 1986-87, where we can't see the building
         row = {'key': key, 'short': SHORT.get(key) or (b.get('names') or [{}])[-1].get('name'), 'blurb': BLURB.get(key), 'full': key in FULL or key == 'bridgeport_arena', 'current': key in ('gampel', 'hartford_arena'),
                'building': b.get('building'), 'city': b.get('city'), 'opened': b.get('opened'), 'closed': b.get('closed'), 'demolished': b.get('demolished'),
                'names': [{'name': n['name'], 'from': n.get('from'), 'to': n.get('to')} for n in b.get('names') or []],
                'notes': b.get('notes'), 'sources': b.get('sources') or [],
-               'official': off and {'lines': off['lines'], 'streaks': (R.get('streaks') or {}).get(key) or []},
+               'official': off and {'lines': off['lines'], 'streaks': (R.get('streaks') or {}).get(key) or [], **({'added': off['added']} if off.get('added') else {})},
                'since': gs and {'from': gs[0]['y'], 'g': len(gs), 'w': w, 'l': len(gs) - w,
                                 'home': [sum(1 for g in gs if g['ha'] == 'H' and g['res'] == 'W'), sum(1 for g in gs if g['ha'] == 'H' and g['res'] == 'L')],
                                 'seasons': [{'y': y, 'w': a, 'l': c} for y, (a, c) in seasons.items()],

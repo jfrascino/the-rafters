@@ -555,7 +555,14 @@
    "event": "Hall of Fame Series",
    "exhibition": true,
    "conference": false,
-   "note": null
+   "note": null,
+   "result": {
+    "res": "W",
+    "pts": 72,
+    "opp_pts": 52,
+    "box": "https://uconnhuskies.com/sports/mens-basketball/stats/2026-27/syracuse/boxscore/25608",
+    "source": "uconnhuskies.com schedule, checked 2026-11-08"
+   }
   },
   {
    "date": "2026-10-20",
@@ -570,7 +577,14 @@
    "event": null,
    "exhibition": true,
    "conference": false,
-   "note": "Venue from official non-conference release (9/3/2026)"
+   "note": "Venue from official non-conference release (9/3/2026)",
+   "result": {
+    "res": "W",
+    "pts": 78,
+    "opp_pts": 70,
+    "box": "https://uconnhuskies.com/sports/mens-basketball/stats/2026-27/michigan-state/boxscore/25872",
+    "source": "uconnhuskies.com schedule, checked 2026-11-08"
+   }
   },
   {
    "date": "2026-10-27",
@@ -585,7 +599,14 @@
    "event": null,
    "exhibition": true,
    "conference": false,
-   "note": null
+   "note": null,
+   "result": {
+    "res": "W",
+    "pts": 76,
+    "opp_pts": 53,
+    "box": "https://uconnhuskies.com/sports/mens-basketball/stats/2026-27/purdue/boxscore/25495",
+    "source": "uconnhuskies.com schedule, checked 2026-11-08"
+   }
   },
   {
    "date": "2026-11-02",

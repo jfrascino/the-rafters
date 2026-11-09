@@ -1,4 +1,4 @@
-import { esc, load, logo, eraLogo, fmtDate, fmtTime, finishPill, FINISH, n1, n0, pct, statTable, bindTips, tip, videoCard, bindVideos, photoFig, bindPhotos, initials, ord } from '../ui.js';
+import { esc, isInProgress, load, logo, eraLogo, fmtDate, fmtTime, finishPill, FINISH, n1, n0, pct, statTable, bindTips, tip, videoCard, bindVideos, photoFig, bindPhotos, initials, ord } from '../ui.js';
 import { heartbeat, pollLine, onResize } from '../charts.js';
 
 export default async function season(main, args, core) {
@@ -9,6 +9,9 @@ export default async function season(main, args, core) {
   const prev = core.seasons[idx - 1] || (idx === 0 ? { y: y - 1, label: `${y - 2}–${String(y - 1).slice(2)}` } : null), next = core.seasons[idx + 1];   // 1977-78 links back into the early years
   const sum = core.seasons[idx] || {};
   const champ = s.finish === 'champ';
+  // The season now being played: no final finish, AP or "No postseason" yet
+  const inProg = !!(s.inProgress || isInProgress(core, sum) || (y === core.current?.season && s.games.some((g) => !g.res)));
+  const apNow = inProg && core.hub?.season === y && core.hub?.polls?.ap && !core.hub.polls.ap.final ? core.hub.polls.ap : null;
   const played = s.games.filter((g) => g.res);
   const ncaa = s.games.filter((g) => g.type === 'NCAA');
   const ctourn = s.games.filter((g) => g.type === 'CTOURN');
@@ -24,13 +27,13 @@ export default async function season(main, args, core) {
       <div class="s-hero-top"><span class="eyebrow">${esc(s.label)} · ${esc(s.coach)} · ${esc(s.conf === 'Ind' ? 'Independent' : s.conf || '')}${s.confDiv ? ` · ${esc(/^Big East/.test(s.confDiv) ? s.confDiv : `${s.confDiv} Division`)}` : ''}</span>
         <nav class="s-nav" aria-label="Season navigation">${prev ? `<a href="#/season/${prev.y}">← ${esc(prev.label)}</a>` : ''}${next ? `<a href="#/season/${next.y}">${esc(next.label)} →</a>` : ''}</nav></div>
       <h1 class="h-display" style="font-size:clamp(40px,7vw,104px);max-width:14ch">${esc(story.headline || s.label)}</h1>
-      <div class="chips">${!played.length ? `<span class="pill live">Tips off ${esc(fmtDate((s.games[0] || {}).day || (s.games[0] || {}).date, { year: true }))}</span>` : finishPill(s.finish)}${s.seed ? `<span class="pill">No. ${s.seed} seed${s.region ? ' · ' + esc(s.region) : ''}</span>` : ''}${s.confFinish ? `<span class="pill">${esc(s.confFinish)}</span>` : ''}${(story.honors || []).filter((h) => /champion/i.test(h)).slice(0, 3).map((h) => `<span class="pill ff">${esc(h)}</span>`).join('')}</div>
+      <div class="chips">${!played.length ? `<span class="pill live">Tips off ${esc(fmtDate((s.games[0] || {}).day || (s.games[0] || {}).date, { year: true }))}</span>` : inProg && (!s.finish || s.finish === 'none') ? '<span class="pill ice">Season in progress</span>' : finishPill(s.finish)}${s.seed ? `<span class="pill">No. ${s.seed} seed${s.region ? ' · ' + esc(s.region) : ''}</span>` : ''}${s.confFinish ? `<span class="pill">${esc(s.confFinish)}</span>` : ''}${(story.honors || []).filter((h) => /champion/i.test(h)).slice(0, 3).map((h) => `<span class="pill ff">${esc(h)}</span>`).join('')}</div>
       ${s.vacated ? `<p class="note" style="max-width:62ch;font-size:14px"><span class="pill red" style="margin-right:8px">Vacated</span>Official NCAA record: <b style="color:var(--fg)">${esc(s.vacated.official)}</b>. ${esc(s.vacated.note)} Games are shown as played.</p>` : ''}
       <div class="statline">
         ${!played.length ? `<div><b>${s.games.length}</b><span>Games scheduled</span></div><div><b>${(s.roster || []).length}</b><span>Players</span></div>${s.apPre ? `<div><b>#${s.apPre}</b><span>Preseason AP</span></div>` : ''}` : `<div><b>${s.w}–${s.l}</b><span>Overall</span></div>`}
         ${played.length && s.cw != null ? `<div><b>${s.cw}–${s.cl}</b><span>${esc(s.confShort || 'Conf')}</span></div>` : ''}
-        ${played.length ? `<div><b>${s.apFinal ? '#' + s.apFinal : s.apHigh ? '#' + s.apHigh : 'NR'}</b><span>${s.apFinal ? 'Final AP' : s.apHigh ? 'AP peak' : 'Final AP'}</span></div>` : ''}
-        ${s.apHigh && s.apFinal ? `<div><b>#${s.apHigh}</b><span>AP peak</span></div>` : ''}
+        ${inProg ? (apNow ? `<div><b>${apNow.rank ? '#' + apNow.rank : apNow.votes ? 'RV' : 'NR'}</b><span>AP poll</span></div>` : '') : played.length ? `<div><b>${s.apFinal ? '#' + s.apFinal : s.apHigh ? '#' + s.apHigh : 'NR'}</b><span>${s.apFinal ? 'Final AP' : s.apHigh ? 'AP peak' : 'Final AP'}</span></div>` : ''}
+        ${inProg ? (s.apHigh && (!apNow || s.apHigh !== apNow.rank) ? `<div><b>#${s.apHigh}</b><span>AP peak</span></div>` : '') : s.apHigh && s.apFinal ? `<div><b>#${s.apHigh}</b><span>AP peak</span></div>` : ''}
         ${s.ppg ? `<div><b>${n1(s.ppg)}</b><span>Points/G</span></div><div><b>${n1(s.oppg)}</b><span>Allowed/G</span></div>` : ''}
         ${s.srs != null ? `<div><b>${n1(s.srs)}</b><span title="Simple Rating System: points better than an average team">SRS</span></div>` : ''}
       </div>
@@ -42,7 +45,7 @@ export default async function season(main, args, core) {
       ${story.sources?.length ? `<p class="note">Sources: ${story.sources.slice(0, 4).map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener" style="text-decoration:underline">${esc(new URL(u).hostname.replace('www.', ''))}</a>`).join(', ')}</p>` : ''}</div>
     <div class="grid" style="gap:28px">
       ${story.honors?.length ? `<div class="honors"><span class="eyebrow gold">Honors</span><ul>${story.honors.map((h) => `<li>${esc(h)}</li>`).join('')}</ul></div>` : ''}
-      ${story.moments?.length ? `<div class="honors"><span class="eyebrow">Key moments</span><ul>${story.moments.map((m) => `<li class="mom"><b style="font:700 16px/1.2 var(--f-cond);text-transform:uppercase;letter-spacing:.03em">${m.date ? `<span class="muted">${fmtDate(m.date)} · </span>` : ''}${esc(m.title)}</b><span class="muted" style="font-size:14px">${esc(m.text || '')}</span></li>`).join('')}</ul></div>` : ''}
+      ${story.moments?.length ? `<div class="honors"><span class="eyebrow">Key moments</span><ul>${story.moments.map((m) => `<li class="mom"><b style="font:700 16px/1.2 var(--f-cond);text-transform:uppercase;letter-spacing:.03em">${m.date ? `<span class="muted">${fmtDate(m.date)} · </span>` : ''}${esc(m.title)}</b><span class="muted" style="font-size:14px">${esc(m.text || '')}</span>${inProg ? momResult(m, s.games) : ''}</li>`).join('')}</ul></div>` : ''}
     </div>
   </div></section>` : ''}
 
@@ -61,7 +64,7 @@ export default async function season(main, args, core) {
 
   <section class="section"><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow">Sortable · tap a column</span><h2 class="h2">Stats</h2></div></div>
-    <div class="tabs" role="tablist" id="stabs">${['Per game', 'Totals', 'Advanced', 'Team vs. opponents'].map((t, i) => `<button role="tab" class="${i ? '' : 'on'}" data-t="${i}">${t}</button>`).join('')}</div>
+    <div class="tabs" role="tablist" id="stabs">${['Per game', 'Totals', 'Advanced', 'Team vs. opponents'].map((t, i) => (i === 2 && inProg && !roster.some((r) => r.adv) ? '' : `<button role="tab" class="${i ? '' : 'on'}" data-t="${i}">${t}</button>`)).join('')}</div>
     <div id="stbl"></div>
   </div></section>
 
@@ -70,7 +73,7 @@ export default async function season(main, args, core) {
     ${(s.exhibitions || []).length ? `<div class="panel sched" style="margin-bottom:14px"><div class="month-h">Exhibitions · not counted in the record</div>${s.exhibitions.map((x) => `
       <div class="srow"><span class="d">${fmtDate(x.date)}<br><span style="font-size:11px">${new Date(x.date + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short' })}</span></span><span class="logo logo-fallback">EXH</span>
         <span class="o"><b><span class="muted" style="font-weight:600">${x.ha === 'A' ? 'at' : 'vs.'}</span> ${esc(x.opp)}</b><small>${esc([x.event, x.arena, x.tv].filter(Boolean).join(' · '))}</small></span>
-        <span class="r"><span class="muted" style="font-size:14px">${esc(x.time ? x.time.replace('p.m.', 'PM') + ' ET' : 'TBA')}</span></span><span class="x"></span></div>`).join('')}</div>` : ''}
+        ${x.res && x.pts != null && x.opp_pts != null ? `<span class="r ${esc(x.res)}">${x.box ? `<a href="${esc(x.box)}" target="_blank" rel="noopener" title="Official box score">${esc(x.res)} ${x.pts}–${x.opp_pts}</a>` : `${esc(x.res)} ${x.pts}–${x.opp_pts}`}</span><span class="x" aria-hidden="true">${x.box ? '↗' : ''}</span>` : `<span class="r"><span class="muted" style="font-size:14px">${esc(x.time ? x.time.replace('p.m.', 'PM') + ' ET' : 'TBA')}</span></span><span class="x"></span>`}</div>`).join('')}</div>` : ''}
     <div class="panel sched" id="sched">${schedule(s.games)}</div>
   </div></section>
 
@@ -140,6 +143,19 @@ function runSection(games, title, champ, conf) {
   </div></section>`;
 }
 
+// "Out for the season · medical redshirt" from the data's note ("Medical redshirt (wrist surgery)")
+function outLabel(o) {
+  const n = String(o?.note || '').replace(/\s*\(.*?\)\s*/g, ' ').trim();
+  return `Out for the season${n ? ' · ' + n.charAt(0).toLowerCase() + n.slice(1) : ''}`;
+}
+// A key moment written before its game was played gets the final score once the game exists
+function momResult(m, games) {
+  if (!m.date) return '';
+  const day = m.date.slice(0, 10);
+  const g = games.find((x) => x.res && (x.day || x.date.slice(0, 10)) === day);
+  return g ? `<a class="pill ${g.res === 'W' ? 'ice' : 'red'}" href="#/game/${esc(g.id)}" style="justify-self:start;margin-top:4px">${esc(g.res)} ${g.pts}–${g.opp_pts}${g.ot ? ' ' + esc(g.ot) : ''}</a>` : '';
+}
+
 export function playerCard(p, champ, y, opts = {}) {
   const pg = p.pg || {};
   const lg = eraLogo(y || p.years?.at?.(-1));   // the Husky UConn wore that season
@@ -152,16 +168,16 @@ export function playerCard(p, champ, y, opts = {}) {
         ${p.num != null && p.num !== '' ? `<span class="jnum" aria-label="Number ${esc(p.num)}">${esc(p.num)}</span>` : ''}
         ${p.pos ? `<span class="pill pos">${esc(p.pos)}</span>` : ''}
         <div class="plate"><span class="nm">${esc(p.name)}<small>${[p.cls, p.ht, p.home].filter(Boolean).map(esc).join(' · ')}</small></span>
-          <span class="mini"><span><b>${n1(pg.pts)}</b>PTS</span><span><b>${n1(pg.trb)}</b>REB</span><span><b>${n1(pg.ast)}</b>AST</span></span></div>
+          ${p.out ? `<span class="mini">${esc(outLabel(p.out))}</span>` : `<span class="mini"><span><b>${n1(pg.pts)}</b>PTS</span><span><b>${n1(pg.trb)}</b>REB</span><span><b>${n1(pg.ast)}</b>AST</span></span>`}</div>
       </div>
       <div class="pcard-face pcard-back">
         <span class="bk-nm">${esc(p.name)}</span>
         <span class="bk-bio">${[p.pos, p.cls, p.ht, p.wt ? p.wt + ' lb' : '', p.home, p.hs].filter(Boolean).map(esc).join(' · ')}</span>
-        <table><thead><tr><th>${y ? `'${String(y).slice(2)}` : ''}</th><th>G</th><th>MIN</th><th>PTS</th><th>REB</th><th>AST</th></tr></thead>
+        ${p.out ? `<p class="note" style="margin:10px 0">${esc(outLabel(p.out))}${p.out.note ? '' : '.'}</p>` : `<table><thead><tr><th>${y ? `'${String(y).slice(2)}` : ''}</th><th>G</th><th>MIN</th><th>PTS</th><th>REB</th><th>AST</th></tr></thead>
           <tbody><tr><td>Per G</td><td>${pg.g ?? '–'}</td><td>${n1(pg.mp)}</td><td>${n1(pg.pts)}</td><td>${n1(pg.trb)}</td><td>${n1(pg.ast)}</td></tr>
           <tr><td>Shoot</td><td colspan="5" style="text-align:right">FG ${pct(pg.fg_pct)} · 3P ${pct(pg.fg3_pct)} · FT ${pct(pg.ft_pct)}</td></tr>
           <tr><td>D</td><td colspan="5" style="text-align:right">${n1(pg.stl)} STL · ${n1(pg.blk)} BLK</td></tr>
-          ${p.adv?.per != null ? `<tr><td>Adv</td><td colspan="5" style="text-align:right">PER ${n1(p.adv.per)} · WS ${n1(p.adv.ws)}${p.adv.bpm != null ? ' · BPM ' + n1(p.adv.bpm) : ''}</td></tr>` : ''}</tbody></table>
+          ${p.adv?.per != null ? `<tr><td>Adv</td><td colspan="5" style="text-align:right">PER ${n1(p.adv.per)} · WS ${n1(p.adv.ws)}${p.adv.bpm != null ? ' · BPM ' + n1(p.adv.bpm) : ''}</td></tr>` : ''}</tbody></table>`}
         ${opts.self ? `<button class="go" data-scroll="#seasTblHead">Season by season ↓</button>` : `<a class="go" href="#/player/${esc(p.pid)}">Full career →</a>`}
       </div>
     </div>
@@ -199,7 +215,7 @@ function statTables(s, roster) {
         .filter(([, k]) => t[k] != null).map(([label, k, f]) => ({ label, u: t[k], o: o[k], f: f || n1 }));
       if (!rows.length) return { html: '<div class="empty">Team totals are not available for this season.</div>', bind() {} };
       return statTable([{ k: 'label', label: 'Per game', l: true }, { k: 'u', label: 'UConn', html: (r) => `<b>${r.f(r.u)}</b>` }, { k: 'o', label: 'Opponents', html: (r) => r.f(r.o) },
-        { k: 'd', label: 'Edge', html: (r) => { const d = r.u - r.o; if (isNaN(d)) return '–'; const v = r.f === pct ? (d * (Math.abs(r.u) <= 1 ? 100 : 1)).toFixed(1) : d.toFixed(1); return `<span style="color:${(r.label === 'Turnovers' || r.label === 'Fouls' ? -d : d) > 0 ? 'var(--ice)' : 'var(--red-soft)'}">${d > 0 ? '+' : ''}${v}</span>`; } }], rows, {});
+        { k: 'd', label: 'Edge', html: (r) => { const d = r.u - r.o; if (isNaN(d)) return '–'; const v = r.f === pct ? (d * 100).toFixed(1) : d.toFixed(1); return `<span style="color:${(r.label === 'Turnovers' || r.label === 'Fouls' ? -d : d) > 0 ? 'var(--ice)' : 'var(--red-soft)'}">${d > 0 ? '+' : ''}${v}</span>`; } }], rows, {});
     },
   ];
 }

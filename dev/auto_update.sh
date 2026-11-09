@@ -36,15 +36,27 @@ sys.exit(0 if old == new else 1)
 PYEOF
 then
   git reset -q site/data/core.json && git checkout -q -- site/data/core.json
-  echo "$(stamp) no changes"; exit 0
+  # nothing new in the data: still publish if the last deploy failed (or code was committed since) so HEAD is what's live
+  if [ "$(git rev-parse HEAD)" = "$(cat dev/.deployed_commit 2>/dev/null)" ]; then
+    echo "$(stamp) no changes"; exit 0
+  fi
+  echo "$(stamp) no data changes, but HEAD was never deployed: publishing it"
+  NODATA=1
 fi
 AFTER=$($PY -c "import json;c=json.load(open('site/data/core.json'));print(json.dumps((c.get('current') or {}).get('last')))" 2>/dev/null)
-$G commit -qm "Data update $(date '+%Y-%m-%d %H:%M')"
+[ -z "$NODATA" ] && $G commit -qm "Data update $(date '+%Y-%m-%d %H:%M')"
 git fetch -q origin main && [ "$(git rev-list --count HEAD..origin/main)" != 0 ] && git pull -q --rebase --autostash origin main
 if ! git push -q origin main; then echo "$(stamp) push failed"; notify "Update failed" "Couldn't push to GitHub (network or login)."; exit 1; fi
 git branch -D pages-tmp -q 2>/dev/null || true
 git subtree split --prefix site -b pages-tmp -q >/dev/null && git push -qf origin pages-tmp:gh-pages
-if ! $PY $HOME/.local/bin/cf-pages-deploy site storrs-lore >/dev/null; then echo "$(stamp) Cloudflare publish failed"; notify "Update failed" "Couldn't publish to Cloudflare (network or wrangler login)."; exit 1; fi
+# Cloudflare sometimes answers "Unknown internal error": try up to 3 times before giving up
+deployed=
+for attempt in 1 2 3; do
+  if $PY $HOME/.local/bin/cf-pages-deploy site storrs-lore >/dev/null; then deployed=1; break; fi
+  echo "$(stamp) Cloudflare publish attempt $attempt failed"; sleep 20
+done
+if [ -z "$deployed" ]; then echo "$(stamp) Cloudflare publish failed"; notify "Update failed" "Couldn't publish to Cloudflare (network or wrangler login)."; exit 1; fi
+git rev-parse HEAD > dev/.deployed_commit
 echo "$(stamp) published"
 if [ "$BEFORE" != "$AFTER" ] && [ "$AFTER" != "null" ]; then
   MSG=$($PY -c "import json;g=json.loads('''$AFTER''');print(f\"UConn {g['pts']}, {g['opp']['name']} {g['opp_pts']} ({g['res']}). Box score and stats are live.\")" 2>/dev/null)

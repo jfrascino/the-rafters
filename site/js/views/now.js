@@ -38,13 +38,19 @@ function hubHtml(core) {
   const cur = core.current || {};
   const sum = core.seasons.find((s) => s.y === h.season) || {};
   const ap = h.polls?.ap, co = h.polls?.coaches, net = h.net, br = h.bracket;
+  // The NET list is last season's final until it has a row for games UConn has actually played this season
+  const gamesPlayed = (String(cur.record || '').match(/\d+/g) || []).reduce((a, n) => a + +n, 0);
+  const curLbl = `${h.season - 1}–${String(h.season).slice(2)}`;
+  const netStale = !!(net?.final && gamesPlayed > 0);
   const rankTxt = (p) => (p?.rank ? `No. ${p.rank}` : p?.votes ? 'RV' : 'NR');
   const tiles = [
     `<div class="hub-tile"><span class="eyebrow">Record</span><b>${cur.record || '0–0'}</b><span>${sum.cw != null && (sum.cw + sum.cl) ? `${sum.cw}–${sum.cl} Big East` : 'Big East play starts later'}</span></div>`,
     ap ? `<div class="hub-tile"><span class="eyebrow">AP poll</span><b>${rankTxt(ap)}</b><span>${ap.votes && !ap.rank ? `${ap.votes} points · ` : ''}${esc(fmtDate(ap.date))}</span>${tag(ap, ap.label)}</div>` : '',
     co ? `<div class="hub-tile"><span class="eyebrow">Coaches poll</span><b>${rankTxt(co)}</b><span>${esc(fmtDate(co.date))}</span>${tag(co, co.label)}</div>` : '',
-    net ? `<div class="hub-tile"><span class="eyebrow">NCAA NET</span><b>No. ${net.rank}</b><span>Quad 1: ${esc(net.quads?.[0] || '–')}</span>${tag(net)}</div>` : '',
-    br ? `<div class="hub-tile"><span class="eyebrow">Projected seed</span><b>${br.seed ? `No. ${br.seed}` : '—'}</b><span>${br.avg ? `avg. ${br.avg.toFixed(2)} in ${br.brackets} brackets` : 'not projected yet'}</span>${tag(br)}</div>` : '',
+    net ? (netStale
+      ? `<div class="hub-tile"><span class="eyebrow">NCAA NET</span><b>—</b><span>${esc(curLbl)} NET not out yet · ${esc(prevLbl)} final No. ${net.rank}</span></div>`
+      : `<div class="hub-tile"><span class="eyebrow">NCAA NET</span><b>No. ${net.rank}</b><span>Quad 1: ${esc(net.quads?.[0] || '–')}</span>${tag(net)}</div>`) : '',
+    br ? `<div class="hub-tile"><span class="eyebrow">Projected seed</span><b>${br.seed ? `No. ${br.seed}` : '—'}</b><span>${br.avg ? `avg. ${br.avg.toFixed(2)} in ${br.brackets} brackets` : 'not projected yet'}</span>${br.preseason ? '<span class="hub-final">Preseason projection</span>' : tag(br)}</div>` : '',
   ].join('');
   const pv = h.preview;
   const preview = pv ? `<div class="panel hub-card">
@@ -63,12 +69,20 @@ function hubHtml(core) {
   const ms = (h.milestones || []).slice().sort((a, b) => a.left - b.left);
   const miles = ms.length ? `<div class="panel hub-card"><span class="eyebrow">Milestone watch</span><ul class="hub-list">${ms.map((m) => `<li><span>${m.pid ? `<a href="#/player/${esc(m.pid)}">${esc(m.who)}</a>` : esc(m.who)}</span><b>${esc(m.text)}</b></li>`).join('')}</ul></div>` : '';
   const st = h.standings;
+  // Before anyone has a conference game, seeds are meaningless: hide them and order by overall record
+  const wl = (v) => { const m = String(v || '').match(/(\d+)-(\d+)/); return m ? [+m[1], +m[2]] : [0, 0]; };
+  const confStarted = !!st?.rows?.some((r) => { const [w, l] = wl(r.conf); return w + l > 0; });
+  const stRows = !st ? [] : confStarted ? st.rows : [...st.rows].sort((a, b) => {
+    const [aw, al] = wl(a.overall), [bw, bl] = wl(b.overall);
+    const ap_ = aw + al ? aw / (aw + al) : 0, bp = bw + bl ? bw / (bw + bl) : 0;
+    return bp - ap_ || bw - aw || (a.name || '').localeCompare(b.name || '');
+  });
   const table = st ? `<div class="panel hub-card"><span class="eyebrow">Big East standings ${tag(st, st.label)}</span>
       <table class="hub-table"><thead><tr><th></th><th class="l">Team</th><th>Conf</th><th>Overall</th><th>Streak</th></tr></thead><tbody>
-      ${st.rows.map((r) => `<tr class="${r.id === '41' ? 'me' : ''}"><td>${esc(r.seed || '')}</td><td class="l"><span class="tm">${logo(r, 'sm')} ${esc(r.name)}</span></td><td>${esc(r.conf || '')}</td><td>${esc(r.overall || '')}</td><td>${esc(r.streak || '')}</td></tr>`).join('')}
-      </tbody></table></div>` : '';
+      ${stRows.map((r) => `<tr class="${r.id === '41' ? 'me' : ''}"><td>${confStarted ? esc(r.seed || '') : ''}</td><td class="l"><span class="tm">${logo(r, 'sm')} ${esc(r.name)}</span></td><td>${esc(r.conf || '')}</td><td>${esc(r.overall || '')}</td><td>${esc(r.streak || '')}</td></tr>`).join('')}
+      </tbody></table>${confStarted ? '' : '<p class="note" style="margin-top:8px">Conference play starts later. Teams are listed by overall record.</p>'}</div>` : '';
   const top10 = ap?.top?.length ? `<div class="panel hub-card"><span class="eyebrow">AP top 10 ${tag(ap, ap.label)}</span>
-      <table class="hub-table"><tbody>${ap.top.map((r) => `<tr class="${r.id === '41' ? 'me' : ''}"><td>${r.rank}</td><td class="l"><span class="tm">${logo(r, 'sm')} ${esc(r.name)}</span></td><td>${esc(r.record || '')}</td></tr>`).join('')}</tbody></table></div>` : '';
+      <table class="hub-table"><tbody>${ap.top.map((r) => `<tr class="${r.id === '41' ? 'me' : ''}"><td>${r.rank}</td><td class="l"><span class="tm">${logo(r, 'sm')} ${esc(r.name)}</span></td><td>${esc(r.now || r.record || '')}</td></tr>`).join('')}</tbody></table></div>` : '';
   return `<div class="wrap">
     <div class="sec-head"><div><span class="eyebrow">${esc(h.label || '')} · updated after every game</span><h2 class="h2">Where UConn stands</h2></div></div>
     <div class="hub-tiles">${tiles}</div>

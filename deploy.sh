@@ -14,3 +14,4 @@ git branch -D pages-tmp -q 2>/dev/null || true
 git subtree split --prefix site -b pages-tmp -q
 git push -qf origin pages-tmp:gh-pages
 /opt/homebrew/bin/python3 $HOME/.local/bin/cf-pages-deploy site storrs-lore
+git rev-parse HEAD > dev/.deployed_commit   # the hands-off updater republishes whenever HEAD isn't what's live
