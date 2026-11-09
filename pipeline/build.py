@@ -1806,6 +1806,10 @@ for y in years:
     print(f"{y} {label(y)}: {w}-{l} {finish:7s} games={len(games_out)} boxes={len(details)} roster={len(roster)}")
 
 # ───────────────────────── Players ─────────────────────────
+try:
+    TRANSFER_SEASONS = json.load(open(os.path.join(HERE, 'out', 'official', 'transfer_seasons.json')))
+except OSError:
+    TRANSFER_SEASONS = {}
 ranks_src = []
 PLAYERS = []
 os.makedirs(os.path.join(SITE, 'players'), exist_ok=True)
@@ -1833,6 +1837,11 @@ for pid, rows in PLAYER_SEASONS.items():
         other.append({'y': yy, 'label': label(yy), 'school': team, 'uconn': False, 'cls': tr.get('class'), 'g': tr.get('games'), 'gs': tr.get('games_started'), 'mp': tr.get('mp_per_g'),
                       'pts': tr.get('pts_per_g'), 'trb': tr.get('trb_per_g'), 'ast': tr.get('ast_per_g'), 'stl': tr.get('stl_per_g'), 'blk': tr.get('blk_per_g'), 'fg_pct': tr.get('fg_pct'),
                       'fg3_pct': tr.get('fg3_pct'), 'ft_pct': tr.get('ft_pct')})
+    if not other and pid in TRANSFER_SEASONS:   # no SR page rows (new transfers): earlier seasons checked by transfer_seasons.py (SR + ESPN)
+        for tr in TRANSFER_SEASONS[pid].get('seasons', []):
+            other.append({'y': tr['y'], 'label': label(tr['y']), 'school': tr['school'], 'uconn': False, 'cls': tr.get('cls'), 'g': tr.get('g'), 'gs': tr.get('gs'), 'mp': tr.get('mp'),
+                          'pts': tr.get('pts'), 'trb': tr.get('trb'), 'ast': tr.get('ast'), 'stl': tr.get('stl'), 'blk': tr.get('blk'), 'fg_pct': tr.get('fg_pct'),
+                          'fg3_pct': tr.get('fg3_pct'), 'ft_pct': tr.get('ft_pct')})
     all_rows = sorted([dict(r) for r in uc_rows] + other, key=lambda r: (r['y'], r['uconn']))   # copies: uc_rows keep 'tot' for the leaderboards
     T = collections.Counter()
     for r in uc_rows:

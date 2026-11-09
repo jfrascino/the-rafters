@@ -177,3 +177,42 @@ run `python3 pipeline/stamp.py` if the import map serves stale modules. Stop/clo
   span counts only seasons with games (Solo Ball 2023–26).
 - B-8 game.js: no "The moment" box for an in-progress season (those key moments were written before the games); box
   score gets a "Team" row for REB/TO when team totals exceed the player sums.
+
+---
+
+# Transfers' earlier college seasons (2026-11-09)
+
+Jason chose to do this here (follow-up from the season-start review). Deadline: committed and deployed before the
+updater's game window opens at 4 PM ET today (Wagner tips 7 PM ET); the updater skips while code is uncommitted.
+
+## Findings (Kai)
+- Other-school rows come from Sports-Reference player pages: build.py (~line 1826) reads
+  `sr_players[pid].tables.players_per_game.rows` (files in `pipeline/out/sr/players/<sr-slug>.json`) and adds every
+  non-UConn row as `{y, label, school, uconn: false, cls, g, gs, mp, pts, trb, ast, stl, blk, fg_pct, fg3_pct, ft_pct}`.
+  Career totals, ranks and milestones use only UConn rows, so other-school rows never count (keep it that way).
+- The 2026-27 newcomers have ESPN-based ids (`espn-<athleteId>`) and no SR page, so they show only their UConn row:
+  Nik Khamenia `espn-5144124` (Duke), Jaye Nash `espn-5060718` (Jacksonville State), Na'jai Hines `espn-5292602`
+  (Seton Hall), Oskar Giltay `espn-5312293` (Stanford), Nils Machowski `espn-5175080` (Wofford), Elmir Džafic
+  `espn-5311500` (Arkansas), Isaiah Shaw `espn-4896885` (Northern Arizona). Freshmen (County, Landrew, Amosov) have
+  no college seasons; Jacob Ross's SR page has no rows; Jayden Ross and Demary already work.
+- Tools: `pipeline/sr_fetch.py` `fetch(url)` (cached in cache.nosync/sr, ≥3.5 s between requests, 429 back-off) and
+  `pipeline/sr_parse.py` `parse_season(html, year)` (roster with `sr_id`) and `parse_player(html, sr_id)`.
+  SR URLs: `/cbb/schools/connecticut/men/2027.html`, `/cbb/players/<sr_id>.html`.
+- Second source: ESPN `https://site.web.api.espn.com/apis/common/v3/sports/basketball/mens-college-basketball/athletes/<id>/stats`
+  → `categories[name=averages].statistics[]` (`season.displayName` "2025-26", `teamSlug`, stats per `labels`: GP GS MIN
+  FG FG% 3PT 3P% FT FT% OR DR REB AST BLK STL PF TO PTS). Khamenia: Duke 2025-26 38 GP, 5 GS, 19.8 MIN, 5.7 PTS.
+
+## Plan
+1. New `pipeline/transfer_seasons.py` (run by hand, not by the updater: earlier seasons don't change): for each
+   current-roster player without other-school rows, find his SR id on SR's UConn current-season roster (match names
+   accent-insensitively: SR "Džafić" = official "Džafic"), fetch his SR page, take non-UConn per-game rows; fetch ESPN
+   career stats; compare season by season. Write `pipeline/out/official/transfer_seasons.json`:
+   `{pid: {name, sr_id, espn_id, seasons: [row as above + "checked": "sr+espn"], disagreements: [...]}}`.
+   Agreement: GP and GS equal; MIN/PTS/REB/AST/STL/BLK per game within 0.1; FG%/3P%/FT% within 0.2 points.
+   A stat the two sources disagree on is settled by a third source (that school's official season stats) when
+   possible, otherwise left blank (None) and listed in `disagreements`. A season only one source has: include it with
+   `"checked": "sr-only"`/`"espn-only"` and list it in the report.
+2. build.py: when a player's SR page gives no other-school rows, take them from transfer_seasons.json (school
+   name as SR prints it). Nothing else changes; career/ranks/milestones stay UConn-only.
+3. Don't touch `pipeline/out/sr/players/`, don't run `sr_scrape.py` (its 2027 build would switch the current season
+   onto SR data), don't commit or deploy (Kai does).

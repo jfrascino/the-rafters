@@ -1,0 +1,300 @@
+{
+ "espn-5144124": {
+  "name": "Nik Khamenia",
+  "sr_id": "nikolas-khamenia-1",
+  "espn_id": "5144124",
+  "seasons": [
+   {
+    "y": 2026,
+    "school": "Duke",
+    "uconn": false,
+    "cls": "FR",
+    "checked": "sr+espn",
+    "g": 38,
+    "gs": 5,
+    "mp": 19.8,
+    "pts": 5.7,
+    "trb": 3.3,
+    "ast": 1.0,
+    "stl": 0.6,
+    "blk": 0.1,
+    "fg_pct": 0.444,
+    "fg3_pct": 0.34,
+    "ft_pct": 0.673
+   }
+  ],
+  "disagreements": []
+ },
+ "espn-5060718": {
+  "name": "Jaye Nash",
+  "sr_id": "jaye-nash-1",
+  "espn_id": "5060718",
+  "seasons": [
+   {
+    "y": 2025,
+    "school": "Tulsa",
+    "uconn": false,
+    "cls": "FR",
+    "checked": "sr+espn",
+    "g": 21,
+    "gs": 0,
+    "mp": 6.8,
+    "pts": 1.2,
+    "trb": 0.9,
+    "ast": 1.4,
+    "stl": 0.2,
+    "blk": 0.0,
+    "fg_pct": 0.222,
+    "fg3_pct": 0.222,
+    "ft_pct": 0.524
+   },
+   {
+    "y": 2026,
+    "school": "Jacksonville St.",
+    "uconn": false,
+    "cls": "SO",
+    "checked": "sr+espn",
+    "g": 32,
+    "gs": 15,
+    "mp": 25.6,
+    "pts": 5.1,
+    "trb": 2.8,
+    "ast": 4.0,
+    "stl": 1.0,
+    "blk": 0.1,
+    "fg_pct": 0.306,
+    "fg3_pct": 0.286,
+    "ft_pct": 0.692
+   }
+  ],
+  "disagreements": []
+ },
+ "espn-5292602": {
+  "name": "Na'jai Hines",
+  "sr_id": "najai-hines-1",
+  "espn_id": "5292602",
+  "seasons": [
+   {
+    "y": 2026,
+    "school": "Seton Hall",
+    "uconn": false,
+    "cls": "FR",
+    "checked": "sr+espn",
+    "g": 31,
+    "gs": 0,
+    "mp": 18.0,
+    "pts": 6.5,
+    "trb": 5.5,
+    "ast": 0.6,
+    "stl": 0.4,
+    "blk": 2.2,
+    "fg_pct": 0.602,
+    "fg3_pct": null,
+    "ft_pct": 0.69
+   }
+  ],
+  "disagreements": []
+ },
+ "espn-5312293": {
+  "name": "Oskar Giltay",
+  "sr_id": "oskar-giltay-1",
+  "espn_id": "5312293",
+  "seasons": [
+   {
+    "y": 2026,
+    "school": "Stanford",
+    "uconn": false,
+    "cls": "FR",
+    "checked": "sr+espn",
+    "g": 32,
+    "gs": 5,
+    "mp": 14.6,
+    "pts": 3.3,
+    "trb": 4.1,
+    "ast": 0.3,
+    "stl": 0.7,
+    "blk": 1.2,
+    "fg_pct": 0.627,
+    "fg3_pct": null,
+    "ft_pct": 0.575
+   }
+  ],
+  "disagreements": []
+ },
+ "espn-5175080": {
+  "name": "Nils Machowski",
+  "sr_id": "nils-machowski-1",
+  "espn_id": "5175080",
+  "seasons": [
+   {
+    "y": 2024,
+    "school": "UCF",
+    "uconn": false,
+    "cls": "FR",
+    "checked": "sr+espn",
+    "g": 25,
+    "gs": 0,
+    "mp": 9.3,
+    "pts": 2.0,
+    "trb": 1.1,
+    "ast": 0.8,
+    "stl": 0.5,
+    "blk": 0.0,
+    "fg_pct": 0.327,
+    "fg3_pct": 0.273,
+    "ft_pct": 0.727
+   },
+   {
+    "y": 2025,
+    "school": "UCF",
+    "uconn": false,
+    "cls": "SO",
+    "checked": "sr+espn",
+    "g": 31,
+    "gs": 9,
+    "mp": 12.4,
+    "pts": 3.7,
+    "trb": 2.2,
+    "ast": 0.8,
+    "stl": 0.6,
+    "blk": 0.1,
+    "fg_pct": 0.435,
+    "fg3_pct": 0.367,
+    "ft_pct": 0.815
+   },
+   {
+    "y": 2026,
+    "school": "Wofford",
+    "uconn": false,
+    "cls": "JR",
+    "checked": "sr+espn",
+    "g": 32,
+    "gs": 32,
+    "mp": 33.7,
+    "pts": 17.2,
+    "trb": 5.7,
+    "ast": 2.6,
+    "stl": 0.7,
+    "blk": 0.5,
+    "fg_pct": 0.433,
+    "fg3_pct": 0.382,
+    "ft_pct": 0.79
+   }
+  ],
+  "disagreements": []
+ },
+ "espn-5311500": {
+  "name": "Elmir Džafic",
+  "sr_id": "elmir-dzafic-1",
+  "espn_id": "5311500",
+  "seasons": [
+   {
+    "y": 2026,
+    "school": "Arkansas",
+    "uconn": false,
+    "cls": "FR",
+    "checked": "sr+espn",
+    "g": 7,
+    "gs": 0,
+    "mp": null,
+    "pts": 0.4,
+    "trb": 0.1,
+    "ast": 0.0,
+    "stl": 0.1,
+    "blk": 0.1,
+    "fg_pct": null,
+    "fg3_pct": null,
+    "ft_pct": 0.5
+   }
+  ],
+  "disagreements": [
+   {
+    "season": "2025-26",
+    "school": "Arkansas",
+    "stat": "mp",
+    "sr": 2.3,
+    "espn": 2.1
+   }
+  ]
+ },
+ "espn-4896885": {
+  "name": "Isaiah Shaw",
+  "sr_id": "isaiah-shaw-1",
+  "espn_id": "4896885",
+  "seasons": [
+   {
+    "y": 2023,
+    "school": "Grand Canyon",
+    "uconn": false,
+    "cls": "FR",
+    "checked": "sr+espn",
+    "g": 7,
+    "gs": 0,
+    "mp": 9.3,
+    "pts": 4.4,
+    "trb": 1.6,
+    "ast": 0.6,
+    "stl": 0.3,
+    "blk": 0.0,
+    "fg_pct": 0.44,
+    "fg3_pct": 0.538,
+    "ft_pct": 0.667
+   },
+   {
+    "y": 2024,
+    "school": "Grand Canyon",
+    "uconn": false,
+    "cls": "FR",
+    "checked": "sr+espn",
+    "g": 32,
+    "gs": 0,
+    "mp": 7.9,
+    "pts": 2.6,
+    "trb": 0.9,
+    "ast": 0.2,
+    "stl": 0.1,
+    "blk": 0.2,
+    "fg_pct": 0.368,
+    "fg3_pct": 0.304,
+    "ft_pct": 0.826
+   },
+   {
+    "y": 2025,
+    "school": "Valparaiso",
+    "uconn": false,
+    "cls": "SO",
+    "checked": "sr+espn",
+    "g": 33,
+    "gs": 3,
+    "mp": 13.2,
+    "pts": 4.8,
+    "trb": 1.5,
+    "ast": 0.3,
+    "stl": 0.2,
+    "blk": 0.1,
+    "fg_pct": 0.414,
+    "fg3_pct": 0.316,
+    "ft_pct": 0.706
+   },
+   {
+    "y": 2026,
+    "school": "Northern Ariz.",
+    "uconn": false,
+    "cls": "JR",
+    "checked": "sr+espn",
+    "g": 29,
+    "gs": 22,
+    "mp": 18.3,
+    "pts": 8.1,
+    "trb": 2.1,
+    "ast": 0.6,
+    "stl": 0.5,
+    "blk": 0.5,
+    "fg_pct": 0.464,
+    "fg3_pct": 0.464,
+    "ft_pct": 0.811
+   }
+  ],
+  "disagreements": []
+ }
+}
