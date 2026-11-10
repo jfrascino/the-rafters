@@ -100,7 +100,7 @@
    "timeTBD": false,
    "seasonType": 2,
    "status": "in",
-   "statusDetail": "Halftime",
+   "statusDetail": "14:52 - 2nd Half",
    "homeAway": "home",
    "neutral": false,
    "conferenceGame": false,
@@ -122,8 +122,8 @@
     "state": "CT"
    },
    "broadcast": "truTV",
-   "score": 44,
-   "oppScore": 18,
+   "score": 58,
+   "oppScore": 22,
    "result": null,
    "ot": null,
    "record": "2-0",
@@ -318,7 +318,7 @@
    "record": "2-0",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $11",
+    "summary": "Tickets as low as $10",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-11-30-2026--sports-ncaa-basketball/production/7581915?wsUser=717"
    },
    "has": {
