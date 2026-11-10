@@ -100,7 +100,7 @@
    "timeTBD": false,
    "seasonType": 2,
    "status": "in",
-   "statusDetail": "15:37 - 1st Half",
+   "statusDetail": "8:08 - 1st Half",
    "homeAway": "home",
    "neutral": false,
    "conferenceGame": false,
@@ -122,8 +122,8 @@
     "state": "CT"
    },
    "broadcast": "truTV",
-   "score": 12,
-   "oppScore": 0,
+   "score": 24,
+   "oppScore": 10,
    "result": null,
    "ot": null,
    "record": "2-0",
@@ -134,7 +134,7 @@
     "lineup": true,
     "plays": true,
     "wp": true,
-    "shots": false,
+    "shots": true,
     "article": false,
     "videos": 0
    }
@@ -222,7 +222,7 @@
    "record": "2-0",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $91",
+    "summary": "Tickets as low as $89",
     "url": "https://www.vividseats.com/arizona-wildcats-mens-basketball-tickets-mckale-center-11-18-2026--sports-ncaa-basketball/production/7155321?wsUser=717"
    },
    "has": {
