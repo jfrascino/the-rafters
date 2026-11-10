@@ -1,7 +1,7 @@
 {
  "season": 2027,
  "label": "2026-27",
- "wins": 2,
+ "wins": 3,
  "losses": 0,
  "games": [
   {
@@ -99,8 +99,8 @@
    "date": "2026-11-10T00:00Z",
    "timeTBD": false,
    "seasonType": 2,
-   "status": "in",
-   "statusDetail": "5:13 - 2nd Half",
+   "status": "final",
+   "statusDetail": "Final",
    "homeAway": "home",
    "neutral": false,
    "conferenceGame": false,
@@ -122,12 +122,12 @@
     "state": "CT"
    },
    "broadcast": "truTV",
-   "score": 80,
-   "oppScore": 33,
-   "result": null,
-   "ot": null,
-   "record": "2-0",
-   "attendance": null,
+   "score": 83,
+   "oppScore": 41,
+   "result": "W",
+   "ot": 0,
+   "record": "3-0",
+   "attendance": 10244,
    "tickets": null,
    "has": {
     "box": true,
@@ -171,7 +171,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "2-0",
+   "record": "3-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $79",
@@ -219,7 +219,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "2-0",
+   "record": "3-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $89",
