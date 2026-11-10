@@ -99,8 +99,8 @@
    "date": "2026-11-10T00:00Z",
    "timeTBD": false,
    "seasonType": 2,
-   "status": "scheduled",
-   "statusDetail": "Mon, November 9th at 7:00 PM EST",
+   "status": "in",
+   "statusDetail": "15:37 - 1st Half",
    "homeAway": "home",
    "neutral": false,
    "conferenceGame": false,
@@ -122,23 +122,20 @@
     "state": "CT"
    },
    "broadcast": "truTV",
-   "score": null,
-   "oppScore": null,
+   "score": 12,
+   "oppScore": 0,
    "result": null,
    "ot": null,
    "record": "2-0",
    "attendance": null,
-   "tickets": {
-    "summary": "Tickets as low as $8",
-    "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-11-9-2026--sports-ncaa-basketball/production/7581911?wsUser=717"
-   },
+   "tickets": null,
    "has": {
-    "box": false,
-    "lineup": false,
-    "plays": false,
-    "wp": false,
+    "box": true,
+    "lineup": true,
+    "plays": true,
+    "wp": true,
     "shots": false,
-    "article": true,
+    "article": false,
     "videos": 0
    }
   },
