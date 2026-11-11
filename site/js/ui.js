@@ -67,12 +67,15 @@ export function finishPill(f, extra = '') {
 }
 
 // Logos & photos
+// The site is navy: ESPN's dark-background logo keeps black/navy lettering and marks visible (Ohio State, Duke, Virginia…)
+export const darkLogo = (url) => (/\/teamlogos\/ncaa\/500\/\d+\.png$/.test(url || '') ? url.replace('/ncaa/500/', '/ncaa/500-dark/') : url);
 export function logo(team, cls = '') {
   if (!team) return '';
-  const src = team.logo;
+  const src = darkLogo(team.logo);
   const ab = esc((team.abbr || team.name || '?').slice(0, 4));
   if (!src) return `<span class="logo logo-fallback ${cls}" aria-hidden="true">${ab}</span>`;
-  return `<img class="logo ${cls}" src="${esc(src)}" alt="" loading="lazy" onerror="this.outerHTML='<span class=&quot;logo logo-fallback ${cls}&quot;>${ab}</span>'">`;
+  const retry = src !== team.logo ? `if(!this.dataset.f){this.dataset.f=1;this.src='${esc(team.logo)}';return}` : '';   // no dark version: the standard logo
+  return `<img class="logo ${cls}" src="${esc(src)}" alt="" loading="lazy" onerror="${retry}this.outerHTML='<span class=&quot;logo logo-fallback ${cls}&quot;>${ab}</span>'">`;
 }
 export const UCONN = { name: 'UConn', abbr: 'CONN', logo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/41.png', color: '#0c2340' };
 export const initials = (name) => (name || '?').split(/\s+/).filter(Boolean).map((w) => w[0]).slice(0, 2).join('').toUpperCase();
