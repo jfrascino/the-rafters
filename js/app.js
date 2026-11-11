@@ -1,5 +1,5 @@
 // Router, search, and app shell.
-import { $, $$, esc, load, tryLoad, headshot, seasonLabel, FINISH, setLogos } from './ui.js';
+import { $, $$, esc, load, tryLoad, headshot, seasonLabel, FINISH, setLogos, darkLogo } from './ui.js';
 
 const views = {
   '': () => import('./views/home.js'),
@@ -75,7 +75,7 @@ async function renderResults(q) {
   results = !q ? idx.filter((r) => r.k === 'Season').slice(-6).reverse()
     : idx.filter((r) => r.q.includes(q) || r.q.split(' ').some((w) => w.startsWith(q))).sort((a, b) => (b.q.startsWith(q) - a.q.startsWith(q))).slice(0, 30);
   sel = 0;
-  $('#searchResults').innerHTML = results.map((r, i) => `<a class="sr-item${i === 0 ? ' on' : ''}" href="${r.h}">${r.p ? headshot(r.p) : r.logo ? `<img src="${esc(r.logo)}" alt="" style="object-fit:contain;border-radius:0;background:none">` : `<span class="ph">${r.yr ? String(r.yr).slice(2) : '•'}</span>`}<span><b>${esc(r.t)}</b><small>${esc(r.s)}</small></span><span class="k">${r.k}</span></a>`).join('') || '<div class="empty" style="margin:16px">No matches</div>';
+  $('#searchResults').innerHTML = results.map((r, i) => `<a class="sr-item${i === 0 ? ' on' : ''}" href="${r.h}">${r.p ? headshot(r.p) : r.logo ? `<img src="${esc(darkLogo(r.logo))}" alt="" style="object-fit:contain;border-radius:0;background:none">` : `<span class="ph">${r.yr ? String(r.yr).slice(2) : '•'}</span>`}<span><b>${esc(r.t)}</b><small>${esc(r.s)}</small></span><span class="k">${r.k}</span></a>`).join('') || '<div class="empty" style="margin:16px">No matches</div>';
 }
 $('#searchBtn').addEventListener('click', openSearch);
 $('#search').addEventListener('click', (e) => { if (e.target.id === 'search' || e.target.closest('.sr-item')) closeSearch(); });

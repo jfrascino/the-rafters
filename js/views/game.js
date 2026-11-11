@@ -1,4 +1,4 @@
-import { esc, isInProgress, load, tryLoad, logo, UCONN, fmtDate, fmtTime, fmtDay, n1, statTable, bindTips, tip, videoCard, bindVideos, headshot, openMp4 } from '../ui.js';
+import { esc, isInProgress, load, tryLoad, logo, darkLogo, UCONN, fmtDate, fmtTime, fmtDay, n1, statTable, bindTips, tip, videoCard, bindVideos, headshot, openMp4 } from '../ui.js';
 import { winProb, flow, shotChart, onResize } from '../charts.js';
 import { watch, nearTip } from '../live.js';
 
@@ -89,7 +89,7 @@ export default async function game(main, args, core) {
     <div class="sec-head"><div><span class="eyebrow">Game score leaders</span><h2 class="h2">Who won it</h2></div></div>
     <div class="feature-row">${tops.map((p) => `
       <a class="panel otd" href="${p.pid ? `#/player/${esc(p.pid)}` : '#'}" style="grid-template-columns:auto 1fr;align-items:center;gap:16px">
-        <span style="width:84px;height:84px;border-radius:50%;overflow:hidden;background:var(--panel-2);display:grid;place-items:center">${!p.uconn && !p.photo && O.logo ? `<img src="${esc(O.logo)}" alt="" style="width:62%;height:62%;object-fit:contain">` : headshot(p, '')}</span>
+        <span style="width:84px;height:84px;border-radius:50%;overflow:hidden;background:var(--panel-2);display:grid;place-items:center">${!p.uconn && !p.photo && O.logo ? `<img src="${esc(darkLogo(O.logo))}" alt="" style="width:62%;height:62%;object-fit:contain">` : headshot(p, '')}</span>
         <span style="display:grid;gap:6px"><span class="eyebrow ${p.uconn ? '' : 'red'}">${p.uconn ? 'UConn' : esc(O.name)}</span><b style="font:800 22px/1 var(--f-display);text-transform:uppercase">${esc(p.name)}</b>
         <span style="font:700 16px/1.2 var(--f-cond);letter-spacing:.04em"><b style="font-size:26px">${p.pts}</b> PTS${p.rebKnown ? ` · ${p.reb} REB` : ''}${p.astKnown ? ` · ${p.ast} AST` : ''}${p.stl ? ` · ${p.stl} STL` : ''}${p.blk ? ` · ${p.blk} BLK` : ''}</span>
         <span class="note">${p.fgm}-${p.fga} FG${p.tpa != null ? ` · ${p.tpm ?? 0}-${p.tpa} 3PT` : ''} · ${p.ftm}-${p.fta} FT${p.min ? ` · ${p.min} min` : ''}</span></span>
