@@ -64,18 +64,6 @@
    "streak": "W3"
   },
   {
-   "id": "156",
-   "name": "Creighton",
-   "full": "Creighton Bluejays",
-   "abbr": "CREI",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
-   "conf": "0-0",
-   "overall": "2-0",
-   "seed": "6",
-   "gb": "-",
-   "streak": "W2"
-  },
-  {
    "id": "269",
    "name": "Marquette",
    "full": "Marquette Golden Eagles",
@@ -83,7 +71,7 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
    "conf": "0-0",
    "overall": "2-0",
-   "seed": "7",
+   "seed": "6",
    "gb": "-",
    "streak": "W2"
   },
@@ -95,7 +83,7 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
    "conf": "0-0",
    "overall": "2-0",
-   "seed": "8",
+   "seed": "7",
    "gb": "-",
    "streak": "W2"
   },
@@ -105,6 +93,18 @@
    "full": "Butler Bulldogs",
    "abbr": "BTLR",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png",
+   "conf": "0-0",
+   "overall": "2-1",
+   "seed": "8",
+   "gb": "-",
+   "streak": "L1"
+  },
+  {
+   "id": "156",
+   "name": "Creighton",
+   "full": "Creighton Bluejays",
+   "abbr": "CREI",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
    "conf": "0-0",
    "overall": "2-1",
    "seed": "9",
@@ -136,5 +136,5 @@
    "streak": "W2"
   }
  ],
- "fetched": "2026-11-11T03:00:49+00:00"
+ "fetched": "2026-11-11T05:02:13+00:00"
 }
