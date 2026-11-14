@@ -144,8 +144,8 @@
    "date": "2026-11-14T00:30Z",
    "timeTBD": false,
    "seasonType": 2,
-   "status": "scheduled",
-   "statusDetail": "Fri, November 13th at 7:30 PM EST",
+   "status": "in",
+   "statusDetail": "11:19 - 1st Half",
    "homeAway": "home",
    "neutral": false,
    "conferenceGame": false,
@@ -167,23 +167,20 @@
     "state": "CT"
    },
    "broadcast": "TNT",
-   "score": null,
-   "oppScore": null,
+   "score": 25,
+   "oppScore": 13,
    "result": null,
    "ot": null,
    "record": "3-0",
    "attendance": null,
-   "tickets": {
-    "summary": "Tickets as low as $62",
-    "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-11-13-2026--sports-ncaa-basketball/production/7581913?wsUser=717"
-   },
+   "tickets": null,
    "has": {
-    "box": false,
-    "lineup": false,
-    "plays": false,
-    "wp": false,
-    "shots": false,
-    "article": true,
+    "box": true,
+    "lineup": true,
+    "plays": true,
+    "wp": true,
+    "shots": true,
+    "article": false,
     "videos": 0
    }
   },

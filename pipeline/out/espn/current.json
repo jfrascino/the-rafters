@@ -504,39 +504,32 @@
   }
  },
  "next": {
-  "id": "401916316",
-  "date": "2026-11-14T00:30Z",
+  "id": "401909742",
+  "date": "2026-11-19T02:00Z",
   "timeTBD": false,
   "status": "scheduled",
-  "homeAway": "home",
+  "homeAway": "away",
   "neutral": false,
   "note": null,
   "opponent": {
-   "id": "194",
-   "name": "Ohio State Buckeyes",
-   "abbr": "OSU",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
-   "rank": null,
-   "color": "ba0c2f"
+   "id": "12",
+   "name": "Arizona Wildcats",
+   "abbr": "ARIZ",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+   "rank": 12,
+   "color": "cc0033"
   },
   "venue": {
-   "id": "64",
-   "name": "PeoplesBank Arena",
-   "city": "Hartford",
-   "state": "CT"
+   "id": "1064",
+   "name": "McKale Center at ALKEME Arena",
+   "city": "Tucson",
+   "state": "AZ",
+   "image": "https://a.espncdn.com/i/venues/mens-college-basketball/day/1064.jpg"
   },
   "tv": [
-   "TNT"
+   "FS1"
   ],
-  "odds": {
-   "provider": "DraftKings",
-   "details": "CONN -12.5",
-   "spread": -12.5,
-   "overUnder": 147.5,
-   "favorite": "home",
-   "homeML": -850,
-   "awayML": 575
-  }
+  "odds": null
  },
  "coach": [
   {
