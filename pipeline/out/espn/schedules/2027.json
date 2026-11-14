@@ -1,7 +1,7 @@
 {
  "season": 2027,
  "label": "2026-27",
- "wins": 3,
+ "wins": 4,
  "losses": 0,
  "games": [
   {
@@ -144,8 +144,8 @@
    "date": "2026-11-14T00:30Z",
    "timeTBD": false,
    "seasonType": 2,
-   "status": "in",
-   "statusDetail": "0:29 - 2nd Half",
+   "status": "final",
+   "statusDetail": "Final",
    "homeAway": "home",
    "neutral": false,
    "conferenceGame": false,
@@ -168,11 +168,11 @@
    },
    "broadcast": "TNT",
    "score": 84,
-   "oppScore": 66,
-   "result": null,
-   "ot": null,
-   "record": "3-0",
-   "attendance": null,
+   "oppScore": 68,
+   "result": "W",
+   "ot": 0,
+   "record": "4-0",
+   "attendance": 15495,
    "tickets": null,
    "has": {
     "box": true,
@@ -180,7 +180,7 @@
     "plays": true,
     "wp": true,
     "shots": true,
-    "article": false,
+    "article": true,
     "videos": 0
    }
   },
@@ -216,7 +216,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "3-0",
+   "record": "4-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $79",
@@ -264,7 +264,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "3-0",
+   "record": "4-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $75",
@@ -312,7 +312,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "3-0",
+   "record": "4-0",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $10",

@@ -1,12 +1,12 @@
 {
- "eid": "401916316",
- "date": "2026-11-14T00:30Z",
+ "eid": "401909742",
+ "date": "2026-11-19T02:00Z",
  "team": {
-  "id": "194",
-  "name": "Ohio State",
-  "full": "Ohio State Buckeyes",
-  "abbr": "OSU",
-  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png"
+  "id": "12",
+  "name": "Arizona",
+  "full": "Arizona Wildcats",
+  "abbr": "ARIZ",
+  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png"
  },
  "record": "2-1",
  "standing": null,
@@ -14,19 +14,19 @@
  "leaders": [
   {
    "stat": "Points per game",
-   "name": "John Mobley Jr.",
-   "value": "19.3"
+   "name": "Ivan Kharchenkov",
+   "value": "24.7"
   },
   {
    "stat": "Rebounds per game",
-   "name": "Andrija Jelavic",
-   "value": "7.3"
+   "name": "Ivan Kharchenkov",
+   "value": "9.0"
   },
   {
    "stat": "Assists per game",
-   "name": "John Mobley Jr.",
+   "name": "JJ Mandaquit",
    "value": "5.0"
   }
  ],
- "fetched": "2026-11-10T10:50:37+00:00"
+ "fetched": "2026-11-14T02:59:37+00:00"
 }
