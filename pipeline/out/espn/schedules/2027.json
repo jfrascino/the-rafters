@@ -204,7 +204,7 @@
     "rank": 12,
     "seed": null
    },
-   "uconnRank": 4,
+   "uconnRank": 3,
    "uconnSeed": null,
    "venue": {
     "name": "McKale Center at ALKEME Arena",
@@ -249,10 +249,10 @@
     "short": "Duke",
     "abbr": "DUKE",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-    "rank": 2,
+    "rank": 5,
     "seed": null
    },
-   "uconnRank": 4,
+   "uconnRank": 3,
    "uconnSeed": null,
    "venue": {
     "name": "T-Mobile Arena",
@@ -300,7 +300,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 4,
+   "uconnRank": 3,
    "uconnSeed": null,
    "venue": {
     "name": "M&T Bank Center at Gampel Pavilion",
@@ -345,10 +345,10 @@
     "short": "Illinois",
     "abbr": "ILL",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
-    "rank": 3,
+    "rank": 10,
     "seed": null
    },
-   "uconnRank": 4,
+   "uconnRank": 3,
    "uconnSeed": null,
    "venue": {
     "name": "United Center",
@@ -396,7 +396,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 4,
+   "uconnRank": 3,
    "uconnSeed": null,
    "venue": {
     "name": "M&T Bank Center at Gampel Pavilion",
@@ -441,10 +441,10 @@
     "short": "Kansas",
     "abbr": "KU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
-    "rank": 15,
+    "rank": 11,
     "seed": null
    },
-   "uconnRank": 4,
+   "uconnRank": 3,
    "uconnSeed": null,
    "venue": {
     "name": "M&T Bank Center at Gampel Pavilion",
@@ -492,7 +492,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 4,
+   "uconnRank": 3,
    "uconnSeed": null,
    "venue": {
     "name": "PeoplesBank Arena",
@@ -537,10 +537,10 @@
     "short": "Virginia",
     "abbr": "UVA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-    "rank": 6,
+    "rank": 4,
     "seed": null
    },
-   "uconnRank": 4,
+   "uconnRank": 3,
    "uconnSeed": null,
    "venue": {
     "name": "Madison Square Garden",
@@ -555,7 +555,7 @@
    "record": "4-0",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $100",
+    "summary": "Tickets as low as $112",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-madison-square-garden-12-20-2026--sports-ncaa-basketball/production/7006422?wsUser=717"
    },
    "has": {
@@ -588,7 +588,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 4,
+   "uconnRank": 3,
    "uconnSeed": null,
    "venue": {
     "name": "PeoplesBank Arena",
@@ -636,7 +636,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 4,
+   "uconnRank": 3,
    "uconnSeed": null,
    "venue": {
     "name": "Hinkle Fieldhouse",
@@ -684,7 +684,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 4,
+   "uconnRank": 3,
    "uconnSeed": null,
    "venue": {
     "name": "CHI Health Center Omaha",
@@ -924,7 +924,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 4,
+   "uconnRank": 3,
    "uconnSeed": null,
    "venue": {
     "name": "Amica Mutual Pavilion",
@@ -939,7 +939,7 @@
    "record": "4-0",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $104",
+    "summary": "Tickets as low as $121",
     "url": "https://www.vividseats.com/providence-college-friars-mens-basketball-tickets-amica-mutual-pavilion-1-20-2027--sports-ncaa-basketball/production/7555600?wsUser=717"
    },
    "has": {
@@ -972,7 +972,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 4,
+   "uconnRank": 3,
    "uconnSeed": null,
    "venue": {
     "name": "PeoplesBank Arena",
