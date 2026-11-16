@@ -94,7 +94,7 @@
     "full": null,
     "abbr": "TEX",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-    "now": "3-0"
+    "now": "4-0"
    },
    {
     "rank": 8,
@@ -133,7 +133,7 @@
     "full": null,
     "abbr": "LOU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-    "now": "2-0"
+    "now": "2-1"
    },
    {
     "rank": 11,
@@ -558,7 +558,7 @@
     "full": null,
     "abbr": "TEX",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-    "now": "3-0"
+    "now": "4-0"
    },
    {
     "rank": 8,
@@ -597,7 +597,7 @@
     "full": null,
     "abbr": "LOU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-    "now": "2-0"
+    "now": "2-1"
    },
    {
     "rank": 11,
@@ -918,5 +918,5 @@
    }
   ]
  },
- "fetched": "2026-11-14T03:41:53+00:00"
+ "fetched": "2026-11-16T00:56:22+00:00"
 }
