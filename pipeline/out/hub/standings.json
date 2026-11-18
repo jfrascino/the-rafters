@@ -10,10 +10,22 @@
    "abbr": "DEP",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/305.png",
    "conf": "0-0",
-   "overall": "4-0",
+   "overall": "5-0",
    "seed": "1",
    "gb": "-",
-   "streak": "W4"
+   "streak": "W5"
+  },
+  {
+   "id": "2752",
+   "name": "Xavier",
+   "full": "Xavier Musketeers",
+   "abbr": "XAV",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png",
+   "conf": "0-0",
+   "overall": "5-0",
+   "seed": "2",
+   "gb": "-",
+   "streak": "W5"
   },
   {
    "id": "46",
@@ -23,7 +35,7 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
    "conf": "0-0",
    "overall": "4-0",
-   "seed": "2",
+   "seed": "3",
    "gb": "-",
    "streak": "W4"
   },
@@ -35,7 +47,7 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
    "conf": "0-0",
    "overall": "4-0",
-   "seed": "3",
+   "seed": "4",
    "gb": "-",
    "streak": "W4"
   },
@@ -47,21 +59,21 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
    "conf": "0-0",
    "overall": "4-0",
-   "seed": "4",
+   "seed": "5",
    "gb": "-",
    "streak": "W4"
   },
   {
-   "id": "2752",
-   "name": "Xavier",
-   "full": "Xavier Musketeers",
-   "abbr": "XAV",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png",
+   "id": "2507",
+   "name": "Providence",
+   "full": "Providence Friars",
+   "abbr": "PROV",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
    "conf": "0-0",
-   "overall": "4-0",
-   "seed": "5",
+   "overall": "4-1",
+   "seed": "6",
    "gb": "-",
-   "streak": "W4"
+   "streak": "W3"
   },
   {
    "id": "156",
@@ -71,21 +83,9 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
    "conf": "0-0",
    "overall": "3-1",
-   "seed": "6",
-   "gb": "-",
-   "streak": "W1"
-  },
-  {
-   "id": "2507",
-   "name": "Providence",
-   "full": "Providence Friars",
-   "abbr": "PROV",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
-   "conf": "0-0",
-   "overall": "3-1",
    "seed": "7",
    "gb": "-",
-   "streak": "W2"
+   "streak": "W1"
   },
   {
    "id": "2550",
@@ -100,28 +100,28 @@
    "streak": "L1"
   },
   {
-   "id": "222",
-   "name": "Villanova",
-   "full": "Villanova Wildcats",
-   "abbr": "VILL",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
-   "conf": "0-0",
-   "overall": "3-1",
-   "seed": "9",
-   "gb": "-",
-   "streak": "W3"
-  },
-  {
    "id": "2086",
    "name": "Butler",
    "full": "Butler Bulldogs",
    "abbr": "BTLR",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png",
    "conf": "0-0",
-   "overall": "2-2",
+   "overall": "3-2",
+   "seed": "9",
+   "gb": "-",
+   "streak": "W1"
+  },
+  {
+   "id": "222",
+   "name": "Villanova",
+   "full": "Villanova Wildcats",
+   "abbr": "VILL",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
+   "conf": "0-0",
+   "overall": "3-2",
    "seed": "10",
    "gb": "-",
-   "streak": "L2"
+   "streak": "L1"
   },
   {
    "id": "269",
@@ -136,5 +136,5 @@
    "streak": "L2"
   }
  ],
- "fetched": "2026-11-16T14:53:06+00:00"
+ "fetched": "2026-11-18T03:01:49+00:00"
 }
