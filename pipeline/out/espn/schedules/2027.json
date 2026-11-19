@@ -225,7 +225,7 @@
     "plays": true,
     "wp": true,
     "shots": true,
-    "article": false,
+    "article": true,
     "videos": 0
    }
   },
@@ -693,7 +693,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $29",
@@ -741,10 +741,10 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $39",
+    "summary": "Tickets as low as $37",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-1-6-2027--sports-ncaa-basketball/production/7581923?wsUser=717"
    },
    "has": {
@@ -789,7 +789,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $77",
@@ -837,7 +837,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $51",
@@ -885,7 +885,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $94",
@@ -933,7 +933,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $116",
@@ -981,7 +981,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $70",
@@ -1029,7 +1029,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $46",
@@ -1077,7 +1077,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $164",
@@ -1125,7 +1125,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $64",
@@ -1173,7 +1173,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $84",
@@ -1221,7 +1221,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $23",
@@ -1269,7 +1269,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $42",
@@ -1317,7 +1317,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $63",
@@ -1365,7 +1365,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $47",
@@ -1413,7 +1413,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $126",
@@ -1461,7 +1461,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $125",
@@ -1509,7 +1509,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $87",
