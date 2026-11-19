@@ -2,7 +2,7 @@
  "season": 2027,
  "label": "2026-27",
  "wins": 4,
- "losses": 0,
+ "losses": 1,
  "games": [
   {
    "id": "401911390",
@@ -171,7 +171,7 @@
    "oppScore": 68,
    "result": "W",
    "ot": 0,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": 15495,
    "tickets": null,
    "has": {
@@ -189,8 +189,8 @@
    "date": "2026-11-19T02:00Z",
    "timeTBD": false,
    "seasonType": 2,
-   "status": "in",
-   "statusDetail": "1:16 - 2nd Half",
+   "status": "final",
+   "statusDetail": "Final",
    "homeAway": "away",
    "neutral": false,
    "conferenceGame": false,
@@ -212,12 +212,12 @@
     "state": "AZ"
    },
    "broadcast": "FS1",
-   "score": 71,
-   "oppScore": 79,
-   "result": null,
-   "ot": null,
-   "record": "4-0",
-   "attendance": null,
+   "score": 79,
+   "oppScore": 85,
+   "result": "L",
+   "ot": 0,
+   "record": "4-1",
+   "attendance": 14688,
    "tickets": null,
    "has": {
     "box": true,
@@ -261,7 +261,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $59",
@@ -309,7 +309,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $11",
@@ -357,7 +357,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $112",
@@ -405,7 +405,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $7",
@@ -453,7 +453,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $226",
@@ -501,7 +501,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $7",
@@ -549,7 +549,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $122",
@@ -597,7 +597,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $63",
@@ -645,7 +645,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-0",
+   "record": "4-1",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $43",
