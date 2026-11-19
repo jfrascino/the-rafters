@@ -64,6 +64,18 @@
    "streak": "W4"
   },
   {
+   "id": "156",
+   "name": "Creighton",
+   "full": "Creighton Bluejays",
+   "abbr": "CREI",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
+   "conf": "0-0",
+   "overall": "4-1",
+   "seed": "6",
+   "gb": "-",
+   "streak": "W2"
+  },
+  {
    "id": "2507",
    "name": "Providence",
    "full": "Providence Friars",
@@ -71,21 +83,9 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
    "conf": "0-0",
    "overall": "4-1",
-   "seed": "6",
-   "gb": "-",
-   "streak": "W3"
-  },
-  {
-   "id": "156",
-   "name": "Creighton",
-   "full": "Creighton Bluejays",
-   "abbr": "CREI",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
-   "conf": "0-0",
-   "overall": "3-1",
    "seed": "7",
    "gb": "-",
-   "streak": "W1"
+   "streak": "W3"
   },
   {
    "id": "2550",
@@ -136,5 +136,5 @@
    "streak": "L1"
   }
  ],
- "fetched": "2026-11-19T02:42:36+00:00"
+ "fetched": "2026-11-19T04:30:19+00:00"
 }
