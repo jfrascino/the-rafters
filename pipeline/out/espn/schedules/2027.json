@@ -190,7 +190,7 @@
    "timeTBD": false,
    "seasonType": 2,
    "status": "in",
-   "statusDetail": "17:44 - 1st Half",
+   "statusDetail": "10:45 - 1st Half",
    "homeAway": "away",
    "neutral": false,
    "conferenceGame": false,
@@ -212,8 +212,8 @@
     "state": "AZ"
    },
    "broadcast": "FS1",
-   "score": 0,
-   "oppScore": 5,
+   "score": 9,
+   "oppScore": 24,
    "result": null,
    "ot": null,
    "record": "4-0",
@@ -224,7 +224,7 @@
     "lineup": true,
     "plays": true,
     "wp": true,
-    "shots": false,
+    "shots": true,
     "article": false,
     "videos": 0
    }
