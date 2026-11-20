@@ -107,7 +107,7 @@
     "full": null,
     "abbr": "HOU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-    "now": "5-0"
+    "now": "6-0"
    },
    {
     "rank": 9,
@@ -540,7 +540,7 @@
     "full": null,
     "abbr": "HOU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-    "now": "5-0"
+    "now": "6-0"
    },
    {
     "rank": 8,
@@ -566,7 +566,7 @@
     "full": null,
     "abbr": "KU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
-    "now": "5-0"
+    "now": "5-1"
    },
    {
     "rank": 10,
@@ -891,5 +891,5 @@
    }
   ]
  },
- "fetched": "2026-11-20T05:09:08+00:00"
+ "fetched": "2026-11-20T07:10:13+00:00"
 }
