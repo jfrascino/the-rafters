@@ -81,7 +81,7 @@
     "full": null,
     "abbr": "TEX",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-    "now": "5-0"
+    "now": "6-0"
    },
    {
     "rank": 7,
@@ -94,7 +94,7 @@
     "full": null,
     "abbr": "UCLA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-    "now": "5-0"
+    "now": "6-0"
    },
    {
     "rank": 8,
@@ -527,7 +527,7 @@
     "full": null,
     "abbr": "TEX",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-    "now": "5-0"
+    "now": "6-0"
    },
    {
     "rank": 7,
@@ -579,7 +579,7 @@
     "full": null,
     "abbr": "UCLA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-    "now": "5-0"
+    "now": "6-0"
    },
    {
     "rank": 11,
@@ -891,5 +891,5 @@
    }
   ]
  },
- "fetched": "2026-11-22T09:20:55+00:00"
+ "fetched": "2026-11-23T03:24:29+00:00"
 }
