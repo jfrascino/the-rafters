@@ -246,10 +246,10 @@
     "short": "Duke",
     "abbr": "DUKE",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-    "rank": 5,
+    "rank": 16,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "T-Mobile Arena",
@@ -264,7 +264,7 @@
    "record": "4-1",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $73",
+    "summary": "Tickets as low as $93",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-t-mobile-arena-11-25-2026--sports-ncaa-basketball/production/6968793?wsUser=717"
    },
    "has": {
@@ -297,7 +297,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "M&T Bank Center at Gampel Pavilion",
@@ -312,7 +312,7 @@
    "record": "4-1",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $10",
+    "summary": "Tickets as low as $9",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-gampel-pavilion-11-30-2026--sports-ncaa-basketball/production/7581915?wsUser=717"
    },
    "has": {
@@ -342,10 +342,10 @@
     "short": "Illinois",
     "abbr": "ILL",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
-    "rank": 10,
+    "rank": 4,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "United Center",
@@ -393,7 +393,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "M&T Bank Center at Gampel Pavilion",
@@ -438,10 +438,10 @@
     "short": "Kansas",
     "abbr": "KU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
-    "rank": 11,
+    "rank": 12,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "M&T Bank Center at Gampel Pavilion",
@@ -489,7 +489,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "PeoplesBank Arena",
@@ -534,10 +534,10 @@
     "short": "Virginia",
     "abbr": "UVA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-    "rank": 4,
+    "rank": 2,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "Madison Square Garden",
@@ -552,7 +552,7 @@
    "record": "4-1",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $124",
+    "summary": "Tickets as low as $113",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-madison-square-garden-12-20-2026--sports-ncaa-basketball/production/7006422?wsUser=717"
    },
    "has": {
@@ -585,7 +585,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "PeoplesBank Arena",
@@ -1161,7 +1161,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "PeoplesBank Arena",
