@@ -528,7 +528,15 @@
   "tv": [
    "Prime Video"
   ],
-  "odds": null
+  "odds": {
+   "provider": "DraftKings",
+   "details": "CONN -2.5",
+   "spread": 2.5,
+   "overUnder": 151.5,
+   "favorite": "away",
+   "homeML": 130,
+   "awayML": -155
+  }
  },
  "coach": [
   {
