@@ -264,7 +264,7 @@
    "record": "4-1",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $93",
+    "summary": "Tickets as low as $87",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-t-mobile-arena-11-25-2026--sports-ncaa-basketball/production/6968793?wsUser=717"
    },
    "has": {
@@ -360,7 +360,7 @@
    "record": "4-1",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $112",
+    "summary": "Tickets as low as $122",
     "url": "https://www.vividseats.com/illinois-fighting-illini-mens-basketball-tickets-united-center-12-14-2026--sports-ncaa-basketball/production/6999257?wsUser=717"
    },
    "has": {
@@ -552,7 +552,7 @@
    "record": "4-1",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $113",
+    "summary": "Tickets as low as $124",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-madison-square-garden-12-20-2026--sports-ncaa-basketball/production/7006422?wsUser=717"
    },
    "has": {
@@ -633,7 +633,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "Hinkle Fieldhouse",
@@ -681,7 +681,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "CHI Health Center Omaha",
@@ -729,7 +729,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "M&T Bank Center at Gampel Pavilion",
@@ -777,7 +777,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "Prudential Center",
@@ -825,7 +825,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "M&T Bank Center at Gampel Pavilion",
@@ -873,7 +873,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "M&T Bank Center at Gampel Pavilion",
@@ -921,7 +921,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "Amica Mutual Pavilion",
@@ -969,7 +969,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "PeoplesBank Arena",
@@ -1017,7 +1017,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "Capital One Arena",
@@ -1065,7 +1065,7 @@
     "rank": 13,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "Madison Square Garden",
@@ -1113,7 +1113,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "PeoplesBank Arena",
@@ -1209,7 +1209,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "Wintrust Arena",
@@ -1257,7 +1257,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "Xfinity Mobile Arena",
@@ -1305,7 +1305,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "M&T Bank Center at Gampel Pavilion",
@@ -1353,7 +1353,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "Fiserv Forum",
@@ -1401,7 +1401,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "M&T Bank Center at Gampel Pavilion",
@@ -1449,7 +1449,7 @@
     "rank": 13,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "PeoplesBank Arena",
@@ -1497,7 +1497,7 @@
     "rank": null,
     "seed": null
    },
-   "uconnRank": 3,
+   "uconnRank": 10,
    "uconnSeed": null,
    "venue": {
     "name": "Cintas Center",
