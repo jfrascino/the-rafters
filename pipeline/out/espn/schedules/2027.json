@@ -235,7 +235,7 @@
    "timeTBD": false,
    "seasonType": 2,
    "status": "in",
-   "statusDetail": "14:17 - 2nd Half",
+   "statusDetail": "8:17 - 2nd Half",
    "homeAway": "home",
    "neutral": true,
    "conferenceGame": false,
@@ -257,8 +257,8 @@
     "state": "NV"
    },
    "broadcast": "Prime Video",
-   "score": 42,
-   "oppScore": 52,
+   "score": 53,
+   "oppScore": 62,
    "result": null,
    "ot": null,
    "record": "4-1",
@@ -549,7 +549,7 @@
    "record": "4-1",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $121",
+    "summary": "Tickets as low as $123",
     "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-madison-square-garden-12-20-2026--sports-ncaa-basketball/production/7006422?wsUser=717"
    },
    "has": {
