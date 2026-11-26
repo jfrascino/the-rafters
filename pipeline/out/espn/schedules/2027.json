@@ -2,7 +2,7 @@
  "season": 2027,
  "label": "2026-27",
  "wins": 4,
- "losses": 1,
+ "losses": 2,
  "games": [
   {
    "id": "401911390",
@@ -171,7 +171,7 @@
    "oppScore": 68,
    "result": "W",
    "ot": 0,
-   "record": "4-1",
+   "record": "4-2",
    "attendance": 15495,
    "tickets": null,
    "has": {
@@ -234,8 +234,8 @@
    "date": "2026-11-26T00:00Z",
    "timeTBD": false,
    "seasonType": 2,
-   "status": "in",
-   "statusDetail": "2:12 - 2nd Half",
+   "status": "final",
+   "statusDetail": "Final",
    "homeAway": "home",
    "neutral": true,
    "conferenceGame": false,
@@ -257,12 +257,12 @@
     "state": "NV"
    },
    "broadcast": "Prime Video",
-   "score": 62,
-   "oppScore": 69,
-   "result": null,
-   "ot": null,
-   "record": "4-1",
-   "attendance": null,
+   "score": 63,
+   "oppScore": 77,
+   "result": "L",
+   "ot": 0,
+   "record": "4-2",
+   "attendance": 8507,
    "tickets": null,
    "has": {
     "box": true,
@@ -306,7 +306,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-1",
+   "record": "4-2",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $5",
@@ -354,10 +354,10 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-1",
+   "record": "4-2",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $154",
+    "summary": "Tickets as low as $155",
     "url": "https://www.vividseats.com/illinois-fighting-illini-mens-basketball-tickets-united-center-12-14-2026--sports-ncaa-basketball/production/6999257?wsUser=717"
    },
    "has": {

@@ -76,18 +76,6 @@
    "streak": "W3"
   },
   {
-   "id": "41",
-   "name": "UConn",
-   "full": "UConn Huskies",
-   "abbr": "CONN",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
-   "conf": "0-0",
-   "overall": "4-1",
-   "seed": "7",
-   "gb": "-",
-   "streak": "L1"
-  },
-  {
    "id": "222",
    "name": "Villanova",
    "full": "Villanova Wildcats",
@@ -95,9 +83,21 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
    "conf": "0-0",
    "overall": "5-2",
-   "seed": "8",
+   "seed": "7",
    "gb": "-",
    "streak": "W2"
+  },
+  {
+   "id": "41",
+   "name": "UConn",
+   "full": "UConn Huskies",
+   "abbr": "CONN",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+   "conf": "0-0",
+   "overall": "4-2",
+   "seed": "8",
+   "gb": "-",
+   "streak": "L2"
   },
   {
    "id": "2507",
@@ -136,5 +136,5 @@
    "streak": "L1"
   }
  ],
- "fetched": "2026-11-26T00:50:48+00:00"
+ "fetched": "2026-11-26T02:36:37+00:00"
 }
