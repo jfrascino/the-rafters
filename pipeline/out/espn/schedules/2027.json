@@ -235,7 +235,7 @@
    "timeTBD": false,
    "seasonType": 2,
    "status": "in",
-   "statusDetail": "5:07 - 1st Half",
+   "statusDetail": "Halftime",
    "homeAway": "home",
    "neutral": true,
    "conferenceGame": false,
@@ -257,8 +257,8 @@
     "state": "NV"
    },
    "broadcast": "Prime Video",
-   "score": 24,
-   "oppScore": 27,
+   "score": 32,
+   "oppScore": 38,
    "result": null,
    "ot": null,
    "record": "4-1",
@@ -1077,7 +1077,7 @@
    "record": "4-1",
    "attendance": null,
    "tickets": {
-    "summary": "Tickets as low as $163",
+    "summary": "Tickets as low as $160",
     "url": "https://www.vividseats.com/st-johns-red-storm-mens-basketball-tickets-madison-square-garden-1-29-2027--sports-ncaa-basketball/production/7546351?wsUser=717"
    },
    "has": {
