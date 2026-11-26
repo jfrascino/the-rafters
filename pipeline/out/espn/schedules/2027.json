@@ -265,7 +265,7 @@
    "attendance": 8507,
    "tickets": null,
    "has": {
-    "box": true,
+    "box": false,
     "lineup": true,
     "plays": true,
     "wp": true,
