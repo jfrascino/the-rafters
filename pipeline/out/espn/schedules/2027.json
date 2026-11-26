@@ -236,7 +236,7 @@
    "seasonType": 2,
    "status": "scheduled",
    "statusDetail": "Wed, November 25th at 7:00 PM EST",
-   "homeAway": "away",
+   "homeAway": "home",
    "neutral": true,
    "conferenceGame": false,
    "note": null,
