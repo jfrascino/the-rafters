@@ -234,8 +234,8 @@
    "date": "2026-11-26T00:00Z",
    "timeTBD": false,
    "seasonType": 2,
-   "status": "scheduled",
-   "statusDetail": "Wed, November 25th at 7:00 PM EST",
+   "status": "in",
+   "statusDetail": "11:57 - 1st Half",
    "homeAway": "home",
    "neutral": true,
    "conferenceGame": false,
@@ -257,23 +257,20 @@
     "state": "NV"
    },
    "broadcast": "Prime Video",
-   "score": null,
-   "oppScore": null,
+   "score": 14,
+   "oppScore": 13,
    "result": null,
    "ot": null,
    "record": "4-1",
    "attendance": null,
-   "tickets": {
-    "summary": "Tickets as low as $105",
-    "url": "https://www.vividseats.com/uconn-huskies-mens-basketball-tickets-t-mobile-arena-11-25-2026--sports-ncaa-basketball/production/6968793?wsUser=717"
-   },
+   "tickets": null,
    "has": {
-    "box": false,
-    "lineup": false,
-    "plays": false,
-    "wp": false,
-    "shots": false,
-    "article": true,
+    "box": true,
+    "lineup": true,
+    "plays": true,
+    "wp": true,
+    "shots": true,
+    "article": false,
     "videos": 0
    }
   },
