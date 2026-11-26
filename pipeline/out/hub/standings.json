@@ -88,18 +88,6 @@
    "streak": "L1"
   },
   {
-   "id": "2507",
-   "name": "Providence",
-   "full": "Providence Friars",
-   "abbr": "PROV",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
-   "conf": "0-0",
-   "overall": "5-2",
-   "seed": "8",
-   "gb": "-",
-   "streak": "L1"
-  },
-  {
    "id": "222",
    "name": "Villanova",
    "full": "Villanova Wildcats",
@@ -107,9 +95,21 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
    "conf": "0-0",
    "overall": "5-2",
-   "seed": "9",
+   "seed": "8",
    "gb": "-",
    "streak": "W2"
+  },
+  {
+   "id": "2507",
+   "name": "Providence",
+   "full": "Providence Friars",
+   "abbr": "PROV",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
+   "conf": "0-0",
+   "overall": "5-3",
+   "seed": "9",
+   "gb": "-",
+   "streak": "L2"
   },
   {
    "id": "2086",
@@ -136,5 +136,5 @@
    "streak": "L1"
   }
  ],
- "fetched": "2026-11-25T23:47:09+00:00"
+ "fetched": "2026-11-26T00:50:48+00:00"
 }
