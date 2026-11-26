@@ -270,7 +270,7 @@
     "plays": true,
     "wp": true,
     "shots": true,
-    "article": false,
+    "article": true,
     "videos": 0
    }
   },
@@ -402,7 +402,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-1",
+   "record": "4-2",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $6",
@@ -1026,7 +1026,7 @@
    "oppScore": null,
    "result": null,
    "ot": null,
-   "record": "4-1",
+   "record": "4-2",
    "attendance": null,
    "tickets": {
     "summary": "Tickets as low as $50",
