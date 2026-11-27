@@ -81,7 +81,7 @@
     "full": null,
     "abbr": "UCLA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-    "now": "6-0"
+    "now": "6-1"
    },
    {
     "rank": 7,
@@ -566,7 +566,7 @@
     "full": null,
     "abbr": "UCLA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-    "now": "6-0"
+    "now": "6-1"
    },
    {
     "rank": 10,
@@ -579,7 +579,7 @@
     "full": null,
     "abbr": "MSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
-    "now": "5-1"
+    "now": "6-1"
    },
    {
     "rank": 11,
@@ -846,5 +846,5 @@
    }
   ]
  },
- "fetched": "2026-11-26T23:12:51+00:00"
+ "fetched": "2026-11-27T01:14:00+00:00"
 }
