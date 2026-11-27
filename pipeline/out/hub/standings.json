@@ -4,18 +4,6 @@
  "phase": 2,
  "rows": [
   {
-   "id": "305",
-   "name": "DePaul",
-   "full": "DePaul Blue Demons",
-   "abbr": "DEP",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/305.png",
-   "conf": "0-0",
-   "overall": "6-0",
-   "seed": "1",
-   "gb": "-",
-   "streak": "W6"
-  },
-  {
    "id": "2599",
    "name": "St. John's",
    "full": "St. John's Red Storm",
@@ -23,9 +11,33 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
    "conf": "0-0",
    "overall": "6-0",
-   "seed": "2",
+   "seed": "1",
    "gb": "-",
    "streak": "W6"
+  },
+  {
+   "id": "156",
+   "name": "Creighton",
+   "full": "Creighton Bluejays",
+   "abbr": "CREI",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
+   "conf": "0-0",
+   "overall": "6-1",
+   "seed": "2",
+   "gb": "-",
+   "streak": "W4"
+  },
+  {
+   "id": "305",
+   "name": "DePaul",
+   "full": "DePaul Blue Demons",
+   "abbr": "DEP",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/305.png",
+   "conf": "0-0",
+   "overall": "6-1",
+   "seed": "3",
+   "gb": "-",
+   "streak": "L1"
   },
   {
    "id": "46",
@@ -35,7 +47,7 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
    "conf": "0-0",
    "overall": "6-1",
-   "seed": "3",
+   "seed": "4",
    "gb": "-",
    "streak": "L1"
   },
@@ -47,7 +59,7 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
    "conf": "0-0",
    "overall": "6-1",
-   "seed": "4",
+   "seed": "5",
    "gb": "-",
    "streak": "W3"
   },
@@ -59,21 +71,9 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png",
    "conf": "0-0",
    "overall": "6-1",
-   "seed": "5",
-   "gb": "-",
-   "streak": "W1"
-  },
-  {
-   "id": "156",
-   "name": "Creighton",
-   "full": "Creighton Bluejays",
-   "abbr": "CREI",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
-   "conf": "0-0",
-   "overall": "5-1",
    "seed": "6",
    "gb": "-",
-   "streak": "W3"
+   "streak": "W1"
   },
   {
    "id": "222",
@@ -136,5 +136,5 @@
    "streak": "L1"
   }
  ],
- "fetched": "2026-11-26T23:12:51+00:00"
+ "fetched": "2026-11-27T03:15:33+00:00"
 }
