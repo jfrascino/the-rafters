@@ -68,7 +68,7 @@
     "full": null,
     "abbr": "TTU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-    "now": "6-1"
+    "now": "7-1"
    },
    {
     "rank": 6,
@@ -120,7 +120,7 @@
     "full": null,
     "abbr": "TENN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
-    "now": "7-0"
+    "now": "7-1"
    },
    {
     "rank": 10,
@@ -527,7 +527,7 @@
     "full": null,
     "abbr": "TTU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-    "now": "6-1"
+    "now": "7-1"
    },
    {
     "rank": 7,
@@ -846,5 +846,5 @@
    }
   ]
  },
- "fetched": "2026-11-28T03:22:45+00:00"
+ "fetched": "2026-11-28T09:24:04+00:00"
 }

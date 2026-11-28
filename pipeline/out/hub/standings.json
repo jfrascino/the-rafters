@@ -4,6 +4,18 @@
  "phase": 2,
  "rows": [
   {
+   "id": "156",
+   "name": "Creighton",
+   "full": "Creighton Bluejays",
+   "abbr": "CREI",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
+   "conf": "0-0",
+   "overall": "7-1",
+   "seed": "1",
+   "gb": "-",
+   "streak": "W5"
+  },
+  {
    "id": "2599",
    "name": "St. John's",
    "full": "St. John's Red Storm",
@@ -11,21 +23,9 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
    "conf": "0-0",
    "overall": "7-1",
-   "seed": "1",
-   "gb": "-",
-   "streak": "W1"
-  },
-  {
-   "id": "156",
-   "name": "Creighton",
-   "full": "Creighton Bluejays",
-   "abbr": "CREI",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
-   "conf": "0-0",
-   "overall": "6-1",
    "seed": "2",
    "gb": "-",
-   "streak": "W4"
+   "streak": "W1"
   },
   {
    "id": "305",
@@ -136,5 +136,5 @@
    "streak": "L2"
   }
  ],
- "fetched": "2026-11-28T03:22:45+00:00"
+ "fetched": "2026-11-28T09:24:04+00:00"
 }
